@@ -184,6 +184,8 @@ class VideoBuilder:
                 )
             ]
 
+        cut_durations = [_positive_number(cut.duration, 'Cut duration') for cut in cuts]
+
         # Resolve all explicit inputs before writing scratch media. Only absence
         # permits procedural fallback; missing supplied files are not absence.
         supplied_clips = {
@@ -221,7 +223,7 @@ class VideoBuilder:
             # 3. Resolve or generate clip for each cut
             clip_inputs: List[str] = []
             for idx, cut in enumerate(cuts):
-                cut_duration = max(0.1, cut.duration)
+                cut_duration = max(0.1, cut_durations[idx])
                 if idx in supplied_clips:
                     clip_inputs.append(supplied_clips[idx])
                 else:
@@ -263,6 +265,20 @@ class VideoBuilder:
                 effects=effects,
                 burn_subtitles=should_burn_subtitles
             )
+            # Each source is allocated only its cut duration. A final -t alone
+            # would let a long first source hide all subsequent scheduled cuts.
+            # Reset each trimmed input clock before normalization and concat.
+            normalized_graph = fg_result.filter_complex
+            trim_filters = []
+            for idx, cut_duration in enumerate(cut_durations):
+                source_label, cut_label = f'[{idx}:v]', f'[v_cut_{idx}]'
+                if source_label not in normalized_graph:
+                    raise RuntimeError('Filter graph is missing a scheduled video input')
+                normalized_graph = normalized_graph.replace(source_label, cut_label, 1)
+                trim_filters.append(
+                    f'{source_label}trim=duration={cut_duration:.9f},'
+                    f'setpts=PTS-STARTPTS{cut_label}')
+            fg_result.filter_complex = ';'.join(trim_filters + [normalized_graph])
 
             # 7. Assemble FFmpeg execution command
             cmd: List[str] = ["ffmpeg", "-y"]

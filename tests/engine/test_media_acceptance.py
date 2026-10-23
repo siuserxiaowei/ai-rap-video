@@ -2,6 +2,7 @@
 import copy
 import os
 from pathlib import Path
+import re
 
 import pytest
 
@@ -249,3 +250,41 @@ def test_real_short_input_is_rejected_without_clobbering_old_output(tmp_path):
         builder.build_video(timeline, output_path=str(output), enable_effects=False)
     assert output.read_bytes() == b'previous output'
     assert not list(tmp_path.glob('.airap_render_*'))
+
+
+@pytest.mark.parametrize('colors', [('red', 'blue'), ('blue', 'red')])
+def test_real_long_sources_are_cut_at_the_timeline_boundary_in_order(tmp_path, colors):
+    builder = VideoBuilder(VideoConfig(width=160, height=90, fps=24, preset='ultrafast', crf=30))
+    sources = []
+    for index, color in enumerate(colors):
+        source = tmp_path / f'source_{index}.mp4'
+        builder.synthetic_gen.generate_clip(str(source), duration=1.5 + index * .25,
+                                            width=160, height=90, fps=24,
+                                            pattern_type='color', color=color)
+        sources.append(source)
+    timeline = Timeline(duration=1)
+    timeline.video_track.cuts = [
+        CutPoint(0, .25, ShotType.CLOSE_UP, source_clip=str(sources[0])),
+        CutPoint(.25, 1, ShotType.MEDIUM, source_clip=str(sources[1])),
+    ]
+    output = tmp_path / 'ordered.mp4'
+    result = builder.build_video(timeline, output_path=str(output), enable_effects=False)
+    assert result.duration_verified and result.duration == pytest.approx(1.0)
+    # Decode all frames and inspect numeric chroma statistics, without creating
+    # screenshots or trusting the command string / total duration alone.
+    decoded = builder.pipeline.run_command([
+        'ffmpeg', '-v', 'error', '-i', str(output), '-an',
+        '-vf', 'signalstats,metadata=mode=print:file=-', '-f', 'null', '-'])
+    frames = []
+    for line in decoded.stdout.splitlines():
+        if line.startswith('frame:'):
+            frames.append({'time': float(re.search(r'pts_time:([0-9.]+)', line).group(1))})
+        elif line.startswith('lavfi.signalstats.UAVG='):
+            frames[-1]['u'] = float(line.split('=', 1)[1])
+        elif line.startswith('lavfi.signalstats.VAVG='):
+            frames[-1]['v'] = float(line.split('=', 1)[1])
+    assert len(frames) == 24
+    assert frames[6]['time'] == pytest.approx(.25)
+    measured_colors = ['red' if f['v'] - f['u'] > 70 else
+                       'blue' if f['u'] - f['v'] > 70 else 'unexpected' for f in frames]
+    assert measured_colors == [colors[0]] * 6 + [colors[1]] * 18
