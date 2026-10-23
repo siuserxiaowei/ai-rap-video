@@ -3,15 +3,20 @@
 import argparse
 import json
 import math
+import os
 from pathlib import Path
+import shutil
 import stat
 import sys
+import unicodedata
 
 from airap.pipeline import RapPipelineOrchestrator, RapVideoGenerationRequest
 from airap.config import ProjectConfig
 
 
 MAX_LYRICS_BYTES = 64 * 1024
+MAX_TOOL_REFERENCE_BYTES = 4096
+MAX_SUBTITLE_FONT_BYTES = 256
 
 
 class CLIInputError(ValueError):
@@ -40,6 +45,12 @@ def _parser():
     preview.add_argument('--aspect', choices=['9:16', '16:9'], default='9:16', help='Aspect ratio')
     preview.add_argument('--output', default='output_rap.mp4', help='Output .mp4 basename; use --output-dir for its directory')
     preview.add_argument('--output-dir', type=Path, default=Path('./output'), help='Local output directory (default: ./output)')
+    preview.add_argument('--ffmpeg', default=None, help='Explicit local FFmpeg executable path or exact PATH command; no fallback')
+    preview.add_argument('--ffprobe', default=None, help='Explicit local FFprobe executable path or exact PATH command; no fallback')
+    preview.add_argument('--subtitle-mode', choices=['auto', 'required', 'off'], default='auto',
+                         help='auto uses available ASS support; required must burn captions; off disables burn-in')
+    preview.add_argument('--subtitle-font', default=None,
+                         help='Requested subtitle font family; this does not prove which font libass resolves')
     preview.add_argument('--json', action='store_true', default=argparse.SUPPRESS,
                          help='Print one machine-readable JSON result')
     version = commands.add_parser('version', help='Show version')
@@ -107,6 +118,37 @@ def _validate_audio(path):
         source.read(1)
 
 
+def _bounded_reference(value, label, limit):
+    if not isinstance(value, str) or not value.strip():
+        raise CLIInputError(label + ' must be nonempty UTF-8 text')
+    try:
+        size = len(value.encode('utf-8'))
+    except UnicodeError:
+        raise CLIInputError(label + ' must be valid UTF-8 text') from None
+    if size > limit or any(unicodedata.category(char) in ('Cc', 'Cf', 'Zl', 'Zp') for char in value):
+        raise CLIInputError(label + ' is too long or contains control characters')
+    return value
+
+
+def _tool_reference(value, label):
+    if value is None:
+        return None
+    reference = _bounded_reference(value, label, MAX_TOOL_REFERENCE_BYTES)
+    # A bare command is resolved only as itself on PATH. An explicit path must
+    # already be executable; neither case falls back to a different binary.
+    resolved = reference if '/' in reference else shutil.which(reference)
+    if not resolved or not Path(resolved).is_file() or not os.access(resolved, os.X_OK):
+        raise CLIInputError(label + ' must reference an executable local file or exact PATH command')
+    return reference
+
+
+def _subtitle_font(value):
+    family = _bounded_reference(value, 'subtitle font', MAX_SUBTITLE_FONT_BYTES)
+    if ',' in family:
+        raise CLIInputError('subtitle font must be one family without commas')
+    return family
+
+
 def _message(value):
     return ''.join(char if char.isprintable() else ' ' for char in str(value))[:512]
 
@@ -138,6 +180,10 @@ def _metadata(result):
         raise ValueError('preview returned an unsupported visual source')
     if 'audio_source' in metadata and metadata['audio_source'] not in ('provided_audio', 'synthetic_beat'):
         raise ValueError('preview returned an unsupported audio source')
+    if 'subtitle_mode' in metadata and metadata['subtitle_mode'] not in ('auto', 'required', 'off'):
+        raise ValueError('preview returned an invalid subtitle mode')
+    if metadata.get('subtitle_font_requested') is not None:
+        _subtitle_font(metadata['subtitle_font_requested'])
     # Validate serialization before any output so --json is one valid document.
     json.dumps(metadata, ensure_ascii=False, allow_nan=False).encode('utf-8')
     return metadata
@@ -160,6 +206,10 @@ def _print_preview(result, metadata):
           + ' | Character image used: ' + _flag(metadata, 'character_image_used'))
     print('   Subtitles burned: ' + _flag(metadata, 'subtitles_burned')
           + ' | Duration verified: ' + _flag(metadata, 'duration_verified'))
+    print('   Subtitle mode requested: ' + str(metadata.get('subtitle_mode', 'unknown')))
+    requested_font = metadata.get('subtitle_font_requested')
+    print('   Subtitle font requested: ' + (requested_font if requested_font is not None else 'unknown')
+          + ' (font resolution not verified)')
     if 'requested_theme' in metadata:
         print('   Requested theme: ' + _message(metadata['requested_theme'])
               + ' | Theme applied: ' + _flag(metadata, 'theme_applied'))
@@ -188,10 +238,21 @@ def main(argv=None):
         lyrics, lyrics_path = _lyrics_input(args)
         _validate_audio(args.audio)
         _validate_output(args, lyrics_path)
+        ffmpeg_path = _tool_reference(args.ffmpeg, 'ffmpeg')
+        ffprobe_path = _tool_reference(args.ffprobe, 'ffprobe')
+        subtitle_font = _subtitle_font(args.subtitle_font) if args.subtitle_font is not None else None
         request = RapVideoGenerationRequest(lyrics_text=lyrics, bpm=args.bpm, theme=args.theme,
                                             audio_path=args.audio, output_filename=args.output,
                                             aspect_ratio=args.aspect)
-        orchestrator = RapPipelineOrchestrator(config=ProjectConfig(output_dir=args.output_dir))
+        # Assign the appended fields after construction to remain compatible
+        # with the preceding ProjectConfig while this iteration is integrated.
+        config = ProjectConfig(output_dir=args.output_dir)
+        config.ffmpeg_path = ffmpeg_path
+        config.ffprobe_path = ffprobe_path
+        config.subtitle_mode = args.subtitle_mode
+        if subtitle_font is not None:
+            config.style.font_name = subtitle_font
+        orchestrator = RapPipelineOrchestrator(config=config)
         result = orchestrator.run(request)
     except (ValueError, OSError) as exc:
         return _error('INVALID_INPUT', exc, json_mode)
@@ -202,6 +263,12 @@ def main(argv=None):
         if result.success is not True:
             reason = metadata.get('error') or 'renderer reported an unsuccessful result'
             return _error('PREVIEW_FAILED', reason, json_mode, metadata)
+        if metadata.get('subtitle_mode', args.subtitle_mode) != args.subtitle_mode:
+            raise ValueError('reported subtitle mode does not match the requested mode')
+        if args.subtitle_mode == 'required' and metadata.get('subtitles_burned') is not True:
+            raise ValueError('required subtitles were not confirmed burned')
+        if args.subtitle_mode == 'off' and metadata.get('subtitles_burned') is not False:
+            raise ValueError('subtitle off mode did not confirm captions were omitted')
         if not isinstance(result.duration_seconds, (float, int)) or isinstance(result.duration_seconds, bool):
             raise ValueError('preview returned invalid duration')
         if not math.isfinite(result.duration_seconds) or result.duration_seconds <= 0:
