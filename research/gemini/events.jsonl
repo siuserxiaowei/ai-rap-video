@@ -1,0 +1,6 @@
+{"job": "G01", "state": "started", "title": "RapVideoGenerator", "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini01", "timestamp": "2026-10-23T15:24:16.908416+00:00"}
+{"job": "G02", "state": "started", "title": "RapVideo.ai", "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini02", "timestamp": "2026-10-23T15:24:16.932229+00:00"}
+{"job": "G01", "state": "accepted", "conversation_id": "55e33d24-9ab9-4855-9203-f96cb8609d82", "elapsed_seconds": 61.8, "timestamp": "2026-10-23T15:25:18.726984+00:00"}
+{"job": "G03", "state": "started", "title": "RapReel", "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini03", "timestamp": "2026-10-23T15:25:18.776043+00:00"}
+{"job": "G02", "state": "accepted", "conversation_id": "24c9a2c1-796c-4472-8bfe-62dd5b33aff9", "elapsed_seconds": 62.32, "timestamp": "2026-10-23T15:25:19.249020+00:00"}
+{"job": "G04", "state": "started", "title": "AIRapVideo", "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini04", "timestamp": "2026-10-23T15:25:19.286302+00:00"}

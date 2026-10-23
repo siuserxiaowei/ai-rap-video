@@ -1,0 +1,24 @@
+{
+  "job": "G01",
+  "title": "RapVideoGenerator",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 61.8,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini01",
+  "result": {
+    "conversation_id": "55e33d24-9ab9-4855-9203-f96cb8609d82",
+    "status": "SUCCESS",
+    "response": "我是独立研究 Agent G01，以下基于 2026-10-23 提供的公开官网文本对 `RapVideoGenerator` 进行独立分析。\n\n> **前置说明**：本次分析仅依据所提供的公开网页数据，未执行实际生成操作与付费行为，所有功能、参数与规则均属于**官网宣称**，不可视为实测验证结果。\n\n---\n\n### 一、3 个有来源的事实（官网宣称）\n\n1. **输入输出格式与多模态规格**\n   * **输入**：支持单人正脸照片（JPG、PNG 或 WebP 格式，严格要求面部清晰）、创意主题或自填歌词、6 种风格节拍选择（Trap、Boom Bap、Drill、Melodic、Lo-fi、Hyperpop）以及最长 500 字符的自定义场景描述。\n   * **输出**：生成 9:16 竖屏 MP4 视频（适用于 TikTok、Reels、Shorts 等短视频平台），时长提供 10 秒或 15 秒，画质覆盖 480p、720p，其中 1080p 仅在高级套餐提供；同时支持纯音频 MP3 下载（时长提供 30 秒、60 秒或 120 秒）。\n   * **来源**：[https://rapvideogenerator.com/](https://rapvideogenerator.com/)\n\n2. **免费体验边界与阶梯定价规则**\n   * **免费边界**：注册赠送 10 个免费点数（无需绑定信用卡，单账号限一次），仅足以制作首支 30 秒包含双版本的纯说唱歌曲（消耗 10 点数）；制作 AI 视频起步需消耗 100 点数，即**免费赠送的点数无法直接生成任何视频**。\n   * **付费梯度**：提供单次点数包（US$9.99 起）及月度/年度订阅计划，包括 Starter（年付折合 US$9.99/月）、Pro（年付折合 US$24.99/月）和 Studio（年付折合 US$49.99/月）。\n   * **来源**：[https://rapvideogenerator.com/](https://rapvideogenerator.com/)\n\n3. **合规审查机制与商用授权分级**\n   * **内容安全**：强制要求肖像授权，自动拦截名人、政客及未满 18 岁人脸照片；上传照片宣称在 30 天内自动清除。\n   * **版权授权**：宣称节拍与人声均为原创算法合成、无外部采样风险；Starter 套餐与单次点数包仅限个人使用（Personal use），商业使用授权（Commercial use license）仅包含在 Pro 及以上订阅中。\n   * **来源**：[https://rapvideogenerator.com/](https://rapvideogenerator.com/)\n\n---\n\n### 二、API 证据核查\n\n* **核对结果**：所提供的页面文本中，未提及任何公开的 API 端点、开发者文档或 SDK 证据。\n* **边界界定**：按照“未知 API 不等于没有 API”的原则，当前证据仅能证明该官网页面定位为面向消费者的 SaaS Web 端工具，尚无直接公开证据证实或否定其底层开放 API 的存在。\n\n---\n\n### 三、1 个待核点\n\n* **待核实事项：视频口型同步（Lip-sync）真实表现与失败自动退点机制的执行透明度**。\n  官网在文案中明确提示“Performance and lip-sync can vary”（表现与口型同步可能存在差异），并声称“生成失败自动退还点数”。在未经真实生成测试的情况下，其实际人脸动画自然度、5–10 分钟排队生成的超时率，以及遇到合成缺陷或瑕疵时退款触发的具体判定标准，仍处于待验证状态。\n\n---\n\n### 四、1 个产品建议\n\n* **建议增设“超短低清带水印试生成”，消除“零元无法体验核心视频功能”的转化断层**：\n  当前产品以“AI Rap Video”为核心卖点，但 10 点免费额度仅能体验纯音频，生成首个视频即需充值（门槛 100 点数 / US$9.99 起）。建议提供一次性 5 秒、480p 且带平台水印的免费视频生成通道，让潜在付费用户在无需提前充值的情况下直观检验口型同步与动效水平，从而提升由免费试用向付费订阅的转化效率。\n",
+    "duration_seconds": 35.624348,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 10868,
+      "output_tokens": 2883,
+      "thinking_tokens": 1841,
+      "cache_read_tokens": 0,
+      "total_tokens": 13751
+    }
+  }
+}

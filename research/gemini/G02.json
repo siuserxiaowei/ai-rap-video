@@ -1,0 +1,24 @@
+{
+  "job": "G02",
+  "title": "RapVideo.ai",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 62.32,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini02",
+  "result": {
+    "conversation_id": "24c9a2c1-796c-4472-8bfe-62dd5b33aff9",
+    "status": "SUCCESS",
+    "response": "作为独立研究 Agent G02，在 2026-10-23 对公开材料进行了专项梳理。**特别声明：本次分析纯基于 [RapVideo.ai 官网公开页面](https://rapvideo.ai/) 文本提取，未实际执行视频生成与付费充值，下列功能、参数与规则均为官网宣称，未经过第三方端到端实测验证。**\n\n---\n\n### 一、产品定位与 AI Rap Video 的关系\n\n[RapVideo.ai](https://rapvideo.ai/) 定位于基于浏览器的轻量级双人（Duo）AI 垂直说唱短视频生成工具，主要切入 TikTok 与 Reels 上流行的“Hotel Lobby / Migos AI”说唱二重唱模因（Memes）。它将双人合照与说唱表演模板深度结合，主打免写提示词（Prompt-free）、免安装 App 与免水印导出。\n\n---\n\n### 二、3 个有来源的事实（官网宣称）\n\n1. **输入与输出规格明确限制在短视频形态**  \n   根据 [RapVideo.ai 首页](https://rapvideo.ai/) 与 [Hotel Lobby AI 说明页](https://rapvideo.ai/hotel-lobby-ai)，输入支持 1-2 张人像照片（单人各一张或双人合照，格式支持 JPG/PNG/WebP/HEIC，单图不小于 300px 且不超过 25MB；左侧人物默认领唱 Lead，右侧人物伴唱 Hype）。输出为 9:16 竖版 MP4 无水印视频，时长通常为 5 至 30 秒（不支持长篇完整 MV）。上传的照片与音频文件宣称在渲染后 7 天自动删除。\n\n2. **区分音频模式并分别调度底层模型**  \n   根据 [RapVideo.ai 首页核心工作流](https://rapvideo.ai/) 与 [关于自己上传音乐的说明](https://rapvideo.ai/hotel-lobby-ai-own-song)，平台提供三种音频方案：\n   - 预设音轨（Hotel Lobby 模板）；\n   - 自定义音频（支持用户上传 2–15 秒的 MP3/WAV/M4A/AAC/OGG 片段，并在浏览器端先行裁剪）；\n   - AI 原创说唱（输入不超过 120 字符的主题词，模型依输入语言生成歌词）。  \n   宣称模型分工明确：预设音轨与自定义音频运行于 Wan 3.0 模型（渲染耗时宣称约 5–15 分钟，支持 480p/720p/1080p）；AI 原创说唱则调度 Seedance 系列模型（Seedance 2.0 Mini、Fast、2.0、2.5，渲染宣称约 5 分钟以内）。\n\n3. **免费额度受限，采用点数与失败自动退还机制**  \n   根据 [RapVideo.ai 定价章节](https://rapvideo.ai/pricing#cost)，平台因需向上游模型商付费，不提供完整免费视频生成；每个 Google 账号仅限在站内试看 1 次 2 秒的 480p 带水印预览。完整视频需点数支付：例如 Wan 3.0 的 12 秒 480p 视频为 6 点数，1080p 为 20 点数；Seedance 消耗区间为 5 至 90 点数。入门点数包为 10 点数 / 9.99 美元（点数永不过期），订阅从每月 29.90 美元 / 100 点数起。若渲染失败、超时或触发安全拦截，系统宣称不扣费并自动退还点数。\n\n---\n\n### 三、1 个待核点（待验证事项）\n\n* **对外开放 API 与企业级接口状态未知**：公开页面中虽明确提及后台调度了第三方模型供应商（Wan 3.0 与 Seedance），并由 Stripe 承接支付，但整站未展示面向开发者的 Public API 文档、Webhook 回调说明或 SDK。不过，“未见对外 API 文档”不等于其不存在私有 API 或 B 端白名单接口，尚待技术抓包实测或联系官方 [Contact 页面](https://rapvideo.ai/contact) 核实其是否有对外集成能力。\n\n---\n\n### 四、1 个产品建议\n\n* **明确模板音轨商用版权风险并强化企业商用豁免方案**：官网公开提示默认模板使用了原始录音且版权归原权利人所有，同时在 [AI 商业宣传片页面](https://rapvideo.ai/ai-promo-video-for-small-business) 拓展了中小商户用例。建议平台在创作界面对“模板商业使用风险”进行强警示隔离，并针对 B 端商用推广场景默认锁定“纯原创 AI 生成（Seedance）”或“授权免版税 Beat 库”，避免用户因二次发布至社交平台引发版权下架或侵权纠纷。\n",
+    "duration_seconds": 31.35503,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 13294,
+      "output_tokens": 2532,
+      "thinking_tokens": 1396,
+      "cache_read_tokens": 0,
+      "total_tokens": 15826
+    }
+  }
+}
