@@ -43,6 +43,9 @@ class ProjectConfig:
     video: VideoConfig = field(default_factory=VideoConfig)
     beat: BeatGridConfig = field(default_factory=BeatGridConfig)
     style: StyleConfig = field(default_factory=StyleConfig)
+    ffmpeg_path: Optional[str] = None
+    ffprobe_path: Optional[str] = None
+    subtitle_mode: str = "auto"
 
     def ensure_output_dir(self) -> Path:
         self.output_dir.mkdir(parents=True, exist_ok=True)
