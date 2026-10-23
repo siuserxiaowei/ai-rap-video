@@ -1,0 +1,11 @@
+{
+  "id": "C21",
+  "agent_task": "c21_revid",
+  "site_id": "21",
+  "name": "Revid",
+  "original_commit": "d6be7d833376b655e939979d5f21a2b5760df16c",
+  "accepted_at": "2026-10-23T15:44:43.821124+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}
