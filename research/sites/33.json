@@ -1,0 +1,96 @@
+{
+  "id": "33",
+  "name": "Luma",
+  "url": "https://lumalabs.ai/",
+  "category": "video",
+  "checked_at": "2026-10-23",
+  "summary": "当前官网定位为跨视频、图像、音频与文本的创意 Agent 平台，展示 Ray 3.2。适合制作 Rap MV 的视觉镜头；价格表虽列音乐生成和对口型，也不能据此认定支持原创 Rap 或一键完成整首 MV。",
+  "inputs": [
+    "文字提示词",
+    "起止帧图片 URL（已读 API 文档要求自备 CDN）",
+    "视频素材（网页价格表列 Video-to-Video；未验证上传流程）"
+  ],
+  "outputs": [
+    "生成视频及视频下载 URL（API）",
+    "图像与音频资产（平台首页定位及价格表列项；未实测）"
+  ],
+  "features": [
+    "官网展示 Ray 3.2，宣称帧级控制、跨镜头连续性与电影质感",
+    "API 文档列文生视频、图生视频、起止关键帧、循环、延长、镜头语言控制及状态回调",
+    "平台价格表另列第三方音乐生成、语音、音效和对口型服务"
+  ],
+  "pricing": {
+    "summary": "按 credits 计量；当前 Ray3.2 的 720p 文生/图生视频标价为 100 credits/5秒、300 credits/10秒，Audio 栏为“-”。第三方 ElevenLabs Music v1 为 98 credits/分钟。订阅美元金额未在读取正文中呈现，不使用旧版 Ray 订阅价格。",
+    "free_tier": "本次正文未确认免费额度、免费导出和水印规则。",
+    "plans": [
+      {
+        "name": "个人计划（正文未显示档位名）",
+        "credits": 10000,
+        "notes": "未读取到金额及计费周期。"
+      },
+      {
+        "name": "个人计划（正文未显示档位名）",
+        "credits": 40000,
+        "notes": "未读取到金额及计费周期。"
+      },
+      {
+        "name": "个人计划（正文未显示档位名）",
+        "credits": 150000,
+        "notes": "未读取到金额及计费周期。"
+      }
+    ],
+    "source_url": "https://lumalabs.ai/pricing"
+  },
+  "api": {
+    "status": "documented",
+    "summary": "官方 Video Generation 文档公开 Bearer key 鉴权及 POST /dream-machine/v1/generations，列 ray-2、ray-flash-2，并演示查询、回调与视频 URL。不能从首页 Ray 3.2 推定其已在该 API 开放；API 价格与音乐/对口型接口未在本次文档中核实。",
+    "url": "https://docs.lumalabs.ai/docs/video-generation"
+  },
+  "limitations": [
+    "未登录、未付款、未调用生成接口，质量与速度均为供应商文案，未实测。",
+    "价格页部分订阅卡片字段未呈现，年付折扣提示不能当作月付金额。",
+    "API 文档与当前网页模型存在版本差异；不能将网页模型、音频或对口型自动等同于已验证的 API 服务。",
+    "原创 Rap 的作词、押韵、演唱及音画自动对齐流程未证实；给视频配音轨与生成原创 Rap 应分别验证。",
+    "API 文档说明延长只支持已完成的生成视频；图片以 CDN URL 输入。"
+  ],
+  "best_for": "已有歌曲或 Rap 音轨、需要生成与修改 MV 视觉镜头的创作者；平台音乐和对口型流程需单独验证。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://lumalabs.ai/",
+      "title": "Luma | AI Agents for Creative Work",
+      "kind": "official",
+      "local_path": "research/evidence/33/home.txt",
+      "supports": [
+        "当前创意 Agent 定位",
+        "Ray 3.2 官网展示"
+      ]
+    },
+    {
+      "url": "https://lumalabs.ai/pricing",
+      "title": "Plans & Pricing | Luma",
+      "kind": "pricing",
+      "local_path": "research/evidence/33/pricing.txt",
+      "supports": [
+        "当前积分计费与 Ray3.2 示例",
+        "第三方音乐、音频及对口型列项",
+        "订阅金额未在读取正文中显示"
+      ]
+    },
+    {
+      "url": "https://docs.lumalabs.ai/docs/video-generation",
+      "title": "Video Generation",
+      "kind": "documentation",
+      "local_path": "research/evidence/33/api-video-generation.txt",
+      "supports": [
+        "API 鉴权、模型参数与视频流程",
+        "图片 CDN 与延长限制",
+        "网页模型不能直接推定 API 可用"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：在 Rap 产品链中，Luma 可作为视觉镜头生成层；歌词、演唱、音轨拼接与节拍对齐仍需逐项验证。",
+    "推断：平台集成音乐与对口型模型可缩短制作链，但仅凭计费表不足以证明端到端 Rap 成片能力。"
+  ]
+}
