@@ -1,0 +1,11 @@
+{
+  "id": "C15",
+  "agent_task": "c15_musicful",
+  "site_id": "15",
+  "name": "Musicful",
+  "original_commit": "d3a73b8",
+  "accepted_at": "2026-10-23T15:37:44.334790+00:00",
+  "evidence_status": "partial",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}

@@ -1,0 +1,11 @@
+{
+  "id": "C16",
+  "agent_task": "c16_pollo",
+  "site_id": "16",
+  "name": "Pollo AI",
+  "original_commit": "c05afc7a14aa30a9d553436abd8bfc249aed3af7",
+  "accepted_at": "2026-10-23T15:38:28.408503+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}

@@ -1,0 +1,11 @@
+{
+  "id": "C12",
+  "agent_task": "c12_airapdotvideo",
+  "site_id": "12",
+  "name": "AI-Rap.Video",
+  "original_commit": "d9a7b161262d55792e46fd93190c30e4d35fa4e2",
+  "accepted_at": "2026-10-23T15:35:46.698594+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}

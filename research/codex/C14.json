@@ -1,0 +1,11 @@
+{
+  "id": "C14",
+  "agent_task": "c14_aituber",
+  "site_id": "14",
+  "name": "AITuber",
+  "original_commit": "3516bbc40514d526558bd6e9e06bfdf4529ed8dc",
+  "accepted_at": "2026-10-23T15:35:31.200643+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}

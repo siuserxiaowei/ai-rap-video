@@ -1,0 +1,11 @@
+{
+  "id": "C13",
+  "agent_task": "c13_airapvideos",
+  "site_id": "13",
+  "name": "AIRapVideos",
+  "original_commit": "7bf2124",
+  "accepted_at": "2026-10-23T15:35:14.164787+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}

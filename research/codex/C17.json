@@ -1,0 +1,11 @@
+{
+  "id": "C17",
+  "agent_task": "c17_goenhance",
+  "site_id": "17",
+  "name": "GoEnhance AI",
+  "original_commit": "62882ed9a2513d9f99cc1f92ebda337741c6e370",
+  "accepted_at": "2026-10-23T15:38:28.531997+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}
