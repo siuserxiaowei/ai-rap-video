@@ -1,0 +1,98 @@
+{
+  "id": "15",
+  "name": "Musicful",
+  "url": "https://www.musicful.ai/",
+  "category": "music_video",
+  "checked_at": "2026-10-23",
+  "summary": "综合音乐创作平台，首页列出 Rap 音频生成入口，同时提供独立 AI 音乐视频工具。视频页可选歌曲、人物、视频概念和片段，支持 Singing、Narrative、Abstract 类型；未实测生成。",
+  "inputs": [
+    "音乐创作：文本、歌词或哼唱；首页列 Rap 为支持风格并提供 AI Rap Generator 入口",
+    "音乐视频：选择歌曲、填写最长5000字符的视频概念，可让AI生成概念",
+    "选择预设人物或上传人物图；界面要求至少512×512像素、最大10MB",
+    "选择歌曲片段与视频设置；页面默认展示5秒、16:9、720P"
+  ],
+  "outputs": [
+    "AI歌曲；Rap属于音乐风格，不能将其直接等同于Rap表演视频",
+    "音乐驱动的视频；官方称按节奏匹配画面，视频页列Rap、Rock、Pop",
+    "API产品页宣称可导出MP3、WAV或MP4歌词视频；未验证实际接口和下载"
+  ],
+  "features": [
+    "歌曲生成与音乐视频作为独立功能入口",
+    "音乐视频类型：Singing、Narrative、Abstract",
+    "人物预设、人物图片上传、视频概念生成及音频片段选择",
+    "另列歌词视频与音乐可视化工具入口"
+  ],
+  "pricing": {
+    "summary": "官网提供免费开始入口并区分免费与付费权益。价格页正文未返回套餐金额与额度；音乐视频默认5秒设置显示28积分，不可外推所有视频价格。",
+    "free_tier": "首页有Start for Free；Free与Basic计划生成歌曲限非商业使用。未核实免费积分、免费音乐视频次数或免费导出限制。",
+    "plans": [
+      {
+        "name": "Free / Basic",
+        "notes": "首页FAQ称生成歌曲仅限非商业使用；金额和额度待核。"
+      },
+      {
+        "name": "Standard / Pro / Perpetual",
+        "notes": "首页FAQ称这些计划生成歌曲允许商业使用；金额、期限与额度待核。"
+      }
+    ],
+    "source_url": "https://www.musicful.ai/pricing/"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "已找到官方AI Music API产品页，宣称REST API及Python、Node.js、Web SDK，并支持文本/歌词/哼唱生成歌曲。所读正文未出现端点、鉴权、可用SDK地址或请求示例，因此公开接口文档本次未找到；不能解读为没有API。未取得音乐视频生成API证据。",
+    "url": "https://www.musicful.ai/api/ai-music/"
+  },
+  "limitations": [
+    "未登录、付款或运行生成；画质、节奏匹配、人物一致性与口型同步效果未验证。",
+    "Singing类型不等于已证实口型同步；页面未明确技术实现。",
+    "价格页可能依赖动态加载；本次抓取未返回实际套餐价格和额度。",
+    "28积分仅为当前样例的默认5秒设置，不可推为统一每秒成本。",
+    "API页是官方能力介绍，未取得可调用文档；MP4歌词视频输出也不能证明存在完整音乐视频API。",
+    "首页商业使用说明不保证著作权保护或登记；此处仅记录供应商计划说明。"
+  ],
+  "best_for": "希望先生成含Rap风格的原创音乐，再通过歌曲、人物和概念制作MV的创作者。",
+  "evidence_status": "partial",
+  "sources": [
+    {
+      "url": "https://www.musicful.ai/",
+      "title": "AI Music Generator & AI Music Video Generator | Musicful",
+      "kind": "official",
+      "local_path": "research/evidence/15/home.txt",
+      "supports": [
+        "文本/歌词/哼唱输入、Rap生成入口、音乐与MV分离、免费开始与计划商用说明"
+      ]
+    },
+    {
+      "url": "https://www.musicful.ai/ai-music-video-maker/",
+      "title": "AI Music Video Generator | Turn Songs into Music Videos Online",
+      "kind": "official",
+      "local_path": "research/evidence/15/music-video.txt",
+      "supports": [
+        "Singing/Narrative/Abstract、人物图要求、概念、片段、默认画幅分辨率与28积分"
+      ]
+    },
+    {
+      "url": "https://www.musicful.ai/pricing/",
+      "title": "Choose the Right AI Music Plan",
+      "kind": "pricing",
+      "local_path": "research/evidence/15/pricing.txt",
+      "supports": [
+        "存在升级与免费积分入口；此次正文未返回实际套餐金额"
+      ]
+    },
+    {
+      "url": "https://www.musicful.ai/api/ai-music/",
+      "title": "Musicful AI Music Generator API",
+      "kind": "official",
+      "local_path": "research/evidence/15/api.txt",
+      "supports": [
+        "官方音乐API产品宣称、REST/SDK描述、MP3/WAV/MP4歌词视频输出；无端点文档"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：先创作歌曲再制作MV的分步流程，比单纯照片套Rap模板更适合原创内容生产。",
+    "推断：视频类型、人物与概念分别设置，为Rap MV提供创作控制，但不能据此认定支持自定义Rap口型同步。",
+    "推断：产品集成可先调查官方音乐API，视频API仍需单独核实。"
+  ]
+}
