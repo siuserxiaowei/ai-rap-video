@@ -1,0 +1,24 @@
+{
+  "job": "G24",
+  "title": "OpenArt",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 104.54,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini24",
+  "result": {
+    "conversation_id": "9c518a47-adee-444c-9fe8-3b4a72f97d9a",
+    "status": "SUCCESS",
+    "response": "作为独立研究 Agent G24，基于 2026-10-23 提供的公开官网材料（[OpenArt 官网](https://openart.ai/)），对 OpenArt 平台与 **AI Rap Video（AI 说唱视频）** 生产链路的关联完成独立分析。本报告严格区分官网宣称与实测，未执行实际模型生成与付款操作，不推定未验证结论。\n\n---\n\n### 一、3 个有来源的客观事实\n\n1. **具备音乐视频自动化对齐与音频/唇形处理能力（官网宣称）**  \n   - **事实内容**：官网提供了专门的 `Music Video` 模块与音频生成方案，宣称可实现“将任意音频音轨自动同步为 AI 音乐视频（Sync AI video to any audio track automatically）”；其音频套件支持 30+ 种语言的唇形同步（Lip-sync）、参考人声克隆（Voice clone）以及环境音轨叠加，音频支持按视频时序导出为 WAV 或 MP3。  \n   - **具体来源 URL**：  \n     - [OpenArt Director Music Video](https://openart.ai/suite/director?quickStart=music-video)  \n     - [OpenArt AI Music Generator](https://openart.ai/features/ai-music-generator/)\n\n2. **支持主角形象跨镜头锁定与多主流视频模型生成（官网宣称）**  \n   - **事实内容**：官网提供角色构建器（`Character Builder`），宣称可通过参考图或文本设定并在资产库中复用，解决跨场景角色面部一致性难题；视频生成模块支持文本/图像输入生成最长 15 秒、最高 4K 分辨率的画面，并聚合了 Veo 3.1、Seedance 2.0、Kling 3.0 Omni、Sora 2 等视频模型。  \n   - **具体来源 URL**：  \n     - [OpenArt Character Builder](https://openart.ai/suite/character)  \n     - [OpenArt Video Generator](https://openart.ai/suite/video)\n\n3. **提供智能体 MCP 与 CLI 接入生态，并支持免费起始体验（官网宣称）**  \n   - **事实内容**：平台针对开发者与自动化 Agent 场景推出了 `OpenArt MCP & CLI` 工具，宣称可将图片和视频生成能力嵌入 Claude、ChatGPT 与 Cursor 等代理环境中；商务定价上提供免费开始入口（“Start for Free” / 免费生成额度）以及付费订阅与企业方案。  \n   - **具体来源 URL**：  \n     - [OpenArt MCP & CLI](https://openart.ai/mcp/)  \n     - [OpenArt Pricing](https://openart.ai/suite/pricing)\n\n---\n\n### 二、1 个待核点\n\n- **待核点：说唱高密口型与重音卡点的实际同步度，以及底层通用 REST API 的开放范围。**  \n  - **说明**：官网明确宣传了“自动同步音轨”与“Lip-sync”，并提供了面向 Agent 的 MCP 与 CLI 工具；但在当前页面数据中，未提供标准公开 RESTful API 计费速率与接口文档，未明确免费层级对音视频时长的具体额度限制。鉴于未进行实际上传生成与付款实测，其宣称的自动同步能否适配 Rap 高速吐字（Flow）与重低音节拍卡点，尚待后续通过实际工程调用验证（未知标准 API 并不等于没有 API，未实测不作定性）。\n\n---\n\n### 三、1 个产品建议\n\n- **产品建议：增加基于伴奏音轨（Stems/Beats）的分轨卡点与分镜时间戳（Timeline）控制功能。**  \n  - **分析与方案**：AI Rap Video 制作的核心难点不仅在于基础口型，更在于镜头切换必须严密咬合鼓点（Kick/Snare）与停顿（Drop）。建议在现有的 `Director` 与 `MCP/CLI` 体系中，引入音频时间轴标记接口，允许用户或下游智能体传入唱词时间戳与分轨节奏标记，自动驱动分镜镜头切换、歌手肢体律动幅度与镜头推拉（Camera Control），以实现工业级 AI Rap 视觉叙事的自动化生成。\n",
+    "duration_seconds": 43.035196,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 16629,
+      "output_tokens": 3395,
+      "thinking_tokens": 2430,
+      "cache_read_tokens": 0,
+      "total_tokens": 20024
+    }
+  }
+}

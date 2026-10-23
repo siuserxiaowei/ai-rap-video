@@ -1,0 +1,24 @@
+{
+  "job": "G20",
+  "title": "BeatViz",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 59.31,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini20",
+  "result": {
+    "conversation_id": "1e6a0bd0-883e-4eb7-87d3-adafb77e3ec5",
+    "status": "SUCCESS",
+    "response": "### 调研报告：BeatViz 网站与 AI Rap Video 业务关联分析\n\n* **报告日期**：2026-10-23\n* **研究代理**：G20（Gemini 独立研究 Agent）\n* **信息源**：公开网页数据 [BeatViz 官网](https://beatviz.ai/)（注：本报告仅基于该单一页面公开数据分析，未执行实际模型生成与付费流程，不包含实测性能数据）。\n\n---\n\n#### 一、业务属性与功能边界核对\n\n1. **与 AI Rap Video 的关系**：\n   官网宣称其核心定位为 AI 音乐视频生成器（AI Music Video Generator），并展示了对说唱音乐人（如 Aspiring Rapper、Hip-Hop Beatmaker）的覆盖场景，支持说唱伴奏/音频一键生成 YouTube 视觉短片与多比例音乐录影带。\n2. **输入与输出**：\n   * **输入**：支持上传音频音轨（Track）；支持纯文本提示词（Text Prompt）；支持静态图像或通过聊天模式（Chat）描述镜头画面。\n   * **输出**：生成同步 HD 视频；支持 9:16 竖屏及 16:9 横屏定制；若用户无音频输入，宣称可由 AI Agent 自动生成背景音乐、音效与对话。底层宣称聚合了 Veo、Luma、Kling、Pika 等主流视频模型。\n3. **定价与免费边界（官网宣称）**：\n   官网提及提供用于测试核心功能与生成速度的免费层（Free Tier）或免费试用（Free Trial），试用生成视频可能包含临时水印；付费订阅提供去水印视频及完整的商业使用/变现权限，具体阶梯价格页面需另行查阅。\n4. **API 证据与平台限制**：\n   本页面**未出现任何面向开发者的公开 REST API、SDK 或 Webhook 对接文档证据**（未提及不代表官方不存在私网或企业 API，仅表明当前页面未披露）。此外，页面未披露单次视频时长上限、算力消耗配额及对快节奏 Rap 歌词的端到端口型同步（Lip Sync）精细控制方案。\n\n---\n\n#### 二、3 个有来源的事实\n\n1. **支持双模式输入与底层多模型聚合（官网宣称）**  \n   *事实*：BeatViz 允许用户上传音频由 AI 提取 BPM/节拍生成毫秒级对齐视频；若无音频，系统可根据文本自动生成画面、音效与音乐；同时支持调用 Veo、Luma、Kling 等不同 AI 视频生成模型。  \n   *来源*：[https://beatviz.ai/](https://beatviz.ai/)\n2. **商用版权与去水印权益绑定付费层（官网宣称）**  \n   *事实*：BeatViz 明确划分了免费与付费界限：免费试用生成的视频可能带有临时水印；通过付费订阅生成的视频免除水印，并附带用于 YouTube 等平台推广与变现的完整商业使用权。  \n   *来源*：[https://beatviz.ai/](https://beatviz.ai/)\n3. **明确面向说唱与嘻哈音乐创作者场景推广（官网宣称）**  \n   *事实*：官方案例与用户评价专区收录了说唱从业者（如 Hip-Hop Producer / Beatmaker 与 Aspiring Rapper）的应用反馈，将其列为发布 YouTube Visualizer 及说唱音轨视觉化的工具。  \n   *来源*：[https://beatviz.ai/](https://beatviz.ai/)\n\n---\n\n#### 三、1 个待核点（待实测/待求证）\n\n* **待核点：对复杂 Rap 语速的口型匹配（Lip Sync）与角色一致性真实支持能力。**  \n  *说明*：官网博客标题提到了带口型同步（Lip Sync）与角色一致性（Character Consistency）的 MV 生成，但在核心主界面功能中主要强调的是“音频节奏/BPM 节拍同步”（Beat Sync）。由于未实际执行生成测试，且当前页面未披露是否具备针对说唱快语速的面部驱动与角色锁定管线，该能力是否为原生支持或需第三方工具拼装仍待核实。\n\n---\n\n#### 四、1 个产品建议\n\n* **建议：针对 AI Rap 场景补齐“人声分轨解析 + 歌词时间戳自动对齐”能力。**  \n  *理由*：说唱视频（Rap MV）高度依赖节奏重拍与押韵点的视觉切镜，单纯依赖全局伴奏 BPM 容易出现镜头切换与人声押韵错位。建议在音视频管线中增加人声与伴奏自动分离（Stem Separation）及 LRC/Whisper 时间戳映射，使画面能精准响应 Verse 切分、Hook 爆发与特定词句的视觉特效。\n",
+    "duration_seconds": 23.639426,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 11300,
+      "output_tokens": 2134,
+      "thinking_tokens": 1035,
+      "cache_read_tokens": 0,
+      "total_tokens": 13434
+    }
+  }
+}

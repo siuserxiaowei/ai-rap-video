@@ -1,0 +1,24 @@
+{
+  "job": "G40",
+  "title": "Rotor Videos",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 107.32,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini40",
+  "result": {
+    "conversation_id": "5d8f7090-42a3-4ae5-8c43-e2782d85d343",
+    "status": "SUCCESS",
+    "response": "**研究报告：Rotor Videos 与 AI Rap Video 适用性分析**  \n**研究 Agent**：G40 ⏐ **评估日期**：2026-10-23  \n\n---\n\n### 一、产品定位与 AI Rap Video 关联核对\n\n根据官网公开材料，Rotor Videos 定位为面向音乐人与创作者的音乐营销视频制作基础设施。在 AI Rap Video 制作场景中，它扮演的是**“音频节拍驱动的素材剪辑与视觉包装引擎”**，而非从零生成具象画面的文生视频（Text-to-Video）扩散模型。\n\n- **输入/输出**：输入为用户音乐（音频）与选择的视频片段；输出为匹配节奏、带动态滤镜的宣发短视频或长视频，适配 Spotify Canvas、社交平台及 YouTube 等。\n- **功能特性**：核心在于音乐节奏分析、1,700 万+ 库存视频检索、150+ 音频响应（Audio-reactive）特效（如 Glitch、VHS）及快速排版。\n- **定价与 API 边界**：官网表明素材费用包含在视频下载价格中（按下载计费机制）。公开首页材料未出现 API 接口或开发者文档信息；根据审慎原则，未知 API 不等于没有 API，需进一步排查开发者通道。\n- **实测声明**：本次评估仅基于公开网页数据审查，**未实际执行生成、导出渲染或绑定账户付款**，不代表实际转码效率与画质实测数据。\n\n---\n\n### 二、3 个有来源的事实\n\n1. **节拍分析与自动化剪辑**：官网宣称其引擎可分析用户上传的音乐并结合所选素材，在数分钟内自动生成专业质量的定制剪辑视频（来源：[https://rotorvideos.com/](https://rotorvideos.com/)）。\n2. **库存素材打包交付**：平台内置超过 1,700 万条免版税库存视频片段（Stock footage），官方明确宣称所有素材成本均已包含在下载价格中，无需额外单独采买素材（来源：[https://rotorvideos.com/](https://rotorvideos.com/)）。\n3. **音频响应特效与流媒体适配**：平台提供 150 多种视频风格（如 VHS Vision、Glitch、Retro）和滤镜，具备音频响应视觉特效，并提供专用于社交平台宣传与 Spotify Canvas 的预设裁剪工具（来源：[https://rotorvideos.com/](https://rotorvideos.com/)）。\n\n---\n\n### 三、1 个待核点\n\n- **免费边界与具体定价梯队**：首页仅提及“all included in the price of a download”，并未披露未付费用户是否允许低清带水印预览导出、具体单次下载费用、以及是否存在针对音乐厂牌或高频创作者的月度/年度订阅方案。\n\n---\n\n### 四、1 个产品建议\n\n- **引入“歌词语义+重拍（BPM/808）”混合驱动管线**：针对 Rap 音乐对重低音与叙事语境的双重依赖，建议在当前单纯依靠音频信号反应的基础上，接入 Rap 歌词时间戳与语义解析模块，将词义意象与视频片段标签智能匹配，使自动混剪既有鼓点卡点，又具备与 Rap 文本呼应的叙事画面。\n",
+    "duration_seconds": 26.203003,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 8791,
+      "output_tokens": 2682,
+      "thinking_tokens": 1933,
+      "cache_read_tokens": 0,
+      "total_tokens": 11473
+    }
+  }
+}

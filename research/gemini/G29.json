@@ -1,0 +1,24 @@
+{
+  "job": "G29",
+  "title": "Runway",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 64.8,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini29",
+  "result": {
+    "conversation_id": "6cae25e9-1889-4ccf-9d65-8b16a2856468",
+    "status": "SUCCESS",
+    "response": "本报告由独立 Gemini 研究 Agent G29 针对 Runway 官网材料（抓取时间基准：2026-10-23）生成。分析仅基于用户提供的公开网页文本数据，未调用外部工具、未读取本地文件。本次未执行实际生成或付费操作，故所有功能与指标均明确标注为**官网宣称**，不做未经实测的性能结论。\n\n---\n\n### 一、Runway 与 AI Rap Video 的关系分析\n\nAI Rap Video 制作的核心诉求包括：节奏驱动的画面生成、音画/对口型（Lip-sync）同步、角色一致性以及流水线式批量渲染。\n\n从官网材料看，Runway 将自身定位于“构建真实世界智能（Real-World Intelligence）”的平台，拆分为面向终端用户的 **Runway Creative** 与面向开发者的 **Runway Dev**：\n- **输入与输出**：宣称支持视频、图像与音频的全流程生成与编辑（如最新宣称的 Gen-4.5 视频模型、Characters 角色工具与 Agent 交互）。\n- **音频/视频能力**：具备多模态生产工具，理论上可承载 AI Rap Video 从视觉分镜、角色表演到音视频拼接的环节；但主页未展示音频律动同步或对口型的具体底层技术参数。\n- **自动化集成**：提供独立 API 平台，为 AI Rap Video 的程序化批量产出提供了工程化通道。\n\n---\n\n### 二、3 个有来源的事实\n\n1. **宣称支持图像、视频与音频的一体化工作区及下一代视频模型**  \n   官网宣称其 Runway Creative 是“端到端云端创意套件”，可在同一工作区内生成和编辑视频、图像与音频，并推出了以高动态质感与提示词遵循为特性的 Gen-4.5 视频模型，同时包含 Characters 等工具链。  \n   *来源 URL*：[https://runwayml.com/product](https://runwayml.com/product)；[https://runwayml.com/research/introducing-runway-gen-4.5](https://runwayml.com/research/introducing-runway-gen-4.5)\n\n2. **具备明确的开发者 API 接入平台（Runway Dev）**  \n   官网主页明确设有“Runway Dev”版块，定位于为开发者提供调用 Runway 及其他实验室模型的 API 媒体平台，并提供专门的文档与获取 API Key 的入口。  \n   *来源 URL*：[https://dev.runwayml.com/](https://dev.runwayml.com/)；[https://docs.dev.runwayml.com/](https://docs.dev.runwayml.com/)\n\n3. **提供免费试用入口并划分企业/分级定价**  \n   官网标明“Try free, cancel anytime”以及“Try Runway for free”引导注册，并设有独立定价页面与企业限时权益（如签约赠送 2 个月使用期等）。  \n   *来源 URL*：[https://app.runwayml.com/](https://app.runwayml.com/)；[https://runwayml.com/pricing](https://runwayml.com/pricing)\n\n---\n\n### 三、1 个待核点\n\n- **音画同步与 Rap 歌词对口型（Lip-sync）/音频驱动能力的实装边界**：  \n  官网材料仅概括提及在同一工作区支持“video, images and audio”以及 Characters/Act-Two 概念，但由于本研究仅基于首页文本且未执行生成测试，Runway 是否支持由说唱音频音轨直接驱动面部口型、是否支持 BPM 节拍点事件触发画面转场，以及免费试用额度是否包含 API 级别的音视频生成调用，仍需通过实际登录或查阅子文档接口核对，未见具体说明不可直接假设具备或不具备。\n\n---\n\n### 四、1 个产品建议\n\n- **依托 Runway Dev API 构建“说唱音频驱动的分镜渲染流水线”**：  \n  在 AI Rap Video 制作链路中，建议将编曲/人声作为上游输入，通过节奏检测切分时间戳分镜，再通过 [Runway Dev](https://dev.runwayml.com/) 的 API 将 Prompt 与 Characters 角色资产分发至 Gen-4.5 进行批量异步渲染。对于需要精准咬字对口型的段落，建议保持模块化解耦设计，先以 API 验证其对口型工具（如 Act-Two/Characters）的控制精度，若表现不足则保留挂接专用 Lip-sync 模型的备选接口。\n",
+    "duration_seconds": 34.324355,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 15687,
+      "output_tokens": 2551,
+      "thinking_tokens": 1509,
+      "cache_read_tokens": 0,
+      "total_tokens": 18238
+    }
+  }
+}

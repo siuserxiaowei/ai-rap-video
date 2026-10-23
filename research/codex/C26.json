@@ -1,0 +1,11 @@
+{
+  "id": "C26",
+  "agent_task": "c26_hedra",
+  "site_id": "26",
+  "name": "Hedra",
+  "original_commit": "f90a06b7a1b33d2e5066f133abd7a45196020e9a",
+  "accepted_at": "2026-10-23T15:47:18.906733+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}

@@ -1,0 +1,24 @@
+{
+  "job": "G26",
+  "title": "Hedra",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 56.1,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini26",
+  "result": {
+    "conversation_id": "659c1c49-83ec-48be-aa17-debf19168d55",
+    "status": "SUCCESS",
+    "response": "本报告基于 Hedra 官网（[https://www.hedra.com/](https://www.hedra.com/)）公开网页材料进行独立分析。以下内容严格区分官网宣称与未经测试项，未执行实际调用或付款，不代表实测性能。\n\n---\n\n### 与 AI Rap Video 的关系及功能核对\n\n在 AI Rap Video（AI 说唱视频）制作流程中，核心环节通常包括音频驱动的虚拟人说唱、画面节拍对齐与多模态视频扩散生成。根据本次读取的官网材料：\n1. **定位与功能演变**：Hedra 当前主页未直接呈现早期的消费级角色口型驱动（Talking-head）交互界面，而是明确重塑为面向企业与开发者的“视觉推理模型与基础设施（Visual Inference Models and Infrastructure）”，重点推介针对扩散与视频生成的多模态加速引擎。\n2. **输入输出与模态**：官网宣称支持“扩散、视频与世界模型（diffusion, video, and world models）”，重点优化跨帧注意力与图像编解码；当前页面未披露具体的音视频输入格式规范，亦未提及音频处理与口型同步模块。\n3. **定价与 API 证据**：页面未列出公开价格表或免费试用额度；页面底部提供了直接指向开发者入口的链接（v3 快速入门文档），证实存在 API/SDK 服务体系。\n\n---\n\n### 3 个有来源的事实\n\n1. **底层引擎聚焦多模态与视频模型生成优化**：Hedra 官网宣称其推出的“World Model Runtime (WMR)”是专为多模态训练与推理构建的引擎，针对扩散、视频与世界模型优化了跨帧注意力机制、图像编解码及每一步去噪调度。  \n   *来源：[https://www.hedra.com/](https://www.hedra.com/)*\n2. **存在面向开发者的系统化 API 入口**：Hedra 官网提供了开发者文档引导，明确包含开发者快速入门链接。  \n   *来源：[https://www.hedra.com/docs/pages/developer/v3/quickstart](https://www.hedra.com/docs/pages/developer/v3/quickstart)*\n3. **提供模型定制与托管推理双重服务**：Hedra 宣称提供“Model Factory”（研究员驻场定制训练模型）与“Production Inference”（通过模型蒸馏与推理优化在其基础设施上托管运行客户模型）两套服务形态。  \n   *来源：[https://www.hedra.com/training](https://www.hedra.com/training) 及 [https://www.hedra.com/inference](https://www.hedra.com/inference)*\n\n---\n\n### 1 个待核点\n\n* **说唱视频关键能力（音频口型对齐/角色生成）的 API 保留情况与计费边界未知**：官网首页未展示终端音视频生成产品形态及免费/收费边界。需进一步核查其 v3 开发者文档，确认其是否仍包含可直接接收说唱音频与角色图像并输出口型同步视频的高级端点，还是已全面转向纯底层视频扩散模型推理加速。\n\n---\n\n### 1 个产品建议\n\n* **建议采取“双轨解耦”技术选型方案**：若 AI Rap Video 项目寻求开箱即用的“音频驱动角色唱词”效果，切忌盲目依赖其首页推介的 WMR 基础设施服务；建议技术团队优先查阅其 v3 API 文档核实端点能力。若其仅提供底层视频扩散模型托管与加速，建议将 Hedra 仅作为自研视频扩散模型的高吞吐推理底座，而将音频节拍提取与说唱口型同步逻辑交由专门的多模态算法管线处理。\n",
+    "duration_seconds": 34.784944,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 8490,
+      "output_tokens": 2902,
+      "thinking_tokens": 2066,
+      "cache_read_tokens": 0,
+      "total_tokens": 11392
+    }
+  }
+}

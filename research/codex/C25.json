@@ -1,0 +1,11 @@
+{
+  "id": "C25",
+  "agent_task": "c25_domoai",
+  "site_id": "25",
+  "name": "DomoAI",
+  "original_commit": "3cdd24470939d7022a996c1782a3373798a945c8",
+  "accepted_at": "2026-10-23T15:48:01.052992+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}

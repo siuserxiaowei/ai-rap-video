@@ -1,0 +1,11 @@
+{
+  "attempted_jobs": 50,
+  "accepted": 50,
+  "unique_conversations": 50,
+  "failed": [],
+  "audit_timestamp": "2026-10-23T15:49:17.022946+00:00",
+  "all_unique": true,
+  "all_worktrees_reclaimed": true,
+  "model": "gemini-3.8-flash-medium",
+  "method": "Independent Gemini headless sessions via authenticated Antigravity CLI; public shared evidence corpus; no paid generation or private user data."
+}

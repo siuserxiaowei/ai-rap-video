@@ -1,0 +1,24 @@
+{
+  "job": "G28",
+  "title": "Sync",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 70.02,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini28",
+  "result": {
+    "conversation_id": "54ec0116-250d-47df-994f-6a80ca18372f",
+    "status": "SUCCESS",
+    "response": "### 调研说明（Agent G28 / 日期：2026-10-23）\n\n本报告由独立研究 Agent G28 基于提供的 [https://sync.so/](https://sync.so/) 官网公开材料进行独立梳理。\n**声明**：本次评估未执行实际在线视频生成，亦未进行付费充值或 API 调用验证；所有功能描述均基于官网公开披露信息，非实测测试结论。\n\n---\n\n### 一、与 AI Rap Video 的关系及功能核对\n\n在 AI Rap Video 制作管线中，核心难点在于**超高语速口型匹配（Rap Flow 对齐）**、**运镜晃动时的面部跟踪**以及**批量自动化生成**：\n\n1. **输入与输出**：\n   - **输入**：视频素材（支持常规视频与影视级 4K ProRes）+ 音频源（支持自主克隆、生成或截取原片段音频）。\n   - **输出**：口型与指定音频同步后的完整视频，包含专有水印防伪标记。\n2. **场景契合度（官网宣称）**：\n   - 官方明确标榜支持“rapid dialogue”（极速对话/连珠炮式语速）、“fast camera movements”（快速运镜晃动）、“objects blocking the face”（手势或麦克风等遮挡面部）以及“multiple faces/camera angles”，这些特性与说唱 MV 高频出现的复杂运镜与快节奏高度匹配。\n3. **管线集成**：\n   - 支持 API 及本地工作流（ComfyUI 节点、Adobe Premiere 插件），符合现代 AI 视频自动化批量流水线的构建需求。\n\n---\n\n### 二、3 个有来源的事实\n\n1. **宣称支持应对高难度极速语速与复杂镜头场景**  \n   官网明确列出该模型（包含最新 `sync-3`）支持“rapid dialogue”（快速语速对话）、“fast camera movements”（快速镜头移动）、“objects blocking the face”（面部遮挡物）以及“4K ProRes”高画质处理。  \n   *来源*：[https://sync.so/](https://sync.so/)\n2. **具备明确的开发者 API 与制作工具插件管线**  \n   官网提供了完整的集成接入证据，包括官方 API 文档（[https://sync.so/docs/introduction](https://sync.so/docs/introduction)）、ComfyUI 拓展节点（[https://sync.so/docs/plugins-and-extensions/comfy-ui](https://sync.so/docs/plugins-and-extensions/comfy-ui)）及 Adobe Premiere 剪辑插件（[https://sync.so/docs/plugins-and-extensions/adobe-premiere/installation-guide](https://sync.so/docs/plugins-and-extensions/adobe-premiere/installation-guide)）。\n3. **内置专有水印鉴伪技术与多模型版本支持**  \n   官网提供基于自研水印技术的真伪核查入口（“proprietary watermarking technology”），并在底层部署了包含 `sync-3`、`lipsync-2-pro` 及 `react-1` 等在内的分级模型矩阵。  \n   *来源*：[https://sync.so/](https://sync.so/)、[https://sync.so/sync-3](https://sync.so/sync-3)\n\n---\n\n### 三、1 个待核点\n\n* **定价规则、免费额度边界及极端 Rap Flow 口型泛化能力待核实**：  \n  提供的材料中仅给出了 [`pricing`](https://sync.so/pricing) 与 [`try now`](https://sync.so/try) 的外链，并未在主页披露具体免费额度（如赠送秒数、分辨率限制）、商业授权门槛及算力扣费模型；此外，“rapid dialogue”对说唱中连音、切分音等超高密度的口型同步表现尚未实测，需后续结合实际音频样本生成验证。\n\n---\n\n### 四、1 个产品建议\n\n* **构建面向音乐与说唱场景的“节拍感知微表情预设（Beat & Flow Preset）”**：  \n  利用其现有的 API 与 ComfyUI 节点支持，在接入 Rap 音频时增加对鼓点（BPM/瞬态）与齿音发音特征的对齐权重，解决高速念词时下唇动作容易“粘连”或与节奏脱拍的问题，并为说唱 MV 常见的头部跟随节奏晃动提供专属的面部边缘稳定滤镜。\n",
+    "duration_seconds": 32.477939,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 9080,
+      "output_tokens": 2785,
+      "thinking_tokens": 1764,
+      "cache_read_tokens": 0,
+      "total_tokens": 11865
+    }
+  }
+}

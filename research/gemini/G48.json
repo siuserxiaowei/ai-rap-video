@@ -1,0 +1,24 @@
+{
+  "job": "G48",
+  "title": "异步任务与供应商适配架构",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 106.94,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini48",
+  "result": {
+    "conversation_id": "cdc7242d-1227-4a7b-b411-4fa06ad640f6",
+    "status": "SUCCESS",
+    "response": "### 独立研究审查：异步任务与供应商适配架构\n\n**研究员**：Gemini G48  \n**日期**：2026-10-23  \n**数据范围**：仅限提供的 5 家公开页面文本数据，未进行实际调用或付费验证。\n\n---\n\n#### 一、 证据支持的结论（官网宣称）\n\n1. **多供应商接入与适配层标准化需求**：\n   - 各平台能力与调用方式异构显著：DomoAI 宣称提供对外“API Documentation”与“API Platform”（来源：https://domoai.app/ ）；Hedra 宣称提供面向开发者的 API 与文档（来源：https://www.hedra.com/ ）；OpenArt 宣称提供“OpenArt MCP & CLI”以供 Agent 内集成图像与视频生成（来源：https://openart.ai/ ）。\n   - 这表明在应用层架构中，需要通过适配器模式（Adapter Pattern）统一各供应商的鉴权、入参映射（如文本提示、参考图、音频）与任务提交流程。\n\n2. **异步长耗时作业与底层调度特征**：\n   - 视频/多模态生成耗时较长，对后端基础设施冲击大。Hedra 宣称其 World Model Runtime（WMR）具备“Step-aware scheduling”（围绕生成步与去噪协调批处理与缓存）（来源：https://www.hedra.com/ ），说明供应商底层处理高度异步化，适配架构必须设计任务队列与状态追踪机制。\n   - HeyGen 宣称“Type your idea. Click generate. Get a share-ready video”（来源：https://www.heygen.com/ ），属于典型的非阻塞异步生成形态。\n\n---\n\n#### 二、 反例与架构缺口（Gaps & Non-claims）\n\n1. **异步回传机制未知（缺口）**：\n   - 材料虽提及 DomoAI 和 Hedra 有 API 文档链接，但未展示具体的接口契约（未知 API 规格不等于没有 API）。目前无法证实各家是支持 Webhook 主动通知还是仅支持轮询（Polling），适配器必须同时预留轮询与回调双通道。\n2. **前后端职责分工差异（反例）**：\n   - Banger.show 的宣称集中在 2D/3D 场景、Sketchfab 模型拖拽、WASD 漫游与音频频谱/着色器（来源：https://banger.show/ ），更偏向客户端 WebGL 实时交互渲染，材料中无云端异步渲染 API 证据，不可直接当作后端异步生成供应商接入。\n3. **样本外与空数据限制**：\n   - Kaiber 页面材料仅包含合作客户与 Logo 列表（来源：https://kaiber.ai/ ），属于未抓取到产品功能与 API 的不完整页面，不得判定其具备或不具备特定架构能力。\n   - 所有“快速生成”、“高质”等指标均为官网宣传文案，未执行付费与生成实测，不可计入 SLA 实测指标。\n\n---\n\n#### 三、 可验收开发任务（Backlog）\n\n1. **`TASK-01`：统一异步任务抽象与状态机实现**\n   - **内容**：建立 `TaskStatus` 状态机（`PENDING`, `SUBMITTED`, `PROCESSING`, `COMPLETED`, `FAILED`）。\n   - **验收标准**：定义统一 `VideoTaskRequest` 与 `VideoTaskResponse` 结构；支持轮询 Worker 与 Webhook Receiver 解耦，超时与重试参数可配置。\n2. **`TASK-02`：多供应商适配器（Vendor Adapters）开发**\n   - **内容**：实现基于接口 `IVendorAdapter` 的具体适配类（如针对声明开放 API 的平台）。\n   - **验收标准**：入参（Prompt、音频、比例）完成标准化映射；将供应商特有 Job ID 与系统 Task ID 绑定；mock 测试在网络超时、速率限制（Rate Limit）下的降级重试。\n3. **`TASK-03`：能力路由与降级熔断机制**\n   - **内容**：依据任务类型（如音画同步、Avatar 生成、风格迁移）动态路由至可用供应商。\n   - **验收标准**：当单一供应商接口连续失败达阈值时，自动触发熔断并切换至备份渠道，生成完整的审计与计费日志。\n",
+    "duration_seconds": 32.371716,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 16598,
+      "output_tokens": 2910,
+      "thinking_tokens": 1924,
+      "cache_read_tokens": 0,
+      "total_tokens": 19508
+    }
+  }
+}

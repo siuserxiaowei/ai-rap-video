@@ -1,0 +1,24 @@
+{
+  "job": "G38",
+  "title": "InVideo",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 51.43,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini38",
+  "result": {
+    "conversation_id": "c6ea7737-3638-4d42-98d6-1543e07a97b9",
+    "status": "SUCCESS",
+    "response": "作为独立研究 Agent G38，针对日期 2026-10-23 对 InVideo 官网公开材料进行分析，评估其与 AI Rap Video 生产流程的关联度如下：\n\n---\n\n### 一、3 个有来源的事实\n\n1. **宣称支持基于 Agent 的全流程音视频编辑与多模态分工**  \n   根据官网材料（来源：[https://invideo.io/](https://invideo.io/)），InVideo 定位于面向创作者的 Agent 化视频编辑器（Agentic video editor），宣称支持通过剧本编写（Script writing）、分镜设计（Storyboarding）将想法转化为镜头计划，并提供类似专业软件的时间线编辑器（Timeline editor）与色彩、音频、3D 工具。同时宣称支持连接外部 Agent（如 Grok 进行背景音乐闪避 Ducking、Gemini 生成字幕）及构建自定义音乐设计 Agent（music designer）。*(注：此为官网功能宣称，本次仅分析页面材料，未进行实际工程调用或实测生成)*\n\n2. **采用积分制与阶梯化生成模型（含视频与图像生成）**  \n   根据官网定价信息（来源：[https://invideo.io/](https://invideo.io/)），InVideo 提供 Starter（400 点/月、15 个 Seedance 2 fast 视频）、Plus（2,000 点/月、52 个视频、开放 Seedance 2.5 1080p 及 2.0 4K）和 Max（5,000 点/月、131 个视频）等付费梯队，支持 Nano Banana 图像生成与 Seedance 视频生成模型。页面未见免费导出边界明细，年付方案宣称赠送特定模型 30 天无限使用。*(注：未执行付款与充值验证)*\n\n3. **支持多席位实时协作与资产管理**  \n   根据官网功能说明（来源：[https://invideo.io/](https://invideo.io/)），平台支持带实时光标的多人协作模式（Multiplayer mode），各方案依梯队提供 100 至 500 份 Premium 素材库授权及 200 GB 至 2,000 GB 云端存储空间，满足团队协同制作中素材归档与分工剪辑的需求。\n\n---\n\n### 二、1 个待核点\n\n* **开发者 API 开放程度及 AI Rap 原生音画对齐（Lip-sync）能力未知**  \n  页面虽宣称“Bring your own agents”并提供 remote-agents 链接，但当前公开文本未列出可供编程式调用的开发者 REST API、Webhook 或 SDK 规范（未知 API 不等于没有 API）；此外，页面仅列举了背景音乐闪避与分镜，未提及是否支持原生 Rap 人声生成、节拍卡点检测或高精度说唱对口型功能，全自动化 Rap MV 生产闭环的可行性仍待实操核验。\n\n---\n\n### 三、1 个产品建议\n\n* **定位为“后道分镜装配与混音平台”，采取分段解耦集成策略**  \n  鉴于 InVideo 强于分镜编排（Storyboarding）、多轨时间线（Timeline）与字幕配音整合，建议在 AI Rap 制作管线中不依赖其作为首道音频发生器，而是将外部已完成的 Rap 音轨与歌词导入，利用其分镜与视频生成能力输出 B-Roll 画面，再借助其音频工具（Audio tools）完成人声与伴奏避让、字幕压制与成片输出。\n",
+    "duration_seconds": 24.99602,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 10443,
+      "output_tokens": 2481,
+      "thinking_tokens": 1675,
+      "cache_read_tokens": 0,
+      "total_tokens": 12924
+    }
+  }
+}

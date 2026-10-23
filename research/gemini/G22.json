@@ -1,0 +1,24 @@
+{
+  "job": "G22",
+  "title": "Banger.Show",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 60.4,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini22",
+  "result": {
+    "conversation_id": "c7ce0a24-1eb0-4b29-b285-90ff5cda7437",
+    "status": "SUCCESS",
+    "response": "### 独立研究报告：Banger.Show 与 AI Rap Video 的适配性分析\n**研究 Agent**：G22  \n**研究日期**：2026-10-23  \n**数据来源**：[Banger.Show 官网材料](https://banger.show/)  \n\n---\n\n#### 1. 业务与 AI Rap Video 关系综述\nBanger.Show 核心定位为**基于浏览器/客户端的音频响应式 3D/2D 音乐可视化与视频编辑平台**，并非端到端从文本直接生成全套 Rap 的 AI 生成器。在 AI Rap Video 生产管线中，它承担的是**后期视觉封装与宣发视频生成**角色：\n* **输入/输出**：输入包括用户音频（音轨）、自定义 2D/3D 图像与视频、Sketchfab 3D 模型；输出为适用于 YouTube 官方 Visualizer、Spotify Canvas、TikTok/Instagram Reels 的横版/竖版 HDR 音乐视频。\n* **与 Rap 视频契合点**：具备从音轨自动提取歌词并排版动效的 Lyric Video 功能，以及按音频频段（Bass/频率）映射动效的 Audio Reactivity 与 3D 摄像机轨道控制，适配节奏强烈的 Rap/Bass 视觉包装。\n\n---\n\n#### 2. 三个有据事实（官网宣称）\n1. **音频输入与歌词/视觉输出功能**：平台支持导入音频并从音轨中自动生成同步歌词（Generate lyrics from your track），提供波形、频谱等音频响应着色器（Shaders），并支持 3D 模型导入（含 Sketchfab 库对接）与关键帧运镜，输出支持高对比度的 HDR 视频。  \n   *来源*：[https://banger.show/](https://banger.show/)\n2. **明确的免费与付费服务边界**：免费版（Free，$0）提供每日 10 次导出、本地设备端渲染、含片尾短 Logo 水印及“有限的 AI 工具”（Limited AI tools）；付费版（Unlimited，$15/月，按年付省 50%）提供云端后台快速渲染、无限次导出、去除品牌水印、单文件上传上限 1GB、最长 60 分钟视频及广泛的 AI 创作工具权限。  \n   *来源*：[https://banger.show/](https://banger.show/)\n3. **渲染规格与协作限制**：视频时长最高支持 60 分钟（其中云端渲染最长 30 分钟，本地/桌面导出最长 1 小时）；支持生成分享链接供协作者查看或复制工程，但官方明确声明“目前不支持实时协同编辑（Real-time collaboration is not supported yet）”。  \n   *来源*：[https://banger.show/](https://banger.show/)\n\n---\n\n#### 3. 一个待核点（说明未知边界，非实测结论）\n* **AI 歌词识别能力与开放 API 状态待核实**：材料中仅体现内部资源调用路径（如 `/api/image-optimizer`），未披露面向外部开发者的开放 API 或批处理接口（未知 API 不代表绝对不存在）；同时，关于其宣传的“AI-powered creation tools”具体模型底座、多语种语音识别率（尤其是非英语或高语速 Rap 押韵对齐准确度），材料中未给出技术指标。由于未进行实际生成测试与付费订阅验证，其实际可用性与自动化管线接入可行性仍待实操核验。\n\n---\n\n#### 4. 一个产品建议\n* **针对 Rap 节奏与多模态自动化工作流的改进建议**：目前平台依赖手动关键帧或频谱频段映射。建议针对 Rap/Hip-hop 场景开发“BPM/鼓点瞬态智能切镜模板”及开放 Webhook/REST API，使外部 AI Rap 生成工具（如自动化生成的虚拟歌手音频与分镜画面）能够通过脚本一键套用动效模版并完成云端渲染。\n",
+    "duration_seconds": 31.599951,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 9996,
+      "output_tokens": 2332,
+      "thinking_tokens": 1427,
+      "cache_read_tokens": 0,
+      "total_tokens": 12328
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "job": "G35",
+  "title": "Udio",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 36.96,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini35",
+  "result": {
+    "conversation_id": "a64e0fc6-b026-49a7-bfc0-638672c45ed2",
+    "status": "SUCCESS",
+    "response": "我是用户明确授权的独立研究 agent G35，本次任务针对 Udio 官网公开材料进行分析，基准日期为 2026-10-23。\n\n### 声明与测试边界说明\n本报告严格基于所提供的 Udio 官网公开网页原始文本分析。**特别声明**：本次研究未执行实际歌曲生成流程，亦未进行付费订阅或充值操作，所有功能结论均为**官网公开宣称与页面呈现信息**，不包含实测验证结论；当前材料未见开发者 API 相关入口或文档说明，但依据“未知 API 不等于没有 API”的原则，仅能确认当前页面未公开披露 API 证据；页面中的 mp4/YouTube 链接均为宣发物料，不代表系统输出原生视频。\n\n---\n\n### 与 AI Rap Video 的关系分析\nUdio 本质定位为 **AI 音乐生成平台（AI Music Generator）**，主要负责“音乐/人声”音频层的生成与编辑。对于“AI Rap Video”整体解决方案而言，Udio 属于上游音频与人声资产生成节点，能覆盖 Rap 风格音乐的创作与重混，但其本身不提供视频渲染、画面生成或数字人口型对齐能力，需配合下游视频生成管线完成视频制作。\n\n---\n\n### 3 个有明确来源的事实\n\n1. **输入与输出模式**：平台支持“文本描述（Describe）+ 歌词输入（Lyrics）+ 参数调优（Tuning）”作为生成输入，并支持用户上传自有音频（Upload your own audio），输出结果为音乐歌曲。\n   - 来源：[https://www.udio.com/](https://www.udio.com/) 与 [https://www.udio.com/create](https://www.udio.com/create)\n2. **音频二次创作与编辑能力**：平台宣称并展示了波形级编辑能力，包括延长（Extend）、局部重绘/填补（Inpaint）、混音（Remix）以及上传自有音频加工。\n   - 来源：[https://www.udio.com/](https://www.udio.com/)\n3. **曲风覆盖度与免费入口**：平台展示曲库中已收录包含 Rap 流派的案例（如 Country Rock Rap 案例），且顶部常驻免费试用入口链接。\n   - 来源：[https://www.udio.com/pricing](https://www.udio.com/pricing) 及歌曲案例页 [https://www.udio.com/songs/3f95920c-0dfe-4e24-06fa-3a3dc0142b00](https://www.udio.com/songs/3f95920c-0dfe-4e24-06fa-3a3dc0142b00)\n\n---\n\n### 1 个待核点\n- **自动化集成与商业商用权限制**：当前页面未公开 API 文档，其生成音频是否支持高并发程序化调用（REST/Webhook API），以及免费试用与付费套餐下生成 Rap 伴奏/人声的商用版权归属（条款见 [https://www.udio.com/terms-of-service](https://www.udio.com/terms-of-service)），尚待进一步调阅定价细则与开发者合作渠道核实。\n\n---\n\n### 1 个产品建议\n- **构建松耦合的“Rap 音频 + 视频合成”流水线**：建议产品架构中将 Udio 规划为**音频生成/音轨编辑（Beat & Vocal）专用服务**。通过输入 Rap 歌词结构与风格提示词生成高保真 Rap 音频后，提取音频时间戳及音轨，再对接下游唇形驱动（Lip-sync）及画面生成模型（如视频扩散或数字人引擎），补齐 Udio 在视频渲染端的缺失。\n",
+    "duration_seconds": 24.079485,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 11738,
+      "output_tokens": 2473,
+      "thinking_tokens": 1607,
+      "cache_read_tokens": 0,
+      "total_tokens": 14211
+    }
+  }
+}

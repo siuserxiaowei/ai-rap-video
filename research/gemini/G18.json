@@ -1,0 +1,24 @@
+{
+  "job": "G18",
+  "title": "Freebeat",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 54.62,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini18",
+  "result": {
+    "conversation_id": "48483440-8ed5-42b7-856d-6466e9a6eb7e",
+    "status": "SUCCESS",
+    "response": "### 研究报告：Freebeat 平台与 AI Rap Video 关联度分析\n\n**研究员**：Gemini 研究 agent G18  \n**日期**：2026-10-23  \n**数据基准**：基于 [freebeat.ai 官方主页材料](https://freebeat.ai/) 进行的独立分析（注：本报告仅基于官网公开文字与链接元数据，未执行实际视频生成、未发起支付测试，以下所有功能均为官网宣称规格，非实测验证结果）。\n\n---\n\n#### 一、与 AI Rap Video 的核心关系与功能核对\n\n在 AI Rap Video 制作链路中，核心痛点在于**高密度歌词对齐（Lip-sync）**、**鼓点重拍卡点（Beat Sync）**与**风格化角色一致性**。基于材料核对：\n1. **音频/视频与输入输出**：支持外部链接（Spotify、YouTube、Suno、Udio、TikTok 等）或本地上传音频（如 MP3）。系统宣称基于音乐节奏、BPM与能量变化自动规划分镜，输出 15 秒至约 6 分钟、比例包括 16:9 / 9:16 / 1:1 的 720p/1080p 视频。对于 Rap 创作者，平台提供了“动态歌词动效（Auto lyric timing / Karaoke highlights）”与“唇形同步（Lip-sync）”，在定位上覆盖说唱 MV 与舞蹈短视频需求。\n2. **定价与免费边界**：提供 $0 免费计划可体验基础功能；付费档分为 Basic（$4.99/周）、Standard（$9.99/月）和 Pro（$24.99/月）。官方宣称生成内容拥有商业使用授权（需自负第三方素材版权）。\n3. **API 与工具链**：页面出现了 `MCP & CLI` 专区链接，但材料未展开其具体参数规范；未知 API 细节不等于没有 API，其开发者整合形态值得关注。\n\n---\n\n#### 二、3 个有明确来源的事实\n\n1. **输入支持主流音频平台与多模型来源，输出覆盖长短视频格式**  \n   官网宣称支持直接导入 Spotify、SoundCloud、YouTube、Suno、Udio、TikTok、Stable Audio、Riffusion 的音乐链接或自行上传音频；支持生成 15 秒至最长约 6 分钟视频，导出分辨率为 720p 与 1080p，支持 16:9、9:16、1:1 比例。  \n   *来源*：[https://freebeat.ai/](https://freebeat.ai/) 及 [FAQ 专区](https://freebeat.ai/music-video-generator)\n\n2. **采用梯队式阶梯定价，并标明了免费与商业使用权益界限**  \n   根据官网公布价格，平台设有 $0 Free Plan、Basic（$4.99/周）、Standard（$9.99/月）及 Pro（$24.99/月），并宣称为平台生成的视觉与背景音乐提供商业授权（遵循服务条款），而用户保留所生成视频的完整权利。  \n   *来源*：[https://freebeat.ai/pricing](https://freebeat.ai/pricing)\n\n3. **提供跨平台客户端下载，并在产品架构中集成 MCP & CLI 开发者入口**  \n   官网页面不仅提供 Mac DMG、Google Play、Android APK 及 iOS App 下载，其导航栏与底层服务列表还明确包含了 `MCP & CLI` 以及对第三方模型（如 Suno、ElevenLabs、Flux 系列）的接入展示。  \n   *来源*：[https://freebeat.ai/mcp](https://freebeat.ai/mcp) 及 [App 下载区](https://freebeat.ai/en)\n\n---\n\n#### 三、1 个待核点\n\n* **高语速 Rap 场景下的字词级唇形同步（Lip-sync）精度与 MCP/CLI 接口的实际开放度**：  \n  官网宣称具备“Accurate Beat Sync & Lip Sync”及 MCP/CLI 模块，但材料中未提供 API/CLI 文档的具体参数端点与调用成本。在未经真实音频生成测试的情况下，其宣称的唇形同步能否承受说唱（Rap/Trap）的快节奏连音与重拍切分，仍属待实测验证点。\n\n---\n\n#### 四、1 个产品建议\n\n* **针对 AI 说唱（Rap Video）工作流推出“Flow 标记与重拍卡点”专属预设**：  \n  建议在现有基于 BPM 的自动镜头生成器之外，开放波形瞬态（Transients）与双押/声韵段落的手动及自动化打标，允许用户对 Rap 中的 Drop 点与 Hook 段落指定特定的快速切镜或虚拟人特写，增强节奏型 MV 创作的精确控制力。\n",
+    "duration_seconds": 31.707279,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 16007,
+      "output_tokens": 2965,
+      "thinking_tokens": 1862,
+      "cache_read_tokens": 0,
+      "total_tokens": 18972
+    }
+  }
+}

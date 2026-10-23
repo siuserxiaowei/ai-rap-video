@@ -1,0 +1,24 @@
+{
+  "job": "G04",
+  "title": "AIRapVideo",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 59.61,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini04",
+  "result": {
+    "conversation_id": "3e162bd3-0715-4059-bc22-41c2ffcd2f8a",
+    "status": "SUCCESS",
+    "response": "作为独立研究 Agent G04，基于 2026-10-23 提供的公开官网文本（来源：[https://airapvideo.io/](https://airapvideo.io/)），对该产品进行独立梳理与核对。本分析仅基于官方网页材料数据，未执行实际生成测试或付款验证，亦未调用任何本地文件或网络工具；官网宣称与实际效果严格区分。\n\n---\n\n### 一、 网站与 AI Rap Video 关系及要素核对\n\n1. **核心关系与功能**：该网站（airapvideo.io）本身即为名为 **AI Rap Video** 的网页端视频生成工具，主打“两张自拍生成双人说唱视频”（支持双人合照或两张单人自拍），宣称通过 LLM 编写歌词、音乐与节拍合成，以及底层 Seedance 视频模型渲染口型同步的双人表演。\n2. **输入与输出**：\n   - **输入**：两张正脸清晰自拍（或单张双人合照）、场景选择（橙色包厢、大理石大堂、霓虹工作室、天台夜景、涂鸦巷、派对）、可选主题文本。\n   - **输出**：无水印 HD 视频（默认 9:16 竖屏，支持方屏/宽屏；可选 480p/720p/1080p；时长 5–15 秒，Ultra 模型最长 30 秒）。\n3. **音频与视频**：宣称为原生音频视频一体渲染，包含原创节拍、英文人声与对嘴口型同步。\n4. **定价与免费边界**：\n   - 基础生成**无免费额度**，按点数（Credits）计费。标准 720p 12 秒视频消耗 10 点。单曲包（One Track）为 $9.99；月度订阅计划为 $29.90–$99.90/月；一次性点数包为 $9.99–$499。\n   - 免费边界仅见辅助工具：如其子页面提供的双人组合起名器（Rap duo name generator）宣称免登录免费复制。\n5. **API 证据**：页面**未出现任何面向开发者的开放 API、SDK、Webhook 或接口文档证据**（注：当前页面无披露不代表底层或商业合作上绝对没有私有 API）。\n6. **限制条件**：语种限定为**仅支持英文说唱**（输入任意语言主题输出仍为英文）；禁止未授权使用他人或公众人物肖像；低阶模型（Mini/Fast）不支持 1080p 输出。\n\n---\n\n### 二、 3 个有来源的事实\n\n1. **底层视频模型版本与梯度定价明确对应**：平台按渲染模型等级消耗不同点数，明确列出了 Standard Seedance 2.0 Mini、Fast Seedance 2.0 Fast、Pro Seedance 2.0 以及 Ultra Seedance 2.5 四档模型；12 秒 720p 对应消耗分别为 10、17、20、37 点。（来源：[https://airapvideo.io/](https://airapvideo.io/)）\n2. **生成失败具备点数自动返还保护**：官方承诺点数仅在渲染成功后扣除；若模型报错、超时或触发安全合规拦截，扣除的点数会自动退回账户余额。（来源：[https://airapvideo.io/](https://airapvideo.io/)）\n3. **输出语言具备单向硬性限制**：无论用户在主题提示词中使用何种语言，生成的歌词与人声演出均仅输出英文，不支持多语种演唱。（来源：[https://airapvideo.io/](https://airapvideo.io/)）\n\n---\n\n### 三、 1 个待核点\n\n- **双人合唱口型与声线分离的实测表现**：官网宣称“Real rap, not a filter”，表示人声与口型由 Seedance 模型同步原生渲染，能够准确实现两人交替对唱。但本评估未实际上传图片并消耗点数跑通渲染，该端到端生成在面对两人不同音色、快速交替切麦（trading bars）时的声线稳定度与口型漂移率，仍属于**官网宣称状态，待实测验证**。\n\n---\n\n### 四、 1 个产品建议\n\n- **增加单次低门槛试用预览（低分辨率/短片元）**：目前起步门槛为 $9.99（单次包）或 $29.90（月费），无任何试用额度，用户在无法预估人脸生成保真度与英文发音效果前容易流失。建议提供一次 3–5 秒的 480p 低清低帧率免费试产或带水印预览，降低付费转化阻力。\n",
+    "duration_seconds": 33.244683,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 11305,
+      "output_tokens": 2390,
+      "thinking_tokens": 1273,
+      "cache_read_tokens": 0,
+      "total_tokens": 13695
+    }
+  }
+}

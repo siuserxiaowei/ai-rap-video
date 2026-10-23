@@ -1,0 +1,24 @@
+{
+  "job": "G10",
+  "title": "TryH3",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 37.34,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini10",
+  "result": {
+    "conversation_id": "a70cc883-3eb2-40fe-afa2-f615d2b662c1",
+    "status": "SUCCESS",
+    "response": "### TryH3（AI Rap Video 生成器）独立研究报告\n\n- **研究员标识**：独立 Gemini 研究 Agent G10\n- **研究任务**：TryH3 (`ai-rap-video`)\n- **核对基准日期**：2026-10-23\n- **信息输入来源**：公开网页读取原始数据\n- **来源 URL**：https://tryh3.com/generator/ai-rap-video\n\n---\n\n#### 1. 现状核对与材料分析（官网宣称 vs 实测说明）\n\n- **宣称与实测边界说明**：\n  本次调研严格基于所提供的官方 URL 原始网络抓取响应。由于抓取日志显示请求在尝试访问 `https://tryh3.com/generator/ai-rap-video` 并等待 `networkidle` 时触发 `15000ms`（15 秒）超时，返回状态码 `422`（`AssertionFailureError` / `TimeoutError`），且有效数据载荷为 `data: null`。\n- **功能、输入输出与音视频形态**：\n  由于页面加载超时失败且无有效 DOM 渲染，无法从当前材料中确认该站点宣称的输入形式（如文本歌词、提示词、参考音频）、输出规格（纯音频、音视频合成、唇形同步、Avatar 渲染）、音画质量与模型架构。根据规则，**失败或空页面绝不得算作已验证**，且未完成页面加载更不得声称执行过生成或交互实测。\n- **定价机制与 API 证据**：\n  材料未包含任何收费墙、订阅计划、免费额度（Credits）或试用条款数据；亦无任何网络面板捕获到的底层接口或开发者 API 证据。遵循“**未知 API 不等于没有 API**”的客观原则，当前材料仅能证明抓取阶段未暴露相关接口与计费信息，不能断言其无 API 或无商用支持。\n\n---\n\n#### 2. 三个有来源的事实\n\n1. **路由设计明确绑定 AI Rap Video 垂类场景**  \n   *事实说明*：根据目标请求 URL `https://tryh3.com/generator/ai-rap-video`，该站点的路径结构显式划分了 `/generator/` 目录并设立了专有子路由 `ai-rap-video`，表明 TryH3 至少在产品定位或 SEO/专题页层级，将“AI Rap Video”作为独立的视频/音频生成场景进行规划与路由分配。\n2. **端点可达性出现超时故障，当前处于非健康/不可服务状态**  \n   *事实说明*：抓取日志记录表明，客户端在执行 `page.goto(\"https://tryh3.com/generator/ai-rap-video\")` 并等待网络空闲（`networkidle`）时，超过了 15000 毫秒阈值，抛出 `TimeoutError`（错误码 `code: 422`, `status: 42206`），返回数据为 `null`。这证明在测试时刻该 URL 存在严重网络阻塞、资源加载挂起或反爬阻断，无法完成基础页面渲染。\n3. **当前材料缺乏有效页面内容，所有功能特性处于未验证状态**  \n   *事实说明*：在给定的原始抓取数据中，没有任何关于生成模型、提示词输入、音视频试听、免费/付费额度或限制策略的有效载荷（`\"data\": null`）。依据实事求是原则，关于该生成器的具体能力与业务规则均无可用事实支撑。\n\n---\n\n#### 3. 一个待核点\n\n- **待核点：主站可用性、反爬策略与冷启动延迟分析**  \n  需排查该 URL 请求失败的具体根因：究竟是 TryH3 域名/服务本身下线或冷启动延迟过高（超过 15 秒），还是页面内嵌了重度动态资源导致 `networkidle` 条件过分苛刻；亦或是站点部署了人机验证（Cloudflare / WAF 等）主动阻断了无头自动化访问。后续需在非自动化或带放宽超时条件的隔离环境中重新探测其首页 `https://tryh3.com` 及目标页，以获取真实的功能与定价信息。\n\n---\n\n#### 4. 一个产品建议\n\n- **产品与工程建议：实施轻量级降级渲染并分离重型生成器加载**  \n  对于 AI 视频这类富媒体生成工具页，若前端必须加载大型 3D 引擎、音视频播放器或复杂 WebGL 组件，极易导致高延迟网络下的用户端跳出与爬虫索引超时。建议产品架构上采用 SSR（服务端渲染）先行输出骨架屏、场景介绍、核心功能说明与定价表格，将重度生成器工作台与音视频预览播放器改为按需异步（Lazy Loading）挂载，并提供轻量级静态兜底状态，确保在网络抖动或海外弱网环境下依然能展示核心产品价值与引导。\n",
+    "duration_seconds": 20.246832,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 7981,
+      "output_tokens": 2049,
+      "thinking_tokens": 923,
+      "cache_read_tokens": 0,
+      "total_tokens": 10030
+    }
+  }
+}

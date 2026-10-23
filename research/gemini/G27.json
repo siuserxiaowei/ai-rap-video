@@ -1,0 +1,24 @@
+{
+  "job": "G27",
+  "title": "HeyGen",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 60.96,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini27",
+  "result": {
+    "conversation_id": "16ee9ad8-6eba-4089-9171-6c64f9504496",
+    "status": "SUCCESS",
+    "response": "作为独立研究 Agent G27，基于 2026-10-23 提供的 HeyGen 官网公开首页数据（[https://www.heygen.com/](https://www.heygen.com/)），对该平台与“AI Rap Video”制作场景的适配性与关键边界独立梳理如下（声明：本报告全部基于官网宣称文本分析，未在本地执行视频生成、渲染或付款测试，不声称实测表现）：\n\n---\n\n### 一、功能与 AI Rap Video 场景对照\n\n1. **输入与输出模式**：\n   - **输入**：支持文本（Script / Text）、图像（Image / Reference Image）、音频（Audio File，如播客/配音）及 PPT/PDF 文档。\n   - **输出**：带虚拟人形象（Avatar）、字幕（Subtitles）、动画与嘴型同步（Lip-sync）的成品视频。\n   - **与 AI Rap Video 的关系**：具备将外部 Rap 音轨转为视频的直接入口（Audio to Video 模块），且支持通过单张人物参考图（Image to Video）驱动数字人唱词与嘴型同步。\n\n2. **视音频能力边界（官网宣称）**：\n   - 官方主打商业宣讲、营销解说、培训演示与播客可视化；虽然具备 175+ 语种翻译与音色/唇形同步宣称，但其核心产品形态为“Talking Avatar”，未提及针对 Rap 独有的快节奏押韵（Fast Flow）、重音节奏晃动（Beat Sync）或街头风格肢体律动的特定优化。\n\n3. **定价与免费边界**：\n   - 官网宣称提供免费方案（Free Plan），支持基础的文本转视频与 AI 生成；进阶编辑功能、多样化格式及高级模型划分在付费方案中。具体免费额度（如时长/水印/分辨率）在首页未展开详细表格。\n\n4. **API 证据与限制**：\n   - **API 证据**：首页宣传文案出现“Trusted by over 1,000,000 developers...”，说明面向开发者提供服务，但在当前首页摘录中未展示独立的 API 端点说明或开发者文档链接（注：当前页未体现具体文档不代表没有 API）。\n   - **内容与合规限制**：实施严格的主播身份核验（定制形象需真人出镜验证）与 ML+人工实时审核，严禁暴力、政治竞选与未成年人伤害；Rap 歌词若涉及街头俚语、激烈对抗性词汇，极易触发审核拦截。\n\n---\n\n### 二、3 个有来源的事实\n\n1. **支持任意音频驱动数字人视频生成（Audio to Video）**：\n   HeyGen 宣称用户可上传播客、配音或任意音频文件，由系统自动生成搭配数字人头像、字幕与动画的视频，免除后期剪辑。\n   - **来源 URL**：[https://www.heygen.com/tool/audio-to-video-converter](https://www.heygen.com/tool/audio-to-video-converter)\n\n2. **单张静态图像可结合剧本转为唇形同步视频（Image to Video）**：\n   平台提供图像转视频功能，支持上传任意单张人物图像并添加剧本，生成具备逼真唇形同步（Lip-sync）、自然说话停顿与情绪表达的 AI 视频。\n   - **来源 URL**：[https://www.heygen.com/tool/image-to-video](https://www.heygen.com/tool/image-to-video)\n\n3. **定制虚拟人必须强制执行出镜身份核验并进行机器审核**：\n   所有定制数字人必须由出镜本人进行实时镜头身份核验（“No verification, no avatar”）；同时生成环节通过机器学习实时扫描违规内容，结合人工审核拦截暴力及政治等内容。\n   - **来源 URL**：[https://www.heygen.com/](https://www.heygen.com/)\n\n---\n\n### 三、1 个待核点\n\n- **超高语速与音乐节奏下的唇形同步及节拍贴合度（待实测验证）**：\n  官网宣称具备精准唇形匹配与音色保留，但其范例均为低速的商业演讲、播客与客服口播。对于 AI Rap 常见的高 BPM、密集的连读爆破音与节奏拍点，HeyGen 的唇形生成算法与面部/肢体动作是否会出现动作滞后、嘴形滑稽撕裂或节拍脱节，当前仅凭官网文本无法验证，需后续在真实音轨输入下实测核验。\n\n---\n\n### 四、1 个产品建议\n\n- **在工作流中建立“伴奏分离预处理 + 音频占位驱动”管线**：\n  在将生成的人工智能 Rap 歌曲接入 HeyGen 时，建议先使用音轨分离工具将无伴奏纯人声（Acapella）与伴奏（Beat/Instrumental）剥离。将纯人声音频输入 HeyGen 的 `Audio to Video` 模块以保证唇形驱动算法不被底噪或重低音鼓点干扰，最后在外部视频编辑器中把渲染完成的嘴型视频与高清伴奏混流合成，从而兼顾精准对唇与音乐质感。\n",
+    "duration_seconds": 28.57903,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 12150,
+      "output_tokens": 2508,
+      "thinking_tokens": 1310,
+      "cache_read_tokens": 0,
+      "total_tokens": 14658
+    }
+  }
+}

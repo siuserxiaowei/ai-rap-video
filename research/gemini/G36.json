@@ -1,0 +1,24 @@
+{
+  "job": "G36",
+  "title": "FineShare Singify",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 40.93,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini36",
+  "result": {
+    "conversation_id": "04953665-9698-4118-aa48-c14a9b8d1e36",
+    "status": "SUCCESS",
+    "response": "### FineShare Singify 调研报告（Agent G36，日期：2026-10-23）\n\n#### 一、与 AI Rap Video 的关系定位\n根据公开页面材料，FineShare Singify 定位为**纯音频/歌曲生成工具**，并非视频渲染生成工具。其在“AI Rap Video”工作流中扮演**上游音频供给层**：可生成 Hip Hop / Trap 风格伴奏、Rap 歌词与合成人声、以及提取分轨伴奏；虽支持输入视频/图像作为参考匹配背景音乐，但其输出均为音频（MP3/FLAC），无法直接输出说唱视频或口型同步画面。\n\n---\n\n#### 二、3 个有来源的事实\n\n1. **输入与输出形态：支持音视频参考输入，但输出严格限定为音频**\n   * **官网宣称**：支持从文本 Prompt、歌词、图像或参考音频/视频（Video to Music / Image to Music）进行输入；系统生成最长 4 至 4.5 分钟的完整歌曲，支持导出高品质 MP3、FLAC 格式以及 DAW 混音所需的可选分轨（stems），并提供伴奏提取（Vocal Remover）。页面未提及任何视频文件渲染与导出功能。\n   * **来源**：[Singify 首页](https://singify.fineshare.com/)、[Vocal Remover](https://singify.fineshare.com/vocal-remover)\n   * *(注：本结论来自页面规格描述，未在环境内执行上传与导出生成实测)*\n\n2. **说唱生成能力覆盖度与模型层级**\n   * **官网宣称**：平台支持 Hip Hop 流派与 Trap 风格歌曲创作，社区展示了 Trap-infused Hip-Hop、Fast Rap 等风格作品；内置专用 AI 歌词生成器可用于生成 Rap 押韵段落（rap verses）；底层提供 Aria V1.0、Aria S1.0、Aria V2.0 等多版本模型选择，并提供 AI 歌手声音选择与克隆（Make AI Singer）。\n   * **来源**：[Singify 首页](https://singify.fineshare.com/)、[Hip Hop 生成器](https://singify.fineshare.com/hip-hop-song-generator)、[AI 歌词生成器](https://singify.fineshare.com/ai-lyrics-generator)\n   * *(注：各模型在说唱歌词咬字、节奏对齐（flow）上的实际合成表现未执行生成验证)*\n\n3. **免费宣称与积分消耗（Credit Consumption）边界**\n   * **官网宣称**：页面宣称“Free AI Music & Song Generator Online”、“No credit card required”以及生成风格“100% Royalty-Free”；但其生成流程指引中明确写出选择模型时需平衡保真度、人声真实度与“点数消耗”（credit consumption）。当前材料中未提供对外开放的 API 开发者接口说明（未知 API 不等于没有 API，仅代表材料内未见对外 API 证据）。\n   * **来源**：[Singify 首页](https://singify.fineshare.com/)\n   * *(注：未执行充值与账单支付流程，免费额度上限及付费梯队依据页面提示待定)*\n\n---\n\n#### 三、1 个待核点\n\n* **商业化授权边界与 FAQ 缺失细则核实**：材料中 FAQ 列表仅列出提问条目（如“Is this AI song generator free to use?”、“Can I use the generated music commercially?”），答案正文未在抓取内容中展开。尽管宣称“100% Royalty-Free”，但免费版与付费版生成的说唱伴奏/人声是否具有商用版权限制、以及是否存在非商业或署名约束，仍属待核实状态。\n\n---\n\n#### 四、1 个产品建议\n\n* **构建针对 Rap 视频制作的“分轨与时间戳标记（Stems & Beat Markers）”导出能力**：目前平台已具备 stems 分轨与视频参考输入，若需深度切入 AI Rap Video 工作流，建议提供基于节拍与说唱歌词发音的词级时间戳（Word-level Timestamps）或 MIDI/分轨导出通道，以便下游视频工具无缝衔接数字人口型同步（Lip-sync）与画面切镜卡点。\n",
+    "duration_seconds": 27.715977,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 12422,
+      "output_tokens": 2359,
+      "thinking_tokens": 1374,
+      "cache_read_tokens": 0,
+      "total_tokens": 14781
+    }
+  }
+}

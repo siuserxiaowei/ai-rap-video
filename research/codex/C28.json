@@ -1,0 +1,11 @@
+{
+  "id": "C28",
+  "agent_task": "c28_sync",
+  "site_id": "28",
+  "name": "Sync",
+  "original_commit": "330eedfb18f844c7e29e472b137e1c46be86925a",
+  "accepted_at": "2026-10-23T15:49:44.413913+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}

@@ -1,0 +1,24 @@
+{
+  "job": "G06",
+  "title": "Airapvid",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 43.36,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini06",
+  "result": {
+    "conversation_id": "2cd4ed72-0b12-4e30-946b-4fa6f30e883e",
+    "status": "SUCCESS",
+    "response": "作为独立 Gemini 研究 Agent G06，基于公开页面数据（截至 2026-10-23），对该站点与 AI Rap Video 的功能定位、技术实现与商业化边界研究如下：\n\n### 一、 网站与 AI Rap Video 的关系及功能核对\nAirapvid（[https://airapvid.com/](https://airapvid.com/)）定位为垂直场景的“AI 说唱视频生成器（AI Rap Video Generator）”。它将 AI Rap Video 封装为极简的模板化生成工具，核心解决传统音视频合成流程中门槛高、需多工具拼接（写词、编曲、TTS、口型匹配、后期动作）的痛点，主打“上传照片即可一键生成对口型说唱舞台视频”。\n\n---\n\n### 二、 3 个有来源的事实（官网宣称）\n\n1. **输入与输出规格明确**：官网宣称系统支持输入 1 到 2 张清晰、正面照（支持真人及猫狗宠物），并能直接导出 9:16（适于 TikTok/Shorts/Reels）与 16:9（适于 YouTube）两种画幅的视频，单段生成推荐时长为 10–15 秒，上限支持 30 秒。（来源：[https://airapvid.com/](https://airapvid.com/)）\n2. **全流程视听合成与驱动模型**：官网宣称其底层由“Seedance 2.5”模型驱动，可将单张照片构建为多角度人物参考以保证转头、侧脸时的特征一致性；AI 负责全套音频（原创歌词、节拍与人声）与视觉动作（预设舞台走位、手势、口型同步）的端到端生成。（来源：[https://airapvid.com/](https://airapvid.com/)）\n3. **免信用卡试用与无水印承诺**：官网宣称“无需信用卡，可免费开始创作（No credit card required. Start creating for free）”，且生成完毕后支持下载“清晰且无水印（watermark-free）”的成片直接发布。（来源：[https://airapvid.com/](https://airapvid.com/)）\n\n---\n\n### 三、 1 个待核点\n\n- **免费额度边界、商业定价模式及 API 存在性待核实**：\n  官网宣称可“免费开始”并提供“无水印下载”，但在当前公开页面中未列出具体免费次数/时长配额、分辨率档位及付费阶梯价格。此外，页面未展示任何面向开发者的开放 API、SDK 或开发文档（注：材料未提及不等于不存在 API，仅能判定为当前公开页未知）。由于本研究未执行实际生成调用或付款操作，其宣称的“数分钟渲染完成”、“无水印”以及实际口型匹配精准度与防漂移效果，仍属于“官网宣称”而非“实测验证”，需进一步实操核验。（来源：[https://airapvid.com/](https://airapvid.com/)）\n\n---\n\n### 四、 1 个产品建议\n\n- **增加轻量化说唱风格与关键词微调（Semi-custom Controls）**：\n  当前工作流主打零门槛一键套用（固定舞台、预设手势与全自动写词），虽适合轻度娱乐，但容易导致内容同质化。建议在现有预设模式基础上，增加可选的高级抽屉：允许用户输入 3–5 个关键词/笑点，或选择说唱曲风（如 Boom Bap、Trap、Drill）及声线气质。这既不破坏一键出片的便捷性，又能大幅提升创作者的定制意愿与视频在社交媒体的传播粘性。\n",
+    "duration_seconds": 27.186424,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 9082,
+      "output_tokens": 2521,
+      "thinking_tokens": 1672,
+      "cache_read_tokens": 0,
+      "total_tokens": 11603
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "job": "G03",
+  "title": "RapReel",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 60.45,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini03",
+  "result": {
+    "conversation_id": "8f9465fe-5f8e-4d25-a0be-25123ef190b7",
+    "status": "SUCCESS",
+    "response": "我是独立 Gemini 研究 agent G03。任务：RapReel 网站调研。调研日期：2026-10-23。基于公开官网材料，现对 RapReel 与 AI Rap Video 的功能核对、事实来源、待核点及产品建议整理如下：\n\n---\n\n### 一、功能与业务属性核对（官网宣称说明）\n\n*注：本调研基于官网公开展示内容分析，未实际执行付款或生成流程，不代表实测性能。*\n\n1. **核心关系与功能**：RapReel 定位为垂直场景的 AI 说唱视频生成器（AI Rap Video Generator），主打结合流行 Rap 风格（如 Hotel Lobby / Migos 风格、Bulin 47 街头风格），将普通人像置入虚拟说唱舞台中。\n2. **输入与输出**：\n   - **输入**：1 张合照或 2 张单人人像（支持 JPEG、PNG、WebP，单张 ≤ 10 MB），配合可选场景（Stage）与文本主题（Who's it for?，用于定制歌词倾向）。\n   - **输出**：含 AI 生成说唱人声与伴奏节拍的竖屏 MP4 视频，宣称无可见水印。\n3. **定价与免费边界**：\n   - 免费阶段仅限**静态舞台效果预览**（still image preview）。\n   - 视频生成为单次按个付费（无订阅捆绑），分为三档：Lite（8秒 / 480p / $2.99）、HD（12秒 / 720p / $3.99）、Pro（15秒 / 720p / $5.99）。\n4. **API 与技术限制**：\n   - 页面未提供任何对外开放的开发者 API 文档或端点信息。\n   - 分辨率上限仅为 720p，单条时长仅 8–15 秒，交付时间宣称约 5 分钟。\n\n---\n\n### 二、3 个有来源的事实\n\n1. **支持双人肖像到竖屏说唱视频的定向生成**：RapReel 允许用户上传两张正面人像或一张双人合照（格式限 JPEG/PNG/WebP，单张 ≤ 10 MB），系统根据所选场景与主题文本生成带有 AI 人声和节拍的竖屏 MP4 视频。  \n   *来源*：[https://rapreel.com/](https://rapreel.com/)\n2. **免费阶梯仅限静态预览，视频生成采用单次分级付费**：平台提供免费的舞台静态预览；生成完整视频无需订阅，按视频阶梯单次计费：Lite 档为 8 秒 480p（$2.99）、HD 档为 12 秒 720p（$3.99）、Pro 档为 15 秒 720p（$5.99），且官网宣称均无可见水印。  \n   *来源*：[https://rapreel.com/](https://rapreel.com/)\n3. **实行预授权扣款与单次重试容灾机制**：用户发起生成时对信用卡实行预授权锁定（hold），视频生成完成后才正式扣费；若生成任务失败，系统自动重试一次，连续失败则自动解除预授权并不收取费用。  \n   *来源*：[https://rapreel.com/](https://rapreel.com/)\n\n---\n\n### 三、1 个待核点\n\n* **底层管线集成能力与私有 API 存在性待核**：公开材料中未出现针对开发者的 API 文档与开放接入方案，但页面未说明未知 API 不代表其底层不存在可调用的私有 API 架构；此外，由于本次未执行实际支付与渲染任务，其实际口型同步（Lip-sync）匹配度、人声自然度及 5 分钟交付稳定性仍处于“官网宣称”状态，有待真实生成用例核验。\n\n---\n\n### 四、1 个产品建议\n\n* **提升规格上限并引入音轨控制参数与开放 API**：目前最高输出规格仅为 15 秒与 720p，对专业社媒创作者吸引力有限。建议后续开放 1080p 分辨率及 30 秒片段档位；在交互上增加节奏速度（BPM）与音乐子风格（如 Boom Bap、Trap）的选择滑块；同时可评估推出面向 B 端营销工具或内容创作者平台的集成 API，拓宽单一 C 端零售的变现通道。\n",
+    "duration_seconds": 34.512952,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 8995,
+      "output_tokens": 2653,
+      "thinking_tokens": 1613,
+      "cache_read_tokens": 0,
+      "total_tokens": 11648
+    }
+  }
+}

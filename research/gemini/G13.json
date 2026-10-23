@@ -1,0 +1,24 @@
+{
+  "job": "G13",
+  "title": "AIRapVideos",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 43.73,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini13",
+  "result": {
+    "conversation_id": "8df1c7e5-8d54-4ed3-8f70-bd03001e93da",
+    "status": "SUCCESS",
+    "response": "基于 2026-10-23 对公开网页材料（[https://airapvideos.com/](https://airapvideos.com/)）的独立分析，本研究严格区分**官网宣称**与**实测验证**。因本次仅依据落地页公开文本进行静态核对，未实际上传照片、未发起生成任务且未付费购买积分，故不对实际渲染质量与耗时作实测断言。\n\n---\n\n### 一、产品定位与核心功能核对\n\n`airapvideos.com` 定位为专用的双人 AI 说唱视频生成工具（AI Rap Video Generator），主打零提示词、免剪辑的轻量创作：\n* **输入与输出**：输入为 2 张独立的单人肖像照片（格式支持 JPG、PNG、WebP，单张限制 10MB 内；限制避免遮挡、模糊或合照）；输出为 15 秒、16:9 画幅的合成说唱表演视频，可在线预览及下载。\n* **视频与音频机制**：官网宣称采用“Seedance 2.0 Mini”模型，默认分辨率为 480p；系统将双人置于统一的“Orange Booth”暖色录音棚场景中，动作与音频（Orange Booth Sound）由系统全自动匹配合成，无需用户自行对齐音画或输入 prompt。\n* **定价与免费边界**：支持免费浏览页面与示例；实际生成必须登录并消耗积分（Credits），采用免订阅的充值包形式（如 Starter 包 $4.99 购 15 积分，单次 15 秒生成需消耗 8 积分）。\n* **API 证据**：材料仅包含面向终端用户的 Web 端交互流程（上传、选画质、生成与下载），未提及任何公开的开发者 REST API、SDK 或文档入口。但依据“未见公开 API 不等于系统不存在底层 API”的准则，当前仅能确认其尚未开放面向公众的第三方开发接口。\n\n---\n\n### 二、3 个有来源的事实\n\n1. **固定的单次生成时长与积分定价标准**：根据页面生成器配置与 FAQ，生成一个 15 秒、480p（16:9，基于 Seedance 2.0 Mini）的视频需消耗 8 个 Credits；入门积分为 $4.99 购买 15 Credits，不含强制月度订阅。（来源：[https://airapvideos.com/](https://airapvideos.com/)）\n2. **特定的输入规格与质量限制要求**：系统强制要求单张照片仅包含单人可见面孔、肩颈空间充分且光照良好，格式限定为 JPG/PNG/WebP 且单文件不大于 10 MB，明确要求避开遮挡（masks）与多人合影。（来源：[https://airapvideos.com/](https://airapvideos.com/)）\n3. **音画一体化全自动交付**：官方说明其“Orange Booth Sound”与说唱动作均为系统自动匹配生成并预置进合成视频中，用户端不提供音轨自主编辑或逐帧同步选项。（来源：[https://airapvideos.com/](https://airapvideos.com/#faq) 及 [https://airapvideos.com/](https://airapvideos.com/)）\n\n---\n\n### 三、1 个待核点\n\n* **生成模型拓展性与高分辨率支持待核实**：落地页当前界面虽有“Choose Video Quality”的步骤描述，但表单展示项锁定了“Seedance 2.0 Mini”和“480p”规格。对于是否存在更高清档位（如 720p/1080p）及其对应的积分消耗比例、是否支持更换说唱风格伴奏，需在登录账号且进入真实控制台后进一步实测核实。\n\n---\n\n### 四、1 个产品建议\n\n* **增加说唱风格/声线预览与选择维度**：目前产品将音轨深度绑定为预设的“Orange Booth Sound”，属于全黑盒交付。建议在上传步骤后允许用户在 2–3 种不同节奏流派（如 Boom Bap、Trap）或声线情绪之间试听切选，在维持“免写 Prompt”极简体验的同时，显著提升视频生成的复购率与个性化趣味。\n",
+    "duration_seconds": 25.648137,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 8903,
+      "output_tokens": 2309,
+      "thinking_tokens": 1339,
+      "cache_read_tokens": 0,
+      "total_tokens": 11212
+    }
+  }
+}

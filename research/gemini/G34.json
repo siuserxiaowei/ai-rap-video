@@ -1,0 +1,24 @@
+{
+  "job": "G34",
+  "title": "Suno",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 53.08,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini34",
+  "result": {
+    "conversation_id": "0455e8b7-b6ab-479d-aa53-69b0df6f28c9",
+    "status": "SUCCESS",
+    "response": "### 独立研究报告：Suno 与 AI Rap Video 的管线关系分析\n\n**研究员**：Gemini G34  \n**日期**：2026-10-23  \n**数据来源**：[Suno 官网公开首页材料](https://suno.com/)  \n**声明**：本分析严格基于上述公开网页内容进行事实提取，未在本地执行模型生成或付款测试，以下结论严格区隔官网宣称与功能边界。\n\n---\n\n#### 一、官网宣称与事实核对（3 个有来源事实）\n\n1. **核心输入输出与生成能力定位（聚焦音频层）**  \n   根据 [Suno 官网](https://suno.com/) 描述，Suno 定位为全流程 AI 音乐生成器（AI Music Generator），输入支持自然语言 Prompt、用户自定义歌词、音频参考与人声采样录制；输出为包含完整人声、配器编曲与混音的整曲，并提供 v6 最新模型、浏览器 DAW（Suno Studio）、分轨分离（Stem separation）以及人声定制（Voices）。在 AI Rap Video 制作链路中，它能够承担 Rap 风格 Beat 制作、Flow 演绎和人声生成。\n2. **免费与商业授权明确划分（非商用 vs 商业授权）**  \n   根据 [Suno 价格方案](https://suno.com/#pricing-section)，Free 方案提供每日 50 credits（官网 FAQ 标明约可生成 10 首歌），但明确受限于**无商业使用权（No commercial rights）**、共享队列且无音轨分离；商业使用权（Commercial use rights）仅向 Pro（年付折合 $8/月）与 Premier（年付折合 $24/月）等付费订阅开放。若制作商业化 AI Rap 视频，免费版成果存在版权限制。\n3. **交付形态聚焦音频资产，未内置端到端视频生成能力**  \n   尽管首页展示了宣传视频切片（如 [Timbaland 宣传样片](https://cdn-o.suno.com/splash-page/clips/Suno+Timbaland+Cover+Edit+4+(1)+-+Smaller.mp4)），但官方核心功能矩阵（Studio、Voices、Stem Separation、Remix）与交付权益（如每月歌曲下载配额、MIDI 导出）均属于纯音频制作与工程编辑，并未提供端到端由音频驱动嘴型（Lip-sync）或生成说唱歌手人物画面的 AI 视频生成模块。\n\n---\n\n#### 二、待核实点（1 个待核点）\n\n* **官方开发者 API 的开放与集成状态**：  \n  在 [Suno 官网首页](https://suno.com/) 及导航资源中，仅呈现 Web 网页端、Suno Studio 与移动客户端（iOS/Android），未见面向开发者的公开 API 文档、接口规范或企业级调用入口。依据“当前页面未见不等于不存在官方 API”的客观原则，仍需进一步核查其官方开发者平台或企业合作渠道，以确认是否有可用于自动化 AI Rap Video 批量流水线的官方合规 API。\n\n---\n\n#### 三、产品落地建议（1 个建议）\n\n* **在 AI Rap Video 流程中将 Suno 设为“解耦的音频源”，构建“分轨音频导出 + 外部视觉管线”混合架构**：  \n  由于 Suno 并不提供端到端视频合成，建议产品管线利用其 Pro/Premier 订阅的 **分轨拆分能力（Stem Separation）** 导出纯人声（Vocal）与伴奏（Instrumental）两条独立干音轨。人声音轨用于驱动外部音画对齐与面部口型算法（Lip-sync / Audio-to-Video 模型），伴奏与完整音轨用于后期母带混音与节奏剪辑，以兼顾商业版权合规性与画面节奏匹配度。\n",
+    "duration_seconds": 33.463692,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 14641,
+      "output_tokens": 2463,
+      "thinking_tokens": 1585,
+      "cache_read_tokens": 0,
+      "total_tokens": 17104
+    }
+  }
+}

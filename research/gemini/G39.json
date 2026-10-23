@@ -1,0 +1,24 @@
+{
+  "job": "G39",
+  "title": "Renderforest",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 40.7,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini39",
+  "result": {
+    "conversation_id": "700080bc-723e-46e9-a10e-ab0565071b9b",
+    "status": "SUCCESS",
+    "response": "### 调研背景与定位\n- **研究员**：Gemini 研究 agent G39\n- **研究日期**：2026-10-23\n- **研究对象**：Renderforest（官网数据来源：https://www.renderforest.com/ ）\n- **研究范畴**：该平台与 AI Rap Video（AI 说唱视频）生产链路的功能关联、输入输出模式、音视频能力、定价边界、API 与限制。本报告纯基于官网提供的数据材料进行分析，因未在此次任务中执行实际生成、导出或付费操作，所有能力描述均归为**官网宣称**，不做实测断言。\n\n---\n\n### 与 AI Rap Video 的功能与链路核对\n\n1. **输入与输出模式**：\n   - **输入**：支持文本脚本/提示词（Text-to-video / Text-to-image）、自选图像（Image-to-video / Image-to-image）以及自定义素材（文本、LOGO、品牌配色、本地音乐）。\n   - **输出**：宣称可输出结构化视频、动画片段、Shorts/Reels 竖屏短视频，以及最高 Full HD / 4K 画质文件（付费计划）。\n2. **音视频能力**：\n   - 包含“Music Visualizations（音乐可视化）”专属模板、Reels & Shorts 模板及内建 AI 视频编辑器；\n   - 宣称文字转视频功能可“自动添加视觉画面、配音及背景音乐”。但材料中未体现专门的 AI Rap 人声生成（如说唱 Flow/伴奏生成）或高精度的逐字唇形对齐（Lip-sync）。\n3. **定价与免费边界**：\n   - 设有免费方案，但带有 Renderforest 水印且分辨率受限；\n   - 付费方案提供无水印、Full HD / 4K 导出与完整商业使用权，具体定价阶梯按视频长度、分辨率与云存储空间划分。\n4. **API 与系统集成证据**：\n   - 本次提供的首页材料中**未包含任何开放 API、SDK 或 Webhook 相关说明**；依据规范，当前材料中未见 API 说明不等于其绝对没有 API，仍需后续查证开发者文档。\n5. **官方明示限制**：\n   - 官方明确指出平台适用于“结构化与半定制化内容”，并非高端动画工作室或复杂影视级后期制作的替代品。\n\n---\n\n### 3 个有来源的事实\n\n1. **底层多模型聚合宣称**：Renderforest 宣称整合并动态更新前沿生成模型，包括 Google Veo 3.1、Kling 3.0 Omni、Seedance 2.5、Pixverse V6 等第三方模型及自身 AI 引擎，用于驱动文本/图像生成视频。（来源：https://www.renderforest.com/ ）\n2. **具备音乐可视化与创作者模板体系**：平台提供 1200+ 视频模板，涵盖“Music Visualizations”、“Animations”及“Reels & Shorts”，允许创作者导入音乐与素材快速搭建社媒视效。（来源：https://www.renderforest.com/ ）\n3. **免费与商业使用边界划分**：免费层级仅供基础体验并包含平台水印与画质限制；商用权利、4K/高清导出和无水印功能均需升级至按时长和存储计费的付费方案。（来源：https://www.renderforest.com/ ）\n\n---\n\n### 1 个待核点\n\n- **说唱视听同步与自动化 API 能力待核实**：当前材料未披露 API 接口细节，且未说明是否具备将外部 Rap 音频与生成画面的“节拍点（BPM Beat-matching）”或“虚拟形象说唱口型（Rap Lip-sync）”进行高精度对齐的能力。需进一步查验其开发者中心与音轨同步进阶功能。\n\n---\n\n### 1 个产品建议\n\n- **将 Renderforest 定位为“AI Rap Video 的下流视觉包装工具”，而非端到端主生成引擎**：在 AI Rap Video 方案设计中，建议将说唱音频生成（如伴奏、Lyrics、人声合成）与核心口型驱动剥离至前置专用模型，仅利用 Renderforest 的“Music Visualizations 模板”和多模型文生/图生视频通道来批量制作舞台背景、转场动效与社媒发行短片，以最大化发挥其模板化排版的效能并规避其非电影级定制的局限。\n",
+    "duration_seconds": 25.664572,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 12155,
+      "output_tokens": 2437,
+      "thinking_tokens": 1432,
+      "cache_read_tokens": 0,
+      "total_tokens": 14592
+    }
+  }
+}

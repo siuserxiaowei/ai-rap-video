@@ -1,0 +1,24 @@
+{
+  "job": "G31",
+  "title": "PixVerse",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 44.74,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini31",
+  "result": {
+    "conversation_id": "1268f19c-70a7-43b0-9868-dfc66d5d2038",
+    "status": "SUCCESS",
+    "response": "### 研究报告：PixVerse 与 AI Rap Video 制作关联分析\n\n*   **研究员**：Gemini 研究 Agent G31\n*   **基准日期**：2026-10-23\n*   **说明**：本报告仅依据提供的 [https://pixverse.ai/](https://pixverse.ai/) 首页公开文本与链接数据进行静态推断。未执行实际模型生成，未进行付费订阅操作，所有能力与指标均属**官网宣称**，非本地实测数据。\n\n---\n\n### 一、与 AI Rap Video 的业务匹配度核对\n\n1. **输入与输出**：\n   * 输入支持 Text（文本 Prompt）与 Image（参考图/角色原画），支持多节点工作流（Canvas）与自然语言指令（Agent）。\n   * 输出支持 1080p 视频生成，CLI 示例显示支持竖屏（`--ratio 9:16`）及自定义时长（如 `--duration 5`），适合短视频说唱分镜制作。\n2. **视音频与说唱匹配**：\n   * 官网宣称 **PixVerse V6** 模型具备原生音频生成能力（“1080p Video with Native Audio”）。\n   * 具备独立 **Lip Sync**（“Voice, sync, and sound”）及多项音乐向工具（如 **Vibe MV**、**Fashion Beat**、**Sound Effect Generator**），对 Rap 歌曲所必需的人物口型同步与音乐节奏踩点具备宣称级的功能支撑。\n3. **API 与管线自动化**：\n   * 页面明确包含 Developers、API Documentation 与 CLI 工具入口，表明具备通过代码或脚本集成进 AI Rap 自动化音画管线（如音频分段输入 + 批量画面渲染）的接口依据。\n4. **定价与免费边界**：\n   * 页面引用第三方榜单对比显示 PixVerse V6 API 参考计费为 `$4.80/min`；但主页未披露普通 Web/App 注册用户的免费点数配额、水印限制及商业授权阶梯。\n\n---\n\n### 二、3 个有来源的事实\n\n1. **提供多模态原生音频与对口型功能**  \n   官网宣称其主力模型 PixVerse V6 支持带有原生音频的 1080p 视频生成（“1080p Video with Native Audio”），且功能清单中包含面向声音与嘴型匹配的 Lip Sync 模块。  \n   *来源*：[https://pixverse.ai/en/model/pixverse-v6](https://pixverse.ai/en/model/pixverse-v6) 及 [https://app.pixverse.ai/creation/video](https://app.pixverse.ai/creation/video)\n\n2. **支持开发者 API 与命令行 CLI 自动化调用**  \n   官网提供完整的开发者门户、API 文档以及 CLI 工具，支持通过终端命令传参控制比例与时长（例如 `$ pixverse generate --prompt \"...\" --ratio 9:16 --duration 5`）。  \n   *来源*：[https://docs.platform.pixverse.ai/](https://docs.platform.pixverse.ai/) 及 [https://app.pixverse.ai/cli](https://app.pixverse.ai/cli)\n\n3. **内置面向节奏与音效的轻量工具集及多模型底座**  \n   除自研 V6/R2 外，平台集成了 Seedance、MiniMax H3、Flux 3 等外部模型，并在 AI Tools 分类下直接提供了 “Vibe MV”、“Fashion Beat” 与 “Sound Effect Generator” 等面向节拍和音效的专用微应用。  \n   *来源*：[https://app.pixverse.ai/mini-apps](https://app.pixverse.ai/mini-apps) 及 [https://pixverse.ai/](https://pixverse.ai/)\n\n---\n\n### 三、1 个待核点\n\n* **音频驱动口型（Lip Sync）在 API 端的支持深度与计费方式**：  \n  官网虽宣称具备 Lip Sync 与 Native Audio，但主页展示的 API 比较价格（$4.80/min）未明确是否涵盖自定义音频上传对口型推理；需进一步查阅其开发者控制台与接口文档，核实其 API 是否支持将外部 Rap 人声音频直接传入并绑定生成角色的唇形与表情。\n\n---\n\n### 四、1 个产品建议\n\n* **构建“CLI 脚本 + Canvas 节点”的说唱分镜批处理管线**：  \n  建议团队利用其提供的 CLI 工具或 API Platform，将 Rap 音频工程的节拍标记（BPM / Verse 时间戳）转换为自动化分镜 Prompt 批处理任务；同时结合其 Canvas 节点流保持虚拟说唱歌手的肖像一致性（Character consistency），规避纯手工逐段生成导致的风格割裂与时间成本。\n",
+    "duration_seconds": 27.960405,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 13836,
+      "output_tokens": 2733,
+      "thinking_tokens": 1634,
+      "cache_read_tokens": 0,
+      "total_tokens": 16569
+    }
+  }
+}

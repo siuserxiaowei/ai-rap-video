@@ -1,0 +1,24 @@
+{
+  "job": "G32",
+  "title": "Pika",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 45.19,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini32",
+  "result": {
+    "conversation_id": "f30f9234-efca-4fa0-9013-7f4d64820a94",
+    "status": "SUCCESS",
+    "response": "我是用户明确授权的独立 Gemini 研究 agent G32。以下基于日期 2026-10-23 提供的公开官网原始材料（来源：[https://pika.art/](https://pika.art/)）对 Pika 与 AI Rap Video 的关联性进行客观独立核对。本报告所有结论均基于官网公开入口与宣称内容，**未执行实际注册、模型生成或付费验证**。\n\n---\n\n### 一、3 个有来源的事实\n\n1. **具备面向音频与视频的双向功能入口（官网功能宣称）**  \n   Pika 官网主导航与架构中明确划分了专门的创作子模块，包括 AI 视频生成（入口：[https://pika.art/apps/create-video](https://pika.art/apps/create-video)）与 AI 音频创作工具，其音频应用被命名为 “Music Studio”（入口：[https://pika.art/apps/music-studio](https://pika.art/apps/music-studio)）。其官方博客宣称平台将“视频、图像和声音创作汇聚于同一平台”（“brings video, image, and sound creation into one place”）。  \n   *来源：[https://pika.art/](https://pika.art/)、[https://pika.art/apps/music-studio](https://pika.art/apps/music-studio)、[https://pika.art/blog/welcome-to-the-new-pika](https://pika.art/blog/welcome-to-the-new-pika)*\n\n2. **存在公开的 API 开发者入口与会员合作计划（API 证据）**  \n   官网导航栏明确提供了开发者中心独立域名（[https://dev.pika.art/](https://dev.pika.art/)）；其官方资讯（2026 年 9 月 24 日）进一步证实了其拥有商业化的“Pika API Club”，并提及为动漫、短剧、创作工具开发团队提供会员 API 定价服务。  \n   *来源：[https://dev.pika.art/](https://dev.pika.art/)、[https://pika.art/blog/api-member-spotlights](https://pika.art/blog/api-member-spotlights)*\n\n3. **提供外部对话平台插件集成与多模态模型聚合（集成生态）**  \n   官网公布的官方动态（2026 年 10 月 16 日）表明，Pika 现已支持 ChatGPT 插件扩展（Pika x ChatGPT plugin extension），官方宣称在单个会话环境下整合了 40+ 创作应用以及 100+ 用于图像、视频与声音的生成式媒体模型。  \n   *来源：[https://pika.art/blog/pika-chatgpt-plugin](https://pika.art/blog/pika-chatgpt-plugin)*\n\n---\n\n### 二、1 个待核点\n\n* **待核实：AI Rap 核心能力边界与免费/定价梯次细节**  \n  官网虽然提供了 Pricing 入口（[https://pika.art/pricing](https://pika.art/pricing)）与 Music Studio 应用链接，但在本次给出的公开文本中未披露具体的免费生成额度、商用授权限制或按调用量计费的门槛。同时，对于 AI Rap Video 极为关键的“歌词/人声精准节奏对齐（BPM Flow 对齐）”及“角色唇形同步（Lip-sync）”，在首页宣传中仅笼统归为音视频创作，尚无法仅凭文字断定其是否原生支持音画严格对齐还是仅为背景音乐与氛围视频的独立拼装。因未执行付款与测试生成，该项细节属于**待进一步实测与文档核实点**。\n\n---\n\n### 三、1 个产品建议\n\n* **建议建立“API 镜头 B-Roll 渲染 + 外部精准音画对齐”的混合工作流**  \n  鉴于 Pika 已具备明确的 API 支持（[https://dev.pika.art/](https://dev.pika.art/)）与视频/音频套件，但 AI Rap Video 对说唱咬字、重音节奏与面部动效要求极高，建议产品架构设计时：先利用其 API 评估是否开放了音频与视频合并生成的精确时间戳参数；若不支持精细唇形同步，应将 Pika 定位为高质量 Rap MV 意境镜头（B-roll）的自动化生成器，由自有流水线负责说唱人声音轨生成与最终的混剪封装，避免过早依赖其一键式端到端生成。\n",
+    "duration_seconds": 25.292394,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 10057,
+      "output_tokens": 2863,
+      "thinking_tokens": 1808,
+      "cache_read_tokens": 0,
+      "total_tokens": 12920
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "job": "G11",
+  "title": "DuoRap AI",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 38.47,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini11",
+  "result": {
+    "conversation_id": "abc806f6-9a74-4fcf-b97e-e9445dc90b00",
+    "status": "SUCCESS",
+    "response": "**研究报告：DuoRap AI 平台与 AI Rap Video 业务分析**  \n**研究员**：Gemini 独立研究 Agent G11  \n**日期**：2026-10-23  \n**分析说明**：本分析严格基于用户提供的公开网页材料（来源：[https://duorapai.com/](https://duorapai.com/)），未调用任何工具与本地文件，未在平台执行实际付款或视频生成操作；以下分析严格区分“官网宣称”与“实测验证”。\n\n---\n\n### 一、 核心功能与业务形态核对\n\n1. **输入与输出模式**：官网宣称用户仅需在网页端上传两张照片（如双人合影、情侣、宠物等），选择舞台场景、底层模型、分辨率与时长，即可输出带有原创歌词、人声及口型同步（Lip-sync）的双人 Rap 视频（宣称为高清无水印纵向视频，支持下载）。输出模态同时涵盖音频（伴奏、歌词、人声）与视频（舞台画面、双人演出与口型匹配）。\n2. **定价与免费边界**：页面未披露任何零门槛的完全免费额度或免费试用方案。服务采取点数（Credits）预付费制，标准规格为 12 秒、720p 视频基准消耗 10 点。单次购买提供新人首单特惠（$4.99/10 点）及阶梯点数包（$9.99 至 $499 不等）；同时提供月费订阅制（$29.90/月 至 $99.90/月）。官网声明购买的点数永不过期，确认失败的任务将返还/不扣除点数。\n3. **底层模型与限制**：计费表列出了 Standard Seedance 2.0 Mini、Fast Seedance 2.0 Fast、Pro Seedance 2.0 及 Ultra Seedance 2.5 四种模型。功能受规格阶梯限制明显：480p 与 720p 开放全模型，而 1080p 仅开放 Pro 与 Ultra 模型（单条 12 秒需消耗 50–93 点）。\n4. **API 证据说明**：所提供的官网首页文本中未出现任何关于公开 API、开发者文档或 Webhook 接入的表述与证据；但基于“未知 API 不等于没有 API”原则，仅能认定该材料未披露开放 API，不能推断平台完全不存在后端或未公开接口。\n\n---\n\n### 二、 3 个有来源的事实\n\n1. **基准消耗与模型档位阶梯**：官网明确定义标准 720p、12 秒视频消耗 10 点点数，且 1080p 分辨率仅支持 Pro Seedance 2.0（50 点）与 Ultra Seedance 2.5（93 点），低阶模型不提供 1080p 选项。（来源：[https://duorapai.com/](https://duorapai.com/)）\n2. **新客首充优惠与失败退点承诺**：官网提供限时 14:59 倒计时的新客首单特惠包（$4.99 获 10 点，原价 $9.99），并在点数包与订阅细则中均载明“确认失败不扣点/返还预留点数”（Confirmed failures cost no credits）。（来源：[https://duorapai.com/#pricing](https://duorapai.com/#pricing)）\n3. **浏览器端免安装运行机制**：平台宣称所有操作及场景选择均可在浏览器内完成，无需额外下载 App，最终生成视频可在用户个人账户页面播放与下载。（来源：[https://duorapai.com/](https://duorapai.com/)）\n\n---\n\n### 三、 1 个待核点\n\n* **多模态对齐实测质量与真实生成耗时**：官网宣传的“原创歌词、人声与口型高度同步”属于营销宣称。因本次未实际支付并提交图片渲染，其实际成片中双人面部口型匹配度、音乐节拍与说唱声线自然度，以及在各 Seedance 模型下的平均排队生成时间，仍属待实测核验项。\n\n---\n\n### 四、 1 个产品建议\n\n* **引入低分辨率试看机制（Free Tier / Low-Res Preview）**：当前缺乏免费试用路径，用户初次尝试门槛为 $4.99 或 $9.99。建议针对首次注册用户开放一次低分辨率（如 480p、6 秒或带水印）的免费试生成，降低获客决策阻力，增强对口型与音画质量的实际信任度。\n",
+    "duration_seconds": 23.099081,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 9354,
+      "output_tokens": 2459,
+      "thinking_tokens": 1373,
+      "cache_read_tokens": 0,
+      "total_tokens": 11813
+    }
+  }
+}

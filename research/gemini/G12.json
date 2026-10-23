@@ -1,0 +1,24 @@
+{
+  "job": "G12",
+  "title": "AI-Rap.Video",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 41.18,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini12",
+  "result": {
+    "conversation_id": "10b80a88-ef6f-4113-b236-38ffcb868b42",
+    "status": "SUCCESS",
+    "response": "### 研究报告：AI-Rap.Video 独立分析\n\n- **研究 Agent**：G12（独立 Gemini 研究 Agent）\n- **任务目标**：AI-Rap.Video 网站功能与产品特性分析\n- **分析日期**：2026-10-23\n- **测试状态说明**：本次分析仅基于官网公开页面数据，未注册账户、未购买点数、未执行实际任务生成，故所有功能与效果均归类为**官网公开宣称**，不作为端到端实测验证。\n\n---\n\n### 一、产品定位与核心功能核对\n\n[AI-Rap.Video](https://ai-rap.video/) 定位为一个双人对唱型 AI 说唱视频在线生成器，主打简化制作流程（“无需录音室与剪辑轴”）。\n\n1. **输入与输出**：\n   - **输入**：支持上传 2 张单人肖像或 1 张双人合照（格式支持 JPG、PNG、WebP，单张上限 20 MB），选择舞台场景，以及输入不超过 240 字符的自定义说唱主题（可选）。\n   - **输出**：生成一段时长为 12 秒、分辨率为 720p 的 MP4 视频，支持 9:16、1:1、16:9 三种画幅比例。\n2. **视频与音频能力**：\n   - 宣称使用具备原生音频生成能力（native audio）的模型，可同时合成说唱人声与伴奏节奏（beat），并驱动人物动作与口型同步。\n3. **定价与免费边界**：\n   - **无免费额度**：官网明确说明注册并不包含免费点数（“Signing up does not include free credits”）。\n   - **计费机制**：生成单支 12 秒视频固定消耗 84 点数（credits），用户可选择单次购买或按月订阅套餐。\n4. **API 证据**：\n   - 页面提示“Your photos are stored for the job and sent to our video provider”，表明其后端依赖外部或专有第三方视频生成服务接口。但公开页面未提供任何开发者文档、OpenAPI 规范或 API Key 申请入口（注：未见公开文档不等于系统无内部/私有 API）。\n5. **限制与免责**：\n   - 明确指出面部/服装还原度、音质、歌词、对唇及相貌相似度存在波动；\n   - 严禁成人/NSFW、冒充他人或欺骗性代言内容。\n\n---\n\n### 二、3 个有来源的事实\n\n1. **零免费体验门槛与固定计费单价**：该平台完全不提供新用户免费试用额度，生成单支 12 秒（720p）说唱视频固定计费 84 积分，需通过单买或月度订阅获取积分。（来源：[https://ai-rap.video/](https://ai-rap.video/)）\n2. **输入格式与双人识别约束**：系统仅支持 JPG/PNG/WebP 格式（单张 ≤ 20 MB），模式分为双单人照或单双人照，明确限制单张肖像不得重复上传两次，文字主题输入上限为 240 字符。（来源：[https://ai-rap.video/](https://ai-rap.video/)）\n3. **语言适应逻辑与隐私流转**：说唱语言默认跟随当前界面语种（支持英、中、西、葡、法、意 6 种）或输入的主题语种；同时，用户上传的人像照片会被存储并中转分发给其视频模型提供商。（来源：[https://ai-rap.video/](https://ai-rap.video/)）\n\n---\n\n### 三、1 个待核点\n\n- **底层视频提供商（Video Provider）与 API 架构待核实**：页面明示人像数据会流转至第三方视频提供商，但未公布具体供应商（如 Runway、Kling、Luma 或自建端点）及数据留存期限；亦未公开是否存在 B 端商业开放 API。后续需通过抓包网络请求或咨询商业授权以验证其技术真实底座与安全边界。\n\n---\n\n### 四、1 个产品建议\n\n- **提供低成本试玩或音频先行预览机制**：目前“注册即零免费额度 + 预付 84 积分”的强门槛在生成效果（口型、像真度、发音）存在宣称波动的背景下极易造成付费流失。建议提供“免视频渲染的纯音频 Beat 试听”或“首充前赠送 5 秒低分辨率水印预览”，以降低付费转化摩擦。\n",
+    "duration_seconds": 24.027778,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 8761,
+      "output_tokens": 2302,
+      "thinking_tokens": 1236,
+      "cache_read_tokens": 0,
+      "total_tokens": 11063
+    }
+  }
+}

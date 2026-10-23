@@ -1,0 +1,24 @@
+{
+  "job": "G43",
+  "title": "供应商 API 与接入证据",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 97.04,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini43",
+  "result": {
+    "conversation_id": "8ef69c2c-8deb-44ec-bb70-aef2fa3fe192",
+    "status": "SUCCESS",
+    "response": "**审查日期**：2026-10-23  \n**研究 Agent**：G43  \n**审查范围与原则**：本审查仅基于用户提供的公开网页文本数据。本轮未执行任何实际代码生成、请求调用或付款充值，因此所有结论仅代表“官网宣称与页面公开数据审查”，不构成“实测验证”；未能访问的页面不计入已验证。不引用任何歌词。\n\n---\n\n### 一、 证据支持的结论（官网宣称层面）\n\n1. **多模态包装与端到端 Web 生成为主**：\n   - [OctoScale.ai](https://octoscale.ai/ai-rap-video-generator) 宣称提供输入主题后自动生成歌词、伴奏与 20–60 秒对齐垂直视频的一站式 Web SaaS 工作流。\n   - [DuoRap AI](https://duorapai.com/) 与 [ai-rap.video](https://ai-rap.video/) 均宣称支持上传 2 张单人照或 1 张双人照，输入主题即可生成 12 秒、720p 且带原声音频的双人说唱视频。\n   - [CapCut](https://www.capcut.com/features/ai-rap-video-generator) 罗列了 Dreamina AI、Gemini Omni、Codex 插件及语音/视频编辑等多种功能模块。\n2. **上游依赖与转售特征明显**：\n   - [ai-rap.video](https://ai-rap.video/) 明确注明用户照片将“sent to our video provider”，证实其底层依赖第三方视频供应商能力，属于套壳包装服务。\n\n---\n\n### 二、 证据缺口与反例\n\n1. **直接供应商 API 接入证据缺失**：\n   - 所给材料中，[OctoScale.ai](https://octoscale.ai/ai-rap-video-generator)、[DuoRap AI](https://duorapai.com/) 与 [ai-rap.video](https://ai-rap.video/) 均仅展示前端表单（如 `#studio`、`#generator`）与计费点数体系（如 10 点或 84 点/视频），未披露任何 OpenAPI 规范、SDK、Webhook 或 HTTP 接口文档。\n   - [Media.io](https://www.media.io/ai/explore/zone/ai-rap-video-generator) 导航栏虽出现“CLI”词条，但页面主体均为社区展示与前端创作入口，未提供可调用的 CLI 参数规范或 API 鉴权说明。\n   - 未知 API 不等同于绝对没有 API，但在所给材料内，**不存在任何直接可编程接入的技术凭证**。\n2. **页面失效反例**：\n   - [tryh3.com/generator/ai-rap-video](https://tryh3.com/generator/ai-rap-video) 请求出现 15000ms 超时（TimeoutError, 状态码 422/42206），按照审查规则，该失败页面直接判定为“未验证/不可用”。\n\n---\n\n### 三、 可验收开发任务建议\n\n为推进后续工程接入，建议建立如下可验收任务：\n\n1. **开发者通道与协议嗅探验证**：\n   - 目标：核实 [Media.io](https://www.media.io/ai/explore/zone/ai-rap-video-generator) 的 CLI 功能以及 [CapCut](https://www.capcut.com/tools/capcut-x-codex) 插件体系是否包含公开开发者 Token 机制。\n   - 验收标准：产出官方 API 文档链接或可运行的非浏览器 HTTP 鉴权请求 cURL 样本；若无，输出闭源确证。\n2. **上游供应商逆向与直采调研**：\n   - 目标：针对 [ai-rap.video](https://ai-rap.video/) 提及的“video provider”，排查其底层实际提供双人照片驱动对口型视频生成的上游源头 API。\n   - 验收标准：定位 1 家具备成熟 RESTful 端点的直属生成模型服务商并完成 OpenAPI 规格书备案。\n3. **服务异常与超时容错模块**：\n   - 目标：针对类似 `tryh3.com` 的 422/超时故障设计降级方案。\n   - 验收标准：网关层实现熔断与重试逻辑，单次生成请求超时阈值与状态监控自动化测试通过率达 100%。\n",
+    "duration_seconds": 27.907267,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 15248,
+      "output_tokens": 2914,
+      "thinking_tokens": 1877,
+      "cache_read_tokens": 0,
+      "total_tokens": 18162
+    }
+  }
+}

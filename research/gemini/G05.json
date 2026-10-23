@@ -1,0 +1,24 @@
+{
+  "job": "G05",
+  "title": "RapVideoAI",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 40.16,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini05",
+  "result": {
+    "conversation_id": "b7808d2e-bc18-46ba-b52b-08f651632a7c",
+    "status": "SUCCESS",
+    "response": "### RapVideoAI 独立调研与评估报告 (Agent G05)\n\n**调研日期**：2026-10-23  \n**研究对象**：[RapVideo AI](https://rapvideoai.com/)  \n**说明**：本次研究严格依据所提供的公开网页材料进行静态信息核验。因未在此流程中执行真实图片上传、视频渲染生成及付费购买，以下涉及生成质量、耗时与扣费的描述均归类为**官网宣称规格**，不代表实测结果。\n\n---\n\n#### 一、产品功能与核心维度核对\n\n1. **输入与输出**：\n   - **输入**：用户提供 1~2 张正面自拍照片（支持单人、双人合照或单张合影，另有宠物模式扩展）、可选的定制化文本（包含受赠人姓名、场合如生日/纪念日等细节）。\n   - **输出**：宣称在约 2~3 分钟内输出带口型同步（Lip-sync）、原创伴奏（Beat）与合成说唱人声（Vocals）的视频，标准规格为 720p、12 秒、9:16 竖屏 MP4（支持调整分辨率与比例）。\n2. **定价与免费边界**：\n   - 官网宣称按“积分（Credits）”扣除，基础模版通常需 10 积分（原版二创需 12 积分）。\n   - 商业订阅宣称每月 $29.90 美元获 10 首歌（折合每首约 $2.99），包年计划为 $299 美元/年（120 首）；未成功的渲染不收费，积分包宣称永不过期。\n   - 页面特别说明“付费视频提供无水印高清下载”，但并未在当前可见文本中明确界定是否存在完全免费试用的导出额度。\n3. **API 证据**：\n   - 页面所有公开导航及内容均面向 C 端/创作者界面，未发现公开的开发者 API 文档或接口接入凭证。但依据规范，**未知 API 不等于没有底层 API**，仅表明其暂未将 API 作为公开产品矩阵推广。\n\n---\n\n#### 二、3 个有明确来源的事实\n\n1. **多模版与二创热点绑定**：该平台核心卖点为流行说唱视觉趋势，不仅提供双人 orange booth 对唱的 Hotel Lobby 趋势模版，还拓展了 Drake、Bulin 47、Migos 等流行梗与舞蹈模版。  \n   *来源*：[https://rapvideoai.com/](https://rapvideoai.com/)、[https://rapvideoai.com/hotel-lobby-ai](https://rapvideoai.com/hotel-lobby-ai)\n2. **文本驱动歌词与自动化流程**：用户无需具备说唱与剪辑经验，仅需输入姓名与主题关键词，系统即宣称能自动生成定制押韵歌词并合成伴奏与音视频。  \n   *来源*：[https://rapvideoai.com/#generator](https://rapvideoai.com/#generator)\n3. **结构化梯队定价规则**：基础计划宣称为 $29.90/月（折合 $2.99/首），标准渲染耗费 10 积分，渲染失败不计费，且承诺积分长期有效。  \n   *来源*：[https://rapvideoai.com/#generator](https://rapvideoai.com/#generator)\n\n---\n\n#### 三、1 个待核点\n\n* **商业音乐与名人 IP 的版权授权边界待核实**：页面宣称提供原版伴奏二创（如 Hotel Lobby、Drake 场景、Gangnam Style 等），虽在免责声明中要求用户确保拥有肖像权，但平台本身使用原版音频及知名艺人视觉符号是否具备完整商业授权在材料中未予公开，存在潜在版权抗辩风险。\n\n---\n\n#### 四、1 个产品建议\n\n* **开放 Webhook/REST API 与分步微调能力**：建议竞品或自研 AI Rap 视频管线在保持“一键成片”低门槛的同时，开放独立音频轨（歌词/伴奏/人声分离试听）确认环节，并提供标准 API 接口，便于集成至电商营销、聚会活动等批量生成场景，形成差异化壁垒。\n",
+    "duration_seconds": 23.807823,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 15561,
+      "output_tokens": 2503,
+      "thinking_tokens": 1513,
+      "cache_read_tokens": 0,
+      "total_tokens": 18064
+    }
+  }
+}

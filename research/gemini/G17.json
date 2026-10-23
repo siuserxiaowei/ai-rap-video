@@ -1,0 +1,24 @@
+{
+  "job": "G17",
+  "title": "GoEnhance",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 64.67,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini17",
+  "result": {
+    "conversation_id": "9152d0d4-c1c1-4d5d-a50a-f09e288d6862",
+    "status": "SUCCESS",
+    "response": "我是独立 Gemini 研究 agent G17（日期：2026-10-23）。基于用户提供的 GoEnhance 官网公开材料（不调用任何外部工具或访问未授权文件），针对该平台与 **AI Rap Video（说唱视频制作）** 的关联度、功能、输入输出及工程可行性进行独立核对与分析。\n\n---\n\n### 与 AI Rap Video 的关系分析\n\n制作 AI Rap Video 的核心痛点是**高频人声口型匹配（Lip-sync）**、**角色一致性（Consistent Character）**、**舞台表演动作（Dance/Motion）**与**风格化 MV 视觉（Video-to-Video）**。从官网宣称功能来看，GoEnhance 具备承接说唱 MV 中后段视觉与数字人表演的完整工具链路：支持图像/文本/视频及音频输入，宣称可输出最高 4K 分辨率视频，并聚合了主流生成模型。\n\n---\n\n### 3 个有来源的事实\n\n1. **具备说唱角色驱动与口型同步能力（音频/人脸输入）**  \n   官网明确提供「AI Talking Avatar」（宣称上传人脸与声音即可让角色说话）以及「Lipsync Video」（宣称可将视频与音频自动对齐嘴型）。这构成了 AI 说唱歌手 MV 口型渲染的基础功能模块。  \n   *来源 URL*：[https://www.goenhance.ai/talking-avatar](https://www.goenhance.ai/talking-avatar) 、 [https://www.goenhance.ai/lip-sync](https://www.goenhance.ai/lip-sync)\n\n2. **存在官方 Open API 与会员计费通道**  \n   官网导航栏提供了明确的 API 与会员定价入口，其 API 入口直达 open-api 计费路径，证实该平台对外开放或规划了商业化 API 服务。  \n   *来源 URL*：[https://www.goenhance.ai/app/open-api/billing](https://www.goenhance.ai/app/open-api/billing) 、 [https://www.goenhance.ai/app/member?entry=nav_pricing](https://www.goenhance.ai/app/member?entry=nav_pricing)\n\n3. **提供多模态动作生成与多模型渲染能力**  \n   平台宣称提供「AI Dance Generator」、「Consistent Character Video」与「Video to Video（动漫风格转换）」，并聚合了 Wan 3.0、Kling 3.0、Veo 3.1 等视频底层模型，可覆盖说唱 MV 中的舞蹈律动、镜头切换与视觉风格化。  \n   *来源 URL*：[https://www.goenhance.ai/ai-dance](https://www.goenhance.ai/ai-dance) 、 [https://www.goenhance.ai/consistent-character-video-ai](https://www.goenhance.ai/consistent-character-video-ai) 、 [https://www.goenhance.ai/video-to-video](https://www.goenhance.ai/video-to-video)\n\n---\n\n### 1 个待核点\n\n* **说唱极速咬字下的口型对齐精度与免费/商用 API 额度规则（待实测验证）**  \n  *核对依据与限制*：官网标注文案仅展示「Try it free now」及「Try For Free」，但材料中未展开免费点数、水印机制、音频时长上限及 API 计费单价。此外，当前未执行真实生成与付款实测，说唱音乐具有高 BPM 与快速连读特性，其 Lipsync 模块能否准确识别密集音节而不出现面部崩坏或口型滞后，仍属待验证事项。\n\n---\n\n### 1 个产品建议\n\n* **构建“人声分离 + GoEnhance API 嘴型渲染”的轻量化 MV 插件**  \n  建议在上游音频管线完成说唱干声（Vocal Stem）提取与分句标记后，以 GoEnhance 的 Open API（`https://www.goenhance.ai/app/open-api/billing`）作为备选视频渲染节点，联动其一致性角色与 Lipsync 功能，批量跑通低成本虚拟说唱歌手的自动化分镜生成，规避本地搭建自驱数字人管线的高昂算力成本。\n",
+    "duration_seconds": 37.258325,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 16723,
+      "output_tokens": 2845,
+      "thinking_tokens": 1870,
+      "cache_read_tokens": 0,
+      "total_tokens": 19568
+    }
+  }
+}

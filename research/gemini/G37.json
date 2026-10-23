@@ -1,0 +1,24 @@
+{
+  "job": "G37",
+  "title": "VEED",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 44.76,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini37",
+  "result": {
+    "conversation_id": "6b028143-956a-41b8-be2d-aaff522e6d0e",
+    "status": "SUCCESS",
+    "response": "我是用户授权的独立研究 Agent G37。以下基于 2026-10-23 提供的 VEED 官网公开材料（[https://www.veed.io/](https://www.veed.io/)）所做出的独立分析。本报告严格区分**官网宣称**与**实测**：本次研究仅核对所给公开文本与导航证据，未在平台执行实际视频生成、音频渲染或付款测试，不得视作实测验证。\n\n---\n\n### 一、VEED 与 AI Rap Video 的功能与链路关系分析\n\n在 AI Rap Video（AI 说唱视频）的制作流水线中，通常需要经历：说唱歌词与脚本创作、伴奏与 Rap 人声合成、数字人/静态图驱动说唱口型匹配（Lip Sync）、动态歌词字幕生成，以及音视频多轨道合成输出。\n\n依据官网材料梳理其能力对齐情况：\n- **功能与视频/音频能力**：官网宣称覆盖了从脚本（`AI Script Generator`）、音乐生成（`AI Music Generator`）、人声克隆（`AI Voice Cloning`）、数字人与口型同步（`AI Lip Sync`、`Talking Photo`、`AI Avatars`），到后期字幕（`Auto Subtitle Generator`）和多轨剪辑（`Add Audio to Video`、`Video Editor`）的全链路工具。\n- **输入输出结构**：输入支持文字 Prompt、音频（MP3等）、图片与视频；输出涵盖社交平台适配规格（TikTok/Instagram/YouTube）的视频与音视频片段。\n- **定价与免费边界**：材料在 Tools 板块标注“free to try and right in your browser（在浏览器内可免费试用）”，并提供了 Pricing 入口；但本材料中未载明免费层具体的导水分辨率、是否有平台水印或月度生成时长上限。\n- **API 与自动化证据**：明确列有开发者与规模化工具入口，包括 `Fabric API`、`Video APIs` 以及独立 API 域名 `api.veed.io`，显示其具备向外部自动化工作流开放渲染与生成能力的定位。\n- **限制说明**：首页未给出快节奏音乐节奏对齐（BPM 对齐）或针对高速 Rap 押韵口型的专业调教功能描述，整体偏向通用社交视频制作。\n\n---\n\n### 二、3 个有来源的事实\n\n1. **具备说唱视频所需的口型同步与虚拟角色生成工具链（官网宣称）**  \n   VEED 官网公开导航列出了 `AI Lip Sync`（口型同步，对应 URL：[https://www.veed.io/tools/lip-sync-api](https://www.veed.io/tools/lip-sync-api)）与 `Talking Photo`（让照片说话，对应 URL：[https://www.veed.io/tools/ai-animation/talking-photo](https://www.veed.io/tools/ai-animation/talking-photo)），宣称能通过输入 Prompt 或角色资产生成视频与虚拟人形象（来源：[https://www.veed.io/](https://www.veed.io/)）。\n\n2. **支持说唱伴奏/音频混流与自动歌词字幕提取（官网宣称）**  \n   材料显示其集成有音乐生成器 `AI Music Generator`（[https://www.veed.io/tools/ai-music-generator](https://www.veed.io/tools/ai-music-generator)）、音频添加到视频 `Add Audio to Video`（[https://www.veed.io/tools/add-audio-to-video](https://www.veed.io/tools/add-audio-to-video)）以及自动字幕 `Auto Subtitle Generator`（[https://www.veed.io/tools/auto-subtitle-generator-online](https://www.veed.io/tools/auto-subtitle-generator-online)），具备承接说唱音轨合成与字幕动效的基础功能。\n\n3. **提供用于规模化视频生产的 API 基础设施（官网宣称）**  \n   材料明确载有 API 接入路径，包括工作流引擎 `Fabric API`（[https://www.veed.io/ai/fabric-1-0-api](https://www.veed.io/ai/fabric-1-0-api)）、`Video APIs`（[https://www.veed.io/api](https://www.veed.io/api)）及独立服务端入口 [https://api.veed.io/](https://api.veed.io/)，证实其存在对外开放 API 调用的产品规格。\n\n---\n\n### 三、1 个待核点\n\n- **待核实快节奏说唱下 Lip Sync 的真实音画同步率及免费试用（Free Tier）的具体限制边界**：  \n  官网材料虽标明“free to try”并列出 `lip-sync-api`，但未公布免费账户的导流水印规则、每月算力额度，且目前仅凭宣称无法确定其口型同步算法在面对每分钟高字频（高 BPM/Fast Rap）的说唱音频时，是否会出现丢帧或口型失同步；该项需在后续获取具体定价文档并在受控测试环境中进行音画对齐实测核验。\n\n---\n\n### 四、1 个产品建议\n\n- **在 AI Rap Video 场景下，将 VEED 定位为“下游自动化装配与字幕压制中台”，而非端到端单一创作源**：  \n  建议采用外部专业音乐模型生成高保真说唱音频，通过调用其 `Fabric API`（[https://www.veed.io/ai/fabric-1-0-api](https://www.veed.io/ai/fabric-1-0-api)）或 `api.veed.io`，批量完成“音频与人脸 Lip Sync 绑定 + 自动打轴歌词字幕（Auto Subtitles）+ 社交平台 9:16 画幅排版”，形成标准化批量发布管线。\n",
+    "duration_seconds": 32.676279,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 20202,
+      "output_tokens": 3056,
+      "thinking_tokens": 1692,
+      "cache_read_tokens": 0,
+      "total_tokens": 23258
+    }
+  }
+}

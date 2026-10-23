@@ -1,0 +1,24 @@
+{
+  "job": "G49",
+  "title": "失败重试与计费恢复",
+  "model": "gemini-3.8-flash-medium",
+  "command": "agy --model gemini-3.8-flash-medium --mode plan --output-format json --print-timeout 120s -p <public research prompt>",
+  "accepted": true,
+  "returncode": 0,
+  "elapsed_seconds": 40.94,
+  "worktree": "/Users/xiaowei/work/ai-rap-worktrees/gemini49",
+  "result": {
+    "conversation_id": "2293e1f0-d979-43c6-8c38-0dfe228d7be9",
+    "status": "SUCCESS",
+    "response": "### 研究审查：多模态视频平台“失败重试与计费恢复”机制审查\n\n- **审查员**：独立 Gemini 研究 Agent G49\n- **审查日期**：2026-10-23\n- **研究边界**：仅基于提供的 6 处公开网页样本数据，未访问本地文件，未调用任何外部工具。未执行实际调用、任务生成或真实付款测试，所有结论严格限定于样本数据之内，未知 API 不推定为不存在。\n\n---\n\n#### 1. 官网宣称与证据支持的结论\n\n1. **调度与性能宣称存在，但未提及计费恢复**  \n   - [Hedra](https://www.hedra.com/) 宣称其“World Model Runtime (WMR)”具备“Step-aware scheduling”，可协调生成步骤的批处理与缓存以优化吞吐与延迟，但正文未披露任务失败时的重试机制或资源/费用补偿规则。\n   - [DomoAI](https://domoai.app/) 宣称提供 API 文档（`https://docs.domoai.app/`）与定价入口（`https://www.domoai.app/pricing`），但给出的首页数据未披露任何关于生成失败时的重试策略与积分（Credits）回滚机制。\n   - [sync. labs](https://sync.so/) 宣称“lipsync any content w/ one api”，并提供了服务条款（`https://sync.so/terms`）与定价链接，但当前样本文字中未包含计费结算点、重试次数上限或退费逻辑。\n2. **非技术页面的数据缺失**  \n   - [Runway](https://runwayml.com/) 样本数据仅包含 Cookiebot 隐私政策与 Cookie 授权组件，无模型生成、异常重试或计费协议信息。\n   - [HeyGen](https://www.heygen.com/) 与 [Kling AI](https://klingai.com/) 样本仅展示了模型宣传、应用场景与 Prompt 样例描述，完全缺失底层 API 错误码处理与计费事务规则。\n\n---\n\n#### 2. 反例与关键证据缺口\n\n- **缺口 1：端到端重试机制规范缺失**  \n  样本内虽有多个 API 链接引用，但未包含具体 OpenAPI/Swagger 规范，无法获知上游是否支持基于 `Idempotency-Key` 的安全重试，无法断言网络抖动时重复提交是否会导致重复扣费。\n- **缺口 2：计费结算时机（预扣 vs 终态扣费）未知**  \n  样本未提供收费发生时间点（提交任务预扣、排队开始扣费、还是渲染成功后结算）。在排队超时或中间生成崩溃时，计费回退（Billing Rollback）的具体触发条件在材料中属未定义状态。\n- **缺口 3：实测状态为未执行**  \n  依据审查规范，因未执行真实生成与支付调用，不能将“官网未列明”等同于“平台不存在重试与退费逻辑”，亦不得声称任何实测结论。\n\n---\n\n#### 3. 可验收开发任务（自研中间层兜底设计）\n\n由于上游服务商未在材料中公开重试与计费恢复契约，下游集成必须在客户端/网关侧实现统一容错层：\n\n1. **任务一：实现幂等重试状态机（Retry State Machine）**  \n   - **内容**：针对上游 API（如 [DomoAI](https://domoai.app/)、[sync. labs](https://sync.so/)）封装统一调度网关，引入客户端唯一任务 UUID 与指数退避算法（Exponential Backoff）。  \n   - **验收标准**：模拟网络 5xx 与超时异常，重试上限设定为 3 次；相同任务 UUID 连续重试不生成重复 upstream job。\n2. **任务二：实现两阶段预扣与计费恢复事务（Two-Phase Billing Rollback）**  \n   - **内容**：设计“预冻结-成功结算-失败返还”的账户流水系统。  \n   - **验收标准**：当任务进入 `FAILED`、`TIMEOUT` 或触发终态异常时，本地系统在 500ms 内触发补偿事务全额解冻/返还配额，且生成可审计对账日志。\n3. **任务三：上游错误码与 SLA 契约探测套件**  \n   - **内容**：编写沙盒探测脚本，系统化验证上游服务在欠费、输入超长、中断及鉴权失败时的 HTTP 响应。  \n   - **验收标准**：形成包含 400/401/402/429/500 各状态码的行为矩阵表，明确区分“不可重试业务错误”与“可重试系统故障”。\n",
+    "duration_seconds": 29.659668,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 15873,
+      "output_tokens": 2773,
+      "thinking_tokens": 1669,
+      "cache_read_tokens": 0,
+      "total_tokens": 18646
+    }
+  }
+}
