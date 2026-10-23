@@ -1,0 +1,11 @@
+{
+  "id": "C35",
+  "agent_task": "c35_udio",
+  "site_id": "35",
+  "name": "Udio",
+  "original_commit": "f9205938fdadbea719331ff2bf08ec4721aad5bb",
+  "accepted_at": "2026-10-23T15:58:13.739614+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}

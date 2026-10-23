@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Integrate one reviewed research branch, validate records, reclaim clean worktree."""
-import argparse, datetime, json, subprocess
+import argparse, datetime, json, subprocess, sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT))
 REQUIRED={'id','name','url','category','checked_at','summary','inputs','outputs','features','pricing','api','limitations','best_for','evidence_status','sources','observations'}
 def git(*args):
     return subprocess.run(['git',*args],cwd=ROOT,check=True,capture_output=True,text=True).stdout.strip()
