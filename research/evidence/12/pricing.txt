@@ -1,0 +1,236 @@
+Title: Pricing | AI Rap Video
+
+URL Source: https://ai-rap.video/pricing
+
+Markdown Content:
+## Choose Your AI Rap Video Plan
+
+One balance for every live video model. Pick a plan and continue to secure checkout.
+
+Try one video
+
+### Single video
+
+Try one video. Pay once, no subscription.
+
+$0.118 / credit
+
+**$9.90**
+
+PayPal
+
+What this buys**AI rap duo**
+
+Estimated output**≈ 1 12s video**total · credits never expire
+
+Effective rate**$9.90 / 12s video**at this pack rate
+
+84 credits / 12s video · Unused credits stay in your balance.
+
+**84 credits · never expire**
+
+Plan details
+
+*   One 12-second AI rap video at 720p
+*   84 credits, added once
+*   No subscription or auto-renewal
+*   Unused credits never expire
+*   Confirmed failures restore credits
+
+No subscription
+
+### 252 credits
+
+For a focused batch of generations.
+
+$0.115 / credit
+
+**$28.90**
+
+PayPal
+
+What this buys**AI rap duo**
+
+Estimated output**≈ 3 12s videos**total · credits never expire
+
+Effective rate**$9.63 / 12s video**at this pack rate
+
+84 credits / 12s video · Unused credits stay in your balance.
+
+**252 credits · never expire**
+
+Plan details
+
+*   252 credits
+*   Never expires
+*   No subscription required
+
+No subscription
+
+### 840 credits
+
+More room for production without a plan.
+
+$0.113 / credit
+
+**$94.90**
+
+PayPal
+
+What this buys**AI rap duo**
+
+Estimated output**≈ 10 12s videos**total · credits never expire
+
+Effective rate**$9.49 / 12s video**at this pack rate
+
+84 credits / 12s video · Unused credits stay in your balance.
+
+**840 credits · never expire**
+
+Plan details
+
+*   840 credits
+*   Never expires
+*   No subscription required
+
+No subscription
+
+### 1,680 credits
+
+Our largest flexible one-time credit pack.
+
+$0.107 / credit
+
+**$179**
+
+Quantity 1x
+
+$179 total · one time
+
+PayPal
+
+What this buys**AI rap duo**
+
+Estimated output**≈ 20 12s videos**total · credits never expire
+
+Effective rate**$8.95 / 12s video**at this pack rate
+
+84 credits / 12s video · Unused credits stay in your balance.
+
+**1,680 credits · never expire**
+
+Plan details
+
+*   1,680 credits
+*   Never expires
+*   No subscription required
+
+secure checkout
+
+Payment details stay with PayPal
+
+Model costs
+
+## Know the rate before choosing a plan
+
+These starting rates come from the same public configuration used by the quote shown before each job. Settings that change cost are called out instead of hidden.
+
+### Video models
+
+*   **AI rap duo**720p · 12s starting configuration; duration, resolution, and references can change the quote
+
+**84 credits / 12s video**
+
+One 12-second, 720p AI rap video costs 84 credits, including audio. Confirmed failed generations restore reserved credits; unconfirmed requests remain reserved until checked.
+
+Plan finder
+
+## Estimate your monthly credits
+
+Use a real output target instead of guessing from plan names. This estimate is a starting point; the generator always shows the exact cost before a job starts.
+
+How many 12s videos do you want to create each month? 1 12s videos
+
+This estimate uses the lowest-cost live setup at 84 credits per video.
+
+Closest monthly plan
+
+### Creator
+
+84 estimated credits fit inside this plan's 168-credit monthly refill.
+
+For occasional use, one $9.9 one-time 84-credit pack costs less and requires no subscription.
+
+Monthly price$19
+
+Included 168 credits
+
+Starting capacity 2 minimum-cost 12s videos
+
+Compare
+
+## Every option, one source of truth
+
+These values come from the same configuration used to create checkout and grant credits after payment.
+
+| Option | Price | Credits | Starting capacity | Best for |
+| --- | --- | --- | --- | --- |
+| **Single video**No subscription | $9.9 one time | 84 | Up to 1 minimum-cost 12s video | Try one video. Pay once, no subscription. |
+| **Creator**Renews monthly | $19 / month | 168 / month | Up to 2 minimum-cost 12s videos | For regular individual creative work. |
+| **Studio**Renews monthly | $46 / month | 420 / month | Up to 5 minimum-cost 12s videos | For campaigns and higher-volume production. |
+| **Max**Renews monthly | $89 / month | 840 / month | Up to 10 minimum-cost 12s videos | For larger workloads, with adjustable credit capacity. |
+| **252 credits**No subscription | $28.9 one time | 252 | Up to 3 minimum-cost 12s videos | For a focused batch of generations. |
+| **840 credits**No subscription | $94.9 one time | 840 | Up to 10 minimum-cost 12s videos | More room for production without a plan. |
+| **1,680 credits**No subscription | $179 one time | 1,680 | Up to 20 minimum-cost 12s videos | Our largest flexible one-time credit pack. |
+
+Know what you are buying
+
+## Clear billing, failure protection, and support
+
+One balance covers every live model on this site; there is no hidden model-specific wallet.
+
+### Secure payment
+
+Payment details stay with your selected payment provider.
+
+[Read the Terms](https://ai-rap.video/terms)
+### Confirmed failure protection
+
+Reserved credits return when a request definitely did not start or the provider confirms terminal failure. Uncertain outcomes remain held for reconciliation.
+
+[Read the refund policy](https://ai-rap.video/refund)
+### Manageable renewal
+
+Manage your subscription from your account. Each payment provider has its own billing controls.
+
+[Open account](https://ai-rap.video/account)
+
+FAQ
+
+## Billing without surprises
+
+Plan selection changes how credits are added, not the visibility of the cost before a job.
+
+How do credits work?+
+Credits are charged per AI rap video. The amount is shown before you submit. A 12-second, 720p video costs 84 credits.
+
+Do unused credits roll over?+
+Yes. Credits are added to one account balance instead of resetting each month. They remain available while your account is active.
+
+Can I buy credits without a subscription?+
+Yes. Buy a single video with a one-time payment, or choose a monthly plan. One-time purchases do not renew.
+
+What happens if a job fails?+
+Reserved credits are restored when a generation is confirmed failed. If the provider outcome is uncertain, check the original request before starting another video.
+
+How do I change or cancel a subscription?+
+Open your account to manage your subscription with its payment provider. Each payment provider has its own billing controls.
+
+Ready when you are
+
+## Start with the account.  
+Scale only when you need to.
+
+The account is the entry point; paid credits only become necessary when your balance no longer covers the setup you choose.
+
+[Open the workspace](https://ai-rap.video/)

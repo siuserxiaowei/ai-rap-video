@@ -1,0 +1,139 @@
+{
+  "id": "12",
+  "name": "AI-Rap.Video",
+  "url": "https://ai-rap.video/",
+  "category": "rap",
+  "checked_at": "2026-10-23",
+  "summary": "以双人照片、舞台和可选主题生成含说唱人声及节拍的短视频。官网初始配置为 12 秒、720p、84 credits，支持带声 MP4 下载。以下为官网声明，未实际生成。",
+  "inputs": [
+    "每人一张清晰人像照，或一张双人合照",
+    "JPG / PNG / WebP；单张上限 20 MB",
+    "舞台场景选择",
+    "可选说唱主题，上限 240 字符",
+    "9:16、1:1 或 16:9 画幅选择"
+  ],
+  "outputs": [
+    "12 秒、720p 初始配置视频",
+    "含生成说唱人声及节拍的 MP4",
+    "账号历史中保存生成结果"
+  ],
+  "features": [
+    "照片引导双人说唱表演",
+    "主题引导原创歌词、人声和节拍（供应商声明）",
+    "支持英语、中文、西班牙语、葡萄牙语、法语、意大利语；主题语言可引导说唱语言",
+    "生成前显示积分报价",
+    "确认生成失败后恢复预留积分"
+  ],
+  "pricing": {
+    "summary": "12 秒、720p 含音频视频的起始费用为 84 credits。单次包 $9.90 / 84 credits；另有月付与一次性积分包，具体配置可能改变报价。",
+    "free_tier": "首页明确：注册不包含免费 credits，未列免费生成额度。",
+    "plans": [
+      {
+        "name": "Single video",
+        "amount": 9.9,
+        "currency": "$",
+        "billing_period": "one_time",
+        "credits": 84,
+        "notes": "约 1 条最低成本配置视频；一次性积分不失效，无自动续订。"
+      },
+      {
+        "name": "Creator",
+        "amount": 19,
+        "currency": "$",
+        "billing_period": "month",
+        "credits": 168,
+        "notes": "每月补充 168 credits；约 2 条最低成本配置视频。"
+      },
+      {
+        "name": "Studio",
+        "amount": 46,
+        "currency": "$",
+        "billing_period": "month",
+        "credits": 420,
+        "notes": "每月补充 420 credits；约 5 条最低成本配置视频。"
+      },
+      {
+        "name": "Max",
+        "amount": 89,
+        "currency": "$",
+        "billing_period": "month",
+        "credits": 840,
+        "notes": "每月补充 840 credits；约 10 条最低成本配置视频；页面称容量可调整。"
+      },
+      {
+        "name": "252 credits",
+        "amount": 28.9,
+        "currency": "$",
+        "billing_period": "one_time",
+        "credits": 252,
+        "notes": "约 3 条最低成本配置视频；一次性积分不失效。"
+      },
+      {
+        "name": "840 credits",
+        "amount": 94.9,
+        "currency": "$",
+        "billing_period": "one_time",
+        "credits": 840,
+        "notes": "约 10 条最低成本配置视频；一次性积分不失效。"
+      },
+      {
+        "name": "1,680 credits",
+        "amount": 179,
+        "currency": "$",
+        "billing_period": "one_time",
+        "credits": 1680,
+        "notes": "约 20 条最低成本配置视频；一次性积分不失效。"
+      }
+    ],
+    "source_url": "https://ai-rap.video/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "所读公开首页和价格页未发现开发者 API 文档；独立访问 /api 返回 404。这不证明服务没有 API。",
+    "url": null
+  },
+  "limitations": [
+    "未付款或实际提交生成，无法评价生成质量、速度或稳定性。",
+    "官网提示面部、服装还原度、人声、歌词、口型同步可能变化。",
+    "需取得照片中人物同意与图片使用权；官网禁止成人内容、冒充或误导性代言。",
+    "照片会为任务存储并发送至其视频供应商。",
+    "供应商结果不确定时积分继续预留，待核对后处理；只有确认失败才恢复。",
+    "12 秒、720p 是初始配置；其他时长、分辨率或参考条件的可用性及费用未实测。"
+  ],
+  "best_for": "希望用自己与朋友照片制作生日调侃、好友互动或庆祝主题双人说唱短片的个人用户。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://ai-rap.video/",
+      "title": "AI Rap Video Generator | AI Rap Video",
+      "kind": "official",
+      "local_path": "research/evidence/12/homepage.txt",
+      "supports": [
+        "输入输出、时长、分辨率、84 credits、注册无免费额度、语言、限制"
+      ]
+    },
+    {
+      "url": "https://ai-rap.video/pricing",
+      "title": "Pricing | AI Rap Video",
+      "kind": "pricing",
+      "local_path": "research/evidence/12/pricing.txt",
+      "supports": [
+        "单次和月付价格、积分、失败恢复与余额规则"
+      ]
+    },
+    {
+      "url": "https://ai-rap.video/api",
+      "title": "404 - Page not found（探测路径）",
+      "kind": "official",
+      "local_path": "research/evidence/12/api-404.txt",
+      "supports": [
+        "该探测路径返回 404；不能据此断言不存在 API"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：将照片、场景、主题和固定长度报价放在同一入口，有助于个人用户快速理解单次双人娱乐创作的成本。",
+    "推断：明确披露口型及人物还原度可能变化，可作为同类产品在生成前设置预期的参考。",
+    "仅检查公开页面；未运行生成任务。"
+  ]
+}
