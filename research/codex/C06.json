@@ -1,0 +1,11 @@
+{
+  "id": "C06",
+  "agent_task": "c06_airapvid",
+  "site_id": "06",
+  "name": "Airapvid",
+  "original_commit": "6f9d493",
+  "accepted_at": "2026-10-23T15:29:25.008329+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}
