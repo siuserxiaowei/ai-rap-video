@@ -1,0 +1,16 @@
+test_all_supported_options_and_boundaries (test_briefs.BriefTests) ... ok
+test_defaults_are_normalized_without_mutating_input (test_briefs.BriefTests) ... ok
+test_invalid_fields_rejected (test_briefs.BriefTests) ... ok
+test_sqlite_reopen_roundtrip_and_unknown_id (test_briefs.BriefTests) ... ok
+test_threaded_creates_are_durable_and_unique (test_briefs.BriefTests) ... ok
+test_duplicate_primary_domain_rejected_and_stats_deduplicated (test_catalog.CatalogTests) ... ok
+test_evidence_missing_traversal_absolute_and_symlink_rejected (test_catalog.CatalogTests) ... ok
+test_full_page_needs_successful_primary_source (test_catalog.CatalogTests) ... ok
+test_load_filter_and_json_stats (test_catalog.CatalogTests) ... ok
+test_loading_reports_filename_and_invalid_json (test_catalog.CatalogTests) ... ok
+test_price_numbers_and_credit_labels (test_catalog.CatalogTests) ... ok
+test_repository_records_validate_without_assuming_final_count (test_catalog.CatalogTests) ... ok
+test_schema_errors_are_field_specific (test_catalog.CatalogTests) ... ok
+test_bad_json_fields_mime_and_body_limit (test_server.ServerTests) ... ok
+test_catalog_queries_stats_decisions (test_server.ServerTests) ... ok
+test_optional_module_wire_adapters (test_server.ServerTests) ... 
