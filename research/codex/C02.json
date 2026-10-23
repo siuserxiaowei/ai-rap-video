@@ -1,0 +1,11 @@
+{
+  "id": "C02",
+  "agent_task": "c02_rapvideo",
+  "site_id": "02",
+  "name": "RapVideo.ai",
+  "original_commit": "4e198a3652eab013c883bff277147ce876194494",
+  "accepted_at": "2026-10-23T15:29:14.347226+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}

@@ -1,0 +1,11 @@
+{
+  "id": "C04",
+  "agent_task": "c04_airapvideo",
+  "site_id": "04",
+  "name": "AIRapVideo",
+  "original_commit": "877bfa8e6b63a482cbc24f48800f3de6142ff1ed",
+  "accepted_at": "2026-10-23T15:29:14.545459+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}

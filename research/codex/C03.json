@@ -1,0 +1,11 @@
+{
+  "id": "C03",
+  "agent_task": "c03_rapreel",
+  "site_id": "03",
+  "name": "RapReel",
+  "original_commit": "6e049d167603a1d7e9f9ae3054382fce6ac8b615",
+  "accepted_at": "2026-10-23T15:29:14.436617+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}

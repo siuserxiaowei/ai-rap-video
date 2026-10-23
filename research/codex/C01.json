@@ -1,0 +1,11 @@
+{
+  "id": "C01",
+  "agent_task": "c01_rapvideogenerator",
+  "site_id": "01",
+  "name": "RapVideoGenerator",
+  "original_commit": "962a4180a53d30a92910e15e0ba12a5b5aa02bd1",
+  "accepted_at": "2026-10-23T15:29:14.273115+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}
