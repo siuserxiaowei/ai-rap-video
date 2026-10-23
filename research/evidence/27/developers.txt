@@ -1,0 +1,148 @@
+Title: HeyGen Developers - AI Video API for Developers
+
+URL Source: https://developers.heygen.com/
+
+Published Time: Thu, 22 Oct 2026 18:10:46 GMT
+
+Markdown Content:
+[New Try every model in the Playground](https://platform.heygen.com/models)
+
+[](https://developers.heygen.com/#)
+
+[API Docs](https://developers.heygen.com/docs/quick-start)[Research](https://www.heygen.com/research)[Pricing](https://platform.heygen.com/pricing)[Discord](https://developers.heygen.com/docs/discord)[Contact Sales](https://www.heygen.com/contact-us/sales)
+
+[Playground](https://platform.heygen.com/models)[API Key](https://platform.heygen.com/api-keys)
+
+# The video you imagine,  
+delivered into your system.
+
+We orchestrate avatars, voices, images, editing, music, and assets into deterministic, repeatable renders, and deliver production-ready video into your own stack. From one video to batches of thousands on HeyGen Cloud.
+
+[Video 4](https://developers.heygen.com/videos/fan-charly.mp4)[Video 5](https://developers.heygen.com/videos/fan-jx.mp4)[Video 6](https://developers.heygen.com/videos/fan-molly.mp4)
+
+Assistant
+## Tell us the job, not the video
+
+Onboarding walkthroughs, partner training, guided support — if your team repeats it by hand today, it can run as a persistent, programmable presence. Describe the work and the assistant maps it to the endpoints that automate it — before you write a line of code.
+
+Hey — what are you building? Give me the job, the audience, and the scale, and I'll map it to the right endpoints. Or pick one:Turn scripts into avatar videos at scale Translate videos into 30+ languages A real-time interactive avatar Prompt to finished video Clone or design a custom voice
+
+Architecture
+## One system layer between your application and the models
+
+Problems
+## Built for teams who ship video from their own systems
+
+![Image 1](https://developers.heygen.com/logos/wurth.jpg)
+
+![Image 2](https://developers.heygen.com/logos/miro.jpg)
+
+![Image 3](https://developers.heygen.com/logos/coursera.webp)
+
+![Image 4](https://developers.heygen.com/logos/wurth.jpg)
+
+![Image 5](https://developers.heygen.com/logos/miro.jpg)
+
+![Image 6](https://developers.heygen.com/logos/coursera.webp)
+
+“
+
+PROBLEM 01
+“We can update their lines as needed, without ever having to return to the studio.”
+
+Miro’s product-education videos star digital twins of their real presenters — when the product changes, the same trusted faces re-record through the API, no studio day required.
+
+Get started
+## Two ways to build
+
+### Self-serve
+
+*   From API key to your first video in minutes
+*   Every API — Avatars, Voices, Video Agent, Translation, Lipsync
+*   Batch APIs — up to 100 requests per call, webhooks included
+*   REST, CLI, and MCP
+
+[Get API Key](https://platform.heygen.com/api-keys)
+### Enterprise
+
+*   Upload consent for avatar generation at scale
+*   Higher concurrency and rate limits
+*   Reserved compute on HeyGen Cloud
+*   Custom workflows, built with a forward-deployed engineer in your stack
+
+[Talk to Sales](https://www.heygen.com/contact-us/sales)
+
+For agents
+## Agent ready by default
+
+Every endpoint ships with an MCP server, llms.txt, and typed schemas — so Claude, Cursor, and your own agents can generate video without glue code.
+
+[MCP](https://developers.heygen.com/mcp/overview)[CLI](https://developers.heygen.com/cli)Copy llms.txt for your agent
+
+❯ claude "make a 30s welcome video"
+
+⏺ Using heygen:generate_video…
+⏺ avatar=june_hd · voice=en-US-1
+⏺ render complete ✓ (42s)
+
+→ welcome_v1.mp4 · ready to ship
+
+Works with![Image 7](https://developers.heygen.com/logos/agents/claude.svg)Claude Code![Image 8](https://developers.heygen.com/logos/agents/openai.svg)Codex![Image 9](https://developers.heygen.com/logos/agents/nous.png)Hermes
+
+## Trusted by over 1,000,000 developers
+
+![Image 10](https://developers.heygen.com/logos/marquee/logo-1.svg)![Image 11](https://developers.heygen.com/logos/marquee/logo-2.svg)![Image 12](https://developers.heygen.com/logos/marquee/logo-3.svg)![Image 13](https://developers.heygen.com/logos/marquee/logo-4.svg)![Image 14](https://developers.heygen.com/logos/marquee/logo-5.svg)![Image 15](https://developers.heygen.com/logos/marquee/logo-6.svg)![Image 16](https://developers.heygen.com/logos/marquee/logo-7.svg)
+
+![Image 17](https://developers.heygen.com/logos/marquee/logo-1.svg)![Image 18](https://developers.heygen.com/logos/marquee/logo-2.svg)![Image 19](https://developers.heygen.com/logos/marquee/logo-3.svg)![Image 20](https://developers.heygen.com/logos/marquee/logo-4.svg)![Image 21](https://developers.heygen.com/logos/marquee/logo-5.svg)![Image 22](https://developers.heygen.com/logos/marquee/logo-6.svg)![Image 23](https://developers.heygen.com/logos/marquee/logo-7.svg)
+
+[](https://developers.heygen.com/#)
+
+#### Auth
+
+[API Key](https://developers.heygen.com/docs/api-key)
+
+#### User Info
+
+[Get Current User](https://developers.heygen.com/user-profile)
+
+#### Models
+
+[Models](https://developers.heygen.com/models)[Avatar V](https://developers.heygen.com/avatar-v)[Avatar IV](https://developers.heygen.com/avatar-iv)[Avatar III](https://developers.heygen.com/avatar-iii)
+
+#### Video Generation
+
+[Image to Video](https://developers.heygen.com/image-to-video)[Digital Twin](https://developers.heygen.com/generate-avatar-video)[Photo Avatar](https://developers.heygen.com/photo-avatar)[Audio to Video](https://developers.heygen.com/audio-to-video)[Cinematic Avatar](https://developers.heygen.com/cinematic-avatar)[Transparent Background Videos](https://developers.heygen.com/transparent-background-videos)
+
+#### Video Composition
+
+[Video Agent](https://developers.heygen.com/docs/video-agent)[Hyperframes](https://developers.heygen.com/hyperframes-overview)[Studio](https://developers.heygen.com/studio-videos)[Templates](https://developers.heygen.com/templates)
+
+#### On Brand
+
+[On Brand](https://developers.heygen.com/docs/on-brand)[Brand Kits](https://developers.heygen.com/docs/brand-kits)[Brand Glossary](https://developers.heygen.com/docs/brand-glossary)
+
+#### Realtime Video
+
+[Live Avatar (Conversation)](https://developers.heygen.com/live-avatar)
+
+#### Video Translation
+
+[Video Translation - Speed](https://developers.heygen.com/docs/video-translate)[Video Translation - Precision](https://developers.heygen.com/docs/video-translation-precision)
+
+#### Lipsync
+
+[Lipsync - Speed](https://developers.heygen.com/lipsync-speed)[Lipsync - Precision](https://developers.heygen.com/lipsync-precision)
+
+#### Tools
+
+[Background music](https://developers.heygen.com/background-music)[Sound effects](https://developers.heygen.com/sound-effects)[AI clipping](https://developers.heygen.com/ai-clipping)[Filler word removal](https://developers.heygen.com/filler-word-removal)
+
+#### Avatar Management
+
+[Create Avatar](https://developers.heygen.com/docs/create-avatar)[Avatar Consent](https://developers.heygen.com/docs/avatar-consent)[Avatar Groups](https://developers.heygen.com/docs/avatars)[Avatar Looks](https://developers.heygen.com/docs/avatar-looks)
+
+Copyright © 2026 HeyGen, Inc. All rights reserved.
+
+[Legal](https://www.heygen.com/terms)[Privacy](https://www.heygen.com/privacy-policy)© HeyGen 2026
+
+![Image 25](https://t.co/1/i/adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261280%261280%2610%2624%261280%261280%260%26na%261&eci=3&event=%7B%7D&event_id=fbc5d97c-230d-4bf6-8e2e-d2c159f89c91&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=8a585c90-6cf1-4eca-bc6e-eba0277e473d&tw_ch_fvl=Not%3AA-Brand%2F8.0.0.0%2CChromium%2F156.0.8078.47%2CGoogle%20Chrome%2F156.0.8078.47&tw_document_href=https%3A%2F%2Fdevelopers.heygen.com%2F&tw_engaged_ms=2&tw_iframe_status=0&tw_pid_src=1&tw_session_count=1&tw_session_id=1792768814208-854035008&tw_session_start=1&twpid=tw.1792768814208.477851914729915597&txn_id=of0u6&type=javascript&version=2.4.12)![Image 26](https://analytics.twitter.com/1/i/adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261280%261280%2610%2624%261280%261280%260%26na%261&eci=3&event=%7B%7D&event_id=fbc5d97c-230d-4bf6-8e2e-d2c159f89c91&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=8a585c90-6cf1-4eca-bc6e-eba0277e473d&tw_ch_fvl=Not%3AA-Brand%2F8.0.0.0%2CChromium%2F156.0.8078.47%2CGoogle%20Chrome%2F156.0.8078.47&tw_document_href=https%3A%2F%2Fdevelopers.heygen.com%2F&tw_engaged_ms=2&tw_iframe_status=0&tw_pid_src=1&tw_session_count=1&tw_session_id=1792768814208-854035008&tw_session_start=1&twpid=tw.1792768814208.477851914729915597&txn_id=of0u6&type=javascript&version=2.4.12)![Image 27](https://verifi.pdscrb.com/tag?action=view&user_id=f4583448-90a1-70d6-254c-7cbec31e3677&advertiser=heygen&referrer=_&session_referrer=_&session_landing_url=https%3A%2F%2Fdevelopers.heygen.com%2F&device_id=pscrb_ffc8a42d-474c-44bc-eba3-9f2401f17ebd&first_visited_at=1792768814255&stid=&ipv4=34.34.253.242&ipv6=&url=https%3A%2F%2Fdevelopers.heygen.com%2F&event_url=https%3A%2F%2Fdevelopers.heygen.com%2F&source=js-tag+v1.2.3&cachebust=1792768814740)

@@ -1,0 +1,222 @@
+Title: HeyGen: Create AI Videos with Your Personal Avatar
+
+URL Source: https://www.heygen.com/
+
+Markdown Content:
+## AI videos starring you, made in minutes
+
+Be your best self, every time.
+
+![Image 1: G2](https://www.heygen.com/assets_2025_redesign/_next/static/immutable/media/g2-dark.3-0l_lv0d5waz.svg)
+
+4.8 / 5 from 1,000+ reviews
+
+G2 #1 Most realistic avatars
+
+Forbes AI 50 Company
+
+Trusted by over 1,000,000 developers and leading companies.
+
+![Image 2: user icon](https://cdn.sanity.io/images/pdhqcmb1/production/9aeccbbb522e961fad052e236f168a94c60c8ed6-28x28.svg?w=40&h=40&fit=max&auto=format)AI Avatar Generator
+
+## The most lifelike avatars in AI video
+
+Character consistency is what separates a useful avatar from a gimmick. Avatar V delivers it across every angle, every expression, and every video you create.
+
+HeyGen Research
+
+## Avatar V: Scaling video-reference avatar generation
+
+Built on a five-stage AI training pipeline that captures not just how you look, but how you move, gesture, and express yourself.
+
+[Read the report](https://www.heygen.com/research/avatar-v-model)
+
+![Image 3: User icon.](https://cdn.sanity.io/images/pdhqcmb1/production/4b1912cc0c869e86683c12b740945622972cb0cf-28x28.svg?w=40&h=40&fit=max&auto=format)Video Agent
+
+## From idea to finished video with just a prompt
+
+Type your idea. Click generate. Get a share-ready video faster than you can think. No camera, editing software, or production skills needed. Download it, edit it, and share it instantly.
+
+![Image 4: tools icon](https://cdn.sanity.io/images/pdhqcmb1/production/ab823d59058a922bf42f42d53f8a2982f2eebb19-28x28.svg?w=40&h=40&fit=max&auto=format)AI Studio
+
+## All your creative needs in one environment
+
+The text-based editor makes [AI video generation](https://www.heygen.com/tool/ai-video-generator) as easy as writing a document. Control tone, delivery, gestures, and emotion in one seamless platform built for human-first storytelling.
+
+![Image 5: A video creation app showing a script editor on the left and an AI avatar presenting "Mastering social media marketing" on the right.](https://www.heygen.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpdhqcmb1%2Fproduction%2F29d79e95eb258b5757002064cc033881b7faf464-2816x1754.png%3Ffit%3Dmax%26auto%3Dformat&w=2048&q=75)
+
+![Image 6: Translation icon: Nested white speech bubbles on a blue background.](https://cdn.sanity.io/images/pdhqcmb1/production/9e4fe7ec0b5480fb35bfed846ca7058069a7b166-28x28.svg?w=40&h=40&fit=max&auto=format)Video Translation
+
+## Break language barriers in one click
+
+AI video translation that preserves your tone, syncs your lips, and reaches global audiences across 175+ languages and dialects.
+
+![Image 7: Blue gift box icon.](https://cdn.sanity.io/images/pdhqcmb1/production/f8f633c5a1347a90fc187cbf9004748aaff45db5-28x28.svg?w=40&h=40&fit=max&auto=format)AI Tools
+
+## Powerful AI tools for any creator
+
+HeyGen's AI video tools handle everything from avatar generation and voice cloning to captions, translation, and turning any input into polished video.
+
+[Get started for free](https://auth.heygen.com/)
+
+![Image 8: Explainer video for new project management software, surrounded by various video thumbnails.](https://www.heygen.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpdhqcmb1%2Fproduction%2F94d9d7713c87f3bcc561a7fb7a748a4b61da3681-500x280.png%3Ffit%3Dmax%26auto%3Dformat&w=2048&q=75)
+
+### Text to Video
+
+Create complete videos from a script using Text to Video. Our generator handles end-to-end editing and produces videos with voiceovers, visuals, and avatars.
+
+[Explore Tool](https://www.heygen.com/tool/text-to-video)
+
+![Image 9: A woman in a blue shirt next to an overlaid video of herself in a blazer speaking in an office, with a play button and 0:30 duration.](https://www.heygen.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpdhqcmb1%2Fproduction%2Fcdae4f3b301c8096c99d21247a7d60c816bf75ed-500x280.png%3Ffit%3Dmax%26auto%3Dformat&w=2048&q=75)
+
+### Image to Video
+
+Transform any image into a dynamic AI video in seconds. Add a script for realistic lip-sync, natural speech timing, and expressive voices.
+
+[Explore Tool](https://www.heygen.com/tool/image-to-video)
+
+![Image 10: Video of a smiling man with a microphone, a 50% volume slider, and a sound waveform on a green background.](https://www.heygen.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpdhqcmb1%2Fproduction%2F62f51538d713c66d14df9b5f2adb3d0c3e6515a1-500x280.png%3Ffit%3Dmax%26auto%3Dformat&w=2048&q=75)
+
+### Audio to Video
+
+Turn podcasts, voiceovers, or any audio file into engaging video with AI avatars, subtitles, and animations. No editing required.
+
+[Explore Tool](https://www.heygen.com/tool/audio-to-video-converter)
+
+![Image 11: Three stacked video call screens, with a red-haired woman in the foreground.](https://www.heygen.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpdhqcmb1%2Fproduction%2F44df2accfe95f6c9a33a506e2fda83b30b8be941-500x280.png%3Ffit%3Dmax%26auto%3Dformat&w=2048&q=75)
+
+### AI Video Generator
+
+Type your idea and click generate to get a finished video in minutes. No camera, editing software, or production skills needed. Download, edit, or share it.
+
+[Explore Tool](https://www.heygen.com/tool/ai-video-generator)
+
+![Image 12: AI avatar library for creating talking avatars and business presenters](https://www.heygen.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpdhqcmb1%2Fproduction%2F19cdcfff1b7031012bb7455a6303dabcc5de5287-500x280.png%3Ffit%3Dmax%26auto%3Dformat&w=2048&q=75)
+
+### AI Avatars
+
+Create business presenters, talking avatars, or custom characters with studio-quality results. Type, upload, and generate to design, edit, and animate avatars.
+
+[Explore Tool](https://www.heygen.com/avatars/ai-video-avatar)
+
+![Image 13: Smiling Black woman with compliance training materials.](https://www.heygen.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpdhqcmb1%2Fproduction%2F03524d3ffa06e78771b260626e8168bae6592945-500x280.png%3Ffit%3Dmax%26auto%3Dformat&w=2048&q=75)
+
+### PPT/PDF to Video
+
+Import your PPT or PDF and turn each slide into a scene with lifelike AI avatars and natural voiceovers. Transform static decks into engaging videos for any audience.
+
+[Explore Tool](https://www.heygen.com/tool/pdf-to-video)
+
+Fast, secure, and ethical by design
+
+## Built on verification, grounded in trust
+
+AI video has a trust problem. We built HeyGen to solve it with verified identity at the core, enforced moderation, and security stress-tested against the highest standards.
+
+### Verified identity, every avatar
+
+Every custom avatar requires on-camera identity verification from the person depicted. No verification, no avatar. Removal requests are always honored.
+
+### Moderation that holds up
+
+ML scanning flags violations the moment content is generated. Trained human reviewers handle the edge cases. No violence, no political campaigning, no harm to minors. Enforced, not just promised.
+
+### Security, stress-tested
+
+Annual penetration testing, continuous vulnerability management, and around-the-clock monitoring. We treat compliance as the floor, not the ceiling.
+
+![Image 14: GDPR](https://cdn.sanity.io/images/pdhqcmb1/production/3ffaea4bad18a1beb1749d5006850fe25c4be590-68x78.svg?fit=max&auto=format)GDPR
+
+![Image 15: SOC 2 TYPE II](https://cdn.sanity.io/images/pdhqcmb1/production/b1580dc22727c853f7d688ea4f7266a18308ad96-61x70.svg?fit=max&auto=format)SOC 2 TYPE II
+
+![Image 16: CCPA](https://cdn.sanity.io/images/pdhqcmb1/production/1ff0a071849ce1fc888e7296425dcb13f7577a66-70x70.svg?fit=max&auto=format)CCPA
+
+![Image 17: AI ACT](https://cdn.sanity.io/images/pdhqcmb1/production/ceca53518f07f2c0ebfd9de35e9bc048d70316f5-68x69.svg?fit=max&auto=format)AI ACT
+
+![Image 18: DPF](https://cdn.sanity.io/images/pdhqcmb1/production/052d03581830e818f956238d7c619c4ec277b804-71x71.svg?fit=max&auto=format)DPF
+
+![Image 19: abstract icon](https://cdn.sanity.io/images/pdhqcmb1/production/75cfbb70566a6aa6da1b0192e794d4358242a0ed-28x27.svg?rect=1,0,27,27&w=40&h=40&fit=max&auto=format)Updates
+
+## What's new at HeyGen
+
+Stay up to date with the latest from HeyGen, from new product releases and integrations to awards and milestones.
+
+![Image 20: Abstract blurry pink and white icon.](https://cdn.sanity.io/images/pdhqcmb1/production/61a127fc586f6ffe06862a19557f24f7ac4780a0-28x28.svg?w=40&h=40&fit=max&auto=format)Events
+
+## HeyGen Community
+
+Join us for our upcoming meetups. Whether you're a beginner or an experienced user, there's something for everyone. Don't miss out on the opportunity to learn, grow, and be inspired by the Geniverse community!
+
+![Image 21: Green icon with a white Pac-Man shape and two blurred green shapes.](https://cdn.sanity.io/images/pdhqcmb1/production/ea1a23df2c6f19afe01dc542334a945a75eeed5b-28x28.svg?w=40&h=40&fit=max&auto=format)Customer Stories
+
+## Powering ambitious teams worldwide
+
+From solo creators to global enterprises, see the stories people are telling with HeyGen and the new possibilities AI video unlocks for every kind of creator.
+
+40%increase in video watch time
+
+25%boost in course completion rates
+
+"This space moves quickly. If you’re not experimenting now, you’ll be behind later. HeyGen has become a critical part of our infrastructure."
+
+Mustafa Furniturewala
+
+CTO at Coursera
+
+## FAQs
+
+### How to create an AI video of yourself?
+
+Upload a short clip or reference image, then type your script in HeyGen. The platform will generate a video with realistic AI motion and voice. You can animate, adjust format, and make explainer videos or social clips with AI-powered editing tools.
+
+### Is HeyGen free? What You Actually Get on the Free Plan
+
+Yes. HeyGen offers a free plan that supports text-to-video and AI-generated video creation. Paid plans include advanced AI-powered video creation, video editor options, and support for multiple formats, depending on the AI product and model you choose.
+
+### What types of input can I use to create videos in HeyGen?
+
+You can generate AI videos using text and images, stock images, or audio. HeyGen can transform text into explainer or explainer videos with templates that make it easy to create and publish impactful content in multiple formats and styles.
+
+### Can I convert audio to video with HeyGen?
+
+Yes, you can convert [audio to video](https://www.heygen.com/tool/audio-to-video-converter) with HeyGen.
+
+Upload your audio and HeyGen’s AI-powered system will generate videos automatically. It syncs speech and visuals to create realistic AI avatars and video clips, ideal for podcasts, explainer videos, and educational content that need visual context.
+
+### Can I use text to video for business presentations on HeyGen?
+
+Yes. With HeyGen’s text-to-video feature, you can create engaging explainer videos and slides from any text prompt. The AI image generator and video templates help you instantly create and publish videos in your preferred format for marketing, training, or product demos.
+
+### Can AI videos replace traditional video production?
+
+Yes. AI videos made with HeyGen can absolutely replace traditional production for most business, marketing, and training needs.
+
+You can animate scenes, add motion, and generate a video that looks polished. It helps creators publish videos faster, keeping all edits within one video workflow, simple, scalable, and cost-effective.
+
+### How to make AI videos using HeyGen?
+
+To make an AI video in HeyGen, pick an avatar, paste in what you want it to say (or upload a deck), and choose a voice and language. Then tweak the visuals and branding to match your style, hit generate, and export the finished video.
+
+### Can I create AI videos using a reference image with HeyGen?
+
+Yes. Upload a reference image to HeyGen and generate AI videos that look natural. You can use the AI to animate avatars or adjust expressions, creating personalized explainer videos or branded clips with realistic AI motion and audio sync.
+
+### What types of videos can I create with the HeyGen?
+
+HeyGen’s [AI Video Generator](https://www.heygen.com/tool/ai-video-generator) lets you create explainer videos, marketing and sales promos, product demos, training and onboarding content, personalized outreach videos, and social media clips, using realistic AI avatars, natural AI voices, and multilingual translation to produce videos quickly at scale.
+
+### How long does it take to generate an AI video?
+
+HeyGen is really fast, and many videos generate within a minute. If your video is longer, uses more scenes, or has heavier effects, it may take a little longer but still typically finishes in just a few minutes.
+
+### Is HeyGen secure and ethical?
+
+Yes. HeyGen keeps your data safe and creates avatars responsibly. You own your AI-generated videos and visuals, allowing you to publish content for marketing or training with confidence, knowing your materials are produced ethically and securely.
+
+## Start creating videos with AI
+
+See how businesses like yours scale content creation and drive growth with the most innovative AI video.
+
+![Image 22: CTA background](https://www.heygen.com/_next/image?url=%2Fassets_2025_redesign%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fstart-creating-bg.3zpy0vprruur2.webp&w=2048&q=75)![Image 23: CTA background](https://www.heygen.com/_next/image?url=%2Fassets_2025_redesign%2F_next%2Fstatic%2Fimmutable%2Fmedia%2Fstart-creating-bg-mobile.3c1w9m1uc9j4r.png&w=2048&q=75)
+
+1.   Home

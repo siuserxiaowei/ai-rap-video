@@ -1,0 +1,82 @@
+Title: Audio to Video - HeyGen Documentation
+
+URL Source: https://developers.heygen.com/audio-to-video
+
+Markdown Content:
+![Image 1](https://mintcdn.com/heygen-1fa696a7/hfMXXwJzjE7vBSYZ/images/theme/research-8.webp?fit=max&auto=format&n=hfMXXwJzjE7vBSYZ&q=85&s=d16cda8ab7835eed66c6a205d16e631f)
+
+## Overview
+
+Audio to Video turns a recorded audio track into a talking video: you supply the audio, pick who says it, and HeyGen handles the delivery and render. It’s the same [`POST /v3/videos`](https://developers.heygen.com/reference/create-video) endpoint used for script-driven videos — the difference is that you pass `audio_url` (or `audio_asset_id`) instead of `script`, and the video’s length follows your audio, up to 30 minutes.Two subject choices, both accepting the same audio fields:
+
+| `type` | Subject | You provide |
+| --- | --- | --- |
+| `avatar` | An avatar you already have — digital twin, studio avatar, or photo avatar look | `avatar_id` |
+| `image` | Any single-person image, animated on the fly | `image` (URL, asset ID, or base64) |
+
+Use it when the voice already exists: preserving a real person’s recorded voice on their digital twin, dubbing localized audio onto one presenter, or lip-syncing audio produced by another tool.
+
+## Quick Example
+
+Lip-sync an audio file onto an avatar:
+
+Response
+
+Generation is asynchronous. Poll [`GET /v3/videos/{video_id}`](https://developers.heygen.com/reference/get-video) until `status` is `completed`, then download `video_url` — or pass a `callback_url` to receive a [webhook](https://developers.heygen.com/docs/webhooks) instead.
+
+## Audio Sources
+
+Provide exactly one audio source per request — audio fields are mutually exclusive with `script`:
+
+| Field | What it takes |
+| --- | --- |
+| `audio_url` | Public HTTPS URL of an audio file. |
+| `audio_asset_id` | Asset ID of an uploaded audio file (MP3 or WAV, max 32 MB) — from [`POST /v3/assets`](https://developers.heygen.com/reference/upload-asset). |
+
+## With an Avatar or Digital Twin
+
+`"type": "avatar"` works with any avatar ID you own — a [digital twin](https://developers.heygen.com/generate-avatar-video) trained from real footage, a studio avatar, or a [photo avatar](https://developers.heygen.com/photo-avatar) look.
+
+| Parameter | Type | Required | Description |
+| --- | --- | --- | --- |
+| `type` | string | Yes | Must be `avatar`. |
+| `avatar_id` | string | Yes | Video avatar or photo avatar look ID. Browse with [`GET /v3/avatars/looks`](https://developers.heygen.com/reference/list-avatar-looks). |
+| `audio_url` / `audio_asset_id` | string | One required | The audio to lip-sync — see [Audio Sources](https://developers.heygen.com/audio-to-video#audio-sources). |
+| `engine` | object | No | Defaults to [Avatar IV](https://developers.heygen.com/avatar-iv). Pass `{ "type": "avatar_v" }` for [Avatar V](https://developers.heygen.com/avatar-v) on eligible looks (check `supported_api_engines` on the look). |
+| `motion_prompt` | string | No | Natural-language body-motion and gesture control. Photo avatars on either engine; video avatars on Avatar V. |
+| `expressiveness` | string | No | Expressiveness level for photo avatars on Avatar IV. Defaults to `low`. |
+| `background` | object | No | Background behind the avatar: `{ "type": "color", "value": "#RRGGBB" }` for a solid color, or `{ "type": "image", ... }` with a `url` or `asset_id`. |
+| `remove_background` | boolean | No | Remove the avatar background (video avatars must be trained with matting enabled). |
+| `output_format` | string | No | `mp4` (default) or `webm` for a transparent background — see [Transparent Background Videos](https://developers.heygen.com/transparent-background-videos). |
+
+## With an Image
+
+`"type": "image"` animates any single-person image with lip-sync to your audio — no avatar creation step. It’s [Image to Video](https://developers.heygen.com/image-to-video) with your own soundtrack.
+
+| Parameter | Type | Required | Description |
+| --- | --- | --- | --- |
+| `type` | string | Yes | Must be `image`. |
+| `image` | object | Yes | Image to animate: `{ "type": "url", "url": "..." }`, `{ "type": "asset_id", "asset_id": "..." }`, or `{ "type": "base64", "media_type": "image/png", "data": "..." }`. |
+| `audio_url` / `audio_asset_id` | string | One required | The audio to lip-sync — see [Audio Sources](https://developers.heygen.com/audio-to-video#audio-sources). |
+| `motion_prompt` | string | No | Natural-language body-motion control. |
+| `expressiveness` | string | No | Expressiveness level. Defaults to `low`. |
+
+## Output Settings
+
+Both subject types share the same output controls:
+
+| Parameter | Type | Default | Description |
+| --- | --- | --- | --- |
+| `title` | string | — | Display title in the HeyGen dashboard. |
+| `aspect_ratio` | string | `16:9` | `16:9`, `9:16`, `4:5`, `5:4`, `1:1`, or `auto` (preserves the source’s aspect ratio — recommended). |
+| `resolution` | string | — | `720p` or `1080p`. |
+| `fit` | string | — | How the subject fills the canvas: `cover` (fill, may crop) or `contain` (fit entirely, may show background). |
+| `caption` | object | — | Caption settings. A sidecar subtitle file is returned via `subtitle_url`; add `"style": "default"` to also burn captions into the video. |
+| `callback_url` | string | — | [Webhook](https://developers.heygen.com/docs/webhooks) URL notified when the video is ready. |
+| `callback_id` | string | — | Caller-defined identifier echoed back in the webhook payload. |
+
+## Full Example
+
+Record-to-video in one script: upload the audio, lip-sync it onto an avatar, and wait for the result.
+
+Swap the `json` payload for the [`image` shape](https://developers.heygen.com/audio-to-video#with-an-image) to drive the same pipeline from a photo instead of an avatar.

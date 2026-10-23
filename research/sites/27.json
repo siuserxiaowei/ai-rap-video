@@ -1,0 +1,149 @@
+{
+  "id": "27",
+  "name": "HeyGen",
+  "url": "https://www.heygen.com/",
+  "category": "lip_sync",
+  "checked_at": "2026-10-23",
+  "summary": "以说话数字人、播客与业务视频为主的 AI 视频平台；官方提供音频驱动头像或单人照片的口型生成及公开 API。可作为已有 Rap 音频的人物表演候选，但未验证快速 Rap 口型、节拍或完整 MV 效果。",
+  "inputs": [
+    "文字脚本或提示",
+    "已有头像 ID／数字分身／照片头像",
+    "单人图片（API 支持 URL、asset ID 或 base64）",
+    "录制音频；API 支持公开 HTTPS audio_url 或已上传的 audio_asset_id",
+    "API 上传音频为 MP3/WAV，最大 32 MB；网页工具另宣称支持 M4A、FLAC、AAC、OGG、AIFF"
+  ],
+  "outputs": [
+    "音频驱动的说话头像／图片视频",
+    "MP4；文档支持透明背景 WebM（附适用条件）",
+    "字幕文件；可选烧录字幕",
+    "API 音频驱动输出支持 720p / 1080p 及多种画幅"
+  ],
+  "features": [
+    "网页音频转视频可选头像、静态图片、AI 视觉和字幕；官方音乐用例包含静态图或动画背景",
+    "音频驱动 API 支持已有头像或单人照片，视频时长跟随音频，上限 30 分钟",
+    "文档支持 motion_prompt 控制身体动作；引擎与头像类型存在适用限制",
+    "API 采用异步生成、状态轮询或 callback_url webhook",
+    "网页提供脚本编辑、数字人、视频翻译及多语言功能；均为官方宣称"
+  ],
+  "pricing": {
+    "summary": "官网明确显示月付：Creator $29/月（600 credits）、Pro 起价 $49/月（1,000 credits）、Business $149/月（1,500 credits），Business 增员 $20/席位/月。Creator 年付折算 $24/月，不能与月付等同。API 另有价格入口，本次未核实 API 单价。",
+    "free_tier": "官网 Free：每月 3 个带水印视频，每个最多 1 分钟；无需信用卡。",
+    "plans": [
+      {
+        "name": "Free",
+        "amount": 0,
+        "currency": "USD",
+        "billing_period": "month",
+        "notes": "3 个带水印视频/月，每个最多 1 分钟。"
+      },
+      {
+        "name": "Creator",
+        "amount": 29,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": "600 / month",
+        "notes": "1080p、去品牌水印；另有年付折月价。"
+      },
+      {
+        "name": "Pro",
+        "amount": 49,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": "1,000 / month",
+        "notes": "起始档位；4K 网页导出，单视频最长 30 分钟；更高点数档另计。"
+      },
+      {
+        "name": "Business",
+        "amount": 149,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": "1,500 / month",
+        "notes": "额外成员 $20/席位/月；单视频最长 60 分钟。"
+      }
+    ],
+    "source_url": "https://www.heygen.com/pricing"
+  },
+  "api": {
+    "status": "documented",
+    "summary": "官方 Audio to Video 文档明确使用 POST /v3/videos：audio_url 或 audio_asset_id 与 script 互斥；type 为 avatar（avatar_id）或 image。异步返回后轮询 GET /v3/videos/{video_id} 或使用 webhook。接口音频最长 30 分钟，上传 MP3/WAV 最大 32 MB；本次仅核实该口型流程，未调用接口。",
+    "url": "https://developers.heygen.com/audio-to-video"
+  },
+  "limitations": [
+    "没有执行生成、API 调用或付款；口型和质量均为供应商说明",
+    "谈话与播客用例不能证明快速 Rap、多音节连读、中文快嘴或伴奏混音下的口型质量",
+    "未核实人声分离、BPM 节拍识别、自动音乐分镜或歌唱表演专用控制",
+    "网页订阅价格与 4K 导出不能外推为 API 价格、额度或该接口分辨率；音频驱动文档仅列 720p/1080p",
+    "单人图片为已核实的图片驱动范围；不应外推多人场景",
+    "旧文档 URL 返回 404，已改读官方 developers 新文档；网页音频格式不能外推为上传 API 全部支持格式"
+  ],
+  "best_for": "已有音频、希望让固定头像或单人照片说出内容的创作者；Rap 场景适合作为需进一步小样验证的口型组件。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://www.heygen.com/",
+      "title": "HeyGen: Create AI Videos with Your Personal Avatar",
+      "kind": "official",
+      "local_path": "research/evidence/27/home.txt",
+      "supports": [
+        "数字人、脚本编辑、视频翻译定位",
+        "音频转视频入口与自定义头像身份验证宣称"
+      ]
+    },
+    {
+      "url": "https://www.heygen.com/tool/audio-to-video-converter",
+      "title": "Free Audio to Video Converter | HeyGen",
+      "kind": "official",
+      "local_path": "research/evidence/27/audio-to-video.txt",
+      "supports": [
+        "音频驱动头像口型、字幕、静态与 AI 视觉",
+        "网页音频格式和 MP4 输出",
+        "音乐用例以图片或动画背景描述"
+      ]
+    },
+    {
+      "url": "https://www.heygen.com/pricing",
+      "title": "Pricing Plans for Creators and Marketers | HeyGen",
+      "kind": "pricing",
+      "local_path": "research/evidence/27/pricing.txt",
+      "supports": [
+        "Free 限额",
+        "Creator、Pro、Business 月付价格与点数",
+        "Creator 年付折月价与 API 独立价格入口"
+      ]
+    },
+    {
+      "url": "https://developers.heygen.com/audio-to-video",
+      "title": "Audio to Video - HeyGen Documentation",
+      "kind": "documentation",
+      "local_path": "research/evidence/27/api-audio-to-video.txt",
+      "supports": [
+        "POST /v3/videos 音频驱动头像或单人图",
+        "音频输入限制与异步结果",
+        "动作、字幕、画幅与分辨率参数"
+      ]
+    },
+    {
+      "url": "https://developers.heygen.com/",
+      "title": "HeyGen Developers - AI Video API for Developers",
+      "kind": "official",
+      "local_path": "research/evidence/27/developers.txt",
+      "supports": [
+        "官方开发者入口及当前文档链接"
+      ]
+    },
+    {
+      "url": "https://docs.heygen.com/reference/create-an-avatar-video-v2",
+      "title": "Page Not Found",
+      "kind": "documentation",
+      "local_path": "research/evidence/27/old-api-404.txt",
+      "supports": [
+        "旧 URL 返回 404；不作为 API 能力证据"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：对 Rap 产品而言，HeyGen 更适合承接已有音轨的人物口型环节，完整 MV 仍需单独核对音乐分镜与镜头编辑。",
+    "推断：应先用包含快速中文连读和伴奏的小样评估，再决定是否纳入口型供应链；官方谈话用例不足以作质量验收。",
+    "推断：产品界面应分别呈现网页套餐与 API 限制，避免把 4K 网页卖点当作音频驱动接口的输出能力。"
+  ]
+}

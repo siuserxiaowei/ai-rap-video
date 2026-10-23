@@ -1,0 +1,11 @@
+Title: Page Not Found
+
+URL Source: https://docs.heygen.com/reference/create-an-avatar-video-v2
+
+Warning: Target URL returned error 404: Not Found
+
+Markdown Content:
+[HeyGen Documentation home page![Image 1: light logo](https://mintcdn.com/heygen-1fa696a7/dQ_uLJDftFYFhC7B/logo/light.png?fit=max&auto=format&n=dQ_uLJDftFYFhC7B&q=85&s=b03d2e41dde1cc0b50cd50e574f66f1c)![Image 2: dark logo](https://mintcdn.com/heygen-1fa696a7/dQ_uLJDftFYFhC7B/logo/dark.png?fit=max&auto=format&n=dQ_uLJDftFYFhC7B&q=85&s=1bce9897c94baace249bfc9bd5ebb894)](https://developers.heygen.com/)
+
+*   [Get Started](https://auth.heygen.com/?redirect=%2Fhome%3Ffrom%3D%26nav%3DAPI)
+*   [Get Started](https://auth.heygen.com/?redirect=%2Fhome%3Ffrom%3D%26nav%3DAPI)
