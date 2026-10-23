@@ -1,0 +1,16 @@
+test_all_five_statuses_no_fabricated_url_or_raw_message (test_sync_provider.SyncClientTests) ... ok
+test_builder_camelcase_copy_and_url_order_preserved (test_sync_provider.SyncClientTests) ... ok
+test_conflicts_and_401_no_retry_inprogress_and_rate_retry (test_sync_provider.SyncClientTests) ... ok
+test_create_retries_identical_key_bytes_and_never_claims_replay_complete (test_sync_provider.SyncClientTests) ... ok
+test_default_gate_and_from_env_only_exact_optin (test_sync_provider.SyncClientTests) ... ok
+test_estimate_wire_fields_and_null_credits_no_idempotency_claim (test_sync_provider.SyncClientTests) ... ok
+test_get_failure_never_posts_and_keeps_unknown_false (test_sync_provider.SyncClientTests) ... ok
+test_invalid_oversized_duplicate_nonfinite_json_and_redaction (test_sync_provider.SyncClientTests) ... ok
+test_invalid_payload_urls_and_ids_are_rejected_safely (test_sync_provider.SyncClientTests) ... ok
+test_redirect_no_follow_and_default_transport_bounded_reads (test_sync_provider.SyncClientTests) ... ok
+test_unknown_timeout_retains_remote_and_safe_diagnostics (test_sync_provider.SyncClientTests) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.034s
+
+OK

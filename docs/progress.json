@@ -53,23 +53,22 @@
   "process_sessions": {
     "gemini_queue": 34726
   },
-  "next_research_agent": 39,
-  "active_codex_tasks": [],
+  "active_codex_tasks": [
+    "c48_exports (follow-up client)",
+    "c49_integration_qa (follow-up journal)",
+    "c50_final_review (follow-up CLI)"
+  ],
   "pending_features": [
     "C44 real browser acceptance",
     "C45 real browser acceptance"
   ],
   "external_engine_commit": "fccf3d4; preserve airap and coordinate per COORDINATION.md",
-  "feishu": "draft_e2ad52db_folder/draft.xml initialized; initial profile passed; not yet published",
+  "feishu": "published once, full readback verified revision10",
   "feishu_cli": "/Users/xiaowei/.local/state/fnm_multishells/1706_1792153352427/bin/lark-cli",
   "feishu_work_dir": null,
   "feishu_draft_path": null,
   "gemini_unique_conversations": 50,
   "gemini_queue_state": "completed, exit0, all worktrees reclaimed",
-  "external_engine": "actively being developed by external process; main includes audio and lyrics-flow merges; preserve changes",
-  "accepted_features": [
-    "C41"
-  ],
   "expanded_candidate_count": 46,
   "supplemental_site_ids": [
     "41",
@@ -101,13 +100,6 @@
     "C45"
   ],
   "browser_status": "CUA session terminated by current-page access policy. Do not attempt browser actions or alternative tooling to bypass this policy. Actual desktop/mobile UI is NOT verified.",
-  "pending_tasks": [
-    "C48 acceptance after 43 tests observed passed",
-    "C49 integration tests, C50 independent docs review",
-    "strict report audit and verification JSON",
-    "create/fetch native Feishu report; cleanup exact draft folder",
-    "retain C44/C45 worktrees as unaccepted visual pending; goal remains active until requirement audit complete"
-  ],
   "milestone": "46-site Feishu report published and fully read-back verified; 100 agent tasks delivered",
   "goal_status": "active; not complete",
   "partial_sites": 4,
@@ -125,11 +117,14 @@
   "remaining_required": [
     "C44/C45 desktop,390px,keyboard focus and browser downloads must be verified in an allowed browser environment"
   ],
-  "blocker_first_seen_goal_turn": 1,
-  "blocking_turns_observed": 1,
-  "next_action": "No browser bypass. Preserve active goal and original visual acceptance requirement. Re-audit current evidence on continuation; if same impasse persists for three consecutive goal turns and no meaningful progress is possible, mark blocked per goal rules.",
+  "next_action": "Integrate and contract-test Sync client/journal/CLI from isolated follow-up worktrees. No live provider requests and no browser bypass. Then append truthful iteration update to the existing Feishu doc.",
   "future_backlog_not_completed": [
     "Real provider adapter and authorized-media quality tests, as next-stage plan; current app explicitly only brief/storyboard preview."
   ],
-  "last_checkpoint": "2026-10-23T16:31:48.162672+00:00"
+  "last_checkpoint": "2026-10-23T16:43:04.332462+00:00",
+  "iteration": "provider-sync-20261024",
+  "previous_goal_turn_classification": "progress: research46/100-agent report published and exact full readback verified",
+  "global_impasse": false,
+  "visual_blocker_observations": 2,
+  "provider_credentials_present": false
 }
