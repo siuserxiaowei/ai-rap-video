@@ -12,11 +12,11 @@ python3 -m rap_workbench.server --port 8788
 
 打开 <http://127.0.0.1:8788/> 查看研究、检索筛选、比较最多三站及导出；<http://127.0.0.1:8788/create.html> 可保存、回读和下载创作 brief，取得文字分镜与历史竞品价格参考。默认绑定 `127.0.0.1`；8787 当前被其他进程占用，示例使用 8788。若 8788 已有本项目服务，直接访问或另选空闲端口。
 
-当前研究样本为 **46 个不同主域，42 站取得相关官方正文，4 站部分读取**，采集日期为 2026-10-23 至 2026-10-24。正文读取不代表效果、下载、授权或服务上线已被实测；本次检索不代表全网穷尽。50 项产品与技术决策均有站点引用，原始状态仍为 `planned`，不能视为 50 项实现已验收。
+当前研究样本为 **46 个不同主域，42 站取得相关官方正文，4 站部分读取**，采集日期为 2026-10-23 至 2026-10-24。正文读取不代表效果、下载、授权或服务上线已被实测；本次检索不代表全网穷尽。50 项产品与技术决策均有站点引用，各项状态及验证引用见 `docs/decisions.json`，其中仍有待浏览器和真实供应商验证的项目。
 
-执行计划为 C01–C50 共 50 个 Codex 任务，以及 50 个独立 Gemini 会话。Gemini 汇总记录 50 个有效且唯一的会话；原 G50 的补充分析复用同一会话，不额外计数。Codex 的调用、完成、部分验收和完整验收由主线程在 C50 交付后核对台账；前端桌面与 390px 真实交互尚未验证，整体目标仍有未关闭验收项。
+已交付 C01–C50 共 50 个 Codex 任务，以及 50 个独立 Gemini 会话；Codex 48 个任务完整验收，C44/C45 待真实浏览器验收。原 G50 的补充分析复用同一会话，不额外计数。后续复用 C48/C49/C50 实现 Sync 客户端、持久化提交记录和本地计划/状态观察 CLI，三个隔离 worktree 已验收回收，合并后88项测试通过。客户端默认关闭联网，本轮未调用真实供应商；网页渲染接口仍返回503。前端桌面与390px真实交互尚未验证，整体目标仍有未关闭验收项。
 
-运行细节、HTTP 接口与后续验收见 [WORKBENCH.md](WORKBENCH.md)，本次独立终审见 [docs/C50-review.md](docs/C50-review.md)。
+运行细节、HTTP 接口与命令行用法见 [WORKBENCH.md](WORKBENCH.md)，最新接口迭代验收见 [verification.json](docs/iterations/provider-sync-20261024/verification.json)，首次发布的独立终审快照见 [docs/C50-review.md](docs/C50-review.md)。
 
 ## 目录与证据
 
@@ -28,7 +28,7 @@ python3 -m rap_workbench.server --port 8788
 | `docs/decisions.json`、`PLAN.md`、`RESEARCH_CONTRACT.md` | 50 项决策、执行计划与研究 schema |
 | `docs/WORKBENCH_SPEC.md`、`docs/C41-review.md` 至 `docs/C50-review.md` | 工作台契约与分模块审查 |
 | `scripts/`、`tests/workbench/` | 证据采集、报告与验收工具、工作台测试 |
-| `.workbench/` | 启动后产生的本地 SQLite brief / job 数据；不通过静态服务公开 |
+| `.workbench/` | 本地 SQLite brief / job / provider 提交记录；不通过静态服务公开 |
 | `airap/` | 独立的音视频处理模块，能力与测试证据另行核验 |
 
 ```bash
@@ -37,7 +37,7 @@ node --check web/app.js
 node --check web/create.js
 ```
 
-这些命令覆盖本地自动化检查，不替代浏览器、真实供应商或付费生成验证。飞书报告仍须由主线程完成原生创建与回读；本文不提供未经回读的远端链接。
+这些命令覆盖本地自动化检查，不替代浏览器、真实供应商或付费生成验证。[飞书研究报告](https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc) 已原生发布，后续接口迭代已追加至revision11并全文回读；原46站、50项决策和155个来源链接均保留。
 
 ## AIRapStudio 模块与命令
 

@@ -50,20 +50,13 @@
     "46"
   ],
   "gemini_accepted": 50,
-  "process_sessions": {
-    "gemini_queue": 34726
-  },
-  "active_codex_tasks": [
-    "c48_exports (follow-up client)",
-    "c49_integration_qa (follow-up journal)",
-    "c50_final_review (follow-up CLI)"
-  ],
+  "active_codex_tasks": [],
   "pending_features": [
     "C44 real browser acceptance",
     "C45 real browser acceptance"
   ],
   "external_engine_commit": "fccf3d4; preserve airap and coordinate per COORDINATION.md",
-  "feishu": "published once, full readback verified revision10",
+  "feishu": "published once; iteration appended once and verified revision11",
   "feishu_cli": "/Users/xiaowei/.local/state/fnm_multishells/1706_1792153352427/bin/lark-cli",
   "feishu_work_dir": null,
   "feishu_draft_path": null,
@@ -108,23 +101,30 @@
   "supplemental_same_G50": true,
   "feishu_url": "https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc",
   "feishu_document_id": "TiqGd7dHWoAqBex3KCvcnzpVnKc",
-  "feishu_revision": 10,
-  "feishu_status": "created once, full text exactly matches release after whitespace normalization; 46 headings,50 decisions,155 unique links preserved",
+  "feishu_revision": 11,
+  "feishu_status": "first release and one iteration append fully read-back verified; original46 headings/50 decisions/155 links preserved",
   "feishu_release_path": "artifacts/feishu-report.xml",
   "draft_workspace_cleaned": true,
-  "automated_tests": 54,
+  "automated_tests": 88,
   "live_http_smoke": "passed",
   "remaining_required": [
     "C44/C45 desktop,390px,keyboard focus and browser downloads must be verified in an allowed browser environment"
   ],
-  "next_action": "Integrate and contract-test Sync client/journal/CLI from isolated follow-up worktrees. No live provider requests and no browser bypass. Then append truthful iteration update to the existing Feishu doc.",
+  "next_action": "Provider iteration contract scope is complete. Remaining acceptance requires an allowed browser environment; any real-provider phase requires dedicated credentials and authorized samples. No policy bypass or unapproved billing.",
   "future_backlog_not_completed": [
-    "Real provider adapter and authorized-media quality tests, as next-stage plan; current app explicitly only brief/storyboard preview."
+    "Live provider compatibility, authorized-media quality, media download, latency and actual cost reconciliation; client/journal/CLI contract implementation is complete."
   ],
-  "last_checkpoint": "2026-10-23T16:43:04.332462+00:00",
+  "last_checkpoint": "2026-10-23T17:01:21.642768+00:00",
   "iteration": "provider-sync-20261024",
-  "previous_goal_turn_classification": "progress: research46/100-agent report published and exact full readback verified",
+  "previous_goal_turn_classification": "progress: documented provider client, durable journal and local CLI implemented and accepted with88 tests; real generation and visual checks remain unverified",
   "global_impasse": false,
   "visual_blocker_observations": 2,
-  "provider_credentials_present": false
+  "provider_credentials_present": false,
+  "archived_process_sessions": {
+    "gemini_queue": 34726
+  },
+  "first_release_automated_tests": 54,
+  "iteration_status": "accepted, worktrees reclaimed and Feishu update verified",
+  "iteration_verification": "docs/iterations/provider-sync-20261024/verification.json",
+  "feishu_latest_verification": "artifacts/iterations/provider-sync-20261024/feishu-verification.json"
 }

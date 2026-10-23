@@ -404,8 +404,9 @@
     "decision": "有限重试与退款分开建模",
     "rationale_summary": "技术重试不自动成为收费结论。",
     "acceptance": "状态机不重复完成或重复退款。",
-    "status": "planned_next_stage",
-    "verification_ref": "PLAN.md"
+    "status": "partially_implemented_live_pending",
+    "verification_ref": "docs/iterations/provider-sync-20261024/verification.json",
+    "implementation_note": "Sync同键有限重试、未知结果恢复与终态保护已通过契约测试；退款、真实供应商重试及费用对账未实现或验证。"
   },
   {
     "id": "D35",
@@ -567,13 +568,15 @@
     "id": "D48",
     "topic": "供应商",
     "evidence_site_ids": [
-      "33"
+      "33",
+      "28"
     ],
     "decision": "adapter以当前官方文档为准",
     "rationale_summary": "模型名称和端点不靠记忆补造。",
     "acceptance": "接入前保存文档URL、请求和错误约定。",
-    "status": "planned_next_stage",
-    "verification_ref": "PLAN.md"
+    "status": "implemented_contract_tested_live_pending",
+    "verification_ref": "docs/iterations/provider-sync-20261024/verification.json",
+    "implementation_note": "已归档Sync官方端点、字段、错误与幂等约定，实现客户端/记录/CLI；真实供应商兼容性、生成和费用待验证。"
   },
   {
     "id": "D49",

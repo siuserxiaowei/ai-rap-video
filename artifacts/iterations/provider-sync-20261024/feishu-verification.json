@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-23T17:01:21.642768+00:00",
+  "document_id": "TiqGd7dHWoAqBex3KCvcnzpVnKc",
+  "url": "https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc",
+  "revision_id": 11,
+  "first_release_revision": 10,
+  "first_release_visible_text_prefix_preserved": true,
+  "full_candidate_visible_text_match": true,
+  "normalized_text_sha256": "29a4dfafaf3d2ec68909a35487201d639ab796660d901ce2b1bb3a9b32a1dadc",
+  "site_headings": 46,
+  "decision_rows": 50,
+  "original_unique_links_preserved": 155,
+  "current_unique_links": 161,
+  "iteration_section_count": 1,
+  "tests": 88,
+  "real_provider_requests": 0,
+  "browser_limitations_preserved": true,
+  "goal_complete": false
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "keyless_cli_smoke",
+  "synthetic_assets": true,
+  "real_provider_requests": 0,
+  "generated_media": false,
+  "status": "passed",
+  "commands": 5,
+  "same_local_id_after_process_restart": true,
+  "redacted_media_urls": true,
+  "refresh_guards": [
+    "NETWORK_NOT_ALLOWED",
+    "REMOTE_ID_REQUIRED"
+  ],
+  "state": "READY"
+}

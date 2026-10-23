@@ -1,0 +1,12 @@
+<h1 seq="auto">后续开发进展（2026-10-24）</h1>
+<p>本节追加记录后续迭代，前文保留首次发布的研究与验收快照。研究范围仍为46站；Codex仍为50个不同任务，Gemini仍为50个独立有效会话。本轮复用原C48/C49/C50，没有新增一组agent。</p>
+<table><thead><tr><th><p>新增模块</p></th><th><p>已实现与验证</p></th><th><p>边界</p></th></tr></thead><tbody>
+<tr><td><p>Sync REST客户端</p></td><td><p>依据当前官方资料实现sync-3图片或视频加音频请求、费用预估、生成状态查询；有限重试保留相同幂等键与请求。</p></td><td><p>默认关闭联网；本轮无真实供应商调用。JSON创建示例与公开路径主要列出multipart的资料差异已记录，真实兼容性待核。</p></td></tr>
+<tr><td><p>SQLite提交记录</p></td><td><p>保存原始请求与幂等身份；支持进程重开、未知提交结果和状态观察；过期响应不能降级终态。</p></td><td><p>查询失败不会推断任务失败或触发再次提交；原始媒体链接仅保存在本机私有记录。</p></td></tr>
+<tr><td><p>本地命令行</p></td><td><p>plan保存计划，show回读；refresh需要已知远端ID、显式联网参数、环境开关与凭据，且只发送GET查询。</p></td><td><p>没有submit命令。plan/show不联网；输出不含媒体签名链接。网页provider_render仍返回503 PROVIDER_UNAVAILABLE。</p></td></tr>
+</tbody></table>
+<p>验收：主线程合并后88项测试通过，0失败、0错误、0跳过。包括2项真实本机HTTP契约测试，使用合成响应验证预估、待处理、处理中、完成、结果未知和查询失败后的恢复；另执行5次独立命令行进程，确认同键计划跨进程复用、链接隐藏及查询门禁。运行中研究服务仍返回46站、42站full_page。三个后续worktree均在验收后回收；原C44/C45 worktree保留。</p>
+<p>这88项检查不代表真实AI成片、供应商联网、授权素材、媒体下载或账单验证。本轮真实供应商请求为0，付费生成为0；费用预估使用调用者填写的时长，不能证明实际计费时长。D48已达到官方资料归档和客户端契约实现阶段；D34完成同键有限重试与状态保护，退款和真实费用对账仍未实现或验证。</p>
+<p>尚未关闭：当前环境没有专用Sync凭据或获授权的验收音画样本，真实生成、中文快Rap/双人遮挡质量、延迟、下载与费用待核。浏览器会话因当前页面访问策略被终止，桌面、390px、真实键盘焦点与浏览器下载仍未验证；未使用替代工具绕过。整体目标保持未完成。</p>
+<p>本轮代码与证据位于仓库docs/iterations/provider-sync-20261024/及artifacts/iterations/provider-sync-20261024/；原50个任务与首次发布回执未被覆盖。</p>
+<p>官方接口来源：<a href="https://sync.so/docs/quickstart">快速开始</a>；<a href="https://sync.so/docs/api-reference/api-overview">API总览</a>；<a href="https://sync.so/docs/api-reference/api/generate-api/create">创建生成</a>；<a href="https://sync.so/docs/api-reference/api/generate-api/get">查询生成</a>；<a href="https://sync.so/docs/api-reference/api/generate-api/estimate-cost">费用预估</a>；<a href="https://sync.so/docs/api-reference/guides/idempotency">幂等约定</a>；<a href="https://sync.so/docs/openapi.json">公开OpenAPI</a>。资料已按采集时间和SHA-256归档；来源支持接口约定，不支持本轮未经执行的质量或费用结论。</p>

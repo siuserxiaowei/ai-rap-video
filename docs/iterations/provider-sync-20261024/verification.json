@@ -1,0 +1,75 @@
+{
+  "iteration": "provider-sync-20261024",
+  "checked_at": "2026-10-23T16:58:44.246672+00:00",
+  "tested_code_commit": "4e41a6eacf0ac2043e02b1aac2983db4982e023b",
+  "status": "contract_tests_passed_live_and_browser_unverified",
+  "goal_complete": false,
+  "plan_ref": "docs/iterations/provider-sync-20261024/PLAN.md",
+  "source_manifest": "research/providers/sync/20261024/manifest.json",
+  "automated_checks": {
+    "status": "passed",
+    "tests": 88,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0,
+    "log": "artifacts/iterations/provider-sync-20261024/final-tests.txt",
+    "log_sha256": "f1449f88a565e3965dbbabacf8db8de0d20ec298f15b811497f7fc7c4c9bbffe",
+    "loopback_http_contract_tests": 2,
+    "cli_subprocess_smoke": "artifacts/iterations/provider-sync-20261024/cli-smoke.json",
+    "running_service_http": "artifacts/iterations/provider-sync-20261024/live-http.json"
+  },
+  "scope": {
+    "client": "Documented Sync sync-3 create/get/estimate, disabled by default",
+    "journal": "Durable exact-payload/key reuse and monotonic observations",
+    "cli": "Local plan/show; guarded GET refresh; no submit command",
+    "source_contract_limit": "JSON create is shown in quickstart/common DTO; public path schema primarily advertises multipart. Live compatibility is unverified."
+  },
+  "agents": {
+    "reused": [
+      "C48",
+      "C49",
+      "C50"
+    ],
+    "new_distinct_agents": 0,
+    "original_codex_unique": 50,
+    "original_gemini_unique": 50,
+    "followup_tasks_accepted": 3,
+    "followup_worktrees_reclaimed": 3,
+    "original_visual_pending": [
+      "C44",
+      "C45"
+    ],
+    "original_visual_worktrees_retained": true
+  },
+  "real_provider": {
+    "requests": 0,
+    "paid_generations": 0,
+    "media_generated": false,
+    "media_downloaded": false,
+    "quality_verified": false,
+    "actual_cost_verified": false,
+    "api_key_present": false,
+    "live_env_gate_enabled": false,
+    "public_provider_render": "503 PROVIDER_UNAVAILABLE"
+  },
+  "browser": {
+    "status": "blocked_by_current_page_access_policy",
+    "desktop": "not_verified",
+    "mobile_390": "not_verified",
+    "keyboard": "not_verified",
+    "browser_download": "not_verified",
+    "bypass_attempted": false
+  },
+  "remaining_gates": [
+    "Allowed browser environment for original C44/C45 acceptance",
+    "Dedicated credentials and authorized media for any subsequent real-provider validation",
+    "Actual billable duration, output download, cost reconciliation and Chinese fast-rap quality before public rendering"
+  ],
+  "publication": {
+    "document_id": "TiqGd7dHWoAqBex3KCvcnzpVnKc",
+    "status": "appended_once_and_full_readback_verified",
+    "first_release_revision": 10,
+    "revision_id": 11,
+    "evidence": "artifacts/iterations/provider-sync-20261024/feishu-verification.json"
+  }
+}

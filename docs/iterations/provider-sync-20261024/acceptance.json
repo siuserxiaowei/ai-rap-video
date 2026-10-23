@@ -1,0 +1,46 @@
+{
+  "iteration": "provider-sync-20261024",
+  "accepted_at": "2026-10-23T16:58:44.246672+00:00",
+  "original_agent_count_unchanged": 50,
+  "tasks": [
+    {
+      "task": "provider_sync_client",
+      "reused_agent": "/root/c48_exports",
+      "commit": "5911fe852f235199aeaa05c26bed5a4e4a33f285",
+      "accepted": true,
+      "scope": "Sync REST client, 11 targeted tests and integrated HTTP contract tests",
+      "evidence": [
+        "artifacts/iterations/provider-sync-20261024/integrated-pre-cli-tests.txt",
+        "artifacts/iterations/provider-sync-20261024/http-contract-tests.txt"
+      ],
+      "worktree_reclaimed": true
+    },
+    {
+      "task": "provider_sync_journal",
+      "reused_agent": "/root/c49_integration_qa",
+      "commit": "d4a6f58818de667c90534164c18e7920cce89718",
+      "accepted": true,
+      "scope": "Submission journal, 10 targeted tests and integrated HTTP durability tests",
+      "evidence": [
+        "artifacts/iterations/provider-sync-20261024/integrated-pre-cli-tests.txt",
+        "artifacts/iterations/provider-sync-20261024/http-contract-tests.txt"
+      ],
+      "worktree_reclaimed": true
+    },
+    {
+      "task": "provider_sync_cli",
+      "reused_agent": "/root/c50_final_review",
+      "commit": "7cdfd4a27faba30fb3c05e491e433067cab7667a",
+      "accepted": true,
+      "scope": "Local plan/show and explicitly gated GET refresh CLI, 11 targeted tests; root keyless subprocess smoke",
+      "evidence": [
+        "artifacts/iterations/provider-sync-20261024/final-tests.txt",
+        "artifacts/iterations/provider-sync-20261024/cli-smoke.json"
+      ],
+      "worktree_reclaimed": true
+    }
+  ],
+  "root_integrated_commit": "4e41a6eacf0ac2043e02b1aac2983db4982e023b",
+  "full_suite_tests": 88,
+  "original_codex_acceptance_unchanged": true
+}

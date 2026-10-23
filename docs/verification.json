@@ -60,5 +60,7 @@
   "goal_complete": false,
   "remaining_required": [
     "C44/C45 real browser desktop/mobile/keyboard/download acceptance"
-  ]
+  ],
+  "snapshot_scope": "First release; automated checks below are historical54-test evidence.",
+  "latest_iteration": "docs/iterations/provider-sync-20261024/verification.json"
 }
