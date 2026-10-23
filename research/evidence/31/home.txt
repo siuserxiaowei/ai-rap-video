@@ -1,0 +1,468 @@
+Title: The Generative Core Behind Digital Worlds and Experiences | PixVerse
+
+URL Source: https://pixverse.ai/
+
+Markdown Content:
+[](https://pixverse.ai/en)
+
+Product
+
+Features
+
+*   [AI Video Generator](https://pixverse.ai/en/product/ai-video-generator)Create Videos with AI
+*   [Image to Video](https://pixverse.ai/en/product/image-to-video)Bring Images to Life in Motion
+*   [Text to Video](https://pixverse.ai/en/product/text-to-video)Turn Prompts into Video
+*   [AI Video Transition](https://pixverse.ai/en/product/ai-video-transition)Create Smooth AI Video Transitions
+*   [AI Video Extender](https://pixverse.ai/en/product/ai-video-extender)Continue Video Scenes Naturally with AI
+*   [AI Video Editor](https://pixverse.ai/en/product/ai-video-editor)Edit and Transform Videos with AI
+*   [AI Animation Generator](https://pixverse.ai/en/product/ai-animation-generator)Create Animated Videos with AI
+*   [AI Video Ad Generator](https://pixverse.ai/en/product/ai-video-ad-generator)Create Video Ads with AI
+
+AI Products
+
+*   [Canvas](https://pixverse.ai/en/canvas)Plan and Produce AI Video Workflows
+*   [Game](https://pixverse.ai/en/game)Build Interactive Experiences
+
+[Explore Features and Create with AI Tools](https://app.pixverse.ai/)
+
+Model
+
+AI Video Models
+
+*   [PixVerse V6](https://pixverse.ai/en/model/pixverse-v6)1080p Video with Native Audio
+*   [PixVerse R2](https://pixverse.ai/en/model/pixverse-r2)Real-Time World Model
+*   [Seedance 2.5](https://pixverse.ai/en/model/seedance-2-5)High-Fidelity Multimodal Video
+*   [Seedance 2](https://pixverse.ai/en/model/seedance-2)Cinematic Video Controls
+*   [MiniMax H3](https://pixverse.ai/en/model/minimax-h3)Fast, Detailed Video Generation
+*   [Flux 3](https://pixverse.ai/en/model/flux-3)High-Quality AI Visuals
+
+AI Image Models
+
+*   [GPT Image 2.5](https://pixverse.ai/en/model/gpt-image-2-5)Precise Edits with Text and Image References
+
+[Explore Models on PixVerse](https://app.pixverse.ai/)
+
+Resource
+
+Read, Watch, and Explore PixVerse
+
+*   [Blog](https://pixverse.ai/en/blog)Stories and Creator Guides
+*   [News](https://pixverse.ai/en/news)Product Updates
+*   [Research](https://pixverse.ai/en/research)Explore PixVerse Research
+
+Enterprise
+
+Scale Video Creation with PixVerse
+
+*   [Enterprise Homepage](https://pixverse.ai/en/enterprise)Explore PixVerse for Enterprise Teams
+*   [Developers](https://pixverse.ai/en/developers)Build with PixVerse API
+*   [Growth Studio](https://pixverse.ai/en/growth-studio)Create Campaigns at Scale
+
+Industry Solutions
+
+*   [Entertainment](https://pixverse.ai/en/entertainment)Build Shareable AI Video Experiences
+*   [Real Estate](https://pixverse.ai/en/real-estate)Create Property Marketing Videos
+*   [Drama](https://pixverse.ai/en/drama)Create AI Videos for Drama Series
+*   [Marketing](https://pixverse.ai/en/marketing)Create Video Ads at Scale
+
+[Community](https://pixverse.ai/en/community)[Careers](https://pixverse.ai/en/careers)[Affiliate](https://pixverse.ai/en/affiliate)[Earn](https://pixverse.ai/en/earn)
+
+Download App
+
+Login
+
+Try PixVerse
+
+API
+
+[Video 11](https://media.pixverse.ai/asset/media/pixverseaiHero.mp4)
+
+PixVerse AI
+
+# The Generative Core Behind Digital Worlds and Experiences
+
+Proprietary AI research in video generation and production, extended into real-time worlds and interactive entertainment.
+
+Prompt [Try PixVerse AI](https://app.pixverse.ai/)
+
+Models
+
+## The most powerful PixVerse models for clip generation, cinematic production, and real-time interactive worlds.
+
+0 1 PixVerse V6 0 2 PixVerse C1 0 3 PixVerse R2
+
+[Video 12](https://media.pixverse.ai/asset/media/V6-hero.mp4)
+
+### Precision Control & Native Artistry
+
+*   Cinematic Control & Physics Simulation
+*   High-Fidelity Portraits & Kinetic Aesthetics
+*   Commercial Synergy & Multi-Sensory Sync
+
+Product
+
+## One AI Platform. Every video.
+
+Everything you need to create, direct, and scale video.
+
+[Text & Image to Video Prompt or image in. Video out.](https://app.pixverse.ai/creation/video)[Template Ready-made creative starts.](https://app.pixverse.ai/?tab=template)[CLI Generate from terminal.](https://app.pixverse.ai/cli)[Agent Create through conversation.](https://app.pixverse.ai/agent)[Lip Sync Voice, sync, and sound.](https://app.pixverse.ai/creation/video)[Mini-Apps Quick utility tools.](https://app.pixverse.ai/mini-apps)[Marketing Hub AI shorts for ads.](https://app.pixverse.ai/marketing-hub)[Character Consistent characters.](https://app.pixverse.ai/creation/video)[Canvas Build video workflows with nodes.](https://app.pixverse.ai/canvas)
+
+[Text & Image to Video Prompt or image in. Video out.](https://app.pixverse.ai/creation/video)[Template Ready-made creative starts.](https://app.pixverse.ai/?tab=template)[CLI Generate from terminal.](https://app.pixverse.ai/cli)[Agent Create through conversation.](https://app.pixverse.ai/agent)[Lip Sync Voice, sync, and sound.](https://app.pixverse.ai/creation/video)[Mini-Apps Quick utility tools.](https://app.pixverse.ai/mini-apps)[Marketing Hub AI shorts for ads.](https://app.pixverse.ai/marketing-hub)[Character Consistent characters.](https://app.pixverse.ai/creation/video)[Canvas Build video workflows with nodes.](https://app.pixverse.ai/canvas)
+
+01 04
+
+Agent
+
+### Direct Every Frame
+
+Describe what should change, refine the motion, and keep direction in context. Agent turns creative intent into a faster, more natural video workflow.
+
+[Try PixVerse AI Agent](https://app.pixverse.ai/agent)
+
+Create 4 film shots
+
+A glowing slit pupil on wet skin, bubbles rising through blue murk. Blue flame bursts from the engine as a tentacle creeps from the shadows. A hooded figure's mask flares red as a shadow skitters past. A lone figure faces a white orb erupting with light.
+
+Got it. Generating four shots.
+
+Generating...
+
+[Video 13](https://media.pixverse.ai/asset/media/Compress3.mp4)
+
+[Video 14](https://media.pixverse.ai/asset/media/Compress2.mp4)
+
+[Video 15](https://media.pixverse.ai/asset/media/Compress4.mp4)
+
+[Video 16](https://media.pixverse.ai/asset/media/Compress5.mp4)
+
+02 04
+
+Marketing Hub
+
+### Create Videos Sell More
+
+Guided workflows help you generate ready-to-use marketing videos without tuning prompts.
+
+[Try PixVerse Marketing Hub](https://app.pixverse.ai/marketing-hub)
+
+[Video 17](https://media.pixverse.ai/asset/media/shoplift-quickcut.mp4)
+
+Marketing Hub E-Commerce
+
++Upload image↗Add URL[Create an AI Video Ad](https://app.pixverse.ai/marketing-hub)
+
+03 04
+
+Canvas
+
+### Map Your Workflow
+
+Connect references, prompts, motion, and output in one editable graph. Canvas makes complex AI video production easier to plan, adjust, and rerun.
+
+[Try PixVerse Canvas](https://app.pixverse.ai/canvas)
+
+[Video 18](https://media.pixverse.ai/asset/media/Compress9.mp4)Text A cinematic product sequence with a slow orbit, reflective material, and controlled studio light.[Video 19](https://media.pixverse.ai/asset/media/Compress16.mp4)
+
+04 04
+
+CLI
+
+### Ship from Terminal
+
+Run prompts, references, output ratios, and batches from the command line, then keep the entire video workflow inside the tools your team already uses.
+
+[Try PixVerse CLI](https://app.pixverse.ai/cli)
+
+[Video 20](https://media.pixverse.ai/asset/media/Web-t2v.mp4)
+
+$ pixverse generate  
+--prompt "A car driving on a highway."  
+--ratio 9:16 --duration 5
+
+## Enterprise-ready AI video foundational models and solutions, delivering real business impact.
+
+A full-stack AI media generation platform and APIs, powered by proprietary video foundation models, featuring industry-leading video quality, a robust and continuously evolving template ecosystem, and near real-time generation—built for reliable, scalable, production-ready workflows.
+
+[Try it now](https://pixverse.ai/en/enterprise)
+
+Get in touch
+
+0+
+
+teams and enterprises worldwide trusted
+
+Cost Efficiency
+
+68%
+
+cost reduction
+
+0+
+
+videos generated
+
+177+
+
+countries served
+
+Speed
+
+57%
+
+faster production
+
+Up to
+
+10×
+
+content output
+
+Trusted by leading companies worldwide
+
+![Image 1](https://media.pixverse.ai/asset/media/web_freepik.png?x-oss-process=style/cover-webp-small)
+
+![Image 2](https://media.pixverse.ai/asset/media/web_fal.png?x-oss-process=style/cover-webp-small)
+
+![Image 3](https://media.pixverse.ai/asset/media/web_genspark.png?x-oss-process=style/cover-webp-small)
+
+![Image 4](https://media.pixverse.ai/asset/media/web_wrtn.png?x-oss-process=style/cover-webp-small)
+
+![Image 5](https://media.pixverse.ai/asset/media/web_runware.png?x-oss-process=style/cover-webp-small)
+
+![Image 6](https://media.pixverse.ai/asset/media/web_replicate.png?x-oss-process=style/cover-webp-small)
+
+![Image 7](https://media.pixverse.ai/asset/media/web_pollo.ai.png?x-oss-process=style/cover-webp-small)
+
+![Image 8](https://media.pixverse.ai/asset/media/web_monica.png?x-oss-process=style/cover-webp-small)
+
+![Image 9](https://media.pixverse.ai/asset/media/web_openartai.png?x-oss-process=style/cover-webp-small)
+
+![Image 10](https://media.pixverse.ai/asset/media/web_akool.png?x-oss-process=style/cover-webp-small)
+
+![Image 11](https://media.pixverse.ai/asset/media/web_photorevive.png?x-oss-process=style/cover-webp-small)
+
+![Image 12](https://media.pixverse.ai/asset/media/web_invideo.png?x-oss-process=style/cover-webp-small)
+
+![Image 13](https://media.pixverse.ai/asset/media/web_photodance.png?x-oss-process=style/cover-webp-small)
+
+![Image 14](https://media.pixverse.ai/asset/media/web_freebeatai.png?x-oss-process=style/cover-webp-small)
+
+![Image 15](https://media.pixverse.ai/asset/media/web_perfect.png?x-oss-process=style/cover-webp-small)
+
+![Image 16](https://media.pixverse.ai/asset/media/web_opusclip.png?x-oss-process=style/cover-webp-small)
+
+![Image 17](https://media.pixverse.ai/asset/media/web_dzine.png?x-oss-process=style/cover-webp-small)
+
+![Image 18](https://media.pixverse.ai/asset/media/web_hubx.png?x-oss-process=style/cover-webp-small)
+
+![Image 19](https://media.pixverse.ai/asset/media/web_glam.png?x-oss-process=style/cover-webp-small)
+
+![Image 20](https://media.pixverse.ai/asset/media/web_collart.png?x-oss-process=style/cover-webp-small)
+
+![Image 21](https://media.pixverse.ai/asset/media/web_bluefocus.png?x-oss-process=style/cover-webp-small)
+
+![Image 22](https://media.pixverse.ai/asset/media/web_bingo.png?x-oss-process=style/cover-webp-small)
+
+![Image 23](https://media.pixverse.ai/asset/media/web_gmi.png?x-oss-process=style/cover-webp-small)
+
+![Image 24](https://media.pixverse.ai/asset/media/web_aiby.png?x-oss-process=style/cover-webp-small)
+
+![Image 25](https://media.pixverse.ai/asset/media/web_freepik.png?x-oss-process=style/cover-webp-small)
+
+![Image 26](https://media.pixverse.ai/asset/media/web_fal.png?x-oss-process=style/cover-webp-small)
+
+![Image 27](https://media.pixverse.ai/asset/media/web_genspark.png?x-oss-process=style/cover-webp-small)
+
+![Image 28](https://media.pixverse.ai/asset/media/web_wrtn.png?x-oss-process=style/cover-webp-small)
+
+![Image 29](https://media.pixverse.ai/asset/media/web_runware.png?x-oss-process=style/cover-webp-small)
+
+![Image 30](https://media.pixverse.ai/asset/media/web_replicate.png?x-oss-process=style/cover-webp-small)
+
+![Image 31](https://media.pixverse.ai/asset/media/web_pollo.ai.png?x-oss-process=style/cover-webp-small)
+
+![Image 32](https://media.pixverse.ai/asset/media/web_monica.png?x-oss-process=style/cover-webp-small)
+
+![Image 33](https://media.pixverse.ai/asset/media/web_openartai.png?x-oss-process=style/cover-webp-small)
+
+![Image 34](https://media.pixverse.ai/asset/media/web_akool.png?x-oss-process=style/cover-webp-small)
+
+![Image 35](https://media.pixverse.ai/asset/media/web_photorevive.png?x-oss-process=style/cover-webp-small)
+
+![Image 36](https://media.pixverse.ai/asset/media/web_invideo.png?x-oss-process=style/cover-webp-small)
+
+![Image 37](https://media.pixverse.ai/asset/media/web_photodance.png?x-oss-process=style/cover-webp-small)
+
+![Image 38](https://media.pixverse.ai/asset/media/web_freebeatai.png?x-oss-process=style/cover-webp-small)
+
+![Image 39](https://media.pixverse.ai/asset/media/web_perfect.png?x-oss-process=style/cover-webp-small)
+
+![Image 40](https://media.pixverse.ai/asset/media/web_opusclip.png?x-oss-process=style/cover-webp-small)
+
+![Image 41](https://media.pixverse.ai/asset/media/web_dzine.png?x-oss-process=style/cover-webp-small)
+
+![Image 42](https://media.pixverse.ai/asset/media/web_hubx.png?x-oss-process=style/cover-webp-small)
+
+![Image 43](https://media.pixverse.ai/asset/media/web_glam.png?x-oss-process=style/cover-webp-small)
+
+![Image 44](https://media.pixverse.ai/asset/media/web_collart.png?x-oss-process=style/cover-webp-small)
+
+![Image 45](https://media.pixverse.ai/asset/media/web_bluefocus.png?x-oss-process=style/cover-webp-small)
+
+![Image 46](https://media.pixverse.ai/asset/media/web_bingo.png?x-oss-process=style/cover-webp-small)
+
+![Image 47](https://media.pixverse.ai/asset/media/web_gmi.png?x-oss-process=style/cover-webp-small)
+
+![Image 48](https://media.pixverse.ai/asset/media/web_aiby.png?x-oss-process=style/cover-webp-small)
+
+### Premium output without the trade-off
+
+PixVerse API combines high-end visual quality, responsive generation, and production-minded cost efficiency in one stack for teams shipping production-ready video workflows.
+
+Model
+
+ELO Source: Artificial Analysis. Higher is better based on blind preference voting.
+
+Affordability Visualized from API price per minute. Lower $/min maps to a longer bar.
+
+Speed Based on API generation time benchmarks. Faster generation maps to a longer bar.
+
+PixVerse V6
+
+1,343
+
+$4.80/min
+
+.
+
+* Grok Imagine 720p
+
+1,333
+
+$4.20/min
+
+.
+
+Kling 3.0 Omni
+
+1,298
+
+$13.44/min
+
+.
+
+VEO 3.1 Fast
+
+1,291
+
+$9.00/min
+
+.
+
+VEO 3.1
+
+1,246
+
+$24.00/min
+
+.
+
+Sora 2 Pro
+
+1,195.5
+
+$18.00/min
+
+.
+
+Sora 2
+
+1,175.4
+
+$6.00/min
+
+.
+
+[Artificial Analysis: Image-to-Video Rankings, as of 2026-04-02 0:00 PST](https://artificialanalysis.ai/video/leaderboard/image-to-video)
+
+Creator Works
+
+## Made with PixVerse
+
+Join thousands of creators shaping the future of video.
+
+![Image 49](https://img.youtube.com/vi/XvNm-OuRZcw/maxresdefault.jpg)
+
+### Mars Landings
+
+AI Video School
+
+A cinematic exploration of landing on Mars, built with AI video storytelling and large-scale science-fiction imagery.
+
+![Image 50](https://img.youtube.com/vi/DhrGjnanvqg/maxresdefault.jpg)
+
+### The Reckless Play
+
+Maria Zozulia
+
+A dramatic AI video piece with a sharp visual rhythm and a story staged around risk, performance, and consequence.
+
+![Image 51](https://img.youtube.com/vi/SnwdtStjk-U/maxresdefault.jpg)
+
+### Space Urbex
+
+michaelheina
+
+An atmospheric journey through abandoned futuristic spaces, mixing urban exploration with otherworldly production design.
+
+Explore Community
+
+Official Updates
+
+## Latest News
+
+Stay informed with our official press releases, company developments and latest brand news.
+
+[![Image 52: PixVerse Growth Studio Integrates with Meta’s Catalog Product Video, Helping Merchants Extend Video Across Their Full Product Catalog](https://media.pixverse.ai/asset/blog/pixverse-growth-studio-meta-catalog-product-video.png?x-oss-process=style/cover-webp) NEW Oct. 9, 2026 ### PixVerse Growth Studio Integrates with Meta’s Catalog Product Video, Helping Merchants Extend Video Across Their Full Product Catalog](https://pixverse.ai/en/blog/pixverse-growth-studio-meta-catalog-product-video)[![Image 53: PixVerse and OpenAI Collaborate on Prompt to Production](https://media.pixverse.ai/asset/blog/pixverse-openai-prompt-to-production.webp?x-oss-process=style/cover-webp) NEW Oct. 8, 2026 ### PixVerse and OpenAI Collaborate on Prompt to Production](https://pixverse.ai/en/blog/pixverse-openai-prompt-to-production)[![Image 54: To Create Is to Play](https://media.pixverse.ai/asset/blog/to-create-is-to-play.jpg?x-oss-process=style/cover-webp) NEW Sep. 30, 2026 ### To Create Is to Play](https://pixverse.ai/en/blog/to-create-is-to-play)
+
+Learn more
+
+ Products 
+
+Products
+
+[PixVerse Web](https://app.pixverse.ai/)[PixVerse Agent](https://app.pixverse.ai/agent)[Marketing Hub](https://app.pixverse.ai/marketing-hub)[PixVerse Canvas](https://app.pixverse.ai/canvas)[API Platform](https://platform.pixverse.ai/)[PixVerse CLI](https://app.pixverse.ai/cli)
+
+ Models 
+
+Models
+
+[PixVerse V6](https://pixverse.ai/en/model/pixverse-v6)[PixVerse R2](https://pixverse.ai/en/model/pixverse-r2)[GPT Image 2.5](https://pixverse.ai/en/model/gpt-image-2-5)[Seedance 2.5](https://pixverse.ai/en/model/seedance-2-5)[Seedance 2](https://pixverse.ai/en/model/seedance-2)[MiniMax H3](https://pixverse.ai/en/model/minimax-h3)[Flux 3](https://pixverse.ai/en/model/flux-3)
+
+ AI Tools 
+
+AI Tools
+
+[All AI Tools](https://app.pixverse.ai/mini-apps)[Ad Master](https://app.pixverse.ai/mini-apps/ad-master)[Director Shots](https://app.pixverse.ai/mini-apps/director-shots)[Promo Mix](https://app.pixverse.ai/mini-apps/promo-mix)[Sound Effect Generator](https://app.pixverse.ai/mini-apps/sound-effect-generator)[Image Region Editor](https://app.pixverse.ai/mini-apps/image-region-editor)[Fashion Beat](https://app.pixverse.ai/mini-apps/fashion-beat)[Magic Extend](https://app.pixverse.ai/mini-apps/magic-extend)[Video Expand](https://app.pixverse.ai/mini-apps/video-expand)[Vibe MV](https://app.pixverse.ai/mini-apps/vibe-mv)[Product Video Remix](https://app.pixverse.ai/mini-apps/product-video-remix)
+
+ Resources 
+
+Resources
+
+[Blog](https://pixverse.ai/en/blog)[Enterprise](https://pixverse.ai/en/enterprise)[Developers](https://pixverse.ai/en/developers)[Community](https://pixverse.ai/en/community)[News](https://pixverse.ai/en/news)[Research](https://pixverse.ai/en/research)[Careers](https://pixverse.ai/en/careers)[Affiliate](https://pixverse.ai/en/affiliate)[Brand guidelines](https://pixverse.ai/en/brand)[API Documentation](https://docs.platform.pixverse.ai/)[AI Video Generator](https://pixverse.ai/en/product/ai-video-generator)[Image to Video](https://pixverse.ai/en/product/image-to-video)[Text to Video](https://pixverse.ai/en/product/text-to-video)
+
+ Contact & Support 
+
+Contact & Support
+
+[support@pixverse.ai](mailto:support@pixverse.ai)[Feedback](https://discord.gg/5FPCxT2xXh)[About PixVerse](https://pixverse.ai/en/ai-info-page)
+
+[](https://pixverse.ai/en)
+
+Download App
+
+Create AI videos with PixVerse anytime, anywhere.
+
+[Download on the App Store](https://app.pixverse.ai/app-download)[Download on the Google Play](https://app.pixverse.ai/app-download)
+
+Legal[Terms of Service](https://pixverse.ai/en/terms-of-service)[Privacy Policy](https://pixverse.ai/en/privacy-policy)[Community Guidelines](https://pixverse.ai/en/community-guidelines)[PixVerse Platform Terms of Service](https://pixverse.ai/en/pixverse-platform-terms-of-service)[Open Source Notice](https://pixverse.ai/en/open-source-notice) © PixVerse 2026

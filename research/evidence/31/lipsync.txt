@@ -1,0 +1,59 @@
+Title: Lipsync - PixVerse Platform Docs
+
+URL Source: https://docs.platform.pixverse.ai/lipsync-43051219e0
+
+Markdown Content:
+POST
+
+/openapi/v2/video/lip_sync/generate
+
+Provide exactly one video source. For audio, choose either audio_media_id OR both TTS fields; do not mix the two modes. Upload video and audio separately using Upload Media. Upload acceptance does not guarantee that the media meets this operation's processing requirements. Use a speaker_id returned by the TTS list.
+
+## Request
+
+Header Params
+
+Body Params application/json Required
+
+Examples
+
+## Responses
+
+application/json
+
+Successful response.
+
+Body application/json
+
+Request Request Example
+
+Shell
+
+Minimal request (replace resource IDs) Complete scenario (replace resource IDs)
+
+```
+curl --location 'https://app-api.pixverse.ai/openapi/v2/video/lip_sync/generate' \
+--header 'API-KEY: your-api-key' \
+--header 'Ai-trace-id: 550e8400-e29b-41d4-a716-446655440000' \
+--header 'Content-Type: application/json' \
+--data '{
+    "video_media_id": 123456793,
+    "lip_sync_tts_speaker_id": "14",
+    "lip_sync_tts_content": "Hello, welcome to our product demo."
+}'
+```
+
+Response Response Example
+
+Successful Example
+
+```
+{
+    "ErrCode": 0,
+    "ErrMsg": "Success",
+    "Resp": {
+        "video_id": 123456789,
+        "credits": 10
+    }
+}
+```

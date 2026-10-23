@@ -1,0 +1,400 @@
+Title: click VibeMV - PixVerse Platform Docs
+
+URL Source: https://docs.platform.pixverse.ai/one-click-vibemv-44144151e0
+
+Markdown Content:
+## 1. Product Overview
+
+**At a glance:** An effortless way to visualize music—turn audio into a share-worthy music video with a single click.
+
+### Key Features and Technical Highlights
+
+*   **Simple inputs:** Use instrumental tracks or songs with vocals. Optionally upload a model or character image to precisely control the lead character’s facial features and hairstyle.
+*   **Lip sync support:** Match the character’s mouth movements to the vocals, capturing the rhythm and emotion of the performance for a natural singing effect across a wide range of music genres and visual styles.
+*   **Diverse visual styles:** Choose from 15 built-in styles spanning live-action performances, live-action storytelling, 2D/3D animation, retro lo-fi, pixel art, and more, designed for short-form video.
+*   **Multilingual support:** AI automatically recognizes lyrics or generates lyric captions in Chinese, English, and a wide range of other languages.
+*   **Core strengths:** A streamlined workflow, exceptionally low generation costs, highly stable visuals, and industry-leading synchronization between lyrics and visuals.
+
+### Showcase and Assets
+
+*   [Oneclick showcase](https://aisphere.feishu.cn/wiki/YySRw2TX4iNMWJkzI2Gc9M6unab)
+
+### Pricing and Concurrency
+
+| Item | Description |
+| --- | --- |
+| Supported resolutions | 720p, 1080p |
+| 720p pricing | 15 credits per second, with duration rounded up to the next whole second |
+| 1080p pricing | 1.5 times the 720p rate |
+| Concurrency usage | Each call consumes 10 concurrency units |
+
+## 2. API Workflow
+
+1.   Upload audio through `/openapi/v2/media/upload` to obtain an audio ID.
+2.   Call `/openapi/v2/audio/verification` to submit the audio for content moderation.
+3.   Once the audio passes moderation, call `/openapi/v2/video/music_mv_agent/generate` to generate a music video.
+4.   Use the returned `video_id` to retrieve the video result and URL through `/openapi/v2/video/result/{video_id}`.
+
+> The source material contains the following discrepancies and gaps that require confirmation. They are documented here without assuming a resolution:
+> 
+> 
+> *   Audio file size: the parameter description specifies a **100 MB** limit, while the error example indicates a **15 MB** limit.
+> *   Upload response field: the audio verification section uses `music_id`, while the generation section uses `media_id`. Both endpoints accept this value as `audio_media_id`.
+> *   The original parameter table lists `image_references` and `style_img_references` as `string`, but the examples use arrays of objects. This document uses `array<object>` to match the examples.
+> *   Some error messages use `img_references`, while the request parameter is `image_references`. The original error messages are preserved.
+> *   An error message references `mv_prompt`, but the original request parameter table does not define this field.
+
+Both the audio verification and music video generation endpoints use the following headers.
+
+| Field | Type | Required | Description or Value |
+| --- | --- | --- | --- |
+| `API-KEY` | string | Yes | The unique Pixverse API key issued upon registration |
+| `Ai-trace-id` | string | Yes | A new trace ID for each workflow task |
+| `Content-Type` | string | Yes | `application/json` |
+
+## 4. Audio Verification Endpoint
+
+### 4.1 Endpoint Details
+
+| Item | Description |
+| --- | --- |
+| Availability | China ✅, International ✅ |
+| Purpose | Moderate uploaded audio and return the result synchronously |
+| Method | `POST` |
+| Path | `/openapi/v2/audio/verification` |
+
+### 4.2 Request Body
+
+| Field | Type | Required | Description | Validation Rules |
+| --- | --- | --- | --- | --- |
+| `audio_media_id` | uint64 | Yes | Audio ID returned by the upload endpoint; the original example uses `"music_id": 1111` | The audio must have been uploaded by the current account |
+
+### 4.3 Request Example
+
+```
+curl --location --request POST 'https://app-api.pixverse.ai/openapi/v2/audio/verification' \
+  --header 'API-KEY: sk-xxxxxxxxxxx' \
+  --header 'Ai-trace-id: xxxxxxxxxxx' \
+  --header 'Content-Type: application/json' \
+  --data-raw '{
+    "audio_media_id": 405833376854443
+  }'
+```
+
+### 4.4 Success Response
+
+```
+{
+  "ErrCode": 0,
+  "ErrMsg": "Success",
+  "Resp": {}
+}
+```
+
+### 4.5 Error Responses
+
+| Condition | ErrCode | ErrMsg |
+| --- | --- | --- |
+| Audio ID is empty | 400017 | `Required field audio_media_id are missing or empty.` |
+| Audio ID does not exist | 400013 | `Invalid field type or value. Please verify your input data.` |
+| Audio was not created by the current account | 500047 | `audio_media_id: The provided media is invalid — the type may be incorrect, or the resource is no longer available.` |
+| Invalid ID format | 500047 | `audio_media_id: The provided media is invalid — the type may be incorrect, or the resource is no longer available.` |
+| Audio violates content policies (English response) | 500063 | `The text you entered contains sensitive information. Please re-enter.` |
+| Audio violates content policies (Chinese response, translated into English) | 500063 | `The submitted content does not comply with platform policies. Please submit different content.` |
+
+Example error response:
+
+```
+{
+  "ErrCode": 400017,
+  "ErrMsg": "Required field audio_media_id are missing or empty."
+}
+```
+
+## 5. Music Video Generation Endpoint
+
+### 5.1 Endpoint Details
+
+| Item | Description |
+| --- | --- |
+| Availability | China ✅, International ✅ |
+| Purpose | Generate a music video |
+| Method | `POST` |
+| Path | `/openapi/v2/video/music_mv_agent/generate` |
+| Concurrency usage | 10 |
+
+### 5.2 Request Body
+
+| Field | Type | Required | Description and Validation Rules |
+| --- | --- | --- | --- |
+| `mv_agent_type` | string | Yes | Use `vibe_mv_v3_custom` for the recommended workflow. The legacy workflow uses `vibe_mv_v3` and will no longer be maintained; migration to the new workflow is recommended |
+| `audio_media_id` | uint64 | Yes | Audio ID returned after upload; the original example uses `"media_id": 1111`. The audio must pass verification first. The parameter description specifies a maximum file size of 100 MB and a duration of 10 seconds to 6 minutes. The file size limit differs from the error example; see Section 2 |
+| `image_references` | array | No | Character reference image. Currently limited to one image. Supported formats: JPG, PNG, and WebP. Maximum dimensions: 10000 × 10000 pixels. Maximum file size: 20 MB |
+| `style_img_references` | array | No | Provide a style reference image only when `mv_style=Custom`. Currently limited to one image, with the same format, dimension, and file size limits as the character image. If omitted, the character image is used as the style reference. For custom styles, the two image reference fields cannot both be empty |
+| `music_style` | string | No | Music genre; see the allowed values below. Values are case-insensitive. If empty, the system determines the genre automatically |
+| `mv_style` | string | No | Music video visual style; see the allowed values below. Values are case-insensitive. If empty, the system determines the style automatically |
+| `aspect_ratio` | string | No | `16:9`, `9:16`, `1:1`, `4:3`, or `3:4`. Default: `16:9` |
+| `quality` | string | No | `720p` or `1080p`. Default: `720p` |
+| `lyric_text` | string | No | Lyrics. Retaining punctuation or line breaks is recommended |
+| `caption_switch` | boolean | No | Enables lyric captions. Default: `false` |
+| `lip_sync_switch` | boolean | No | Enables lip sync when `true` and disables it when `false`. Default: `false`. Enabling lip sync for instrumental audio causes generation to fail with an error |
+| `lyric_timestamp` | JSON object | No | Timestamped lyrics. Takes precedence over `lyric_text` when both are provided |
+
+### 5.3 Style Options
+
+**Music genres (`music_style`):**
+
+```
+Pop / Rock / Hip Hop / R&B / Jazz / Reggae / Country / Folk /
+Electronic / Classical / Soul / Funk / Metal / Ambient / Others
+```
+
+**Music video visual styles (`mv_style`):**
+
+```
+Custom / Cinematic / Lo-fi / Dreamscape / Woolen Felt / Candy /
+Golden Age / Voxel / Retro Game / Claymation / Woodland Tale /
+Impressionism / Decadence / Futuristic / Chromatic Clash / Holiday
+```
+
+`Custom` enables a custom style; the remaining options are the 15 built-in styles.
+
+### 5.4 Image Reference Format
+
+Character reference image:
+
+```
+{
+  "image_references": [
+    {
+      "img_id": 164913710,
+      "ref_name": "Character reference image"
+    }
+  ]
+}
+```
+
+Style reference image:
+
+```
+{
+  "style_img_references": [
+    {
+      "img_id": 164913711,
+      "ref_name": "Style reference image"
+    }
+  ]
+}
+```
+
+When `mv_style=Custom`:
+
+*   If `style_img_references` is omitted, `image_references` is used as the style reference.
+*   `image_references` and `style_img_references` cannot both be empty.
+
+### 5.5 Lyric Timestamps
+
+```
+{
+  "lyric_timestamp": {
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.32,
+        "word": "Who"
+      },
+      {
+        "start": 0.32,
+        "end": 0.64,
+        "word": "be"
+      }
+    ]
+  }
+}
+```
+
+Validation rules:
+
+1.   Times are expressed in seconds, with `0` marking the start of the audio.
+2.   Timestamps must progress sequentially: each `start` must be greater than or equal to the previous `end`. Overlapping words are not currently supported.
+3.   Timestamps must not exceed the audio duration.
+4.   The `words` array may contain up to 5000 entries, and the concatenated text must be fewer than 5000 characters.
+5.   When both `lyric_text` and `lyric_timestamp` are provided, `lyric_timestamp` takes precedence.
+
+### 5.6 Request Example
+
+The following example includes the main parameters and an excerpt of the lyrics. Comments have been removed to keep the JSON valid and ready to use.
+
+```
+curl --location --request POST 'https://app-api.pixverse.ai/openapi/v2/video/music_mv_agent/generate' \
+  --header 'API-KEY: sk-xxxxxxxxxxx' \
+  --header 'Ai-trace-id: xxxxxxxxxxx' \
+  --header 'Content-Type: application/json' \
+  --data-raw '{
+    "mv_agent_type": "vibe_mv_v3_custom",
+    "audio_media_id": 404796051111573,
+    "image_references": [
+      {
+        "img_id": 164913710,
+        "ref_name": "Character reference image"
+      }
+    ],
+    "style_img_references": [
+      {
+        "img_id": 164913711,
+        "ref_name": "Style reference image"
+      }
+    ],
+    "music_style": "Jazz",
+    "mv_style": "Custom",
+    "aspect_ratio": "16:9",
+    "quality": "720p",
+    "lyric_text": "The city breathes in velvet hush\nStreetlights bleed soft molten gold\nMy footsteps hum a quiet rush\nWhere winter air turns warm and old",
+    "caption_switch": true,
+    "lip_sync_switch": true
+  }'
+```
+
+### 5.7 Success Response
+
+After the endpoint returns a `video_id`, retrieve the video result and URL through `/openapi/v2/video/result/{video_id}`.
+
+```
+{
+  "ErrCode": 0,
+  "ErrMsg": "Success",
+  "Resp": {
+    "video_id": 311156303940608,
+    "credits": 1000
+  }
+}
+```
+
+### 5.8 Error Responses
+
+The table below preserves all original error codes and messages for this endpoint. Unless otherwise noted, the response examples contain the `ErrCode` and `ErrMsg` fields.
+
+| Condition | ErrCode | ErrMsg |
+| --- | --- | --- |
+| Audio has not been verified; call the audio verification endpoint first | 701020 | `The audio content has not been verified. Please call the audio verification interface first.` |
+| Audio failed verification | 500063 | `The text you entered contains sensitive information. Please re-enter.` |
+| `mv_agent_type` is not an allowed value | 400017 | `Invalid value for mv_agent_type` |
+| Invalid aspect ratio | 400017 | `Invalid value for aspect_ratio.` |
+| Invalid video resolution | 400017 | `Invalid value for quality.` |
+| Audio file exceeds the size limit | 400017 | `Audio file size exceeds the 15MB limit.` |
+| Audio duration exceeds 360 seconds | 400017 | `The audio duration exceeds the 360-second limit.` (the response also includes `"Resp": null`) |
+| Invalid audio duration | 400017 | `Invalid value for duration.` |
+| `mv_style` is not an allowed value | 400017 | `Invalid value for mv_style.` |
+| `music_style` is not an allowed value | 400017 | `Invalid value for music_style.` |
+| Audio ID is empty | 400017 | `Required field audio_media_id are missing or empty.` |
+| Audio does not belong to the current account | 500047 | `audio_media_id: The provided media is invalid — the type may be incorrect, or the resource is no longer available.` |
+| Audio ID does not exist | 500047 | `audio_media_id: The provided media is invalid — the type may be incorrect, or the resource is no longer available.` |
+| More than one image provided | 400017 | `Invalid value for img_references.` |
+| Image ID is empty | 400017 | `Invalid value for img_id.` |
+| Image does not belong to the current account | 701009 | `Invalid query. You can only query your own generated or uploaded content.` |
+| Image ID does not exist | 400032 | `invalid img id` |
+| Both character and style references are empty for a custom style | 400017 | `image_references and style_img_references cannot both be empty when mv_agent_type is vibe_mv_v3_custom and mv_style is custom.` |
+| Lip sync enabled for instrumental audio | 400017 | `No lyrics were detected in the audio. Lip sync MV requires vocals with recognizable lyrics.` |
+| Prompt exceeds 5000 characters | 400017 | `music_style / mv_prompt must be within 5000 characters` |
+| Lyrics blocked by content moderation | 500063 | `The text you entered contains sensitive information. Please re-enter.` |
+| Audio blocked by content moderation | 500063 | `The content you entered contains sensitive information. Please re-enter.` |
+| Free-tier user blocked by concurrency limits | 500044 | `Reached the limit for concurrent generations.` |
+
+Audio not yet verified:
+
+```
+{
+  "ErrCode": 701020,
+  "ErrMsg": "The audio content has not been verified. Please call the audio verification interface first."
+}
+```
+
+Audio duration exceeds the limit:
+
+```
+{
+  "ErrCode": 400017,
+  "ErrMsg": "The audio duration exceeds the 360-second limit.",
+  "Resp": null
+}
+```
+
+Missing images for a custom style:
+
+```
+{
+  "ErrCode": 400017,
+  "ErrMsg": "image_references and style_img_references cannot both be empty when mv_agent_type is vibe_mv_v3_custom and mv_style is custom."
+}
+```
+
+Lip sync enabled for instrumental audio:
+
+```
+{
+  "ErrCode": 400017,
+  "ErrMsg": "No lyrics were detected in the audio. Lip sync MV requires vocals with recognizable lyrics."
+}
+```
+
+Request Request Example
+
+Shell
+
+```
+curl --location 'https://app-api.pixverse.ai/openapi/v2/video/music_mv_agent/generate' \
+--header 'API-KEY: sk-xxxxxxxxxxx' \
+--header 'Ai-trace-id: xxxxxxxxxxx' \
+--header 'Content-Type: application/json' \
+--data '{
+  // Custom MV V3 pipeline identifier
+  "mv_agent_type": "vibe_mv_v3_custom",
+  // Uploaded audio ID; the audio must pass verification first
+  "audio_media_id": 0,
+  // Character reference image (optional; currently supports one image only)
+  "image_references": [
+    {
+      "img_id": 0,
+      "ref_name": "Character image"
+    }
+  ],
+  // Style reference image (only when mv_style=Custom; currently supports one image only)
+  "style_img_references": [
+    {
+      "img_id": 0,
+      "ref_name": "Style image"
+    }
+  ],
+  // Music style; leave empty to let the algorithm decide
+  // Pop/Rock/Hip Hop/R&B/Jazz/Reggae/Country/Folk/Electronic/Classical/Soul/Funk/Metal/Ambient/Others
+  "music_style": "Jazz",
+  // MV style; leave empty to let the algorithm decide
+  // Custom/Cinematic/Lo-fi/Dreamscape/Woolen Felt/Candy/Golden Age/Voxel/Retro Game/Claymation/Woodland Tale/Impressionism/Decadence/Futuristic/Chromatic Clash/Holiday
+  "mv_style": "Custom",
+  // Aspect ratio: 16:9/9:16/1:1/4:3/3:4
+  "aspect_ratio": "16:9",
+  // Resolution: 720p/1080p
+  "quality": "720p",
+  // Lyrics (line breaks or punctuation recommended)
+  "lyric_text": "The city breathes in velvet hush\nStreetlights bleed soft molten gold\nMy footsteps hum a quiet rush\nWhere winter air turns warm and old\n\nYour shadow leans against the rain\nA cigarette of silver light\nEach step I take dissolves the pain\nOf hours lost inside the night\n\nMeet me at midnight in blue\nWhere the saxophone cries for you\nHold me like the night won’t end\nLike broken hearts can start again\nMeet me where the neon glows\nWhere nobody knows what nobody knows\nUnderneath this silver moon\nLove sounds sweeter out of tune\n\nDon’t say goodbye too soon\nLet the record spin in June\nWe’re just two fading silhouettes\nDancing out of tune\nMeet me at midnight in blue\nWhere the saxophone cries for you\nHold me like the night won’t end\nLike broken hearts can start again\n\nTime slows down in smoky air\nA single note hangs in the stair\nNo need for words no need to prove\nJust this calm this shared remove\n\nMeet me at midnight in blue\nWhere the saxophone cries for you\nHold me like the night won’t end\nLike broken hearts can start again\nMeet me where the neon glows\nWhere nobody knows what nobody knows\nUnderneath this silver moon\nLove sounds sweeter out of tune",
+  // Caption switch; defaults to false if omitted
+  "caption_switch": true,
+  // Lip-sync switch; defaults to false if omitted
+  "lip_sync_switch": true
+}'
+```
+
+Response Response Example
+
+Successful Example
+
+```
+{
+  "ErrCode": 0,
+  "ErrMsg": "Success",
+  "Resp": {
+    "video_id": 1000000000000164,
+    "credits": 150
+  }
+}
+```

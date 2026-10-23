@@ -1,0 +1,152 @@
+Title: PixVerse API Pricing - PixVerse Platform Docs
+
+URL Source: https://docs.platform.pixverse.ai/pixverse-api-pricing-2394995m0
+
+Markdown Content:
+## Billing Overview
+
+| Item | Rule |
+| --- | --- |
+| Billing unit | Credits |
+| USD reference | 225 Credits = USD 1; 1 Credit ≈ USD 0.004444. |
+| Creation response | `Resp.credits` is the request-level Credit value. Use it for estimates and preliminary reconciliation; the account ledger determines the final charge. |
+
+### How to Read the Tables
+
+Each price shows **Credits** first and the **approximate USD amount** below.
+
+**Credits/s:** multiply the rate by the billable duration. **Credits/request:** a fixed amount per request.
+
+**Not supported:** the listed combination is unavailable. **Not listed:** no public rate is provided; this does not confirm availability.
+
+USD amounts use `total Credits ÷ 225`, rounded to three decimal places. Calculate the Credit total before rounding the final USD amount. Plans, volume agreements, promotions, and free allowances may change your effective cost.
+## Core Capabilities
+
+### C1, V6, V6 Max,and V6 Video References
+
+Billed per generated second. These rates apply to supported model-based video capabilities. V6 Extend uses the applicable V6 resolution, audio, and generated-duration rate, not a separate flat rate.**Video Expand** is billed by input-video duration, rounded up to a whole second: **12 Credits/s at 720p** or **24 Credits/s at 1080p**. V6 Fusion with `video_references` uses twice the standard V6 rate.**V6 MAX (v6-max) Only support text-to-video/image-to-video now**
+| Model | Audio | 360p | 540p | 720p | 1080p |
+| --- | --- | --- | --- | --- | --- |
+| C1 | Off | **6 Credits/s** US$0.027/s | **8 Credits/s** US$0.036/s | **10 Credits/s** US$0.044/s | **19 Credits/s** US$0.084/s |
+| C1 | On | **8 Credits/s** US$0.036/s | **10 Credits/s** US$0.044/s | **13 Credits/s** US$0.058/s | **24 Credits/s** US$0.107/s |
+| V6 | Off | **5 Credits/s** US$0.022/s | **7 Credits/s** US$0.031/s | **9 Credits/s** US$0.040/s | **18 Credits/s** US$0.080/s |
+| V6 | On | **7 Credits/s** US$0.031/s | **9 Credits/s** US$0.040/s | **12 Credits/s** US$0.053/s | **23 Credits/s** US$0.102/s |
+| V6 video reference | Off | **10 Credits/s** US$0.044/s | **14 Credits/s** US$0.062/s | **18 Credits/s** US$0.080/s | **36 Credits/s** US$0.160/s |
+| V6 video reference | On | **14 Credits/s** US$0.062/s | **18 Credits/s** US$0.080/s | **24 Credits/s** US$0.107/s | **46 Credits/s** US$0.204/s |
+| V6 Max | Off | **6 Credits/s** USD 0.027/s | **9 Credits/s** USD 0.040/s | **11 Credits/s** USD 0.049/s | **22 Credits/s** USD 0.098/s |
+| V6 Max | On | **9 Credits/s** USD 0.040/s | **11 Credits/s** USD 0.049/s | **15 Credits/s** USD 0.067/s | **28 Credits/s** USD 0.124/s |
+
+### V5.6
+
+Fixed Credits per request for the selected duration and audio setting.
+| Duration | Audio | 360p | 540p | 720p | 1080p |
+| --- | --- | --- | --- | --- | --- |
+| 5 seconds | Off | **35 Credits** US$0.156 | **35 Credits** US$0.156 | **45 Credits** US$0.200 | **75 Credits** US$0.333 |
+| 5 seconds | On | **80 Credits** US$0.356 | **80 Credits** US$0.356 | **90 Credits** US$0.400 | **120 Credits** US$0.533 |
+| 8 seconds | Off | **70 Credits** US$0.311 | **70 Credits** US$0.311 | **90 Credits** US$0.400 | **150 Credits** US$0.667 |
+| 8 seconds | On | **115 Credits** US$0.511 | **115 Credits** US$0.511 | **135 Credits** US$0.600 | **195 Credits** US$0.867 |
+| 10 seconds | Off | **77 Credits** US$0.342 | **77 Credits** US$0.342 | **99 Credits** US$0.440 | Not supported |
+| 10 seconds | On | **122 Credits** US$0.542 | **122 Credits** US$0.542 | **144 Credits** US$0.640 | Not supported |
+
+### V5.5
+
+Fixed Credits per request. Single-shot and multi-shot modes are shown separately.
+#### Single-shot
+
+| Duration | Audio | 360p | 540p | 720p | 1080p |
+| --- | --- | --- | --- | --- | --- |
+| 5 seconds | Off | **45 Credits** US$0.200 | **45 Credits** US$0.200 | **60 Credits** US$0.267 | **120 Credits** US$0.533 |
+| 5 seconds | On | **55 Credits** US$0.244 | **55 Credits** US$0.244 | **70 Credits** US$0.311 | **130 Credits** US$0.578 |
+| 8 seconds | Off | **90 Credits** US$0.400 | **90 Credits** US$0.400 | **120 Credits** US$0.533 | **240 Credits** US$1.067 |
+| 8 seconds | On | **100 Credits** US$0.444 | **100 Credits** US$0.444 | **130 Credits** US$0.578 | **250 Credits** US$1.111 |
+| 10 seconds | Off | **99 Credits** US$0.440 | **99 Credits** US$0.440 | **132 Credits** US$0.587 | Not supported |
+| 10 seconds | On | **109 Credits** US$0.484 | **109 Credits** US$0.484 | **142 Credits** US$0.631 | Not supported |
+
+#### Multi-shot
+
+| Duration | Audio | 360p | 540p | 720p | 1080p |
+| --- | --- | --- | --- | --- | --- |
+| 5 seconds | Off | **75 Credits** US$0.333 | **75 Credits** US$0.333 | **90 Credits** US$0.400 | **150 Credits** US$0.667 |
+| 5 seconds | On | **85 Credits** US$0.378 | **85 Credits** US$0.378 | **100 Credits** US$0.444 | **160 Credits** US$0.711 |
+| 8 seconds | Off | **120 Credits** US$0.533 | **120 Credits** US$0.533 | **150 Credits** US$0.667 | **270 Credits** US$1.200 |
+| 8 seconds | On | **130 Credits** US$0.578 | **130 Credits** US$0.578 | **160 Credits** US$0.711 | **280 Credits** US$1.244 |
+| 10 seconds | Off | **129 Credits** US$0.573 | **129 Credits** US$0.573 | **162 Credits** US$0.720 | Not supported |
+| 10 seconds | On | **139 Credits** US$0.618 | **139 Credits** US$0.618 | **172 Credits** US$0.764 | Not supported |
+
+### V5
+
+Fixed Credits per request for the selected duration.
+| Duration | 360p | 540p | 720p | 1080p |
+| --- | --- | --- | --- | --- |
+| 5 seconds | **45 Credits** US$0.200 | **45 Credits** US$0.200 | **60 Credits** US$0.267 | **120 Credits** US$0.533 |
+| 8 seconds | **90 Credits** US$0.400 | **90 Credits** US$0.400 | **120 Credits** US$0.533 | **240 Credits** US$1.067 |
+Legacy-model availability depends on the active endpoint and your account. A listed price does not override endpoint constraints.
+## Solutions
+
+### Video and Audio
+
+| Capability | Billing basis | Price |
+| --- | --- | --- |
+| Speech (Lip Sync): uploaded audio | Per audio second, rounded up | **4 Credits/s** US$0.018/s |
+| Speech (Lip Sync): TTS | Per 15 UTF-8 bytes, rounded up | **4 Credits/unit** US$0.018/unit |
+| Sound Effects | Per source-video second | **2 Credits/s** US$0.009/s |
+| Restyle | Per source-video second | **10 Credits/s** US$0.044/s |
+| Mask Generation | Per request | **2 Credits** US$0.009 |
+| Upscale | Per source-video second | **5 Credits/s** US$0.022/s |
+
+### Resolution-Based Capabilities
+
+Swap, Motion Control (Mimic), and Modify are billed by source duration. Viral Recreation Agent is billed by generated duration.
+| Capability | 360p | 540p | 720p | 1080p |
+| --- | --- | --- | --- | --- |
+| Swap | **9 Credits/s** US$0.040/s | **9 Credits/s** US$0.040/s | **12 Credits/s** US$0.053/s | Not listed |
+| Motion Control (Mimic) | **9 Credits/s** US$0.040/s | **10 Credits/s** US$0.044/s | **12 Credits/s** US$0.053/s | Not listed |
+| Modify | **8 Credits/s** US$0.036/s | **10 Credits/s** US$0.044/s | **12 Credits/s** US$0.053/s | Not listed |
+| Viral Recreation Agent | Not supported | Not supported | **80 Credits/s** US$0.356/s | **157 Credits/s** US$0.698/s |
+
+### Avatar
+
+One billing unit is one second of uploaded audio, rounded up, or 15 UTF-8 bytes of TTS text, rounded up.
+| 360p | 540p | 720p | 1080p |
+| --- | --- | --- | --- |
+| **5 Credits/unit** US$0.022/unit | **10 Credits/unit** US$0.044/unit | **15 Credits/unit** US$0.067/unit | **20 Credits/unit** US$0.089/unit |
+
+## Special Pricing
+
+### Multi-Transition
+
+Fixed duration tiers for `motion_mode=normal`. The `fast` mode doubles the Credit amount. Check the endpoint for supported duration and resolution combinations.
+| Duration | 360p / 540p | 720p | 1080p |
+| --- | --- | --- | --- |
+| 1 second | **23 Credits** US$0.102 | **30 Credits** US$0.133 | **60 Credits** US$0.267 |
+| 2 seconds | **27 Credits** US$0.120 | **36 Credits** US$0.160 | **72 Credits** US$0.320 |
+| 3 seconds | **32 Credits** US$0.142 | **42 Credits** US$0.187 | **84 Credits** US$0.373 |
+| 4 seconds | **36 Credits** US$0.160 | **48 Credits** US$0.213 | **96 Credits** US$0.427 |
+| 5 seconds | **45 Credits** US$0.200 | **60 Credits** US$0.267 | **120 Credits** US$0.533 |
+| 6 seconds | **59 Credits** US$0.262 | **78 Credits** US$0.347 | **156 Credits** US$0.693 |
+| 7 seconds | **72 Credits** US$0.320 | **96 Credits** US$0.427 | **192 Credits** US$0.853 |
+| 8 seconds | **90 Credits** US$0.400 | **120 Credits** US$0.533 | **240 Credits** US$1.067 |
+| 9 seconds | **95 Credits** US$0.422 | **126 Credits** US$0.560 | **252 Credits** US$1.120 |
+| 10 seconds | **99 Credits** US$0.440 | **132 Credits** US$0.587 | **264 Credits** US$1.173 |
+| 15 seconds | **135 Credits** US$0.600 | **180 Credits** US$0.800 | **360 Credits** US$1.600 |
+| 20 seconds | **180 Credits** US$0.800 | **240 Credits** US$1.067 | **480 Credits** US$2.133 |
+| 25 seconds | **225 Credits** US$1.000 | **300 Credits** US$1.333 | **600 Credits** US$2.667 |
+| 30 seconds | **270 Credits** US$1.200 | **360 Credits** US$1.600 | **720 Credits** US$3.200 |
+For durations not listed, refer to the current production pricing table or `Resp.credits`, then verify the final ledger entry.
+### Video and Effect Templates
+
+Template prices vary. Use the selected template's `credit_consume` value from `GET /openapi/v2/video/effects/templates/list`, matching the requested quality or specification.Approximate USD amount = `credit_consume ÷ 225`. Do not reuse a historical fixed price. Listing templates does not create a billable generation task.
+## Calculation Examples
+
+| Configuration | Credits | Approx. USD |
+| --- | --- | --- |
+| C1, 1080p, audio off, 5 seconds | 19 x 5 = 95 Credits | US$0.422 |
+| V6, 720p, audio on, 8 seconds | 12 x 8 = 96 Credits | US$0.427 |
+| V6 Fusion with video references, 720p, audio off, 5 seconds | 18 x 5 = 90 Credits | US$0.400 |
+| V5.6, 720p, audio on, 8 seconds | Fixed tier: 135 Credits | US$0.600 |
+| Avatar, 720p, 20 seconds of uploaded audio | ceil(20) x 15 = 300 Credits | US$1.333 |
+| Viral Recreation Agent, 720p, 5 seconds | 80 x 5 = 400 Credits | US$1.778 |
+
+## Charges and Refunds
+
+HTTP 200 with `ErrCode=0` on creation confirms request acceptance, not completed generation or final settlement. Check the final task status and output URL. For failed tasks, confirm the refund entry and restored balance; refunds may be delayed.The account ledger is the final source of truth. For support, keep the account ID, `Ai-trace-id`, `video_id`, creation time, `Resp.credits`, final status, and before/after balances.

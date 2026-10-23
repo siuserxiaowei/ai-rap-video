@@ -1,0 +1,69 @@
+Title: PixVerse Platform Docs
+
+URL Source: https://docs.platform.pixverse.ai/speechlipsync-generation-19094278e0
+
+Warning: Target URL returned error 404: Not Found
+
+Markdown Content:
+*   Get Started 
+    *   [Billing and Usage](https://docs.platform.pixverse.ai/billing-and-usage-2394984m0 "Billing and Usage")
+    *   [Quick Start](https://docs.platform.pixverse.ai/quick-start-2394985m0 "Quick Start")
+    *   [Contact Us](https://docs.platform.pixverse.ai/contact-us-2394987m0 "Contact Us")
+    *   [Privacy and Data Protection](https://docs.platform.pixverse.ai/privacy-and-data-protection-2394988m0 "Privacy and Data Protection")
+    *   [Model Capability Map](https://docs.platform.pixverse.ai/model-capability-map-2394982m0 "Model Capability Map")
+    *   [What Is PixVerse AI?](https://docs.platform.pixverse.ai/what-is-pixverse-ai-2394981m0 "What Is PixVerse AI?")
+
+*   API 
+    *   Preparation 
+        *   [Start Here](https://docs.platform.pixverse.ai/start-here-2394989m0)
+        *   [Concurrency Rules](https://docs.platform.pixverse.ai/concurrency-rules-2394990m0)
+        *   [Query Task Status](https://docs.platform.pixverse.ai/query-task-status-2394991m0)
+        *   [Error Codes](https://docs.platform.pixverse.ai/error-codes-2394992m0)
+        *   [Error Details](https://docs.platform.pixverse.ai/error-details-2490131m0)
+        *   [FAQ](https://docs.platform.pixverse.ai/faq-2394993m0)
+        *   [Webhook Callbacks](https://docs.platform.pixverse.ai/webhook-callbacks-2394994m0)
+        *   [Upload Image](https://docs.platform.pixverse.ai/upload-image-13016631e0)
+        *   [Upload Media (Video and Audio)](https://docs.platform.pixverse.ai/upload-media-video-and-audio-43051206e0)
+        *   [Verify Uploaded Audio](https://docs.platform.pixverse.ai/verify-uploaded-audio-43051207e0)
+        *   [Get Effect Template List](https://docs.platform.pixverse.ai/get-effect-template-list-43051208e0)
+        *   [Get TTS Speaker List](https://docs.platform.pixverse.ai/get-tts-speaker-list-43051209e0)
+        *   [Get Restyle Effect List](https://docs.platform.pixverse.ai/get-restyle-effect-list-43051210e0)
+        *   [Query Task Status](https://docs.platform.pixverse.ai/query-task-status-43051212e0)
+        *   [Get Account Balance](https://docs.platform.pixverse.ai/get-account-balance-13778057e0)
+        *   [Usage Deduction Query](https://docs.platform.pixverse.ai/usage-deduction-query-43051211e0)
+        *   [Create Custom Voice](https://docs.platform.pixverse.ai/create-custom-voice-43150037e0)
+        *   [Delete Custom Voice](https://docs.platform.pixverse.ai/delete-custom-voice-43150038e0)
+
+    *   Core Capabilities 
+        *   [Text-to-Video](https://docs.platform.pixverse.ai/text-to-video-13016634e0)
+        *   [Image-to-Video and Video Templates](https://docs.platform.pixverse.ai/image-to-video-and-video-templates-13016633e0)
+        *   [First and Last Frame Video](https://docs.platform.pixverse.ai/first-and-last-frame-video-43051213e0)
+        *   [Reference-to-Video (Fusion)](https://docs.platform.pixverse.ai/reference-to-video-fusion-43051214e0)
+        *   [Multi-Transition Video](https://docs.platform.pixverse.ai/multi-transition-video-43051215e0)
+        *   [Video Extend](https://docs.platform.pixverse.ai/video-extend-43051216e0)
+        *   [Video Expand](https://docs.platform.pixverse.ai/video-expand-45751712e0)
+        *   [Image Template Generation](https://docs.platform.pixverse.ai/image-template-generation-43150035e0)
+        *   [Get Image Generation Result](https://docs.platform.pixverse.ai/get-image-generation-result-43150036e0)
+
+    *   Solutions 
+        *   [Video Upscale](https://docs.platform.pixverse.ai/video-upscale-43051217e0)
+        *   [Video Restyle](https://docs.platform.pixverse.ai/video-restyle-43051218e0)
+        *   [Lipsync](https://docs.platform.pixverse.ai/lipsync-43051219e0)
+        *   [Video Edit (Modify)](https://docs.platform.pixverse.ai/video-edit-modify-43051223e0)
+        *   [Image Avatar](https://docs.platform.pixverse.ai/image-avatar-43051225e0)
+        *   [Select Video Mask](https://docs.platform.pixverse.ai/select-video-mask-43051221e0)
+        *   [Sound Effect](https://docs.platform.pixverse.ai/sound-effect-43051220e0)
+        *   [Subject Replacement (Swap)](https://docs.platform.pixverse.ai/subject-replacement-swap-43051222e0)
+        *   [Motion Control (Mimic)](https://docs.platform.pixverse.ai/motion-control-mimic-43051224e0)
+        *   [One-click Real Estate Video](https://docs.platform.pixverse.ai/one-click-real-estate-video-43051226e0)
+        *   [One-click VibeMV](https://docs.platform.pixverse.ai/one-click-vibemv-44144151e0)
+
+*   Pricing 
+    *   [PixVerse API Pricing](https://docs.platform.pixverse.ai/pixverse-api-pricing-2394995m0 "PixVerse API Pricing")
+
+*   Changelog 
+    *   [Changelog](https://docs.platform.pixverse.ai/changelog-2394996m0 "Changelog")
+
+404
+
+Page not found

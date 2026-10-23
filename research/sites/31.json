@@ -1,0 +1,126 @@
+{
+  "id": "31",
+  "name": "PixVerse",
+  "url": "https://pixverse.ai/",
+  "category": "music_video",
+  "checked_at": "2026-10-23",
+  "summary": "通用 AI 视频平台，同时提供上传音乐生成 VibeMV、独立口型同步及 V6 原生音频。VibeMV 可将已有 Hip Hop 音轨配成带歌词和人物口型的音乐视频；未核实从提示词原创 Rap 歌曲。",
+  "inputs": [
+    "文字场景提示词（通用视频）",
+    "参考图像或人物图像",
+    "已有音乐或带人声音频（VibeMV，文档标注 10 秒至 6 分钟）",
+    "可选歌词文本或逐词时间戳",
+    "已有视频及上传音频或 TTS 文本（独立口型）"
+  ],
+  "outputs": [
+    "通用 AI 视频；V6 宣称最高 15 秒 1080p",
+    "720p/1080p 音乐视频（VibeMV）",
+    "可选歌词字幕和人声口型同步",
+    "与指定音频或 TTS 同步的已有视频"
+  ],
+  "features": [
+    "V6 原生音频涵盖对白、音效及环境声",
+    "VibeMV 上传歌曲或纯音乐后生成音乐视频",
+    "VibeMV 音乐类型包括 Hip Hop；不等同生成 Hip Hop 音乐",
+    "VibeMV 提供 15 种内置视觉风格及自定义参考",
+    "VibeMV 可选人物参考、歌词字幕、口型开关",
+    "独立 Lipsync API 可接受上传音频或 TTS",
+    "平台汇集自研与外部模型，能力需按具体模型核对"
+  ],
+  "pricing": {
+    "summary": "消费端订阅金额、免费额度未核实。公开 API 以 credits 计费且与消费端分离；VibeMV 720p 为 15 credits/秒、1080p 为该值 1.5 倍，时长向上取整；225 credits 为 USD 1 的参考换算，最终以账本为准。",
+    "free_tier": "待核：文档出现免费层并发受限错误示例，不足以确认免费额度或 VibeMV 可免费使用。",
+    "plans": [
+      {
+        "name": "API VibeMV 720p",
+        "credits": "15 credits/秒",
+        "billing_period": "按秒，时长向上取整",
+        "notes": "1080p 为 720p 费率的 1.5 倍；每次调用占 10 个并发单位。"
+      },
+      {
+        "name": "API Lipsync 上传音频",
+        "credits": "4 credits/音频秒",
+        "billing_period": "音频秒数向上取整"
+      },
+      {
+        "name": "API Lipsync TTS",
+        "credits": "4 credits/单位",
+        "billing_period": "每 15 UTF-8 字节向上取整为一单位"
+      }
+    ],
+    "source_url": "https://docs.platform.pixverse.ai/pixverse-api-pricing-2394995m0"
+  },
+  "api": {
+    "status": "documented",
+    "summary": "官方公开 REST API：音乐 MV 为 /openapi/v2/video/music_mv_agent/generate，需先上传并审核音频；独立口型为 /openapi/v2/video/lip_sync/generate。文档提供 API-KEY、Ai-trace-id 和结果查询流程；本次没有调用生成接口。",
+    "url": "https://docs.platform.pixverse.ai/one-click-vibemv-44144151e0"
+  },
+  "limitations": [
+    "未注册、未生成样片、未付款；同步质量和中文快嘴 Rap 效果均未实测。",
+    "没有证据证明 VibeMV 能原创歌词、伴奏或 Rap 演唱；其必需输入是已有音频。",
+    "V6 原生音频、独立 Lipsync 与 VibeMV 是不同工作流，不能互相代替能力承诺。",
+    "VibeMV 开启口型需可识别的人声歌词，纯音乐开启会报错；口型和字幕默认关闭。",
+    "VibeMV 文档自身列出文件大小矛盾：参数写 100MB，错误例写 15MB；实际限制待官方确认。",
+    "VibeMV 自定义风格需要人物图或风格图，两个参考字段不能都空。",
+    "消费端套餐金额、免费额度和具体商用许可待核；V6 页面说明商用权取决于订阅等级。",
+    "旧口型文档返回 404，已改用当前文档；不沿用旧版参数上限。"
+  ],
+  "best_for": "已有 Rap/歌曲音轨，希望生成带人物、歌词字幕与可选口型的 MV；或需要 API 接入视频和口型制作流程的团队。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://pixverse.ai/",
+      "title": "PixVerse 官方首页",
+      "kind": "official",
+      "local_path": "research/evidence/31/home.txt",
+      "supports": "平台列出文生视频、图生视频、Lip Sync、Canvas 及多种自研和外部模型。首页比较图价格不是用户套餐。"
+    },
+    {
+      "url": "https://pixverse.ai/en/model/pixverse-v6",
+      "title": "PixVerse V6",
+      "kind": "official",
+      "local_path": "research/evidence/31/v6.txt",
+      "supports": "V6 宣称 15 秒 1080p、原生多镜头及对白、音效、环境声；未明确承诺原创 Rap 歌曲。"
+    },
+    {
+      "url": "https://docs.platform.pixverse.ai/one-click-vibemv-44144151e0",
+      "title": "One-click VibeMV",
+      "kind": "documentation",
+      "local_path": "research/evidence/31/vibemv.txt",
+      "supports": "上传已有音乐生成 MV；支持 Hip Hop 类型、可选人物参考、歌词字幕及口型。720p 每秒 15 credits；1080p 为 1.5 倍。"
+    },
+    {
+      "url": "https://docs.platform.pixverse.ai/lipsync-43051219e0",
+      "title": "Lipsync API",
+      "kind": "documentation",
+      "local_path": "research/evidence/31/lipsync.txt",
+      "supports": "POST /openapi/v2/video/lip_sync/generate；单一视频源配上传音频或 TTS 字段。"
+    },
+    {
+      "url": "https://docs.platform.pixverse.ai/",
+      "title": "Billing and Usage",
+      "kind": "documentation",
+      "local_path": "research/evidence/31/billing.txt",
+      "supports": "API credits 与消费端订阅分离；费用取决于模型、分辨率、时长和音频等，最终以账本为准。"
+    },
+    {
+      "url": "https://docs.platform.pixverse.ai/pixverse-api-pricing-2394995m0",
+      "title": "PixVerse API Pricing",
+      "kind": "pricing",
+      "local_path": "research/evidence/31/api-pricing.txt",
+      "supports": "225 credits 参考 USD 1；上传音频口型为 4 credits/音频秒向上取整，TTS 为每 15 UTF-8 字节 4 credits。"
+    },
+    {
+      "url": "https://docs.platform.pixverse.ai/speechlipsync-generation-19094278e0",
+      "title": "旧版 Speech Lipsync 页面（404）",
+      "kind": "documentation",
+      "local_path": "research/evidence/31/lipsync-old-404.txt",
+      "supports": "旧文档 URL 返回 404，导航提供当前 Lipsync 页；不采用旧搜索摘要中的尺寸上限。"
+    }
+  ],
+  "observations": [
+    "推断：在 Rap 视频工作流中更适合作为现成歌曲之后的视觉制作层，而非原创 Rap 音乐的来源。",
+    "推断：VibeMV 将音轨、歌词时间戳、人物参考和口型开关组合，能减少多工具拼接步骤；实际节奏匹配与快嘴口型仍需样片验证。",
+    "推断：API 与消费端分账、口型及 MV 单独计价，产品预算应按具体工作流核算。"
+  ]
+}

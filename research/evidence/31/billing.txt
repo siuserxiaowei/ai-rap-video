@@ -1,0 +1,44 @@
+Title: Billing and Usage - PixVerse Platform Docs
+
+URL Source: https://docs.platform.pixverse.ai/
+
+Markdown Content:
+PixVerse API usage is measured in Credits. Review the account balance, usage records, and purchases in the [PixVerse API Platform](https://platform.pixverse.ai/).For current model and capability rates, see **Pricing > PixVerse API Pricing** in this documentation.
+## Where to Check Usage
+
+| Item | Location |
+| --- | --- |
+| Credit balance, usage records, and purchases | PixVerse API Billing |
+| Current balance through the API | `GET /openapi/v2/account/balance` |
+| Model and capability pricing | Pricing > PixVerse API Pricing |
+
+## How Billing Works
+
+The Credit amount depends on the selected model, resolution, duration, optional audio, video-reference mode, and capability.A creation endpoint may return `Resp.credits`. Use this value for display and preliminary reconciliation. Valid debit and refund records in the account ledger are the final charging record. Promotions, free allowances, refunds, or asynchronous settlement may cause the final balance change to differ from the value returned when the task was created.For a failed task, a callback may trigger an immediate idempotent refund, with delayed processing as a fallback. Treat the refund as complete only after the refund record appears and the account balance is restored.
+## Recommended Reconciliation Fields
+
+Record the following for each task:
+
+API account
+
+`video_id`
+
+Request time
+
+`Ai-trace-id`
+
+`Resp.credits`
+
+Final task status
+
+Credit balance before and after the request
+
+## Notes
+
+Keep API Credits separate from PixVerse consumer-app subscriptions.
+
+Do not treat Credit values in response examples as fixed prices.
+
+Review the Billing ledger when a failed, moderated, or timed-out task appears to have been charged.
+
+HTTP 200 and `ErrCode=0` confirm that the creation request was accepted; they do not confirm that generation completed.
