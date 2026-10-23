@@ -1,0 +1,11 @@
+{
+  "id": "C33",
+  "agent_task": "c33_luma",
+  "site_id": "33",
+  "name": "Luma",
+  "original_commit": "2c042a26d256538e2d770fd0f45c67c891a53a30",
+  "accepted_at": "2026-10-23T15:54:22.419968+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}
