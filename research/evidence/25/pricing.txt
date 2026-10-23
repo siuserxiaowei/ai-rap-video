@@ -1,0 +1,336 @@
+Title: Pricing | DomoAI
+
+URL Source: https://www.domoai.app/pricing
+
+Markdown Content:
+## Choose the plan that _fits you_
+
+Monthly
+
+Yearly
+
+Save 30%+
+
+600 Monthly credits
+
+Just $0.015 per credit (~150 images or ~85 videos)
+
+Benefits
+
+Unlock 50+ Style Templates
+
+Character to Video: 5s & 10s
+
+Talking Avatar: 5s, 10s & 20s
+
+4K Video & 6K Image Upscaling
+
+Advanced video controls
+
+Up to 8 active generation tasks
+
+Watermark-free outputs
+
+Buy extra credits anytime
+
+Models
+
+DomoAI 2.5
+
+DomoAI 2.4.1
+
+MiniMax H3
+
+Seedance 2.5
+
+Seedance 2.0
+
+GPT Image 2.5
+
+GPT Image 2
+
+Nano Banana 2.1
+
+Nano Banana 2
+
+Nano Banana Pro
+
+2,200 Monthly credits
+
+Just $0.013 per credit (~550 images or ~314 videos)
+
+Benefits
+
+Unlimited Relax generations on supported models
+
+Unlock 50+ Style Templates
+
+Character to Video: 5s & 10s
+
+Talking Avatar: 5s, 10s & 20s
+
+4K Video & 6K Image Upscaling
+
+Advanced video controls
+
+Up to 12 active generation tasks
+
+Watermark-free outputs
+
+Buy extra credits anytime
+
+Models
+
+DomoAI 2.5 Relax Unlimited
+
+DomoAI 2.4.1 Relax Unlimited
+
+MiniMax H3 Fast Mode Only
+
+Seedance 2.5 Fast Mode Only
+
+Seedance 2.0 Fast Mode Only
+
+GPT Image 2.5 Relax Unlimited
+
+GPT Image 2 Relax Unlimited
+
+Nano Banana 2.1 Relax Unlimited
+
+Nano Banana 2 Relax Unlimited
+
+Nano Banana Pro Relax Unlimited
+
+8,000 Monthly credits
+
+Just $0.012 per credit (~2,000 images or ~1,142 videos)
+
+Benefits
+
+Unlimited Relax generations on supported models
+
+Unlock 50+ Style Templates
+
+Extended Character to Video: 20s & 30s
+
+Talking Avatar: up to 60s
+
+4K Video & 6K Image Upscaling
+
+Advanced video controls
+
+Up to 20 active generation tasks
+
+Watermark-free outputs
+
+Buy extra credits anytime
+
+Priority support
+
+Models
+
+DomoAI 2.5 Relax Unlimited
+
+DomoAI 2.4.1 Relax Unlimited
+
+MiniMax H3 Fast Mode Only
+
+Seedance 2.5 Fast Mode Only
+
+Seedance 2.0 Fast Mode Only
+
+GPT Image 2.5 Relax Unlimited
+
+GPT Image 2 Relax Unlimited
+
+Nano Banana 2.1 Relax Unlimited
+
+Nano Banana 2 Relax Unlimited
+
+Nano Banana Pro Relax Unlimited
+
+24,000 Monthly credits
+
+Just $0.012 per credit (~6,000 images or ~3,428 videos)
+
+Benefits
+
+Access to all Pro models
+
+Unlimited Relax generations on supported models
+
+Dedicated Team workspace
+
+Shared credit balance across the team
+
+Unlock 50+ Style Templates
+
+Extended Character to Video: 20s & 30s
+
+Talking Avatar: up to 60s
+
+4K Video & 6K Image Upscaling
+
+Advanced video controls
+
+Up to 32 active tasks per workspace
+
+Watermark-free outputs
+
+Buy extra credits anytime
+
+Priority support
+
+Models
+
+DomoAI 2.5 Relax Unlimited
+
+DomoAI 2.4.1 Relax Unlimited
+
+MiniMax H3 Fast Mode Only
+
+Seedance 2.5 Fast Mode Only
+
+Seedance 2.0 Fast Mode Only
+
+GPT Image 2.5 Relax Unlimited
+
+GPT Image 2 Relax Unlimited
+
+Nano Banana 2.1 Relax Unlimited
+
+Nano Banana 2 Relax Unlimited
+
+Nano Banana Pro Relax Unlimited
+
+Model & Duration Access
+
+![Image 1: AI Video](https://img-c.domoai.app/cdn-cgi/imagedelivery/_x5qGVgvt8-cROikD3CkFw/71997462-2367-41f7-1781-0b8b30c95800/public)
+
+AI Video
+
+* * *
+
+Omni Reference
+
+4—30s Fast Only
+
+* * *
+
+Image to Video
+
+Advanced 5s Fast and Relax
+
+Advanced 10s Fast Only
+
+Faster Fast and Relax
+
+* * *
+
+Frames to Video
+
+1s—56s Multi-frame Fast Only
+
+* * *
+
+Character to Video
+
+5s/10s Fast and Relax
+
+20s/30s Fast Only
+
+* * *
+
+Video to Video
+
+3s/5s/10s Fast and Relax
+
+20s/30s Fast Only
+
+* * *
+
+Text to Video
+
+Advanced 5s Fast and Relax
+
+Advanced 10s Fast Only
+
+Faster Fast and Relax
+
+* * *
+
+Talking Avatar
+
+5s/10s/20s Fast Only
+
+30s/60s Fast Only
+
+Text to Speech Fast Only
+
+![Image 2: AI Image](https://img-c.domoai.app/cdn-cgi/imagedelivery/_x5qGVgvt8-cROikD3CkFw/8a4cbe90-ec46-42bd-e0dc-f16f0225f800/public)
+
+AI Image
+
+* * *
+
+Image Editing Fast and Relax
+
+Text to Image Fast and Relax
+
+![Image 3: AI Tools](https://img-c.domoai.app/cdn-cgi/imagedelivery/_x5qGVgvt8-cROikD3CkFw/bf042ed2-2c87-47a8-36e1-8ba329842a00/public)
+
+AI Tools
+
+* * *
+
+Image Upscaler Fast Only
+
+Video Upscaler Fast Only
+
+Monthly Credits
+
+![Image 4: AI Video](https://img-c.domoai.app/cdn-cgi/imagedelivery/_x5qGVgvt8-cROikD3CkFw/71997462-2367-41f7-1781-0b8b30c95800/public)
+
+AI Video
+
+* * *
+
+Omni Reference~266 videos
+
+Image to Video~1,142 videos
+
+Frames to Video~2,000 videos
+
+Character to Video~533 videos
+
+Video to Video~533 videos
+
+Text to Video~1,142 videos
+
+Talking Avatar~533 videos
+
+![Image 5: AI Image](https://img-c.domoai.app/cdn-cgi/imagedelivery/_x5qGVgvt8-cROikD3CkFw/8a4cbe90-ec46-42bd-e0dc-f16f0225f800/public)
+
+AI Image
+
+* * *
+
+Text to Image~2,000 images
+
+Image Editing~1,142 images
+
+![Image 6: AI Tools](https://img-c.domoai.app/cdn-cgi/imagedelivery/_x5qGVgvt8-cROikD3CkFw/bf042ed2-2c87-47a8-36e1-8ba329842a00/public)
+
+AI Tools
+
+* * *
+
+Image Upscaler~2,000 images
+
+Video Upscaler~1,333 videos
+
+Text to Speech~8,000 audios
+
+* * *
+
+* Relax Mode generates content without using credits - just takes longer

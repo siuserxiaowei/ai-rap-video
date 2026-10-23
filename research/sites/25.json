@@ -1,0 +1,118 @@
+{
+  "id": "25",
+  "name": "DomoAI",
+  "url": "https://domoai.app/",
+  "category": "video",
+  "checked_at": "2026-10-23",
+  "summary": "视频生成、转绘和人物动画平台；口型工具以角色图片配现成音频、录音或文字转语音生成说话角色，不能据此认定可创作原创说唱歌曲。",
+  "inputs": [
+    "文本提示词",
+    "清晰正面角色图片",
+    "现有视频或动作参考视频",
+    "音频文件、直接录音或文字转语音"
+  ],
+  "outputs": [
+    "生成或转绘视频",
+    "动作驱动人物动画",
+    "音频驱动口型视频",
+    "通过独立放大工具增强的视频"
+  ],
+  "features": [
+    "视频转绘：把既有素材转成动漫、写实或参考风格",
+    "图片转视频：为静图生成运动",
+    "Character to Video：以动作视频驱动照片人物行走、跳跃、舞蹈",
+    "口型同步：分析输入音频驱动嘴部动作和表情，支持写实、动漫及卡通角色",
+    "口型页提供音频上传、录音、文字转语音，另宣称多语言和声音克隆",
+    "首页列出独立Face Swap入口；未核实该工具正文和换脸限制"
+  ],
+  "pricing": {
+    "summary": "官网有月付、年付切换；正文显示600、2200、8000、24000每月积分四档，套餐名称与订阅总价未显示，不由单积分价格反推金额。Relax无限生成仅限支持模型。",
+    "free_tier": "首页和口型页宣称提供起始免费积分，具体数量、有效期和输出限制未核实。",
+    "plans": [
+      {
+        "name": "页面第1档（名称未显示）",
+        "credits": 600,
+        "notes": "每月积分；套餐总价和当前计费周期未核实。"
+      },
+      {
+        "name": "页面第2档（名称未显示）",
+        "credits": 2200,
+        "notes": "每月积分；套餐总价和当前计费周期未核实。"
+      },
+      {
+        "name": "页面第3档（名称未显示）",
+        "credits": 8000,
+        "notes": "每月积分；套餐总价和当前计费周期未核实。"
+      },
+      {
+        "name": "页面第4档（名称未显示）",
+        "credits": 24000,
+        "notes": "每月积分；套餐总价和当前计费周期未核实。"
+      }
+    ],
+    "source_url": "https://www.domoai.app/pricing"
+  },
+  "api": {
+    "status": "documented",
+    "summary": "已找到公开DomoAI Enterprise API文档，概览明确提供REST视频生成API，涵盖文本、图片、模板、Talking Avatar和视频转绘。具体口型端点、API费用和配额未核实。",
+    "url": "https://docs.domoai.app/"
+  },
+  "limitations": [
+    "只读官网，未登录、未付费、未执行生成；精度、速度和功能承诺为供应商宣称。",
+    "视频转绘、动作迁移、人物替换或Face Swap、音频驱动口型是不同任务，不能相互等同。",
+    "未找到歌词、作曲、伴奏或原创歌曲人声生成的正文证据；上传音频不代表生成原创歌曲。",
+    "未验证完整歌曲、快嘴说唱、多人镜头、拼接和音频格式上限。",
+    "套餐名称、完整订阅总价和API价格未核实。",
+    "首页预存快照含截断提示，新增口型页和API概览正文读取成功。"
+  ],
+  "best_for": "已有音乐或人声素材，希望制作动漫视觉、角色动作和口型片段的创作者。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://domoai.app/",
+      "title": "DomoAI: Video-to-Video, Style Transfer, AI Video Tool",
+      "kind": "official",
+      "local_path": "research/evidence/25/homepage.txt",
+      "supports": [
+        "视频转绘、图生视频与动作驱动人物的区别",
+        "Face Swap和API文档入口；预存快照含截断提示"
+      ]
+    },
+    {
+      "url": "https://www.domoai.app/quick-apps/ai-video-lip-sync",
+      "title": "AI Video Lip Sync - Generate Anime Lip Sync Videos - DomoAI",
+      "kind": "official",
+      "local_path": "research/evidence/25/lip-sync.txt",
+      "supports": [
+        "正面角色图加音频、录音或文字转语音流程",
+        "免费起始积分和动漫口型支持宣称",
+        "音频驱动口型与歌曲创作的区别"
+      ]
+    },
+    {
+      "url": "https://www.domoai.app/pricing",
+      "title": "Pricing | DomoAI",
+      "kind": "pricing",
+      "local_path": "research/evidence/25/pricing.txt",
+      "supports": [
+        "四档月度积分",
+        "Relax模式限支持模型",
+        "名称与总价未显示；部分档位Talking Avatar最高60秒"
+      ]
+    },
+    {
+      "url": "https://docs.domoai.app/",
+      "title": "Overview - DomoAI Enterprise API",
+      "kind": "documentation",
+      "local_path": "research/evidence/25/api-overview.txt",
+      "supports": [
+        "公开REST API存在及概览功能",
+        "未核实具体口型端点或API单价"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：说唱视频产品可把音乐创作、人物动作、换脸、转绘与口型分别配置，避免用户混淆功能。",
+    "推断：DomoAI可作为已有音轨之后的视觉制作参考，不能把口型功能当作原创歌曲生成能力。"
+  ]
+}
