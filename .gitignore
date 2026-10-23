@@ -11,3 +11,10 @@ build/
 *.wav
 *.mp3
 worktrees/
+.DS_Store
+node_modules/
+.env
+.env.*
+!.env.example
+runtime/
+artifacts/tmp/
