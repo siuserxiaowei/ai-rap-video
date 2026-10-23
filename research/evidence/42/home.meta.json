@@ -1,0 +1,13 @@
+{
+  "id": "42",
+  "name": "HotelLobby.net",
+  "url": "https://hotellobby.net/",
+  "category": "rap",
+  "fetched_at": "2026-10-23T16:00:40.865129+00:00",
+  "status": "readable",
+  "returncode": 0,
+  "bytes": 11424,
+  "sha256": "aae8fb05df0c81ed7cc28738efd034d1bdacc4460dcd5fcd347bd3cb9846b6a2",
+  "local_path": "/Users/xiaowei/.agent-reach/ai-rap-video-20261023/42.txt",
+  "error": ""
+}

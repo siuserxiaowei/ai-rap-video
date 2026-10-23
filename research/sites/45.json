@@ -1,0 +1,77 @@
+{
+  "id": "45",
+  "name": "Rapduo.net",
+  "url": "https://rapduo.net/",
+  "category": "rap",
+  "checked_at": "2026-10-24",
+  "summary": "两张照片或双人合照生成12秒双人原创英文 Rap：可输入一句笑话或主题，轮流演唱并提供无水印 MP4。",
+  "inputs": [
+    "两个已同意使用肖像的成年人照片，或一张双人合照",
+    "可选一句主题/笑话；交换照片改变先后顺序"
+  ],
+  "outputs": [
+    "12秒/480p 双人 Rap 无水印 MP4",
+    "9:16 或16:9；原创英文歌词、trap伴奏和AI人声"
+  ],
+  "features": [
+    "左侧照片先唱前半段，右侧后半段",
+    "自定义一句话扩写为干净幽默英文 verse",
+    "网站称仅账号可见、无公共作品库和分享链接，可邮件删除"
+  ],
+  "pricing": {
+    "summary": "一次性视频包：1条 $6.98，2条 $9.90，5条 $19.90；无订阅、次数永不过期，失败返还次数；$ 币种待核。",
+    "free_tier": "Google 注册免费、不需信用卡；未见免费完整视频承诺，全文12秒片需购买。",
+    "plans": [
+      {
+        "name": "1 video",
+        "amount": 6.98,
+        "billing_period": "one_time",
+        "notes": "12秒完整视频，含下载、无水印；$币种待核。"
+      },
+      {
+        "name": "2 videos",
+        "amount": 9.9,
+        "billing_period": "one_time",
+        "notes": "两次视频额度；不设有效期；$币种待核。"
+      },
+      {
+        "name": "5 videos",
+        "amount": 19.9,
+        "billing_period": "one_time",
+        "notes": "五次视频额度；不设有效期；$币种待核。"
+      }
+    ],
+    "source_url": "https://rapduo.net/"
+  },
+  "limitations": [
+    "仅阅读公开官网；未登录、上传人物照片、支付或运行生成，效果与耗时均为供应商宣称。",
+    "未验证中文 Rap、人声一致性、精确歌词和双人口型表现。",
+    "本次未见公开 API 文档；不能据此断言不存在 API。",
+    "仅允许18岁以上且同意的肖像；AI会保持身份、衣着与口型是供应商宣称。",
+    "来源明确写原创英文歌词；其他语言及自填逐字歌词未核。",
+    "称不使用原 Hotel Lobby 歌词或伴奏；生成物商用权和完整条款未核。"
+  ],
+  "best_for": "面向朋友或伴侣的一句主题转固定12秒原创英文双人 Rap。",
+  "observations": [
+    "推断：按完整视频次数付费比跨规格credits更适合固定时长模板，但仍需写清失败返还规则。"
+  ],
+  "api": {
+    "status": "not_found",
+    "summary": "本次读取首页未定位公开 API 文档；未据此断言没有 API。",
+    "url": ""
+  },
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://rapduo.net/",
+      "title": "Rap Duo: AI Rap Video Generator Online",
+      "kind": "official",
+      "local_path": "research/evidence/45/home.txt",
+      "supports": [
+        "产品输入、输出与供应商能力宣称",
+        "首页公开价格或credits口径及免费范围",
+        "上述限制中的同页矛盾或未披露项目"
+      ]
+    }
+  ]
+}
