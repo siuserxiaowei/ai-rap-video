@@ -1,0 +1,128 @@
+{
+  "id": "07",
+  "name": "CapCut",
+  "url": "https://www.capcut.com/features/ai-rap-video-generator",
+  "category": "editor",
+  "checked_at": "2026-10-23",
+  "summary": "AI Rap 营销页指向通用 Video Studio；官方流程为自备音轨、提示词或参考图生成短镜头，再剪辑、调整歌词字幕和导出。未验证一键端到端生成。",
+  "inputs": [
+    "原创或获许可的说唱音轨",
+    "场景提示词、参考图片",
+    "歌词文本与自有视频素材"
+  ],
+  "outputs": [
+    "AI 视觉短镜头（官网宣称）",
+    "剪辑合成的说唱 MV 或预告片（官网工作流）"
+  ],
+  "features": [
+    "短镜头生成后在时间线按节奏裁剪",
+    "歌词字幕需核对快速说唱与 ad-lib",
+    "支持混合自有素材与 AI 画面",
+    "落地页按钮进入通用 Video Studio 画布"
+  ],
+  "pricing": {
+    "summary": "官方展示参考价；登录后价格、税费与优惠可能不同。Rap 页不承诺无限免费生成，模型和导出要求需在工作区查看。",
+    "free_tier": "Free 为 USD 0，含基础编辑和免费模板；注册弹窗宣传赠送 200 credits，未核实领取资格及 Rap 可生成量。",
+    "plans": [
+      {
+        "name": "Free",
+        "amount": 0,
+        "currency": "USD",
+        "notes": "基础编辑与免费模板；未承诺无限 AI 生成。"
+      },
+      {
+        "name": "Pro（月付）",
+        "amount": 19.99,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": "每月 1200 AI credits",
+        "notes": "页面参考价，登录核实。"
+      },
+      {
+        "name": "Pro（年付）",
+        "amount": 179.99,
+        "currency": "USD",
+        "billing_period": "year",
+        "credits": "每月 1200 AI credits",
+        "notes": "整年费用，不是逐月价格。"
+      },
+      {
+        "name": "Ultra（月付）",
+        "amount": 79,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": "每月 8645 AI credits",
+        "notes": "页面参考价，登录核实。"
+      },
+      {
+        "name": "Ultra（年付）",
+        "amount": 900,
+        "currency": "USD",
+        "billing_period": "year",
+        "credits": "每月 8645 AI credits",
+        "notes": "整年费用，不是逐月价格。"
+      },
+      {
+        "name": "Teams（月付，2 席页面展示）",
+        "amount": 12.49,
+        "currency": "USD",
+        "billing_period": "month per seat",
+        "credits": "每席每月 1200 AI credits",
+        "notes": "按席位计费；最终空间与优惠需登录确认。"
+      }
+    ],
+    "source_url": "https://www.capcut.com/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "所查 Rap 页、价格页及 Video Studio 入口未发现 Rap 生成公开 API 文档；不代表产品没有 API。",
+    "url": ""
+  },
+  "limitations": [
+    "未登录、未付费、未执行生成；效果和导出条件未实测。",
+    "官方提醒画面生成、身体动作、歌词时序分别检查，不能假定逐字口型同步。",
+    "具体模型、credit 消耗、输出时长和分辨率以账号工作区为准。",
+    "Video Studio 公开入口有 Sign in，抓取仅显示通用画布与素材导入引导。"
+  ],
+  "best_for": "已有说唱音轨、愿意手动剪辑的创作者，用于单曲预告、歌词画面和动画概念短片。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://www.capcut.com/features/ai-rap-video-generator",
+      "title": "AI Rap Video Generator: Create Music Videos | CapCut",
+      "kind": "official",
+      "local_path": "research/evidence/07/rap-landing-jina.txt",
+      "supports": [
+        "输入输出与剪辑流程",
+        "不保证逐词口型同步",
+        "免费及 credit 限制提醒",
+        "CTA 目的地"
+      ]
+    },
+    {
+      "url": "https://www.capcut.com/pricing",
+      "title": "CapCut Pricing | Choose the Right Plan",
+      "kind": "pricing",
+      "local_path": "research/evidence/07/pricing-jina.txt",
+      "supports": [
+        "Free、Pro、Ultra、Teams 参考价格",
+        "月付与年付区分",
+        "AI credits 与最终价格声明"
+      ]
+    },
+    {
+      "url": "https://www.capcut.com/ai-creator/agent",
+      "title": "CapCut Video Studio | The all-in-one canvas for video creation",
+      "kind": "official",
+      "local_path": "research/evidence/07/creator-jina.txt",
+      "supports": [
+        "CTA 对应通用 Video Studio",
+        "公开页面 Sign in 与画布素材输入引导，非 Rap 专用表单"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：该竞品更适合作为通用编辑与视觉素材工作流参照，不能据营销标题认定已提供自动作曲、演唱和精准口型一体化管线。",
+    "产品正文完整读取；工作区仅取得未登录可见部分，未将其视为完整功能测试。"
+  ]
+}

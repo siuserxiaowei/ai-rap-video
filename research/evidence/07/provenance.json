@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-23T15:29:25.765984+00:00",
+  "backend": "agent-reach web / Jina Reader",
+  "landing_origin": "/Users/xiaowei/.agent-reach/ai-rap-video-20261023/07.txt",
+  "independent_requests": [
+    "https://r.jina.ai/https://www.capcut.com/pricing",
+    "https://r.jina.ai/https://www.capcut.com/ai-creator/agent"
+  ],
+  "raw_responses_preserved": true,
+  "generation_attempted": false
+}
