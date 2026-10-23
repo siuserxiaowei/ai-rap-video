@@ -1,0 +1,114 @@
+Title: Kling AI: Next-Gen AI Video & Image Generator
+
+URL Source: https://klingai.com/
+
+Markdown Content:
+## Kling Image 3.0
+
+![Image 1](https://s16-kling.klingai.com/kos/s101/nlav112918/kling-homepage-aio/images/v4/image-model-subway-standoff.508ed3e831296781.webp)
+
+Based on the characters’ appearance in the reference image, a close-up shot shows a woman raising a handgun and aiming at a man. He grips a subway handrail tightly with one hand, his body slightly turned as they lock eyes at close range. The setting is a crowded subway car, lit by cold white fluorescent lights overhead with dim ambient shadows. Composition: An eye-level over-the-shoulder shot, with the man’s back in the foreground and the woman aiming directly toward him in the background. A shallow depth of field naturally blurs the surrounding passengers and environment. Style and Atmosphere: Tense and dramatic, with fine film grain and a raw, realistic cinematic look. Shot in a Kodak Vision film style, with a cool palette of slate gray and deep black.
+
+![Image 2](https://s16-kling.klingai.com/kos/s101/nlav112918/kling-homepage-aio/images/v4/image-model-dressing-room-mirror.d4683a02e5a90b22.webp)
+
+A young woman in costume sits before a makeup mirror, gazing at her own reflection. Her back and the mirror reflection create a dual composition. Shot from a slightly low angle with a 50mm lens in a medium shot, using the mirror frame as a secondary compositional element. Style and Atmosphere: A 'Black Swan'-inspired backstage documentary aesthetic with soft mid-tones. The mood is tense, almost sacred, yet serene. Fine makeup dust is scattered across the vanity, while soft makeup lights diffuse gently across the scene, revealing delicate skin textures. Quality: ARRI cinematic color grading, natural optical bokeh, 35mm film texture, and physically accurate lighting and shadows.
+
+![Image 3](https://s16-kling.klingai.com/kos/s101/nlav112918/kling-homepage-aio/images/v4/image-model-paris-window-reading.298f5bf683c7706f.webp)
+
+A frame from a French romantic film. In a corner near the balcony, a woman wearing a white cropped puff-sleeve top and red skirt gently raises her arm, smiling at the man beside her. The man wears a white textured shirt and holds a red book, absorbed in reading with a calm expression. **Composition:** A layered foreground composition, with a rumpled pale-yellow bedspread in the foreground, the two characters and a potted green plant with red flowers in the midground, and a stone balcony railing with European-style buildings and balconies in the background. Soft afternoon sunlight bathes the scene in warm, gentle light, creating a relaxed vintage film aesthetic. The overall mood is quiet, intimate, and effortlessly romantic.
+
+![Image 4](blob:http://localhost/a6ead9acc5af34cb22c78a05ed144ef7)
+
+A young person sits inside a car with a gentle expression, their head slightly tilted as they gaze upward toward the sky. The scene is captured through a rain-covered car window, where raindrops mingle with light and shadow to create soft reflections. They have short hair and wear a light-colored shirt. Dim, atmospheric lighting creates a calm, introspective mood. The background is softly blurred, with hints of greenery visible outside the window, adding depth to the composition. The overall image feels melancholic, tranquil, and contemplative, with the subject’s expression and the interplay of light and reflections as the visual focus.
+
+![Image 5](blob:http://localhost/a6ead9acc5af34cb22c78a05ed144ef7)
+
+A close-up portrait reveals his highly distinctive features: a lean face with high cheekbones, deep-set, moist sapphire-blue eyes, and short gray-white hair styled in a 1940s fashion. He wears a tailored vintage charcoal-gray tweed suit with a crisp white dress shirt and a deep burgundy tie, with meticulous collar details. **Pose and Expression:** Seated in a half-body portrait, he leans slightly forward, his shoulders naturally lowered yet subtly tense. His head turns slightly to the right, while his sharp gaze fixes on something off-frame to the left. His expression conveys a mix of intense concentration, anxiety, and defensiveness. **Setting:** A narrow, bureaucratic 1950s hearing room or interrogation room. **Lighting:** Dramatic natural window light from the right acts as a single key light, soft yet creating strong chiaroscuro across his face. His left cheek falls into shadow, with a distinct catchlight reflected in his eyes. **Composition:** A classic medium close-up, with the subject positioned slightly right of center along the golden ratio. He occupies roughly 50% of the frame. In the distant left background, an extremely blurred woman in dark clothing sits out of focus, while vertical lines from venetian blinds fill the right background. A telephoto lens creates strong spatial compression, contrasting the sharply defined subject with the softened background elements. **Color:** Low-saturation Kodak Vision3 tones with a cool overall palette, naturally pale skin, muted office greens, and dark wood browns. The charcoal-gray suit and crisp white shirt create a strong tonal contrast. **Camera:** Eye-level perspective, creating an intense sense of psychological confrontation. Extremely shallow depth of field at f/2.8 renders the background as soft bokeh, with razor-sharp focus on his eyes and the fine wrinkles around them. **Atmosphere and Texture:** Suffocating and oppressive, with a sense of existential crisis, psychological-thriller tension, and isolation. The image has the refined detail of 70mm film, revealing skin pores, fine facial hair, and the coarse fibers of the wool suit, with subtle, natural film grain.
+
+![Image 6](blob:http://localhost/a6ead9acc5af34cb22c78a05ed144ef7)
+
+Predict the next scenes based on this image and generate three storyboards.
+
+![Image 7](blob:http://localhost/a6ead9acc5af34cb22c78a05ed144ef7)
+
+Predict the next scenes of the TVC based on this image and generate two storyboards.
+
+![Image 8](https://s16-kling.klingai.com/kos/s101/nlav112918/kling-homepage-aio/images/v4/image-model-rainy-backseat.bddb5a2f10ae971c.webp)
+
+The scene takes place inside a vintage car, with two men seated on the left and right, either in the backseat or passenger seats. Rain dominates the scene: the foreground features a rain-covered window with sharp, clearly defined streaks, while the city street outside is blurred in cool, muted tones. The color palette contrasts the cool cyan tones of the rainy day with the warm brown of the car seats, while diffuse light gives the skin a natural texture. Shot from a side-on, eye-level angle through the glass. The depth of field creates distinct layers: sharp raindrops in the foreground, clearly visible figures in the midground, and a completely blurred street in the background. The atmosphere is oppressive and damp, with the light refraction and film grain characteristic of a rainy day.
+
+![Image 9](https://s16-kling.klingai.com/kos/s101/nlav112918/kling-homepage-aio/images/v4/image-model-porch-cowboy.911d0dbc703bff93.webp)
+
+Subject: A mid-shot of an old cowboy sitting on a wooden porch, wiping down a rusty revolver. Environment: A dusty, rugged Midwestern landscape with hay and a weathered wooden cabin. Lighting: Harsh afternoon sunlight casting strong, defined shadows, with bright, clean exposure. Texture: Deep wrinkles and sun-weathered skin, rusted metal, and dust particles floating in the air. Technical: Kodak Portra 400 film, shot at f/8 with sharp focus, a raw, unpolished look, and photorealistic detail. 
+
+![Image 10](https://s16-kling.klingai.com/kos/s101/nlav112918/kling-homepage-aio/images/v4/image-model-sea-captain.33c18fa6e8da4b2f.webp)
+
+A weathered old sea captain gazes directly into the camera with sorrowful contemplation. Every deep wrinkle etched into his face tells a story of life at sea, while his eyes are as profound as the deep ocean. **Composition:** A precise, centered frontal composition with the camera at eye level, creating an intensely realistic sense of confrontation. **Lighting:** Strong side-lit Rembrandt lighting creates the classic triangular highlight on the shadowed side of his face, emphasizing the weathered texture of his skin and the fine details of his silver beard. **Camera and Quality:** Shot on an ARRI ALEXA 65 with a Hasselblad Prime 100mm f/2.2 lens. An extremely shallow depth of field renders the foggy sea background completely out of focus, revealing hyper-realistic skin pores with exceptional 8K documentary-level detail.
+
+![Image 11](blob:http://localhost/a6ead9acc5af34cb22c78a05ed144ef7)
+
+Extreme close-up of a blue peacock’s eye, captured in ultra-macro photography with exceptionally sharp, high-definition detail. Reveal the intricate textures of the fine feathers and muscles surrounding the eye, along with the crystalline detail of the peacock’s iris and eyeball. Emphasize realistic anatomy, natural lighting, and true-to-life photographic detail.
+
+![Image 12](blob:http://localhost/a6ead9acc5af34cb22c78a05ed144ef7)
+
+Space and Lens: In a crowded, blurred vintage market, the camera peers through the narrow gap between two pedestrians’ shoulders, focusing on the face of a young girl selecting porcelain in the distance. A voyeuristic perspective with a 100mm telephoto lens, extremely shallow depth of field, heavily blurred foreground and background, and a narrow visual channel. Style and Atmosphere: 1970s European cinema. Nostalgic, authentic, and mid-toned, with soft film grain, warm yellowed daylight, and rich, compressed background color blocks. Quality: Panavision lens rendering, nuanced skin tones and tonal gradation, natural optical bokeh, and an authentic film texture.
+
+![Image 13](blob:http://localhost/a6ead9acc5af34cb22c78a05ed144ef7)
+
+The subject is sharpshooter Jackson from 'Saving Private Ryan'. His face is covered in battlefield grime, and he wears an M1 helmet with typical WWII camouflage netting. His expression conveys an almost religious level of intense focus and calm. He assumes a standard shooting position, with his left eye pressed against the scope, his right eye closed, his cheek firmly against the wooden stock in a proper cheek weld, and his finger resting outside the trigger guard. Composition: An extreme close-up with a heavily blurred bolt and rough thumbnail in the foreground, creating a strong visual lead-in. The midground features his sharply focused face and the cold metal scope, while the background is a blurred gray concrete bunker wall. Color and Texture: The image uses Janusz Kamiński's signature bleach-bypass look, with extremely low saturation and a palette of earthy yellows, military greens, and cool grays for a gritty, realistic tone. Camera: A side-on, eye-level angle, as if the camera were mounted directly alongside the rifle. An extremely shallow depth of field with a macro-like feel, with pin-sharp focus on his open left eye and the details of the mud streak beneath it. Atmosphere: Breathless and tense, capturing the quiet stillness before the shot, with high film grain, crisp detail, and the raw visual texture of a wartime documentary.
+
+![Image 14](blob:http://localhost/a6ead9acc5af34cb22c78a05ed144ef7)
+
+Create an Impressionist-style floral oil painting based on this image, preserving the same artistic style and composition while using a different color palette.
+
+![Image 15](blob:http://localhost/a6ead9acc5af34cb22c78a05ed144ef7)
+
+Help me to generate different Instagram-style interior design images.
+
+## Canvas
+
+Brainstorm with your Agent, write scripts, and generate images, videos, and storyboards—then refine and edit your videos through multiple rounds of post-production. Organize and manage your entire project like a director, all in one place.
+
+## Industry Applications
+
+An April Fools’ Day ad created by renowned director Sebastian Strasser and his studio Lipstick for luxury resale platform The RealReal, which won one Silver and one Bronze at the 2026 Cannes Lions International Festival of Creativity.
+
+An ad created by Argentine studio Purga Films to promote its AI advertising services. Made entirely with Kling AI, it won Bronze in the Classic Film category at the 2026 Cannes Lions International Festival of Creativity.
+
+An ad created by Kling AI and renowned studio Obsidian for Longchamp, marking the growing role of AI in luxury brand storytelling and demonstrating Kling AI’s capabilities in high-end commercial production.
+
+A heartwarming AI short film that went viral during the 2026 Qingming Festival, created entirely with Kling AI. It generated over 100 million views across platforms and was praised as “the most human AI film ever made.”
+
+The first Hollywood production to publicly disclose the use of AI video generation in a large-scale production, reaching over 44 million views worldwide and topping the Amazon Prime series chart.
+
+A feature film co-produced by leading AI studio Fountain 0 and Kling AI, directed by Ash Koosha.All 135 minutes of the film’s visuals were generated entirely with Kling AI.
+
+Kling AI, Chaocreate Wu Zhiqi, and Warner Music China collaborated to create the virtual idol Wu Aihua and her debut MV, with all visuals generated by Kling AI. The MV has garnered over 11.2 million views worldwide.
+
+Kling AI created the felt-animation MV "I Like U Like" for rising idol group TNT, garnering 1.32 billion likes and sparking both fan engagement and widespread entertainment buzz.
+
+Xania Monet’s “How Was I Supposed to Know” became the first AI song to reach the Billboard Top 30.The creator brings the virtual artist to life beyond music through social clips and music videos made with Kling AI.
+
+For e-commerce fashion, generate on-model showcases, styling content, and engaging product videos from product images, model images, or brand assets to streamline content production.
+
+For beverage and FMCG advertising, create brand films, scenario-based ads, and social media content centered around packaging, product benefits, and consumption occasions.
+
+For consumer electronics and 3C advertising, generate product breakdowns, feature demos, tech-forward films, and e-commerce marketing videos from product images and key selling points.
+
+For smart cockpit applications, generate high-quality videos and dynamic content for center consoles, HUDs, and rear-seat entertainment screens, enhancing the in-car experience.
+
+For mobile devices such as phones and tablets, enable efficient video generation for photo, editing, wallpaper, and social creation apps, expanding creative possibilities on mobile.
+
+For TVs, computers, and other large-screen devices, enable video generation for home entertainment, desktop creative tools, content platforms, and brand showcases, enhancing interactive and creative experiences.
+
+For smartwatches and other wearables, generate lightweight visual content such as dynamic watch faces, wellness motivation, and workout companions to enhance personalization and engagement.
+
+### Simon Meyer
+
+Simon Meyer is an AI filmmaker and co-founder of Promptr Studios. After a decade as a cinematographer and director, he has won multiple AI awards, including first place at the $500K Higgsfield Action Contest.
+
+Showcase: **The Biggest Lie in History**
+
+Kling is shaking up a competitive market. Its prompt adherence captures nuances and facial expressions other models can't reach, the consistency is outstanding, and native 4K is a game-changer for wide shots. My moon landing promo for Kling 3.0 was the first time AI dialogue felt genuinely real.
+
+## Partnerships

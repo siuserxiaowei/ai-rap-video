@@ -1,0 +1,120 @@
+{
+  "id": "30",
+  "name": "Kling AI（可灵）",
+  "url": "https://klingai.com/",
+  "category": "video",
+  "checked_at": "2026-10-23",
+  "summary": "通用 AI 视频与图像平台；官网展示 Canvas 脚本、分镜和后期工作区，开放平台列出对口型、数字人及音效能力。可用于 Rap MV 的画面和表演环节，未核实从原创歌词、节拍、人声到成片的一站式 Rap 流程。",
+  "inputs": [
+    "文字提示词",
+    "图片及多图参考",
+    "参考视频（依模型与功能）"
+  ],
+  "outputs": [
+    "AI 视频（含部分有声模型）",
+    "AI 图片",
+    "音效（文生音效、视频生音效）"
+  ],
+  "features": [
+    "Canvas 支持脚本、图像、视频、分镜及多轮后期（官网宣称）",
+    "文生视频、图生视频、多图参考视频、视频延长与多模态视频编辑",
+    "开放平台列出对口型、数字人、动作控制、视频特效",
+    "Kling 3.0 API 区分有声/无声；价格表列出 720P、1080P、4K 档位",
+    "官网展示音乐视频应用案例；效果和播放量为供应商陈述"
+  ],
+  "pricing": {
+    "summary": "核实的是 klingai.com 当前中文 API 价格页，人民币视频资源包与消费者会员分开。页面列出的 Kling 4.0 / Flash 为预告，明确尚未开放 API 调用。",
+    "free_tier": "本次公开页面未核实免费额度；消费者会员价格待核。",
+    "plans": [
+      {
+        "name": "视频 API 套餐一",
+        "amount": 5000,
+        "currency": "CNY",
+        "billing_period": "资源包，有效期180天",
+        "credits": 5000,
+        "notes": "并发数20；过期剩余积分不延期。非月费会员。"
+      },
+      {
+        "name": "视频 API 套餐二",
+        "amount": 15000,
+        "currency": "CNY",
+        "billing_period": "资源包，有效期180天",
+        "credits": 15000,
+        "notes": "并发数20。"
+      },
+      {
+        "name": "视频 API 套餐三",
+        "amount": 27000,
+        "currency": "CNY",
+        "billing_period": "资源包，有效期180天",
+        "credits": 30000,
+        "notes": "折后0.9元/积分；并发数20。"
+      }
+    ],
+    "source_url": "https://klingai.com/dev/pricing"
+  },
+  "api": {
+    "status": "documented",
+    "summary": "官网直接链接 API Guides 和开放平台价格页，后者公开模型与能力计费；API 概览抓取仅返回导航，未核实鉴权、请求参数、端点或口型音频输入限制。",
+    "url": "https://klingai.com/document-api/quickStart/productIntroduction/overview"
+  },
+  "limitations": [
+    "本次仅只读查阅，没有生成、上传音频或实测口型同步。",
+    "通用视频、有声模型和音效能力不能证明原创 Rap 的歌词、作曲、演唱全流程。",
+    "对口型与数字人列在 API 服务范围内，但本次未读到完整参数文档；音频格式、长度及歌唱适用性待核。",
+    "中文 API 价格不可外推为国际区、其他域名或消费者会员价格。",
+    "首页显示 Kling Image 3.0；中文 API 页列出 Kling 3.0 系列，并将 Kling 4.0 / Flash 标为即将上线，不能将预告视为已可调用。",
+    "Canvas 与示例成片均为供应商功能/案例陈述，未验证实际表现。"
+  ],
+  "best_for": "已有歌曲或 Rap 音轨，需生成 MV 镜头、人物画面及进一步评估对口型集成的创作者或开发者。",
+  "evidence_status": "partial",
+  "sources": [
+    {
+      "url": "https://klingai.com/",
+      "title": "Kling AI: Next-Gen AI Video & Image Generator",
+      "kind": "official",
+      "local_path": "research/evidence/30/homepage.txt",
+      "supports": [
+        "Canvas 工作区",
+        "Kling Image 3.0",
+        "音乐视频应用案例；供应商陈述"
+      ]
+    },
+    {
+      "url": "https://klingai.com/",
+      "title": "当前官网 HTML 与实际导航链接",
+      "kind": "official",
+      "local_path": "research/evidence/30/homepage.html",
+      "supports": [
+        "官方 API 文档与 /dev/pricing 链接",
+        "当前响应为中文地区界面；导航另列 kling.ai"
+      ]
+    },
+    {
+      "url": "https://klingai.com/dev/pricing",
+      "title": "可灵API服务与价格 | 可灵AI开放平台",
+      "kind": "pricing",
+      "local_path": "research/evidence/30/api-pricing.txt",
+      "supports": [
+        "人民币 API 资源包",
+        "对口型、数字人及音效服务",
+        "Kling 3.0 有声/无声和分辨率计费",
+        "Kling 4.0 / Flash 尚未开放 API"
+      ]
+    },
+    {
+      "url": "https://klingai.com/document-api/quickStart/productIntroduction/overview",
+      "title": "Kling AI API QuickStart ProductIntroduction Overview",
+      "kind": "documentation",
+      "local_path": "research/evidence/30/api-overview.txt",
+      "supports": [
+        "API Guides 入口存在；正文未充分加载"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：适合作为 Rap MV 产品的镜头生成与候选口型供应商，仍需独立音乐生成环节及口型参数验证。",
+    "本次 klingai.com HTML 返回中文界面及中国区客服邮箱，同时链接 https://kling.ai/；未进一步验证国际区价格或区域可用性。",
+    "模型、分辨率与计费信息仅来自本次中文开放平台价格快照；Kling 4.0 预告与首页 Image 3.0 属于不同模型信息。"
+  ]
+}
