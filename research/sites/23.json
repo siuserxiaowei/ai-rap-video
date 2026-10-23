@@ -1,0 +1,106 @@
+{
+  "id": "23",
+  "name": "Kaiber",
+  "url": "https://kaiber.ai/",
+  "category": "music_video",
+  "checked_at": "2026-10-23",
+  "summary": "面向音乐视觉创作的工具套件；当前官网展示 Canvas、Beat Sync 和 Editor。可将现有音乐与图片/视频素材制作成节拍同步视频，价格页还列出歌词识别与文字叠加。未证实自动创作歌曲、说唱人声或人物对口型。",
+  "inputs": [
+    "音乐曲目（track）",
+    "一张或多张图片",
+    "视频片段或长视频"
+  ],
+  "outputs": [
+    "与音乐节拍同步的视频",
+    "带歌词文字叠加的视频（价格页列出的能力）"
+  ],
+  "features": [
+    "Canvas 提供多种生成模型与创作工作流",
+    "Beat Sync 可使用图片、片段或长视频，不必输入提示词",
+    "自动音乐同步、自动裁剪视频",
+    "歌词识别与文字叠加；这是识别已有歌词的功能，不能等同于创作歌词或歌曲",
+    "Creator 可一次批量制作最多 2 个视频，Pro 最多 10 个",
+    "Editor 提供时间线编辑"
+  ],
+  "pricing": {
+    "summary": "当前官网按月显示 Starter $10、Creator $29、Pro $99；Beat Sync 从 Creator 开始提供。另有 $5/5 天付费试用，结束后转为 Creator。",
+    "free_tier": "当前价格页未列免费层；提供 $5 的 5 天付费试用，每账户一次，试用后转 Creator。",
+    "plans": [
+      {
+        "name": "Starter",
+        "amount": 10,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 500,
+        "notes": "每月额度；1 Canvas、3 个并发生成、1 个时间线编辑，不含 Beat Sync。"
+      },
+      {
+        "name": "Creator",
+        "amount": 29,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 1500,
+        "notes": "每月额度；5 Canvases、15 个并发生成、无限时间线编辑；Beat Sync 批量最多 2 个视频。"
+      },
+      {
+        "name": "Pro",
+        "amount": 99,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 5000,
+        "notes": "每月额度；无限 Canvases/并发生成/时间线编辑；Beat Sync 批量最多 10 个视频。"
+      },
+      {
+        "name": "Visionary",
+        "notes": "页面标注无限 credits 与支持服务，未公开金额。"
+      }
+    ],
+    "source_url": "https://kaiber.ai/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "本次读取的官网首页和价格页未发现开发者 API 文档；未据此断言不存在 API。",
+    "url": ""
+  },
+  "limitations": [
+    "未登录、未付费、未实测生成，功能和质量均为供应商页面宣称。",
+    "音乐节拍同步不等同于逐字口型同步；本次证据未确认人物 lip sync。",
+    "歌词识别和文字叠加不等同于歌词创作、作曲或说唱演唱。",
+    "当前页面使用 Canvas、Beat Sync、Editor；Superstudio 旧称、旧套餐及旧音频反应参数不能由本次证据确认。",
+    "未核实节拍检测精度、音频反应的可调参数、最长视频时长、导出分辨率、水印或 credit 单次消耗。",
+    "Starter 不含 Beat Sync；试用会转付费 Creator，不能视为免费试用。"
+  ],
+  "best_for": "已有歌曲和视觉素材，希望生成节拍同步音乐视频、歌词视频或批量音乐宣发片段的音乐人及创意团队。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://kaiber.ai/",
+      "title": "Kaiber | Canvas, Beat Sync & Editor for Music-Synced Video",
+      "kind": "official",
+      "local_path": "research/evidence/23/homepage.txt",
+      "supports": [
+        "当前产品组成",
+        "图片/片段/长视频加音乐输入",
+        "免提示词节拍同步视频",
+        "最多 10 个视频的批量宣传口径"
+      ]
+    },
+    {
+      "url": "https://kaiber.ai/pricing",
+      "title": "Pricing",
+      "kind": "pricing",
+      "local_path": "research/evidence/23/pricing.txt",
+      "supports": [
+        "当前月付价格与 credits",
+        "付费试用及转 Creator 条款",
+        "Beat Sync 套餐限制",
+        "歌词识别、文字叠加与自动裁剪",
+        "Canvas 与 Editor 限额"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：对于 AI 说唱产品，Kaiber 更接近歌曲完成后的视觉制作环节，可承接现成音轨与视觉素材。",
+    "推断：把节拍同步、歌词显示和时间线编辑连成工作流，可能比单次视频生成更适合音乐宣发；实际使用效果仍待验证。"
+  ]
+}
