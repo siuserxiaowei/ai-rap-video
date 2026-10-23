@@ -1,0 +1,126 @@
+{
+  "id": "20",
+  "name": "BeatViz",
+  "url": "https://beatviz.ai/",
+  "category": "music_video",
+  "checked_at": "2026-10-23",
+  "summary": "音乐视频平台，提供 Chat 对话导演、Workflow 分步制作及 Editor 时间线编辑三个入口。可上传音乐，或按提示词生成原创配乐、音效与对白；同步精度和效果仅为官网宣称，未生成实测。",
+  "inputs": [
+    "音乐音轨上传",
+    "文字创意、风格与镜头描述",
+    "可选角色；编辑流程支持生成图片作为视频首帧"
+  ],
+  "outputs": [
+    "付费方案列明 1080p 视频导出，16:9、9:16、1:1",
+    "音乐视频、分镜概念片及带原创音乐/音效/对白的视听内容（官网宣称）"
+  ],
+  "features": [
+    "Chat（/agent）通过对话生成创意计划、角色、分镜与镜头；Workflow（/create）分步组织项目；Editor（/create-custom）提供时间线与场景控制",
+    "/create-custom-v2 公开正文展示图片/视频生成、首帧控制、拖入音轨进行口型生成及时间线编排",
+    "首页宣称分析 BPM、节奏变化和情绪，并匹配画面剪切；同步表现未实测",
+    "可选择模型、时长和画幅；具体最长时长及上传格式上限待核",
+    "付费计划含无水印及商业使用权"
+  ],
+  "pricing": {
+    "summary": "公开价格页当前显示年付折月价：Basic $20.7、Starter $39.9、Pro $71.9、Creator $127.9；均为每月积分额度。页面标 $，未另明示币种；逐月结算价格未切换核验。",
+    "free_tier": "首页有 Start for Free，并泛称免费层或试用；价格页未列明确免费额度。首页称试用视频可能带水印。",
+    "plans": [
+      {
+        "name": "Basic",
+        "amount": 20.7,
+        "currency": "$（页面未另明示币种）",
+        "billing_period": "month_equivalent_billed_annually",
+        "credits": 1800,
+        "notes": "每月积分；官网估约7条 Standard 1分钟视频。"
+      },
+      {
+        "name": "Starter",
+        "amount": 39.9,
+        "currency": "$（页面未另明示币种）",
+        "billing_period": "month_equivalent_billed_annually",
+        "credits": 4000,
+        "notes": "每月积分；官网估约16条 Standard 1分钟视频。"
+      },
+      {
+        "name": "Pro",
+        "amount": 71.9,
+        "currency": "$（页面未另明示币种）",
+        "billing_period": "month_equivalent_billed_annually",
+        "credits": 7900,
+        "notes": "每月积分；官网估约31条 Standard 1分钟视频。"
+      },
+      {
+        "name": "Creator",
+        "amount": 127.9,
+        "currency": "$（页面未另明示币种）",
+        "billing_period": "month_equivalent_billed_annually",
+        "credits": 14900,
+        "notes": "每月积分；官网估约59条 Standard 1分钟视频。"
+      }
+    ],
+    "source_url": "https://beatviz.ai/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "本次检查首页公开链接、价格页及制作页，未找到面向开发者的公开 API 文档；不据此断言没有 API。",
+    "url": null
+  },
+  "limitations": [
+    "仅阅读公开页面，未登录、付款或执行生成；“完美同步”“毫秒级”“几分钟完成”等为营销宣称，非实测。",
+    "Rap 写词、Rap 人声生成、快语速口型与全身表演未独立核验。",
+    "上传音频格式、大小、最大歌曲长度与各模型逐项积分费率待核。",
+    "价格页的成片数量是 Standard 模式估算；实际扣分随模型、时长、分辨率、口型同步和重新生成变化。",
+    "官网称积分可结转且不失效；账单 FAQ 泛称按月续订，与当前年付卡片须分别理解。",
+    "/create-custom-v2 标题为 Create Custom Chat，但正文为手动时间线工作流；入口名称和实际版本对应关系仍需登录核验。"
+  ],
+  "best_for": "已有音乐音轨、需要对话生成分镜并逐场景修改 MV 的独立音乐人，以及需要竖屏或方形宣传片的创作者。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://beatviz.ai/",
+      "title": "BeatViz | AI Music Video Generator for Musicians",
+      "kind": "official",
+      "local_path": "research/evidence/20/home.txt",
+      "supports": [
+        "音乐上传与无音频原创声音模式",
+        "模型、时长可配置及营销同步声明",
+        "免费试用、水印及商业使用说明"
+      ]
+    },
+    {
+      "url": "https://beatviz.ai/",
+      "title": "BeatViz homepage direct HTML and visible text",
+      "kind": "official",
+      "local_path": "research/evidence/20/home-visible.txt",
+      "supports": [
+        "Chat /agent、Workflow /create、Editor /create-custom 三入口",
+        "分镜、角色、镜头及时间线编辑；原始 HTML 同目录 home.html"
+      ]
+    },
+    {
+      "url": "https://beatviz.ai/pricing",
+      "title": "Pick Your Plan — BeatViz",
+      "kind": "pricing",
+      "local_path": "research/evidence/20/pricing.txt",
+      "supports": [
+        "年付折月金额及每月积分",
+        "1080p、三种画幅、商业权、无水印",
+        "积分结转、视频数量估算和可变扣分"
+      ]
+    },
+    {
+      "url": "https://beatviz.ai/create-custom-v2",
+      "title": "Create Custom Chat | BeatViz",
+      "kind": "official",
+      "local_path": "research/evidence/20/create-custom-v2.txt",
+      "supports": [
+        "公开制作表单及可选角色",
+        "首帧、口型生成、时间线和导出流程"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：三入口按自动化与可控程度分层，可支持从快速成片到逐镜修改的渐进工作流。",
+    "推断：Rap 产品应独立说明歌词/人声生成、口型与分镜编辑能力；音乐视频入口不能直接证明端到端 Rap 创作。"
+  ]
+}

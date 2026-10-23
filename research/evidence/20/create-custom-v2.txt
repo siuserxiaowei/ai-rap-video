@@ -1,0 +1,142 @@
+Title: Create Custom Chat | BeatViz
+
+URL Source: https://beatviz.ai/create-custom-v2
+
+Markdown Content:
+[Watch Tutorial Tutorial](https://beatviz.ai/help)[View Drafts Drafts](https://beatviz.ai/en/creations?tab=drafts&subtab=custom)
+
+## Ready |
+
+Build and edit every shot manually with full timeline and scene-level control.
+
+Project Name*
+
+Upload Audio*
+
+Resolution
+
+Aspect Ratio
+
+Character (Optional)
+
+Character
+
+## Community Creations
+
+[Video 21](https://resource.beatviz.ai/videos/91fbb791-a07f-440b-bdc4-90bf7efae4bc/final_1773844000088.mp4)
+![Image 1: Jeanette Goslar](https://beatviz.ai/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocJjVGAgrK9GbtdVxBfrHBvDWztD__Iq3BrwIDs9-brE04C56Q%3Ds96-c&w=48&q=75)Jeanette Goslar
+
+[Video 22](https://resource.beatviz.ai/agent2-exports/edc15ef7-1413-432c-9ba0-6551ae3f5849/final_1786776519558.mp4)
+![Image 2: Nenad Cvetanovic](https://beatviz.ai/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIMsPtvv7EhwXGmyr0idomQNDzuo_10dfnw4kWWGhBLesrbTkao%3Ds96-c&w=48&q=75)Nenad Cvetanovic
+
+[Video 23](https://resource.beatviz.ai/agent2-exports/b463b945-54fd-43a3-80cb-567d3e70c5ec/final_1790195859158.mp4)
+![Image 3: Aldis](https://beatviz.ai/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocKrMWUvz7fCw1WQMPwLHugU6XsqwyKaiicnVLuwzvPTuN4Hzkg%3Ds96-c&w=48&q=75)Aldis
+
+[Video 24](https://resource.beatviz.ai/custom-projects/eeeaa0b6-dc33-47da-99c6-842ac11d3668/export/final_1780072982810.mp4)
+![Image 4: Charles F Muzembe](https://beatviz.ai/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIrR9_3a72xSOF0NyqHBgnOUwjWykciuP38WXVBdHqwC2YKoKNP-w%3Ds96-c&w=48&q=75)Charles F Muzembe
+
+[Video 25](https://resource.beatviz.ai/videos/ed8a69a0-931a-499d-acd9-640118187d9e/final_1770511877255.mp4)
+![Image 5: G. David Ortiz](https://beatviz.ai/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocLEkLErvMqKxsVwGUl_CHnaWhohAsHuAfXigYLMfu5oSn4-6cZp%3Ds96-c&w=48&q=75)G. David Ortiz
+
+[Video 26](https://resource.beatviz.ai/videos/3e222251-a413-4848-9515-707fa8a85419/final_1768856432854.mp4)
+![Image 6: Tom Sugnet](https://beatviz.ai/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIklIE0hCOgrrJpwJdboXYhNCHW3heItwLpElBAUjrOUImb0w%3Ds96-c&w=48&q=75)Tom Sugnet
+
+[Video 27](https://resource.beatviz.ai/videos/4eaf1b72-08d6-49a3-af8b-981c74b2ff5f/final_1767382319290.mp4)
+![Image 7: Savaun Powell](https://beatviz.ai/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocLYa4JVcNGtWbVpYY0GapBaFFXYzyknS1mvHFlm1TDTUBQT1g2x%3Ds96-c&w=48&q=75)Savaun Powell
+
+[Video 28](https://resource.beatviz.ai/videos/1dac3cfa-a193-42e9-afa1-1e269fc21f62/final_1766179891712.mp4)
+![Image 8: Jacopo Moretti](https://beatviz.ai/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocLlzw-o6eCWUDFNhSdUEiu_5ug85wfHenMbkWYUQc6aM3pzpQ%3Ds96-c&w=48&q=75)Jacopo Moretti
+
+[Video 29](https://resource.beatviz.ai/videos/037328e7-adb3-4f35-b13d-d580db4a8c55/final_1768061821474.mp4)
+![Image 9: hiro](https://beatviz.ai/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocJoO73iojRFCDIYKu88msWwQMz35KGNpspjNf_VwDeYZoeJJA%3Ds96-c&w=48&q=75)hiro
+
+[Video 30](https://resource.beatviz.ai/custom-projects/5a1415bc-a060-4c75-9a1a-82366d83d4d0/export/final_1787328989784.mp4)
+![Image 10: henkdenhollander](https://beatviz.ai/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIuEtSX8Ez1g37Z1_KjQksLnIuY-l393C7u8FFuMHHTm2rSng%3Ds96-c&w=48&q=75)henkdenhollander
+
+STUDIO WORKFLOW
+
+## Create in 5 Steps
+
+From Track to Masterpiece: Quick Start Guide.
+
+01
+
+### Start & Upload Your Track
+
+Name your project and upload the music file you wish to create a video for.
+
+02
+
+### Generate Clips & Starter Frames
+
+Use the left workspace to generate images and videos. Images can be used as the precise first frame for subsequent video clips.
+
+03
+
+### Refine Lip Sync Precision
+
+Drag and drop the music track from the editor onto the dedicated lip-sync area to guide more accurate video generation for vocals.
+
+04
+
+### Assemble on the Timeline
+
+Drag your generated video clips to the main video track. Arrange them in your desired sequence and customize their timing.
+
+05
+
+### Export and Share
+
+Finalize your masterpiece! Export your high-definition music video and share your work with the world.
+
+## Unleash Your Vision:The AI Music Video Studio
+
+Generate, Edit, and Sync – All in One Revolutionary Workspace.
+
+![Image 11: Beat-synchronized visual generation](https://beatviz.ai/_next/image?url=https%3A%2F%2Fresource.beatviz.ai%2Fbeatviz-c-c-i-x%2F1.png&w=1920&q=75)
+
+FEATURE 01
+
+### Beat-Perfect Visuals, Frame by Frame
+
+Generate custom, high-definition images and videos, precisely controlling the initial frame of each clip. Craft a unique and visually coherent music video sequence tailored to every single musical beat and tempo change.
+
+![Image 12: AI lip-sync technology](https://beatviz.ai/_next/image?url=https%3A%2F%2Fresource.beatviz.ai%2Fbeatviz-c-c-i-x%2F2.jpg&w=1920&q=75)
+
+FEATURE 02
+
+### Seamless AI Lip-Sync for Vocals
+
+Bring your digital artists and avatars to life! Our dedicated lip-sync generation feature ensures that your virtual performers' mouth movements are naturally and accurately synchronized with the vocal track, adding unparalleled realism to your music video.
+
+![Image 13: Timeline editor interface](https://beatviz.ai/_next/image?url=https%3A%2F%2Fresource.beatviz.ai%2Fbeatviz-c-c-i-x%2F3.png&w=1920&q=75)
+
+FEATURE 03
+
+### The Editor: Your Visual Command Center
+
+Take full control with our intuitive timeline editor. Easily adjust the sequence and duration of your generated video clips, fine-tune transitions, and map visuals directly onto music nodes. Drag, drop, and edit your way to a perfect final mix.
+
+![Image 14: Beat-synchronized visual generation](https://beatviz.ai/_next/image?url=https%3A%2F%2Fresource.beatviz.ai%2Fbeatviz-c-c-i-x%2F1.png&w=828&q=75)
+
+FEATURE 01
+
+### Beat-Perfect Visuals, Frame by Frame
+
+Generate custom, high-definition images and videos, precisely controlling the initial frame of each clip. Craft a unique and visually coherent music video sequence tailored to every single musical beat and tempo change.
+
+![Image 15: AI lip-sync technology](https://beatviz.ai/_next/image?url=https%3A%2F%2Fresource.beatviz.ai%2Fbeatviz-c-c-i-x%2F2.jpg&w=828&q=75)
+
+FEATURE 02
+
+### Seamless AI Lip-Sync for Vocals
+
+Bring your digital artists and avatars to life! Our dedicated lip-sync generation feature ensures that your virtual performers' mouth movements are naturally and accurately synchronized with the vocal track, adding unparalleled realism to your music video.
+
+![Image 16: Timeline editor interface](https://beatviz.ai/_next/image?url=https%3A%2F%2Fresource.beatviz.ai%2Fbeatviz-c-c-i-x%2F3.png&w=828&q=75)
+
+FEATURE 03
+
+### The Editor: Your Visual Command Center
+
+Take full control with our intuitive timeline editor. Easily adjust the sequence and duration of your generated video clips, fine-tune transitions, and map visuals directly onto music nodes. Drag, drop, and edit your way to a perfect final mix.
