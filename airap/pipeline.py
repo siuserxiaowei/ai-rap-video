@@ -196,6 +196,13 @@ class RapPipelineOrchestrator:
             **subtitle_options
         )
 
+        subtitles_burned = getattr(render_result, "subtitles_burned", False)
+        if render_result.success:
+            if self.config.subtitle_mode == "required" and subtitles_burned is not True:
+                raise RuntimeError("Required subtitle burn-in was not confirmed by the renderer")
+            if self.config.subtitle_mode == "off" and subtitles_burned is True:
+                raise RuntimeError("Subtitle off mode was violated: renderer reported burned subtitles")
+
         return RapVideoGenerationResult(
             success=render_result.success,
             output_video_path=render_result.output_path,
@@ -218,7 +225,7 @@ class RapPipelineOrchestrator:
                 "lyrics_truncated": False,
                 "subtitle_mode": self.config.subtitle_mode,
                 "subtitle_font_requested": self.config.style.font_name,
-                "subtitles_burned": getattr(render_result, "subtitles_burned", False),
+                "subtitles_burned": subtitles_burned,
                 "duration_verified": getattr(render_result, "duration_verified", False),
                 "requested_duration": getattr(render_result, "requested_duration", total_duration),
                 "error": getattr(render_result, "error_message", None),

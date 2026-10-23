@@ -99,16 +99,55 @@ def test_required_preflight_error_does_not_write_assets(config, fake_builder, be
     beat.assert_not_called()
 
 
-def test_preflight_does_not_infer_actual_subtitle_burn(config, fake_builder, beat):
+@pytest.mark.parametrize('reported_burn', [False, None, 1, 'true'])
+def test_preflight_does_not_replace_actual_required_burn(config, fake_builder, beat, reported_burn):
     config.subtitle_mode = 'required'
-    fake_builder[1].subtitles_burned = False
+    fake_builder[1].subtitles_burned = reported_burn
+    with pytest.raises(RuntimeError, match='not confirmed by the renderer'):
+        RapPipelineOrchestrator(config).run(request())
+    fake_builder[0].return_value.pipeline.has_filter.assert_called_once_with('ass')
+    fake_builder[0].return_value.build_video.assert_called_once()
+
+
+def test_required_success_without_burn_field_is_rejected(config, fake_builder, beat):
+    config.subtitle_mode = 'required'
+    del fake_builder[1].subtitles_burned
+    with pytest.raises(RuntimeError, match='not confirmed by the renderer'):
+        RapPipelineOrchestrator(config).run(request())
+
+
+def test_off_success_reporting_burned_subtitles_is_rejected(config, fake_builder, beat):
+    config.subtitle_mode = 'off'
+    fake_builder[1].subtitles_burned = True
+    with pytest.raises(RuntimeError, match='off mode was violated'):
+        RapPipelineOrchestrator(config).run(request())
+    fake_builder[0].return_value.pipeline.has_filter.assert_not_called()
+
+
+@pytest.mark.parametrize('reported_burn', [False, True])
+def test_auto_preserves_actual_renderer_burn_flag(config, fake_builder, beat, reported_burn):
+    config.subtitle_mode = 'auto'
+    fake_builder[1].subtitles_burned = reported_burn
     result = RapPipelineOrchestrator(config).run(request())
-    assert result.metadata['subtitles_burned'] is False
-    assert result.metadata['duration_verified'] is True
+    assert result.success is True
+    assert result.metadata['subtitles_burned'] is reported_burn
+
+
+@pytest.mark.parametrize('mode,reported_burn', [('required', False), ('off', True)])
+def test_renderer_failure_is_preserved_without_mode_success_claim(config, fake_builder, beat, mode, reported_burn):
+    config.subtitle_mode = mode
+    fake_builder[1].success = False
+    fake_builder[1].subtitles_burned = reported_burn
+    fake_builder[1].error_message = 'fixture render failure'
+    result = RapPipelineOrchestrator(config).run(request())
+    assert result.success is False
+    assert result.metadata['error'] == 'fixture render failure'
+    assert result.metadata['subtitles_burned'] is reported_burn
 
 
 def test_selected_toolchain_is_used_for_preflight_and_render(config, tmp_path, fake_builder, beat):
     config.subtitle_mode = 'required'
+    fake_builder[1].subtitles_burned = True
     config.ffmpeg_path = str(executable(tmp_path, 'ffmpeg 画面'))
     config.ffprobe_path = str(executable(tmp_path, 'ffprobe 画面'))
     result = RapPipelineOrchestrator(config).run(request())
