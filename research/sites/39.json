@@ -1,0 +1,110 @@
+{
+  "id": "39",
+  "name": "Renderforest",
+  "url": "https://www.renderforest.com/",
+  "category": "music_video",
+  "checked_at": "2026-10-24",
+  "summary": "提供上传已有音乐后制作响应节奏的模板可视化视频，并集成通用 AI 视频与编辑工具。适合单曲、专辑与频道宣传；本次证据不能确认人物 Rap 演唱、自动口型同步或原创说唱生成。",
+  "inputs": [
+    "音乐/音频文件",
+    "模板文字、品牌 logo、背景图片",
+    "通用 AI 工具的文字提示或参考图（首页说明）"
+  ],
+  "outputs": [
+    "随音乐响应的模板可视化视频",
+    "可自定义背景与文字的视频",
+    "按套餐支持 HD720、HD1080 或适配模板的 4K 导出"
+  ],
+  "features": [
+    "音乐可视化模板",
+    "声波响应、3D 场景、文字占位",
+    "上传 logo 与自定义背景",
+    "通用 AI 视频生成及视频编辑（首页供应商宣称）"
+  ],
+  "pricing": {
+    "summary": "2026-10-24 价格页默认显示年付折月金额：Lite $9/月；Pro 首年 $13.3/月，之后 $19/月；Business 首年 $27.3/月，之后 $39/月。年付需预付全年，不能视为逐月价格。",
+    "free_tier": "当前价格页写明可免费试用并获测试积分，但未给出数额。2026-10-23 首页快照说明免费视频有水印、分辨率受限；免费具体画质未确认。",
+    "plans": [
+      {
+        "name": "Lite",
+        "amount": 9,
+        "currency": "USD",
+        "billing_period": "monthly_equivalent_billed_annually",
+        "credits": "9600 credits/year",
+        "notes": "页面以 $ 标价；模板视频 HD720。"
+      },
+      {
+        "name": "Pro",
+        "amount": 13.3,
+        "currency": "USD",
+        "billing_period": "monthly_equivalent_billed_annually_first_year",
+        "credits": "28800 credits/year",
+        "notes": "首年七折；之后页面标注 $19/month；模板视频 HD1080。"
+      },
+      {
+        "name": "Business",
+        "amount": 27.3,
+        "currency": "USD",
+        "billing_period": "monthly_equivalent_billed_annually_first_year",
+        "credits": "72000 credits/year",
+        "notes": "首年七折；之后页面标注 $39/month；模板视频 4K，须模板本身支持。"
+      }
+    ],
+    "source_url": "https://www.renderforest.com/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "本次读取的公开首页、音乐可视化与价格页未发现 API 文档入口；不能据此断言没有 API。",
+    "url": null
+  },
+  "limitations": [
+    "音乐可视化是已有音频的视觉呈现，不能等同于人物演唱或原创音乐生成。",
+    "未核实自动歌词识别、歌词逐字同步、人物 Rap 或音频驱动口型能力。",
+    "免费水印与限画质依据 2026-10-23 首页原快照，未确认免费具体分辨率。",
+    "年付促销与续费金额不同；不把通用 AI 生成画质与模板导出画质混用。",
+    "4K 仅适用于支持 4K 的模板。",
+    "未登录、未生成样片，供应商能力宣称未经实际生成验证。"
+  ],
+  "best_for": "已有 Rap/歌曲音轨，希望快速制作声波、品牌视觉与音乐频道宣传视频的创作者。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://www.renderforest.com/",
+      "title": "Create Videos, Designs, and Websites with AI | Renderforest",
+      "kind": "official",
+      "local_path": "research/evidence/39/homepage-20261023.txt",
+      "supports": [
+        "首页原始抓取日期为 2026-10-23；2026-10-24 读取复用",
+        "通用 AI 视频、模板与编辑工具定位",
+        "免费视频水印与分辨率限制说明"
+      ]
+    },
+    {
+      "url": "https://www.renderforest.com/music-visualizer",
+      "title": "Music Visualizer: Create Visualizations Online | Renderforest",
+      "kind": "official",
+      "local_path": "research/evidence/39/music-visualizer-20261024.txt",
+      "supports": [
+        "上传音乐并选择模板制作响应节奏的视觉效果",
+        "3D 场景、文字、logo 与自定义背景",
+        "适合单曲、专辑、频道宣传"
+      ]
+    },
+    {
+      "url": "https://www.renderforest.com/pricing",
+      "title": "Renderforest Pricing Plans | Start Free, Upgrade Anytime | Renderforest",
+      "kind": "pricing",
+      "local_path": "research/evidence/39/pricing-20261024.txt",
+      "supports": [
+        "免费试用及测试积分",
+        "Lite、Pro、Business 年付折月价格、首年促销与后续价格",
+        "年度积分与模板导出画质",
+        "年付预付全年；4K 须模板支持"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：可作为 Rap 工具链的音频发布后可视化环节；不应列为已验证的人物说唱生成器。",
+    "推断：适合用模板、音轨和 logo 快速交付品牌音乐素材；若要人物表演需要另行验证相关工具。"
+  ]
+}
