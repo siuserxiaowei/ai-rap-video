@@ -1,0 +1,11 @@
+{
+  "id": "C31",
+  "agent_task": "c31_pixverse",
+  "site_id": "31",
+  "name": "PixVerse",
+  "original_commit": "e92e6d72ca2035b07ac76e1cf3586d8e8d8c3738",
+  "accepted_at": "2026-10-23T15:52:02.421129+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}

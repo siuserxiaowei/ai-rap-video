@@ -21,22 +21,33 @@
     "17",
     "18",
     "19",
-    "20"
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28"
   ],
-  "gemini_accepted": 24,
+  "gemini_accepted": 50,
   "process_sessions": {
     "gemini_queue": 34726
   },
-  "next_research_agent": 24,
+  "next_research_agent": 32,
   "active_codex_tasks": [
-    "c21_revid",
-    "c22_banger",
-    "c23_kaiber"
+    "c29_runway",
+    "c30_kling",
+    "c31_pixverse"
   ],
   "pending_features": "C41-C50 as described in PLAN.md and docs/WORKBENCH_SPEC.md",
   "external_engine_commit": "fccf3d4; preserve airap and coordinate per COORDINATION.md",
-  "feishu": "not yet created; lark-doc workflow read, initialize when report ready",
+  "feishu": "draft initialized and initial profile passed, not yet published",
   "feishu_cli": "/Users/xiaowei/.local/state/fnm_multishells/1706_1792153352427/bin/lark-cli",
   "feishu_work_dir": "draft_e2ad52db_folder",
-  "feishu_draft_path": "draft_e2ad52db_folder/draft.xml"
+  "feishu_draft_path": "draft_e2ad52db_folder/draft.xml",
+  "gemini_unique_conversations": 50,
+  "gemini_queue_state": "completed, exit0",
+  "external_engine": "actively being developed by external process; main includes audio and lyrics-flow merges; preserve changes"
 }

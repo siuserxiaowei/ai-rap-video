@@ -1,0 +1,11 @@
+{
+  "id": "C30",
+  "agent_task": "c30_kling",
+  "site_id": "30",
+  "name": "Kling AI（可灵）",
+  "original_commit": "8ca531bd58137975a76ad6dfacaa2958f3f5a7cb",
+  "accepted_at": "2026-10-23T15:51:00.818874+00:00",
+  "evidence_status": "partial",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}
