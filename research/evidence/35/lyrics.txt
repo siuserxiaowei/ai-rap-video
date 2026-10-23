@@ -1,0 +1,46 @@
+Title: Create a Song with Your Own Lyrics
+
+URL Source: https://help.udio.com/en/articles/10716221-create-a-song-with-your-own-lyrics
+
+Markdown Content:
+Writing your own lyrics lets you tell stories, express emotions, and bring personal meaning to your music. Whether you want to generate lyrics quickly or craft them from scratch, here’s how to do it.
+
+## **Generate Lyrics from a Song Description**
+
+Need inspiration? Describe your song’s theme, and Udio will generate lyrics for you.
+
+## **How to Generate Lyrics:**
+
+[![Image 1: Two screenshots of the Home page with highlighted elements. In the first screenshot, labeled number one, a yellow box highlights the Home button, and a yellow arrow points to the second screenshot. In the second screenshot, labeled number two, a yellow box highlights the input or prompt box](https://downloads.intercomcdn.com/i/o/b4rmcl6x/1408856194/fc79b87e8d708d687669f7110f5a/Create+a+Song+with+Your+Own+Lyrics+1.png?expires=1792773000&signature=14e20ed716ba8fdb3920363e99cbdcc78f665f96ab76b7b0df641dc519308494&req=dSQnHsF7m4BWXfMW1HO4zYHHJVS%2FICKizXsqlFHYbAjHV4UmV2UamsoXmotA%0Axrqtld5843n1zC7la8A%3D%0A)](https://downloads.intercomcdn.com/i/o/b4rmcl6x/1408856194/fc79b87e8d708d687669f7110f5a/Create+a+Song+with+Your+Own+Lyrics+1.png?expires=1792773000&signature=14e20ed716ba8fdb3920363e99cbdcc78f665f96ab76b7b0df641dc519308494&req=dSQnHsF7m4BWXfMW1HO4zYHHJVS%2FICKizXsqlFHYbAjHV4UmV2UamsoXmotA%0Axrqtld5843n1zC7la8A%3D%0A)
+
+## **Use the Extended Editor for More Control**
+
+Want to refine your lyrics before finalizing? The **Extended Editor** lets you tweak and explore different ideas.
+
+## **How to Use the Extended Editor:**
+
+[![Image 2: Three screenshots of the Create page with highlighted elements. In the first screenshot, labeled number one, a yellow box highlights the Create button, and a yellow arrow points to the second screenshot. In the second screenshot, labeled number two, a yellow box highlights the 'Custom' option in the Write Your Lyrics section, and a yellow arrow points to the third screenshot. In the third screenshot, labeled number three, there are two yellow boxes: the first highlights the input or prompt box, and the second highlights the 'Write For Me' button](https://downloads.intercomcdn.com/i/o/b4rmcl6x/1408867607/0bf8112db0dadf873ca18e48af46/Create+a+Song+with+Your+Own+Lyrics+2.png?expires=1792773000&signature=80d35520fbb46802bb6c6bfbb0aa6e45a22e947f13f719832b8dd1126b8340f4&req=dSQnHsF4modfXvMW1HO4zfYRiRXKgkk8hqfxRKKIiJQqoOhlOow1b7Xch9%2Fk%0A%2BT710fZPeRM2rp7eiz4%3D%0A)](https://downloads.intercomcdn.com/i/o/b4rmcl6x/1408867607/0bf8112db0dadf873ca18e48af46/Create+a+Song+with+Your+Own+Lyrics+2.png?expires=1792773000&signature=80d35520fbb46802bb6c6bfbb0aa6e45a22e947f13f719832b8dd1126b8340f4&req=dSQnHsF4modfXvMW1HO4zfYRiRXKgkk8hqfxRKKIiJQqoOhlOow1b7Xch9%2Fk%0A%2BT710fZPeRM2rp7eiz4%3D%0A)
+
+💡 Not satisfied? Click "**Regenerate Lyrics"** to try again.
+
+## **Extra Features:**
+
+## **Use Your Own Custom Lyrics**
+
+Already have lyrics? Add them directly for full creative control!
+
+## **How to Add Your Own Lyrics:**
+
+[![Image 3: Three screenshots of the Create page with highlighted elements. In the first screenshot, labeled number one, a yellow box highlights the Create button, and a yellow arrow points to the second screenshot. In the second screenshot, labeled number two, a yellow box highlights the 'Custom' option in the Write Your Lyrics section, and a yellow arrow points to the third screenshot. In the third screenshot, labeled number three, a yellow box highlights the custom-written lyrics in the Lyrics Editor](https://downloads.intercomcdn.com/i/o/b4rmcl6x/1408872765/ca0a9dfb3450324b9f712c35ae39/Create+a+Song+with+Your+Own+Lyrics+3.png?expires=1792773000&signature=da3ac0a3e14ba956c54572d6d482e4f8f88a22ac2c6baa8cda0aeb114ebb5a15&req=dSQnHsF5n4ZZXPMW1HO4zUnnjHvF5n7lm%2BGSlBArzPl4GJr5pxqIRTjggvIL%0A%2FDOeHpiEH2FaBRdhQ10%3D%0A)](https://downloads.intercomcdn.com/i/o/b4rmcl6x/1408872765/ca0a9dfb3450324b9f712c35ae39/Create+a+Song+with+Your+Own+Lyrics+3.png?expires=1792773000&signature=da3ac0a3e14ba956c54572d6d482e4f8f88a22ac2c6baa8cda0aeb114ebb5a15&req=dSQnHsF5n4ZZXPMW1HO4zUnnjHvF5n7lm%2BGSlBArzPl4GJr5pxqIRTjggvIL%0A%2FDOeHpiEH2FaBRdhQ10%3D%0A)
+
+Now you’re ready to turn your words into music!
+
+* * *
+
+Related Articles
+
+*   [Create Your First Song](https://help.udio.com/en/articles/10715838-create-your-first-song)
+*   [Prompt Like a Master](https://help.udio.com/en/articles/10716541-prompt-like-a-master)
+*   [Extend Your Song](https://help.udio.com/en/articles/10732568-extend-your-song)
+*   [Edit Your Song Music and Lyrics](https://help.udio.com/en/articles/10732667-edit-your-song-music-and-lyrics)
+*   [KillerM’s Lyrics Guide](https://help.udio.com/en/articles/12015484-killerm-s-lyrics-guide)

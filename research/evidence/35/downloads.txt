@@ -1,0 +1,34 @@
+Title: Changes associated with the Universal Music Group ("UMG") partnership
+
+URL Source: https://help.udio.com/en/articles/12683565-changes-associated-with-the-universal-music-group-umg-partnership
+
+Markdown Content:
+1.   [All Collections](https://help.udio.com/en/)
+2.   [Miscellaneous](https://help.udio.com/en/collections/11900769-miscellaneous)
+3.   Changes associated with the Universal Music Group ("UMG") partnership
+
+Increased subscription credit limits, one-time 1000 credit granting, downloads disabled
+
+February 17, 2026
+
+**As part of this, the following changes were made to the Udio service:**
+
+*   All subscribers have been given a one-time grant of 1000 extra, non-expiring credits.
+
+*   The Standard subscription monthly credit limit has been increased from 1200 to 2400.
+
+*   The Pro subscription monthly credit limit has been increased from 4800 to 6000.
+
+*   Pro subscribers can now create 5 sets of songs (10 songs) at the same time, up from 4 sets.
+
+**Note that downloading of audio, video, and stems has been disabled**
+
+**[Learn more](https://www.udio.com/blog/a-new-era) about the partnership** and how it will enable Udio to offer amazing new opportunities for artists and creators.
+
+* * *
+
+Related Articles
+
+*   [Credits and credit limits](https://help.udio.com/en/articles/10739134-credits-and-credit-limits)
+
+Did this answer your question?

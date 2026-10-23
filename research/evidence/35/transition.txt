@@ -1,0 +1,36 @@
+Title: Udio - Warner Music Group (WMG) partnership
+
+URL Source: https://help.udio.com/en/articles/12874375-udio-warner-music-group-wmg-partnership
+
+Markdown Content:
+Udio and Warner Music Group (WMG) are collaborating on Udio’s next-generation AI music service through a new licensing arrangement. This arrangement additionally resolves the companies’ copyright litigation.
+
+Udio’s reimagined platform will introduce a suite of creative experiences that enable users to make remixes, covers, and new songs using the voices and styles of artists who choose to participate. Crucially, the collaboration will generate new revenue streams for artists and songwriters, while providing safeguards and usage guardrails for participating musicians.
+
+We here at team Udio are incredibly excited to build this next chapter. Onwards and upwards!
+
+**Did the labels buy Udio / do they own Udio?**
+
+No, they did not. Udio has entered into licensing agreements with Warner and Universal to train new models based on their data and to work with their artists.
+
+**Why have you partnered with WMG (and previously Universal Music Group)?**
+
+We wanted to enable more powerful and appealing opportunities for Udio creators over the long haul while also supporting the rights of longtime traditional artists. We believe that partnering with artists, songwriters, and rightsholders is the best way to accomplish this.
+
+**Does the Warner announcement change anything about how I use Udio _today_?**
+
+No. Udio is still governed by [our transition ToS](https://www.udio.com/terms-of-service) that was put into place on 29 October.
+
+**What does this mean for songs I’m making today?**
+
+During this transition…
+
+* * *
+
+Related Articles
+
+*   [Credits and credit limits](https://help.udio.com/en/articles/10739134-credits-and-credit-limits)
+*   [Styles](https://help.udio.com/en/articles/11003046-styles)
+*   [iOS app](https://help.udio.com/en/articles/11386622-ios-app)
+*   [AI and the Future of Music](https://help.udio.com/en/articles/11664414-ai-and-the-future-of-music)
+*   [Changes associated with the Universal Music Group ("UMG") partnership](https://help.udio.com/en/articles/12683565-changes-associated-with-the-universal-music-group-umg-partnership)

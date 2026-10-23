@@ -1,0 +1,46 @@
+{
+  "id": "35",
+  "name": "Udio",
+  "url": "https://www.udio.com/",
+  "category": "music",
+  "checked_at": "2026-10-23",
+  "summary": "Udio 是文字与自定义歌词驱动的歌曲生成和编辑平台，支持上传音频、延长、重混和风格参考。当前官方帮助说明音频、视频及分轨下载已停用，可通过 Udio 链接分享；不能作为已核实可导出的 Rap MV 工具。",
+  "inputs": ["歌曲主题、情绪与风格文字提示", "自行输入或粘贴的歌词；也可由描述生成歌词", "上传的音频文件（Standard 价格卡明确列出）", "已有歌曲作为风格参考"],
+  "outputs": ["平台内生成和播放的歌曲音频", "可发布在 Udio 的歌曲页面及分享链接", "歌词生成与编辑结果；未验证独立文件导出"],
+  "features": ["自定义歌词输入、Write for me 生成歌词及重新生成", "Extend、Remix、Inpaint 等音频编辑能力（首页展示）", "付费价格卡列音乐与歌词编辑、Voice Control、音频上传和风格参考", "价格页列 32 秒与 130 秒歌曲生成；免费档每天最多 3 次 130 秒生成", "可上传自定义封面；未见人物表演、口型或完整 MV 生成的官方能力证据"],
+  "pricing": {
+    "summary": "公开 USD 价格页：Free $0；Standard 月付 $10，年付 $96（折合 $8/月）；Pro 月付 $30，年付 $288（折合 $24/月）。税费因地区而异。",
+    "free_tier": "无需信用卡；页面列每日 10 credits、每月 100 credits，不结转；最多同时 4 首歌曲，130 秒生成每日最多 3 次。",
+    "plans": [
+      {"name": "Free", "amount": 0, "currency": "USD", "billing_period": "month", "credits": 100, "notes": "另列每日 10 credits；不结转。"},
+      {"name": "Standard", "amount": 10, "currency": "USD", "billing_period": "month", "credits": 2400, "notes": "月度 credits 不结转；年付为 $96/年，$8/月仅为年付折算；试用不含部分额度与权限。"},
+      {"name": "Pro", "amount": 30, "currency": "USD", "billing_period": "month", "credits": 6000, "notes": "月度 credits 不结转；年付为 $288/年，$24/月仅为年付折算；最多同时 10 首。"}
+    ],
+    "source_url": "https://www.udio.com/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "未找到公开可集成 API 文档；官方 Udio public API 帮助页（2025-03-12，当前仍可读取）明确表示目前不提供 public API。不以第三方接口替代官方 API。",
+    "url": "https://help.udio.com/en/articles/10756277-udio-public-api"
+  },
+  "limitations": [
+    "未注册、未付费、未实际生成；音质、中文说唱、押韵与节拍控制均未实测。",
+    "2026-02-17 官方帮助页明确停用 audio、video、stems 下载，不能沿用旧版 MP3/WAV/视频导出或分轨能力。",
+    "官方 WMG 说明允许通过 udio.com URL 分享，非用户也可访问；链接分享不等于文件下载或商用许可。",
+    "条款页 Jina 返回空正文并提示可能 CAPTCHA，web 备用读取也无正文；当前商业使用和输出权属未核实，不沿用历史商业授权。",
+    "首页营销视频与下载限制中的 video 字样不能证明当前支持生成电影式 MV、人物表演或口型同步。",
+    "歌词与 WMG 帮助页的 Jina 内容缺失部分列表，使用官方页面 web 读取补齐；相关原始返回一并保留。"
+  ],
+  "best_for": "在平台内试作歌曲、输入自写 Rap 歌词、编辑音频和分享试听链接；需要导出音轨制作或商用发布 MV 的流程目前存在明确下载阻断及许可待核。",
+  "evidence_status": "full_page",
+  "sources": [
+    {"url": "https://www.udio.com/", "title": "Udio | AI Music Generator - Official Website", "kind": "official", "local_path": "research/evidence/35/home.txt", "supports": ["文字生成音乐与音频编辑定位", "Udio 内发布与社区分享"]},
+    {"url": "https://www.udio.com/pricing", "title": "Udio Pricing", "kind": "pricing", "local_path": "research/evidence/35/pricing.txt", "supports": ["免费额度、月付与年付价格", "音频上传、歌词编辑和并发数量"]},
+    {"url": "https://help.udio.com/en/articles/10716221-create-a-song-with-your-own-lyrics", "title": "Create a Song with Your Own Lyrics", "kind": "documentation", "local_path": "research/evidence/35/help-web.json", "supports": ["粘贴自写歌词", "描述生成歌词及歌词编辑"]},
+    {"url": "https://help.udio.com/en/articles/12683565-changes-associated-with-the-universal-music-group-umg-partnership", "title": "Changes associated with the Universal Music Group partnership", "kind": "documentation", "local_path": "research/evidence/35/downloads.txt", "supports": ["2026-02-17 下载 audio、video、stems 停用", "当前 Standard 与 Pro 额度"]},
+    {"url": "https://help.udio.com/en/articles/12874375-udio-warner-music-group-wmg-partnership", "title": "Udio - Warner Music Group partnership", "kind": "documentation", "local_path": "research/evidence/35/help-web.json", "supports": ["通过 udio.com URL 分享歌曲", "过渡条款仍适用"]},
+    {"url": "https://help.udio.com/en/articles/10756277-udio-public-api", "title": "Udio public API", "kind": "documentation", "local_path": "research/evidence/35/api.txt", "supports": ["官方称目前不提供公开 API"]},
+    {"url": "https://www.udio.com/terms-of-service", "title": "Udio Terms of Service - Know Your Rights", "kind": "official", "local_path": "research/evidence/35/terms.txt", "supports": ["仅记录抓取失败：空正文、可能 CAPTCHA；不能支持商用许可结论"]}
+  ],
+  "observations": ["推断：歌词输入和音频编辑可用于 Rap 创作参考，但下载停用使其暂不适合作为外部 MV 制作链的可导出音轨来源。", "推断：站内分享与订阅额度是当前可见产品核心；新产品应把导出权限、输出许可及音频和视频的边界明确展示。"]
+}
