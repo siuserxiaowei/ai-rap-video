@@ -1,0 +1,125 @@
+{
+  "id": "21",
+  "name": "Revid",
+  "url": "https://www.revid.ai/",
+  "category": "music_video",
+  "checked_at": "2026-10-23",
+  "summary": "面向短视频创作者的生成、编辑与发布平台；音乐视频工具以现成歌曲生成节拍或歌词同步画面，可叠加歌词字幕和动态声波。功能与价格为官方公开文档陈述，未实测。",
+  "inputs": [
+    "音乐音频：MP3、WAV、AAC、M4A",
+    "支持的音乐链接及 Suno 分享链接",
+    "视频文件：MP4、MOV、AVI、WMV",
+    "可选视频概念、视觉风格及自有素材",
+    "通用工作流支持提示词、脚本、URL、音频和 PDF"
+  ],
+  "outputs": [
+    "竖屏 TikTok / Reels / Shorts 音乐短视频",
+    "横屏或完整歌曲音乐视频",
+    "带同步歌词字幕、节拍画面或动态声波的可编辑视频"
+  ],
+  "features": [
+    "音乐视频提供 Beats 与 Lyrics 两种时间编排",
+    "支持素材视频、AI 视频、带镜头运动的静态 AI 图片和自有素材",
+    "浏览器编辑器可改场景、字幕和时间",
+    "可选动态声波可视化",
+    "首页宣称覆盖脚本、配音、字幕、编辑与社媒发布",
+    "歌手口型同步为独立选项；歌词字幕不能等同人物对嘴",
+    "文档列出 Music to video、Audio to video、Lyrics to music video 等 API 工作流"
+  ],
+  "pricing": {
+    "summary": "订阅按月补充 credits；月付 Growth $39/2,000、Elite $89/5,000、Ultra $199/12,000。年付折月另列，不等同逐月付款；生成成本依时长和模型变化。",
+    "free_tier": "可免信用卡注册，新账户有试用 credits，数量未公开确认；API 渲染需要有效订阅，单有 credits 不足。",
+    "plans": [
+      {
+        "name": "Growth",
+        "amount": 39,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 2000,
+        "notes": "年付折月 $32；credits 每月刷新，不累积。"
+      },
+      {
+        "name": "Elite",
+        "amount": 89,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 5000,
+        "notes": "官方价格问答称订阅者可升级；年付折月 $74。"
+      },
+      {
+        "name": "Ultra",
+        "amount": 199,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 12000,
+        "notes": "年付折月 $166，另有更高 credits 档。"
+      }
+    ],
+    "source_url": "https://www.revid.ai/pricing"
+  },
+  "api": {
+    "status": "documented",
+    "summary": "官方 Public API v3 文档可访问；支持 key 请求头、异步项目 id、webhook 或轮询。Music to video 输入 source.url；每次渲染收 10 credits 加生成成本，可先免费估算。生成要求有效订阅。另有 MCP 与 CLI。",
+    "url": "https://www.revid.ai/docs"
+  },
+  "limitations": [
+    "未注册、未生成、未付费，画面质量、字幕准确度与速度未验证。",
+    "音乐输入与商用需持有相应音乐权利；官方提醒复杂歌词及特殊发音可能需手工校正。",
+    "生成费用随素材类型、时长和模型变化，不能将订阅 credits 直接换算固定视频数。",
+    "静态 AI 图片的镜头运动不等于场景本身运动。",
+    "/api 路径返回 404；已从其官方页脚找到有效 /docs，未将 404 当有效 API 文档。"
+  ],
+  "best_for": "已有歌曲或节拍、希望快速制作歌词短片、音乐可视化和多平台推广素材的音乐人与运营团队。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://www.revid.ai/",
+      "title": "Revid AI - Create, Edit & Publish AI Videos | 100+ Tools",
+      "kind": "official",
+      "local_path": "research/evidence/21/homepage.txt",
+      "supports": [
+        "短视频定位、编辑、字幕、发布和多种输入；复用已提供完整首页快照"
+      ]
+    },
+    {
+      "url": "https://www.revid.ai/tools/ai-music-video-generator",
+      "title": "AI Music Video Generator from Audio, MP3 & Suno | Revid",
+      "kind": "official",
+      "local_path": "research/evidence/21/music-video.txt",
+      "supports": [
+        "音频格式、音乐链接、节拍及歌词时间编排、字幕、声波和编辑"
+      ]
+    },
+    {
+      "url": "https://www.revid.ai/pricing",
+      "title": "Revid AI Pricing: Plans, Credits & Features",
+      "kind": "pricing",
+      "local_path": "research/evidence/21/pricing.txt",
+      "supports": [
+        "月付及年付折月、credits、免费试用、所有付费方案含 API/MCP/CLI"
+      ]
+    },
+    {
+      "url": "https://www.revid.ai/docs",
+      "title": "Revid Public API v3",
+      "kind": "documentation",
+      "local_path": "research/evidence/21/api-docs.txt",
+      "supports": [
+        "认证、异步工作流、音乐视频输入、有效订阅要求与 API 渲染基础费用"
+      ]
+    },
+    {
+      "url": "https://www.revid.ai/api",
+      "title": "404 — API discovery attempt",
+      "kind": "official",
+      "local_path": "research/evidence/21/api-404.txt",
+      "supports": [
+        "该尝试返回 404，页脚提供正确 API 文档 /docs 链接，不作为产品能力证据"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：歌曲输入、歌词同步和声波可视化组成一条直接面向音乐宣发的流程，可作为说唱视频站的相邻竞品参考。",
+    "推断：字幕与歌手对嘴分开表述，以及生成前估价，能减少用户对功能与成本的误解。"
+  ]
+}

@@ -1,0 +1,87 @@
+Title: Revid Public API v3
+
+URL Source: https://www.revid.ai/docs
+
+Markdown Content:
+Public API v3 v 3.11.0
+
+## Build with the Revid API
+
+Research what goes viral, turn a script, prompt, link or file into a finished short-form video, and publish it to TikTok, YouTube, Instagram, X or Facebook. One request per video: the API handles visuals, voice-over, captions and music. Each render costs 10 credits plus generation costs, and you can estimate any payload for free first.39,000+ videos have been made through the API, the[MCP server](https://www.revid.ai/mcp) and the CLI since October 2025.
+
+[Quickstart](https://www.revid.ai/docs#quickstart)[API reference](https://www.revid.ai/docs/api-reference)[Get your API key](https://www.revid.ai/account#api-key)
+
+[REST API Call the API from your backend. Full control over every parameter, webhooks when renders finish. Start the quickstart](https://www.revid.ai/docs#quickstart)[MCP server Connect Claude, ChatGPT, Cursor or VS Code to Revid's video MCP server (30 tools) with one-click OAuth. No code, no API key to paste. Connect your agent](https://www.revid.ai/mcp#connect)[Revid CLI npm install -g revid-cli. Stable --json output for shell agents, CI jobs and scripts. Use the CLI](https://www.revid.ai/mcp#cli)
+## [Your first video in 3 steps](https://www.revid.ai/docs#quickstart)
+
+1.   1. Get your API key
+
+Send it in the `key` header on every call, with a descriptive`User-Agent` such as `my-app/1.0`. In code, keep it in an environment variable like `REVID_API_KEY`.
+
+2.   2. Start a render
+
+Pick a [workflow](https://www.revid.ai/docs#workflows) and send its input. You get a`pid` (project id) back right away; the video renders in the background.
+
+3.   3. Get the video
+
+Your `webhookUrl` is called when the video is ready. No server to receive webhooks? Poll the status endpoint with the `pid` every 10 to 20 seconds until `status` is `ready`.
+
+Shortcut: configure a video visually on
+
+[revid.ai/create](https://www.revid.ai/create), click
+
+See API Code, and reuse that exact payload.
+
+A script: the exact words to be spoken
+
+An idea or topic: the AI writes the script
+
+A link: article, music, or any web page
+
+A file: audio or video to transform
+
+What each workflow needs (●) and what you can customize (✓). Click a workflow to build a request interactively.
+
+| Workflow | Requires | source | media | voice | captions | music | avatar | options | render |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Script to video](https://www.revid.ai/docs/workflows/script-to-video) | source.text | ● | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| [Prompt to video](https://www.revid.ai/docs/workflows/prompt-to-video) | source.prompt | ● | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ |
+| [Audio to video](https://www.revid.ai/docs/workflows/audio-to-video) | source.url | ● | ✓ | — | ✓ | ✓ | — | ✓ | ✓ |
+| [Music to video](https://www.revid.ai/docs/workflows/music-to-video) | source.url | ● | ✓ | — | ✓ | ✓ | — | ✓ | ✓ |
+| [Lyrics to music video](https://www.revid.ai/docs/workflows/lyrics-to-video) | source.text (the lyrics) or source.prompt (a description of the song) | ● | ✓ | — | ✓ | ✓ | — | ✓ | ✓ |
+| [Song ad](https://www.revid.ai/docs/workflows/song-ad) | source.prompt, source.text or media.provided product photos | ● | ✓ | — | ✓ | ✓ | — | ✓ | ✓ |
+| [Article to video](https://www.revid.ai/docs/workflows/article-to-video) | source.url | ● | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ |
+| [Avatar to video](https://www.revid.ai/docs/workflows/avatar-to-video) | source.text + avatar.url | ● | ✓ | ✓ | ✓ | ✓ | ● | ✓ | ✓ |
+| [Static background video](https://www.revid.ai/docs/workflows/static-background-video) | source.text or source.url | ● | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ |
+| [Motion transfer](https://www.revid.ai/docs/workflows/motion-transfer) | source.url + media.provided[] with 1 image (the target character) | ● | ● | ✓ | ✓ | ✓ | — | ✓ | ✓ |
+| [Character swap](https://www.revid.ai/docs/workflows/character-swap) | source.url + one photo per person (media.provided images and/or characterIds), left to right, up to 4 | ● | ● | — | — | — | — | ✓ | ✓ |
+| [Caption video](https://www.revid.ai/docs/workflows/caption-video) | source.url | ● | ✓ | — | ✓ | ✓ | — | ✓ | ✓ |
+| [Video to clips](https://www.revid.ai/docs/workflows/video-to-clips) | source.url | ● | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ |
+| [Ad generator](https://www.revid.ai/docs/workflows/ad-generator) | source.prompt or media.provided[] | ● | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ |
+
+● required✓ available— not used
+
+## [Authentication](https://www.revid.ai/docs#authentication)
+
+REST API and CLI: API key
+
+Send your key in the `key` header. Find it on your[account page](https://www.revid.ai/account#api-key). Requests use the credits of your account, or of your active workspace.
+
+MCP: OAuth or API key
+
+Claude, ChatGPT, Cursor and VS Code sign in with OAuth 2.1, so nobody pastes a key. Clients configured with headers can send the key as `Authorization: Bearer`.[Connection guide](https://www.revid.ai/mcp#connect).
+
+An active plan is required
+
+Rendering, media generation, export, characters and voice cloning need an active Revid plan. Credits alone do not unlock them: a key without a plan gets `402 SUBSCRIPTION_REQUIRED`.[See plans](https://www.revid.ai/pricing).
+
+Set a User-Agent. Requests sent with the default signature of some HTTP libraries (Python's `urllib`, `libwww-perl`) are blocked before they reach the API, with a plain-text `403 error code: 1010`. Any descriptive value like `my-app/1.0` works. The same applies when you download the video URLs the API returns.
+
+400 Validation error. The message names the exact field, e.g. "voice.speed must be between 0.5 and 2."
+401 Missing or invalid API key (header `key`).
+402 The API key is valid but the account has no active plan. Generation endpoints require one; see https://www.revid.ai/pricing.
+403 The request was blocked in front of the API and never reached it; the body is plain text `error code: 1010`, not JSON. Usual cause: the HTTP client sent its default `User-Agent`. Set an explicit, descriptive `User-Agent` (for example `my-app/1.0`) and retry.
+429 Rate limit reached on viral search (code `RATE_LIMIT_EXCEEDED`). Searches cost no credits but are capped per rolling 24h: 20 without a plan, 500 on paid plans, 2000 on Elite.
+500 Internal error. Credits consumed by a failed render are refunded automatically.
+
+## [More resources](https://www.revid.ai/docs#resources)
