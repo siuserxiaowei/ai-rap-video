@@ -311,14 +311,12 @@ class RapPipelineOrchestrator:
                 continue
             self._bounded_reference(reference, field, MAX_TOOL_REFERENCE_BYTES)
             try:
-                # A local FILE reference wins; bare executable names may use
-                # their own PATH entry, never another tool or a default binary.
-                candidate = Path(reference)
-                if not candidate.is_file():
-                    located = shutil.which(reference)
-                    if located is None:
-                        raise ValueError()
-                    candidate = Path(located)
+                # Match CLI selection exactly: explicit POSIX paths use FILE,
+                # bare names use only PATH. CWD selection requires a ./ prefix.
+                located = reference if "/" in reference else shutil.which(reference)
+                if located is None:
+                    raise ValueError()
+                candidate = Path(located)
                 candidate = candidate.resolve(strict=True)
                 if not candidate.is_file() or not os.access(candidate, os.X_OK):
                     raise ValueError()

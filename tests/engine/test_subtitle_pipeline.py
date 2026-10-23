@@ -239,3 +239,33 @@ def test_mode_validation_before_assets(config, fake_builder, beat, mode):
     fake_builder[0].assert_not_called()
     beat.assert_not_called()
     assert not config.output_dir.exists()
+
+
+def test_cwd_shadow_cannot_override_bare_name_path_selection(config, tmp_path, fake_builder, beat, monkeypatch):
+    cwd = tmp_path / "cwd"
+    path_dir = tmp_path / "path-tools"
+    cwd.mkdir()
+    path_dir.mkdir()
+    shadow = executable(cwd, "chosen-ffmpeg")
+    chosen = executable(path_dir, "chosen-ffmpeg")
+    config.ffmpeg_path = "chosen-ffmpeg"
+    config.subtitle_mode = "required"
+    fake_builder[1].subtitles_burned = True
+    monkeypatch.chdir(cwd)
+    monkeypatch.setenv("PATH", str(path_dir))
+    RapPipelineOrchestrator(config).run(request())
+    fake_builder[0].assert_called_once_with(config=config.video, ffmpeg_bin=str(chosen))
+    fake_builder[0].return_value.pipeline.has_filter.assert_called_once_with("ass")
+    assert shadow.is_file()
+
+
+def test_explicit_dot_prefix_selects_cwd_tool_without_path_lookup(config, tmp_path, fake_builder, beat, monkeypatch):
+    cwd = tmp_path / "cwd"
+    cwd.mkdir()
+    selected = executable(cwd, "local-ffmpeg")
+    config.ffmpeg_path = "./local-ffmpeg"
+    monkeypatch.chdir(cwd)
+    with patch("airap.pipeline.shutil.which") as locate:
+        RapPipelineOrchestrator(config).run(request())
+        locate.assert_not_called()
+    fake_builder[0].assert_called_once_with(config=config.video, ffmpeg_bin=str(selected))
