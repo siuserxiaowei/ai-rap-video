@@ -1,0 +1,242 @@
+[
+  {
+    "id": "01",
+    "name": "RapVideoGenerator",
+    "url": "https://rapvideogenerator.com/",
+    "category": "rap"
+  },
+  {
+    "id": "02",
+    "name": "RapVideo.ai",
+    "url": "https://rapvideo.ai/",
+    "category": "rap"
+  },
+  {
+    "id": "03",
+    "name": "RapReel",
+    "url": "https://rapreel.com/",
+    "category": "rap"
+  },
+  {
+    "id": "04",
+    "name": "AIRapVideo",
+    "url": "https://airapvideo.io/",
+    "category": "rap"
+  },
+  {
+    "id": "05",
+    "name": "RapVideoAI",
+    "url": "https://rapvideoai.com/",
+    "category": "rap"
+  },
+  {
+    "id": "06",
+    "name": "Airapvid",
+    "url": "https://airapvid.com/",
+    "category": "rap"
+  },
+  {
+    "id": "07",
+    "name": "CapCut",
+    "url": "https://www.capcut.com/features/ai-rap-video-generator",
+    "category": "editor"
+  },
+  {
+    "id": "08",
+    "name": "Media.io",
+    "url": "https://www.media.io/ai/explore/zone/ai-rap-video-generator",
+    "category": "rap"
+  },
+  {
+    "id": "09",
+    "name": "OctoScale",
+    "url": "https://octoscale.ai/ai-rap-video-generator",
+    "category": "rap"
+  },
+  {
+    "id": "10",
+    "name": "TryH3",
+    "url": "https://tryh3.com/generator/ai-rap-video",
+    "category": "rap"
+  },
+  {
+    "id": "11",
+    "name": "DuoRap AI",
+    "url": "https://duorapai.com/",
+    "category": "rap"
+  },
+  {
+    "id": "12",
+    "name": "AI-Rap.Video",
+    "url": "https://ai-rap.video/",
+    "category": "rap"
+  },
+  {
+    "id": "13",
+    "name": "AIRapVideos",
+    "url": "https://airapvideos.com/",
+    "category": "rap"
+  },
+  {
+    "id": "14",
+    "name": "AITuber",
+    "url": "https://aituber.app/tools/ai-rap-video-generator/",
+    "category": "rap"
+  },
+  {
+    "id": "15",
+    "name": "Musicful",
+    "url": "https://www.musicful.ai/",
+    "category": "music"
+  },
+  {
+    "id": "16",
+    "name": "Pollo AI",
+    "url": "https://pollo.ai/",
+    "category": "video"
+  },
+  {
+    "id": "17",
+    "name": "GoEnhance",
+    "url": "https://www.goenhance.ai/",
+    "category": "video"
+  },
+  {
+    "id": "18",
+    "name": "Freebeat",
+    "url": "https://freebeat.ai/",
+    "category": "music_video"
+  },
+  {
+    "id": "19",
+    "name": "Neural Frames",
+    "url": "https://www.neuralframes.com/",
+    "category": "music_video"
+  },
+  {
+    "id": "20",
+    "name": "BeatViz",
+    "url": "https://beatviz.ai/",
+    "category": "music_video"
+  },
+  {
+    "id": "21",
+    "name": "Revid",
+    "url": "https://www.revid.ai/",
+    "category": "music_video"
+  },
+  {
+    "id": "22",
+    "name": "Banger.Show",
+    "url": "https://banger.show/",
+    "category": "music_video"
+  },
+  {
+    "id": "23",
+    "name": "Kaiber",
+    "url": "https://kaiber.ai/",
+    "category": "music_video"
+  },
+  {
+    "id": "24",
+    "name": "OpenArt",
+    "url": "https://openart.ai/",
+    "category": "music_video"
+  },
+  {
+    "id": "25",
+    "name": "DomoAI",
+    "url": "https://domoai.app/",
+    "category": "video"
+  },
+  {
+    "id": "26",
+    "name": "Hedra",
+    "url": "https://www.hedra.com/",
+    "category": "lip_sync"
+  },
+  {
+    "id": "27",
+    "name": "HeyGen",
+    "url": "https://www.heygen.com/",
+    "category": "lip_sync"
+  },
+  {
+    "id": "28",
+    "name": "Sync",
+    "url": "https://sync.so/",
+    "category": "lip_sync"
+  },
+  {
+    "id": "29",
+    "name": "Runway",
+    "url": "https://runwayml.com/",
+    "category": "video"
+  },
+  {
+    "id": "30",
+    "name": "Kling AI",
+    "url": "https://klingai.com/",
+    "category": "video"
+  },
+  {
+    "id": "31",
+    "name": "PixVerse",
+    "url": "https://pixverse.ai/",
+    "category": "video"
+  },
+  {
+    "id": "32",
+    "name": "Pika",
+    "url": "https://pika.art/",
+    "category": "video"
+  },
+  {
+    "id": "33",
+    "name": "Luma",
+    "url": "https://lumalabs.ai/",
+    "category": "video"
+  },
+  {
+    "id": "34",
+    "name": "Suno",
+    "url": "https://suno.com/",
+    "category": "music"
+  },
+  {
+    "id": "35",
+    "name": "Udio",
+    "url": "https://www.udio.com/",
+    "category": "music"
+  },
+  {
+    "id": "36",
+    "name": "FineShare Singify",
+    "url": "https://singify.fineshare.com/",
+    "category": "music"
+  },
+  {
+    "id": "37",
+    "name": "VEED",
+    "url": "https://www.veed.io/",
+    "category": "editor"
+  },
+  {
+    "id": "38",
+    "name": "InVideo",
+    "url": "https://invideo.io/",
+    "category": "editor"
+  },
+  {
+    "id": "39",
+    "name": "Renderforest",
+    "url": "https://www.renderforest.com/",
+    "category": "editor"
+  },
+  {
+    "id": "40",
+    "name": "Rotor Videos",
+    "url": "https://rotorvideos.com/",
+    "category": "music_video"
+  }
+]
