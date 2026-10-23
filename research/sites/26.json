@@ -1,0 +1,118 @@
+{
+  "id": "26",
+  "name": "Hedra",
+  "url": "https://www.hedra.com/",
+  "category": "video",
+  "checked_at": "2026-10-23",
+  "summary": "当前官网主打视觉模型推理优化、模型训练与基础设施，开发平台仍提供视频、图像、音频等模型推理。v3 文档确认文生视频与图片驱动视频，价格页仍列出 Avatar / lip-sync 和音乐生成；未核实独立的一键说唱或人物唱歌流程。",
+  "inputs": [
+    "文本提示词（视频文档示例）",
+    "起始图片：上传文件或已生成图片的资产引用",
+    "模型专属参数：示例包含画幅、分辨率、时长与质量；各模型 schema 不通用"
+  ],
+  "outputs": [
+    "异步任务的视频输出与下载 URL",
+    "图像和音频模型输出（quickstart 声明共用任务生命周期）"
+  ],
+  "features": [
+    "v3 API 的文生视频与图片驱动视频",
+    "视频文档提供 Veo 3 示例与 playground 链接",
+    "提交任务、查询状态、下载输出；支持 webhooks",
+    "提交前可调用 estimate 估价",
+    "价格页列有 Avatar / lip-sync、音乐、语音及音频清理等计费类别",
+    "Python、TypeScript SDK；文档列出 Hedra MCP 入口",
+    "首页提供视觉推理优化、模型训练和 World Model Runtime"
+  ],
+  "pricing": {
+    "summary": "API 使用预付美元余额，按输出或 token 计费，无订阅、席位或最低消费；Studio credits 与 API 钱包分开。价格为起价，具体模型及参数需查目录或 estimate。基础设施和训练按项目报价。",
+    "free_tier": "未确认通用免费额度。价格页标注 voice cloning 为 free；不能据此推断视频或音乐免费。未充值的 API 钱包无法支付生成。",
+    "plans": [
+      {
+        "name": "API video generation",
+        "amount": 0.0113,
+        "currency": "USD",
+        "billing_period": "per second",
+        "notes": "from，按模型和参数变化"
+      },
+      {
+        "name": "API Avatar & lip-sync",
+        "amount": 0.025,
+        "currency": "USD",
+        "billing_period": "per second",
+        "notes": "from；计费项存在，未核实完整人物音频输入流程"
+      },
+      {
+        "name": "API music",
+        "amount": 0.6,
+        "currency": "USD",
+        "billing_period": "per minute",
+        "notes": "from；未读取音乐模型输入规范"
+      },
+      {
+        "name": "Inference and Research",
+        "notes": "Dedicated serving、训练及 GPU execution 按项目报价，无公开固定金额"
+      }
+    ],
+    "source_url": "https://www.hedra.com/pricing"
+  },
+  "api": {
+    "status": "documented",
+    "summary": "当前 v3 API 文档公开。API key 与预付 USD 钱包开通后，向 /v3/models/{model} 提交异步任务，查询 job 状态并下载输出；/estimate 可预估费用。视频示例为 veo-3，支持 start_image；字段和限制应查各模型 OpenAPI schema。",
+    "url": "https://www.hedra.com/docs/pages/developer/v3/quickstart"
+  },
+  "limitations": [
+    "仅阅读公开页，未登录、付费或提交任何生成任务；质量和成功率未经实测",
+    "官网定位已变化，不应套用旧版数字人或 Character 模型参数与订阅价格",
+    "Avatar / lip-sync 和音乐能力仅由当前价格类别确认，未核实对应模型、音频上传约束、唱歌同步效果及最大时长",
+    "未核实 Studio 创作入口、订阅、免费额度、水印、导出权限和商业授权",
+    "文档中的 720p、4 秒是 Veo 3 示例参数，不代表平台上限",
+    "模型价格是起价，最终费用需按具体模型、参数和计费单位确认"
+  ],
+  "best_for": "需要通过 API 组合视频、图片及音频模型的开发者；可列入音乐人物视频技术候选，但完整说唱或唱歌工作流仍待验证。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://www.hedra.com/",
+      "title": "Hedra — Visual Inference Models and Infrastructure",
+      "kind": "official",
+      "local_path": "research/evidence/26/home.txt",
+      "supports": [
+        "首页转向模型推理、训练和 WMR；开发文档入口"
+      ]
+    },
+    {
+      "url": "https://www.hedra.com/docs/pages/developer/v3/quickstart",
+      "title": "Run your first inference job - Hedra",
+      "kind": "documentation",
+      "local_path": "research/evidence/26/quickstart.txt",
+      "supports": [
+        "公开 v3 API、SDK、异步任务和估价",
+        "API 钱包与 Studio credits 分开，生成需要资金"
+      ]
+    },
+    {
+      "url": "https://www.hedra.com/docs/pages/developer/v3/generate-video",
+      "title": "Generate a video - Hedra",
+      "kind": "documentation",
+      "local_path": "research/evidence/26/generate-video.txt",
+      "supports": [
+        "文生视频与 start_image 图片驱动",
+        "Veo 3 示例与按模型 schema 验证输入"
+      ]
+    },
+    {
+      "url": "https://www.hedra.com/pricing",
+      "title": "Hedra Pricing | API, Infrastructure, and Studio",
+      "kind": "pricing",
+      "local_path": "research/evidence/26/pricing.txt",
+      "supports": [
+        "API 按用量和预付美元计费",
+        "视频、Avatar / lip-sync、音乐起价；基础设施项目报价"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：Hedra 更适合作为可组合模型平台研究，不能仅凭旧品牌印象归为专用说唱视频工具。",
+    "推断：当前音乐和人物同步计费类别提示可组合音频与人物视频，但完整流程、效果和权利边界仍需单独验证。"
+  ]
+}

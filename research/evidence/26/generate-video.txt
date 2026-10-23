@@ -1,0 +1,156 @@
+Title: Generate a video - Hedra
+
+URL Source: https://www.hedra.com/docs/pages/developer/v3/generate-video
+
+Markdown Content:
+> ## Documentation Index
+> 
+> 
+> Fetch the complete documentation index at:[/docs/llms.txt](https://www.hedra.com/docs/llms.txt)
+> 
+> 
+> Use this file to discover all available pages before exploring further.
+
+[Skip to main content](https://www.hedra.com/docs/pages/developer/v3/generate-video#content-area)
+
+[Hedra home page![Image 1: light logo](https://mintcdn.com/hedra-4d7e9d2a/jYwhAQjixov0KnXE/assets/logo/light.svg?fit=max&auto=format&n=jYwhAQjixov0KnXE&q=85&s=4c354f051ebb28896959c4951b5c0311)![Image 2: dark logo](https://mintcdn.com/hedra-4d7e9d2a/jYwhAQjixov0KnXE/assets/logo/dark.svg?fit=max&auto=format&n=jYwhAQjixov0KnXE&q=85&s=6b91fedc506a8c18fcee62497d938df3)](https://www.hedra.com/)
+
+Developer platform
+
+Search...
+
+Ctrl K
+
+*   [Support](https://www.hedra.com/support)
+*   [Community](https://discord.com/invite/KXeUUa6cXD)
+*   [Models](https://www.hedra.com/develop/models)
+*   [Console](https://www.hedra.com/develop)
+*   [MCP server](https://www.hedra.com/docs/pages/developer/v3/mcp)
+
+### Start here
+
+*   [Overview](https://www.hedra.com/docs)
+*   [Quickstart](https://www.hedra.com/docs/pages/developer/v3/quickstart)
+*   [MCP server](https://www.hedra.com/docs/pages/developer/v3/mcp)
+*   [Authentication and API keys](https://www.hedra.com/docs/pages/developer/v3/authentication)
+*   [Pricing and API billing](https://www.hedra.com/docs/pages/developer/v3/billing)
+
+### Managed inference
+
+*   [Model catalog](https://www.hedra.com/docs/pages/developer/v3/model-catalog)
+*   [Generate an image](https://www.hedra.com/docs/pages/developer/v3/generate-image)
+*   [Generate a video](https://www.hedra.com/docs/pages/developer/v3/generate-video)
+*   [Generate speech](https://www.hedra.com/docs/pages/developer/v3/generate-audio)
+*   [Upload files and reuse outputs](https://www.hedra.com/docs/pages/developer/v3/files)
+*   [Chain generations](https://www.hedra.com/docs/pages/developer/v3/chain-generations)
+*   [Quality levels](https://www.hedra.com/docs/pages/developer/v3/quality-levels)
+*   [Chat completions](https://www.hedra.com/docs/pages/developer/v3/chat-completions)
+
+### Production operations
+
+*   [Job progress](https://www.hedra.com/docs/pages/developer/v3/job-progress)
+*   [Webhooks](https://www.hedra.com/docs/pages/developer/v3/webhooks)
+*   [Log drains](https://www.hedra.com/docs/pages/developer/v3/log-drains)
+*   [Errors, limits, and retries](https://www.hedra.com/docs/pages/developer/v3/errors-and-retries)
+
+### SDKs and tools
+
+*   [SDKs and developer tools](https://www.hedra.com/docs/pages/developer/v3/sdks)
+*   [Coding agents](https://www.hedra.com/docs/pages/developer/v3/coding-agents)
+
+### Language API reference
+
+*   [Chat Completions](https://www.hedra.com/docs/pages/developer/v3/reference/chat)
+*   [Responses API](https://www.hedra.com/docs/pages/developer/v3/reference/responses)
+*   [Messages API](https://www.hedra.com/docs/pages/developer/v3/reference/messages)
+
+### API Reference
+
+*   Run a model  
+*   Models  
+*   Jobs  
+*   Webhooks  
+*   Log drains  
+*   Access  
+*   Billing  
+
+### Resources
+
+*   [Migrate from v2 to v3](https://www.hedra.com/docs/pages/developer/v3/migrate-from-v2)
+*   Legacy v2  
+*   Studio help  
+
+*   [Get an API key](https://www.hedra.com/develop/api-keys)
+*    
+
+[Hedra home page![Image 3: light logo](https://mintcdn.com/hedra-4d7e9d2a/jYwhAQjixov0KnXE/assets/logo/light.svg?fit=max&auto=format&n=jYwhAQjixov0KnXE&q=85&s=4c354f051ebb28896959c4951b5c0311)![Image 4: dark logo](https://mintcdn.com/hedra-4d7e9d2a/jYwhAQjixov0KnXE/assets/logo/dark.svg?fit=max&auto=format&n=jYwhAQjixov0KnXE&q=85&s=6b91fedc506a8c18fcee62497d938df3)](https://www.hedra.com/)Developer platform
+
+Search...
+
+Ctrl K Ask Assistant Ctrl+I
+
+*   [Get an API key](https://www.hedra.com/develop/api-keys)
+
+Search...
+
+Navigation
+
+Managed inference
+
+Generate a video
+
+1.   Managed inference
+
+# Generate a video
+
+Copy page Copy page
+
+Run video inference on the Hedra v3 API with a model-specific request and the shared asynchronous job lifecycle.
+
+Copy page Copy page
+
+Generate a video from text. To animate an image, add `input.start_image` using an uploaded file or a completed image job’s asset reference.[Open Veo 3 in the playground](https://www.hedra.com/develop/models/video/veo-3) to explore this model’s inputs. The **API** tab generates request code from the same model schema. To reproduce the example below, enter its inputs before running.
+## [​](https://www.hedra.com/docs/pages/developer/v3/generate-video#submit-a-job)
+
+Submit a job
+
+Set `HEDRA_API_KEY` as shown in the [quickstart](https://www.hedra.com/docs/pages/developer/v3/quickstart). This example submits to `veo-3`; its payload is not interchangeable with another model’s schema.
+
+```
+curl --fail-with-body -X POST https://api.hedra.com/v3/models/veo-3 \
+  -H "Authorization: Key $HEDRA_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"input":{"prompt":"A camera moves slowly around an industrial inspection rig","aspect_ratio":"16:9","resolution":"720p","duration_ms":4000,"quality":"fast"}}'
+```
+
+The `202` response contains a `job_id`. Follow the [submit, wait, and download workflow](https://www.hedra.com/docs/pages/developer/v3/quickstart#submit-wait-and-download), or use [webhooks](https://www.hedra.com/docs/pages/developer/v3/webhooks). Check output status before retrieving URLs. To estimate this request first, send its body to `POST /v3/models/veo-3/estimate`.
+## [​](https://www.hedra.com/docs/pages/developer/v3/generate-video#inputs-and-limits)
+
+Inputs and limits
+
+Inspect `GET /v3/models/veo-3/openapi.json` for accepted fields, defaults, and constraints. See [Files and outputs](https://www.hedra.com/docs/pages/developer/v3/files) for media references and [Quality levels](https://www.hedra.com/docs/pages/developer/v3/quality-levels) for models that expose a tier selector.
+
+Was this page helpful?
+
+Yes No
+
+[Suggest edits](https://github.com/hedra-labs/docs/edit/main/pages/developer/v3/generate-video.mdx)[Raise issue](https://github.com/hedra-labs/docs/issues/new?title=Issue%20on%20docs&body=Path:%20/pages/developer/v3/generate-video)
+
+[Previous](https://www.hedra.com/docs/pages/developer/v3/generate-image)[Generate speech Run audio inference on the Hedra v3 API with a model-specific request and the shared asynchronous job lifecycle. Next](https://www.hedra.com/docs/pages/developer/v3/generate-audio)
+
+Ctrl+I
+
+[x](https://x.com/hedra_labs)[github](https://github.com/hedra-labs)[linkedin](https://linkedin.com/company/hedra-labs)[discord](https://discord.com/invite/KXeUUa6cXD)
+
+[Powered by This documentation is built and hosted on Mintlify, a developer documentation platform](https://www.mintlify.com/?utm_campaign=poweredBy&utm_medium=referral&utm_source=hedra-4d7e9d2a)
+
+## On this page
+
+*   [Submit a job](https://www.hedra.com/docs/pages/developer/v3/generate-video#submit-a-job)
+*   [Inputs and limits](https://www.hedra.com/docs/pages/developer/v3/generate-video#inputs-and-limits)
+
+Assistant
+
+Responses are generated using AI and may contain mistakes.
+
+[Contact support](mailto:support@hedra.com)

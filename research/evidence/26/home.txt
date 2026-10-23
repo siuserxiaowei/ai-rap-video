@@ -1,0 +1,64 @@
+Title: Hedra — Visual Inference Models and Infrastructure
+
+URL Source: https://www.hedra.com/
+
+Markdown Content:
+Production Inference
+
+## Your models, served faster.
+
+Multimodal models push GPUs hard. We make yours faster with distillation and inference optimization, then run them on our infrastructure, so you don’t need your own serving stack.
+
+[Run your model on Hedra](https://www.hedra.com/inference)
+
+Model Factory
+
+## Models built for your problem.
+
+General-purpose models fall short on real-world problems. Our forward deployed researchers join your team, learn the problem and your hardware, and build your model with you.
+
+[Bring us your problem](https://www.hedra.com/training)
+
+Recursive Self-Improvement · Research Preview
+
+## Models that keep getting better.
+
+Our researchers set the goals and guardrails. Agents run the experiments that keep improving your model. That is recursive self-improvement as a service.
+
+[See how the loop works](https://www.hedra.com/gpus)
+
+![Image 1](https://imagedelivery.net/yn_JX_LzJpQI9TTynGwR_Q/www-redesign/home/wmr-corridor-20261021/w=2560,quality=75,format=auto)
+
+![Image 2](https://mkt.hedra.com/_next/static/immutable/media/hedra-symbol.0mebnov4cws6g.svg)WMR
+
+## World Model Runtime
+
+The first engine purpose built for multimodal training and inference.
+
+Built by a frontier research lab advancing visual AI, WMR brings Hedra’s experience training and serving its own models to your workloads. Purpose-built for diffusion, video, and world models, it optimizes visual generation—from attention across frames to each denoising step.
+
+### Vision-native kernels
+
+Optimize attention across frames and image encoding and decoding for the demands of visual models.
+
+### Quality-aware quantization
+
+Reduce numerical precision with image and video quality guiding the tradeoffs.
+
+### Step-aware scheduling
+
+Coordinate batching and caching around generation steps to improve latency and throughput.
+
+## Deploy your way
+
+WMR World Model Runtime
+
+![Image 3](https://mkt.hedra.com/_next/static/immutable/media/hedra-symbol.0mebnov4cws6g.svg)
+
+![Image 4](https://mkt.hedra.com/_next/static/immutable/media/research-slats.11cl5tcf467mk.svg)![Image 5](https://imagedelivery.net/yn_JX_LzJpQI9TTynGwR_Q/www-redesign/home/vision-hands-20261021/w=2560,quality=75,format=auto)
+
+## Build your vision
+
+Start building with visual models, or talk to our engineers about your training and deployment needs.
+
+[Get started](https://www.hedra.com/auth/start?flow=signup)[Talk to an engineer](https://www.hedra.com/enterprise?form=true)[Read the docs](https://www.hedra.com/docs/pages/developer/v3/quickstart)
