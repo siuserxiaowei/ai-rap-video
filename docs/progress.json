@@ -29,25 +29,56 @@
     "25",
     "26",
     "27",
-    "28"
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37"
   ],
   "gemini_accepted": 50,
   "process_sessions": {
     "gemini_queue": 34726
   },
-  "next_research_agent": 32,
+  "next_research_agent": 39,
   "active_codex_tasks": [
-    "c29_runway",
-    "c30_kling",
-    "c31_pixverse"
+    "c38_invideo",
+    "c42_evidence",
+    "c43_server"
   ],
-  "pending_features": "C41-C50 as described in PLAN.md and docs/WORKBENCH_SPEC.md",
+  "pending_features": [
+    "C42",
+    "C43",
+    "C44",
+    "C45",
+    "C46",
+    "C47",
+    "C48",
+    "C49",
+    "C50"
+  ],
   "external_engine_commit": "fccf3d4; preserve airap and coordinate per COORDINATION.md",
-  "feishu": "draft initialized and initial profile passed, not yet published",
+  "feishu": "draft_e2ad52db_folder/draft.xml initialized; initial profile passed; not yet published",
   "feishu_cli": "/Users/xiaowei/.local/state/fnm_multishells/1706_1792153352427/bin/lark-cli",
   "feishu_work_dir": "draft_e2ad52db_folder",
   "feishu_draft_path": "draft_e2ad52db_folder/draft.xml",
   "gemini_unique_conversations": 50,
-  "gemini_queue_state": "completed, exit0",
-  "external_engine": "actively being developed by external process; main includes audio and lyrics-flow merges; preserve changes"
+  "gemini_queue_state": "completed, exit0, all worktrees reclaimed",
+  "external_engine": "actively being developed by external process; main includes audio and lyrics-flow merges; preserve changes",
+  "accepted_features": [
+    "C41"
+  ],
+  "expanded_candidate_count": 46,
+  "supplemental_site_ids": [
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ]
 }
