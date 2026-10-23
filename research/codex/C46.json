@@ -1,0 +1,11 @@
+{
+  "id": "C46",
+  "agent_task": "c46_jobs",
+  "kind": "research_review_and_feature",
+  "original_commit": "dac2b7bd7769d7830d469a6f7c590b2aabcfa07a",
+  "accepted": true,
+  "accepted_at": "2026-10-23T16:14:19.969703+00:00",
+  "summary": "31 tests passed including durable idempotency, concurrent replay, exact storyboard durations and real HTTP 201/200/409/503 supplier boundary.",
+  "test_evidence": "artifacts/tests/c46.txt",
+  "worktree_reclaimed": true
+}
