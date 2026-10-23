@@ -1,0 +1,61 @@
+Title: Idempotent generation requests
+
+URL Source: https://sync.so/docs/api-reference/guides/idempotency
+
+Markdown Content:
+Use the optional `Idempotency-Key` header on `POST /v2/generate` to identify one intended generation. If a request times out or two copies arrive concurrently, reusing the same key and inputs prevents another generation and duplicate paid work for that action.
+
+This contract covers JSON and multipart requests, including text-to-speech inputs, segments, and dubbing through `dubParams`. It does not extend this guarantee to other endpoints, such as batch creation or standalone text-to-speech.
+
+## Send a key with the first request
+
+Create a unique key for each intended action, such as a UUID, and save it with the request inputs **before** sending the request. Keep that key across retries, reconnects, and application restarts. Do not generate a key inside your retry loop.
+
+Keys are case-sensitive and scoped to your organization, across its members and API keys. Send exactly one header with 1–128 characters matching `[A-Za-z0-9._~-]+`. Empty, duplicate, or malformed headers return HTTP 400 with `INVALID_IDEMPOTENCY_KEY`.
+
+The first accepted request returns HTTP **201**. An equivalent retry returns HTTP **200**, the same generation ID in its current state, and `Idempotency-Replayed: true`. A replay does not mean rendering is complete: inspect `status`, then [poll the generation](https://sync.so/docs/api-reference/api/generate-api/get) or use [webhooks](https://sync.so/docs/api-reference/guides/webhooks).
+
+For direct uploads, use the same header and resend the original files and form values:
+
+Let your HTTP client set the multipart boundary. Nested `input`, `options`, `segments`, and `dubParams` fields must be JSON strings. See [Create Generation with Files](https://sync.so/docs/api-reference/api/generate-api/create-with-files) for upload limits and field details.
+
+## Handle responses
+
+| HTTP status | Result | What to do |
+| --- | --- | --- |
+| 201 | First submission accepted | Save the generation ID and follow its status. |
+| 200 | Equivalent accepted replay; `Idempotency-Replayed: true` | Use the original generation’s current state. No new generation is created. |
+| 400 | `INVALID_IDEMPOTENCY_KEY` | Correct the header format. |
+| 409 | `IDEMPOTENCY_KEY_CONFLICT` | The key is bound to different inputs or context. Restore the original request for a retry; use a new key only for a distinct intentional action. |
+| 409 | `IDEMPOTENCY_IN_PROGRESS` | Wait for `Retry-After: 2`, then retry the same key and payload. |
+| 503 | `IDEMPOTENCY_OUTCOME_UNKNOWN` | Acceptance is uncertain. Keep the key; poll `generationId` when provided, or retry the same request with backoff to check for reconciliation. Contact support if it remains unresolved. |
+| 503 | `IDEMPOTENCY_UNAVAILABLE` | New keyed submissions are not enabled. Keep the same key and retry later; do not remove it to bypass protection. |
+| 503 | `generation_admission_paused` / `generation_admission_unavailable` | New generation requests are paused for maintenance, or the API can’t confirm it’s accepting them. No new work starts. Keep the same key and payload, and retry after `Retry-After`. You can still poll a generation that was already accepted. |
+| 410 | `IDEMPOTENCY_GENERATION_DELETED` | The original generation was deleted. The key remains bound until expiry and cannot recreate it. |
+
+An accepted generation that later fails still replays with HTTP 200 and its failed status. If you intentionally start a replacement after that confirmed failure, use a new key. A definitive submission failure after paid preparation begins is recorded; equivalent retries return that error rather than repeating the work.
+
+A timeout, disconnect, or failed status lookup does not prove that the original job was rejected. Never switch to a fresh key or an unkeyed request to bypass an unknown outcome. Some provider outcomes require support reconciliation.
+
+If you contact support, include the generation ID when available, request ID when provided, organization, and approximate submission time. Do not send your API credential.
+
+## Keep the payload equivalent
+
+The comparison includes inputs, model, options, segment order, TTS scripts and voice settings, dubbing settings, webhook URL, output filename, and effective project/source/mode/workflow context.
+
+*   JSON object field order does not matter. Array and segment order does.
+*   Supported model aliases and existing request transformations are normalized.
+*   Files compare by their bytes, media type, and extension. Multipart boundaries and base filenames do not matter.
+*   URLs compare as supplied, including query strings. A refreshed signed URL counts as a change. Prefer [stable asset IDs](https://sync.so/docs/developer-guides/asset-uploads) when preparing a new action.
+*   Keep the same input representation on retries. Replacing a file upload with a URL or asset ID conflicts, even if it points to the same media.
+*   Keep any `x-sync-source` and `x-sync-mode` headers consistent. API-key requests default to the `api` source; switching to session authentication without preserving that context can conflict.
+
+Credentials do not form part of the key, but every request must authenticate and have access to the generation in the same organization. Another organization may use the same key independently.
+
+## Retention and compatibility
+
+Keys remain protected for seven days from initial acceptance, and longer while the generation is active or the submission outcome is unresolved. Expired, resolved keys may be reused, so do not rely on indefinite replay. Use unique keys for new actions.
+
+Validation or admission failures known to occur before provider work and generation creation release the claim. You can correct the request and submit again after such a confirmed rejection. Recorded post-preparation failures and unknown outcomes remain bound.
+
+Requests without this header retain their existing behavior and do not gain duplicate-submission protection. Once an action has been submitted with a key, keep sending that key on every retry. Replays skip media preparation and new-generation balance/concurrency checks; they do not bypass authentication or generation access checks.

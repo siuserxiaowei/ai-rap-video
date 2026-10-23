@@ -1,0 +1,265 @@
+Title: Estimate Cost
+
+URL Source: https://sync.so/docs/api-reference/api/generate-api/estimate-cost
+
+Markdown Content:
+For AI agents: a documentation index is available at the root level at /llms.txt. Append /llms.txt to any URL for a page-level index, or .md for the markdown version of any page.
+
+[![Image 1: Logo](https://sync.so/docs/_fern-img/c8fae8806427df35335ce6eecd5de882e15dedf6fd5974ff375bc3eeb880b7a6.webp)![Image 2: Logo](https://sync.so/docs/_fern-img/c8f19fb9a6dcc9077218c15c3e26ea193263dc35d06027e5644f2667f6033679.webp)](https://sync.so/)
+
+Search
+
+/
+
+Ask AI
+
+[Support](mailto:support@sync.so)[Status](https://status.sync.so/)[Try now](https://sync.so/try)
+
+![Image 3](blob:http://localhost/704e744076010bbc4d4e2e7061a5a90c)
+
+English
+
+[Documentation](https://sync.so/docs/introduction)[API Reference](https://sync.so/docs/api-reference/api-overview)
+
+[Skip to navigation](https://sync.so/docs/api-reference/api/generate-api/estimate-cost#fern-sidebar)
+
+[Generate API](https://sync.so/docs/api-reference/api/generate-api/create)
+
+# Estimate Cost
+
+Copy page
+
+POST
+
+https://api.sync.so/v2/generations/estimate
+
+POST
+
+/v2/generations/estimate
+
+cURL
+
+curl -X POST https://api.sync.so/v2/generations/estimate \
+
+ -H "x-api-key: <apiKey>" \
+
+ -H "Content-Type: application/json" \
+
+ -d '{
+
+ "model": "model",
+
+ "duration": 1.1
+
+}'
+
+Try it
+
+200 Successful
+
+{
+
+ "estimatedFrameCount": 1.1,
+
+ "estimatedGenerationCost": 1.1,
+
+ "estimatedCredits": 1.1
+
+}
+
+Estimate a generation from its model and billable duration in seconds. Supply a finite positive duration and, optionally, a finite positive fps (defaults to 30). No media is fetched and no generation is created. POST /v2/generate/estimate-cost is an alias of this endpoint. Invalid request fields return 400. If the billing calculation rejects the duration or frame rate, it returns 422 cost_estimate_unavailable without price fields.
+
+### Authentication
+
+x-api-key string
+
+API Key authentication via header
+
+### Request
+
+This endpoint expects an object.
+
+model string Required
+
+Model to estimate, for example lipsync-2 or sync-3.
+
+duration double Required
+
+Finite, positive billable duration in seconds.
+
+fps double Optional
+
+Finite, positive frame rate. Defaults to 30.
+
+reasoningEnabled boolean Optional
+
+Include reasoning pricing when supported by the model.
+
+### Response
+
+A single estimate; estimatedCredits is null for dollar-billed organizations.
+
+estimatedFrameCount double
+
+The estimated frame count for the generation.
+
+estimatedGenerationCost double
+
+The estimated cost of the generation in USD.
+
+estimatedCredits double or null
+
+Estimated credits for credit-billed organizations; null for dollar-billed organizations.
+
+### Errors
+
+400
+
+Bad Request Error
+
+401
+
+Unauthorized Error
+
+422
+
+Unprocessable Entity Error
+
+500
+
+Internal Server Error
+
+Was this page helpful?
+
+Yes No
+
+[Previous](https://sync.so/docs/api-reference/api/generate-api/list)[Delete Generation Next](https://sync.so/docs/api-reference/api/generate-api/delete)[Built with](https://buildwithfern.com/?utm_campaign=buildWith&utm_medium=docs&utm_source=sync.so)
+
+[Documentation](https://sync.so/docs/introduction)[API Reference](https://sync.so/docs/api-reference/api-overview)
+
+*       *   [API Overview](https://sync.so/docs/api-reference/api-overview)
+
+*   API Guides 
+    *   [Authentication](https://sync.so/docs/api-reference/guides/authentication)
+    *   [Idempotent Requests](https://sync.so/docs/api-reference/guides/idempotency)
+    *   [Concurrency & Rate Limits](https://sync.so/docs/api-reference/guides/rate-limits)
+    *   [Batch Processing](https://sync.so/docs/api-reference/guides/batch-processing)
+    *   [Webhooks](https://sync.so/docs/api-reference/guides/webhooks)
+
+*   Generate API 
+    *   [POST Create Generation](https://sync.so/docs/api-reference/api/generate-api/create)
+    *   [POST Create Generation with Files](https://sync.so/docs/api-reference/api/generate-api/create-with-files)
+    *   [GET Get Generation](https://sync.so/docs/api-reference/api/generate-api/get)
+    *   [GET Get Generation Download URL](https://sync.so/docs/api-reference/api/generate-api/download)
+    *   [GET List Generations](https://sync.so/docs/api-reference/api/generate-api/list)
+    *   [POST Estimate Cost](https://sync.so/docs/api-reference/api/generate-api/estimate-cost)
+    *   [DEL Delete Generation](https://sync.so/docs/api-reference/api/generate-api/delete)
+
+*   Transcriptions API 
+    *   [POST Transcribe a video for dialogue editing](https://sync.so/docs/api-reference/api/transcriptions-api/create)
+    *   [GET Get a transcription job](https://sync.so/docs/api-reference/api/transcriptions-api/get)
+
+*   Dialogue Edits API 
+    *   [POST Edit dialogue and preview the result as audio](https://sync.so/docs/api-reference/api/dialogue-edits-api/create)
+    *   [GET Get a dialogue edit job](https://sync.so/docs/api-reference/api/dialogue-edits-api/get)
+
+*   Batch API 
+    *   [POST Create Batch](https://sync.so/docs/api-reference/api/batch-api/create)
+    *   [POST Create Batch from Rows](https://sync.so/docs/api-reference/api/batch-api/create-from-rows)
+    *   [GET Get Batch](https://sync.so/docs/api-reference/api/batch-api/get)
+    *   [GET List Batches](https://sync.so/docs/api-reference/api/batch-api/list)
+
+*   Text-to-Speech API 
+    *   [POST Generate Text-to-Speech](https://sync.so/docs/api-reference/api/tts-api/create)
+    *   [POST Submit Text-to-Speech Job](https://sync.so/docs/api-reference/api/tts-api/create-job)
+    *   [GET Get Text-to-Speech Job](https://sync.so/docs/api-reference/api/tts-api/get-job)
+
+*   Voices API 
+    *   [GET List Voices](https://sync.so/docs/api-reference/api/voices-api/list)
+    *   [GET Get Voice](https://sync.so/docs/api-reference/api/voices-api/get)
+    *   [POST Clone Voice](https://sync.so/docs/api-reference/api/voices-api/clone)
+    *   [DEL Delete Voice](https://sync.so/docs/api-reference/api/voices-api/delete)
+
+*   Assets API 
+    *   [GET List Assets](https://sync.so/docs/api-reference/api/assets-api/list)
+    *   [GET Get Asset](https://sync.so/docs/api-reference/api/assets-api/get)
+    *   [POST Create Upload URL](https://sync.so/docs/api-reference/api/assets-api/create-upload)
+    *   [POST Create Asset](https://sync.so/docs/api-reference/api/assets-api/create)
+    *   [PATCH Update Asset](https://sync.so/docs/api-reference/api/assets-api/update)
+    *   [DEL Delete Asset](https://sync.so/docs/api-reference/api/assets-api/delete)
+
+*   Projects API 
+    *   [POST Create Project](https://sync.so/docs/api-reference/api/projects-api/create)
+    *   [GET List Projects](https://sync.so/docs/api-reference/api/projects-api/list)
+    *   [GET Get Project](https://sync.so/docs/api-reference/api/projects-api/get)
+    *   [DEL Detach Asset from Project](https://sync.so/docs/api-reference/api/projects-api/detach-asset)
+    *   [PATCH Update Project](https://sync.so/docs/api-reference/api/projects-api/update)
+    *   [DEL Delete Project](https://sync.so/docs/api-reference/api/projects-api/delete)
+
+*   Organizations API 
+    *   [GET Get Webhook Secret](https://sync.so/docs/api-reference/api/organizations-api/get-webhook-secret)
+
+*   Models API 
+    *   [GET List Models](https://sync.so/docs/api-reference/api/models-api/list)
+
+*   Errors API 
+    *   [GET List Error Codes](https://sync.so/docs/api-reference/api/errors-api/list)
+
+*   Webhooks Payload Reference 
+    *   Webhooks 
+
+*   Projects 
+    *   [POST Attach Asset to Project](https://sync.so/docs/api-reference/api/projects/attach-asset)
+
+*   [API Overview](https://sync.so/docs/api-reference/api-overview)
+*   [Authentication](https://sync.so/docs/api-reference/guides/authentication)
+*   [Idempotent Requests](https://sync.so/docs/api-reference/guides/idempotency)
+*   [Concurrency & Rate Limits](https://sync.so/docs/api-reference/guides/rate-limits)
+*   [Batch Processing](https://sync.so/docs/api-reference/guides/batch-processing)
+*   [Webhooks](https://sync.so/docs/api-reference/guides/webhooks)
+*   [Create Generation](https://sync.so/docs/api-reference/api/generate-api/create)
+*   [Create Generation with Files](https://sync.so/docs/api-reference/api/generate-api/create-with-files)
+*   [Get Generation](https://sync.so/docs/api-reference/api/generate-api/get)
+*   [Get Generation Download URL](https://sync.so/docs/api-reference/api/generate-api/download)
+*   [List Generations](https://sync.so/docs/api-reference/api/generate-api/list)
+*   [Estimate Cost](https://sync.so/docs/api-reference/api/generate-api/estimate-cost)
+*   [Delete Generation](https://sync.so/docs/api-reference/api/generate-api/delete)
+*   [Transcribe a video for dialogue editing](https://sync.so/docs/api-reference/api/transcriptions-api/create)
+*   [Get a transcription job](https://sync.so/docs/api-reference/api/transcriptions-api/get)
+*   [Edit dialogue and preview the result as audio](https://sync.so/docs/api-reference/api/dialogue-edits-api/create)
+*   [Get a dialogue edit job](https://sync.so/docs/api-reference/api/dialogue-edits-api/get)
+*   [Create Batch](https://sync.so/docs/api-reference/api/batch-api/create)
+*   [Create Batch from Rows](https://sync.so/docs/api-reference/api/batch-api/create-from-rows)
+*   [Get Batch](https://sync.so/docs/api-reference/api/batch-api/get)
+*   [List Batches](https://sync.so/docs/api-reference/api/batch-api/list)
+*   [Generate Text-to-Speech](https://sync.so/docs/api-reference/api/tts-api/create)
+*   [Submit Text-to-Speech Job](https://sync.so/docs/api-reference/api/tts-api/create-job)
+*   [Get Text-to-Speech Job](https://sync.so/docs/api-reference/api/tts-api/get-job)
+*   [List Voices](https://sync.so/docs/api-reference/api/voices-api/list)
+*   [Get Voice](https://sync.so/docs/api-reference/api/voices-api/get)
+*   [Clone Voice](https://sync.so/docs/api-reference/api/voices-api/clone)
+*   [Delete Voice](https://sync.so/docs/api-reference/api/voices-api/delete)
+*   [List Assets](https://sync.so/docs/api-reference/api/assets-api/list)
+*   [Get Asset](https://sync.so/docs/api-reference/api/assets-api/get)
+*   [Create Upload URL](https://sync.so/docs/api-reference/api/assets-api/create-upload)
+*   [Create Asset](https://sync.so/docs/api-reference/api/assets-api/create)
+*   [Update Asset](https://sync.so/docs/api-reference/api/assets-api/update)
+*   [Delete Asset](https://sync.so/docs/api-reference/api/assets-api/delete)
+*   [Create Project](https://sync.so/docs/api-reference/api/projects-api/create)
+*   [List Projects](https://sync.so/docs/api-reference/api/projects-api/list)
+*   [Get Project](https://sync.so/docs/api-reference/api/projects-api/get)
+*   [Detach Asset from Project](https://sync.so/docs/api-reference/api/projects-api/detach-asset)
+*   [Update Project](https://sync.so/docs/api-reference/api/projects-api/update)
+*   [Delete Project](https://sync.so/docs/api-reference/api/projects-api/delete)
+*   [Get Webhook Secret](https://sync.so/docs/api-reference/api/organizations-api/get-webhook-secret)
+*   [List Models](https://sync.so/docs/api-reference/api/models-api/list)
+*   [List Error Codes](https://sync.so/docs/api-reference/api/errors-api/list)
+*   [Generation Status Update](https://sync.so/docs/api-reference/api/webhooks-payload-reference/webhooks/generation-status-update)
+*   [Batch Status Update](https://sync.so/docs/api-reference/api/webhooks-payload-reference/webhooks/batch-status-update)
+*   [Attach Asset to Project](https://sync.so/docs/api-reference/api/projects/attach-asset)
+
+*   [English](https://sync.so/docs/api-reference/api/generate-api/estimate-cost)
+*   [Español](https://sync.so/docs/es/api-reference/api/generate-api/estimate-cost)
+*   [Français](https://sync.so/docs/fr/api-reference/api/generate-api/estimate-cost)
+*   [Português (BR)](https://sync.so/docs/pt-BR/api-reference/api/generate-api/estimate-cost)
+*   [Deutsch](https://sync.so/docs/de/api-reference/api/generate-api/estimate-cost)

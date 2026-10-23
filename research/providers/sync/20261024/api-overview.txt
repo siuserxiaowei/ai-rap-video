@@ -1,0 +1,91 @@
+Title: API Overview
+
+URL Source: https://sync.so/docs/api-reference/api-overview
+
+Published Time: Thu, 22 Oct 2026 23:27:07 GMT
+
+Markdown Content:
+The Sync Labs API is a RESTful API at `https://api.sync.so/v2` for generating lip-synced media from video, image, audio, and text inputs. It exposes generation, asset, model, estimate, batch, and healthcheck endpoints, and currently documents five public generation model IDs. Send video or image input plus audio or text input, and the API returns media with lip movements matching the audio.
+
+### API quick reference
+
+|  |  |
+| --- | --- |
+| **Endpoint groups** | Generations, assets, models, estimate cost, batch, and healthcheck |
+| **Models** | 5 — sync-3, lipsync-2, lipsync-2-pro, lipsync-1.9.0-beta, react-1 |
+| **Rate limits** | Endpoint-specific request limits and plan concurrency — see [Rate Limits](https://sync.so/docs/api-reference/guides/rate-limits) |
+| **Concurrency** | 1 (Free/Hobbyist) to 15 (Scale), custom for Enterprise |
+| **Supported inputs** | Video or image input plus audio or text input via URL or asset ID. Direct uploads have a 5 GiB per-file application parser limit, subject to plan and proxy limits; [asset uploads](https://sync.so/docs/developer-guides/asset-uploads) are recommended for large files. |
+| **Batch processing** | Up to 500 generations per batch, min 20, 5 MB max input file, 24-hr turnaround (Scale+ only) |
+| **Authentication** | API key via `x-api-key` header |
+
+## What is the Sync Labs API base URL?
+
+All API requests require authentication via the `x-api-key` header. See the [Authentication](https://sync.so/docs/api-reference/guides/authentication) guide for setup.
+
+## Core Endpoints
+
+| Endpoint | Method | Description |
+| --- | --- | --- |
+| [`/v2/generate`](https://sync.so/docs/api-reference/api/generate-api/create) | POST | Create a lip sync generation |
+| [`/v2/generate/{id}`](https://sync.so/docs/api-reference/api/generate-api/get) | GET | Get generation status and output |
+| [`/v2/generations`](https://sync.so/docs/api-reference/api/generate-api/list) | GET | List your generations |
+| [`/v2/generations/estimate`](https://sync.so/docs/api-reference/api/generate-api/estimate-cost) | POST | Estimate generation cost |
+| [`/v2/assets`](https://sync.so/docs/api-reference/api/assets-api/list) | GET | List uploaded assets |
+| [`/v2/assets/{id}`](https://sync.so/docs/api-reference/api/assets-api/get) | GET | Get an uploaded asset |
+| [`/v2/models`](https://sync.so/docs/api-reference/api/models-api/list) | GET | List available models |
+| [`/v2/batch`](https://sync.so/docs/api-reference/api/batch-api/create) | POST | Create a batch of up to 500 generations |
+| [`/v2/batch`](https://sync.so/docs/api-reference/api/batch-api/list) | GET | List batches |
+| [`/v2/batch/{id}`](https://sync.so/docs/api-reference/api/batch-api/get) | GET | Get batch status |
+| [`/v2/organizations/webhook/secret`](https://sync.so/docs/api-reference/api/organizations-api/get-webhook-secret) | GET | Get your webhook signing secret |
+
+## Quick Example
+
+## SDKs
+
+Official client libraries wrap the REST API with typed methods:
+
+*   **TypeScript/JavaScript** — `npm i @sync.so/sdk` ([GitHub](https://github.com/synchronicity-labs/sync-typescript-sdk)) | [Guide](https://sync.so/docs/developer-guides/sdk-typescript)
+*   **Python** — `pip install syncsdk` ([GitHub](https://github.com/synchronicity-labs/sync-python-sdk)) | [Guide](https://sync.so/docs/developer-guides/sdk-python)
+
+## OpenAPI Specification
+
+The full OpenAPI 3.1 specification is available at:
+
+Use this spec to generate client libraries, import into Postman or Insomnia, or integrate with API development tools.
+
+## What models are available?
+
+| Model | Best For |
+| --- | --- |
+| [sync-3](https://sync.so/docs/models/sync-3) | Most advanced production-quality lipsync for complex scenes, 4K output, obstructions, and extreme angles |
+| [lipsync-2](https://sync.so/docs/models/lipsync) | Fast, cost-efficient lip sync with solid quality |
+| [lipsync-2-pro](https://sync.so/docs/models/lipsync) | High-quality lip sync with enhanced detail and fidelity |
+| [lipsync-1.9.0-beta](https://sync.so/docs/models/lipsync) | Legacy model optimized for maximum speed |
+| [react-1](https://sync.so/docs/models/react) | Expressive lip sync with facial expressions and head movements (up to 15s) |
+
+## Guides
+
+*   [Authentication](https://sync.so/docs/api-reference/guides/authentication) — API key setup and security best practices
+*   [Idempotent Requests](https://sync.so/docs/api-reference/guides/idempotency) — Retry one action with the same key without creating duplicate generations
+*   [Concurrency & Rate Limits](https://sync.so/docs/api-reference/guides/rate-limits) — Rate limits, concurrency limits, and retry strategies
+*   [Batch Processing](https://sync.so/docs/api-reference/guides/batch-processing) — Process up to 500 generations in a single operation
+*   [Webhooks](https://sync.so/docs/api-reference/guides/webhooks) — Real-time status notifications for async workflows
+
+## Frequently Asked Questions
+
+###### What is the Sync Labs API base URL?
+
+The base URL for all Sync Labs API requests is `https://api.sync.so`. All endpoints are served over HTTPS. Append the endpoint path to this base URL when making requests, for example `https://api.sync.so/v2/generate` for creating a lip sync generation.
+
+###### How do I authenticate?
+
+Include your API key in the x-api-key header with every request. The SDK handles this automatically when you set the SYNC_API_KEY environment variable. Create an API key from the API Keys page in your dashboard. See the Authentication guide for security best practices.
+
+###### What SDKs are available?
+
+Sync Labs offers official SDKs for Python and TypeScript. Install the Python SDK with pip install syncsdk and the TypeScript SDK with npm i @sync.so/sdk. Both SDKs provide typed methods for creating generations, polling status, estimating costs, and managing assets.
+
+###### Is there an OpenAPI specification?
+
+Yes. The full OpenAPI 3.1 specification is available at [https://sync.so/openapi.json](https://sync.so/openapi.json). You can use this spec to generate client libraries, import endpoints into Postman or Insomnia, or integrate with any OpenAPI-compatible tool.

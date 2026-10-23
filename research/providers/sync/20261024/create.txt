@@ -1,0 +1,122 @@
+Title: Create Generation
+
+URL Source: https://sync.so/docs/api-reference/api/generate-api/create
+
+Markdown Content:
+### Request
+
+This endpoint expects an object.
+
+model enum Required
+
+name of the model to use for generation.
+
+Allowed values:
+
+input list of objects Required
+
+Normal lipsync requests must include exactly one visual input (video or image) and one audio or text input. Dubbed lipsync requests using dubParams must include exactly one video input and no audio or text input, because Sync extracts the dubbing source audio from that video. Image inputs are only supported with the sync-3 model. When using segments, audio or text inputs can carry unique refId values.
+
+options object Optional
+
+additional options available for generation.
+
+segments list of objects Optional
+
+segments definition list. When provided, allows defining one or more video segments with different audio inputs for each segment. Each segment specifies a time range and references an audio input by refId.
+
+webhookUrl string Optional
+
+Webhook URL for generation status updates. When the generation reaches a terminal state, Sync sends a POST request with the generation payload and a Sync-Signature header. Verify the header with the organization webhook secret from GET /v2/organizations/webhook/secret. HTTPS is strongly recommended.
+
+outputFileName string Optional
+
+Base filename for the generated output without extension. The .mp4 extension will be added automatically. Only alphanumeric characters, underscores, and hyphens are allowed, up to 255 characters.
+
+dubParams object Optional
+
+Dubbing parameters. When present, audio is extracted from the single video input, dubbed via ElevenLabs into the target language, and then lipsync is run with the dubbed audio. Do not include audio or text inputs with dubParams; requests that send both are rejected.
+
+projectId string Optional
+
+Optionally attach this generation to a project (created via POST /v2/projects) so it appears in Studio under that project. Must reference a project in your organization — otherwise the request is rejected with 422.
+
+dialogueEdit object Optional
+
+Use the id of a completed dialogue edit from POST /v2/dialogue-edits to supply the audio and edited regions. Requires a preview that ran segment lipsync and section expansion (see the job’s segmentLipsyncEnabled and sectionExpansionEnabled). Send exactly one video input, the same video the dialogue edit was made from, and no audio input, segments or dubParams. Billing, status, wait and webhooks work as for any generation.
+
+### Response
+
+First acceptance returns 201. An equivalent keyed replay returns 200 with this same response shape and Idempotency-Replayed: true. The original generation may still be processing or may have failed.
+
+createdAt datetime
+
+The date and time the generation was created.
+
+id string
+
+A unique identifier for the generation.
+
+input list of objects
+
+An array of input objects used for generation.
+
+model enum
+
+The name of the model used for generation.
+
+Allowed values:
+
+status enum
+
+The status of the generation.
+
+Allowed values:
+
+error string Optional
+
+The error message if the generation failed.
+
+errorCode string Optional
+
+Stable, machine-readable error code if the generation failed (e.g. generation_input_video_inaccessible). The full catalog of codes, messages and suggested fixes is served unauthenticated at GET /v2/errors.
+
+options object Optional
+
+Options for the generation.
+
+outputDuration double Optional
+
+The duration of the output media.
+
+outputUrl string Optional
+
+The URL of the output media.
+
+outputFileName string Optional
+
+The sanitized filename applied to the output media. Characters outside letters, numbers, dashes and underscores are stripped and spaces become underscores, so this can differ from the value submitted. Null when no name was provided.
+
+segments list of objects Optional
+
+The segments of the generation.
+
+segmentOutputUrl string Optional
+
+The URL of the segment output media.
+
+synthesizedAudioUrl string Optional
+
+The URL of the audio synthesized from a text (TTS) input. Only present for generations created with a TTS text input; reuse it as an audio input to keep the same take across generations.
+
+webhookUrl string Optional
+
+The URL to the webhook endpoint.
+
+projectId string Optional
+
+The id of the project this generation is attached to, or null when it belongs to no project. Set via the projectId field on the create request.
+
+generationEstimate object Optional
+
+A completion-time estimate captured once when the generation is accepted. Populated only for generations created in sync’s own apps, such as Sync Studio; the field is absent for generations created through the API today.

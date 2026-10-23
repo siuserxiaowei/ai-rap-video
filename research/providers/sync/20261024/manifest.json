@@ -1,0 +1,50 @@
+{
+  "fetched_at": "2026-10-23T16:41:37.800323+00:00",
+  "sources": [
+    {
+      "url": "https://sync.so/docs/quickstart",
+      "path": "research/providers/sync/20261024/quickstart.txt",
+      "sha256": "50036d8973cae838c782748c89406aa7522d608157368a872d2c9f1789f96fcc",
+      "bytes": 16954
+    },
+    {
+      "url": "https://sync.so/docs/api-reference/api-overview",
+      "path": "research/providers/sync/20261024/api-overview.txt",
+      "sha256": "93c8dd923f4d3cdd6ac3159c04db96aaee6b2757c95cbd2b8aea2fe69fa98a2d",
+      "bytes": 6294
+    },
+    {
+      "url": "https://sync.so/docs/api-reference/api/generate-api/create",
+      "path": "research/providers/sync/20261024/create.txt",
+      "sha256": "ac8793675e67a9acdd4b5525b6ff23bfbe741b005399a4604af3bfe4328da3d9",
+      "bytes": 4694
+    },
+    {
+      "url": "https://sync.so/docs/api-reference/api/generate-api/get",
+      "path": "research/providers/sync/20261024/get.txt",
+      "sha256": "100837206a4d06b6030422514814c78146732be1a2858c33291324f97419dd2d",
+      "bytes": 14151
+    },
+    {
+      "url": "https://sync.so/docs/api-reference/api/generate-api/estimate-cost",
+      "path": "research/providers/sync/20261024/estimate.txt",
+      "sha256": "ced4ce817d5c8e074eda317a280f740239b4f9fc1954a7bb8d04ed4e6f0ee8d3",
+      "bytes": 11910
+    },
+    {
+      "url": "https://sync.so/docs/api-reference/guides/idempotency",
+      "path": "research/providers/sync/20261024/idempotency.txt",
+      "sha256": "a1e39df5d3c864d7126ecc66326909bd86d6db1bcbb935d60fc7f35ca35412d1",
+      "bytes": 6268
+    },
+    {
+      "url": "https://sync.so/docs/openapi.json",
+      "path": "research/providers/sync/20261024/public-openapi.json",
+      "sha256": "5c89b7fe1dbdff7ba4362af1b8b5dfbdef7b5fb55a2aa0fd8305dff850db9f04",
+      "bytes": 168136
+    }
+  ],
+  "provider_requests_sent": 0,
+  "credentials_present": false,
+  "browser_actions": 0
+}

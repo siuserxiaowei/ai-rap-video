@@ -1,0 +1,468 @@
+Title: Quickstart
+
+URL Source: https://sync.so/docs/quickstart
+
+Published Time: Thu, 22 Oct 2026 23:27:07 GMT
+
+Markdown Content:
+For AI agents: a documentation index is available at the root level at /llms.txt. Append /llms.txt to any URL for a page-level index, or .md for the markdown version of any page.
+
+[![Image 1: Logo](https://sync.so/docs/_fern-img/c8fae8806427df35335ce6eecd5de882e15dedf6fd5974ff375bc3eeb880b7a6.webp)![Image 2: Logo](https://sync.so/docs/_fern-img/c8f19fb9a6dcc9077218c15c3e26ea193263dc35d06027e5644f2667f6033679.webp)](https://sync.so/)
+
+Search
+
+/
+
+Ask AI
+
+[Support](mailto:support@sync.so)[Status](https://status.sync.so/)[Try now](https://sync.so/try)
+
+![Image 3](blob:http://localhost/704e744076010bbc4d4e2e7061a5a90c)
+
+English
+
+[Documentation](https://sync.so/docs/introduction)[API Reference](https://sync.so/docs/api-reference/api-overview)
+
+[Skip to navigation](https://sync.so/docs/quickstart#fern-sidebar)
+
+On this page
+
+*   [Quick reference](https://sync.so/docs/quickstart#quick-reference)
+*   [How do I create an API key?](https://sync.so/docs/quickstart#how-do-i-create-an-api-key)
+*   [Make your first generation](https://sync.so/docs/quickstart#make-your-first-generation)
+*   [Generate from a still image](https://sync.so/docs/quickstart#generate-from-a-still-image)
+*   [Frequently Asked Questions](https://sync.so/docs/quickstart#frequently-asked-questions)
+
+Scroll to top
+
+[Getting Started](https://sync.so/docs/introduction)
+
+# Quickstart
+
+Copy page
+
+Generate your first lip-synced video with the Sync Labs API in about 5 minutes. This guide walks you through creating an API key, installing the SDK, and submitting a generation request.
+
+### Quick reference
+
+|  |  |
+| --- | --- |
+| **Generation time** | Most generations complete within a few minutes, depending on model and input length |
+| **Supported video formats** | MP4 via public URL, direct upload (subject to plan and proxy limits), or asset ID — [all supported formats](https://sync.so/docs/compatibility-and-tips/media-formats-support) |
+| **Supported audio formats** | WAV or MP3 via public URL, direct upload (subject to plan and proxy limits), or asset ID — [all supported formats](https://sync.so/docs/compatibility-and-tips/media-formats-support) |
+| **Default model** | sync-3 — our most powerful lip sync model |
+| **Free trial** | 3 generations/month on free accounts, max 20s per generation (sync-3: 1 generation/month, 15s max), no credit card required |
+| **SDK requirements** | Python 3.8+ (`pip install syncsdk`) or Node.js 18+ (`npm i @sync.so/sdk`) |
+
+### How do I create an API key?
+
+Create your API key from the [Dashboard](https://sync.so/settings/api-keys). You will use this key to securely access the Sync Labs API.
+
+### Make your first generation
+
+The following example shows how to make a lipsync generation using the Sync Labs API.
+
+###### Python
+
+[1](https://sync.so/docs/quickstart#install-sync-labs-sdk)
+### Install Sync Labs SDK
+
+pip install syncsdk
+
+[2](https://sync.so/docs/quickstart#make-your-first-generation-1)
+### Make your first generation
+
+Copy the following code into a file `quickstart.py` and set `SYNC_API_KEY` environment variable with your generated API key.
+
+quickstart.py
+
+import time
+
+from sync import Sync
+
+from sync.common import Audio, GenerationOptions, Video
+
+from sync.core.api_error import ApiError
+
+# ----------[OPTIONAL] UPDATE INPUT VIDEO AND AUDIO URL ----------
+
+# URL to your source video
+
+video_url = "https://assets.sync.so/docs/example-video.mp4"
+
+# URL to your audio file
+
+audio_url = "https://assets.sync.so/docs/example-audio.wav"
+
+# ----------------------------------------
+
+sync = Sync()
+
+print("Starting lip sync generation job...")
+
+try:
+
+ response = sync.generations.create(
+
+ input=[Video(url=video_url), Audio(url=audio_url)],
+
+ model="sync-3",
+
+ options=GenerationOptions(sync_mode="cut_off"),
+
+ output_file_name="quickstart"
+
+ )
+
+except ApiError as e:
+
+ print(f'create generation request failed with status code {e.status_code} and error {e.body}')
+
+ exit()
+
+job_id = response.id
+
+print(f"Generation submitted successfully, job id: {job_id}")
+
+generation = sync.generations.get(job_id)
+
+status = generation.status
+
+while status not in ['COMPLETED', 'FAILED', 'REJECTED']:
+
+ print('polling status for generation', job_id)
+
+ time.sleep(10)
+
+ generation = sync.generations.get(job_id)
+
+ status = generation.status
+
+if status == 'COMPLETED':
+
+ print('generation', job_id, 'completed successfully, output url:', generation.output_url)
+
+else:
+
+ print('generation', job_id, 'failed')
+
+Run the script:
+
+python quickstart.py
+
+[3](https://sync.so/docs/quickstart#done)
+### Done!
+
+It may take a few minutes for the generation to complete. You should see the generated video URL in the terminal post completion.
+
+###### TypeScript
+
+[1](https://sync.so/docs/quickstart#install-dependencies)
+### Install dependencies
+
+npm i @sync.so/sdk
+
+[2](https://sync.so/docs/quickstart#make-your-first-generation-2)
+### Make your first generation
+
+Copy the following code into a file `quickstart.ts` and set `SYNC_API_KEY` environment variable with your generated API key.
+
+quickstart.ts
+
+import { SyncClient, SyncError } from "@sync.so/sdk";
+
+// ----------[OPTIONAL] UPDATE INPUT VIDEO AND AUDIO URL ----------
+
+// URL to your source video
+
+const videoUrl = "https://assets.sync.so/docs/example-video.mp4";
+
+// URL to your audio file
+
+const audioUrl = "https://assets.sync.so/docs/example-audio.wav";
+
+// ----------------------------------------
+
+const sync = new SyncClient();
+
+async function main() {
+
+ console.log("Starting lip sync generation job...");
+
+ let jobId: string;
+
+ try {
+
+ const response = await sync.generations.create({
+
+ input: [
+
+ {
+
+ type: "video",
+
+ url: videoUrl,
+
+ },
+
+ {
+
+ type: "audio",
+
+ url: audioUrl,
+
+ },
+
+ ],
+
+ model: "sync-3",
+
+ options: {
+
+ sync_mode: "cut_off",
+
+ },
+
+ outputFileName: "quickstart"
+
+ });
+
+ jobId = response.id;
+
+ console.log(`Generation submitted successfully, job id: ${jobId}`);
+
+ } catch (err) {
+
+ if (err instanceof SyncError) {
+
+ console.error(`create generation request failed with status code ${err.statusCode} and error ${JSON.stringify(err.body)}`);
+
+ } else {
+
+ console.error('An unexpected error occurred:', err);
+
+ }
+
+ return;
+
+ }
+
+ let generation;
+
+ let status;
+
+ while (status !== 'COMPLETED' && status !== 'FAILED' && status !== 'REJECTED') {
+
+ console.log(`polling status for generation ${jobId}...`);
+
+ try {
+
+ await new Promise(resolve => setTimeout(resolve, 10000));
+
+ generation = await sync.generations.get(jobId);
+
+ status = generation.status;
+
+ } catch (err) {
+
+ if (err instanceof SyncError) {
+
+ console.error(`polling failed with status code ${err.statusCode} and error ${JSON.stringify(err.body)}`);
+
+ } else {
+
+ console.error('An unexpected error occurred during polling:', err);
+
+ }
+
+ status = 'FAILED';
+
+ }
+
+ }
+
+ if (status === 'COMPLETED') {
+
+ console.log(`generation ${jobId} completed successfully, output url: ${generation?.outputUrl}`);
+
+ } else {
+
+ console.log(`generation ${jobId} failed`);
+
+ }
+
+}
+
+main(); 
+
+Run the script:
+
+npx tsx quickstart.ts -y
+
+[3](https://sync.so/docs/quickstart#done-1)
+### Done!
+
+You should see the generated video URL in the terminal.
+
+Well done! You’ve just made your first lipsync generation with sync.so!
+
+Ready to unlock the full potential of lipsync? Dive into our interactive [Studio](https://sync.so/login) to experiment with all available models, or explore our [API Documentation](https://sync.so/docs/api-reference) to take your lip-sync generations to the next level!
+
+### Generate from a still image
+
+With `sync-3`, replace the video input with an image and keep the audio input. Submit this JSON body to `POST /v2/generate`, then poll the returned generation ID as above. Replace the image URL with a direct URL to your own image:
+
+{
+
+ "model": "sync-3",
+
+ "input": [
+
+ { "type": "image", "url": "https://example.com/portrait.jpg" },
+
+ { "type": "audio", "url": "https://assets.sync.so/docs/example-audio.wav" }
+
+ ]
+
+}
+
+You can also [upload your image as an asset](https://sync.so/docs/developer-guides/asset-uploads) and use its `assetId` instead of `url`. See [sync-3](https://sync.so/docs/models/sync-3) for image requirements and plan limits.
+
+## Frequently Asked Questions
+
+###### How long does a generation take?
+
+Generation time depends on the model and input length. Most generations complete within a few minutes. You can poll the generation status using the SDK or set up webhooks to receive a notification when the job finishes. The terminal statuses are COMPLETED, FAILED, or REJECTED.
+
+###### Can I test for free?
+
+You can create a Sync Labs account and get an API key from the dashboard to start experimenting. Free accounts get 3 generations per month with a 20-second max duration, including at most 1 sync-3 generation with a 15-second max duration. The quickstart example uses sample video and audio URLs so you can test the workflow immediately.
+
+###### What if my API key doesn't work?
+
+Verify that the SYNC_API_KEY environment variable is set correctly before running your script. Ensure the key has not been revoked in your dashboard. A missing or invalid key returns a 401 Unauthorized error. You can create a new key from the API Keys page at any time.
+
+Was this page helpful?
+
+Yes No
+
+Last updated October 2, 2026
+
+[Previous](https://sync.so/docs/introduction)[Free Trial Next](https://sync.so/docs/free-trial)[Built with](https://buildwithfern.com/?utm_campaign=buildWith&utm_medium=docs&utm_source=sync.so)
+
+[Documentation](https://sync.so/docs/introduction)[API Reference](https://sync.so/docs/api-reference/api-overview)
+
+*       *   [Studio](https://sync.so/login "Studio")
+    *   [Discord](https://discord.com/invite/synclabs "Discord")
+    *   [Blog](https://sync.so/blog "Blog")
+    *   [Changelog](https://sync.so/changelog "Changelog")
+
+*   Getting Started 
+    *   [Introduction](https://sync.so/docs/introduction)
+    *   [Quickstart](https://sync.so/docs/quickstart)
+    *   [Free Trial](https://sync.so/docs/free-trial)
+    *   Models 
+
+*   Product 
+    *   [How AI Lip Sync Works](https://sync.so/docs/product/how-ai-lip-sync-works)
+    *   [Use Cases](https://sync.so/docs/product/use-cases)
+    *   [Billing](https://sync.so/docs/product/billing)
+    *   [Integrations](https://sync.so/docs/product/integrations)
+    *   [Experimental features](https://sync.so/docs/product/experimental-features)
+    *   [Generation Times & Performance](https://sync.so/docs/product/generation-times)
+    *   [Troubleshooting](https://sync.so/docs/product/troubleshooting)
+
+*   Compatibility and Tips 
+    *   [Web Browser Support](https://sync.so/docs/compatibility-and-tips/web-browser-support)
+    *   [Media Formats Support](https://sync.so/docs/compatibility-and-tips/media-formats-support)
+    *   [Media Content Tips](https://sync.so/docs/compatibility-and-tips/media-content-tips)
+    *   [Improving Lip Sync Quality](https://sync.so/docs/compatibility-and-tips/improving-lip-sync-quality)
+
+*   WebApp Guides 
+    *   [Speaker Selection](https://sync.so/docs/web-app-guides/speaker-selection)
+    *   [Dubbing](https://sync.so/docs/web-app-guides/dubbing-ui)
+    *   [Notifications](https://sync.so/docs/web-app-guides/notifications-ui)
+
+*   Developer Guides 
+    *   [SDKs](https://sync.so/docs/developer-guides/sdk)
+    *   [Python SDK Guide](https://sync.so/docs/developer-guides/sdk-python)
+    *   [TypeScript SDK Guide](https://sync.so/docs/developer-guides/sdk-typescript)
+    *   [Text-to-Speech](https://sync.so/docs/developer-guides/text-to-speech)
+    *   [Asynchronous Text-to-Speech](https://sync.so/docs/developer-guides/async-text-to-speech)
+    *   [Transcription and Dialogue Editing](https://sync.so/docs/developer-guides/dialogue-editing)
+    *   [Voice Cloning](https://sync.so/docs/developer-guides/voice-cloning)
+    *   [Asset Uploads](https://sync.so/docs/developer-guides/asset-uploads)
+    *   [Projects](https://sync.so/docs/developer-guides/projects)
+    *   [Segments](https://sync.so/docs/developer-guides/segments)
+    *   [Sync Mode](https://sync.so/docs/developer-guides/sync-mode)
+    *   [Error Handling](https://sync.so/docs/developer-guides/error-handling)
+    *   [Speaker Selection](https://sync.so/docs/developer-guides/speaker-selection)
+    *   [Example Projects](https://github.com/synchronicity-labs/sync-examples "Example Projects")
+
+*   Tutorials 
+    *   [Dubbing](https://sync.so/docs/tutorials/dubbing)
+    *   [Video Dubbing API Guide](https://sync.so/docs/tutorials/video-dubbing-api-guide)
+    *   [Video Translation API Guide](https://sync.so/docs/tutorials/video-translation-api-guide)
+    *   [Text-to-Speech Lip Sync](https://sync.so/docs/tutorials/text-to-speech-lipsync)
+    *   [Personalized Video Messaging](https://sync.so/docs/tutorials/personalized-video-messaging)
+    *   [Translation/Dubbing](https://sync.so/docs/tutorials/translation-dubbing)
+
+*   Plugins & Extensions 
+    *   [ChatGPT Plugin](https://sync.so/docs/plugins-and-extensions/chatgpt-plugin)
+    *   [MCP Server](https://sync.so/docs/plugins-and-extensions/mcp-server)
+    *   [ComfyUI](https://sync.so/docs/plugins-and-extensions/comfy-ui)
+    *   Adobe Premiere 
+    *   DaVinci Resolve 
+
+*   [Introduction](https://sync.so/docs/introduction)
+*   [Quickstart](https://sync.so/docs/quickstart)
+*   [Free Trial](https://sync.so/docs/free-trial)
+*   [lipsync](https://sync.so/docs/models/lipsync)
+*   [react](https://sync.so/docs/models/react)
+*   [sync-3](https://sync.so/docs/models/sync-3)
+*   [How AI Lip Sync Works](https://sync.so/docs/product/how-ai-lip-sync-works)
+*   [Use Cases](https://sync.so/docs/product/use-cases)
+*   [Billing](https://sync.so/docs/product/billing)
+*   [Integrations](https://sync.so/docs/product/integrations)
+*   [Experimental features](https://sync.so/docs/product/experimental-features)
+*   [Generation Times & Performance](https://sync.so/docs/product/generation-times)
+*   [Troubleshooting](https://sync.so/docs/product/troubleshooting)
+*   [Web Browser Support](https://sync.so/docs/compatibility-and-tips/web-browser-support)
+*   [Media Formats Support](https://sync.so/docs/compatibility-and-tips/media-formats-support)
+*   [Media Content Tips](https://sync.so/docs/compatibility-and-tips/media-content-tips)
+*   [Improving Lip Sync Quality](https://sync.so/docs/compatibility-and-tips/improving-lip-sync-quality)
+*   [Speaker Selection](https://sync.so/docs/web-app-guides/speaker-selection)
+*   [Dubbing](https://sync.so/docs/web-app-guides/dubbing-ui)
+*   [Notifications](https://sync.so/docs/web-app-guides/notifications-ui)
+*   [SDKs](https://sync.so/docs/developer-guides/sdk)
+*   [Python SDK Guide](https://sync.so/docs/developer-guides/sdk-python)
+*   [TypeScript SDK Guide](https://sync.so/docs/developer-guides/sdk-typescript)
+*   [Text-to-Speech](https://sync.so/docs/developer-guides/text-to-speech)
+*   [Asynchronous Text-to-Speech](https://sync.so/docs/developer-guides/async-text-to-speech)
+*   [Transcription and Dialogue Editing](https://sync.so/docs/developer-guides/dialogue-editing)
+*   [Voice Cloning](https://sync.so/docs/developer-guides/voice-cloning)
+*   [Asset Uploads](https://sync.so/docs/developer-guides/asset-uploads)
+*   [Projects](https://sync.so/docs/developer-guides/projects)
+*   [Segments](https://sync.so/docs/developer-guides/segments)
+*   [Sync Mode](https://sync.so/docs/developer-guides/sync-mode)
+*   [Error Handling](https://sync.so/docs/developer-guides/error-handling)
+*   [Speaker Selection](https://sync.so/docs/developer-guides/speaker-selection)
+*   [Dubbing](https://sync.so/docs/tutorials/dubbing)
+*   [Video Dubbing API Guide](https://sync.so/docs/tutorials/video-dubbing-api-guide)
+*   [Video Translation API Guide](https://sync.so/docs/tutorials/video-translation-api-guide)
+*   [Text-to-Speech Lip Sync](https://sync.so/docs/tutorials/text-to-speech-lipsync)
+*   [Personalized Video Messaging](https://sync.so/docs/tutorials/personalized-video-messaging)
+*   [Translation/Dubbing](https://sync.so/docs/tutorials/translation-dubbing)
+*   [ChatGPT Plugin](https://sync.so/docs/plugins-and-extensions/chatgpt-plugin)
+*   [MCP Server](https://sync.so/docs/plugins-and-extensions/mcp-server)
+*   [ComfyUI](https://sync.so/docs/plugins-and-extensions/comfy-ui)
+*   [Overview](https://sync.so/docs/plugins-and-extensions/adobe-premiere/overview)
+*   [Installation Guide](https://sync.so/docs/plugins-and-extensions/adobe-premiere/installation-guide)
+*   [Overview](https://sync.so/docs/plugins-and-extensions/da-vinci-resolve/overview)
+*   [Installation Guide](https://sync.so/docs/plugins-and-extensions/da-vinci-resolve/installation-guide)
+
+*   [English](https://sync.so/docs/quickstart)
+*   [Español](https://sync.so/docs/es/quickstart)
+*   [Français](https://sync.so/docs/fr/quickstart)
+*   [Português (BR)](https://sync.so/docs/pt-BR/quickstart)
+*   [Deutsch](https://sync.so/docs/de/quickstart)
