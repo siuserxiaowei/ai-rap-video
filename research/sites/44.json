@@ -1,0 +1,95 @@
+{
+  "id": "44",
+  "name": "RapDuo.video",
+  "url": "https://rapduo.video/",
+  "category": "rap",
+  "checked_at": "2026-10-24",
+  "summary": "照片和可选主题生成原创双人 Rap 视频，提供八种舞台。免费首条为固定 5 秒、带水印且只可观看，下载需付费。",
+  "inputs": [
+    "两张单人照片或一张双人合照",
+    "可选主题、姓名或故事细节",
+    "八种舞台及付费后的质量/时长/比例设置"
+  ],
+  "outputs": [
+    "原创人声和口型的双人 Rap 短片",
+    "免费 480×864/9:16/5秒水印预览；付费后可下载"
+  ],
+  "features": [
+    "先生成舞台场景预览再转 Rap 视频",
+    "橙棚、豪华大堂、录音棚、街头、屋顶、生日、后座、宠物舞台",
+    "页面明确歌词、音乐、动作和口型不保证精确复现"
+  ],
+  "pricing": {
+    "summary": "一次性包：$9.99/10、$29/50、$99/400、$199/1000、$499/3300 credits；有效180天。12秒 Lite/720p 为10 credits，模型/画质影响消耗；$ 币种待核。",
+    "free_tier": "Google 登录赠3 credits；仅够固定480×864/9:16/5秒、水印、只可观看首条；下载需订阅或购买。",
+    "plans": [
+      {
+        "name": "Single video",
+        "amount": 9.99,
+        "billing_period": "one_time",
+        "notes": "页面以 $ 标价，币种待核。",
+        "credits": 10
+      },
+      {
+        "name": "Small pack",
+        "amount": 29,
+        "billing_period": "one_time",
+        "notes": "页面以 $ 标价，币种待核。",
+        "credits": 50
+      },
+      {
+        "name": "Starter",
+        "amount": 99,
+        "billing_period": "one_time",
+        "notes": "页面以 $ 标价，币种待核。",
+        "credits": 400
+      },
+      {
+        "name": "Creator",
+        "amount": 199,
+        "billing_period": "one_time",
+        "notes": "页面以 $ 标价，币种待核。",
+        "credits": 1000
+      },
+      {
+        "name": "Studio",
+        "amount": 499,
+        "billing_period": "one_time",
+        "notes": "页面以 $ 标价，币种待核。",
+        "credits": 3300
+      }
+    ],
+    "source_url": "https://rapduo.video/"
+  },
+  "limitations": [
+    "仅阅读公开官网；未登录、上传人物照片、支付或运行生成，效果与耗时均为供应商宣称。",
+    "未验证中文 Rap、人声一致性、精确歌词和双人口型表现。",
+    "本次未见公开 API 文档；不能据此断言不存在 API。",
+    "首页提及订阅，但本次公开正文仅展示一次性包，不能填订阅价格。",
+    "页面称真实口型，但也明确结果差异、歌词与口型不保证；不能据样例推断实测质量。",
+    "免费首条无法直接下载；人物上传许可和商用条款本次未进一步核查。"
+  ],
+  "best_for": "免费观察固定短预览，或比较多舞台、可选主题和按质量计费的原创 Rap 流程。",
+  "observations": [
+    "推断：固定免费预览与付费下载分界清晰，适合避免把注册赠额误写为免费成片。"
+  ],
+  "api": {
+    "status": "not_found",
+    "summary": "本次读取首页未定位公开 API 文档；未据此断言没有 API。",
+    "url": ""
+  },
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://rapduo.video/",
+      "title": "RapDuo: Turn Two Photos into an AI Rap Video",
+      "kind": "official",
+      "local_path": "research/evidence/44/home.txt",
+      "supports": [
+        "产品输入、输出与供应商能力宣称",
+        "首页公开价格或credits口径及免费范围",
+        "上述限制中的同页矛盾或未披露项目"
+      ]
+    }
+  ]
+}

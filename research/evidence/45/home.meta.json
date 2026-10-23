@@ -1,0 +1,13 @@
+{
+  "id": "45",
+  "name": "Rapduo.net",
+  "url": "https://rapduo.net/",
+  "category": "rap",
+  "fetched_at": "2026-10-23T16:00:45.851269+00:00",
+  "status": "readable",
+  "returncode": 0,
+  "bytes": 11800,
+  "sha256": "211024bff554ce8a161354f1e1aacd53671595b45c8712a2094afdc05af83269",
+  "local_path": "/Users/xiaowei/.agent-reach/ai-rap-video-20261023/45.txt",
+  "error": ""
+}

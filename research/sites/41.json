@@ -1,0 +1,70 @@
+{
+  "id": "41",
+  "name": "HotelLobbyAI.art",
+  "url": "https://hotellobbyai.art/",
+  "category": "rap",
+  "checked_at": "2026-10-24",
+  "summary": "两张照片生成橙色录音棚双人 Rap 短片，可选舞台、画质与时长。首页对音频来源同时声称原创合成和保留 Hotel Lobby 原音，需先澄清。",
+  "inputs": [
+    "两张单人 PNG/JPG/WebP 正面照片",
+    "舞台、比例、768P 或 2K、5/10/15 秒设置"
+  ],
+  "outputs": [
+    "带人物运动和口型的双人短片；页面产品入口称 MP4"
+  ],
+  "features": [
+    "照片位置决定左右表演者；支持人物、插画与动物",
+    "页面称不需提示词、绿幕或音轨上传",
+    "生成前显示 credits；宣称失败不收费"
+  ],
+  "pricing": {
+    "summary": "首页标示 $29.90/月含 10 songs，或 $100/年含 40 songs；当前设置显示 5 credits。songs 与具体视频规格的对应待核；$ 币种待核。",
+    "free_tier": "首页未明确免费生成额度。",
+    "plans": [
+      {
+        "name": "10 songs",
+        "amount": 29.9,
+        "billing_period": "month",
+        "notes": "页面写 10 songs a month；不能推为任意画质 10 个视频。"
+      },
+      {
+        "name": "40 songs",
+        "amount": 100,
+        "billing_period": "year",
+        "notes": "页面写 40 a year；不是月付价。"
+      }
+    ],
+    "source_url": "https://hotellobbyai.art/"
+  },
+  "limitations": [
+    "仅阅读公开官网；未登录、上传人物照片、支付或运行生成，效果与耗时均为供应商宣称。",
+    "未验证中文 Rap、人声一致性、精确歌词和双人口型表现。",
+    "本次未见公开 API 文档；不能据此断言不存在 API。",
+    "音频描述互相冲突：顶部称 AI 原创 beat/rap vocals、无版权参考片，后文称保留 Hotel Lobby 曲目、原始 verses 与参考音频。",
+    "首页标示 packs never expire，但本次未读到完整 credit pack 表；单片 credits 与订阅 songs 换算待核。",
+    "人物素材权限及原歌曲商用授权未核。"
+  ],
+  "best_for": "评估两人照片转橙棚短片的参数流程；音频来源与许可需澄清后再选用。",
+  "observations": [
+    "推断：固定左右角色和预设舞台可减少双人编排输入；音频来源必须在生成前写清。"
+  ],
+  "api": {
+    "status": "not_found",
+    "summary": "本次读取首页未定位公开 API 文档；未据此断言没有 API。",
+    "url": ""
+  },
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://hotellobbyai.art/",
+      "title": "Hotel Lobby AI | Two Photos, Orange Booth Video",
+      "kind": "official",
+      "local_path": "research/evidence/41/home.txt",
+      "supports": [
+        "产品输入、输出与供应商能力宣称",
+        "首页公开价格或credits口径及免费范围",
+        "上述限制中的同页矛盾或未披露项目"
+      ]
+    }
+  ]
+}

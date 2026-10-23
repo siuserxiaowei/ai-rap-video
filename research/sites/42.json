@@ -1,0 +1,123 @@
+{
+  "id": "42",
+  "name": "HotelLobby.net",
+  "url": "https://hotellobby.net/",
+  "category": "rap",
+  "checked_at": "2026-10-24",
+  "summary": "展示照片、参考视频或自有音频驱动双人表演与剪辑工作流。FAQ 多次写明在 generation opens 前才公布规则，当前上线及可用范围待核。",
+  "inputs": [
+    "两张人像或一张双人合照",
+    "自有参考视频、歌曲或语音",
+    "左右位置、主辅角色、动作与背景设置"
+  ],
+  "outputs": [
+    "官网规划预览与解锁后的无水印 MP4",
+    "官网规划批量视频及合并剪辑"
+  ],
+  "features": [
+    "宣称可分别设置动作参考与背景，保存设置及撤销",
+    "展示批量、预算限制、任务追踪和剪辑界面概念图",
+    "参考模板声称含 10 秒 Hotel Lobby 原曲片段"
+  ],
+  "pricing": {
+    "summary": "标准 720p/12秒为 10 credits。月订阅 $9.90/10、$29.90/100、$49.90/300、$99.90/800 credits；另有一次性包。价格为官网展示，服务上线待核，$ 币种待核。",
+    "free_tier": "宣称可先预览再解锁；未确认免费生成额度或预览收费条件。",
+    "plans": [
+      {
+        "name": "Starter",
+        "amount": 9.9,
+        "billing_period": "month",
+        "notes": "页面以 $ 标价，币种待核。",
+        "credits": 10
+      },
+      {
+        "name": "Basic",
+        "amount": 29.9,
+        "billing_period": "month",
+        "notes": "页面以 $ 标价，币种待核。",
+        "credits": 100
+      },
+      {
+        "name": "Pro",
+        "amount": 49.9,
+        "billing_period": "month",
+        "notes": "页面以 $ 标价，币种待核。",
+        "credits": 300
+      },
+      {
+        "name": "Studio",
+        "amount": 99.9,
+        "billing_period": "month",
+        "notes": "页面以 $ 标价，币种待核。",
+        "credits": 800
+      },
+      {
+        "name": "Single",
+        "amount": 9.9,
+        "billing_period": "one_time",
+        "notes": "页面以 $ 标价，币种待核。",
+        "credits": 10
+      },
+      {
+        "name": "Duo Pack",
+        "amount": 29,
+        "billing_period": "one_time",
+        "notes": "页面以 $ 标价，币种待核。",
+        "credits": 50
+      },
+      {
+        "name": "Party Pack",
+        "amount": 59,
+        "billing_period": "one_time",
+        "notes": "页面以 $ 标价，币种待核。",
+        "credits": 200
+      },
+      {
+        "name": "Crew Pack",
+        "amount": 99,
+        "billing_period": "one_time",
+        "notes": "页面以 $ 标价，币种待核。",
+        "credits": 500
+      },
+      {
+        "name": "Studio Pack",
+        "amount": 199,
+        "billing_period": "one_time",
+        "notes": "页面以 $ 标价，币种待核。",
+        "credits": 2000
+      }
+    ],
+    "source_url": "https://hotellobby.net/"
+  },
+  "limitations": [
+    "仅阅读公开官网；未登录、上传人物照片、支付或运行生成，效果与耗时均为供应商宣称。",
+    "未验证中文 Rap、人声一致性、精确歌词和双人口型表现。",
+    "本次未见公开 API 文档；不能据此断言不存在 API。",
+    "FAQ 称时长/分辨率、队列、失败计费、上传处理方及保存期将在 generation opens 前公布；不能把界面概念视为已运行能力。",
+    "月订阅额度每月过期；一次性 credits 声称永不过期；不同模型分辨率消耗不同。",
+    "模板原曲版权及自带音频使用许可待核；背景音乐不会改变口型。"
+  ],
+  "best_for": "研究双人角色、预算与批量剪辑流程；正式产出前需确认服务开放和失败规则。",
+  "observations": [
+    "推断：自有音轨、角色分工和预算预检可作为工作台需求参考；规划文案应与已上线能力分开显示。"
+  ],
+  "api": {
+    "status": "not_found",
+    "summary": "本次读取首页未定位公开 API 文档；未据此断言没有 API。",
+    "url": ""
+  },
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://hotellobby.net/",
+      "title": "Hotel Lobby AI Video Generator",
+      "kind": "official",
+      "local_path": "research/evidence/42/home.txt",
+      "supports": [
+        "产品输入、输出与供应商能力宣称",
+        "首页公开价格或credits口径及免费范围",
+        "上述限制中的同页矛盾或未披露项目"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "46",
+  "name": "HotelLobbyAI.best",
+  "url": "https://hotellobbyai.best/",
+  "category": "rap",
+  "checked_at": "2026-10-24",
+  "summary": "两张照片生成橙棚双人表演 MP4，可选10/15秒、9:16或16:9；称每条带原创 beat 和人声，可另在社交平台叠加趋势原曲。",
+  "inputs": [
+    "两张清晰正面照片；人物、宠物或插画",
+    "比例9:16/16:9，10秒或15秒、768p"
+  ],
+  "outputs": [
+    "带 beat 和 vocals 的 MP4 双人短片"
+  ],
+  "features": [
+    "生成前展示credit成本；失败退还",
+    "默认竖屏；固定橙棚、共享麦克风与轮唱动作",
+    "上传前明确许可和人物使用限制"
+  ],
+  "pricing": {
+    "summary": "10秒/768p为1650 credits，15秒/768p为2000。公开正文仅列年付每月发放2000/7500/28000 credits，未取得套餐名称与现金价；不能推算单条美元价。",
+    "free_tier": "注册赠50 credits，明确不足一条完整视频；首片需套餐或购买credits。",
+    "plans": [
+      {
+        "name": "年付额度档1（名称待核）",
+        "credits": 2000,
+        "billing_period": "year",
+        "notes": "每月2000 credits，年付；现金价未知，2并发。"
+      },
+      {
+        "name": "年付额度档2（名称待核）",
+        "credits": 7500,
+        "billing_period": "year",
+        "notes": "每月7500 credits，年付；现金价未知，4并发。"
+      },
+      {
+        "name": "年付额度档3（名称待核）",
+        "credits": 28000,
+        "billing_period": "year",
+        "notes": "每月28000 credits，年付；现金价未知，8并发。"
+      }
+    ],
+    "source_url": "https://hotellobbyai.best/"
+  },
+  "limitations": [
+    "仅阅读公开官网；未登录、上传人物照片、支付或运行生成，效果与耗时均为供应商宣称。",
+    "未验证中文 Rap、人声一致性、精确歌词和双人口型表现。",
+    "本次未见公开 API 文档；不能据此断言不存在 API。",
+    "套餐现金价格未出现在可读正文；年付节省30%为官网宣称，缺少实际金额无法计算。",
+    "credits写有效12个月；本次未核实结算、月度发放和到期细则。",
+    "官网称付费成片可商用，但受上传照片权利限制；完整条款未读，不代表原趋势歌曲授权。",
+    "页面一处欢迎插画角色，另一处称屏蔽受保护角色提示；角色边界待核。"
+  ],
+  "best_for": "评估含原创声音的固定双人橙棚生成；现金成本待核后再预算。",
+  "observations": [
+    "推断：赠额明显不足一条时应直接提示首片需付费，避免注册体验与用户预期错位。"
+  ],
+  "api": {
+    "status": "not_found",
+    "summary": "本次读取首页未定位公开 API 文档；未据此断言没有 API。",
+    "url": ""
+  },
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://hotellobbyai.best/",
+      "title": "Hotel Lobby AI Video Maker: Two Photos, One Clip",
+      "kind": "official",
+      "local_path": "research/evidence/46/home.txt",
+      "supports": [
+        "产品输入、输出与供应商能力宣称",
+        "首页公开价格或credits口径及免费范围",
+        "上述限制中的同页矛盾或未披露项目"
+      ]
+    }
+  ]
+}
