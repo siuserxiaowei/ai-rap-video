@@ -47,8 +47,8 @@
     "source_url": "https://www.media.io/pricing.html"
   },
   "api": {
-    "status": "documented",
-    "summary": "官方 developer.media.io 公布统一图像/视频生成 API，列文生视频、图生视频及多模型集成；本次只读开发者介绍页，未核验请求接口、音频/口型端点或专用 rap API。误试 /api.html 返回404，其页脚指向真实开发者站。",
+    "status": "not_found",
+    "summary": "官方 developer.media.io 公布统一图像/视频 API 平台，包含文生视频、图生视频与多模型；本次仅取得平台介绍，未取得鉴权、请求 schema、可复制端点或 Rap 专用接口文档，因此记为本次未找到公开调用文档，不表示没有 API。",
     "url": "https://developer.media.io/"
   },
   "limitations": [
