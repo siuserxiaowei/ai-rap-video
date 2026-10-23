@@ -1,0 +1,92 @@
+{
+  "id": "36",
+  "name": "FineShare Singify",
+  "url": "https://singify.fineshare.com/",
+  "category": "music",
+  "checked_at": "2026-10-23",
+  "summary": "以文字／歌词生成歌曲、AI 翻唱和自定义歌手为主，另有独立照片唱歌工具，可将照片与音频合成口型视频。Rap 专页已核实为歌词生成器；未实际生成。",
+  "inputs": [
+    "音乐：文字提示、歌词、图片、参考音频或视频；可选曲风、歌手和模型",
+    "Rap 歌词：创作想法、主题、语言、风格、情绪",
+    "翻唱／歌手：歌曲与自定义声音（具体训练要求未核）",
+    "照片唱歌：JPG/PNG/WEBP 人物或角色照片，歌曲库或自有 MP3/WAV/M4A 音频"
+  ],
+  "outputs": [
+    "完整歌曲或纯器乐；官网列 MP3／FLAC 及可选分轨",
+    "Rap 歌词文本",
+    "AI 翻唱音频（首页宣称）",
+    "照片唱歌：MP4 人物面部口型视频，页面列 480p／720p"
+  ],
+  "features": [
+    "文字／歌词到音乐，可选 Hip Hop 等曲风、AI 模型和歌手",
+    "Rap 歌词可调整主题、语言、风格和情绪并重新生成",
+    "AI 翻唱、自定义 AI 歌手及声音克隆（首页宣称）",
+    "人声去除、音轨分离和歌曲延长",
+    "独立 AI Singing Photo 宣称将口型、表情和头部动画与音频同步"
+  ],
+  "pricing": {
+    "summary": "价格页可读积分和权益对比，但套餐名称、金额、周期与表格列对应关系未完整返回；本次不填价格。",
+    "free_tier": "首页与 Rap 歌词页宣称免费开始、无需信用卡；免费歌曲额度与下载权限未明确。照片页显示 Remaining: 60 Credits，不能据此认定普遍免费额度。",
+    "plans": [],
+    "source_url": "https://singify.fineshare.com/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "本次所读首页、Rap 歌词、照片唱歌和价格页未找到公开 API 文档；不据此断言没有 API。",
+    "url": null
+  },
+  "limitations": [
+    "只读，无登录、上传、克隆、生成或购买；音质、速度、Rap flow、中文咬字与口型未实测。",
+    "音乐创作、AI 翻唱和照片口型是不同流程；Rap 歌词工具本身不能当作一键完整人物视频。",
+    "首页宣称音乐 royalty-free，但免费／付费商用范围、翻唱原曲权利、声音模型及照片视频授权仍待条款核验。",
+    "声音克隆或歌手风格文案不等于合法使用任意人物声音、肖像或歌曲的授权。",
+    "价格页无列名：音乐生成列出 3／30／100／200 credits，翻唱列出 1200／120000／Unlimited／Unlimited；无法可靠映射套餐、有效期或单次成本。",
+    "照片唱歌时长、具体积分成本、免费水印与付费权益未明确；高质量及无水印输出均为官网宣称。",
+    "首页歌曲长度出现 4 与 4–4.5 分钟两种口径，具体模型限制待核。",
+    "探测 /ai-rap-generator 返回 Page not found；有效 Rap 路径为 /ai-lyrics-generator/rap-lyrics。"
+  ],
+  "best_for": "希望先写 Rap 歌词和制作音轨，再使用自有或获授权照片与音频做唱歌口型视频的创作者（流程适配推断）。",
+  "evidence_status": "partial",
+  "sources": [
+    {
+      "url": "https://singify.fineshare.com/",
+      "title": "Free AI Music & Song Generator Online | Create Unique Tracks",
+      "kind": "official",
+      "local_path": "research/evidence/36/home.txt",
+      "supports": ["音乐输入输出", "翻唱与自定义歌手", "royalty-free 供应商宣称"]
+    },
+    {
+      "url": "https://singify.fineshare.com/ai-lyrics-generator/rap-lyrics",
+      "title": "Singify Free AI Rap Lyrics Generator Online",
+      "kind": "official",
+      "local_path": "research/evidence/36/rap-lyrics.txt",
+      "supports": ["Rap 歌词及设置", "免费开始文案"]
+    },
+    {
+      "url": "https://singify.fineshare.com/ai-singing-photo-generator",
+      "title": "AI Singing Photo - Make Photos Sing Your Song Online Free",
+      "kind": "official",
+      "local_path": "research/evidence/36/singing-photo.txt",
+      "supports": ["照片与音频输入格式", "口型和 MP4 输出", "480p／720p 与 60 credits 界面显示"]
+    },
+    {
+      "url": "https://singify.fineshare.com/pricing",
+      "title": "[Official] Buy Singify Safely - Save 30% with yearly plans!",
+      "kind": "pricing",
+      "local_path": "research/evidence/36/pricing.txt",
+      "supports": ["无列名积分对比", "下载、克隆和优先队列比较项"]
+    },
+    {
+      "url": "https://singify.fineshare.com/ai-rap-generator",
+      "title": "Page Not Found | Singify",
+      "kind": "official",
+      "local_path": "research/evidence/36/rap-path-404.txt",
+      "supports": ["路径返回 404 内容", "导航指向有效 Rap 歌词与照片唱歌入口"]
+    }
+  ],
+  "observations": [
+    "推断：歌词、歌曲音频与照片唱歌可组成 Rap 视频工作流，但自动串联与成品效果未核实。",
+    "推断：应分别展示音乐积分、翻唱额度、克隆歌手数和照片视频积分，帮助用户理解阶段成本。",
+    "推断：人物 Rap 产品应明确声音、肖像与原曲授权来源，不能用克隆能力代替授权。"
+  ]
+}
