@@ -1,0 +1,44 @@
+{
+  "iteration": "subtitle-burnin-20261024",
+  "accepted_at": "2026-10-23T17:57:25.940876+00:00",
+  "original_codex_unique_count_unchanged": 50,
+  "all_followups_accepted": true,
+  "followup_worktrees_reclaimed": 3,
+  "tasks": [
+    {
+      "task": "subtitle_pipeline",
+      "reused_agent": "/root/c48_exports",
+      "commits": [
+        "1d0707f7b26796f88584325cf8b179f2ab014592",
+        "4d51b892e8971c66b347c898b8ba6a3c4f45997a",
+        "925bb33bc751ff47e6b42ee935c0e3dfa7dec213"
+      ],
+      "accepted": true,
+      "root_targeted_tests": 98,
+      "new_subtitle_cases": 56,
+      "log": "artifacts/iterations/subtitle-burnin-20261024/pipeline-tests.txt",
+      "worktree_reclaimed": true
+    },
+    {
+      "task": "subtitle_cli",
+      "reused_agent": "/root/c49_integration_qa",
+      "commit": "b30f5f5970fc57354a3f186bf96223bfa783aa65",
+      "accepted": true,
+      "root_targeted_tests": 107,
+      "new_subtitle_cases": 52,
+      "log": "artifacts/iterations/subtitle-burnin-20261024/cli-tests.txt",
+      "worktree_reclaimed": true
+    },
+    {
+      "task": "subtitle_media",
+      "reused_agent": "/root/c50_final_review",
+      "commit": "e7f24e03cfbf5bf5cc49f4e6ffa0cdc8bab890dc",
+      "accepted": true,
+      "root_targeted_tests": 103,
+      "new_subtitle_cases": 34,
+      "actual_ass_path_cases": 7,
+      "log": "artifacts/iterations/subtitle-burnin-20261024/media-tests.txt",
+      "worktree_reclaimed": true
+    }
+  ]
+}

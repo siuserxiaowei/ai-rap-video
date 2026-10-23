@@ -56,7 +56,7 @@
     "C45 real browser acceptance"
   ],
   "external_engine_commit": "fccf3d4; preserve airap and coordinate per COORDINATION.md",
-  "feishu": "published once; two iteration appends verified revision12",
+  "feishu": "published once; three iteration appends and one native image verified revision14",
   "feishu_cli": "/Users/xiaowei/.local/state/fnm_multishells/1706_1792153352427/bin/lark-cli",
   "feishu_work_dir": null,
   "feishu_draft_path": null,
@@ -94,41 +94,42 @@
   ],
   "browser_status": "CUA session terminated by current-page access policy. Do not attempt browser actions or alternative tooling to bypass this policy. Actual desktop/mobile UI is NOT verified.",
   "milestone": "46-site Feishu report published and fully read-back verified; 100 agent tasks delivered",
-  "goal_status": "active; not complete",
+  "goal_status": "not_complete; external acceptance prerequisites required",
   "partial_sites": 4,
   "codex_deliveries": 50,
   "fully_accepted_codex": 48,
   "supplemental_same_G50": true,
   "feishu_url": "https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc",
   "feishu_document_id": "TiqGd7dHWoAqBex3KCvcnzpVnKc",
-  "feishu_revision": 12,
-  "feishu_status": "full readback matches release plus two iteration updates; original46 headings/50 decisions and prior161 unique links preserved",
+  "feishu_revision": 14,
+  "feishu_status": "full text equals candidate; prior46 headings/50 decisions/161links preserved; native caption image fetched back with identical SHA256",
   "feishu_release_path": "artifacts/feishu-report.xml",
   "draft_workspace_cleaned": true,
-  "automated_tests": 387,
+  "automated_tests": 529,
   "live_http_smoke": "passed",
   "remaining_required": [
     "C44/C45 desktop,390px,keyboard focus and browser downloads must be verified in an allowed browser environment"
   ],
-  "next_action": "Verify subtitle burn-in with a compatible ASS-enabled FFmpeg toolchain. Real-provider generation/quality/cost and original browser acceptance still require their actual prerequisites. No browser policy bypass.",
+  "next_action": "Blocked audit passed after four documented goal turns with the same original browser access-policy blocker. Await an allowed browser acceptance environment; chosen live-provider work additionally needs configured credentials and authorized samples.",
   "future_backlog_not_completed": [
-    "Live provider compatibility, authorized-media quality, media download, latency and actual cost reconciliation; client/journal/CLI contract implementation is complete.",
-    "ASS subtitle burn-in in an actual supported FFmpeg build; current build reportsfalse and omits it."
+    "Live provider compatibility, authorized-media quality, media download, latency and actual cost reconciliation; client/journal/CLI contract implementation is complete."
   ],
-  "last_checkpoint": "2026-10-23T17:24:55.123203+00:00",
-  "iteration": "engine-preview-20261024",
-  "previous_goal_turn_classification": "progress: inherited engine defects corrected,387 tests and real CLI/FFprobe/decode passed; actual AI and original browser acceptance remain unverified",
-  "global_impasse": false,
+  "last_checkpoint": "2026-10-23T18:10:53.023683+00:00",
+  "iteration": "subtitle-burnin-20261024",
+  "previous_goal_turn_classification": "progress: project-local ASS toolchain and explicit caption modes implemented; real pixels,3 selected Chinese frames,4 full-HD CLI cases and529 tests verified",
+  "global_impasse": true,
   "provider_credentials_present": false,
   "archived_process_sessions": {
     "gemini_queue": 34726
   },
   "first_release_automated_tests": 54,
-  "iteration_status": "all three follow-ups accepted/reclaimed,387 tests and actual local preview decode passed, same Feishu doc revision12 verified",
-  "iteration_verification": "docs/iterations/engine-preview-20261024/verification.json",
-  "feishu_latest_verification": "artifacts/iterations/engine-preview-20261024/feishu-verification.json",
-  "prior_iteration_verification": "docs/iterations/provider-sync-20261024/verification.json",
-  "iteration_plan": "docs/iterations/engine-preview-20261024/PLAN.md",
+  "iteration_status": "accepted/reclaimed,529 tests and real Chinese burn-in verified, same Feishu doc revision14 and image read back",
+  "iteration_verification": "docs/iterations/subtitle-burnin-20261024/verification.json",
+  "feishu_latest_verification": "artifacts/iterations/subtitle-burnin-20261024/feishu-verification.json",
+  "prior_iteration_verification": "docs/iterations/engine-preview-20261024/verification.json",
+  "iteration_plan": "docs/iterations/subtitle-burnin-20261024/PLAN.md",
   "workbench_automated_tests": 88,
-  "engine_automated_tests": 299
+  "engine_automated_tests": 441,
+  "requirements_audit": "artifacts/iterations/subtitle-burnin-20261024/requirements-audit.json",
+  "recommended_goal_transition": "blocked"
 }

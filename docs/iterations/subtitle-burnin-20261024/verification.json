@@ -1,0 +1,124 @@
+{
+  "iteration": "subtitle-burnin-20261024",
+  "checked_at": "2026-10-23T17:57:25.940876+00:00",
+  "status": "subtitle_scope_accepted_original_external_gates_open",
+  "goal_complete": false,
+  "tested_application_commit": "de7871e690b96a86b374395ab04ffd772afbdbae",
+  "tested_file_sha256": {
+    "airap/config.py": "5d09a09ad3e27767de7df44aeb6c9bc77812eae4d8964e489c21f79a40d22f7d",
+    "airap/pipeline.py": "edc484d0e737ce49190332952c036489604e566d1fa17baaedc79be2cb9343b5",
+    "airap/cli.py": "afa5128aa80ed66e7101213a01dbb43140c86ec0c3a195641c3c4129486181dd",
+    "airap/compositor/ffmpeg_pipeline.py": "19f88bed99ba951985b60f7c899848b9ce2eca7ec254400e96c328f0480ac9c8",
+    "airap/compositor/video_builder.py": "fe98b892360d3713f66e560bfed2e22bf978f34bc0d95d445be9fff6af6bcff8",
+    "scripts/build_subtitle_toolchain.py": "09ae62d43c05e6e64708e3c6e15113bc3faf92829227e676891fb5efa3d61234",
+    "scripts/verify_subtitle_burnin.py": "7cdd3558e9c0ef8eb4254901ab195bf0c487384508ea219753f4de7b13c85547",
+    "scripts/verify_engine_preview.py": "47eb30097434aede22f94b2cfe3949623d196daaec4d4494f275b0318859d4f3"
+  },
+  "plan_ref": "docs/iterations/subtitle-burnin-20261024/PLAN.md",
+  "acceptance_ref": "docs/iterations/subtitle-burnin-20261024/acceptance.json",
+  "tests": {
+    "status": "passed",
+    "total": 529,
+    "engine": 441,
+    "workbench": 88,
+    "subtests": 393,
+    "skips": 0,
+    "failures": 0,
+    "errors": 0,
+    "exit_code": 0,
+    "log": "artifacts/iterations/subtitle-burnin-20261024/final-tests.txt",
+    "log_sha256": "de850fd8ca4edc2f9114b2299a3d6a598d577459f9129d85d969f7ae8c538cc2",
+    "actual_ass_paths": 7
+  },
+  "toolchain": {
+    "status": "built_and_verified",
+    "project_local": true,
+    "ffmpeg_version": "8.1.1",
+    "libass_version": "0.17.5",
+    "network_disabled": true,
+    "default_binary_path_and_sha256_unchanged": true,
+    "new_prerequisites_only": [
+      {
+        "name": "pkgconf",
+        "version": "3.0.10"
+      },
+      {
+        "name": "libunibreak",
+        "version": "8.0"
+      }
+    ],
+    "upstream_archives_sha256_verified": true,
+    "sources": "research/toolchains/ass-ffmpeg/20261024/manifest.json",
+    "build": "artifacts/iterations/subtitle-burnin-20261024/toolchain-build.json",
+    "capabilities": "artifacts/iterations/subtitle-burnin-20261024/toolchain-capabilities.json"
+  },
+  "real_caption": {
+    "status": "passed",
+    "before_seconds": 0.1,
+    "during_seconds": 0.5,
+    "after_seconds": 0.9,
+    "changed_pixels": [
+      0,
+      2996,
+      0
+    ],
+    "timed_event": [
+      0.25,
+      0.75
+    ],
+    "observed_text": "中文烧录预览",
+    "media_frames_visually_inspected": 3,
+    "visual_review": "passed_selected_media_frames_only",
+    "actual_font_face_resolution": "not independently verified",
+    "cli_full_hd_cases": 4,
+    "actual_modes": {
+      "required": true,
+      "auto": true,
+      "off": false
+    },
+    "all_outputs_full_audio_video_decode": "passed",
+    "unsupported_required_preserves_previous_output": true,
+    "proof": "artifacts/iterations/subtitle-burnin-20261024/real-caption-smoke.json",
+    "local_review_frame": "/Users/xiaowei/work/ai-rap-video-20261023/artifacts/tmp/subtitle-burnin-20261024/controlled-chinese-frame.png",
+    "media_committed": false
+  },
+  "agents": {
+    "original_codex_unique": 50,
+    "original_gemini_unique": 50,
+    "reused": [
+      "C48",
+      "C49",
+      "C50"
+    ],
+    "new_distinct_agents": 0,
+    "followup_worktrees_reclaimed": 3,
+    "original_visual_pending": [
+      "C44",
+      "C45"
+    ]
+  },
+  "network_and_limits": {
+    "provider_requests": 0,
+    "paid_generations": 0,
+    "real_ai_video_generated": false,
+    "vocals_generated": false,
+    "lipsync_rendered": false,
+    "browser_operations": 0,
+    "browser_policy_bypass_attempted": false,
+    "public_provider_render": "503 PROVIDER_UNAVAILABLE",
+    "sync_api_key_present": false,
+    "hedra_api_key_present": false
+  },
+  "remaining_required": [
+    "C44/C45 desktop/390px/keyboard/browser downloads remain unverified under the binding current-page access policy",
+    "Chosen live-provider quality/cost phase requires configured credentials and authorized media; local synthetic caption tests cannot establish it"
+  ],
+  "publication": {
+    "document_id": "TiqGd7dHWoAqBex3KCvcnzpVnKc",
+    "prior_verified_revision": 12,
+    "status": "appended_once_and_full_text_image_verified",
+    "revision_id": 14,
+    "evidence": "artifacts/iterations/subtitle-burnin-20261024/feishu-verification.json",
+    "section_url": "https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc#doxcn0oLGSk8lGn6VzN04xqvdTe"
+  }
+}

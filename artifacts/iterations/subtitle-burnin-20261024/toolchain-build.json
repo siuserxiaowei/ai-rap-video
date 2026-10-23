@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "started_at": "2026-10-23T17:40:04.652996+00:00",
+  "prefix": "/Users/xiaowei/work/ai-rap-video-20261023/.workbench/toolchains/ass-ffmpeg-8.1.1",
+  "architecture": "arm64",
+  "sources": [
+    {
+      "name": "libass",
+      "version": "0.17.5",
+      "url": "https://github.com/libass/libass/releases/download/0.17.5/libass-0.17.5.tar.xz",
+      "archive_sha256": "2dca25c0e0c837ddf00b52011b3f82cac1e4ddd3ad018227806b0c2288864acc",
+      "archive_bytes": 460148
+    },
+    {
+      "name": "ffmpeg",
+      "version": "8.1.1",
+      "url": "https://ffmpeg.org/releases/ffmpeg-8.1.1.tar.xz",
+      "archive_sha256": "b6863adde98898f42602017462871b5f6333e65aec803fdd7a6308639c52edf3",
+      "archive_bytes": 11709440
+    }
+  ],
+  "steps": [
+    {
+      "name": "libass-configure",
+      "argv": [
+        "./configure",
+        "--prefix=/Users/xiaowei/work/ai-rap-video-20261023/.workbench/toolchains/ass-ffmpeg-8.1.1",
+        "--disable-shared",
+        "--enable-static"
+      ],
+      "cwd": "/private/tmp/airap-subtitle-build-20261024/sources/libass-0.17.5",
+      "log": "/Users/xiaowei/work/ai-rap-video-20261023/artifacts/iterations/subtitle-burnin-20261024/libass-configure.txt",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "libass-make",
+      "argv": [
+        "make",
+        "-j4"
+      ],
+      "cwd": "/private/tmp/airap-subtitle-build-20261024/sources/libass-0.17.5",
+      "log": "/Users/xiaowei/work/ai-rap-video-20261023/artifacts/iterations/subtitle-burnin-20261024/libass-make.txt",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "libass-install",
+      "argv": [
+        "make",
+        "install"
+      ],
+      "cwd": "/private/tmp/airap-subtitle-build-20261024/sources/libass-0.17.5",
+      "log": "/Users/xiaowei/work/ai-rap-video-20261023/artifacts/iterations/subtitle-burnin-20261024/libass-install.txt",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "ffmpeg-configure",
+      "argv": [
+        "./configure",
+        "--prefix=/Users/xiaowei/work/ai-rap-video-20261023/.workbench/toolchains/ass-ffmpeg-8.1.1",
+        "--disable-autodetect",
+        "--disable-ffplay",
+        "--disable-doc",
+        "--disable-debug",
+        "--disable-shared",
+        "--enable-static",
+        "--disable-network",
+        "--enable-gpl",
+        "--enable-libass",
+        "--enable-libx264",
+        "--pkg-config-flags=--static"
+      ],
+      "cwd": "/private/tmp/airap-subtitle-build-20261024/sources/ffmpeg-8.1.1",
+      "log": "/Users/xiaowei/work/ai-rap-video-20261023/artifacts/iterations/subtitle-burnin-20261024/ffmpeg-configure.txt",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "ffmpeg-make",
+      "argv": [
+        "make",
+        "-j4"
+      ],
+      "cwd": "/private/tmp/airap-subtitle-build-20261024/sources/ffmpeg-8.1.1",
+      "log": "/Users/xiaowei/work/ai-rap-video-20261023/artifacts/iterations/subtitle-burnin-20261024/ffmpeg-make.txt",
+      "status": "passed",
+      "exit_code": 0
+    },
+    {
+      "name": "ffmpeg-install",
+      "argv": [
+        "make",
+        "install"
+      ],
+      "cwd": "/private/tmp/airap-subtitle-build-20261024/sources/ffmpeg-8.1.1",
+      "log": "/Users/xiaowei/work/ai-rap-video-20261023/artifacts/iterations/subtitle-burnin-20261024/ffmpeg-install.txt",
+      "status": "passed",
+      "exit_code": 0
+    }
+  ],
+  "completed_at": "2026-10-23T17:41:49.373185+00:00",
+  "capabilities": {
+    "ass": true,
+    "subtitles": true,
+    "network_disabled": true
+  },
+  "binaries": {
+    "ffmpeg": {
+      "path": "/Users/xiaowei/work/ai-rap-video-20261023/.workbench/toolchains/ass-ffmpeg-8.1.1/bin/ffmpeg",
+      "sha256": "e20c2a9f3868d95d1ca578004f4a3ab643ca8db0fac8a55c541b849fda1d7f11"
+    },
+    "ffprobe": {
+      "path": "/Users/xiaowei/work/ai-rap-video-20261023/.workbench/toolchains/ass-ffmpeg-8.1.1/bin/ffprobe",
+      "sha256": "c3c3bff1a57fa4f35a72c15824819a1d511cd244fa44936a74ae251084a2f5a5"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+Title: ffmpeg-full
+
+URL Source: https://formulae.brew.sh/formula/ffmpeg-full
+
+Published Time: Fri, 23 Oct 2026 17:25:38 GMT
+
+Markdown Content:
+Install command:
+
+`brew install ffmpeg-full`
+
+Play, record, convert, and stream many audio and video codecs
+
+[https://ffmpeg.org/](https://ffmpeg.org/)
+
+License: **GPL-3.0-or-later**
+
+Development: [Pull requests](https://github.com/Homebrew/homebrew-core/pulls?q=sort:updated-desc+is:pr+ffmpeg-full+in:title)
+
+Formula JSON API: [`/api/formula/ffmpeg-full.json`](https://formulae.brew.sh/api/formula/ffmpeg-full.json)
+
+Formula code: [`ffmpeg-full.rb`](https://github.com/Homebrew/homebrew-core/blob/3aa17c6cb938813ff54413a8e3ba0a003b2773e8/Formula/f/ffmpeg-full.rb) on GitHub
+
+Bottle (binary package) installation support provided for:
+
+| macOS on Apple Silicon | golden gate | ✅ |
+| --- |
+| tahoe | ✅ |
+| sequoia | ✅ |
+| Linux | ARM64 | ✅ |
+| x86_64 | ✅ |
+
+Current versions:
+
+**stable**✅9.0.2
+**head**⚡️HEAD
+
+Keg-only because this is an alternate version of another formula.
+
+Depends on:
+
+[aom](https://formulae.brew.sh/formula/aom)3.15.2 Codec library for encoding and decoding AV1 video streams
+[aribb24](https://formulae.brew.sh/formula/aribb24)1.0.4 Library for ARIB STD-B24, decoding JIS 8 bit characters and parsing MPEG-TS
+[dav1d](https://formulae.brew.sh/formula/dav1d)1.5.4 AV1 decoder targeted to be small and fast
+[fontconfig](https://formulae.brew.sh/formula/fontconfig)2.18.3 XML-based font configuration API for X Windows
+[freetype](https://formulae.brew.sh/formula/freetype)2.15.0 Software library to render fonts
+[frei0r](https://formulae.brew.sh/formula/frei0r)3.6.0 Minimalistic plugin API for video effects
+[ggml](https://formulae.brew.sh/formula/ggml)0.27.0 Tensor library for machine learning
+[gnutls](https://formulae.brew.sh/formula/gnutls)3.8.13 GNU Transport Layer Security (TLS) Library
+[harfbuzz](https://formulae.brew.sh/formula/harfbuzz)15.0.0 OpenType text shaping engine
+[jpeg-xl](https://formulae.brew.sh/formula/jpeg-xl)0.12.0 New file format for still image compression
+[lame](https://formulae.brew.sh/formula/lame)4.0 High quality MPEG Audio Layer III (MP3) encoder
+[libass](https://formulae.brew.sh/formula/libass)0.17.5 Subtitle renderer for the ASS/SSA subtitle format
+[libbluray](https://formulae.brew.sh/formula/libbluray)1.5.0 Blu-Ray disc playback library for media players like VLC
+[libplacebo](https://formulae.brew.sh/formula/libplacebo)7.360.1 Reusable library for GPU-accelerated image/video processing primitives
+[librist](https://formulae.brew.sh/formula/librist)0.2.20 Reliable Internet Stream Transport (RIST)
+[libsoxr](https://formulae.brew.sh/formula/libsoxr)0.1.3 High quality, one-dimensional sample-rate conversion library
+[libssh](https://formulae.brew.sh/formula/libssh)0.12.2 C library SSHv1/SSHv2 client and server protocols
+[libvidstab](https://formulae.brew.sh/formula/libvidstab)1.1.2 Transcode video stabilization plugin
+[libvmaf](https://formulae.brew.sh/formula/libvmaf)3.2.1 Perceptual video quality assessment based on multi-method fusion
+[libvorbis](https://formulae.brew.sh/formula/libvorbis)1.3.7 Vorbis general audio compression codec
+[libvpx](https://formulae.brew.sh/formula/libvpx)1.17.0 VP8/VP9 video codec
+[libx11](https://formulae.brew.sh/formula/libx11)1.8.14 X.Org: Core X11 protocol client library
+[libxcb](https://formulae.brew.sh/formula/libxcb)1.17.0 X.Org: Interface to the X Window System protocol
+[opencore-amr](https://formulae.brew.sh/formula/opencore-amr)0.1.6 Audio codecs extracted from Android open source project
+[openjpeg](https://formulae.brew.sh/formula/openjpeg)2.5.4 Library for JPEG-2000 image manipulation
+[opus](https://formulae.brew.sh/formula/opus)1.6.1 Audio codec
+[qrencode](https://formulae.brew.sh/formula/qrencode)4.1.1 QR Code generation
+[rav1e](https://formulae.brew.sh/formula/rav1e)0.8.1 Fastest and safest AV1 video encoder
+[rubberband](https://formulae.brew.sh/formula/rubberband)4.0.0 Audio time stretcher tool and library
+[sdl2-compat](https://formulae.brew.sh/formula/sdl2-compat)2.32.74 SDL2 compatibility layer that uses SDL3 behind the scenes
+[snappy](https://formulae.brew.sh/formula/snappy)1.3.1 Compression/decompression library aiming for high speed
+[speex](https://formulae.brew.sh/formula/speex)1.2.1 Audio codec designed for speech
+[srt](https://formulae.brew.sh/formula/srt)1.5.7 Secure Reliable Transport
+[svt-av1](https://formulae.brew.sh/formula/svt-av1)4.2.0 AV1 encoder
+[tesseract](https://formulae.brew.sh/formula/tesseract)5.5.3 OCR (Optical Character Recognition) engine
+[theora](https://formulae.brew.sh/formula/theora)1.2.0 Open video compression format
+[webp](https://formulae.brew.sh/formula/webp)1.6.0 Image format providing lossless and lossy compression for web images
+[whisper.cpp](https://formulae.brew.sh/formula/whisper.cpp)1.9.5 Port of OpenAI's Whisper model in C/C++
+[x264](https://formulae.brew.sh/formula/x264)r3222 H.264/AVC encoder
+[x265](https://formulae.brew.sh/formula/x265)4.3 H.265/HEVC encoder
+[xvid](https://formulae.brew.sh/formula/xvid)1.3.7 High-performance, high-quality MPEG-4 video library
+[xz](https://formulae.brew.sh/formula/xz)5.8.4 General-purpose data compression with high compression ratio
+[zeromq](https://formulae.brew.sh/formula/zeromq)4.3.5 High-performance, asynchronous messaging library
+[zimg](https://formulae.brew.sh/formula/zimg)3.0.6 Scaling, colorspace conversion, and dithering library
+[libarchive](https://formulae.brew.sh/formula/libarchive)3.8.10 Multi-format archive and compression library
+[libogg](https://formulae.brew.sh/formula/libogg)1.3.6 Ogg Bitstream Library
+[libsamplerate](https://formulae.brew.sh/formula/libsamplerate)0.2.2 Library for sample rate conversion of audio data
+
+Depends on when building from source:
+
+[pkgconf](https://formulae.brew.sh/formula/pkgconf)3.0.10 Package compiler and linker metadata toolkit
+
+Uses from macOS: **bzip2**, **libxml2**
+
+Binaries: `aviocat`, `bisect-create`, `check_arm_indent.sh`, `check_commit_msg.sh`, `clean-diff`, `compare-cvelists.sh`, `crypto_bench`, `cws2fws`, `dvd2concat`, `enc_recon_frame_test`, `enum_options`, `ffescape`, `ffeval`, `ffhash`, `ffmpeg`, `ffplay`, `ffprobe`, `fourcc2pixfmt`, `gen-rc`, `general_assembly.pl`, `graph2dot`, `indent_arm_assembly.pl`, `ismindex`, `loudnorm.rb`, `make_chlayout_test`, `merge-all-source-plugins`, `missing_codec_desc`, `murge`, `normalize.py`, `patcheck`, `pktdumper`, `plotframes`, `probetest`, `qt-faststart`, `scale_slice_test`, `seek_print`, `sidxindex`, `source2c`, `target_dec_fate.sh`, `trasher`, `uncoded_frame`, `unwrap-diff`, `update-checkasm.sh`, `venc_data_dump`, `zmqsend`, `zmqshell.py`
+
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+
+Analytics:
+
+|  | 30 days | 90 days | 365 days |
+| --- | --- | --- |
+| Installs | 6,490 | 23,674 | 57,784 |
+| Installs (`--HEAD`) | 22 | 66 | 231 |
+| Installs on Request | 6,410 | 23,417 | 55,992 |
+| Installs on Request (`--HEAD`) | 22 | 66 | 231 |
+| Build Errors | 5 |  |  |

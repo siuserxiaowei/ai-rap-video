@@ -1,0 +1,25 @@
+Warning: The following taps are not trusted:
+  farion1231/ccswitch
+
+Homebrew is currently ignoring formulae, casks and commands
+from these taps because tap trust is required.
+Prefer trusting only the specific formulae, casks or commands you need.
+Trust installed casks from these taps with:
+  brew trust --cask farion1231/ccswitch/cc-switch
+Trust other specific formulae and commands with:
+  brew trust --formula <user>/<tap>/<formula>
+  brew trust --command <user>/<tap>/<command>
+Whole-tap trust is broader and includes all current and future formulae,
+casks and commands from the listed taps. Trust whole taps with:
+  brew trust farion1231/ccswitch
+Untap them with:
+  brew untap farion1231/ccswitch
+For more information, see:
+  https://docs.brew.sh/Tap-Trust
+==> Fetching downloads for: pkgconf and libunibreak
+✔︎ Bottle pkgconf (3.0.10)
+✔︎ Bottle libunibreak (8.0)
+==> Pouring pkgconf--3.0.10.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pkgconf/3.0.10: 35 files, 752.9KB
+==> Pouring libunibreak--8.0.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libunibreak/8.0: 17 files, 344.2KB

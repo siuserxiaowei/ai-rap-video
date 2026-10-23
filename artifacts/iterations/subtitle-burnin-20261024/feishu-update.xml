@@ -1,0 +1,15 @@
+<h1 seq="auto">中文ASS字幕烧录验收（2026-10-24）</h1>
+<p>本节更新上一节留下的真实字幕缺口。继续复用原C48/C49/C50，在三个隔离worktree实现配置、CLI和媒体修复，经主线程审查及独立复跑后全部验收回收。独立Codex仍50个、Gemini有效独立会话仍50个；研究范围仍46站，原任务登记与历史验收快照保留。</p>
+<table><thead><tr><th><p>项目</p></th><th><p>当前证据</p></th></tr></thead><tbody>
+<tr><td><p>项目内字幕工具链</p></td><td><p>核对上游归档SHA-256后，本机构建FFmpeg8.1.1和libass0.17.5，实际具有ass/subtitles滤镜。工具置于.workbench/toolchains/ass-ffmpeg-8.1.1/bin；原全局FFmpeg解析路径与哈希保持一致，仅新增pkgconf及libunibreak两个构建依赖。</p></td></tr>
+<tr><td><p>显式字幕策略</p></td><td><p>CLI新增--ffmpeg、--ffprobe、--subtitle-mode auto|required|off及--subtitle-font。required预检所选工具且要求实际烧录，off不烧录，auto根据所选构建能力决定。显式无效工具不回退，字体族仅表示请求，不视为实际字体匹配证明。</p></td></tr>
+<tr><td><p>真实路径与结果校验</p></td><td><p>按FFmpeg两层解析修复ASS路径转义，保留POSIX反斜杠。7项真实用例覆盖空格、引号、冒号、逗号、方括号、中文及边缘空格；字幕期帧差与完整解码均通过。</p></td></tr>
+<tr><td><p>合并回归</p></td><td><p>529项通过（441引擎、88工作台），393个子测试另有记录，0失败、0错误、0跳过。原C44/C45仍待真实浏览器验收，本次视频帧检查不关闭该门槛。</p></td></tr>
+</tbody></table>
+<p>受控中文样本：同一黑色视频分别关闭和要求字幕，事件为0.25至0.75秒。0.1秒与0.9秒采样帧差均为0；0.5秒有2996个像素变化，位置落在字幕区域。下图直接来自实际输出视频的0.5秒解码帧，未另行绘制文字。</p>
+<img path="@./artifacts/tmp/subtitle-burnin-20261024/controlled-chinese-frame.png" width="640" height="360"/>
+<p>主线程实际查看了上图及竖屏、横屏两个CLI采样帧，“中文烧录预览”六字可辨认，选定样本未见缺字方框或文字被裁切。仅对这三个视频帧作此结论，不推定所有文字、字体、排版或动画都已通过人工验收，具体字体面匹配仍未独立确认。</p>
+<p>端到端CLI：共4次全高清运行，包含1080×1920竖版和1920×1080横版required，以及竖版auto、off；均为30fps、视频流实测1.0秒，音视频流和完整解码通过。required及auto实际subtitles_burned=true，off为false。显式选择原不含ASS的FFmpeg时，required明确失败、没有新增资产且旧成片哈希不变。默认PATH版本仍不含ASS，使用新构建需显式指定路径。</p>
+<p>源码、构建和复现：官方资料归档在research/toolchains/ass-ffmpeg/20261024/；构建助手scripts/build_subtitle_toolchain.py不下载或切换全局工具，实际像素与CLI验证由scripts/verify_subtitle_burnin.py执行。用法见docs/iterations/subtitle-burnin-20261024/TOOLCHAIN.md，测试、构建步骤、二进制哈希、媒体帧与验收证据在同轮docs及artifacts目录；测试视频和帧只保留本机审阅，未提交到Git。</p>
+<p>剩余关口：本轮真实供应商请求和付费生成均为0，未生成AI人声、人物动画或口型视频。当前运行环境未配置专用Sync/Hedra凭据，真实供应商阶段仍需凭据和获授权样本。C44/C45的桌面、390px、键盘焦点与浏览器下载仍受绑定的当前页面访问策略限制，未使用替代工具绕过。整体目标仍未完成；当前已到需要外部验收条件才能关闭的关口。</p>
+<p>官方开发来源：<a href="https://ffmpeg.org/ffmpeg-filters.html#ass">FFmpeg ASS滤镜</a>；<a href="https://ffmpeg.org/ffmpeg-utils.html#Quoting-and-escaping">FFmpeg引用与转义</a>；<a href="https://formulae.brew.sh/formula/ffmpeg-full">Homebrew完整构建资料</a>。版本和功能结论以本轮实际工具检查与媒体样本为准。</p>

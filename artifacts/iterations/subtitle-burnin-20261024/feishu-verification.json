@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-23T18:06:34.331778+00:00",
+  "document_id": "TiqGd7dHWoAqBex3KCvcnzpVnKc",
+  "url": "https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc",
+  "section_url": "https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc#doxcn0oLGSk8lGn6VzN04xqvdTe",
+  "revision_id": 14,
+  "previous_verified_revision": 12,
+  "previous_visible_text_prefix_preserved": true,
+  "full_candidate_visible_text_match": true,
+  "normalized_text_sha256": "2aa4b642d643fade24b731cacfb4db35ca427412f4af4a35d10644aa500eba8b",
+  "site_headings": 46,
+  "decision_rows": 50,
+  "prior_unique_links_preserved": 161,
+  "current_unique_links": 164,
+  "subtitle_iteration_section_count": 1,
+  "native_image_count": 1,
+  "native_image_preview_matches_source_bytes": true,
+  "image_evidence": "artifacts/iterations/subtitle-burnin-20261024/feishu-image-verification.json",
+  "test_count": 529,
+  "goal_complete": false,
+  "browser_limitations_preserved": true
+}

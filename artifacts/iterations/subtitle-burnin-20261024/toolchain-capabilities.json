@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "version": "ffmpeg version 8.1.1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "ffmpeg": "/Users/xiaowei/work/ai-rap-video-20261023/.workbench/toolchains/ass-ffmpeg-8.1.1/bin/ffmpeg",
+  "ffprobe": "/Users/xiaowei/work/ai-rap-video-20261023/.workbench/toolchains/ass-ffmpeg-8.1.1/bin/ffprobe",
+  "ass": true,
+  "subtitles": true,
+  "framemd5": true,
+  "default_ffmpeg_resolved": "/opt/homebrew/Cellar/ffmpeg/8.1.1/bin/ffmpeg",
+  "default_ffmpeg_sha256_unchanged": true,
+  "project_local_build": true,
+  "sources_verified": true
+}

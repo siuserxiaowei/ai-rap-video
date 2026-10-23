@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "native_image_count": 1,
+  "preview_file": "artifacts/tmp/subtitle-burnin-20261024/feishu-caption-preview.png",
+  "source_sha256": "d2ac1fdbaf04e28b2d0505904a362f3e0e437e0043201d2f14690157f7e36320",
+  "preview_sha256": "d2ac1fdbaf04e28b2d0505904a362f3e0e437e0043201d2f14690157f7e36320",
+  "exact_source_bytes_preserved": true,
+  "image_block_id": "doxcnEO9dNt3JC8o5yL1jLxDn0c",
+  "declared_width": "640",
+  "declared_height": "360"
+}

@@ -60,7 +60,9 @@ git diff --check
 
 工作台最近 88 项测试通过，包含研究校验、来源路径、筛选、SQLite 往返、请求拒绝、任务幂等/冲突、未接入供应商、报价与导出，以及 Sync 客户端、提交记录、命令行和本机 HTTP 契约测试。后者用合成响应验证未知提交结果、同键重试、查询失败、重开数据库及过期状态处理，不证明真实供应商成片或费用。证据采集器的网络异常测试使用 mock，不能证明其重新抓取了全站。接口迭代见 [Sync验证记录](docs/iterations/provider-sync-20261024/verification.json)；[docs/C50-review.md](docs/C50-review.md) 保留首次发布的 54 项测试快照。
 
-随后主线程合并验证了 `airap` 的299项检查，与工作台合计387项通过。真实命令行生成两个1秒、30fps的程序化预览（1080×1920及1920×1080），音视频流、实测时长和完整解码均通过；真实双色双片样本还验证了0.25秒处的镜头切换。未生成AI人声、人物动画或口型。当前FFmpeg缺少ASS滤镜，两段实际样本均未烧录字幕，结果明确报告false；ASS文件仍可导出。这些证据不构成人工画质、中文快Rap口型或真实供应商验收。见 [引擎验证记录](docs/iterations/engine-preview-20261024/verification.json) 及 README 的预览命令。
+引擎修复迭代合并验证了 `airap` 的299项检查，与工作台合计387项通过。该历史快照的两个1秒、30fps程序化预览均可完整解码，但当时未烧录字幕；真实双色双片样本验证了0.25秒处的镜头切换。见 [引擎验证记录](docs/iterations/engine-preview-20261024/verification.json)。
+
+字幕迭代新增显式工具选择、required/auto/off模式及请求字体，最新529项检查通过（441引擎、88工作台），含7项真实ASS特殊路径用例。项目内ASS构建已经真实烧录中文；受控样本字幕前/后无帧差，字幕期2996像素变化，主线程检查了三个实际中文帧。四次全高清CLI覆盖三种模式并完整解码。默认全局FFmpeg仍没有ASS支持，须显式选择项目构建或其他具备能力的版本。见 [字幕验收](docs/iterations/subtitle-burnin-20261024/verification.json)及[工具链用法](docs/iterations/subtitle-burnin-20261024/TOOLCHAIN.md)。这不构成AI人声、人物动画、中文快Rap口型、真实供应商或浏览器UI验收。
 
 桌面和 390px 真实页面、键盘焦点、照片选择、筛选/比较、保存与浏览器下载仍未验证。浏览器 CUA 已因当前页面访问策略被终止；本轮未调用其他浏览器或替代工具绕过。HTTP 成功和静态 CSS 检查不能替代这些验收。
 
@@ -82,4 +84,4 @@ python3 -m rap_workbench.provider_cli show --id <本地UUID>
 
 ## 已发布研究文档
 
-[AI Rap Video：46站研究与自主开发方案](https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc)，首次发布revision10已按原生文档全文回读验证，回执在 artifacts/feishu-create.json、feishu-readback.json、feishu-verification.json。接口迭代追加至revision11，之后引擎验收追加至revision12，均全文回读；原46站、50项决策和来源链接完整保留，每个新增章节仅一份。证据见 [接口发布核验](artifacts/iterations/provider-sync-20261024/feishu-verification.json)及[引擎发布核验](artifacts/iterations/engine-preview-20261024/feishu-verification.json)。
+[AI Rap Video：46站研究与自主开发方案](https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc)，首次发布revision10已按原生文档全文回读验证，回执在 artifacts/feishu-create.json、feishu-readback.json、feishu-verification.json。接口、引擎及字幕迭代分别更新至revision11、12、14，均全文回读；原46站、50项决策和来源链接完整保留，每个新增章节仅一份。字幕图通过原生图片预览取回，SHA与本机实际视频采样帧一致。证据见 [接口发布核验](artifacts/iterations/provider-sync-20261024/feishu-verification.json)、[引擎发布核验](artifacts/iterations/engine-preview-20261024/feishu-verification.json)及[字幕发布核验](artifacts/iterations/subtitle-burnin-20261024/feishu-verification.json)。

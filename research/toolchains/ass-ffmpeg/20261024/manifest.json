@@ -1,0 +1,36 @@
+{
+  "fetched_at": "2026-10-23T17:47:24.734384+00:00",
+  "scope": "Official development-toolchain sources; these do not add new market-research websites.",
+  "sources": [
+    {
+      "source_url": "https://ffmpeg.org/ffmpeg-filters.html#ass",
+      "local_path": "research/toolchains/ass-ffmpeg/20261024/ffmpeg-filters.txt",
+      "bytes": 890643,
+      "sha256": "f4d3517ac47576f103e6fafd195087958b13f47189ffebf99e3b0fb303b2eba6"
+    },
+    {
+      "source_url": "https://ffmpeg.org/ffmpeg-utils.html#Quoting-and-escaping",
+      "local_path": "research/toolchains/ass-ffmpeg/20261024/ffmpeg-utils.txt",
+      "bytes": 23796,
+      "sha256": "e77d9fcdc60ccc7c8b3b18cf05aeaa3d940a7f663c57bef79200dce211f1dc36"
+    },
+    {
+      "source_url": "https://formulae.brew.sh/formula/ffmpeg-full",
+      "local_path": "research/toolchains/ass-ffmpeg/20261024/brew-ffmpeg-full.txt",
+      "bytes": 7040,
+      "sha256": "c5a4731fd4c56f5a26ba0c7bbe9e569ce6f1aa5bee7ce4bac7c2a1e2a243524f"
+    },
+    {
+      "source_url": "https://formulae.brew.sh/api/formula/ffmpeg-full.json",
+      "local_path": "research/toolchains/ass-ffmpeg/20261024/brew-ffmpeg-full.json",
+      "bytes": 6389,
+      "sha256": "1065e992735f9bac72b2f3d9c930f7bd4c1b33f12d0ccf8c701796b798e1d998"
+    },
+    {
+      "source_url": "https://formulae.brew.sh/api/formula/libass.json",
+      "local_path": "research/toolchains/ass-ffmpeg/20261024/brew-libass.json",
+      "bytes": 7268,
+      "sha256": "dd32174978dc66dcb4883e0f965cc55b499fd2727fa74853fb9d9114ddbacb00"
+    }
+  ]
+}

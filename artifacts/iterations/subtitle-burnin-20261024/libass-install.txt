@@ -1,0 +1,10 @@
+ mkdir -p '/Users/xiaowei/work/ai-rap-video-20261023/.workbench/toolchains/ass-ffmpeg-8.1.1/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libass/libass.la '/Users/xiaowei/work/ai-rap-video-20261023/.workbench/toolchains/ass-ffmpeg-8.1.1/lib'
+libtool: install: /usr/bin/install -c libass/.libs/libass.lai /Users/xiaowei/work/ai-rap-video-20261023/.workbench/toolchains/ass-ffmpeg-8.1.1/lib/libass.la
+libtool: install: /usr/bin/install -c libass/.libs/libass.a /Users/xiaowei/work/ai-rap-video-20261023/.workbench/toolchains/ass-ffmpeg-8.1.1/lib/libass.a
+libtool: install: chmod 644 /Users/xiaowei/work/ai-rap-video-20261023/.workbench/toolchains/ass-ffmpeg-8.1.1/lib/libass.a
+libtool: install: ranlib /Users/xiaowei/work/ai-rap-video-20261023/.workbench/toolchains/ass-ffmpeg-8.1.1/lib/libass.a
+ mkdir -p '/Users/xiaowei/work/ai-rap-video-20261023/.workbench/toolchains/ass-ffmpeg-8.1.1/include/ass'
+ /usr/bin/install -c -m 644 libass/ass_types.h libass/ass.h '/Users/xiaowei/work/ai-rap-video-20261023/.workbench/toolchains/ass-ffmpeg-8.1.1/include/ass'
+ mkdir -p '/Users/xiaowei/work/ai-rap-video-20261023/.workbench/toolchains/ass-ffmpeg-8.1.1/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libass.pc '/Users/xiaowei/work/ai-rap-video-20261023/.workbench/toolchains/ass-ffmpeg-8.1.1/lib/pkgconfig'
