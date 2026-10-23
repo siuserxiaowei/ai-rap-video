@@ -1,0 +1,149 @@
+{
+  "id": "01",
+  "name": "RapVideoGenerator",
+  "url": "https://rapvideogenerator.com/",
+  "category": "rap",
+  "checked_at": "2026-10-23",
+  "summary": "官网宣称可从主题或自写歌词生成原创 rap 歌曲，再以单人自拍生成对口型竖屏 rap 视频；歌曲提供两个版本。本次只读取公开页面，未实测生成。来源：https://rapvideogenerator.com/",
+  "inputs": [
+    "主题描述或自写歌词（官网宣称）。https://rapvideogenerator.com/",
+    "单人正面照片，支持 JPG、PNG、WebP，需本人或获同意的成年人（官网要求）。https://rapvideogenerator.com/",
+    "节拍风格、声音、时长、画质及自定义场景；页面列出 Trap、Boom Bap、Drill、Melodic、Lo-fi、Hyperpop 六种节拍（官网宣称）。https://rapvideogenerator.com/"
+  ],
+  "outputs": [
+    "歌曲可下载 MP3，每个音乐请求含两个版本；文本歌曲时长选项 30/60/120 秒（官网宣称）。https://rapvideogenerator.com/ ; https://rapvideogenerator.com/pricing",
+    "含 rap 音轨的 9:16 MP4，视频长度 10 或 15 秒；480p、720p，以及需 Pro/Studio 的 1080p（官网宣称）。https://rapvideogenerator.com/"
+  ],
+  "features": [
+    "免费预览并编辑歌词；随后生成原创节拍、rap 人声和照片表演（官网宣称）。https://rapvideogenerator.com/",
+    "先听两个歌曲版本、选取喜欢的片段，再添加照片生成视频（官网工作流）。https://rapvideogenerator.com/",
+    "所有视频分辨率支持自定义场景；页面明确提示场景结果及对口型准确度可能变化。https://rapvideogenerator.com/",
+    "官网称视频通常需 5–10 分钟，完成后保存在 My Studio；失败的视频自动退回积分。https://rapvideogenerator.com/",
+    "价格页还列出 demo cover、demo extend、免费 lyric videos 等入口或计费项目，具体质量未测试。https://rapvideogenerator.com/pricing"
+  ],
+  "pricing": {
+    "summary": "USD 计价。视频按分辨率每秒计费：480p 10 credits、720p 20 credits、1080p 40 credits（后者限 Pro/Studio）；10 秒 720p 为 200 credits。文本歌曲 30/60/120 秒分别为 10/20/40 credits，合资格 30 秒歌曲可使用付费计划额度。月付与年付折月价分别记录，未将年付折月视作月付。来源：https://rapvideogenerator.com/pricing",
+    "free_tier": "注册一次性赠送 10 credits，可生成一首 30 秒歌曲、两个版本，无需信用卡；视频最低 100 credits，故赠送额度不足以生成视频。歌词、rap 名称和 lyric videos 标为免费。来源：https://rapvideogenerator.com/pricing",
+    "plans": [
+      {
+        "name": "Starter monthly",
+        "amount": 19.99,
+        "currency": "USD",
+        "billing_period": "monthly",
+        "notes": "首页列出的逐月价格；本次正文未取得月度积分额度。来源：https://rapvideogenerator.com/"
+      },
+      {
+        "name": "Starter yearly",
+        "amount": 9.99,
+        "currency": "USD",
+        "billing_period": "monthly_equivalent_billed_yearly",
+        "credits": 7200,
+        "notes": "年付折月价，非逐月收费；全年积分一次发放。价格页称含每月 30 次 30 秒文本歌曲额度。来源：https://rapvideogenerator.com/ ; https://rapvideogenerator.com/pricing"
+      },
+      {
+        "name": "Pro monthly",
+        "amount": 49.99,
+        "currency": "USD",
+        "billing_period": "monthly",
+        "notes": "首页列出的逐月价格；本次正文未取得月度积分与歌曲额度。来源：https://rapvideogenerator.com/"
+      },
+      {
+        "name": "Pro yearly",
+        "amount": 24.99,
+        "currency": "USD",
+        "billing_period": "monthly_equivalent_billed_yearly",
+        "credits": 21600,
+        "notes": "年付折月价，全年积分一次发放；价格页称年付含不限次 30 秒文本歌曲请求。来源：https://rapvideogenerator.com/ ; https://rapvideogenerator.com/pricing"
+      },
+      {
+        "name": "Studio monthly",
+        "amount": 99.99,
+        "currency": "USD",
+        "billing_period": "monthly",
+        "notes": "首页列出的逐月价格；本次正文未取得月度积分与歌曲额度。来源：https://rapvideogenerator.com/"
+      },
+      {
+        "name": "Studio yearly",
+        "amount": 49.99,
+        "currency": "USD",
+        "billing_period": "monthly_equivalent_billed_yearly",
+        "credits": 48000,
+        "notes": "年付折月价，全年积分一次发放；价格页称年付含不限次 30 秒文本歌曲请求。来源：https://rapvideogenerator.com/ ; https://rapvideogenerator.com/pricing"
+      },
+      {
+        "name": "600-credit pack",
+        "amount": 9.99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 600,
+        "notes": "不订阅、积分不失效；按标准价。来源：https://rapvideogenerator.com/pricing"
+      },
+      {
+        "name": "2000-credit pack",
+        "amount": 29.99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 2000,
+        "notes": "不订阅、积分不失效；按标准价。来源：https://rapvideogenerator.com/pricing"
+      },
+      {
+        "name": "6000-credit pack",
+        "amount": 79.99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 6000,
+        "notes": "不订阅、积分不失效；按标准价。年付会员积分包另享 25% 折扣。来源：https://rapvideogenerator.com/pricing"
+      }
+    ],
+    "source_url": "https://rapvideogenerator.com/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "本次读取的官网首页与价格页未发现公开 API 文档或开发者入口；未尝试推测 API 路径，不能据此认定无 API。检查范围：https://rapvideogenerator.com/ ; https://rapvideogenerator.com/pricing",
+    "url": "https://rapvideogenerator.com/"
+  },
+  "limitations": [
+    "本次仅核查公开页面；未注册、未播放或验证演示视频、未提交生成、未检验音质或对口型效果。核查范围：https://rapvideogenerator.com/ ; https://rapvideogenerator.com/pricing",
+    "免费赠送额度不够生成视频；视频只列出 10/15 秒，1080p 需 Pro/Studio。https://rapvideogenerator.com/pricing",
+    "官网禁止未成年人、公众人物及未经同意的他人照片，并声明不允许模仿真实艺人的声音或歌曲。https://rapvideogenerator.com/",
+    "官网提示表演及对口型会变化，场景生成结果可能与描述不同。https://rapvideogenerator.com/",
+    "官网称 Starter 与积分包视频仅供个人使用，Pro 视频含商业许可；Studio 的准确商业授权范围本次未进一步核实。https://rapvideogenerator.com/",
+    "价格页的 Jina 正文没有完整展示订阅价格卡；订阅金额取自官网首页，月付积分及月付歌曲额度待核。https://rapvideogenerator.com/ ; https://rapvideogenerator.com/pricing",
+    "价格页称税费或 VAT 可能在结账时添加；未进入结账核验实付总额。https://rapvideogenerator.com/pricing"
+  ],
+  "best_for": "推断：适合愿意先用免费歌曲验证歌词与声音，再为生日祝福、团队喊话或短 rap 内容购买自拍视频的人；推广用途需核对许可证。依据官网工作流与案例：https://rapvideogenerator.com/",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://rapvideogenerator.com/",
+      "title": "AI Rap Video Generator: Turn Your Photo Into a Rap Video",
+      "kind": "official",
+      "local_path": "research/evidence/01/home-jina.txt",
+      "supports": [
+        "产品工作流、输入与输出",
+        "视频时长、格式和分辨率",
+        "六种节拍、歌词预览、生成时长与失败退积分宣称",
+        "订阅月付与年付折月标价、全年积分",
+        "照片限制与许可摘要"
+      ]
+    },
+    {
+      "url": "https://rapvideogenerator.com/pricing",
+      "title": "Pricing: Monthly and Yearly Plans in USD | RapVideoGenerator",
+      "kind": "pricing",
+      "local_path": "research/evidence/01/pricing-jina.txt",
+      "supports": [
+        "免费额度及最低视频积分",
+        "积分包价格",
+        "视频与歌曲积分消耗",
+        "年付计划歌曲额度",
+        "积分有效期、续费取消与税费说明"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：免费双版本歌曲是视频付费前的体验入口；10-credit 注册赠送与 100-credit 视频门槛将听歌体验和视频购买分成两步。依据：https://rapvideogenerator.com/ ; https://rapvideogenerator.com/pricing",
+    "推断：统一积分余额和按分辨率每秒计费便于把音乐、cover/extend 和视频放入同一消费框架，但用户仍需同时理解套餐权限与积分。依据：https://rapvideogenerator.com/pricing",
+    "推断：将场景与对口型偏差直接写在生成表单附近，有助于在付费前设置预期；不能由此推断实际质量高低。依据：https://rapvideogenerator.com/"
+  ]
+}

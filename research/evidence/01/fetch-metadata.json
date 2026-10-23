@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-23",
+  "method": "agent-reach / Jina Reader via curl",
+  "pages": [
+    {
+      "url": "https://rapvideogenerator.com/",
+      "fetch_url": "https://r.jina.ai/https://rapvideogenerator.com/",
+      "local_path": "research/evidence/01/home-jina.txt",
+      "bytes": 10884,
+      "sha256": "3dece69440310f272531dc4adfc77d138126f084cd0e210dd89dca8f8fc48df6",
+      "result": "success; product/pricing body present"
+    },
+    {
+      "url": "https://rapvideogenerator.com/pricing",
+      "fetch_url": "https://r.jina.ai/https://rapvideogenerator.com/pricing",
+      "local_path": "research/evidence/01/pricing-jina.txt",
+      "bytes": 5691,
+      "sha256": "00bb2f500c3422e675e752da9d1438fd72c51d953dbf5df73fb96e892f53a383",
+      "result": "success; product/pricing body present"
+    }
+  ]
+}

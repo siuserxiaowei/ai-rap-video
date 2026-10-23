@@ -1,0 +1,124 @@
+Title: Pricing: Monthly and Yearly Plans in USD | RapVideoGenerator
+
+URL Source: https://rapvideogenerator.com/pricing
+
+Markdown Content:
+Pricing · all prices in USD
+
+## Pay for  
+the verse
+
+Make a few videos with a one-time credit pack, or create regularly with a plan. Pro and Studio yearly include unlimited 30-second text requests. Sign up for 10 free credits to try your first 30-second song. Music, demo transformations and videos share one credit balance; videos start at 100 credits. Each music request includes two versions.
+
+Save 50%
+
+Billed every month. Compare yearly billing below.
+
+Save 50% with yearly billing
+
+Up to **US$600.00 saved per year** compared with 12 monthly payments for the same plan.
+
+Need more music or video?
+
+## Credit packs
+
+One-time top-ups for any account. Credits never expire. Packs do not add 1080p access or commercial rights; your existing plan license stays unchanged. Yearly members save 25%.
+
+600
+
+creation credits
+
+US$9.99
+
+One payment · no subscription
+
+About USD 0.0167 / credit
+
+For example: 3 × 10s 720p videos (200 credits each) if all credits go to these videos.
+
+2,000
+
+creation credits
+
+US$29.99
+
+One payment · no subscription
+
+About USD 0.015 / credit
+
+For example: 10 × 10s 720p videos (200 credits each) if all credits go to these videos.
+
+6,000
+
+creation credits
+
+US$79.99
+
+One payment · no subscription
+
+About USD 0.0133 / credit
+
+For example: 30 × 10s 720p videos (200 credits each) if all credits go to these videos.
+
+### What credits buy
+
+*   480p video · 10 credits / second
+*   720p video · 20 credits / second
+*   1080p video (Pro, Studio) · 40 credits / second
+*   Video clips · 10s or 15s, custom scenes
+*   30s text songs · 10 credits or paid plan allowance
+*   60s text songs · 20 credits / request
+*   120s text songs · 40 credits / request
+*   Demo cover 30s/60s · 20 credits; 120s · 40 credits
+*   Demo extend · 40 credits / request
+*   Signup gift · 10 credits added to your balance
+*   Music prices include 2 versions per request
+*   Lyric videos, lyrics, names · free
+
+### Renewal and cancellation
+
+Plans renew automatically at the price shown, monthly or yearly, until you cancel. Cancel anytime in My Studio → Manage billing. You keep access until the end of the paid period and are not charged again.
+
+### Secure payment
+
+Checkout is hosted by Stripe. We never see or store your card number. Charges appear as RAP VIDEO. Questions:[support@rapvideogenerator.com](mailto:support@rapvideogenerator.com)
+
+Billing FAQ
+
+## Money talk
+
+### Can I try a rap before paying?
+
+Yes. Sign up for 10 free credits and make a 30-second song from an idea or your own lyrics, with two versions to play and download. The gift is once per account. All credits share one balance for music and videos. Videos start at 100 credits, so you can add a plan or credit pack when you’re ready to make one.
+
+### What can credits buy?
+
+AI rap videos come in 10 or 15 second clips. 480p uses 10 credits per second, 720p uses 20 credits, and 1080p uses 40 credits. A 10-second 720p video costs 200 credits. All resolutions support custom scenes; 1080p requires Pro or Studio. Text songs cost 10 credits for 30 seconds, 20 credits for 60 seconds or 40 credits for 120 seconds, including two versions. Eligible 30-second requests use your paid plan’s song allowance instead. Demo covers cost 20 credits for 30/60 seconds or 40 credits for 120 seconds; continuations cost 40 credits. Lyric videos, lyrics and rap names do not use credits.
+
+### How does yearly billing work?
+
+You pay once for the year at 50% off the monthly price, and all 12 months of credits are added to your account right away. Pro and Studio yearly plans also include unlimited 30-second text requests; Starter yearly keeps 30 such requests a month. Longer text requests and demo transformations use credits as quoted before generation. Existing protected benefits are applied by your account quote. The plan renews yearly until you cancel.
+
+### What if I run out of credits?
+
+Buy a one-time credit pack at any time. Packs never expire, and yearly members get 25% off every pack.
+
+### Do unused credits expire?
+
+No. Subscription credits and pack credits stay in your balance while your account is open, even after you cancel a plan.
+
+### How do I cancel?
+
+Open My Studio and choose Manage billing / cancel. Your plan stays active until the end of the period you paid for and you are not charged again. Credits already in your balance remain available.
+
+### Can I get a refund?
+
+Music requests reserve the quoted credits. If no usable version is delivered by the processing deadline, all reserved credits are returned to your credit balance. If one usable version is delivered, requests costing 20 or 40 credits return half; requests costing 10 credits have no partial credit return. Free signup credits have no cash value. Later delivery is not charged again. Payment refunds follow the Refund Policy, including the 7-day conditions for unused paid credits and song allowances.
+
+### Can I upgrade later?
+
+Yes. Upgrade from Starter to Pro or Studio, or from monthly to yearly, on this page. Stripe charges the prorated difference. After payment is confirmed, we add the credit difference for the remaining billing period; switching to yearly starts a new year, with unused monthly allowance deducted from the yearly grant. To downgrade, cancel and choose a new plan when the current one ends.
+
+### Which payment methods and currency?
+
+All prices are in US dollars (USD). We accept Visa, Mastercard, American Express, Discover, Apple Pay and Google Pay through Stripe. Sales tax or VAT may be added at checkout where required. Charges appear as RAP VIDEO.
