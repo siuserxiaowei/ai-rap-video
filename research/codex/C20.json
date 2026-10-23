@@ -1,0 +1,11 @@
+{
+  "id": "C20",
+  "agent_task": "c20_beatviz",
+  "site_id": "20",
+  "name": "BeatViz",
+  "original_commit": "b73debf4e218f9861dfeaeabc94f4f25d96c4814",
+  "accepted_at": "2026-10-23T15:41:45.585193+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}

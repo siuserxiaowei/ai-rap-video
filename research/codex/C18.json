@@ -1,0 +1,11 @@
+{
+  "id": "C18",
+  "agent_task": "c18_freebeat",
+  "site_id": "18",
+  "name": "Freebeat",
+  "original_commit": "a7310946b45a2c2c90afeeacada9174792c74e05",
+  "accepted_at": "2026-10-23T15:41:45.144422+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}

@@ -15,19 +15,28 @@
     "11",
     "12",
     "13",
-    "14"
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20"
   ],
   "gemini_accepted": 24,
   "process_sessions": {
     "gemini_queue": 34726
   },
-  "next_research_agent": 18,
+  "next_research_agent": 24,
   "active_codex_tasks": [
-    "c15_musicful",
-    "c16_pollo",
-    "c17_goenhance"
+    "c21_revid",
+    "c22_banger",
+    "c23_kaiber"
   ],
   "pending_features": "C41-C50 as described in PLAN.md and docs/WORKBENCH_SPEC.md",
   "external_engine_commit": "fccf3d4; preserve airap and coordinate per COORDINATION.md",
-  "feishu": "not yet created; lark-doc workflow read, initialize when report ready"
+  "feishu": "not yet created; lark-doc workflow read, initialize when report ready",
+  "feishu_cli": "/Users/xiaowei/.local/state/fnm_multishells/1706_1792153352427/bin/lark-cli",
+  "feishu_work_dir": "draft_e2ad52db_folder",
+  "feishu_draft_path": "draft_e2ad52db_folder/draft.xml"
 }
