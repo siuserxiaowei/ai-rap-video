@@ -1,0 +1,185 @@
+{
+  "id": "06",
+  "name": "Airapvid",
+  "url": "https://airapvid.com/",
+  "category": "rap",
+  "checked_at": "2026-10-23",
+  "summary": "面向照片变说唱舞台短片的模板工具；官网宣称自动生成歌词、节拍、歌声及口型同步，提供双人、生日吐槽与宠物模板。公开价格按积分、模型、分辨率和时长区分；免费方案明确不含视频。未实际生成验证。",
+  "inputs": [
+    "一至两张清晰正面人物或宠物照片；表单标注 JPG/PNG、每张至多 20 MB",
+    "模板选择：Classic Duo、Birthday Roast Rap、Pet Drops a Verse",
+    "视频描述及模型、画幅选择；首页未登录表单显示 Kling 3.0 / 5s / 720p / 16:9"
+  ],
+  "outputs": [
+    "供应商宣称：含原创歌词、节拍和歌声的口型同步 rap 视频",
+    "供应商宣称：支持 9:16、16:9，下载无水印；教程称可至 30 秒，实际模型能力待核"
+  ],
+  "features": [
+    "双人照片角色槽与舞台模板",
+    "单人配惊喜嘉宾、双人或宠物组合",
+    "自动构造多角度角色参考以保持身份（供应商宣称）",
+    "预设舞台、机位和动作顺序",
+    "通用图片/视频生成入口与积分包"
+  ],
+  "pricing": {
+    "summary": "月付 Light $29.90/200 积分、Pro $49.90/400、Deep $99.90/800。标准视频是 Seedance 2.0 Mini 720p 12 秒，10 积分；Ultra Seedance 2.5 同规格为 37 积分。另有 $9.99 的单条 Ultra 720p 12 秒成片，与同价 12 积分包交付不同。年付开关标 -10%，未切换核实年付金额。",
+    "free_tier": "Free $0，20 积分欢迎赠送；方案表与 FAQ 明确不支持视频、不可商用。表列至多一张 Nano Banana Pro，FAQ 却写仅 Nano Banana；计算器亦列 20 积分可算一次 Sora 2，均不能证明免费账户可生成视频。",
+    "plans": [
+      {
+        "name": "Free",
+        "amount": 0,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 20,
+        "notes": "欢迎赠送，未证明每月重复；视频不支持，不可商用"
+      },
+      {
+        "name": "Light",
+        "amount": 29.9,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 200,
+        "notes": "每月发放；约 20 条标准视频，商用和无水印为官网方案权益"
+      },
+      {
+        "name": "Pro",
+        "amount": 49.9,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 400,
+        "notes": "每月发放；约 40 条标准视频，优先队列"
+      },
+      {
+        "name": "Deep",
+        "amount": 99.9,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 800,
+        "notes": "每月发放；约 80 条标准视频，最高优先队列"
+      },
+      {
+        "name": "Seedance 2.0 Mini Trial",
+        "amount": 1.29,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 5,
+        "notes": "仅限首次购买一次、Mini 480p、约 12 秒，积分有效一年"
+      },
+      {
+        "name": "1 Video Pack",
+        "amount": 9.99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 12,
+        "notes": "约一条标准 Mini 720p 12 秒；不是 Ultra 成片，积分有效一年"
+      },
+      {
+        "name": "5 Video Pack",
+        "amount": 29,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 50,
+        "notes": "约 5 条标准视频；有效一年"
+      },
+      {
+        "name": "35 Video Pack",
+        "amount": 99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 350,
+        "notes": "约 35 条标准视频；有效一年"
+      },
+      {
+        "name": "90 Video Pack",
+        "amount": 199,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 900,
+        "notes": "约 90 条标准视频；有效一年"
+      },
+      {
+        "name": "280 Video Pack",
+        "amount": 499,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 2800,
+        "notes": "约 280 条标准视频；有效一年"
+      },
+      {
+        "name": "AI Rap Video 单条成片",
+        "amount": 9.99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "notes": "价格页声称 landing page 售单条 Ultra 720p 12 秒成片；未进入结账验证"
+      }
+    ],
+    "credit_metering": "Seedance 实际积分 = ceil(秒数 × 对应 12 秒积分 / 12)，最低 1。Mini 480p/720p 为 5/10；Fast 为 8/17；Pro 480p/720p/1080p 为 10/20/50；Ultra 为 17/37/93。Kling v2-5-turbo 5s/10s 为 140/280 积分，不能套用于首页 Kling 3.0。",
+    "expiry": "一次性积分自发放起 365 天；订阅周期结束后最多有一个月宽限期，之后该周期未用积分到期。",
+    "source_url": "https://airapvid.com/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "本次主页与价格页未找到可调用的公开 API 文档；独立访问 /api 返回同一 rap 营销正文，没有认证、端点或请求示例。不能据此断言不存在 API。",
+    "url": "https://airapvid.com/api"
+  },
+  "limitations": [
+    "官网功能、身份保持、出片速度及无水印均未实测；未注册、付款、上传或生成。",
+    "首页宣称 Seedance 2.5，静态 HTML 的未登录生成表单却显示 Kling / Kling 3.0；实际默认模型与 rap 模板路由待核。",
+    "首页结构化 FAQ 写 Seedance 2.5 在 720p 约 76 积分/秒，而价格页写 Ultra 720p 12 秒 37 积分；不能合并成可信报价，以生成前实际估价待核。",
+    "首页声称免费开始，价格页明确免费方案不支持视频；免费图片模型的表格与 FAQ 也不一致。",
+    "价格页 Kling 计费列的是 v2-5-turbo，首页表单是 Kling 3.0，后者计费未知。",
+    "/api 返回营销正文，不是开发文档；本次仅查三条公开路径。"
+  ],
+  "best_for": "希望用一两张照片制作双人、生日吐槽或宠物说唱舞台短片的社交内容创作者；购买前需确认实际模型及扣费。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://airapvid.com/",
+      "title": "AI Rap Video Generator（Jina 正文）",
+      "kind": "official",
+      "local_path": "research/evidence/06/homepage-jina.txt",
+      "supports": [
+        "照片输入、原创词曲与口型同步为供应商宣称",
+        "双人/生日/宠物模板",
+        "Seedance 2.5 宣传、画幅及教程时长"
+      ]
+    },
+    {
+      "url": "https://airapvid.com/",
+      "title": "首页公开 HTML 与非脚本文字提取",
+      "kind": "official",
+      "local_path": "research/evidence/06/homepage.html",
+      "supports": [
+        "未登录表单的 Kling 3.0、5s、720p、16:9 标示",
+        "JPG/PNG、20 MB 上传提示",
+        "结构化 FAQ 旧计价与价格页冲突；保留原始 HTML 以核对"
+      ]
+    },
+    {
+      "url": "https://airapvid.com/pricing",
+      "title": "Pricing Plans",
+      "kind": "pricing",
+      "local_path": "research/evidence/06/pricing-jina.txt",
+      "supports": [
+        "订阅与一次性包价格、积分及有效期",
+        "免费不支持视频及不可商用",
+        "12 秒标准视频与按时长向上取整计费",
+        "单条 Ultra 成片与积分包有区别"
+      ]
+    },
+    {
+      "url": "https://airapvid.com/api",
+      "title": "/api 返回 AI Rap Video Generator 营销正文",
+      "kind": "official",
+      "local_path": "research/evidence/06/api-jina.txt",
+      "supports": [
+        "该路径未提供 API 文档；不能确认 API 可用性"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：双照片角色槽与事件模板可降低用户写提示词的负担，值得作为 rap 视频工具的引导方式参考。",
+    "推断：同价成片与积分包、免费图片与付费视频若缺少显著区分，容易形成错误购买预期。",
+    "推断：宣传模型、默认表单与计价说明应统一显示，并在生成前给出当前配置的总积分估价。"
+  ]
+}

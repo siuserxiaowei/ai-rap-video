@@ -1,0 +1,59 @@
+{
+  "checked_at": "2026-10-23",
+  "method": "agent-reach web / Jina Reader; direct public HTML only for homepage form labels and structured metadata",
+  "requests": [
+    {
+      "url": "https://airapvid.com/",
+      "file": "homepage-jina.txt",
+      "provenance": "Read and reused supplied public Jina capture at /Users/xiaowei/.agent-reach/ai-rap-video-20261023/06.txt"
+    },
+    {
+      "url": "https://airapvid.com/pricing",
+      "reader_url": "https://r.jina.ai/https://airapvid.com/pricing",
+      "file": "pricing-jina.txt",
+      "result": "Pricing page text retrieved"
+    },
+    {
+      "url": "https://airapvid.com/api",
+      "reader_url": "https://r.jina.ai/https://airapvid.com/api",
+      "file": "api-jina.txt",
+      "result": "Returned AI Rap Video Generator marketing body, not API documentation; route behavior does not establish API availability"
+    },
+    {
+      "url": "https://airapvid.com/",
+      "file": "homepage.html",
+      "result": "Direct public HTML retrieved; homepage-visible.txt is HTMLParser extraction excluding script/style; not browser screenshot"
+    }
+  ],
+  "files": {
+    "homepage-jina.txt": {
+      "sha256": "b232cb24ff06d9fd836a11dfbfb6577c3af7a76435b4ad76b34fac7254131549",
+      "bytes": 5641
+    },
+    "pricing-jina.txt": {
+      "sha256": "a045905d2e828edb459e2e14e5b0d5fcbaa93663f886a565a3a85717d085503f",
+      "bytes": 9223
+    },
+    "pricing-jina.headers.txt": {
+      "sha256": "4043617c3e5d4c2a0436a22c289c0814751d746bd48b7dd37874daa54cda5498",
+      "bytes": 855
+    },
+    "api-jina.txt": {
+      "sha256": "bcaf15b281e32395bbb76797edd1be679cf68aecc1adfbf1ee2b429674f07ba6",
+      "bytes": 5644
+    },
+    "api-jina.headers.txt": {
+      "sha256": "7f72f3914b2ca6325e2daf3ab11222bc0671ca2fc64badfbe6227b7f8928281a",
+      "bytes": 853
+    },
+    "homepage.html": {
+      "sha256": "2efe58cc6d301f93ccef01dbab009e844038f3de9ab23fd5cc68406f5c7628c5",
+      "bytes": 394707
+    },
+    "homepage-visible.txt": {
+      "sha256": "a0c521bcda4e941189d5c8ae9887061004752654f379dd5306ae8c5b11d91af4",
+      "bytes": 7127
+    }
+  },
+  "boundaries": "No account registration, payment, upload or generation; provider claims not independently tested."
+}
