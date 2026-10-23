@@ -1,0 +1,111 @@
+{
+  "id": "10",
+  "name": "TryH3",
+  "url": "https://tryh3.com/generator/ai-rap-video",
+  "category": "rap",
+  "checked_at": "2026-10-23",
+  "summary": "官网提供以 rap 表演片段为参考、用照片替换一位或两位表演者的短视频编辑流程；成片保留源音频，不生成新歌词。以下均为供应商说明，未实际生成验证。",
+  "inputs": [
+    "内置 rap 表演模板，或自有 MP4/MOV 视频及所选时间片段",
+    "一张照片替换第一位表演者，两张照片替换两位；可添加修改方向"
+  ],
+  "outputs": [
+    "MP4；依源片段和模型支持 5–30 秒，最高 1080p",
+    "保持源画幅并加回选定原片音频；静音源输出仍静音"
+  ],
+  "features": [
+    "街头 rap battle、生日录音棚、情侣 duet 等参考模板",
+    "Seedance 2.5 直接编辑源片段；其他模型参考表演动作生成",
+    "支持表演者、服装、产品、背景和风格修改",
+    "生成前按模型、时长、分辨率和照片数报价；失败任务退积分"
+  ],
+  "pricing": {
+    "summary": "付费积分制；下列为一次性积分包，无自动续费，有效期 12 个月。Rap 页 720p、两张照片、5 秒示例为 21–195 积分，依模型而异，最终看生成器报价。网站也提供月付/年付切换，本次未核实其价格。",
+    "free_tier": "价格页提及一次性注册欢迎积分，仅用于评估，具体数量和有效期未明确；Rap 页要求已购买的模型权限和足够积分，不能据此保证该流程可免费生成。",
+    "plans": [
+      {
+        "name": "Trial",
+        "amount": 5.0,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 24,
+        "notes": "12 个月有效；不是免费试用"
+      },
+      {
+        "name": "Boost Pack",
+        "amount": 29.9,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 700,
+        "notes": "600 基础 + 100 奖励积分；12 个月有效"
+      },
+      {
+        "name": "Creator Pack",
+        "amount": 49.9,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 1280,
+        "notes": "1200 基础 + 80 奖励积分；12 个月有效"
+      },
+      {
+        "name": "Studio Pack",
+        "amount": 99.9,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 2560,
+        "notes": "2400 基础 + 160 奖励积分；12 个月有效"
+      }
+    ],
+    "source_url": "https://tryh3.com/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "已读产品、首页和价格页未找到 TryH3 自身公开 API 文档。价格页的 direct API 对比链接指向 MiniMax，不能当作 TryH3 API。",
+    "url": null
+  },
+  "limitations": [
+    "不写新 verse，也不接收单独音乐文件；生成口型可能无法逐字吻合",
+    "时长受源视频与模型共同限制；街头模板为 5/10 秒，生日和情侣模板为 5 秒，30 秒限更长源片及 Seedance 2.5",
+    "素材须有编辑许可；真实人物须为同意被编辑的成年人",
+    "需要购买的模型权限及足够积分；实际质量、耗时和退款执行未实测"
+  ],
+  "best_for": "希望把自己或朋友放入现成 rap 表演，制作生日祝福、双人对唱或社交短片的人。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://tryh3.com/generator/ai-rap-video",
+      "title": "AI Rap Video Generator – Rap Templates & Video Editing | TryH3",
+      "kind": "official",
+      "local_path": "research/evidence/10/product-jina.txt",
+      "supports": [
+        "参考表演加照片工作流、模型差异、原片音频、时长与格式",
+        "不写新歌词、不收独立音乐文件、口型及源视频限制",
+        "720p 两张照片的分模型积分价格"
+      ]
+    },
+    {
+      "url": "https://tryh3.com/pricing",
+      "title": "MiniMax H3 Pricing — Image & Video Credits | TryH3",
+      "kind": "pricing",
+      "local_path": "research/evidence/10/pricing-jina.txt",
+      "supports": [
+        "四档一次性积分包、12 个月有效、失败退积分",
+        "欢迎积分仅评估；付费积分可商用",
+        "与供应商直接 API 的职责对比，不是 TryH3 API 文档"
+      ]
+    },
+    {
+      "url": "https://tryh3.com/",
+      "title": "TryH3 — Try Any Viral AI Video Trend With Your Photo",
+      "kind": "official",
+      "local_path": "research/evidence/10/home-jina.txt",
+      "supports": [
+        "网站定位为照片加趋势模板的视频工作室"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：产品机会在于把参考视频选择、人物替换和逐次报价串成低门槛流程；其 rap 标签并不意味着具备歌词或歌曲创作能力。",
+    "初始共享 Jina 快照为失败页；本次重试产品页成功，并由 web open 读到对应正文，full_page 状态基于本次成功抓取。"
+  ]
+}

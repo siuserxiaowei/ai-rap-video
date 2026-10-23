@@ -1,0 +1,68 @@
+Title: AI Rap Video Generator – Rap Templates & Video Editing | TryH3
+
+URL Source: https://tryh3.com/generator/ai-rap-video
+
+Markdown Content:
+[Home](https://tryh3.com/)AI Rap Video
+RAP VIDEO TEMPLATES · PHOTO TO PERFORMANCE
+
+Make an AI rap video with your own photos. Preview a street rap battle, birthday studio session or couple duet, choose a reference, and replace the performers. Select a model and clip length, then review the credit cost before generating.
+
+Original clip audio · 5–30 seconds, depending on model · Up to 1080p MP4
+
+## What this AI rap video generator does
+
+An AI rap video uses a performance clip as the reference for your edit. Choose a street rap battle, birthday studio session, couple duet or another built-in clip, then add your photos. Seedance 2.5 edits the selected footage directly; other models generate from its motion reference. The finished MP4 includes the selected source audio.
+
+## How to Make an AI Rap Video in 3 Steps
+
+1.   0 1
+### Pick your performance clip
+
+Preview a rap example with sound and choose Use this template, browse the other performances, or upload your own MP4 or MOV. Move the timeline to select a segment. Available lengths depend on the source and model.
+
+2.   0 2
+### Add your photos and direction
+
+Add one photo to replace the first performer or two to replace both. For the street battle, Image 1 replaces the man in black and Image 2 the man in glasses. In the studio and couple examples, Image 1 replaces the person on the left at the start and Image 2 the person on the right.
+
+3.   0 3
+### Choose a model and generate
+
+Select the model, duration and resolution. Review the credit quote and confirm that you have permission to use the footage and photos, then generate and download your MP4.
+
+## Which Model Should You Use? Prices per Video
+
+Choose Seedance 2.5 for a direct edit of the source clip, or use Seedance 2.0, Fast, Mini or MiniMax H3 for a new video guided by its performance. Prices below are credits for 720p with two reference photos.
+
+Rap video credit costs at 720p with two reference photos
+| Model | 5 s | 10 s | 15 s | 30 s |
+| --- | --- | --- | --- | --- |
+| Seedance 2.5 | 195 | 389 | 584 | 1167 |
+| Seedance 2.0 | 129 | 258 | 387 | — |
+| MiniMax H3 | 86 | 172 | 258 | — |
+| Seedance 2.0 Fast | 77 | 154 | 231 | — |
+| Seedance 2.0 Mini | 21 | 42 | 63 | — |
+
+Purchased model access and enough credits are required. The generator shows the exact quote for your model, resolution, length and image count. A failed generation returns its credits.
+
+[See credit packs and plans ↗](https://tryh3.com/pricing)
+## AI Rap Video FAQ
+
+Which performance templates can I use?
+Start with a street rap battle, birthday studio session or couple duet. Hotel Lobby and APT are also available in the picker. The examples are AI-generated reference performances with fictional adults. You can also upload your own clip.
+
+Does the rap video keep the original song?
+Yes. The selected source audio is added back to the finished video. A silent source stays silent. This workflow does not write a new verse or accept a separate music file. Generated mouth movements may not match every word exactly.
+
+How long can my rap video be?
+Clip length must fit both the source and model. The street battle offers 5 or 10 seconds; the birthday and couple clips offer 5 seconds. Longer sources offer 15 seconds, or 30 seconds with Seedance 2.5. Output keeps the source framing.
+
+Can I use one photo or change something other than the rapper?
+Yes. Use one photo to replace the first performer, or two to replace both. The editor also supports outfit, product, background and style changes. Use images and footage you have permission to edit; real people must be consenting adults.
+
+## Make the rap performance yours
+
+Choose your rap style, add your photos and preview the exact cost before you generate.
+
+[Start with your photos](https://tryh3.com/generator/ai-rap-video#hero-generator)

@@ -1,0 +1,877 @@
+Title: MiniMax H3 Pricing — Image & Video Credits | TryH3
+
+URL Source: https://tryh3.com/pricing
+
+Markdown Content:
+[TryH3](https://tryh3.com/)
+*   [Home](https://tryh3.com/)
+*   Video
+
+Video tools
+
+    *   [Text to video Turn your ideas into videos](https://tryh3.com/generator/text-to-video)
+    *   [AI Video Ad Generator Product photo to a 15-second ad with voice](https://tryh3.com/generator/video-ad)
+    *   [Genjutsu AI Edit a video with character, outfit, product or style references](https://tryh3.com/generator/genjutsu-ai)
+    *   [Replace Person in Video Swap anyone in a clip with a portrait photo](https://tryh3.com/generator/replace-person-in-video)
+    *   [Billionaire AI Video Turn one photo into a private jet, yacht or supercar clip](https://tryh3.com/generator/billionaire-ai-video)
+    *   [LTX Alpha Gen Turn footage into alpha mattes and transparent video.](https://tryh3.com/generator/ltx-alpha-gen)
+    *   [Video Depth Map Turn any clip into a frame-consistent depth map video](https://tryh3.com/generator/video-depth-map)
+
+Video models
+
+    *   [![Image 10](https://tryh3.com/icons/seedance.svg)Seedance 2.5 Direct videos with multimodal references](https://tryh3.com/generator/seedance-2-5)
+    *   [![Image 11](https://tryh3.com/icons/seedance.svg)Seedance 2.0 Video from text, frames and references](https://tryh3.com/generator/seedance-2-0)
+    *   [![Image 12](https://tryh3.com/icons/seedance.svg)Seedance 1.5 Pro Bring scenes to life with motion and sound](https://tryh3.com/generator/seedance-1-5-pro)
+    *   [![Image 13](https://tryh3.com/icons/wan.svg)Wan 3.0 Create up to 30 seconds from text or references](https://tryh3.com/generator/wan-3-0)
+    *   [![Image 14](https://tryh3.com/icons/ltx.png)LTX 2.5 Text, image and audio to video with Fast and Pro.](https://tryh3.com/generator/ltx-2-5)
+    *   [![Image 15](https://tryh3.com/icons/grok.svg)Grok Imagine 1.5 Create short videos from text or reference images](https://tryh3.com/generator/grok-imagine-1-5)
+    *   [![Image 16](https://tryh3.com/icons/flux.svg)FLUX 3 Video Text and images to video with native sound](https://tryh3.com/generator/flux-3-video)
+    *   [![Image 17](https://tryh3.com/icons/happyhorse.svg)Happy Horse 1.0 Text, image, reference images, and video editing](https://tryh3.com/generator/happy-horse-1-0)
+    *   [![Image 18](https://tryh3.com/icons/gemini.svg)Gemini Omni Explore Google’s video generation model](https://tryh3.com/generator/gemini-omni)
+
+*   Trending
+
+New
+
+    *   [![Image 19](https://tryh3.com/imgs/trending/plug-walk.webp)New Plug Walk AI](https://tryh3.com/generator/plug-walk-ai)
+    *   [![Image 20](https://tryh3.com/imgs/trending/topo-gigio.webp)New Enzo Celebration AI](https://tryh3.com/generator/enzo-fernandez-celebration-ai)
+    *   [![Image 21](https://tryh3.com/imgs/trending/barn-find.webp)New Barn Find AI Trend](https://tryh3.com/generator/barn-find-ai-trend)
+
+Popular
+
+    *   [![Image 22](https://tryh3.com/imgs/trending/storm-ii.webp)STORM II AI Video](https://tryh3.com/generator/storm-ii-ai-video)
+    *   [![Image 23](https://tryh3.com/imgs/trending/hit-the-road.webp)Hit the Road Dude AI](https://tryh3.com/generator/hit-the-road-dude)
+    *   [![Image 24](https://tryh3.com/imgs/trending/oouuh.webp)What You Want Me To Do AI](https://tryh3.com/generator/what-you-want-me-to-do-ai-video)
+    *   [![Image 25](https://tryh3.com/imgs/trending/wipe-me-down.webp)Wipe Me Down Dance AI](https://tryh3.com/generator/wipe-me-down-dance)
+    *   [![Image 26](https://tryh3.com/imgs/trending/ozil-goal.webp)Ozil Goal AI](https://tryh3.com/generator/ozil-goal-ai)
+    *   [![Image 27](https://tryh3.com/imgs/trending/tesla-roadster.webp)Tesla Roadster AI Video](https://tryh3.com/generator/tesla-roadster-ai-video)
+    *   [![Image 28](https://tryh3.com/imgs/trending/gas-station.webp)Gas Station Dance Trend](https://tryh3.com/generator/gas-station-dance-trend)
+    *   [![Image 29](https://tryh3.com/imgs/trending/ceiling-fan.webp)AI Ceiling Fan Transition](https://tryh3.com/generator/ai-ceiling-fan-transition)
+    *   [![Image 30](https://tryh3.com/imgs/trending/say-it-right.webp)Say It Right Dance](https://tryh3.com/generator/say-it-right-dance)
+    *   [![Image 31](https://tryh3.com/imgs/trending/smalltown-boy.webp)Smalltown Boy AI Video](https://tryh3.com/generator/smalltown-boy-ai-video)
+    *   [![Image 32](https://tryh3.com/imgs/trending/alors-on-danse.webp)Alors on Danse AI](https://tryh3.com/generator/alors-on-danse-ai-video)
+    *   [![Image 33](https://tryh3.com/imgs/trending/tormenta-de-arena.webp)Tormenta de Arena AI](https://tryh3.com/generator/tormenta-de-arena-ai)
+
+[View 35 more trends](https://tryh3.com/trending)
+
+[See all trends](https://tryh3.com/trending)
+
+*   [Prompts](https://tryh3.com/minimax-h3-prompts)
+*   [Pricing](https://tryh3.com/pricing?from=header)
+*   [Blog](https://tryh3.com/blog)
+
+Toggle theme 5 Credits Sign In
+
+5 Credits Sign In
+
+[Home](https://tryh3.com/)[Trending](https://tryh3.com/trending)
+
+Video
+
+[Text to video](https://tryh3.com/generator/text-to-video)[Image to video](https://tryh3.com/generator/image-to-video)[Reference to video](https://tryh3.com/generator/reference-to-video)[Video Editing](https://tryh3.com/generator/video-editing)[Video Extension](https://tryh3.com/generator/video-extension)
+
+Trend Templates
+
+[Hotel Lobby AI](https://tryh3.com/generator/hotel-lobby-ai)[APT AI Video](https://tryh3.com/generator/apt-ai-video-generator)[Raindance AI](https://tryh3.com/generator/raindance-ai)[Alors on Danse AI](https://tryh3.com/generator/alors-on-danse-ai-video)[Burning Bridges AI](https://tryh3.com/generator/burning-bridges-ai)[Aura Farming Korean AI](https://tryh3.com/generator/aura-farming-korean-ai)[Wipe Me Down Dance AI](https://tryh3.com/generator/wipe-me-down-dance)[Ozil Goal AI](https://tryh3.com/generator/ozil-goal-ai)[Gas Station Dance Trend](https://tryh3.com/generator/gas-station-dance-trend)[Clapping Cat AI](https://tryh3.com/generator/clapping-cat-ai)[Unforgettable Car Trend](https://tryh3.com/generator/unforgettable-car-trend)[STORM II AI Video](https://tryh3.com/generator/storm-ii-ai-video)[Lamine Yamal AI Video](https://tryh3.com/generator/lamine-yamal-ai-video)[Babydoll Dance AI](https://tryh3.com/generator/babydoll-dance-ai)[Banana Tree Run AI](https://tryh3.com/generator/banana-tree-run-ai)[Check One Check Two AI Video](https://tryh3.com/generator/check-one-check-two-ai-video)[Paris Riot AI Video](https://tryh3.com/generator/paris-riot-ai-video)[How I Become a Millionaire AI](https://tryh3.com/generator/how-i-become-a-millionaire-ai-video)[Fergie Baby AI Video](https://tryh3.com/generator/fergie-baby-ai-video-generator)[Plug Walk AI](https://tryh3.com/generator/plug-walk-ai)[Enzo Celebration AI](https://tryh3.com/generator/enzo-fernandez-celebration-ai)[Topo Gigio AI](https://tryh3.com/generator/topo-gigio-ai)[Fridge POV AI](https://tryh3.com/generator/fridge-pov-ai)[BbY WOW Dance AI](https://tryh3.com/generator/bby-wow-dance-ai)[Say It Right Dance](https://tryh3.com/generator/say-it-right-dance)[Charme Dance AI](https://tryh3.com/generator/charme-dance-ai)[Daijoubu Dog Dance](https://tryh3.com/generator/daijoubu-dog-dance)[Abra Kadabra AI](https://tryh3.com/generator/abra-kadabra-ai)[Susan Dell Dance AI](https://tryh3.com/generator/susan-dell-dance-ai)[La Calabaza Dance](https://tryh3.com/generator/la-calabaza-dance)[Tesla Roadster AI Video](https://tryh3.com/generator/tesla-roadster-ai-video)[Tormenta de Arena AI](https://tryh3.com/generator/tormenta-de-arena-ai)[Crazy Frog AI](https://tryh3.com/generator/crazy-frog-ai)[Invisible Moped AI](https://tryh3.com/generator/invisible-moped-ai)[Jean Phil AI](https://tryh3.com/generator/jean-phil-ai)[Hit the Road Dude AI](https://tryh3.com/generator/hit-the-road-dude)[Whining Dog Meme](https://tryh3.com/generator/whining-dog-meme)[What You Want Me To Do AI](https://tryh3.com/generator/what-you-want-me-to-do-ai-video)[I Feel Like Nicole AI](https://tryh3.com/generator/i-feel-like-nicole-ai)[Tecktonik Dance AI](https://tryh3.com/generator/tecktonik-dance-ai)[Bad Times AI Video](https://tryh3.com/generator/bad-times-ai-video)[Love Is Gonna Save Us Dance](https://tryh3.com/generator/love-is-gonna-save-us-dance)[Bulin 47 AI Video](https://tryh3.com/generator/bulin-47-ai-video)[Dame Hombro AI](https://tryh3.com/generator/dame-hombro-ai)[Smalltown Boy AI Video](https://tryh3.com/generator/smalltown-boy-ai-video)[Toc Toc AI Dance](https://tryh3.com/generator/toc-toc-ai-dance)[Rumpelstiltskin AI](https://tryh3.com/generator/rumpelstiltskin-ai)[AI Zombie Video Trend](https://tryh3.com/generator/ai-zombie-video-trend)[AI Ceiling Fan Transition](https://tryh3.com/generator/ai-ceiling-fan-transition)[AI Backflip Video](https://tryh3.com/generator/ai-backflip-video)[Barn Find AI Trend](https://tryh3.com/generator/barn-find-ai-trend)[Head Bop Animation](https://tryh3.com/generator/head-bop-animation)[Animate Old Photos](https://tryh3.com/generator/animate-old-photos)[AI Rap Video](https://tryh3.com/generator/ai-rap-video)[AI Twerk Generator](https://tryh3.com/generator/ai-twerk-video-generator)[AI Bob Haircut](https://tryh3.com/generator/ai-bob-haircut)[Bigfoot Video Generator](https://tryh3.com/generator/bigfoot-video-generator)
+
+Video Tools
+
+[AI Video Ad Generator](https://tryh3.com/generator/video-ad)[Genjutsu AI](https://tryh3.com/generator/genjutsu-ai)[Replace Person in Video](https://tryh3.com/generator/replace-person-in-video)[Billionaire AI Video](https://tryh3.com/generator/billionaire-ai-video)[LTX Alpha Gen](https://tryh3.com/generator/ltx-alpha-gen)[Video Depth Map](https://tryh3.com/generator/video-depth-map)
+
+Image
+
+[Text to image](https://tryh3.com/generator/text-to-image)[Image to image](https://tryh3.com/generator/image-to-image)[Inpaint](https://tryh3.com/generator/inpaint)
+
+Account
+
+[Creations](https://tryh3.com/generator/creations)[My Credits](https://tryh3.com/settings/credits)[Plan & Billing](https://tryh3.com/settings/billing)
+
+[Pricing](https://tryh3.com/pricing?from=home_sidebar)
+
+Sign In
+
+# Credits for images and video
+
+One balance for every available image and video model. Start with a one-time pack, or choose a subscription for regular creation.
+
+One-time purchase • No auto-renewal • Credits valid for 12 months
+
+[Compare image and video costs ↓](https://tryh3.com/pricing#models)
+
+Credit packs Bill yearly · Save up to 40%Bill monthly
+
+### Trial
+
+Start with a small pack before buying more credits.
+
+$5.00
+
+One-time payment · No auto-renewal
+
+Try for $5
+
+24 credits added once. Hotel Lobby Mini: 1 × 10s or 2 × 5s. Or up to 6 GPT Image 2 images (1K). $208.33
+
+24
+
+credits, one-time
+
+Hotel Lobby Mini, 5s 2
+
+Images, 1K 6
+
+Per 1,000 credits$208.33
+
+Hotel Lobby Mini: 1 × 10s or 2 × 5s
+
+*   Credits valid for 12 months
+*   Failed generations refund automatically
+*   Commercial use license
+
+#### Video models
+
+22 included
+
+*   MiniMax H3 Fast Full access
+*   Doubao Seedance 2.5 Full access
+*   Doubao Seedance 2.0 Pro Full access
+*   FLUX 3 Video Full access
+*   Happy Horse 1.0 Full access
+*   LTX 2.5 Audio Fast Full access
+*   LTX 2.5 Audio Pro Full access
+*   LTX 2.5 Fast Full access
+*   LTX 2.5 Pro Full access
+*   MiniMax H3 Max Full access
+*   MiniMax H3 Full access
+*   Wan 3.0 Full access
+*   Doubao Seedance 2.0 Fast Full access
+*   Doubao Seedance 2.0 Mini Full access
+*   Gemini Omni Flash Preview Full access
+*   Grok Imagine Full access
+*   Kling 2.6 Full access
+*   Kling 3.0 Turbo Full access
+*   Kling 3.0 Full access
+*   Seedance 1.5 Pro Full access
+*   Wan 2.6 Full access
+*   Wan 2.7 Full access
+
+#### Image models
+
+8 included
+
+*   GPT Image 2.5 Flare Full access
+*   GPT Image 2.5 Sunburst Full access
+*   GPT Image 2 Full access
+*   Seedream 5.0 Pro Full access
+*   Nano Banana Full access
+*   Nano Banana Pro Full access
+*   Qwen Image 3.0 Full access
+*   Z-Image Turbo Full access
+
+Generation uses credits. Cost varies by model and settings.
+
+### Boost Pack
+
+Try a project with a small, flexible balance
+
+$29.90
+
+One-time payment · No auto-renewal
+
+Buy credits
+
+700 credits added once. 600 base + 100 bonus credits. Up to 16 MiniMax H3 videos (5s · 768P). Or up to 175 GPT Image 2 images (1K). $42.71
+
+700
+
+credits, one-time
+
++17% bonus
+
+600 base+100 bonus
+
+Hotel Lobby Mini, 5s 58
+
+H3 videos, 5s 16
+
+Images, 1K 175
+
+Per 1,000 credits$42.71
+
+Reference pack
+
+*   Credits valid for 12 months
+*   Failed generations refund automatically
+*   Commercial use license
+
+#### Video models
+
+22 included
+
+*   MiniMax H3 Fast Full access
+*   Doubao Seedance 2.5 Full access
+*   Doubao Seedance 2.0 Pro Full access
+*   FLUX 3 Video Full access
+*   Happy Horse 1.0 Full access
+*   LTX 2.5 Audio Fast Full access
+*   LTX 2.5 Audio Pro Full access
+*   LTX 2.5 Fast Full access
+*   LTX 2.5 Pro Full access
+*   MiniMax H3 Max Full access
+*   MiniMax H3 Full access
+*   Wan 3.0 Full access
+*   Doubao Seedance 2.0 Fast Full access
+*   Doubao Seedance 2.0 Mini Full access
+*   Gemini Omni Flash Preview Full access
+*   Grok Imagine Full access
+*   Kling 2.6 Full access
+*   Kling 3.0 Turbo Full access
+*   Kling 3.0 Full access
+*   Seedance 1.5 Pro Full access
+*   Wan 2.6 Full access
+*   Wan 2.7 Full access
+
+#### Image models
+
+8 included
+
+*   GPT Image 2.5 Flare Full access
+*   GPT Image 2.5 Sunburst Full access
+*   GPT Image 2 Full access
+*   Seedream 5.0 Pro Full access
+*   Nano Banana Full access
+*   Nano Banana Pro Full access
+*   Qwen Image 3.0 Full access
+*   Z-Image Turbo Full access
+
+Generation uses credits. Cost varies by model and settings.
+
+### Creator Pack
+
+Hot
+
+For a focused image or video project
+
+$49.90
+
+One-time payment · No auto-renewal
+
+Buy credits
+
+1280 credits added once. 1200 base + 80 bonus credits. Up to 29 MiniMax H3 videos (5s · 768P). Or up to 320 GPT Image 2 images (1K). $38.98
+
+1,280
+
+credits, one-time
+
++7% bonus
+
+1,200 base+80 bonus
+
+Hotel Lobby Mini, 5s 106
+
+H3 videos, 5s 29
+
+Images, 1K 320
+
+Per 1,000 credits$38.98
+
+10% more credits per dollar than Boost
+
+*   Credits valid for 12 months
+*   Failed generations refund automatically
+*   Commercial use license
+
+#### Video models
+
+22 included
+
+*   MiniMax H3 Fast Full access
+*   Doubao Seedance 2.5 Full access
+*   Doubao Seedance 2.0 Pro Full access
+*   FLUX 3 Video Full access
+*   Happy Horse 1.0 Full access
+*   LTX 2.5 Audio Fast Full access
+*   LTX 2.5 Audio Pro Full access
+*   LTX 2.5 Fast Full access
+*   LTX 2.5 Pro Full access
+*   MiniMax H3 Max Full access
+*   MiniMax H3 Full access
+*   Wan 3.0 Full access
+*   Doubao Seedance 2.0 Fast Full access
+*   Doubao Seedance 2.0 Mini Full access
+*   Gemini Omni Flash Preview Full access
+*   Grok Imagine Full access
+*   Kling 2.6 Full access
+*   Kling 3.0 Turbo Full access
+*   Kling 3.0 Full access
+*   Seedance 1.5 Pro Full access
+*   Wan 2.6 Full access
+*   Wan 2.7 Full access
+
+#### Image models
+
+8 included
+
+*   GPT Image 2.5 Flare Full access
+*   GPT Image 2.5 Sunburst Full access
+*   GPT Image 2 Full access
+*   Seedream 5.0 Pro Full access
+*   Nano Banana Full access
+*   Nano Banana Pro Full access
+*   Qwen Image 3.0 Full access
+*   Z-Image Turbo Full access
+
+Generation uses credits. Cost varies by model and settings.
+
+### Studio Pack
+
+Largest pack
+
+A larger credit balance for bigger productions
+
+$99.90
+
+One-time payment · No auto-renewal
+
+Buy credits
+
+2560 credits added once. 2400 base + 160 bonus credits. Up to 59 MiniMax H3 videos (5s · 768P). Or up to 640 GPT Image 2 images (1K). $39.02
+
+2,560
+
+credits, one-time
+
++7% bonus
+
+2,400 base+160 bonus
+
+Hotel Lobby Mini, 5s 213
+
+H3 videos, 5s 59
+
+Images, 1K 640
+
+Per 1,000 credits$39.02
+
+9% more credits per dollar than Boost
+
+*   Credits valid for 12 months
+*   Failed generations refund automatically
+*   Commercial use license
+
+#### Video models
+
+22 included
+
+*   MiniMax H3 Fast Full access
+*   Doubao Seedance 2.5 Full access
+*   Doubao Seedance 2.0 Pro Full access
+*   FLUX 3 Video Full access
+*   Happy Horse 1.0 Full access
+*   LTX 2.5 Audio Fast Full access
+*   LTX 2.5 Audio Pro Full access
+*   LTX 2.5 Fast Full access
+*   LTX 2.5 Pro Full access
+*   MiniMax H3 Max Full access
+*   MiniMax H3 Full access
+*   Wan 3.0 Full access
+*   Doubao Seedance 2.0 Fast Full access
+*   Doubao Seedance 2.0 Mini Full access
+*   Gemini Omni Flash Preview Full access
+*   Grok Imagine Full access
+*   Kling 2.6 Full access
+*   Kling 3.0 Turbo Full access
+*   Kling 3.0 Full access
+*   Seedance 1.5 Pro Full access
+*   Wan 2.6 Full access
+*   Wan 2.7 Full access
+
+#### Image models
+
+8 included
+
+*   GPT Image 2.5 Flare Full access
+*   GPT Image 2.5 Sunburst Full access
+*   GPT Image 2 Full access
+*   Seedream 5.0 Pro Full access
+*   Nano Banana Full access
+*   Nano Banana Pro Full access
+*   Qwen Image 3.0 Full access
+*   Z-Image Turbo Full access
+
+Generation uses credits. Cost varies by model and settings.
+
+Examples use the entire balance on one model. Mix images and videos from the same balance; output counts are alternatives, not combined allowances.
+
+Pay safely and securely with
+
+*   ![Image 34: visa](https://tryh3.com/imgs/payment/visa.svg)
+*   ![Image 35: mastercard](https://tryh3.com/imgs/payment/mastercard.svg)
+*   ![Image 36: amex](https://tryh3.com/imgs/payment/amex.svg)
+*   ![Image 37: applepay](https://tryh3.com/imgs/payment/applepay.svg)
+*   ![Image 38: googlepay](https://tryh3.com/imgs/payment/googlepay.svg)
+
+One balance. The models your plan unlocks.
+
+## See what each image or video costs
+
+Choose a plan, then adjust the model settings to compare credits and how far your balance goes. Credit rates stay the same and every paid plan unlocks every model, so plans differ only in how many credits you get.
+
+Calculate with this plan 
+
+2,560 credits in this purchase
+
+$39.02 / 1,000 credits
+
+Uses this plan’s regular price. No additional model discount or promotion is applied.
+
+One-time purchase • No auto-renewal • Credits valid for 12 months
+
+Video models 22 Image models 8
+
+Model costs and output counts using the Studio Credit Pack balance
+| Model | Settings | Credits | Up to outputs |
+| --- | --- | --- | --- |
+| ![Image 39](https://tryh3.com/icons/minimax.svg)MiniMax H3 Fast Audio included |  | Credits 15 | Up to outputs 170 |
+| ![Image 40](https://tryh3.com/icons/seedance.svg)Doubao Seedance 2.5 Audio included |  | Credits 162 | Up to outputs 15 |
+| ![Image 41](https://tryh3.com/icons/seedance.svg)Doubao Seedance 2.0 Pro Audio included |  | Credits 107 | Up to outputs 23 |
+| ![Image 42](https://tryh3.com/icons/flux.svg)FLUX 3 Video Audio included |  | Credits 128 | Up to outputs 20 |
+| ![Image 43](https://tryh3.com/icons/happyhorse.svg)Happy Horse 1.0 Audio included |  | Credits 173 | Up to outputs 14 |
+| ![Image 44](https://tryh3.com/icons/ltx.png)LTX 2.5 Audio Fast Audio included |  | Credits 195 | Up to outputs 13 |
+| ![Image 45](https://tryh3.com/icons/ltx.png)LTX 2.5 Audio Pro Audio included |  | Credits 255 | Up to outputs 10 |
+| ![Image 46](https://tryh3.com/icons/ltx.png)LTX 2.5 Fast Audio included |  | Credits 117 | Up to outputs 21 |
+| ![Image 47](https://tryh3.com/icons/ltx.png)LTX 2.5 Pro Audio included |  | Credits 153 | Up to outputs 16 |
+| ![Image 48](https://tryh3.com/icons/minimax.svg)MiniMax H3 Max Audio included |  | Credits 60 | Up to outputs 42 |
+| ![Image 49](https://tryh3.com/icons/minimax.svg)MiniMax H3 Audio included |  | Credits 43 | Up to outputs 59 |
+| ![Image 50](https://tryh3.com/icons/wan.svg)Wan 3.0 Audio included |  | Credits 52 | Up to outputs 49 |
+| ![Image 51](https://tryh3.com/icons/seedance.svg)Doubao Seedance 2.0 Fast Audio included |  | Credits 86 | Up to outputs 29 |
+| ![Image 52](https://tryh3.com/icons/seedance.svg)Doubao Seedance 2.0 Mini Audio included |  | Credits 43 | Up to outputs 59 |
+| ![Image 53](https://tryh3.com/icons/gemini.svg)Gemini Omni Flash Preview Automatic length · 10s billed duration |  | Credits 132 | Up to outputs 19 |
+| ![Image 54](https://tryh3.com/icons/grok.svg)Grok Imagine Without audio |  | Credits 18 | Up to outputs 142 |
+| ![Image 55](https://tryh3.com/icons/kling.svg)Kling 2.6 Without audio |  | Credits 47 | Up to outputs 54 |
+| ![Image 56](https://tryh3.com/icons/kling.svg)Kling 3.0 Turbo Audio included |  | Credits 86 | Up to outputs 29 |
+| ![Image 57](https://tryh3.com/icons/kling.svg)Kling 3.0 Without audio |  | Credits 68 | Up to outputs 37 |
+| ![Image 58](https://tryh3.com/icons/seedance.svg)Seedance 1.5 Pro Audio included |  | Credits 16 | Up to outputs 160 |
+| ![Image 59](https://tryh3.com/icons/wan.svg)Wan 2.6 Audio included |  | Credits 83 | Up to outputs 30 |
+| ![Image 60](https://tryh3.com/icons/wan.svg)Wan 2.7 Audio included |  | Credits 83 | Up to outputs 30 |
+
+Model costs and output counts using the Studio Credit Pack balance
+| Model | Settings | Credits | Up to outputs |
+| --- | --- | --- | --- |
+| ![Image 61](https://tryh3.com/icons/openai.svg)GPT Image 2.5 Flare 1 image · Medium quality |  | Credits 4 | Up to outputs 640 |
+| ![Image 62](https://tryh3.com/icons/openai.svg)GPT Image 2.5 Sunburst 1 image · Medium quality |  | Credits 4 | Up to outputs 640 |
+| ![Image 63](https://tryh3.com/icons/openai.svg)GPT Image 2 1 image · Medium quality |  | Credits 4 | Up to outputs 640 |
+| ![Image 64](https://tryh3.com/icons/seedance.svg)Seedream 5.0 Pro 1 image per example |  | Credits 4 | Up to outputs 640 |
+| ![Image 65](https://tryh3.com/icons/gemini.svg)Nano Banana 1 image per example |  | Credits 5 | Up to outputs 512 |
+| ![Image 66](https://tryh3.com/icons/gemini.svg)Nano Banana Pro 1 image per example |  | Credits 5 | Up to outputs 512 |
+| ![Image 67](https://tryh3.com/icons/qwen.svg)Qwen Image 3.0 1 image per example |  | Credits 3 | Up to outputs 853 |
+| ![Image 68](https://tryh3.com/icons/z-image.svg)Z-Image Turbo 1 image per example |  | Credits 2 | Up to outputs 1,280 |
+
+Examples use one image or one text-to-video clip, with no uploaded references. Taxes, if applicable, are shown at checkout. References and other settings can change the quote; confirm the total in the generator before submitting.
+
+Images and videos share one credit balance. Credits expiring soonest are used first. Subscription grants expire at the paid period’s end; one-time packs last 12 months. Failed generations return their credits automatically.
+
+2K
+
+MiniMax H3 video resolution
+
+4–15s
+
+MiniMax H3 video length
+
+12 mo
+
+One-time credit validity
+
+Pay safely and securely with
+
+![Image 69: visa](https://tryh3.com/imgs/payment/visa.svg)
+
+![Image 70: mastercard](https://tryh3.com/imgs/payment/mastercard.svg)
+
+![Image 71: amex](https://tryh3.com/imgs/payment/amex.svg)
+
+![Image 72: applepay](https://tryh3.com/imgs/payment/applepay.svg)
+
+![Image 73: googlepay](https://tryh3.com/imgs/payment/googlepay.svg)
+
+![Image 74: unionpay](https://tryh3.com/imgs/payment/unionpay.svg)
+
+![Image 75: jcb](https://tryh3.com/imgs/payment/jcb.svg)
+
+![Image 76: discover](https://tryh3.com/imgs/payment/discover.svg)
+
+![Image 77: diners](https://tryh3.com/imgs/payment/diners.svg)
+
+## Clear billing, before and after checkout
+
+stripe Secure checkout by Stripe Card details are handled by Stripe and are never stored in full by TryH3.
+
+[Failed renders return credits Automatic credit reversals plus a published policy for billing-review requests.](https://tryh3.com/refund-policy)[Receipts and invoices Open Stripe-issued billing documents from your payment history when available.](https://tryh3.com/settings/payments)[Billing support Contact support@tryh3.com with an order or task ID for a traceable review.](mailto:support@tryh3.com)
+
+What your credits produce
+
+## Fund the outcome, not a vague allowance.
+
+The same balance can support a polished single shot, a longer multi-shot sequence or an audio-led scene. Pick the model and settings that fit the brief; TryH3 quotes the exact credit cost before submission.
+
+[Video 8](https://tryh3.com/pricing)Proof 1
+
+Controlled detail
+
+### Keep depth and camera intent readable
+
+Use higher-resolution output when the final frame needs clean spatial detail, deliberate movement and room for a production crop.
+
+[Video 9](https://tryh3.com/pricing)Proof 2
+
+Multi-shot continuity
+
+### Carry one idea across a full sequence
+
+Spend more credits on duration and shot structure when character consistency and narrative progression matter more than one isolated frame.
+
+[Video 10](https://tryh3.com/pricing)Proof 3
+
+Audiovisual storytelling
+
+### Make sound part of the scene
+
+Choose an audio-capable model for dialogue, ambience and effects that land with the action instead of adding a separate post-production step.
+
+Managed workflow vs direct API
+
+## Credits buy the workflow around the render.
+
+TryH3 turns generation into a browser purchase with an upfront credit quote, hosted output and automatic credit return on failed jobs. A direct provider integration gives developers more control, but leaves the operational steps to their own application.
+
+This is a responsibility comparison, not a dollar-for-dollar claim about equivalent models. Direct provider rates vary by model, resolution and duration, while TryH3 credits also cover the managed workflow described below.
+
+![Image 78: A connected three-stage AI video workflow moving from creative direction to a finished hosted film](https://cdn.tryh3.com/imgs/generated/pricing-workflow-v1.webp)
+
+Managed production path
+
+Direction in. Hosted result out.
+
+For creators who want to make the clip
+
+Work in the browser without provisioning a provider account or wiring an API client.
+
+For developers who want to build the stack
+
+Own the credentials, request lifecycle, result delivery and application-level recovery.
+
+Responsibility TryH3 credits Direct MiniMax API
+
+Published cost example
+
+TryH3 credits 43 credits (≈ $0.72 at the lowest sold credit rate) for a 5s 768P H3 quote
+
+Direct MiniMax API$0.19 for Fast or $0.28 for standard 768P, 6s video at MiniMax's published pay-as-you-go rate
+
+Upfront integration
+
+TryH3 credits 0 API endpoints to wire — choose settings and submit in the browser
+
+Direct MiniMax API 4 application steps — authenticate, submit, poll, then retrieve and store the file
+
+Access
+
+TryH3 credits Use a TryH3 account; no provider API key
+
+Direct MiniMax API Create a MiniMax account, add balance and issue an API key
+
+Request lifecycle
+
+TryH3 credits Submit once from the browser workspace
+
+Direct MiniMax API Create the task, poll its status, then retrieve the file
+
+Result delivery
+
+TryH3 credits Hosted MP4 retained in Creations
+
+Direct MiniMax API Download and store the result in your own system
+
+Failed job
+
+TryH3 credits TryH3 credits return automatically
+
+Direct MiniMax API Read provider status and error responses, then decide how to retry
+
+Cost visibility
+
+TryH3 credits Exact credit quote before submission
+
+Direct MiniMax API Rate depends on the selected model, resolution and duration
+
+Welcome credits
+
+*   Renders from welcome credits are for evaluation only.
+*   A one-time signup grant. Unused welcome credits expire with that grant.
+
+Paid credits
+
+*   Subscription and pack credits can be used commercially.
+*   Pack credits last 12 months. Subscription credits last through the paid period and do not roll over.
+
+Primary sources for the direct API responsibilities
+
+[Generation workflow](https://platform.minimax.io/docs/guides/video-generation)[Account and API setup](https://platform.minimax.io/docs/guides/quickstart-preparation)[Pay-as-you-go pricing](https://platform.minimax.io/docs/guides/pricing-paygo)
+
+Curated output wall
+
+## See the kind of work a balance can fund.
+
+These are real output examples already published in TryH3’s curated showcase. They are presented as product proof—not as customer testimonials, popularity rankings or guaranteed results.
+
+[Video 11](https://tryh3.com/pricing)
+
+Curated output
+
+5s output
+
+### A polished Paris street campaign moves from the model to a clean handbag close-up
+
+The five-second sequence has a clear commercial objective and lands on the product without exposing a competing generator brand.
+
+[Video 12](https://tryh3.com/pricing)
+
+Curated output Native audio
+
+15s output
+
+### A fast festival race unfolds across four cinematic shots while the same lead character stays consistent
+
+Four tightly cut shots prove character consistency and native multi-shot storytelling instead of relying on one pretty frame.
+
+[Video 13](https://tryh3.com/pricing)
+
+Curated output Native audio
+
+8s output
+
+### A reference-driven anime sequence moves through four shots while the character, outfit and style remain stable
+
+The four-shot sequence makes reference control and identity consistency visible in seconds, not just claimed in copy.
+
+[Video 14](https://tryh3.com/pricing)
+
+Curated output
+
+5s output
+
+### A rainy street, a document close-up and a distant figure form a compact three-shot night story
+
+Three distinct shots fit into five seconds while preserving atmosphere and narrative continuity.
+
+Checkout, credits and renewals
+
+## Know what happens before you pay.
+
+The details that matter at checkout, after payment and when a subscription renews—without hiding them in plan-card fine print.
+
+[Read the full Refund Policy](https://tryh3.com/refund-policy)
+
+### Can I use the same credits for images and videos?
+
+### Are yearly credits available immediately or released monthly?
+
+### Will tax be added at checkout?
+
+### Where can I find a receipt or invoice?
+
+### When will I be charged?
+
+### What if checkout or payment fails?
+
+### What if purchased credits do not appear?
+
+### Can I cancel a subscription?
+
+### Can I change plans or add more credits?
+
+### Do unused credits expire?
+
+### Can I request a cash refund?
+
+Choose your creative pace
+
+## Your next image or video starts here.
+
+Choose a flexible one-time pack or a subscription for regular creation. The same credits work across all available image and video models.
+
+Credit packs Bill yearly · Save up to 40%Bill monthly
+
+### Trial
+
+$5.00
+
+One-time payment · No auto-renewal
+
+Try for $5
+
+24 credits added once. Hotel Lobby Mini: 1 × 10s or 2 × 5s. Or up to 6 GPT Image 2 images (1K). $208.33
+
+24
+
+credits, one-time
+
+Hotel Lobby Mini, 5s 2
+
+Images, 1K 6
+
+Per 1,000 credits$208.33
+
+Hotel Lobby Mini: 1 × 10s or 2 × 5s
+
+### Boost Pack
+
+$29.90
+
+One-time payment · No auto-renewal
+
+Buy credits
+
+700 credits added once. 600 base + 100 bonus credits. Up to 16 MiniMax H3 videos (5s · 768P). Or up to 175 GPT Image 2 images (1K). $42.71
+
+700
+
+credits, one-time
+
++17% bonus
+
+600 base+100 bonus
+
+Hotel Lobby Mini, 5s 58
+
+H3 videos, 5s 16
+
+Images, 1K 175
+
+Per 1,000 credits$42.71
+
+Reference pack
+
+### Creator Pack
+
+Hot
+
+$49.90
+
+One-time payment · No auto-renewal
+
+Buy credits
+
+1280 credits added once. 1200 base + 80 bonus credits. Up to 29 MiniMax H3 videos (5s · 768P). Or up to 320 GPT Image 2 images (1K). $38.98
+
+1,280
+
+credits, one-time
+
++7% bonus
+
+1,200 base+80 bonus
+
+Hotel Lobby Mini, 5s 106
+
+H3 videos, 5s 29
+
+Images, 1K 320
+
+Per 1,000 credits$38.98
+
+10% more credits per dollar than Boost
+
+### Studio Pack
+
+Largest pack
+
+$99.90
+
+One-time payment · No auto-renewal
+
+Buy credits
+
+2560 credits added once. 2400 base + 160 bonus credits. Up to 59 MiniMax H3 videos (5s · 768P). Or up to 640 GPT Image 2 images (1K). $39.02
+
+2,560
+
+credits, one-time
+
++7% bonus
+
+2,400 base+160 bonus
+
+Hotel Lobby Mini, 5s 213
+
+H3 videos, 5s 59
+
+Images, 1K 640
+
+Per 1,000 credits$39.02
+
+9% more credits per dollar than Boost
+
+[![Image 79](https://tryh3.com/logo.svg)TryH3](https://tryh3.com/)
+Create the scenes you imagine.
+
+Video
+
+*   [Bigfoot Video Generator](https://tryh3.com/generator/bigfoot-video-generator)
+*   [AI Video Ad Generator](https://tryh3.com/generator/video-ad)
+*   [Genjutsu AI](https://tryh3.com/generator/genjutsu-ai)
+*   [Replace Person in Video](https://tryh3.com/generator/replace-person-in-video)
+*   [Billionaire AI Video](https://tryh3.com/generator/billionaire-ai-video)
+*   [Grok Imagine 1.5](https://tryh3.com/generator/grok-imagine-1-5)
+*   [FLUX 3 Video](https://tryh3.com/generator/flux-3-video)
+*   [LTX 2.5](https://tryh3.com/generator/ltx-2-5)
+*   [Happy Horse 1.0](https://tryh3.com/generator/happy-horse-1-0)
+*   [Gemini Omni](https://tryh3.com/generator/gemini-omni)
+*   [Seedance 2.0](https://tryh3.com/generator/seedance-2-0)
+*   [Seedance 1.5 Pro](https://tryh3.com/generator/seedance-1-5-pro)
+*   [Text to video](https://tryh3.com/generator/text-to-video)
+*   [AI Twerk Generator](https://tryh3.com/generator/ai-twerk-video-generator)
+*   [AI Bob Haircut](https://tryh3.com/generator/ai-bob-haircut)
+*   [AI Rap Video](https://tryh3.com/generator/ai-rap-video)
+*   [AI Zombie Video Trend](https://tryh3.com/generator/ai-zombie-video-trend)
+*   [AI Ceiling Fan Transition](https://tryh3.com/generator/ai-ceiling-fan-transition)
+*   [AI Backflip Video](https://tryh3.com/generator/ai-backflip-video)
+*   [Barn Find AI Trend](https://tryh3.com/generator/barn-find-ai-trend)
+*   [Head Bop Animation](https://tryh3.com/generator/head-bop-animation)
+*   [Animate Old Photos](https://tryh3.com/generator/animate-old-photos)
+*   [LTX Alpha Gen](https://tryh3.com/generator/ltx-alpha-gen)
+*   [Video Depth Map](https://tryh3.com/generator/video-depth-map)
+*   [Image to video](https://tryh3.com/generator/image-to-video)
+*   [Reference to video](https://tryh3.com/generator/reference-to-video)
+*   [Seedance 2.5](https://tryh3.com/generator/seedance-2-5)
+*   [Wan 3.0](https://tryh3.com/generator/wan-3-0)
+
+Image
+
+*   [GPT Image 2.5](https://tryh3.com/generator/chatgpt-image-2-5)
+*   [Text to image](https://tryh3.com/generator/text-to-image)
+*   [Image to image](https://tryh3.com/generator/image-to-image)
+
+Explore
+
+*   [Ramalama trend](https://tryh3.com/ramalama-trend)
+*   [Prompts](https://tryh3.com/minimax-h3-prompts)
+*   [Prompt Guide](https://tryh3.com/minimax-h3-prompt-guide)
+*   [AI Models](https://tryh3.com/#showcase)
+*   [Use cases](https://tryh3.com/#use-cases)
+*   [Pricing](https://tryh3.com/pricing?from=footer)
+*   [About](https://tryh3.com/about)
+*   [FAQ](https://tryh3.com/#faq)
+*   [Blog](https://tryh3.com/blog)
+
+Proudly Featured On
+
+[![Image 80: Proudly Featured On: launchranking](https://launchranking.com/launchranking/images/badges/featured-on-light.svg)](https://launchranking.com/projects/tryh3-minimax-h3-video-generator?utm_source=badge "launchranking")[![Image 81: Proudly Featured On: launchfinds](https://launchfinds.com/launchfinds/images/badges/featured-on-light.svg)](https://launchfinds.com/projects/tryh3-minimax-h3-video-generator?utm_source=badge "launchfinds")[![Image 82: Proudly Featured On: curateclick](https://curateclick.com/featured-badge.svg)](https://curateclick.com/?utm_source=embed-badge&utm_medium=embed&utm_campaign=embed-badge "curateclick")[![Image 83: Proudly Featured On: justsimple](https://www.justsimple.tools/badge.svg)](https://www.justsimple.tools/ "justsimple")[![Image 84: Proudly Featured On: Featured on Next Launch](https://nextlaunch.io/images/badges/nextlaunch-badge-light.svg)](https://nextlaunch.io/projects/tryh3-minimax-h3-video-generator "Featured on Next Launch")[![Image 85: Proudly Featured On: Featured on AI Tool Boxer](https://aitoolboxer.com/aitoolboxer/images/badges/featured-on-light.svg)](https://aitoolboxer.com/projects/tryh3-minimax-h3-video-generator-1255?utm_source=badge "Featured on AI Tool Boxer")[![Image 86: Proudly Featured On: Featured on There's A Tool For](https://theresatoolfor.com/theresatoolfor/images/badges/featured-on-light.svg)](https://theresatoolfor.com/projects/tryh3-minimax-h3-video-generator-4134?utm_source=badge "Featured on There's A Tool For")[![Image 87: Proudly Featured On: Featured on Maker Pocket](https://makerpocket.com/makerpocket/images/badges/featured-on-light.svg)](https://makerpocket.com/projects/tryh3-minimax-h3-video-generator-9852?utm_source=badge "Featured on Maker Pocket")[![Image 88: Proudly Featured On: Featured on Looking For Tools](https://lookingfortools.com/lookingfortools/images/badges/featured-on-light.svg)](https://lookingfortools.com/projects/tryh3-minimax-h3-video-generator?utm_source=badge "Featured on Looking For Tools")[![Image 89: Proudly Featured On: Featured on Indie Pocket](https://indiepocket.com/indiepocket/images/badges/featured-on-light.svg)](https://indiepocket.com/projects/tryh3-minimax-h3-video-generator-6042?utm_source=badge "Featured on Indie Pocket")[![Image 90: Proudly Featured On: Featured on Discover New Tools](https://discovernewtools.com/discovernewtools/images/badges/featured-on-light.svg)](https://discovernewtools.com/projects/tryh3-minimax-h3-video-generator-4605?utm_source=badge "Featured on Discover New Tools")[![Image 91: Proudly Featured On: Featured on App Tooling](https://apptooling.com/apptooling/images/badges/featured-on-light.svg)](https://apptooling.com/projects/tryh3-minimax-h3-video-generator?utm_source=badge "Featured on App Tooling")[![Image 92: Proudly Featured On: Featured on Launch Feeds](https://launchfeeds.com/launchfeeds/images/badges/featured-on-light.svg)](https://launchfeeds.com/projects/tryh3-minimax-h3-video-generator?utm_source=badge "Featured on Launch Feeds")[![Image 93: Proudly Featured On: Powered by ToolPilot.ai](https://www.toolpilot.ai/cdn/shop/files/f-w_690x151_crop_center.png)](https://www.toolpilot.ai/ "Powered by ToolPilot.ai")[![Image 94: Proudly Featured On: Featured on the Postmake directory](https://postmake.io/postmake_badge_light.png)](https://postmake.io/submit "Featured on the Postmake directory")[![Image 95: Proudly Featured On: Listed on AiToolsList.Tools](https://aitoolslist.tools/badges/aitoolslist-listed-light.svg)](https://aitoolslist.tools/ "Listed on AiToolsList.Tools")[![Image 96: Proudly Featured On: Featured on Artificin](https://artificin.com/badges/Artificin-badge.png)](https://artificin.com/?utm_source=badge&utm_medium=referral&utm_campaign=featured_badge "Featured on Artificin")[![Image 97: Proudly Featured On: The Key Tools](https://thekeytools.com/assets/images/badge.png)](https://thekeytools.com/ai/tryh3 "The Key Tools")[![Image 98: Proudly Featured On: Tool Parade](https://toolparade.com/assets/images/badge.png)](https://toolparade.com/tools/tryh3 "Tool Parade")[![Image 99: Proudly Featured On: Tool Networker](https://toolnetworker.com/assets/images/badge.png)](https://toolnetworker.com/tools/tryh3 "Tool Networker")[![Image 100: Proudly Featured On: Toolkitindex](https://toolkitindex.com/assets/images/badge.png)](https://toolkitindex.com/products/tryh3 "Toolkitindex")[![Image 101: Proudly Featured On: Toolignite](https://toolignite.com/assets/images/badge.png)](https://toolignite.com/tools/tryh3 "Toolignite")[![Image 102: Proudly Featured On: Saasstate](https://saasstate.com/assets/images/badge.png)](https://saasstate.com/products/tryh3 "Saasstate")[![Image 103: Proudly Featured On: Saasscanner](https://saasscanner.com/assets/images/badge.png)](https://saasscanner.com/products/tryh3 "Saasscanner")[![Image 104: Proudly Featured On: Saasnetworker](https://saasnetworker.com/assets/images/badge.png)](https://saasnetworker.com/products/tryh3 "Saasnetworker")[![Image 105: Proudly Featured On: Saascrawler](https://saascrawler.com/assets/images/badge.png)](https://saascrawler.com/products/tryh3 "Saascrawler")[![Image 106: Proudly Featured On: Saasbranch](https://saasbranch.com/assets/images/badge.png)](https://saasbranch.com/products/tryh3 "Saasbranch")[![Image 107: Proudly Featured On: Saasbadge](https://saasbadge.com/assets/images/badge.png)](https://saasbadge.com/products/tryh3 "Saasbadge")[![Image 108: Proudly Featured On: Saasavenue](https://saasavenue.com/assets/images/badge.png)](https://saasavenue.com/products/tryh3 "Saasavenue")[![Image 109: Proudly Featured On: Appnetworker](https://appnetworker.com/assets/images/badge.png)](https://appnetworker.com/products/tryh3 "Appnetworker")[![Image 110: Proudly Featured On: App Hub List](https://apphublist.com/assets/images/badge.png)](https://apphublist.com/products/tryh3 "App Hub List")[![Image 111: Proudly Featured On: ShinyLaunch](https://shinylaunch.com/assets/images/badge.png)](https://shinylaunch.com/product/tryh3 "ShinyLaunch")[![Image 112: Proudly Featured On: AI X Collection](https://aixcollection.com/assets/images/badge.png)](https://aixcollection.com/ai/tryh3 "AI X Collection")[![Image 113: Proudly Featured On: Acid Tools](https://acidtools.com/assets/images/badge.png)](https://acidtools.com/ai/tryh3 "Acid Tools")[![Image 114: Proudly Featured On: Good AI Tools](https://goodaitools.com/assets/images/badge.png)](https://goodaitools.com/ai/tryh3 "Good AI Tools")[![Image 115: Proudly Featured On: NewTool.site](https://newtool.site/badges/newtool-light.svg)](https://newtool.site/item/tryh3 "NewTool.site")[![Image 116: Proudly Featured On: Twelve Tools](https://twelve.tools/badge0-white.svg)](https://twelve.tools/ "Twelve Tools")[![Image 117: Proudly Featured On: We Like Tools](https://weliketools.com/assets/images/badge.png)](https://weliketools.com/tool/tryh3 "We Like Tools")[![Image 118: Proudly Featured On: Tool Prism](https://toolprism.com/assets/images/badge.png)](https://toolprism.com/ai/tryh3 "Tool Prism")[![Image 119: Proudly Featured On: Million Dot Homepage](https://milliondothomepage.com/assets/images/badge.png)](https://milliondothomepage.com/product/tryh3 "Million Dot Homepage")[![Image 120: Proudly Featured On: Tool Signal](https://toolsignal.com/assets/images/badge.png)](https://toolsignal.com/tool/tryh3 "Tool Signal")[![Image 121: Proudly Featured On: Tool Find Dir](https://toolfinddir.com/assets/images/badge.png)](https://toolfinddir.com/ai/tryh3 "Tool Find Dir")[![Image 122: Proudly Featured On: The Core Tools](https://thecoretools.com/assets/images/badge.png)](https://thecoretools.com/tool/tryh3 "The Core Tools")[![Image 123: Proudly Featured On: LaunchClash](https://launchclash.com/assets/images/badge.png)](https://launchclash.com/product/tryh3 "LaunchClash")[![Image 124: Proudly Featured On: Solver Tools](https://solvertools.com/assets/images/badge.png)](https://solvertools.com/tool/tryh3 "Solver Tools")[![Image 125: Proudly Featured On: Tool Journey](https://tooljourney.com/assets/images/badge.png)](https://tooljourney.com/tool/tryh3 "Tool Journey")[![Image 126: Proudly Featured On: Tool Cosmos](https://toolcosmos.com/assets/images/badge.png)](https://toolcosmos.com/tool/tryh3 "Tool Cosmos")[![Image 127: Proudly Featured On: The App Tools](https://theapptools.com/assets/images/badge.png)](https://theapptools.com/ai/tryh3 "The App Tools")[![Image 128: Proudly Featured On: Featured on ufind.best](https://ufind.best/badges/ufind-best-badge-light.svg)](https://ufind.best/products/minimax-h3-ai-video-generator "Featured on ufind.best")[![Image 129: Proudly Featured On: Featured on Findly.tools](https://findly.tools/badges/findly-tools-badge-light.svg)](https://findly.tools/tryh3-minimax-h3-video-generator "Featured on Findly.tools")[![Image 130: Proudly Featured On: TryH3 - MiniMax H3 Video Generator is listed on publishyoursaas](https://publishyoursaas.com/publishyoursaas-badge.svg)](https://publishyoursaas.com/listing/tryh3-com "TryH3 - MiniMax H3 Video Generator is listed on publishyoursaas")[![Image 131: Proudly Featured On: Startup Vessel](https://startupvessel.com/assets/images/badge.png)](https://startupvessel.com/product/tryh3 "Startup Vessel")[![Image 132: Proudly Featured On: Top Trend Tools](https://toptrendtools.com/assets/images/badge.png)](https://toptrendtools.com/tool/tryh3 "Top Trend Tools")[![Image 133: Proudly Featured On: Tools Under Radar](https://toolsunderradar.com/assets/images/badge.png)](https://toolsunderradar.com/tool/tryh3 "Tools Under Radar")[![Image 134: Proudly Featured On: Tools List HQ](https://toolslisthq.com/assets/images/badge.png)](https://toolslisthq.com/tool/tryh3 "Tools List HQ")[![Image 135: Proudly Featured On: The Mega Tools](https://themegatools.com/assets/images/badge.png)](https://themegatools.com/tool/tryh3 "The Mega Tools")[![Image 136: Proudly Featured On: SaaS Roots](https://saasroots.com/assets/images/badge.png)](https://saasroots.com/product/tryh3 "SaaS Roots")[![Image 137: Proudly Featured On: Super AI Boom](https://superaiboom.com/assets/images/badge.png)](https://superaiboom.com/ai/tryh3 "Super AI Boom")[![Image 138: Proudly Featured On: Power Up Tools](https://poweruptools.com/assets/images/badge.png)](https://poweruptools.com/ai/tryh3 "Power Up Tools")[![Image 139: Proudly Featured On: Beam Tools](https://beamtools.com/assets/images/badge.png)](https://beamtools.com/tool/tryh3 "Beam Tools")[![Image 140: Proudly Featured On: Unite List](https://unitelist.com/assets/images/badge.png)](https://unitelist.com/product/tryh3 "Unite List")[![Image 141: Proudly Featured On: Tiny Tool Hub](https://tinytoolhub.com/assets/images/badge.png)](https://tinytoolhub.com/tool/tryh3 "Tiny Tool Hub")[![Image 142: Proudly Featured On: That App Show](https://thatappshow.com/assets/images/badge.png)](https://thatappshow.com/product/tryh3 "That App Show")[![Image 143: Proudly Featured On: Startup AIdeas](https://startupaideas.com/assets/images/badge.png)](https://startupaideas.com/ai/tryh3 "Startup AIdeas")[![Image 144: Proudly Featured On: Smart Kit Hub](https://smartkithub.com/assets/images/badge.png)](https://smartkithub.com/product/tryh3 "Smart Kit Hub")[![Image 145: Proudly Featured On: My Start Tools](https://mystarttools.com/assets/images/badge.png)](https://mystarttools.com/tool/tryh3 "My Start Tools")[![Image 146: Proudly Featured On: Launch Scroll](https://launchscroll.com/assets/images/badge.png)](https://launchscroll.com/product/tryh3 "Launch Scroll")[![Image 147: Proudly Featured On: Ash List](https://ashlist.com/assets/images/badge.png)](https://ashlist.com/product/tryh3 "Ash List")[![Image 148: Proudly Featured On: Appsy Tools](https://appsytools.com/assets/images/badge.png)](https://appsytools.com/tool/tryh3 "Appsy Tools")[![Image 149: Proudly Featured On: Appa List](https://appalist.com/assets/images/badge.png)](https://appalist.com/ai/tryh3 "Appa List")[![Image 150: Proudly Featured On: Trustiner](https://trustiner.com/assets/images/badge.png)](https://trustiner.com/product/tryh3 "Trustiner")[![Image 151: Proudly Featured On: Startup Benchmarks](https://startupbenchmarks.com/assets/images/badge.png)](https://startupbenchmarks.com/product/tryh3 "Startup Benchmarks")[![Image 152: Proudly Featured On: Toshi List](https://toshilist.com/assets/images/badge.png)](https://toshilist.com/product/tryh3 "Toshi List")[![Image 153: Proudly Featured On: My Launch Stash](https://mylaunchstash.com/assets/images/badge.png)](https://mylaunchstash.com/product/tryh3 "My Launch Stash")[![Image 154: Proudly Featured On: Latest AI Updates](https://latestaiupdates.com/assets/images/badge.png)](https://latestaiupdates.com/ai/tryh3 "Latest AI Updates")[![Image 155: Proudly Featured On: Best Tool Vault](https://besttoolvault.com/assets/images/badge.png)](https://besttoolvault.com/tool/tryh3 "Best Tool Vault")[![Image 156: Proudly Featured On: AI Toolz](https://aitoolzs.com/assets/images/badge.png)](https://aitoolzs.com/ai/tryh3 "AI Toolz")[![Image 157: Proudly Featured On: AI Tech Viral](https://aitechviral.com/assets/images/badge.png)](https://aitechviral.com/ai/tryh3 "AI Tech Viral")[![Image 158: Proudly Featured On: AIGC 160](https://aigc160.com/assets/images/badge.png)](https://aigc160.com/ai/tryh3 "AIGC 160")[![Image 159: Proudly Featured On: Iitang](https://iitang.com/favicon.ico)](https://iitang.com/ "Iitang")[![Image 160: Proudly Featured On: AI Tool Center](https://aitoolcenter.com/favicon.ico)](https://aitoolcenter.com/ "AI Tool Center")[![Image 161: Proudly Featured On: GetAITools](https://getaitools.app/favicon.ico)](https://getaitools.app/ "GetAITools")[![Image 162: Proudly Featured On: Submito](https://submito.net/favicon.ico)](https://submito.net/ "Submito")[![Image 163: Proudly Featured On: Source Dir](https://sourcedir.com/assets/images/badge.png)](https://sourcedir.com/product/tryh3 "Source Dir")[AIMonstr](https://www.aimonstr.com/ "AIMonstr")[![Image 164: Proudly Featured On: Hunt for Tools](https://huntfortools.com/assets/images/badge.png)](https://huntfortools.com/tool/tryh3 "Hunt for Tools")[![Image 165: Proudly Featured On: Visnook](https://visnook.com/badge.jpg?domain=tryh3.com&token=02881b51-7fb4-4b99-8845-b5d1a4139022)](https://visnook.com/rankings/tryh3-com "Visnook")
+
+[![Image 166: Proudly Featured On: launchranking](https://launchranking.com/launchranking/images/badges/featured-on-light.svg)](https://launchranking.com/projects/tryh3-minimax-h3-video-generator?utm_source=badge "launchranking")[![Image 167: Proudly Featured On: launchfinds](https://launchfinds.com/launchfinds/images/badges/featured-on-light.svg)](https://launchfinds.com/projects/tryh3-minimax-h3-video-generator?utm_source=badge "launchfinds")[![Image 168: Proudly Featured On: curateclick](https://curateclick.com/featured-badge.svg)](https://curateclick.com/?utm_source=embed-badge&utm_medium=embed&utm_campaign=embed-badge "curateclick")[![Image 169: Proudly Featured On: justsimple](https://www.justsimple.tools/badge.svg)](https://www.justsimple.tools/ "justsimple")[![Image 170: Proudly Featured On: Featured on Next Launch](https://nextlaunch.io/images/badges/nextlaunch-badge-light.svg)](https://nextlaunch.io/projects/tryh3-minimax-h3-video-generator "Featured on Next Launch")[![Image 171: Proudly Featured On: Featured on AI Tool Boxer](https://aitoolboxer.com/aitoolboxer/images/badges/featured-on-light.svg)](https://aitoolboxer.com/projects/tryh3-minimax-h3-video-generator-1255?utm_source=badge "Featured on AI Tool Boxer")[![Image 172: Proudly Featured On: Featured on There's A Tool For](https://theresatoolfor.com/theresatoolfor/images/badges/featured-on-light.svg)](https://theresatoolfor.com/projects/tryh3-minimax-h3-video-generator-4134?utm_source=badge "Featured on There's A Tool For")[![Image 173: Proudly Featured On: Featured on Maker Pocket](https://makerpocket.com/makerpocket/images/badges/featured-on-light.svg)](https://makerpocket.com/projects/tryh3-minimax-h3-video-generator-9852?utm_source=badge "Featured on Maker Pocket")[![Image 174: Proudly Featured On: Featured on Looking For Tools](https://lookingfortools.com/lookingfortools/images/badges/featured-on-light.svg)](https://lookingfortools.com/projects/tryh3-minimax-h3-video-generator?utm_source=badge "Featured on Looking For Tools")[![Image 175: Proudly Featured On: Featured on Indie Pocket](https://indiepocket.com/indiepocket/images/badges/featured-on-light.svg)](https://indiepocket.com/projects/tryh3-minimax-h3-video-generator-6042?utm_source=badge "Featured on Indie Pocket")[![Image 176: Proudly Featured On: Featured on Discover New Tools](https://discovernewtools.com/discovernewtools/images/badges/featured-on-light.svg)](https://discovernewtools.com/projects/tryh3-minimax-h3-video-generator-4605?utm_source=badge "Featured on Discover New Tools")[![Image 177: Proudly Featured On: Featured on App Tooling](https://apptooling.com/apptooling/images/badges/featured-on-light.svg)](https://apptooling.com/projects/tryh3-minimax-h3-video-generator?utm_source=badge "Featured on App Tooling")[![Image 178: Proudly Featured On: Featured on Launch Feeds](https://launchfeeds.com/launchfeeds/images/badges/featured-on-light.svg)](https://launchfeeds.com/projects/tryh3-minimax-h3-video-generator?utm_source=badge "Featured on Launch Feeds")[![Image 179: Proudly Featured On: Powered by ToolPilot.ai](https://www.toolpilot.ai/cdn/shop/files/f-w_690x151_crop_center.png)](https://www.toolpilot.ai/ "Powered by ToolPilot.ai")[![Image 180: Proudly Featured On: Featured on the Postmake directory](https://postmake.io/postmake_badge_light.png)](https://postmake.io/submit "Featured on the Postmake directory")[![Image 181: Proudly Featured On: Listed on AiToolsList.Tools](https://aitoolslist.tools/badges/aitoolslist-listed-light.svg)](https://aitoolslist.tools/ "Listed on AiToolsList.Tools")[![Image 182: Proudly Featured On: Featured on Artificin](https://artificin.com/badges/Artificin-badge.png)](https://artificin.com/?utm_source=badge&utm_medium=referral&utm_campaign=featured_badge "Featured on Artificin")[![Image 183: Proudly Featured On: The Key Tools](https://thekeytools.com/assets/images/badge.png)](https://thekeytools.com/ai/tryh3 "The Key Tools")[![Image 184: Proudly Featured On: Tool Parade](https://toolparade.com/assets/images/badge.png)](https://toolparade.com/tools/tryh3 "Tool Parade")[![Image 185: Proudly Featured On: Tool Networker](https://toolnetworker.com/assets/images/badge.png)](https://toolnetworker.com/tools/tryh3 "Tool Networker")[![Image 186: Proudly Featured On: Toolkitindex](https://toolkitindex.com/assets/images/badge.png)](https://toolkitindex.com/products/tryh3 "Toolkitindex")[![Image 187: Proudly Featured On: Toolignite](https://toolignite.com/assets/images/badge.png)](https://toolignite.com/tools/tryh3 "Toolignite")[![Image 188: Proudly Featured On: Saasstate](https://saasstate.com/assets/images/badge.png)](https://saasstate.com/products/tryh3 "Saasstate")[![Image 189: Proudly Featured On: Saasscanner](https://saasscanner.com/assets/images/badge.png)](https://saasscanner.com/products/tryh3 "Saasscanner")[![Image 190: Proudly Featured On: Saasnetworker](https://saasnetworker.com/assets/images/badge.png)](https://saasnetworker.com/products/tryh3 "Saasnetworker")[![Image 191: Proudly Featured On: Saascrawler](https://saascrawler.com/assets/images/badge.png)](https://saascrawler.com/products/tryh3 "Saascrawler")[![Image 192: Proudly Featured On: Saasbranch](https://saasbranch.com/assets/images/badge.png)](https://saasbranch.com/products/tryh3 "Saasbranch")[![Image 193: Proudly Featured On: Saasbadge](https://saasbadge.com/assets/images/badge.png)](https://saasbadge.com/products/tryh3 "Saasbadge")[![Image 194: Proudly Featured On: Saasavenue](https://saasavenue.com/assets/images/badge.png)](https://saasavenue.com/products/tryh3 "Saasavenue")[![Image 195: Proudly Featured On: Appnetworker](https://appnetworker.com/assets/images/badge.png)](https://appnetworker.com/products/tryh3 "Appnetworker")[![Image 196: Proudly Featured On: App Hub List](https://apphublist.com/assets/images/badge.png)](https://apphublist.com/products/tryh3 "App Hub List")[![Image 197: Proudly Featured On: ShinyLaunch](https://shinylaunch.com/assets/images/badge.png)](https://shinylaunch.com/product/tryh3 "ShinyLaunch")[![Image 198: Proudly Featured On: AI X Collection](https://aixcollection.com/assets/images/badge.png)](https://aixcollection.com/ai/tryh3 "AI X Collection")[![Image 199: Proudly Featured On: Acid Tools](https://acidtools.com/assets/images/badge.png)](https://acidtools.com/ai/tryh3 "Acid Tools")[![Image 200: Proudly Featured On: Good AI Tools](https://goodaitools.com/assets/images/badge.png)](https://goodaitools.com/ai/tryh3 "Good AI Tools")[![Image 201: Proudly Featured On: NewTool.site](https://newtool.site/badges/newtool-light.svg)](https://newtool.site/item/tryh3 "NewTool.site")[![Image 202: Proudly Featured On: Twelve Tools](https://twelve.tools/badge0-white.svg)](https://twelve.tools/ "Twelve Tools")[![Image 203: Proudly Featured On: We Like Tools](https://weliketools.com/assets/images/badge.png)](https://weliketools.com/tool/tryh3 "We Like Tools")[![Image 204: Proudly Featured On: Tool Prism](https://toolprism.com/assets/images/badge.png)](https://toolprism.com/ai/tryh3 "Tool Prism")[![Image 205: Proudly Featured On: Million Dot Homepage](https://milliondothomepage.com/assets/images/badge.png)](https://milliondothomepage.com/product/tryh3 "Million Dot Homepage")[![Image 206: Proudly Featured On: Tool Signal](https://toolsignal.com/assets/images/badge.png)](https://toolsignal.com/tool/tryh3 "Tool Signal")[![Image 207: Proudly Featured On: Tool Find Dir](https://toolfinddir.com/assets/images/badge.png)](https://toolfinddir.com/ai/tryh3 "Tool Find Dir")[![Image 208: Proudly Featured On: The Core Tools](https://thecoretools.com/assets/images/badge.png)](https://thecoretools.com/tool/tryh3 "The Core Tools")[![Image 209: Proudly Featured On: LaunchClash](https://launchclash.com/assets/images/badge.png)](https://launchclash.com/product/tryh3 "LaunchClash")[![Image 210: Proudly Featured On: Solver Tools](https://solvertools.com/assets/images/badge.png)](https://solvertools.com/tool/tryh3 "Solver Tools")[![Image 211: Proudly Featured On: Tool Journey](https://tooljourney.com/assets/images/badge.png)](https://tooljourney.com/tool/tryh3 "Tool Journey")[![Image 212: Proudly Featured On: Tool Cosmos](https://toolcosmos.com/assets/images/badge.png)](https://toolcosmos.com/tool/tryh3 "Tool Cosmos")[![Image 213: Proudly Featured On: The App Tools](https://theapptools.com/assets/images/badge.png)](https://theapptools.com/ai/tryh3 "The App Tools")[![Image 214: Proudly Featured On: Featured on ufind.best](https://ufind.best/badges/ufind-best-badge-light.svg)](https://ufind.best/products/minimax-h3-ai-video-generator "Featured on ufind.best")[![Image 215: Proudly Featured On: Featured on Findly.tools](https://findly.tools/badges/findly-tools-badge-light.svg)](https://findly.tools/tryh3-minimax-h3-video-generator "Featured on Findly.tools")[![Image 216: Proudly Featured On: TryH3 - MiniMax H3 Video Generator is listed on publishyoursaas](https://publishyoursaas.com/publishyoursaas-badge.svg)](https://publishyoursaas.com/listing/tryh3-com "TryH3 - MiniMax H3 Video Generator is listed on publishyoursaas")[![Image 217: Proudly Featured On: Startup Vessel](https://startupvessel.com/assets/images/badge.png)](https://startupvessel.com/product/tryh3 "Startup Vessel")[![Image 218: Proudly Featured On: Top Trend Tools](https://toptrendtools.com/assets/images/badge.png)](https://toptrendtools.com/tool/tryh3 "Top Trend Tools")[![Image 219: Proudly Featured On: Tools Under Radar](https://toolsunderradar.com/assets/images/badge.png)](https://toolsunderradar.com/tool/tryh3 "Tools Under Radar")[![Image 220: Proudly Featured On: Tools List HQ](https://toolslisthq.com/assets/images/badge.png)](https://toolslisthq.com/tool/tryh3 "Tools List HQ")[![Image 221: Proudly Featured On: The Mega Tools](https://themegatools.com/assets/images/badge.png)](https://themegatools.com/tool/tryh3 "The Mega Tools")[![Image 222: Proudly Featured On: SaaS Roots](https://saasroots.com/assets/images/badge.png)](https://saasroots.com/product/tryh3 "SaaS Roots")[![Image 223: Proudly Featured On: Super AI Boom](https://superaiboom.com/assets/images/badge.png)](https://superaiboom.com/ai/tryh3 "Super AI Boom")[![Image 224: Proudly Featured On: Power Up Tools](https://poweruptools.com/assets/images/badge.png)](https://poweruptools.com/ai/tryh3 "Power Up Tools")[![Image 225: Proudly Featured On: Beam Tools](https://beamtools.com/assets/images/badge.png)](https://beamtools.com/tool/tryh3 "Beam Tools")[![Image 226: Proudly Featured On: Unite List](https://unitelist.com/assets/images/badge.png)](https://unitelist.com/product/tryh3 "Unite List")[![Image 227: Proudly Featured On: Tiny Tool Hub](https://tinytoolhub.com/assets/images/badge.png)](https://tinytoolhub.com/tool/tryh3 "Tiny Tool Hub")[![Image 228: Proudly Featured On: That App Show](https://thatappshow.com/assets/images/badge.png)](https://thatappshow.com/product/tryh3 "That App Show")[![Image 229: Proudly Featured On: Startup AIdeas](https://startupaideas.com/assets/images/badge.png)](https://startupaideas.com/ai/tryh3 "Startup AIdeas")[![Image 230: Proudly Featured On: Smart Kit Hub](https://smartkithub.com/assets/images/badge.png)](https://smartkithub.com/product/tryh3 "Smart Kit Hub")[![Image 231: Proudly Featured On: My Start Tools](https://mystarttools.com/assets/images/badge.png)](https://mystarttools.com/tool/tryh3 "My Start Tools")[![Image 232: Proudly Featured On: Launch Scroll](https://launchscroll.com/assets/images/badge.png)](https://launchscroll.com/product/tryh3 "Launch Scroll")[![Image 233: Proudly Featured On: Ash List](https://ashlist.com/assets/images/badge.png)](https://ashlist.com/product/tryh3 "Ash List")[![Image 234: Proudly Featured On: Appsy Tools](https://appsytools.com/assets/images/badge.png)](https://appsytools.com/tool/tryh3 "Appsy Tools")[![Image 235: Proudly Featured On: Appa List](https://appalist.com/assets/images/badge.png)](https://appalist.com/ai/tryh3 "Appa List")[![Image 236: Proudly Featured On: Trustiner](https://trustiner.com/assets/images/badge.png)](https://trustiner.com/product/tryh3 "Trustiner")[![Image 237: Proudly Featured On: Startup Benchmarks](https://startupbenchmarks.com/assets/images/badge.png)](https://startupbenchmarks.com/product/tryh3 "Startup Benchmarks")[![Image 238: Proudly Featured On: Toshi List](https://toshilist.com/assets/images/badge.png)](https://toshilist.com/product/tryh3 "Toshi List")[![Image 239: Proudly Featured On: My Launch Stash](https://mylaunchstash.com/assets/images/badge.png)](https://mylaunchstash.com/product/tryh3 "My Launch Stash")[![Image 240: Proudly Featured On: Latest AI Updates](https://latestaiupdates.com/assets/images/badge.png)](https://latestaiupdates.com/ai/tryh3 "Latest AI Updates")[![Image 241: Proudly Featured On: Best Tool Vault](https://besttoolvault.com/assets/images/badge.png)](https://besttoolvault.com/tool/tryh3 "Best Tool Vault")[![Image 242: Proudly Featured On: AI Toolz](https://aitoolzs.com/assets/images/badge.png)](https://aitoolzs.com/ai/tryh3 "AI Toolz")[![Image 243: Proudly Featured On: AI Tech Viral](https://aitechviral.com/assets/images/badge.png)](https://aitechviral.com/ai/tryh3 "AI Tech Viral")[![Image 244: Proudly Featured On: AIGC 160](https://aigc160.com/assets/images/badge.png)](https://aigc160.com/ai/tryh3 "AIGC 160")[![Image 245: Proudly Featured On: Iitang](https://iitang.com/favicon.ico)](https://iitang.com/ "Iitang")[![Image 246: Proudly Featured On: AI Tool Center](https://aitoolcenter.com/favicon.ico)](https://aitoolcenter.com/ "AI Tool Center")[![Image 247: Proudly Featured On: GetAITools](https://getaitools.app/favicon.ico)](https://getaitools.app/ "GetAITools")[![Image 248: Proudly Featured On: Submito](https://submito.net/favicon.ico)](https://submito.net/ "Submito")[![Image 249: Proudly Featured On: Source Dir](https://sourcedir.com/assets/images/badge.png)](https://sourcedir.com/product/tryh3 "Source Dir")[AIMonstr](https://www.aimonstr.com/ "AIMonstr")[![Image 250: Proudly Featured On: Hunt for Tools](https://huntfortools.com/assets/images/badge.png)](https://huntfortools.com/tool/tryh3 "Hunt for Tools")[![Image 251: Proudly Featured On: Visnook](https://visnook.com/badge.jpg?domain=tryh3.com&token=02881b51-7fb4-4b99-8845-b5d1a4139022)](https://visnook.com/rankings/tryh3-com "Visnook")
+
+© 2026 TryH3
+
+[support@tryh3.com](mailto:support@tryh3.com)[Privacy Policy](https://tryh3.com/privacy-policy)[Terms of Service](https://tryh3.com/terms-of-service)[Refund Policy](https://tryh3.com/refund-policy)[llms.txt](https://tryh3.com/llms.txt)
