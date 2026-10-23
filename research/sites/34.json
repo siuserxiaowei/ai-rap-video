@@ -1,0 +1,123 @@
+{
+  "id": "34",
+  "name": "Suno",
+  "url": "https://suno.com/",
+  "category": "music",
+  "checked_at": "2026-10-23",
+  "summary": "从文字描述或自写歌词创作含人声和伴奏的歌曲，并提供音频上传、编辑和分轨工具；适合作为 Rap 视频流程的音轨创作环节（推断），本次未实测生成。",
+  "inputs": [
+    "文字提示：曲风、情绪、主题",
+    "用户自写歌词",
+    "上传或录制的音频／自己的声音（依套餐）"
+  ],
+  "outputs": [
+    "包含人声、器乐和制作的完整歌曲",
+    "纯器乐／节拍音轨",
+    "分离音轨（付费套餐）",
+    "订阅套餐配额内的歌曲下载"
+  ],
+  "features": [
+    "官网宣称可从单条文字提示创作完整歌曲，并支持重新生成、延长和修改",
+    "可描述曲风、情绪与主题或输入自己的歌词",
+    "Suno Studio 浏览器音乐工作站，提供编排、编辑和混音",
+    "Remix 可改曲风、重写歌词或围绕自己的录音重建歌曲",
+    "付费套餐提供自己的声音录制、上传与创作，以及自定义模型",
+    "Pro 与 Premier 提供不同级别的分轨功能"
+  ],
+  "pricing": {
+    "summary": "当前价格页显示 Free $0；Pro $8/月、Premier $24/月均为年付折月价，不能当作逐月价格。官网首页 FAQ 仍写逐月 $10/$30，可能与当前方案同步不一致，逐月现价待结账页核验。",
+    "free_tier": "每天 50 credits；上传最长 8 分钟音频；无每月歌曲下载、无商业使用权、无分轨。",
+    "plans": [
+      {
+        "name": "Free",
+        "amount": 0,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": "50/day",
+        "notes": "仅个人非商业使用；可通过 Suno 链接分享。"
+      },
+      {
+        "name": "Pro",
+        "amount": 8,
+        "currency": "USD",
+        "billing_period": "month_equivalent_billed_annually",
+        "credits": "2500/month",
+        "notes": "年付折月；每月20次歌曲下载；商用权、两种分轨；税费结账时计算。"
+      },
+      {
+        "name": "Premier",
+        "amount": 24,
+        "currency": "USD",
+        "billing_period": "month_equivalent_billed_annually",
+        "credits": "10000/month",
+        "notes": "年付折月；每月60次歌曲下载；Studio、三种分轨；最长30分钟音频上传。"
+      }
+    ],
+    "source_url": "https://suno.com/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "已检查官网、帮助中心及官方域名 API 文档搜索，本次未找到公开音乐生成 API 文档；不据此断言不存在 API，也不把第三方 Suno API 当官方。",
+    "url": null
+  },
+  "limitations": [
+    "未登录、未实际生成或下载；音质、Rap 咬字、押韵、节奏和中文表现未验证。",
+    "免费方案生成歌曲仅限个人非商业用途，不能变现。",
+    "2026-09 更新的付费帮助页明确：订阅期间下载的歌曲获商业使用权；需结合下载配额和服务条款。",
+    "商业使用授权不等于保证可获著作权保护；官方帮助页明确作此区分。",
+    "首页与当前价格页存在模型版本、下载规则及价格口径差异，具体权益以当前套餐和条款为准。",
+    "本次所读页面支持音乐创作；未核实自动生成 Rap 演出视频、人物口型或字幕的能力。"
+  ],
+  "best_for": "希望从自写 Rap 歌词或曲风提示开始制作人声与伴奏，并将音轨交给视频／口型工具的创作者（流程适配推断）。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://suno.com/",
+      "title": "Suno | AI Music Generator",
+      "kind": "official",
+      "local_path": "research/evidence/34/home.txt",
+      "supports": [
+        "文字／歌词到歌曲",
+        "音乐编辑、声音、分轨与 Studio",
+        "完整歌曲和器乐输出；Rap 流程为推断"
+      ]
+    },
+    {
+      "url": "https://suno.com/pricing",
+      "title": "Suno | Pricing",
+      "kind": "pricing",
+      "local_path": "research/evidence/34/pricing.txt",
+      "supports": [
+        "免费每日50 credits与无商用权",
+        "年付折月价格和付费配额",
+        "歌曲下载配额与套餐功能"
+      ]
+    },
+    {
+      "url": "https://help.suno.com/en/articles/9601601",
+      "title": "What rights do I have with the free plan?",
+      "kind": "documentation",
+      "local_path": "research/evidence/34/free-rights.txt",
+      "supports": [
+        "免费歌曲仅个人非商业使用",
+        "允许用Suno链接分享"
+      ]
+    },
+    {
+      "url": "https://help.suno.com/en/articles/9601665",
+      "title": "What rights do I have with a paid subscription?",
+      "kind": "documentation",
+      "local_path": "research/evidence/34/paid-rights.txt",
+      "supports": [
+        "订阅期间下载歌曲的商业权利",
+        "可用于流媒体／影视／游戏及销售",
+        "商业权利不保证版权保护"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：在 Rap 视频工作流中更适合承担歌词到音乐的前段，后接视频生成、人物口型和剪辑工具。",
+    "推断：将歌词输入、曲风控制、修改和分轨拆为连续操作，可给 Rap 创作产品提供流程参考；本次未验证成品表现。",
+    "当前价格页将创作 credits 与歌曲下载次数分开；对外分发前需核对两种配额及授权条件。"
+  ]
+}
