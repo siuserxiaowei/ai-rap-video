@@ -1,0 +1,64 @@
+{
+  "status": "partial_browser_blocked",
+  "checked_at": "2026-10-23T16:27:18.114995+00:00",
+  "git_head": "4e2627723987c0980f89f20127984f4422502f6f",
+  "research": {
+    "total": 46,
+    "full_page": 42,
+    "by_category": {
+      "rap": 19,
+      "editor": 3,
+      "music_video": 11,
+      "video": 6,
+      "lip_sync": 4,
+      "music": 3
+    },
+    "by_evidence": {
+      "full_page": 42,
+      "partial": 4
+    },
+    "by_api": {
+      "not_found": 29,
+      "documented": 17
+    },
+    "checked_at": "2026-10-24",
+    "source_references": 161,
+    "unique_source_files": 160,
+    "source_manifest": "artifacts/evidence-manifest.json"
+  },
+  "agents": {
+    "codex_invoked": 50,
+    "codex_deliveries": 50,
+    "codex_fully_accepted": 48,
+    "codex_pending_visual": [
+      "C44",
+      "C45"
+    ],
+    "gemini_successful": 50,
+    "gemini_unique_conversations": 50,
+    "supplemental_same_G50": true
+  },
+  "automated_checks": {
+    "status": "passed",
+    "summary": "54 tests passed, 0 failures/errors/skips; running-service HTTP brief/jobs/quote and all3 downloads passed; both JS syntax checks passed. These are not browser UI checks.",
+    "unittest_log": "artifacts/tests/c49.txt",
+    "live_smoke_log": "artifacts/tests/live-smoke.json"
+  },
+  "browser": {
+    "status": "blocked_by_access_policy",
+    "reason": "浏览器自动化会话因当前页面访问策略被终止。未用其他浏览器或工具绕过；桌面、390px布局、真实键盘焦点和浏览器下载交互尚未验证。",
+    "desktop": "not_verified",
+    "mobile_390": "not_verified",
+    "keyboard": "not_verified",
+    "browser_download": "not_verified"
+  },
+  "runtime": {
+    "url": "http://127.0.0.1:8788",
+    "live_render_configured": false,
+    "video_generated": false
+  },
+  "goal_complete": false,
+  "remaining_required": [
+    "C44/C45 real browser desktop/mobile/keyboard/download acceptance"
+  ]
+}

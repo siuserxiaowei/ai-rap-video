@@ -54,26 +54,16 @@
     "gemini_queue": 34726
   },
   "next_research_agent": 39,
-  "active_codex_tasks": [
-    "c49_integration_qa",
-    "c50_final_review"
-  ],
+  "active_codex_tasks": [],
   "pending_features": [
-    "C42",
-    "C43",
-    "C44",
-    "C45",
-    "C46",
-    "C47",
-    "C48",
-    "C49",
-    "C50"
+    "C44 real browser acceptance",
+    "C45 real browser acceptance"
   ],
   "external_engine_commit": "fccf3d4; preserve airap and coordinate per COORDINATION.md",
   "feishu": "draft_e2ad52db_folder/draft.xml initialized; initial profile passed; not yet published",
   "feishu_cli": "/Users/xiaowei/.local/state/fnm_multishells/1706_1792153352427/bin/lark-cli",
-  "feishu_work_dir": "draft_e2ad52db_folder",
-  "feishu_draft_path": "draft_e2ad52db_folder/draft.xml",
+  "feishu_work_dir": null,
+  "feishu_draft_path": null,
   "gemini_unique_conversations": 50,
   "gemini_queue_state": "completed, exit0, all worktrees reclaimed",
   "external_engine": "actively being developed by external process; main includes audio and lyrics-flow merges; preserve changes",
@@ -102,18 +92,44 @@
     "C45",
     "C46",
     "C47",
-    "C48"
+    "C48",
+    "C49",
+    "C50"
   ],
   "pending_visual_features": [
     "C44",
     "C45"
   ],
-  "browser_status": "CUA session terminated by current-page access policy; no alternate browser/tools may bypass. Do not attempt more browser actions. Desktop/390px not verified.",
+  "browser_status": "CUA session terminated by current-page access policy. Do not attempt browser actions or alternative tooling to bypass this policy. Actual desktop/mobile UI is NOT verified.",
   "pending_tasks": [
     "C48 acceptance after 43 tests observed passed",
     "C49 integration tests, C50 independent docs review",
     "strict report audit and verification JSON",
     "create/fetch native Feishu report; cleanup exact draft folder",
     "retain C44/C45 worktrees as unaccepted visual pending; goal remains active until requirement audit complete"
-  ]
+  ],
+  "milestone": "46-site Feishu report published and fully read-back verified; 100 agent tasks delivered",
+  "goal_status": "active; not complete",
+  "partial_sites": 4,
+  "codex_deliveries": 50,
+  "fully_accepted_codex": 48,
+  "supplemental_same_G50": true,
+  "feishu_url": "https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc",
+  "feishu_document_id": "TiqGd7dHWoAqBex3KCvcnzpVnKc",
+  "feishu_revision": 10,
+  "feishu_status": "created once, full text exactly matches release after whitespace normalization; 46 headings,50 decisions,155 unique links preserved",
+  "feishu_release_path": "artifacts/feishu-report.xml",
+  "draft_workspace_cleaned": true,
+  "automated_tests": 54,
+  "live_http_smoke": "passed",
+  "remaining_required": [
+    "C44/C45 desktop,390px,keyboard focus and browser downloads must be verified in an allowed browser environment"
+  ],
+  "blocker_first_seen_goal_turn": 1,
+  "blocking_turns_observed": 1,
+  "next_action": "No browser bypass. Preserve active goal and original visual acceptance requirement. Re-audit current evidence on continuation; if same impasse persists for three consecutive goal turns and no meaningful progress is possible, mark blocked per goal rules.",
+  "future_backlog_not_completed": [
+    "Real provider adapter and authorized-media quality tests, as next-stage plan; current app explicitly only brief/storyboard preview."
+  ],
+  "last_checkpoint": "2026-10-23T16:31:48.162672+00:00"
 }

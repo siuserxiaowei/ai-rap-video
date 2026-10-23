@@ -1,0 +1,457 @@
+{
+  "actual_invoked": 50,
+  "unique_task_paths": 50,
+  "method": "collaboration.spawn_agent tasks, batched under 4-active-agent concurrency limit",
+  "tasks": [
+    {
+      "id": "C01",
+      "task_path": "/root/c01_rapvideogenerator",
+      "commit": "962a4180a53d30a92910e15e0ba12a5b5aa02bd1",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/01.json"
+    },
+    {
+      "id": "C02",
+      "task_path": "/root/c02_rapvideo",
+      "commit": "4e198a3652eab013c883bff277147ce876194494",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/02.json"
+    },
+    {
+      "id": "C03",
+      "task_path": "/root/c03_rapreel",
+      "commit": "6e049d167603a1d7e9f9ae3054382fce6ac8b615",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/03.json"
+    },
+    {
+      "id": "C04",
+      "task_path": "/root/c04_airapvideo",
+      "commit": "877bfa8e6b63a482cbc24f48800f3de6142ff1ed",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/04.json"
+    },
+    {
+      "id": "C05",
+      "task_path": "/root/c05_rapvideoai",
+      "commit": "c91c55505bdb814c5aee3f78ba1e276854029163",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/05.json"
+    },
+    {
+      "id": "C06",
+      "task_path": "/root/c06_airapvid",
+      "commit": "6f9d493",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/06.json"
+    },
+    {
+      "id": "C07",
+      "task_path": "/root/c07_capcut",
+      "commit": "7879b38ad73e5d15ad3eb1b58ddc845c941c5917",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/07.json"
+    },
+    {
+      "id": "C08",
+      "task_path": "/root/c08_mediaio",
+      "commit": "4c2e774d5ae7a9c539467d7cd96049ccd579e939",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/08.json"
+    },
+    {
+      "id": "C09",
+      "task_path": "/root/c09_octoscale",
+      "commit": "1cf3bddd6db9062f6859cc4ceed7bcb73e1b2071",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/09.json"
+    },
+    {
+      "id": "C10",
+      "task_path": "/root/c10_tryh3",
+      "commit": "2740513bcb5d1674da0d989583f81c37b75f09e2",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/10.json"
+    },
+    {
+      "id": "C11",
+      "task_path": "/root/c11_duorapai",
+      "commit": "7bed09b28131098449bb035245c7fc875c7c37ca",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/11.json"
+    },
+    {
+      "id": "C12",
+      "task_path": "/root/c12_airapdotvideo",
+      "commit": "d9a7b161262d55792e46fd93190c30e4d35fa4e2",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/12.json"
+    },
+    {
+      "id": "C13",
+      "task_path": "/root/c13_airapvideos",
+      "commit": "7bf2124",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/13.json"
+    },
+    {
+      "id": "C14",
+      "task_path": "/root/c14_aituber",
+      "commit": "3516bbc40514d526558bd6e9e06bfdf4529ed8dc",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/14.json"
+    },
+    {
+      "id": "C15",
+      "task_path": "/root/c15_musicful",
+      "commit": "d3a73b8",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/15.json"
+    },
+    {
+      "id": "C16",
+      "task_path": "/root/c16_pollo",
+      "commit": "c05afc7a14aa30a9d553436abd8bfc249aed3af7",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/16.json"
+    },
+    {
+      "id": "C17",
+      "task_path": "/root/c17_goenhance",
+      "commit": "62882ed9a2513d9f99cc1f92ebda337741c6e370",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/17.json"
+    },
+    {
+      "id": "C18",
+      "task_path": "/root/c18_freebeat",
+      "commit": "a7310946b45a2c2c90afeeacada9174792c74e05",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/18.json"
+    },
+    {
+      "id": "C19",
+      "task_path": "/root/c19_neuralframes",
+      "commit": "4ed5d469815c42f67f0b04d0646587ddf3be8eb2",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/19.json"
+    },
+    {
+      "id": "C20",
+      "task_path": "/root/c20_beatviz",
+      "commit": "b73debf4e218f9861dfeaeabc94f4f25d96c4814",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/20.json"
+    },
+    {
+      "id": "C21",
+      "task_path": "/root/c21_revid",
+      "commit": "d6be7d833376b655e939979d5f21a2b5760df16c",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/21.json"
+    },
+    {
+      "id": "C22",
+      "task_path": "/root/c22_banger",
+      "commit": "0f4aaf5bd9b385df7d69dc11e24ba966ec8c6f92",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/22.json"
+    },
+    {
+      "id": "C23",
+      "task_path": "/root/c23_kaiber",
+      "commit": "24ab9c0",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/23.json"
+    },
+    {
+      "id": "C24",
+      "task_path": "/root/c24_openart",
+      "commit": "69b78752ab50423a49ee7749af17426bfcb40fcd",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/24.json"
+    },
+    {
+      "id": "C25",
+      "task_path": "/root/c25_domoai",
+      "commit": "3cdd24470939d7022a996c1782a3373798a945c8",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/25.json"
+    },
+    {
+      "id": "C26",
+      "task_path": "/root/c26_hedra",
+      "commit": "f90a06b7a1b33d2e5066f133abd7a45196020e9a",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/26.json"
+    },
+    {
+      "id": "C27",
+      "task_path": "/root/c27_heygen",
+      "commit": "09534e0",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/27.json"
+    },
+    {
+      "id": "C28",
+      "task_path": "/root/c28_sync",
+      "commit": "330eedfb18f844c7e29e472b137e1c46be86925a",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/28.json"
+    },
+    {
+      "id": "C29",
+      "task_path": "/root/c29_runway",
+      "commit": "7d8d1891391dffc222a0a0b8af86a54caad3b4e0",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/29.json"
+    },
+    {
+      "id": "C30",
+      "task_path": "/root/c30_kling",
+      "commit": "8ca531bd58137975a76ad6dfacaa2958f3f5a7cb",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/30.json"
+    },
+    {
+      "id": "C31",
+      "task_path": "/root/c31_pixverse",
+      "commit": "e92e6d72ca2035b07ac76e1cf3586d8e8d8c3738",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/31.json"
+    },
+    {
+      "id": "C32",
+      "task_path": "/root/c32_pika",
+      "commit": "bc0fdeb",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/32.json"
+    },
+    {
+      "id": "C33",
+      "task_path": "/root/c33_luma",
+      "commit": "2c042a26d256538e2d770fd0f45c67c891a53a30",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/33.json"
+    },
+    {
+      "id": "C34",
+      "task_path": "/root/c34_suno",
+      "commit": "114b6cd347815b41b3a9c60d03f3ee1c5017dc8b",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/34.json"
+    },
+    {
+      "id": "C35",
+      "task_path": "/root/c35_udio",
+      "commit": "f9205938fdadbea719331ff2bf08ec4721aad5bb",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/35.json"
+    },
+    {
+      "id": "C36",
+      "task_path": "/root/c36_singify",
+      "commit": "286f8137f2823961e723b2b563e1ad2d2c23fbdb",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/36.json"
+    },
+    {
+      "id": "C37",
+      "task_path": "/root/c37_veed",
+      "commit": "4fe85cbd8cd274ac19e7f7f584b3f7cb0de5de71",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/37.json"
+    },
+    {
+      "id": "C38",
+      "task_path": "/root/c38_invideo",
+      "commit": "8c487dab39c365f2a333d3e45b7f2968df1f5310",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/38.json"
+    },
+    {
+      "id": "C39",
+      "task_path": "/root/c39_renderforest",
+      "commit": "9cb9205ad26c71f2991c2d98c3a58a0bd044ee1c",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/39.json"
+    },
+    {
+      "id": "C40",
+      "task_path": "/root/c40_rotor",
+      "commit": "58042852b2fdd0ea37cd36f7db60964f92f567ab",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "research/sites/40.json"
+    },
+    {
+      "id": "C41",
+      "task_path": "/root/c41_catalog",
+      "commit": "d0e2496",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "artifacts/tests/c41.txt"
+    },
+    {
+      "id": "C42",
+      "task_path": "/root/c42_evidence",
+      "commit": "5d2efd1bceb89c0fda138c85fe8f9e088d1be089",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "artifacts/tests/c42.txt"
+    },
+    {
+      "id": "C43",
+      "task_path": "/root/c43_server",
+      "commit": "820d92544c46ccf6d8a52718edf22a4edfbc0d99",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "artifacts/tests/c43.txt"
+    },
+    {
+      "id": "C44",
+      "task_path": "/root/c44_catalog_ui",
+      "commit": "1ba1407",
+      "delivery": "completed",
+      "accepted": false,
+      "validation_status": "pending_visual",
+      "evidence": "artifacts/tests/live-smoke.json"
+    },
+    {
+      "id": "C45",
+      "task_path": "/root/c45_create_ui",
+      "commit": "0657677",
+      "delivery": "completed",
+      "accepted": false,
+      "validation_status": "pending_visual",
+      "evidence": "artifacts/tests/live-smoke.json"
+    },
+    {
+      "id": "C46",
+      "task_path": "/root/c46_jobs",
+      "commit": "dac2b7bd7769d7830d469a6f7c590b2aabcfa07a",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "artifacts/tests/c46.txt"
+    },
+    {
+      "id": "C47",
+      "task_path": "/root/c47_quotes",
+      "commit": "3b696fc574e68310c2a133a1cf99b4ea3da1f67a",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "artifacts/tests/c47.txt"
+    },
+    {
+      "id": "C48",
+      "task_path": "/root/c48_exports",
+      "commit": "15fff60bd5e295e47daaaead447902a37dc1d620",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "artifacts/tests/c48.txt"
+    },
+    {
+      "id": "C49",
+      "task_path": "/root/c49_integration_qa",
+      "commit": "35ced7ca1c16de1ec868079fccaca8ce98924986",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "artifacts/tests/c49.txt"
+    },
+    {
+      "id": "C50",
+      "task_path": "/root/c50_final_review",
+      "commit": "975bff8",
+      "delivery": "completed",
+      "accepted": true,
+      "validation_status": "accepted",
+      "evidence": "artifacts/tests/c50.json"
+    }
+  ]
+}

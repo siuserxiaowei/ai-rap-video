@@ -63,3 +63,8 @@ git diff --check
 桌面和 390px 真实页面、键盘焦点、照片选择、筛选/比较、保存与浏览器下载仍未验证。浏览器 CUA 已因当前页面访问策略被终止；本轮未调用其他浏览器或替代工具绕过。HTTP 成功和静态 CSS 检查不能替代这些验收。
 
 下一步须依据当前官方文档实现一个实际 provider，使用专用凭据和获授权的人物/音轨样本，验证中文快 Rap、双人/遮挡、真实音频与口型、媒体下载、延迟、费用、失败重试及对账；随后完成桌面/390px视觉与交互验收。飞书发布还需原生创建、真实 URL 和标题、46 站、来源、50 决策的回读记录，由主线程完成后更新发布状态。当前不声称整体目标已完成。
+
+
+## 已发布研究文档
+
+[AI Rap Video：46站研究与自主开发方案](https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc)，已按原生文档全文回读验证。原始回执与验证在 artifacts/feishu-create.json、feishu-readback.json、feishu-verification.json。
