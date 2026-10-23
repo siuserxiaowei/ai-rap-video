@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-23",
+  "reader": "agent-reach / Jina Reader",
+  "pages": [
+    {
+      "url": "https://airapvideo.io/",
+      "file": "home.txt",
+      "status": "full_page",
+      "acquisition": "Copied after reading pre-collected /Users/xiaowei/.agent-reach/ai-rap-video-20261023/04.txt"
+    },
+    {
+      "url": "https://airapvideo.io/pricing",
+      "file": "pricing.txt",
+      "status": "full_page",
+      "reader_http_status": 200,
+      "acquisition": "Independent Jina request; complete response first saved to /tmp/airapvideo04-pricing.txt"
+    },
+    {
+      "url": "https://airapvideo.io/api",
+      "file": "api-attempt.txt",
+      "status": "target_404",
+      "reader_http_status": 200,
+      "target_http_status": 404,
+      "acquisition": "Independent Jina request; complete response first saved to /tmp/airapvideo04-api.txt"
+    }
+  ]
+}

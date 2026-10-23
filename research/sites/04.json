@@ -1,0 +1,168 @@
+{
+  "id": "04",
+  "name": "AIRapVideo",
+  "url": "https://airapvideo.io/",
+  "category": "rap",
+  "checked_at": "2026-10-23",
+  "summary": "面向双人合照或两张自拍的短说唱视频工具；供应商称可生成原创英文歌词、节拍、歌声与双人口型同步表演。",
+  "inputs": [
+    "两张正面人像，每人一张；也支持一张双人合照",
+    "可选说唱主题",
+    "舞台、模型、分辨率、时长和画幅选择"
+  ],
+  "outputs": [
+    "带原创歌词、节拍与歌声的双人说唱短视频",
+    "默认竖屏 9:16；可选方形或宽屏",
+    "供应商称成片高清、无水印"
+  ],
+  "features": [
+    "双人同台共用悬挂麦克风、轮流说唱",
+    "六种舞台，包括橙色录音间、屋顶和涂鸦巷",
+    "标准时长 12 秒；可选 5–15 秒，Ultra 最长 30 秒",
+    "供应商称多数任务 2–3 分钟完成",
+    "失败任务自动返还积分；可通过礼物链接分享积分"
+  ],
+  "pricing": {
+    "summary": "按生成积分收费。标准 12 秒、720p 为 10 credits；模型、清晰度、时长决定消耗，画幅不加价。月订阅与一次性积分包并存。",
+    "free_tier": "官网明确视频生成不免费，未见免费视频额度。首页另列免费的双人艺名生成器，不能视为免费视频。",
+    "plans": [
+      {
+        "name": "Opener",
+        "amount": 29.9,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 100,
+        "notes": "标准规格约 10 条/月；自动续订。"
+      },
+      {
+        "name": "Headliner",
+        "amount": 49.9,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 300,
+        "notes": "标准规格约 30 条/月；自动续订。"
+      },
+      {
+        "name": "Tour",
+        "amount": 99.9,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 800,
+        "notes": "标准规格约 80 条/月；自动续订。"
+      },
+      {
+        "name": "One Track",
+        "amount": 9.99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 10,
+        "notes": "标准规格约 1 条；积分不失效。"
+      },
+      {
+        "name": "Mixtape",
+        "amount": 99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 350,
+        "notes": "标准规格约 35 条；积分不失效。"
+      },
+      {
+        "name": "Box Set",
+        "amount": 199,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 900,
+        "notes": "标准规格约 90 条；积分不失效。"
+      },
+      {
+        "name": "Catalog",
+        "amount": 499,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 3000,
+        "notes": "标准规格约 300 条；积分不失效。"
+      }
+    ],
+    "credits_per_12_second_render": [
+      {
+        "model": "Standard Seedance 2.0 Mini",
+        "480p": 5,
+        "720p": 10
+      },
+      {
+        "model": "Fast Seedance 2.0 Fast",
+        "480p": 8,
+        "720p": 17
+      },
+      {
+        "model": "Pro Seedance 2.0",
+        "480p": 10,
+        "720p": 20,
+        "1080p": 50
+      },
+      {
+        "model": "Ultra Seedance 2.5",
+        "480p": 17,
+        "720p": 37,
+        "1080p": 93
+      }
+    ],
+    "notes": [
+      "更长片段按比例增加积分。",
+      "年付方案在 FAQ 中出现，但未读取到完整年费，未折算或补填。",
+      "年付积分一次发放且有效 12 个月；月付每次续订补充积分，页面未明确月度余额是否结转。",
+      "官网称未用积分包或首次订阅付款可在 7 天内退款；独立退款政策未核验。"
+    ],
+    "source_url": "https://airapvideo.io/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "读取的首页、价格页未见公开 API 文档；独立尝试 /api 得到目标站 404。仅表示本次未找到，不能断言无 API。",
+    "url": "https://airapvideo.io/api"
+  },
+  "limitations": [
+    "仅支持英文说唱；其他语言的主题也输出英文歌词。",
+    "照片需清晰正面；使用他人照片需授权，未成年人需监护人同意。",
+    "清晰度和模型会显著影响单条成本，套餐歌曲数以标准规格为基准。",
+    "仅核验公开文案，未登录、付费或运行生成任务；画质、双人口型和速度未实测。"
+  ],
+  "best_for": "朋友、情侣、家庭或同事的双人搞笑短视频、生日祝福及社交分享。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://airapvideo.io/",
+      "title": "AI Rap Video Generator — Rap Duo Videos From Two Selfies",
+      "kind": "official",
+      "local_path": "research/evidence/04/home.txt",
+      "supports": [
+        "双人输入、原创音视频、舞台与输出规格",
+        "英文限定、时长、照片授权",
+        "免费视频边界及免费艺名工具的区别"
+      ]
+    },
+    {
+      "url": "https://airapvideo.io/pricing",
+      "title": "AI Rap Video Pricing — Credit Packs & Plans, About $1 a Song",
+      "kind": "pricing",
+      "local_path": "research/evidence/04/pricing.txt",
+      "supports": [
+        "月度套餐与一次性积分包",
+        "12 秒不同模型及分辨率积分消耗",
+        "失败返还、积分期限与退款 FAQ"
+      ]
+    },
+    {
+      "url": "https://airapvideo.io/api",
+      "title": "API path attempt — target returned 404",
+      "kind": "official",
+      "local_path": "research/evidence/04/api-attempt.txt",
+      "supports": [
+        "本次 API 路径尝试返回 404，未找到公开 API 文档"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：将双人自拍、主题与舞台组合成单一流程，适合借助朋友关系促进分享。",
+    "推断：标准规格的歌曲数容易理解，但选择高阶模型与高清后可生成条数会明显减少。"
+  ]
+}

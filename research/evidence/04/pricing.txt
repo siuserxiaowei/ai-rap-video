@@ -1,0 +1,156 @@
+Title: AI Rap Video Pricing — Credit Packs & Plans, About $1 a Song
+
+URL Source: https://airapvideo.io/pricing
+
+Markdown Content:
+Every video is paid in credits: 10 for a standard song, more for bigger models, higher resolution or longer clips. Failed renders are never charged.
+
+Most picked
+
+### Opener
+
+10 songs a month · 100 credits
+
+$29.90/mo
+
+$2.99 per song
+
+*   Clean HD file, no watermark
+*   Post it on any app
+*   Fresh credits each renewal
+*   Stop anytime from Billing
+
+### Headliner
+
+44% less per song
+
+30 songs a month · 300 credits
+
+$49.90/mo
+
+$1.66 per song
+
+*   Clean HD file, no watermark
+*   Post it on any app
+*   Fresh credits each renewal
+*   Stop anytime from Billing
+
+Lowest per song
+
+### Tour
+
+58% less per song
+
+80 songs a month · 800 credits
+
+$99.90/mo
+
+$1.25 per song
+
+*   Clean HD file, no watermark
+*   Post it on any app
+*   Fresh credits each renewal
+*   Stop anytime from Billing
+
+### Prefer to pay once? Credit packs
+
+A pack is a single payment that never expires. The Mixtape gives you 35 songs for $99; the Opener plan gives 10 a month for $29.90.
+
+Most picked
+
+### One Track
+
+1 song · 10 credits
+
+$9.99
+
+$9.99 per song
+
+*   Clean HD file, no watermark
+*   Post it on any app
+*   Credits keep until you use them
+*   A failed render costs nothing
+
+### Mixtape
+
+72% less per song
+
+35 songs · 350 credits
+
+$99
+
+$2.83 per song
+
+*   Clean HD file, no watermark
+*   Post it on any app
+*   Credits keep until you use them
+*   A failed render costs nothing
+
+### Box Set
+
+78% less per song
+
+90 songs · 900 credits
+
+$199
+
+$2.21 per song
+
+*   Clean HD file, no watermark
+*   Post it on any app
+*   Credits keep until you use them
+*   A failed render costs nothing
+
+### Catalog
+
+83% less per song
+
+300 songs · 3000 credits
+
+$499
+
+$1.66 per song
+
+*   Clean HD file, no watermark
+*   Post it on any app
+*   Credits keep until you use them
+*   A failed render costs nothing
+
+Every plan and pack can be shared: send friends one gift link, and each of them makes their own rap videos with their share.
+
+[How gifting works](https://airapvideo.io/gift)
+
+Card payments are processed by Stripe. Packs are a single charge with no expiry; plans renew until you cancel them from Billing.
+
+### Credits per render
+
+For a 12-second clip. You set the model, resolution, length and shape before each render.
+
+| Model | 480p | 720p | 1080p |
+| --- | --- | --- | --- |
+| Standard Seedance 2.0 Mini | 5 credits | 10 credits | — |
+| Fast Seedance 2.0 Fast | 8 credits | 17 credits | — |
+| Pro Seedance 2.0 | 10 credits | 20 credits | 50 credits |
+| Ultra Seedance 2.5 | 17 credits | 37 credits | 93 credits |
+
+Longer clips cost proportionally more; the aspect ratio is free. A standard song is 10 credits.
+
+## Pricing questions
+
+### Is it free?
+
+No. Each render uses a paid AI video model, so videos cost credits: a standard song (720p, 12 seconds) is 10. A single song is $9.99; plans begin at $29.90 a month for 10 songs and come down to about $1 a song on the yearly Tour plan. Failed renders are never charged.
+
+### Am I charged if a render fails?
+
+No. If the model errors, times out or a safety check stops the render, the credits are put back on your balance on their own.
+
+### Do credits expire? Can I get a refund?
+
+Pack credits stay on your account until you use them. Monthly plans add fresh credits at each renewal; yearly plans add the whole year's credits at once, valid for 12 months. An unused pack or a first plan payment can be refunded within 7 days; see the refund policy.
+
+## Ready to hear the two of you rap?
+
+Pick two selfies and an idea. The verse, the beat and the video take about three minutes.
+
+[Start with two selfies](https://airapvideo.io/#studio)
