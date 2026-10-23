@@ -1,0 +1,90 @@
+[
+  {
+    "@type": "Offer",
+    "name": "Single (10 credits)",
+    "price": "9.99",
+    "priceCurrency": "USD",
+    "url": "https://rapvideo.ai/pricing",
+    "availability": "https://schema.org/InStock"
+  },
+  {
+    "@type": "Offer",
+    "name": "Duo Pack (50 credits)",
+    "price": "29.00",
+    "priceCurrency": "USD",
+    "url": "https://rapvideo.ai/pricing",
+    "availability": "https://schema.org/InStock"
+  },
+  {
+    "@type": "Offer",
+    "name": "Party Pack (200 credits)",
+    "price": "59.00",
+    "priceCurrency": "USD",
+    "url": "https://rapvideo.ai/pricing",
+    "availability": "https://schema.org/InStock"
+  },
+  {
+    "@type": "Offer",
+    "name": "Crew Pack (350 credits)",
+    "price": "99.00",
+    "priceCurrency": "USD",
+    "url": "https://rapvideo.ai/pricing",
+    "availability": "https://schema.org/InStock"
+  },
+  {
+    "@type": "Offer",
+    "name": "Studio Pack (800 credits)",
+    "price": "199.00",
+    "priceCurrency": "USD",
+    "url": "https://rapvideo.ai/pricing",
+    "availability": "https://schema.org/InStock"
+  },
+  {
+    "@type": "Offer",
+    "name": "Basic monthly",
+    "price": "29.90",
+    "priceCurrency": "USD",
+    "url": "https://rapvideo.ai/pricing",
+    "availability": "https://schema.org/InStock"
+  },
+  {
+    "@type": "Offer",
+    "name": "Basic yearly",
+    "price": "100.00",
+    "priceCurrency": "USD",
+    "url": "https://rapvideo.ai/pricing",
+    "availability": "https://schema.org/InStock"
+  },
+  {
+    "@type": "Offer",
+    "name": "Pro monthly",
+    "price": "49.90",
+    "priceCurrency": "USD",
+    "url": "https://rapvideo.ai/pricing",
+    "availability": "https://schema.org/InStock"
+  },
+  {
+    "@type": "Offer",
+    "name": "Pro yearly",
+    "price": "500.00",
+    "priceCurrency": "USD",
+    "url": "https://rapvideo.ai/pricing",
+    "availability": "https://schema.org/InStock"
+  },
+  {
+    "@type": "Offer",
+    "name": "Studio monthly",
+    "price": "99.90",
+    "priceCurrency": "USD",
+    "url": "https://rapvideo.ai/pricing",
+    "availability": "https://schema.org/InStock"
+  },
+  {
+    "@type": "Offer",
+    "name": "Studio yearly",
+    "price": "600.00",
+    "priceCurrency": "USD",
+    "url": "https://rapvideo.ai/pricing",
+    "availability": "https://schema.org/InStock"
+  }
+]

@@ -1,0 +1,164 @@
+{
+  "id": "02",
+  "name": "RapVideo.ai",
+  "url": "https://rapvideo.ai/",
+  "category": "rap",
+  "checked_at": "2026-10-23",
+  "summary": "官网宣称以双人照片生成 5–30 秒 rap 对口型短视频：可用 Hotel Lobby 模板、自备歌曲，或按主题生成原创 rap；本次仅查阅页面，未实测生成。",
+  "inputs": [
+    "两张单人照或一张双人照；JPG/PNG/WebP/HEIC，单图上限 25 MB。https://rapvideo.ai/",
+    "自备歌曲 MP3/WAV/M4A/AAC/OGG，截取 2–15 秒；或最多 120 字符的 rap 主题。https://rapvideo.ai/"
+  ],
+  "outputs": [
+    "官网宣称输出无水印 MP4，支持 9:16；时长和分辨率依模型与场景而异，最高列出 30 秒、1080p。https://rapvideo.ai/"
+  ],
+  "features": [
+    "供应商宣称 Wan 3.0 支持模板原曲及自备歌曲对口型；Seedance 模型支持按主题写歌并生成表演。https://rapvideo.ai/",
+    "供应商宣称支持主唱加捧哏或双人轮流 rap；提供 Hotel Lobby、Luxury Lobby、Studio Booth、Street Cypher 舞台。https://rapvideo.ai/",
+    "官网还列出 34 种照片视频特效和个性化歌曲入口；本次未逐项核查。https://rapvideo.ai/"
+  ],
+  "pricing": {
+    "summary": "一次性积分包 9.99 USD/10 积分起；Basic 月付 29.90 USD/100 积分。Wan 3.0 标准 12 秒 480p 为 6 积分、720p 为 10、1080p 为 20。套餐金额来自官网 JSON-LD，未验证结账。",
+    "free_tier": "官网称 Hotel Lobby 和 Bulin 47 各有一次 2 秒预览：每 Google 账号一次、480p、有水印、仅站内；完整视频需积分。https://rapvideo.ai/pricing",
+    "plans": [
+      {
+        "name": "Single (10 credits)",
+        "amount": 9.99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "notes": "来源为官网价格页 JSON-LD Offer；未进入结账核验。https://rapvideo.ai/pricing",
+        "credits": 10
+      },
+      {
+        "name": "Duo Pack (50 credits)",
+        "amount": 29.0,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "notes": "来源为官网价格页 JSON-LD Offer；未进入结账核验。https://rapvideo.ai/pricing",
+        "credits": 50
+      },
+      {
+        "name": "Party Pack (200 credits)",
+        "amount": 59.0,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "notes": "来源为官网价格页 JSON-LD Offer；未进入结账核验。https://rapvideo.ai/pricing",
+        "credits": 200
+      },
+      {
+        "name": "Crew Pack (350 credits)",
+        "amount": 99.0,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "notes": "来源为官网价格页 JSON-LD Offer；未进入结账核验。https://rapvideo.ai/pricing",
+        "credits": 350
+      },
+      {
+        "name": "Studio Pack (800 credits)",
+        "amount": 199.0,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "notes": "来源为官网价格页 JSON-LD Offer；未进入结账核验。https://rapvideo.ai/pricing",
+        "credits": 800
+      },
+      {
+        "name": "Basic monthly",
+        "amount": 29.9,
+        "currency": "USD",
+        "billing_period": "month",
+        "notes": "来源为官网价格页 JSON-LD Offer；未进入结账核验。https://rapvideo.ai/pricing 首页正文另明确每月 100 积分。https://rapvideo.ai/",
+        "credits": 100
+      },
+      {
+        "name": "Basic yearly",
+        "amount": 100.0,
+        "currency": "USD",
+        "billing_period": "year",
+        "notes": "来源为官网价格页 JSON-LD Offer；未进入结账核验。https://rapvideo.ai/pricing 按年总价保留，未折算月价；积分数量与实际结账待核。"
+      },
+      {
+        "name": "Pro monthly",
+        "amount": 49.9,
+        "currency": "USD",
+        "billing_period": "month",
+        "notes": "来源为官网价格页 JSON-LD Offer；未进入结账核验。https://rapvideo.ai/pricing"
+      },
+      {
+        "name": "Pro yearly",
+        "amount": 500.0,
+        "currency": "USD",
+        "billing_period": "year",
+        "notes": "来源为官网价格页 JSON-LD Offer；未进入结账核验。https://rapvideo.ai/pricing 按年总价保留，未折算月价；积分数量与实际结账待核。"
+      },
+      {
+        "name": "Studio monthly",
+        "amount": 99.9,
+        "currency": "USD",
+        "billing_period": "month",
+        "notes": "来源为官网价格页 JSON-LD Offer；未进入结账核验。https://rapvideo.ai/pricing"
+      },
+      {
+        "name": "Studio yearly",
+        "amount": 600.0,
+        "currency": "USD",
+        "billing_period": "year",
+        "notes": "来源为官网价格页 JSON-LD Offer；未进入结账核验。https://rapvideo.ai/pricing 按年总价保留，未折算月价；积分数量与实际结账待核。"
+      }
+    ],
+    "source_url": "https://rapvideo.ai/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "在本次读取的首页和价格页中未找到公开 API 文档入口；未作专门 API 搜索，不能判断是否提供 API。",
+    "url": "https://rapvideo.ai/"
+  },
+  "limitations": [
+    "未登录、未上传照片、未生成或购买；画质、人物一致性、口型、排队时间均未实测。",
+    "价格页 Reader 未呈现套餐卡片；通过同页原始 HTML 的 JSON-LD 补充金额，部分订阅积分和结账价格待核。https://rapvideo.ai/pricing",
+    "官网要求照片人物同意；模板原曲权利归原权利人，不能据无水印输出推断音乐商用授权。https://rapvideo.ai/",
+    "官网称渲染失败退积分、上传照片/歌曲/片段在渲染后 7 天删除；均属供应商政策宣称，未独立验证。https://rapvideo.ai/"
+  ],
+  "best_for": "希望用自己与朋友的照片快速做双人 rap、生日趣味或社交短视频的人；属于依据官网输入与输出作出的适用性推断。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://rapvideo.ai/",
+      "title": "AI Rap Video From Two Photos, Hotel Lobby AI | RapVideo.ai",
+      "kind": "official",
+      "local_path": "research/evidence/02/home.jina.txt",
+      "supports": [
+        "summary",
+        "inputs",
+        "outputs",
+        "features",
+        "Basic 月付 29.90 USD/100 积分",
+        "使用同意、版权及保留政策的官网宣称"
+      ]
+    },
+    {
+      "url": "https://rapvideo.ai/pricing",
+      "title": "RapVideo Pricing: Credit Packs & Plans From $9.99",
+      "kind": "pricing",
+      "local_path": "research/evidence/02/pricing.jina.txt",
+      "supports": [
+        "模型分辨率与时长积分表",
+        "免费预览条件",
+        "失败退积分与订阅计费说明"
+      ]
+    },
+    {
+      "url": "https://rapvideo.ai/pricing",
+      "title": "RapVideo pricing 原始 HTML 与 JSON-LD Offer",
+      "kind": "pricing",
+      "local_path": "research/evidence/02/pricing.html",
+      "supports": [
+        "pricing.plans 全部金额、USD 币种及计划名称",
+        "同页结构化价格来源；非结账验证"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：用双人照片、固定舞台和既定动作压缩创作决策，便于围绕社交热点建立单用途入口。依据：https://rapvideo.ai/",
+    "推断：把自备音轨与 AI 写 rap 分流到不同模型，同时按时长和分辨率收费，可作为 rap 产品套餐设计参考。依据：https://rapvideo.ai/ 和 https://rapvideo.ai/pricing"
+  ]
+}

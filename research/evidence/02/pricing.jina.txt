@@ -1,0 +1,54 @@
+Title: RapVideo Pricing: Credit Packs & Plans From $9.99
+
+URL Source: https://rapvideo.ai/pricing
+
+Markdown Content:
+Pricing
+
+A standard 12-second rap video is 6 credits. Buy credits once or take a monthly plan; cancel anytime. Failed renders cost nothing.
+
+Secure checkout by Stripe · Packs never expire · Subscriptions renew until canceled · Failed renders are never charged
+
+Per render
+
+The create button shows the exact price before every render.
+
+| Wan 3.0 | 480p | 720p | 1080p |
+| --- | --- | --- | --- |
+| 5 seconds | 3 credits | 4 credits | 8 credits |
+| 8 seconds | 4 credits | 6 credits | 12 credits |
+| 10 seconds | 5 credits | 8 credits | 16 credits |
+| 12 seconds (standard) | 6 credits | 10 credits | 20 credits |
+| 15 seconds | 7 credits | 12 credits | 24 credits |
+
+Wan 3.0 is the default and keeps the Hotel Lobby track or [your own song](https://rapvideo.ai/hotel-lobby-ai-own-song). A clip of your own pays the next length up. Every shape costs the same. 720p costs more than 480p, and 1080p costs twice as much as 720p.
+
+Seedance, 12 s, any stage
+| Model | 480p | 720p | 1080p |
+| --- | --- | --- | --- |
+| Seedance 2.0 Mini | 5 credits | 10 credits | – |
+| Seedance 2.0 Fast | 8 credits | 16 credits | – |
+| Seedance 2.0 | 10 credits | 20 credits | 50 credits |
+| Seedance 2.5 | 16 credits | 36 credits | 90 credits |
+
+Seedance writes an [AI rap](https://rapvideo.ai/ai-rap-generator) on your topic: it keeps the booth moves, not the Hotel Lobby track.
+
+Photo effects, 5 s
+| Model | 480p | 720p | 1080p |
+| --- | --- | --- | --- |
+| Seedance 2.0 Mini | 2 credits | 4 credits | – |
+| Seedance 2.0 Fast | 3 credits | 6 credits | – |
+| Seedance 2.0 | 4 credits | 8 credits | 20 credits |
+| Seedance 2.5 | 6 credits | 14 credits | 36 credits |
+
+Seedance 2.5 also renders 20 or 30 seconds for an AI rap or one of the [effects](https://rapvideo.ai/ai-video-effects).
+
+Billing
+
+### Do I need a subscription?
+
+No. Buy credits once: a pack is one payment and its credits do not expire. Plans renew every month, or yearly with the year’s credits up front. The default Hotel Lobby video and the Bulin 47 Freestyle each come with a free 2-second preview: one per Google account, 480p, watermarked and on the site only. The full video, on Wan 3.0, is paid with credits.
+
+### Can I cancel anytime, and are failed renders charged?
+
+Cancel anytime in Orders; the plan runs to the end of the paid period. Failed renders are refunded automatically; unused packs and unused first plan payments can be [refunded within 14 days](https://rapvideo.ai/refund-policy).

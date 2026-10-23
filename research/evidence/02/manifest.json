@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-23T15:23:59.573549+00:00",
+  "pages": [
+    {
+      "url": "https://rapvideo.ai/",
+      "transport_url": "https://r.jina.ai/https://rapvideo.ai/",
+      "files": [
+        "home.jina.txt",
+        "home.jina.headers"
+      ]
+    },
+    {
+      "url": "https://rapvideo.ai/pricing",
+      "transport_url": "https://r.jina.ai/https://rapvideo.ai/pricing",
+      "files": [
+        "pricing.jina.txt",
+        "pricing.jina.headers"
+      ]
+    },
+    {
+      "url": "https://rapvideo.ai/pricing",
+      "transport_url": "https://rapvideo.ai/pricing",
+      "files": [
+        "pricing.html",
+        "pricing.direct.headers"
+      ]
+    }
+  ],
+  "sha256": {
+    "pricing.jina.txt": "f95ec3069ffea9524d79deed257297ec014abae9252413bf6de40dc859830b0d",
+    "pricing.html": "1d681ecf004f293e8824ebf431e20203c018a1e7a2def89ca6c13f9728afa9ef",
+    "pricing.direct.headers": "67d9570783b978108629e5cf39ae263ac62944d4e537c2d54e4cc93ee48f6384",
+    "home.jina.txt": "daa144613831d6efd6577b4513424875ab9bac8536840967058374dcf5bc9803",
+    "pricing.jina.headers": "4dc5012721d9a53b7c1733b0e66028ae9139f9513748c01bb6e0ff0ec45ebb7e",
+    "home.jina.headers": "94470dea30f545cd3db4e95bd62ef8a5c842770bf325234e7060c10ed0e44802",
+    "pricing-offers.extracted.json": "154408b901b8f0965b49223e5a97222d09ef560f8d497e8e2b5dc51651af3cd9"
+  }
+}
