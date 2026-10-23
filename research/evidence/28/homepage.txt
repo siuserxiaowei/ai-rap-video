@@ -1,0 +1,150 @@
+Title: sync. labs - ai lipsync and visual dubbing
+
+URL Source: https://sync.so/
+
+Markdown Content:
+[![Image 1: sync. labs logo](https://framerusercontent.com/images/cU8wATKsqI7EcRyyWMYi1Yr4AEI.png?width=252&height=62)](https://sync.so/)
+
+product
+
+[studios](https://sync.so/studios)
+
+usecases
+
+[pricing](https://sync.so/pricing)
+
+[login](https://sync.so/login)[try now](https://sync.so/try)
+
+![Image 2](https://assets.sync.so/framer/poster.webp)[Video 17](https://assets.sync.so/framer/av1_desktop.mp4)
+
+[contact sales](https://sync.so/enterprise)
+
+[sign up](https://sync.so/signup)
+
+[sync-3: the most intelligent lipsyncing model →](https://sync.so/sync-3)
+
+tap to unmute
+
+[Video 18](https://assets.sync.so/framer/lipsync_text.mp4)built for every scenario in every shoot.
+
+[Video 19](https://framerusercontent.com/assets/zyT0SADPKe4XrIIn30iBaXRoc0.mp4)
+
+objects blocking the face
+
+[Video 20](https://framerusercontent.com/assets/CXIcbQPRMuoWKjTLbdfjDdEKwc.mp4)
+
+4K ProRes
+
+[Video 21](https://framerusercontent.com/assets/7YSwFReWNmH0PBya5UiSXWpzk.mp4)
+
+multiple faces
+
+[Video 22](https://framerusercontent.com/assets/uj2v4BufRfGhVB6INz9hNC7tc8.mp4)
+
+multiple camera angles
+
+[Video 23](https://framerusercontent.com/assets/EhKvSAUEyc1XdbGYnp0Q1gE6xE.mp4)
+
+low lights
+
+[Video 24](https://framerusercontent.com/assets/PoNUfibAtcFJuOYCO106vADo.mp4)
+
+fast camera movements
+
+[Video 25](https://framerusercontent.com/assets/sVCkcSyXfvY12gHhd6CXSbGWcY.mp4)
+
+rapid dialogue
+
+workflow integration
+
+![Image 3](https://framerusercontent.com/images/1w0ZZLHTDvYd0Iqn3eIod7Gho.webp?width=697&height=702)
+
+built for your pipeline. plugins: API, studio tools — use sync. however you work.
+
+for projects requiring absolute perfection, work directly with [our team](https://sync.so/enterprise).
+
+verification made easy
+
+![Image 4](https://framerusercontent.com/images/jcRjSdp0hCipgxD92xgcW3nDw.webp?width=651&height=651)
+
+with sync.'s propietary watermarking technology, you can check to see if any video was modified using our technology. simply upload a video and hit verify.
+
+sync. adapts to the performance of every actor.
+
+preserving every detail and movement across any language.
+
+[Video 26](https://framerusercontent.com/assets/xoeV2o64ZMG6r097UbCvdfAOyPc.mp4)
+
+english
+
+spanish
+
+hindi
+
+french
+
+german
+
+korean
+
+[Video 27](https://assets.sync.so/framer/lite_mode.webm)[Video 28](https://assets.sync.so/framer/assistant_mode.webm)[Video 29](https://assets.sync.so/framer/advanced_mode.webm)
+
+## work however you want to
+
+lite assistant advanced
+
+the fastest way to a synced shot.
+
+### drop in, get your result
+
+upload a video, give it a voice by cloning, generating, or using the audio from your clip, and get your lipsync. no timeline, nothing to learn.
+
+[](https://sync.so/)
+
+lipsync any content w/ one api. our lipsync works on any video content in the wild — across movies, podcasts, games, and even animations.
+
+product
+
+[api docs](https://sync.so/docs/introduction)
+
+[changelog](https://sync.so/changelog)
+
+[pricing](https://sync.so/pricing)
+
+[blog](https://sync.so/blog)
+
+[premiere plugin](https://sync.so/docs/plugins-and-extensions/adobe-premiere/installation-guide)
+
+[comfyui node](https://sync.so/docs/plugins-and-extensions/comfy-ui)
+
+models
+
+[sync-3](https://sync.so/sync-3)
+
+[lipsync-2-pro](https://sync.so/lipsync-2-pro)
+
+[react-1](https://sync.so/react-1)
+
+social
+
+[discord](https://discord.com/invite/synclabs)
+
+[twitter](https://twitter.com/synclabs)
+
+[instagram](https://www.instagram.com/syncdotso/)
+
+[youtube](https://www.youtube.com/@syncdotso)
+
+company
+
+[talk to sales](https://sync.so/enterprise)
+
+[our vision](https://sync.so/vision)
+
+[help](mailto:hello@sync.so)
+
+© 2026 synchronicity labs inc.
+
+[privacy policy](https://sync.so/privacy)
+
+[terms](https://sync.so/terms)

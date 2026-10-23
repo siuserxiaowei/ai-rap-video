@@ -1,0 +1,70 @@
+Title: Introduction
+
+URL Source: https://sync.so/docs/introduction
+
+Markdown Content:
+## What’s Sync Labs?
+
+Sync Labs is a research company building AI video technology, currently focused on lip sync. Our AI lip sync API takes any video and audio input and generates perfectly matched lip movements — with [multiple models](https://sync.so/docs/models/lipsync) optimized for different quality and speed tradeoffs, and official Python and TypeScript SDKs for production integration.
+
+You can use Sync Labs through [Studio](https://sync.so/login) (our web app) to explore and compare models directly from your browser, or integrate via the API and SDKs to build lip sync into your own apps and workflows.
+
+Send a video of a person speaking English and an audio track in Japanese — Sync Labs produces a new video where the speaker’s lips move naturally to match the Japanese audio. This powers video dubbing, content localization, personalized video messaging, and more.
+
+### At a glance
+
+|  |  |
+| --- | --- |
+| **Models** | [lipsync-1.9, lipsync-2, lipsync-2-pro, react-1](https://sync.so/docs/models/lipsync), [sync-3](https://sync.so/docs/models/sync-3) |
+| **Face resolution** | 512×512 (lipsync-2, lipsync-2-pro), 4K native (sync-3) |
+| **Max video duration** | Up to 30 minutes depending on plan |
+| **Pricing (at 25 fps)** | From $0.02/sec (lipsync-1.9) to $0.133/sec (sync-3) |
+| **Rate limit** | Endpoint-specific request limits; generation concurrency depends on your plan |
+| **Batch processing** | Up to 500 generations per batch (Scale+ plans) |
+| **SDKs** | Python 3.8+ and TypeScript/Node.js 18+ |
+| **Free trial** | 3 generations/month, max 20s each — no credit card required |
+
+### What are Sync Labs’ key capabilities?
+
+*   **AI Lip Sync Models** — Multiple models (`lipsync-1.9`, `lipsync-2`, `lipsync-2-pro`, `react-1`, `sync-3`) optimized for different quality and speed tradeoffs. Pick the right model for your use case.
+*   **Video Dubbing** — Combine Sync Labs with TTS services like ElevenLabs to build end-to-end AI video dubbing pipelines. Use the built-in dubbing flow for supported target languages, or provide your own translated audio in any language for lipsync.
+*   **Batch Processing** — Process up to 500 videos in a single batch operation. Ideal for large-scale content localization and media workflows.
+*   **Python & TypeScript SDKs** — Official client libraries so you can integrate the lip sync API in minutes, not days.
+*   **Webhooks** — Get real-time status notifications for async workflows. No polling required.
+
+## What can I build with Sync Labs?
+
+Sync Labs’ visual dubbing API fits anywhere you need lip movements to match new audio:
+
+*   **E-learning & training** — Localize course videos into dozens of languages while keeping the instructor’s face natural and in sync.
+*   **Marketing & personalized outreach** — Generate personalized video messages at scale. One recording becomes thousands of tailored videos.
+*   **Content localization & dubbing** — Dub films, YouTube videos, and social content for global audiences with AI lip sync that looks native.
+*   **Entertainment, media & gaming** — Power in-game characters, animated content, and post-production dubbing with lipsync technology that runs on API calls.
+
+## How do I get started with Sync Labs?
+
+Get from zero to your first AI lip sync generation in three steps:
+
+1.   **Get your API key** — Create one from the [Dashboard](https://sync.so/settings/api-keys).
+2.   **Install the SDK** — `pip install syncsdk` for Python or `npm i @sync.so/sdk` for TypeScript.
+3.   **Make your first generation** — Follow the [Quickstart](https://sync.so/docs/quickstart) to generate a synced video in minutes.
+
+## Next steps
+
+## Frequently Asked Questions
+
+###### What is Sync Labs?
+
+Sync Labs is an AI lip sync API that generates perfectly matched lip movements for any video and audio input. It powers video dubbing, content localization, personalized video messaging, and more. Built by a research company focused on AI video technology, Sync Labs produces studio-grade results at scale.
+
+###### How much does Sync Labs cost?
+
+Sync Labs offers multiple plans based on usage. You can estimate costs before submitting a generation using the cost estimation endpoint. Visit the Billing page in your dashboard for detailed pricing, plan comparisons, and current usage information for your account.
+
+###### Which model should I use?
+
+Use lipsync-2 for general purpose lip sync that preserves speaking style. Choose lipsync-2-pro for premium quality with enhanced facial detail. Use lipsync-1.9.0-beta for maximum speed on simple videos, react-1 for expressive lip sync with emotions on short clips, and sync-3 for professional-grade video with native visual intelligence that handles close-ups, extreme angles, and obstructions automatically.
+
+###### What file formats does Sync Labs support?
+
+Sync Labs accepts common video formats like MP4 for video input and WAV or MP3 for audio input. Videos and audio can be provided via publicly accessible URLs, uploaded directly through the API, or referenced by asset ID from your media library.

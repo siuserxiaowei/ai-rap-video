@@ -1,0 +1,123 @@
+{
+  "id": "28",
+  "name": "Sync",
+  "url": "https://sync.so/",
+  "category": "lip_sync",
+  "checked_at": "2026-10-23",
+  "summary": "以已有视频和目标音频生成匹配口型的视频，提供网页 Studio 与开发者 API。官方主推 sync-3，并宣称适应多人、遮挡和快速对白；不是原创歌曲或完整 Rap MV 的生成引擎。",
+  "inputs": [
+    "已有视频（如 MP4）",
+    "目标音频（如 WAV、MP3）",
+    "公开 URL、直接上传或素材库 asset ID",
+    "sync-3 的静态图片加音频输入（Quickstart 有示例）"
+  ],
+  "outputs": [
+    "与目标音频匹配口型的新视频",
+    "异步任务 ID、状态和完成后的视频 URL"
+  ],
+  "features": [
+    "Studio 网页口型同步与模型比较",
+    "sync-3、lipsync-2、lipsync-2-pro、react-1 等不同模型",
+    "官方 Python 与 TypeScript SDK",
+    "官方文档列出 webhook 状态通知与 Scale+ 批量处理（最多 500 个生成）",
+    "首页宣称支持多脸、快速对白、复杂角度、遮挡及低光；未做生成实测",
+    "首页列出 Premiere 插件和 ComfyUI 节点"
+  ],
+  "pricing": {
+    "summary": "月订阅叠加视频用量费用，按模型、帧数和套餐变化。页面的 $0.05/秒是 lipsync-2 在 25 FPS 的价格，不能代表 sync-3。sync-3 的 Hobbyist/Creator 标价 $0.00534/帧，页面折算 25 FPS 为 $0.13340/秒；Growth 为 $0.12660/秒，Scale 为 $0.10660/秒。",
+    "free_tier": "Quickstart：免费账户每月 3 次、每次最多 20 秒；其中 sync-3 最多 1 次、15 秒，无需信用卡。",
+    "plans": [
+      {
+        "name": "Hobbyist",
+        "amount": 5,
+        "currency": "USD",
+        "billing_period": "month",
+        "notes": "另付模型用量；最长 1 分钟，并发 1；lipsync-2 在 25 FPS 为 $0.05/秒。"
+      },
+      {
+        "name": "Creator",
+        "amount": 19,
+        "currency": "USD",
+        "billing_period": "month",
+        "notes": "另付模型用量；最长 5 分钟，并发 3；页面列无水印、Active Speaker Detection。"
+      },
+      {
+        "name": "Growth",
+        "amount": 49,
+        "currency": "USD",
+        "billing_period": "month",
+        "notes": "另付模型用量；最长 10 分钟，并发 6；使用费优惠 5%，含 3 席。"
+      },
+      {
+        "name": "Scale",
+        "amount": 249,
+        "currency": "USD",
+        "billing_period": "month",
+        "notes": "另付模型用量；最长 30 分钟，并发 15；使用费优惠 20%，含 5 席及 Batch API。"
+      }
+    ],
+    "source_url": "https://sync.so/pricing"
+  },
+  "api": {
+    "status": "documented",
+    "summary": "官方文档给出 Python/TypeScript SDK。generations.create 接收 video/image 与 audio、model、sync_mode，返回 id；generations.get(id) 轮询，终态为 COMPLETED/FAILED/REJECTED，成功后读 output_url/outputUrl。Quickstart 明示 POST /v2/generate 的图片加音频示例。Introduction 和 Quickstart 明确支持 webhook 完成/状态通知，但本次未核对具体事件载荷、签名和重试策略。价格页记录按模型帧数用量收费，订阅费另计。",
+    "url": "https://sync.so/docs/quickstart"
+  },
+  "limitations": [
+    "需准备目标音频，不能据此认定支持原创歌曲、作曲或 Rap 演唱生成。",
+    "口型同步与歌曲快语速的实际效果未实测；首页快速对白、多脸能力均为供应商宣称。",
+    "时长、并发、模型与批量权限受套餐限制；25 FPS 的每秒价格不适用于所有帧率。",
+    "Webhook 支持已由官方文档确认；具体回调安全、重试和任务取消规则待查专项 API 参考。",
+    "未注册、付费或调用任何生成任务。"
+  ],
+  "best_for": "已经有歌曲/说唱音频和人物镜头、需要接入口型同步的 Rap 视频后期流程。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://sync.so/",
+      "title": "sync. labs - ai lipsync and visual dubbing",
+      "kind": "official",
+      "local_path": "research/evidence/28/homepage.txt",
+      "supports": [
+        "视频口型同步定位、Studio 工作流",
+        "sync-3 与多脸/快速对白等官方宣称、插件入口"
+      ]
+    },
+    {
+      "url": "https://sync.so/docs/introduction",
+      "title": "Introduction",
+      "kind": "documentation",
+      "local_path": "research/evidence/28/introduction.txt",
+      "supports": [
+        "视频与音频输入、模型、SDK",
+        "webhook、Scale+ 批量处理、媒体输入方式"
+      ]
+    },
+    {
+      "url": "https://sync.so/docs/quickstart",
+      "title": "Quickstart",
+      "kind": "documentation",
+      "local_path": "research/evidence/28/quickstart.txt",
+      "supports": [
+        "提交任务、轮询终态、输出 URL",
+        "图片加音频与 POST /v2/generate 示例",
+        "免费试用限制、webhook 支持"
+      ]
+    },
+    {
+      "url": "https://sync.so/pricing",
+      "title": "Sync - Pricing",
+      "kind": "pricing",
+      "local_path": "research/evidence/28/pricing.txt",
+      "supports": [
+        "月费另加模型用量",
+        "套餐时长/并发限制、逐帧和 25 FPS 价格"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：适合放在 Rap 视频生成链路的后段：先生成歌曲、准备镜头，再做音画口型匹配。",
+    "推断：多模型和每帧定价提示产品应在提交前估算模型、时长和 FPS 的费用，并展示异步状态。",
+    "推断：多人场景应把说话人选择和逐段同步作为需另行验证的集成环节。"
+  ]
+}
