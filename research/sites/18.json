@@ -1,0 +1,123 @@
+{
+  "id": "18",
+  "name": "Freebeat",
+  "url": "https://freebeat.ai/",
+  "category": "music_video",
+  "checked_at": "2026-10-23",
+  "summary": "音乐优先的 MV 工作流：音乐上传或链接输入，生成按节拍编排的故事、表演、舞蹈及歌词视频；另有专用 lyric-video、dance-video 与 lip-sync-video 路径。供应商宣称自动分镜、角色一致性与歌词同步，未实际生成验证。",
+  "inputs": [
+    "音频文件上传；首页未明确列出完整格式/大小限制",
+    "Spotify、SoundCloud、YouTube、Suno、Udio、TikTok、Stable Audio、Riffusion 音乐链接（首页宣称）",
+    "参考照片/图片与角色、风格描述（MCP 页面）"
+  ],
+  "outputs": [
+    "MV：主页宣称可短至15秒、长至约6分钟",
+    "16:9、9:16、1:1；720p/1080p，依套餐",
+    "MCP 页面宣称返回成片及封面图",
+    "歌词动画/卡拉OK高亮、节拍舞蹈、对口型表演；各路径具体容器和帧率未核实"
+  ],
+  "features": [
+    "music-video-generator：按 BPM、节拍、能量和段落规划镜头与剪辑",
+    "lyric-video：首页独立入口；自动歌词定时、动态字幕及卡拉OK高亮",
+    "dance-video 与 dance-replica：首页独立入口；节拍舞蹈和角色换舞宣称，未读专页",
+    "lip-sync-video：首页独立入口；自然演唱口型宣称",
+    "参考角色跨镜头一致、可调整视觉风格；AI editor 与 music-edit 入口",
+    "官方 MCP 接入 Claude Desktop、Cursor、Windsurf、Claude Code，后台渲染"
+  ],
+  "pricing": {
+    "summary": "2026-10-23价格页显示按1个月计费的 Pro/Ultimate/Creator，分别同时出现 $26.99/$34.99、$39.99/$49.99、$199/$249，并标 Limited 30%OFF；未进入结账，前者仅记促销显示价。页脚称周付/月付自动续订。首页 FAQ 的 Basic $4.99/周、Standard $9.99/月、Pro $24.99/月与该页冲突，不能作为当前可购价。",
+    "free_tier": "首页声明 Free $0 可试用基础功能；具体积分、免费水印/导出权限未明确。价格页付费套餐列 Watermark removal，不能据此确认免费导出细则。",
+    "plans": [
+      {
+        "name": "Pro（价格页显示促销）",
+        "amount": 26.99,
+        "currency": "USD",
+        "billing_period": "1 month",
+        "credits": "10,000 credits/mo",
+        "notes": "同时列 $34.99/month；720p；去水印；促销持续期及续费价格待核，30%标签与数字折扣不一致"
+      },
+      {
+        "name": "Ultimate（价格页显示促销）",
+        "amount": 39.99,
+        "currency": "USD",
+        "billing_period": "1 month",
+        "credits": "19,000 credits/mo",
+        "notes": "同时列 $49.99/month；1080p；去水印；未核结账及续费价格"
+      },
+      {
+        "name": "Creator（价格页显示促销）",
+        "amount": 199,
+        "currency": "USD",
+        "billing_period": "1 month",
+        "credits": "95,000 credits/mo",
+        "notes": "同时列 $249/month；1080p；去水印；未核结账及续费价格"
+      },
+      {
+        "name": "Basic（仅首页 FAQ，价格页未列）",
+        "amount": 4.99,
+        "currency": "USD",
+        "billing_period": "week",
+        "notes": "与主价格页套餐结构不一致；不视为当前可购价，不换算为月付"
+      },
+      {
+        "name": "Standard（仅首页 FAQ，价格页未列）",
+        "amount": 9.99,
+        "currency": "USD",
+        "billing_period": "month",
+        "notes": "仅FAQ文案，当前可购性待核"
+      }
+    ],
+    "source_url": "https://freebeat.ai/pricing"
+  },
+  "api": {
+    "status": "documented",
+    "summary": "已找到官方 MCP 产品与接入说明：免费账户在 profile 创建 key，加入客户端连接设置，可上传音频/链接并后台渲染。所读页面未给出可复制的服务器端点、REST API schema、限流或API价格；只确认官方MCP集成入口，不代表已验证可编程接口。导航写 MCP & CLI，但本页未提供CLI命令。",
+    "url": "https://freebeat.ai/mcp"
+  },
+  "limitations": [
+    "只读公开页面，未登录、付费或生成；效果、速度和角色一致性均为供应商宣称",
+    "免费具体积分、水印、导出权限及上传文件格式/体积上限待核",
+    "首页 FAQ 价格与当前价格页矛盾；促销标签与数值折扣也不一致，须在结账核验",
+    "周付/月付均自动续订；年付开关显示30%OFF但未读取年付金额，不混作逐月价格",
+    "价格页含 UNLIMITED* 与7-DAY UNLIMITED*，本次返回未见星号细则，不能解读为无限生成完整MV",
+    "MCP有官方说明，但服务器端点、公共REST API、自动化用量/速率和条款未核实",
+    "首页称用户保留作品权利且平台AI资产附商用许可，受 Terms of Use 约束；用户须拥有上传第三方音乐/照片权利，未阅读完整条款",
+    "独立歌词/舞蹈路径仅由首页入口与功能描述确认，未逐个读取专页；不将6分钟/1080p保证泛化到所有模式"
+  ],
+  "best_for": "已有歌曲、想制作节拍同步MV、歌词或虚拟歌手表演的独立音乐人；需要聊天式MCP集成入口的团队可进一步核验接口。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://freebeat.ai/",
+      "title": "freebeat AI Music Video Generator | Dance Video | Lyrics Video",
+      "kind": "official",
+      "local_path": "research/evidence/18/homepage.txt",
+      "supports": [
+        "音频与链接输入、音乐/歌词/舞蹈/口型入口、长度/比例/分辨率、免费计划及权利FAQ；价格FAQ与价格页冲突"
+      ]
+    },
+    {
+      "url": "https://freebeat.ai/pricing",
+      "title": "Pricing & Plans | Subscribe to AI Music Video Generator",
+      "kind": "pricing",
+      "local_path": "research/evidence/18/pricing.txt",
+      "supports": [
+        "月付套餐、促销显示价、积分、分辨率、去水印、周付月付自动续订；无限星号未解释"
+      ]
+    },
+    {
+      "url": "https://freebeat.ai/mcp",
+      "title": "Music Video Generator MCP — Create Music Videos in Claude & Cursor",
+      "kind": "documentation",
+      "local_path": "research/evidence/18/mcp.txt",
+      "supports": [
+        "官方MCP连接流程、账户key、音频文件或链接、参考图、成片与封面、后台渲染；无端点/schema"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：将music、lyric、dance和lip-sync分开入口，有利于按创作目标导流；不能据首页推断它们共用同一积分费率。",
+    "推断：官方MCP对话式调用有自动化价值，但缺少本次可见端点与计费/限流细则，落地成本仍需验证。",
+    "证据边界：复用2026-10-23预取主页快照；本轮Jina读取主页实际价格链接 /pricing 及 /mcp，全部原文归档。"
+  ]
+}

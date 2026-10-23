@@ -1,0 +1,126 @@
+Title: Music Video Generator MCP — Create Music Videos in Claude & Cursor
+
+URL Source: https://freebeat.ai/mcp
+
+Published Time: Wed, 10 Sep 2025 21:05:01 GMT
+
+Markdown Content:
+Turn![Image 1: Claude](https://static.higgsfield.ai/mcp/claude.png)Claude into a music video engine
+
+Connect freebeat to Claude, Cursor, Windsurf, Claude Code, and generate music videos and AI effects right from your conversations.
+
+## Music Video Generator MCP: Make Beat-Synced Music Videos Inside Claude and Cursor
+
+How to Set Up the Music Video Generator MCP
+
+1
+
+### Add freebeat to your AI client
+
+Open the connection settings in Claude Desktop, Cursor, Windsurf, or Claude Code and add the freebeat server.
+
+2
+
+### Add your freebeat key
+
+Sign in to freebeat, create a key on your profile, and paste it into the connection settings. That links your account so generated videos land in your library.
+
+3
+
+### Ask for a music video
+
+Type something like "make a moody vertical music video for this track." freebeat takes it from there — uploading your song, scoring it, and rendering the result.
+
+Supported clients: Claude Desktop, Cursor, Windsurf, Claude Code, and other agents that speak the same connection standard.
+
+Three steps and the Music Video MCP is ready to make videos with your AI agent.[Claude](https://freebeat.ai/claude)
+
+## A Complete Music Video MCP Studio Inside Claude
+
+The Music Video MCP gives you everything needed to go from a song to a finished video, available the moment you connect.
+
+How to set up
+
+### Score any song into a real music video
+
+Drop in a soundtrack and freebeat reads the whole song — its tempo, its energy, the way it builds — then lands every scene change on the beat. The result is a music video that moves _with_ the music, not a slideshow stuck on top of it.
+
+What you can make
+
+### Full-length, up to six minutes
+
+This isn't a five-second clip. freebeat generates a complete, full-length music video — up to six minutes — with the same character and look holding together from the first note to the last.
+
+How it works
+
+### Bring your own look
+
+Add a photo or a reference image and freebeat carries that style and that face across the whole video, so your artist (or your brand) stays recognizable in every shot.
+
+FAQ
+
+### Made for the platform you post to
+
+Ask for vertical for Reels, Shorts, and TikTok, or widescreen for YouTube — freebeat frames the whole video for where it's going to live.
+
+How to set up
+
+### Start from a file or a link
+
+Upload an audio file, or just paste a link from Suno, Udio, YouTube, SoundCloud, or TikTok. freebeat pulls the audio in for you — no downloading and re-uploading.
+
+What you can make
+
+### It hands you a finished video
+
+When the render is done you get the music video plus a ready-made cover image back, so it's ready to post or hand off.
+
+## Who It's For
+
+## How It Works: From Song to Finished Music Video
+
+## From Idea to Music Video, in One Conversation
+
+How to set up
+### "Make a 9:16 cyberpunk music video for this track."
+
+→ A vertical, beat-synced video, ready for Shorts.
+
+What you can make
+### "Use this photo of me as the artist and keep me in every scene."
+
+→ A character-consistent performance video.
+
+How it works
+### "Give me a moody widescreen cut for YouTube."
+
+→ A full-length, cinematic music video.
+
+What is the Music Video Generator MCP?
+The Music Video MCP connects freebeat's music video generator directly to AI assistants like Claude and Cursor. Once connected, you can ask your assistant to turn a song into a finished, beat-synced music video without leaving the conversation.
+
+Which AI agents does it work with?
+Claude Desktop, Cursor, Windsurf, Claude Code, and other agents that support the same connection standard — all using the same freebeat setup.
+
+What do I need to start?
+A free freebeat account and a key from your profile. Add the freebeat server to your agent, paste the key, and you're ready.
+
+What can I make?
+Full-length, beat-synced music videos from any song — vertical or widescreen, with your own image or character carried through every scene.
+
+Can it use a song from Suno, YouTube, or SoundCloud?
+Yes. Paste the link and freebeat pulls the audio in automatically, or upload your own audio file.
+
+How long does a music video take?
+Rendering a full music video takes a little time, so freebeat works in the background — you keep chatting and pick up the finished video when it's ready.
+
+Do I have to put my key in every message?
+No. Your key lives in the connection settings once. Your messages only describe the creative idea.
+
+## Turn your AI assistant into a music video studio
+
+Connect the freebeat Music Video Generator MCP to Claude, Cursor, or Windsurf and make your first beat-synced music video in minutes. Free to start, no credit card.
+
+[Get started](https://freebeat.ai/music-video-generator/profile)
+
+## Related
