@@ -1,0 +1,13 @@
+test_duplicate_primary_domain_rejected_and_stats_deduplicated (test_catalog.CatalogTests) ... ok
+test_evidence_missing_traversal_absolute_and_symlink_rejected (test_catalog.CatalogTests) ... ok
+test_full_page_needs_successful_primary_source (test_catalog.CatalogTests) ... ok
+test_load_filter_and_json_stats (test_catalog.CatalogTests) ... ok
+test_loading_reports_filename_and_invalid_json (test_catalog.CatalogTests) ... ok
+test_price_numbers_and_credit_labels (test_catalog.CatalogTests) ... ok
+test_repository_records_validate_without_assuming_final_count (test_catalog.CatalogTests) ... ok
+test_schema_errors_are_field_specific (test_catalog.CatalogTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.115s
+
+OK

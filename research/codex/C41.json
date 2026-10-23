@@ -1,0 +1,11 @@
+{
+  "id": "C41",
+  "agent_task": "c41_catalog",
+  "kind": "research_review_and_feature",
+  "original_commit": "d0e2496",
+  "accepted": true,
+  "accepted_at": "2026-10-23T15:57:38.009559+00:00",
+  "summary": "Validated catalog, evidence paths and domains; 8 tests passed on current 34-site dataset after normalizing supports arrays.",
+  "test_evidence": "artifacts/tests/c41.txt",
+  "worktree_reclaimed": true
+}

@@ -28,7 +28,19 @@ def main():
     sid=f'{int(a.id):02}'
     current=ROOT/'research/sites'/f'{sid}.json'
     if not current.exists():print(git('cherry-pick',a.commit))
+    raw=json.loads(current.read_text())
+    normalized=False
+    for source in raw.get('sources',[]):
+        if isinstance(source.get('supports'),str):
+            source['supports']=[source['supports']]
+            normalized=True
+    if normalized:current.write_text(json.dumps(raw,ensure_ascii=False,indent=2)+'\n')
     record=validate(current)
+    try:
+        from rap_workbench.catalog import validate_site
+    except ModuleNotFoundError:
+        validate_site=None
+    if validate_site:validate_site(record,ROOT)
     dest=ROOT/'research/codex'/f'C{sid}.json';dest.parent.mkdir(parents=True,exist_ok=True)
     worktree=ROOT.parent/'ai-rap-worktrees'/f'site{sid}'
     removed=not worktree.exists()

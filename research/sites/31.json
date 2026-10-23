@@ -73,49 +73,63 @@
       "title": "PixVerse 官方首页",
       "kind": "official",
       "local_path": "research/evidence/31/home.txt",
-      "supports": "平台列出文生视频、图生视频、Lip Sync、Canvas 及多种自研和外部模型。首页比较图价格不是用户套餐。"
+      "supports": [
+        "平台列出文生视频、图生视频、Lip Sync、Canvas 及多种自研和外部模型。首页比较图价格不是用户套餐。"
+      ]
     },
     {
       "url": "https://pixverse.ai/en/model/pixverse-v6",
       "title": "PixVerse V6",
       "kind": "official",
       "local_path": "research/evidence/31/v6.txt",
-      "supports": "V6 宣称 15 秒 1080p、原生多镜头及对白、音效、环境声；未明确承诺原创 Rap 歌曲。"
+      "supports": [
+        "V6 宣称 15 秒 1080p、原生多镜头及对白、音效、环境声；未明确承诺原创 Rap 歌曲。"
+      ]
     },
     {
       "url": "https://docs.platform.pixverse.ai/one-click-vibemv-44144151e0",
       "title": "One-click VibeMV",
       "kind": "documentation",
       "local_path": "research/evidence/31/vibemv.txt",
-      "supports": "上传已有音乐生成 MV；支持 Hip Hop 类型、可选人物参考、歌词字幕及口型。720p 每秒 15 credits；1080p 为 1.5 倍。"
+      "supports": [
+        "上传已有音乐生成 MV；支持 Hip Hop 类型、可选人物参考、歌词字幕及口型。720p 每秒 15 credits；1080p 为 1.5 倍。"
+      ]
     },
     {
       "url": "https://docs.platform.pixverse.ai/lipsync-43051219e0",
       "title": "Lipsync API",
       "kind": "documentation",
       "local_path": "research/evidence/31/lipsync.txt",
-      "supports": "POST /openapi/v2/video/lip_sync/generate；单一视频源配上传音频或 TTS 字段。"
+      "supports": [
+        "POST /openapi/v2/video/lip_sync/generate；单一视频源配上传音频或 TTS 字段。"
+      ]
     },
     {
       "url": "https://docs.platform.pixverse.ai/",
       "title": "Billing and Usage",
       "kind": "documentation",
       "local_path": "research/evidence/31/billing.txt",
-      "supports": "API credits 与消费端订阅分离；费用取决于模型、分辨率、时长和音频等，最终以账本为准。"
+      "supports": [
+        "API credits 与消费端订阅分离；费用取决于模型、分辨率、时长和音频等，最终以账本为准。"
+      ]
     },
     {
       "url": "https://docs.platform.pixverse.ai/pixverse-api-pricing-2394995m0",
       "title": "PixVerse API Pricing",
       "kind": "pricing",
       "local_path": "research/evidence/31/api-pricing.txt",
-      "supports": "225 credits 参考 USD 1；上传音频口型为 4 credits/音频秒向上取整，TTS 为每 15 UTF-8 字节 4 credits。"
+      "supports": [
+        "225 credits 参考 USD 1；上传音频口型为 4 credits/音频秒向上取整，TTS 为每 15 UTF-8 字节 4 credits。"
+      ]
     },
     {
       "url": "https://docs.platform.pixverse.ai/speechlipsync-generation-19094278e0",
       "title": "旧版 Speech Lipsync 页面（404）",
       "kind": "documentation",
       "local_path": "research/evidence/31/lipsync-old-404.txt",
-      "supports": "旧文档 URL 返回 404，导航提供当前 Lipsync 页；不采用旧搜索摘要中的尺寸上限。"
+      "supports": [
+        "旧文档 URL 返回 404，导航提供当前 Lipsync 页；不采用旧搜索摘要中的尺寸上限。"
+      ]
     }
   ],
   "observations": [
