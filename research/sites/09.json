@@ -1,0 +1,99 @@
+{
+  "id": "09",
+  "name": "OctoScale",
+  "url": "https://octoscale.ai/ai-rap-video-generator",
+  "category": "rap",
+  "checked_at": "2026-10-23",
+  "summary": "官网宣称从主题生成可编辑说唱歌词、伴奏和人声，再生成可审阅分镜并渲染为竖屏音乐视频；属于明确的端到端营销定位，未实测。首页公开年付积分套餐，未找到公开 API 文档。",
+  "inputs": [
+    "主题、产品或氛围提示；可选出镜角色",
+    "可逐段编辑歌词、审阅调整定时分镜"
+  ],
+  "outputs": [
+    "供应商宣称：含歌词、AI 伴奏及人声的竖屏说唱音乐视频，通常 20–60 秒"
+  ],
+  "features": [
+    "供应商宣称：主题→词曲与人声→定时分镜→动画及节拍同步视频",
+    "供应商宣称：重写或局部重新生成歌词；AI 提供品牌说唱创意",
+    "首页宣称自动发布和排期；未验证 rap 模式能否直接使用"
+  ],
+  "pricing": {
+    "summary": "首页显示年付 Starter $239、Growth $588、Pro $1,188（均未税），每月分别 1,600、4,200、10,000 积分。页面同时展示 $19.95/$49/$99 每月数字，但明确按年收费，不能当逐月套餐。独立 /pricing 为 404。",
+    "free_tier": "未找到明确免费额度或免费方案；Start Growing 仅链接注册，不能证明免费生成。",
+    "plans": [
+      {
+        "name": "Starter",
+        "amount": 239,
+        "currency": "$（页面未明示币种）",
+        "billing_period": "year",
+        "credits": 1600,
+        "notes": "每月发放积分；首页并列展示 $19.95/month；高质量视频至多 100 秒/月。"
+      },
+      {
+        "name": "Growth",
+        "amount": 588,
+        "currency": "$（页面未明示币种）",
+        "billing_period": "year",
+        "credits": 4200,
+        "notes": "每月发放积分；首页并列展示 $49/month；高质量视频至多 260 秒/月。"
+      },
+      {
+        "name": "Pro",
+        "amount": 1188,
+        "currency": "$（页面未明示币种）",
+        "billing_period": "year",
+        "credits": 10000,
+        "notes": "每月发放积分；首页并列展示 $99/month；高质量视频至多 620 秒/月。"
+      }
+    ],
+    "source_url": "https://octoscale.ai/"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "本次产品页与首页均未发现 API 文档、端点、认证或请求示例；只说明此次公开检索未找到，不能断言没有 API。",
+    "url": "https://octoscale.ai/"
+  },
+  "limitations": [
+    "未注册、付款或生成；词曲质量、口型、角色一致性、分镜编辑及最终交付均待验证。",
+    "产品页是营销正文，没有可核验的生成任务或输出文件；不能据此认定端到端链路已运行。",
+    "免版税及不会遭版权警告属于供应商宣称，未查到对应授权条款。",
+    "首页套餐是通用视频积分，rap 具体扣费、单条成本、分辨率和导出格式未披露。",
+    "独立 /pricing 返回 404；API 仅在已读公开页中未找到，未进行全站开发者路径穷举。"
+  ],
+  "best_for": "希望由品牌或选题直接制作短篇说唱视频的社交营销创作者；目前适合评估产品流程，购买前应核对实际生成界面及 rap 扣费。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://octoscale.ai/ai-rap-video-generator",
+      "title": "AI Rap Video Generator | OctoScale.ai",
+      "kind": "official",
+      "local_path": "research/evidence/09/rap-product-jina.txt",
+      "supports": [
+        "端到端流程、可编辑歌词和分镜、20–60 秒均为供应商宣称"
+      ]
+    },
+    {
+      "url": "https://octoscale.ai/",
+      "title": "AI Reel Generator | OctoScale.ai",
+      "kind": "pricing",
+      "local_path": "research/evidence/09/home-pricing-jina.txt",
+      "supports": [
+        "首页年付价格、每月积分和通用视频额度",
+        "自动发布与排期的营销宣称"
+      ]
+    },
+    {
+      "url": "https://octoscale.ai/pricing",
+      "title": "OctoScale.ai — 404",
+      "kind": "official",
+      "local_path": "research/evidence/09/pricing-attempt-jina.txt",
+      "supports": [
+        "独立价格路径返回 404，非可用价格页"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：先确认歌词再确认分镜的双审核节点，有助于让端到端 rap 工具的修改成本更可控。",
+    "推断：通用视频积分不足以解释说唱成片成本，生成前应显示包含词曲、人声与视频的总扣费。"
+  ]
+}

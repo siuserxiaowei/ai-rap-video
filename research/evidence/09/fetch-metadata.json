@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-23",
+  "method": "agent-reach / Jina Reader",
+  "product_evidence": "Provided cached Jina response read then copied from /Users/xiaowei/.agent-reach/ai-rap-video-20261023/09.txt",
+  "independent_requests": [
+    {
+      "url": "https://octoscale.ai/pricing",
+      "result": "Target 404 in Jina body",
+      "file": "pricing-attempt-jina.txt"
+    },
+    {
+      "url": "https://octoscale.ai/",
+      "result": "Full public text with annual pricing",
+      "file": "home-pricing-jina.txt"
+    }
+  ],
+  "not_performed": [
+    "signup",
+    "payment",
+    "generation"
+  ]
+}
