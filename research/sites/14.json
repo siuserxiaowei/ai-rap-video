@@ -1,0 +1,139 @@
+{
+  "id": "14",
+  "name": "AITuber",
+  "url": "https://aituber.app/tools/ai-rap-video-generator/",
+  "category": "rap",
+  "checked_at": "2026-10-23",
+  "summary": "说唱音乐视频工具：上传音乐或描述风格生成词曲，再选动态图片、AI 视频或单封面，配歌词字幕输出。功能为官网宣称，未实际生成验证。",
+  "inputs": [
+    "音乐上传：MP3、WAV、M4A、AAC、OGG，最长 10 分钟",
+    "AI 音乐提示：节拍风格、flow、主题；官网称每次两版",
+    "封面可 AI 生成或上传 JPG/PNG/WebP，最大 10MB"
+  ],
+  "outputs": [
+    "音乐视频；9:16、16:9、1:1",
+    "歌词同步字幕；纯伴奏跳过歌词"
+  ],
+  "features": [
+    "三种视觉模式：动态 AI 图片、同步 AI 视频片段、全程单封面",
+    "29 种视觉风格；图片档位每张 1/6/16/30 credits",
+    "多种歌词字幕样式及自动逐词同步；快嘴精度未经实测"
+  ],
+  "pricing": {
+    "summary": "美元月付从 $39/2,500 credits 起。说唱页估计每视频 80–100 credits，列出 AI 音乐 30、视频基础 50，另加视觉费用，不能视作固定报价。年付一次收取，勿把折月价当逐月价。",
+    "free_tier": "API 官网页称注册赠 100 credits、无需信用卡；是否足够特定说唱配置待核。",
+    "plans": [
+      {
+        "name": "Creator",
+        "amount": 39,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 2500,
+        "notes": "年付 $390，30,000 credits/年。"
+      },
+      {
+        "name": "Pro",
+        "amount": 69,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 5000,
+        "notes": "年付 $690，60,000 credits/年。"
+      },
+      {
+        "name": "Studio",
+        "amount": 129,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 10000,
+        "notes": "年付 $1,290，120,000 credits/年。"
+      },
+      {
+        "name": "Agency",
+        "amount": 249,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 20000,
+        "notes": "年付 $2,490，240,000 credits/年。"
+      },
+      {
+        "name": "Business",
+        "amount": 449,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 40000,
+        "notes": "年付 $4,490，480,000 credits/年。"
+      },
+      {
+        "name": "Scale",
+        "amount": 749,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 70000,
+        "notes": "年付 $7,490，840,000 credits/年；表格称印度不售。"
+      },
+      {
+        "name": "Enterprise",
+        "amount": 999,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 100000,
+        "notes": "年付 $9,990，1,200,000 credits/年。"
+      }
+    ],
+    "source_url": "https://aituber.app/pricing/"
+  },
+  "api": {
+    "status": "documented",
+    "summary": "通用视频 API 公开了 Bearer key、POST /api/v1/videos/generate 与轮询 GET /videos/{id} 示例，输出 MP4；未核实音乐上传或 AI 说唱的 API 参数。",
+    "url": "https://aituber.app/api/ai-video-creation/"
+  },
+  "limitations": [
+    "未登录、未生成；节拍同步与快嘴字幕准确性均未实测。",
+    "音频上传上限 10 分钟；平台价格页另称长视频最长 20 分钟，不能据此提高说唱上传上限。",
+    "价格页的短视频数量按约 35 credits/30 秒 AI 图片视频估算，不等于说唱视频产量。",
+    "价格页称 credits 永不过期，API 营销页却称每月重置，规则存在冲突待核。",
+    "卢比方案的价格与配额不同；本记录计划表只列美元。",
+    "未查明音乐授权细则、水印及 AI 音乐生成时长。"
+  ],
+  "best_for": "已有说唱音轨、想制作歌词短片，或希望从风格描述开始完成词曲与画面的独立创作者。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://aituber.app/tools/ai-rap-video-generator/",
+      "title": "AI Rap Video Generator | AITuber",
+      "kind": "official",
+      "local_path": "research/evidence/14/product-jina.txt",
+      "supports": [
+        "上传格式与 10 分钟上限",
+        "AI 音乐、视觉模式、比例和字幕",
+        "说唱 credits 成本组成"
+      ]
+    },
+    {
+      "url": "https://aituber.app/pricing/",
+      "title": "Pricing | AITuber",
+      "kind": "pricing",
+      "local_path": "research/evidence/14/pricing-jina.txt",
+      "supports": [
+        "美元月付与年付金额、配额",
+        "30 秒视频估算边界",
+        "4K、API/MCP、20 分钟平台能力及 credits 永不过期宣称"
+      ]
+    },
+    {
+      "url": "https://aituber.app/api/ai-video-creation/",
+      "title": "AI Video Creation API | AITuber",
+      "kind": "documentation",
+      "local_path": "research/evidence/14/api-jina.txt",
+      "supports": [
+        "通用生成请求与轮询示例",
+        "MP4 导出",
+        "100 免费 credits；每月重置措辞"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：音乐输入与视觉模式分步选择能服务已有歌曲和从零创作两类用户。",
+    "推断：基础费与按视觉质量加收的组合需要预估总额，避免把营销样例成本当承诺。"
+  ]
+}

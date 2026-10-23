@@ -1,0 +1,324 @@
+Title: AI Video Generation API | Create Videos at Scale | AITuber
+
+URL Source: https://aituber.app/api/ai-video-creation/
+
+Markdown Content:
+[Skip to main content](https://aituber.app/api/ai-video-creation/#main-content)
+
+[![Image 1](https://aituber.app/logo.svg) AI Tuber](https://aituber.app/)
+
+[Features](https://aituber.app/features/)[Pricing](https://aituber.app/pricing/)[Tools](https://aituber.app/tools/)[Blog](https://aituber.app/blog/)
+
+ Resources 
+
+[API Create AI videos programmatically](https://aituber.app/api/ai-video-creation/)[MCP Server Create videos from Claude, Cursor, OpenClaw](https://aituber.app/mcp/)[AI Skills Add video creation to coding agents](https://aituber.app/skills/)[Claude Create AI videos with Claude](https://aituber.app/claude/)[![Image 2](https://aituber.app/images/mcp-clients/openclaw.svg) OpenClaw AI video automation with OpenClaw](https://aituber.app/openclaw/)
+
+[Affiliates](https://aituber.app/affiliates/)
+
+ Community 
+
+[Discord Chat with creators & get help](https://discord.gg/qvAxQYmjYt)[Reddit Discussions, tips & showcases](https://reddit.com/r/reelfarmer)[LinkedIn Company updates & news](https://linkedin.com/company/aituberapp)
+
+[Sign In](https://app.aituber.app/sign-in)[Get Started](https://app.aituber.app/sign-up)
+
+[Start free](https://app.aituber.app/sign-up)
+
+[Get Started](https://app.aituber.app/sign-up)
+Free. No card needed.
+
+[Sign In](https://app.aituber.app/sign-in)[Features](https://aituber.app/features/)[Pricing](https://aituber.app/pricing/)[Tools](https://aituber.app/tools/)[Blog](https://aituber.app/blog/)Resources
+
+[API Create AI videos programmatically](https://aituber.app/api/ai-video-creation/)[MCP Server Create videos from Claude, Cursor, OpenClaw](https://aituber.app/mcp/)[AI Skills Add video creation to coding agents](https://aituber.app/skills/)[Claude Create AI videos with Claude](https://aituber.app/claude/)[![Image 3](https://aituber.app/images/mcp-clients/openclaw.svg) OpenClaw AI video automation with OpenClaw](https://aituber.app/openclaw/)
+
+[Affiliates](https://aituber.app/affiliates/)Community
+
+[Discord Chat with creators & get help](https://discord.gg/qvAxQYmjYt)[Reddit Discussions, tips & showcases](https://reddit.com/r/reelfarmer)[LinkedIn Company updates & news](https://linkedin.com/company/aituberapp)
+
+ Loved by 94,136+ creators 
+
+# AI Video Creation API
+
+The AITuber API lets you create fully produced AI videos from a single API call. Send a script or topic, pick a voice and visual style, and receive a rendered MP4. Every video includes AI-generated visuals, natural voiceover, and word-synced captions. Build video creation into your app, automate content pipelines, or generate videos at scale.
+
+[View API Docs](https://aituber.app/api/)
+
+Integration
+## Create Your First Video
+
+One POST request to the AI Video Creation API creates your video. [Create an API key](https://app.aituber.app/dashboard/api-keys), then poll GET /videos/{id} until the status is completed.
+
+ curl 
+
+```
+curl -X POST https://app.aituber.app/api/v1/videos/generate \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "script": "5 mind-blowing facts about black holes",
+    "inputType": "idea",
+    "expectedDurationSeconds": 60
+  }'
+```
+
+How It Works
+## How It Works
+
+From idea to finished video in three steps.
+
+1
+
+### Describe Your Video
+
+Send a topic or full script. Choose a voice, visual style, and aspect ratio. The API handles the rest.
+
+2
+
+### AI Generates Everything
+
+Visuals, voiceover, and captions are created and synced automatically. Poll the status endpoint to track progress.
+
+3
+
+### Download Your MP4
+
+Export the finished video and get a download URL. Ready for YouTube, TikTok, Instagram, or any platform.
+
+Examples
+## Create Videos Like These with the API
+
+![Image 4: AI-generated video: Create a 30-second funny YouTube Shorts video about a capybara](https://image.mux.com/E3OfBdkHyvbvd3UK4SsY5tSTCqUPPKH2B4pTAPCigpE/thumbnail.webp?width=400)![Image 5](https://aituber.app/api/ai-video-creation/)
+
+![Image 6: AI-generated video: ugc videos used to cost hundreds of dollars. not anymore.](https://image.mux.com/TasBFUgWNMZq500KTUxaJVPp01CIRlPBhKvQAE9RINaS00/thumbnail.webp?width=400&time=5)![Image 7](https://aituber.app/api/ai-video-creation/)
+
+![Image 8: AI-generated video: I spent three years building a business that failed in](https://image.mux.com/b0126QuBye02ow4gNStsVe6btL9LHit01pG8a8frCXhdLg/thumbnail.webp?width=400&time=18)![Image 9](https://aituber.app/api/ai-video-creation/)
+
+![Image 10: AI-generated video: create a video about Blueberries vs Bananas. Hook: "One of](https://image.mux.com/Wy2gVtcWjqPURK88kUiV9XpqOyqGouj02hKVIRz2dUSE/thumbnail.webp?width=400)![Image 11](https://aituber.app/api/ai-video-creation/)
+
+![Image 12: AI-generated video: The moon who lost its glow and the firefly who](https://image.mux.com/GKvnpWa8F2G02T02xRPh02nFi5KIRRgn1DOViB9LpLpFbw/thumbnail.webp?width=400&time=9)![Image 13](https://aituber.app/api/ai-video-creation/)
+
+![Image 14: AI-generated video: top 5 foods for body builders talking about their benefits](https://image.mux.com/G00YZEvjh500im8faJqTQaKnEL9EX4JrU1qkNqbWpYXxU/thumbnail.webp?width=400)![Image 15](https://aituber.app/api/ai-video-creation/)
+
+![Image 16: AI-generated video: What If an Ancient Virus Thawed from the Permafrost?](https://image.mux.com/VQJnkzF2etFLatZdYGaJB5byocyinj4QoCXisjoF6FU/thumbnail.webp?width=400)![Image 17](https://aituber.app/api/ai-video-creation/)
+
+![Image 18: AI-generated video: A green backyard pool restored to crystal clear blue](https://image.mux.com/P1f1OEXbycRFPV00r7Lemm9GY955nsFn02F4PSJSacwHM/thumbnail.webp?width=400&time=21)![Image 19](https://aituber.app/api/ai-video-creation/)
+
+![Image 20: AI-generated video: Create a 30-second funny YouTube Shorts video about a capybara](https://image.mux.com/E3OfBdkHyvbvd3UK4SsY5tSTCqUPPKH2B4pTAPCigpE/thumbnail.webp?width=400)![Image 21](https://aituber.app/api/ai-video-creation/)
+
+![Image 22: AI-generated video: ugc videos used to cost hundreds of dollars. not anymore.](https://image.mux.com/TasBFUgWNMZq500KTUxaJVPp01CIRlPBhKvQAE9RINaS00/thumbnail.webp?width=400&time=5)![Image 23](https://aituber.app/api/ai-video-creation/)
+
+![Image 24: AI-generated video: I spent three years building a business that failed in](https://image.mux.com/b0126QuBye02ow4gNStsVe6btL9LHit01pG8a8frCXhdLg/thumbnail.webp?width=400&time=18)![Image 25](https://aituber.app/api/ai-video-creation/)
+
+![Image 26: AI-generated video: create a video about Blueberries vs Bananas. Hook: "One of](https://image.mux.com/Wy2gVtcWjqPURK88kUiV9XpqOyqGouj02hKVIRz2dUSE/thumbnail.webp?width=400)![Image 27](https://aituber.app/api/ai-video-creation/)
+
+![Image 28: AI-generated video: The moon who lost its glow and the firefly who](https://image.mux.com/GKvnpWa8F2G02T02xRPh02nFi5KIRRgn1DOViB9LpLpFbw/thumbnail.webp?width=400&time=9)![Image 29](https://aituber.app/api/ai-video-creation/)
+
+![Image 30: AI-generated video: top 5 foods for body builders talking about their benefits](https://image.mux.com/G00YZEvjh500im8faJqTQaKnEL9EX4JrU1qkNqbWpYXxU/thumbnail.webp?width=400)![Image 31](https://aituber.app/api/ai-video-creation/)
+
+![Image 32: AI-generated video: What If an Ancient Virus Thawed from the Permafrost?](https://image.mux.com/VQJnkzF2etFLatZdYGaJB5byocyinj4QoCXisjoF6FU/thumbnail.webp?width=400)![Image 33](https://aituber.app/api/ai-video-creation/)
+
+![Image 34: AI-generated video: A green backyard pool restored to crystal clear blue](https://image.mux.com/P1f1OEXbycRFPV00r7Lemm9GY955nsFn02F4PSJSacwHM/thumbnail.webp?width=400&time=21)![Image 35](https://aituber.app/api/ai-video-creation/)
+
+Use Cases
+## What You Can Build
+
+📈
+### Content at Scale
+
+Generate hundreds of unique videos per month. Each with different scripts, voices, and visual styles.
+
+🔗
+### App Integration
+
+Embed video creation in your SaaS product. Let your users generate videos without leaving your platform.
+
+🏢
+### Agency Workflows
+
+Automate video production for clients. Custom branding, consistent quality, bulk delivery.
+
+🎓
+### Educational Content
+
+Create course videos, tutorials, and explainers from written content. Any language, any visual style.
+
+Capabilities
+## Why Use This API
+
+Built for your specific workflow.
+
+✍️
+
+Send a full narration script for precise control, or just describe a topic and let AI write the script for you.
+
+🎙️
+
+Male, female, and neutral voices across every accent and language. Each with a preview URL to hear before selecting.
+
+🎨
+
+Photorealistic, cinematic, anime, 3D Pixar, watercolor, comic book, and more. Each style creates a consistent look across all scenes.
+
+🎬
+
+AI images, AI video clips, stock footage, skeleton template, and character template. Each type produces a different look.
+
+📐
+
+9:16 for YouTube Shorts/TikTok/Reels, 16:9 for standard YouTube, 1:1 for Instagram. One API, every format.
+
+💾
+
+Render completed videos to MP4 with a single API call. Get a temporary signed download URL.
+
+Capabilities
+## Every Video Type
+
+All video formats available through the same API.
+
+Most Popular
+
+🖼️
+
+### AI Images
+
+AI-generated images with Ken Burns animation, narration, and word-synced captions. The classic faceless video format.
+
+🎬
+
+### AI Video Clips
+
+AI-generated video clips for each scene. More dynamic than images, great for action content.
+
+📹
+
+### Stock Footage
+
+Real stock footage auto-matched to your narration. Perfect for news, educational, and documentary content.
+
+Viral
+
+💀
+
+### Skeleton Template
+
+Viral "what happens if..." X-ray style. A proven viral format with millions of views.
+
+🧑‍🎤
+
+### Character Template
+
+Character-driven stories with consistent AI characters. Great for serialized content.
+
+Pricing
+## Simple Credit-Based Pricing
+
+Pay for what you use. Credits reset monthly with your plan. No hidden fees.
+
+🎙️
+### AI Narration
+
+50 credits / minute
+
+Natural voiceover in any language
+
+🖼️
+### Image Generation
+
+1 to 30 credits / image
+
+Depends on quality tier (basic to max)
+
+🎬
+### Video Clips
+
+4 to 10 credits / second
+
+AI-generated video segments, priced by quality tier
+
+💾
+### Export to MP4
+
+Free
+
+Already paid during generation
+
+[View full pricing and plans](https://aituber.app/pricing/)
+
+Related
+## More API Use Cases
+
+[⚡ ### YouTube Shorts Automation API Automate YouTube Shorts with the AITuber API. Generate 9:16 videos with AI narration, visuals, and captions. Get started free.](https://aituber.app/api/youtube-automation/)[⚡ ### TikTok Video Automation API Automate TikTok videos with the AITuber API. AI narration, trending visuals, and captions. Batch create at scale.](https://aituber.app/api/tiktok-automation/)[⚡ ### Text to Video API Turn any text into a video with the AITuber API. Send a script, get an MP4 with narration, visuals, and captions.](https://aituber.app/api/text-to-video/)[⚡ ### Faceless Video Generation API Create faceless videos at scale with the AITuber API. AI images, voiceover, and synced captions. Get started free.](https://aituber.app/api/faceless-video/)
+
+Related
+## More Ways to Create
+
+[🖥️ ### Dashboard Create videos visually with the full AITuber editor.](https://app.aituber.app/dashboard)[🔌 ### MCP Server Create videos from Claude, Cursor, or any MCP client.](https://aituber.app/mcp/)[🧠 ### AI Skills Add video creation knowledge to coding agents.](https://aituber.app/skills/)
+
+FAQ
+## Frequently Asked Questions
+
+How many videos can I generate per day?
+
+There is no daily limit. Generation is only limited by your credit balance. A typical 60-second video with basic image quality costs around 30 to 50 credits.
+
+Can I customize the captions?
+
+Yes. Choose from multiple caption styles (wrap-1, hormozi, beast, noah, handwritten, subtitle, impact, pop, chronicle, cyber, grit, luxe, terminal) and control whether captions are enabled and their position (top, center, bottom).
+
+What happens if generation fails?
+
+Credits are refunded automatically for failed generations. Poll GET /videos/{id} to check the status. If it returns "failed", the errorMessage field explains what went wrong.
+
+## Your first video is 2 minutes away.
+
+Sign up and get **100 free credits**, enough for your first short video. No credit card required.
+
+[Start free](https://app.aituber.app/sign-up)[See how it works](https://aituber.app/api/ai-video-creation/#how-it-works)
+
+[![Image 36](https://aituber.app/logo.svg) AI Tuber](https://aituber.app/)
+Create viral videos with AI
+
+[](https://discord.gg/qvAxQYmjYt)[](https://reddit.com/r/reelfarmer)[](https://linkedin.com/company/aituberapp)
+
+### Product
+
+*   [How It Works](https://aituber.app/how-it-works/)
+*   [Features](https://aituber.app/features/)
+*   [Pricing](https://aituber.app/pricing/)
+*   [Testimonials](https://aituber.app/#testimonials)
+*   [FAQ](https://aituber.app/faq/)
+
+### Resources
+
+*   [Blog](https://aituber.app/blog/)
+*   [Affiliates](https://aituber.app/affiliates/)
+
+### Platform
+
+*   [API Docs](https://aituber.app/api/)
+*   [MCP Server](https://aituber.app/mcp/)
+*   [AI Skills](https://aituber.app/skills/)
+*   [Claude](https://aituber.app/claude/)
+*   [Cursor](https://aituber.app/cursor/)
+*   [GitHub](https://github.com/aituberapp/aituber-mcp)
+
+### Compare
+
+*   [AITuber vs CapCut](https://aituber.app/compare/aituber-vs-capcut/)
+
+### Community
+
+*   [Discord](https://discord.gg/qvAxQYmjYt)
+*   [Reddit](https://reddit.com/r/reelfarmer)
+*   [LinkedIn](https://linkedin.com/company/aituberapp)
+
+### Legal
+
+*   [Privacy Policy](https://aituber.app/privacy/)
+*   [Terms of Service](https://aituber.app/terms/)
+*   [Acceptable Use Policy](https://aituber.app/terms/#acceptable-use)
+*   [Contact](mailto:support@aituber.app)
+
+© 2026 Aadhini Technologies, LLC. All rights reserved.
+
+[Privacy Policy](https://aituber.app/privacy/)·[Terms of Service](https://aituber.app/terms/)·[Refunds](https://aituber.app/terms/#refunds)·[Acceptable Use Policy](https://aituber.app/terms/#acceptable-use)
