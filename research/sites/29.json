@@ -1,0 +1,65 @@
+{
+  "id": "29",
+  "name": "Runway",
+  "url": "https://runwayml.com/",
+  "category": "video",
+  "checked_at": "2026-10-23",
+  "summary": "通用视频、图像和音频创作平台，另有公开开发者API。当前模型包括Gen-4.5文生/图生视频、Act-Two动作捕捉及音频或脚本驱动的Characters；这些能力不能直接视作原创Rap歌曲到完整MV的一站式流程。",
+  "inputs": [
+    "文本提示词",
+    "参考图片或起始帧，依模型而定",
+    "源视频与参考视频，依模型而定",
+    "Characters的文字脚本或音频文件"
+  ],
+  "outputs": [
+    "生成或编辑的视频片段",
+    "角色说话视频",
+    "生成图像、语音和音效，依模型而定"
+  ],
+  "features": [
+    "Gen-4.5：官方模型目录列为文生视频和图生视频",
+    "Gen-4 Turbo：图生视频模型",
+    "Aleph 2.0：以关键帧引导的视频编辑",
+    "Act-Two（act_two）：官方列为动作捕捉模型，并链接character_performance端点",
+    "Characters（gwm1_avatars）：由文本脚本或音频文件生成角色说话视频",
+    "Creative网页套餐列有音乐、语音、音效生成；Pro还列有1个自定义声音克隆",
+    "Dev提供Runway与其他厂商模型的API目录及按模型计价"
+  ],
+  "pricing": {
+    "summary": "网页默认显示年付折算月价：Standard 12美元、Pro 28美元、Max 76美元，分别625、2250、9500积分/月。Dev项目积分另购，每积分0.01美元；API Gen-4.5为12积分/秒，Gen-4 Turbo及Act-Two均5积分/秒。未把网页订阅额度当作API余额。",
+    "free_tier": "网页Free为0美元，125积分仅一次，5GB存储；不能理解为每月125积分。未核实Dev免费额度。",
+    "plans": [
+      {"name": "Free（网页）", "amount": 0, "currency": "USD", "billing_period": "free", "credits": 125, "notes": "积分一次性发放，非月度额度。"},
+      {"name": "Standard（网页年付）", "amount": 12, "currency": "USD", "billing_period": "annual_monthly_equivalent", "credits": 625, "notes": "年付折算每月价格；625积分/月，并非确认的逐月付款价格。"},
+      {"name": "Pro（网页年付）", "amount": 28, "currency": "USD", "billing_period": "annual_monthly_equivalent", "credits": 2250, "notes": "年付折算每月价格；2250积分/月。"},
+      {"name": "Max（网页年付）", "amount": 76, "currency": "USD", "billing_period": "annual_monthly_equivalent", "credits": 9500, "notes": "年付折算每月价格；9500积分/月，未用积分可结转1个月。"},
+      {"name": "Dev API积分", "amount": 0.01, "currency": "USD", "billing_period": "per_credit", "credits": 1, "notes": "开发者门户按项目购买，可能另有销售税。API Gen-4.5 12积分/秒；gen4_turbo及act_two各5积分/秒。"}
+    ],
+    "source_url": "https://runwayml.com/pricing"
+  },
+  "api": {
+    "status": "documented",
+    "summary": "官方Dev模型目录与API计价文档公开可读，列出图生/文生视频、视频编辑、Act-Two的character_performance、Characters及语音模型。API按Dev项目积分消费；未调用端点，未核实原声Rap快速口型与整曲拼接效果。",
+    "url": "https://docs.dev.runwayml.com/guides/models/"
+  },
+  "limitations": [
+    "只读官网和文档，未登录、付款或实际生成；模型质量与功能为供应商宣称。",
+    "图生视频、动作捕捉、说话角色与原创歌曲创作是不同任务；没有已读证据证明从歌词、伴奏、人声到整首Rap MV完整一站完成。",
+    "网页宣称音乐和声音克隆，但本次未验证Rap演唱、音色保留、中文快嘴口型、歌词逐字一致性或整曲长度。",
+    "Act-Two在已读目录中仅明确为动作捕捉模型；具体表演输入参数、时长和音轨保留待核。",
+    "网页年付价格不能当作逐月订阅价格；Web与Dev额度互通未核实。",
+    "网页Turbo时长换算存在不一致：625积分标104秒，9500积分标1900秒；不据此推导统一Web每秒单价，API单价以Dev文档为准。"
+  ],
+  "best_for": "已有歌曲或表演方案，需要生成MV镜头、编辑素材，或把角色说话与动作模块接入自建流程的创作者和开发者。",
+  "evidence_status": "full_page",
+  "sources": [
+    {"url": "https://runwayml.com/", "title": "Runway | Building Real-World Intelligence", "kind": "official", "local_path": "research/evidence/29/homepage.txt", "supports": ["Creative媒体创作平台与Dev开发者平台的定位", "官方文档与定价入口"]},
+    {"url": "https://runwayml.com/pricing", "title": "AI Image and Video Pricing from $12/month | Runway AI", "kind": "pricing", "local_path": "research/evidence/29/pricing.txt", "supports": ["免费一次性125积分", "Standard、Pro、Max年付折月价及月度额度", "音乐、语音、音效和声音克隆宣称", "Turbo秒数换算差异"]},
+    {"url": "https://docs.dev.runwayml.com/guides/pricing/", "title": "API Pricing & Costs", "kind": "pricing", "local_path": "research/evidence/29/api-pricing.txt", "supports": ["Dev项目积分每个0.01美元", "Gen-4.5为12积分/秒，Gen-4 Turbo和Act-Two为5积分/秒", "API采用分模型计价"]},
+    {"url": "https://docs.dev.runwayml.com/guides/models/", "title": "Available AI Models", "kind": "documentation", "local_path": "research/evidence/29/api-models.txt", "supports": ["当前Gen-4.5、Gen-4 Turbo、Aleph 2.0及Act-Two定位", "Characters的文字脚本或音频文件输入", "API端点链接与多厂商模型目录"]}
+  ],
+  "observations": [
+    "推断：说唱视频产品可把原创音乐、人物表演、口型与镜头编辑拆成可替换模块，Runway更适合作为媒体生成和表演环节候选。",
+    "推断：成本估算应按所选模型和API秒数计算，并将重试、编辑与后期处理分别预算；不能直接用网页年付积分套餐推导API成本。"
+  ]
+}

@@ -1,0 +1,348 @@
+Title: Runway | Building Real-World Intelligence
+
+URL Source: https://runwayml.com/
+
+Published Time: Thu, 22 Oct 2026 07:40:58 GMT
+
+Markdown Content:
+![Image 6: logo](blob:http://localhost/4eb6460ab93a7ae1978320dda45af1eb)
+
+[](https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2)
+
+*   [Consent](https://runwayml.com/#)
+*   [Details](https://runwayml.com/#)
+*   [[#IABV2SETTINGS#]](https://runwayml.com/#)
+*   [About](https://runwayml.com/#)
+
+This website uses cookies
+
+We and our third-party partners use cookies, pixels, and other technologies to collect, record, and share information you provide as well as information about your interactions with our site for ad targeting, analytics, personalization, and site functionality purposes.
+
+By continuing to use the site or by clicking one of the buttons below, you agree to the use of these technologies (as described in our [****Privacy Policy****](https://runwayml.com/terms-of-use) and subject to your settings) and our [****Terms of Use****](https://runwayml.com/privacy-policy) (which contains important waivers).
+
+[#GPC_BANNER_ICON#]
+
+[#GPC_TOAST_TEXT#]
+
+Consent Selection
+
+**Necessary** 
+
+- [x] 
+
+**Functional** 
+
+- [x] 
+
+**Analytics** 
+
+- [x] 
+
+**Advertising** 
+
+- [x] 
+
+[Show details](https://runwayml.com/#)
+
+Details
+
+*   
+Necessary 11- [x]    These cookies and other technologies are necessary to enable the basic functions of this website, such as page navigation and access to secure areas of the website. Without these cookies and technologies, the website cannot function properly and would not be able to provide the services you are seeking. As a result, you cannot turn this category OFF. 
+
+    *   [Cookiebot 1](https://runwayml.com/#)[Learn more about this provider![Image 7: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://www.cookiebot.com/goto/privacy-policy/ "Learn more about this provider Cookiebot's privacy policy - opens in a new window")**CookieConsent**Stores the user's cookie consent state for the current domain**Maximum Storage Duration**: 1 year**Type**: HTTP Cookie   
+    *   [Google 1](https://runwayml.com/#)[Learn more about this provider![Image 8: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://business.safety.google/privacy/ "Learn more about this provider Google's privacy policy - opens in a new window")Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness. The provider may use the IP Addresses for ads measurement and ads personalization.
+
+**test_cookie**Used to check if the user's browser supports cookies.**Maximum Storage Duration**: 1 day**Type**: HTTP Cookie   
+    *   [bzr.openai.com twitter.com vimeo.com x.com 5](https://runwayml.com/#)**__cf_bm[x5]**This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.**Maximum Storage Duration**: 1 day**Type**: HTTP Cookie   
+    *   [bzr.openai.com vimeo.com 3](https://runwayml.com/#)**_cfuvid[x3]**This cookie is a part of the services provided by Cloudflare - Including load-balancing, deliverance of website content and serving DNS connection for website operators. **Maximum Storage Duration**: Session**Type**: HTTP Cookie   
+    *   [runwayml.com 1](https://runwayml.com/#)**visitor_id**Preserves the visitor's session state across page requests.**Maximum Storage Duration**: 1 year**Type**: HTTP Cookie   
+
+*   
+Functional 1- [x]    These cookies and other technologies allow the website to implement optional features and functionality that are not strictly necessary for the website to function, such as remembering your preferred language or the region that you are in. 
+
+    *   [runwayml.com 1](https://runwayml.com/#)**media-chrome-pref-muted**Pending**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage   
+
+*   
+Analytics 6- [x]    These cookies and other technologies collect information about how you use the website and how the website performs. 
+
+    *   [Google 2](https://runwayml.com/#)[Learn more about this provider![Image 9: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://business.safety.google/privacy/ "Learn more about this provider Google's privacy policy - opens in a new window")Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness. The provider may use the IP Addresses for ads measurement and ads personalization.
+
+**_ga**Used to send data to Google Analytics about the visitor's device and behavior. Tracks the visitor across devices and marketing channels.**Maximum Storage Duration**: 2 years**Type**: HTTP Cookie  **_ga_#**Used to send data to Google Analytics about the visitor's device and behavior. Tracks the visitor across devices and marketing channels.**Maximum Storage Duration**: 2 years**Type**: HTTP Cookie   
+    *   [Vimeo 2](https://runwayml.com/#)[Learn more about this provider![Image 10: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://vimeo.com/privacy "Learn more about this provider Vimeo's privacy policy - opens in a new window")**orionV3#identity**Used to track user’s interaction with embedded content.**Maximum Storage Duration**: Persistent**Type**: IndexedDB  **vuid**Collects data on the user's visits to the website, such as which pages have been read.**Maximum Storage Duration**: 2 years**Type**: HTTP Cookie   
+    *   [runwayml.com 2](https://runwayml.com/#)**muxData**This cookie is used in context with a video-player, so that if the visitor is interrupted while viewing video content, the cookie remembers where to start the video when the visitor reloads the video.**Maximum Storage Duration**: 1 year**Type**: HTTP Cookie  **rw_attribution**Pending**Maximum Storage Duration**: Session**Type**: HTTP Cookie   
+
+*   
+Advertising 24- [x]    These cookies and other technologies are used to track your presence and interactions on the website and to deliver ads that are more relevant to you and your interests based on this information. They are also used to limit the number of times you see an advertisement, and to measure the effectiveness of online advertising campaigns. 
+
+    *   [Meta Platforms, Inc.3](https://runwayml.com/#)[Learn more about this provider![Image 11: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://www.facebook.com/policy.php/ "Learn more about this provider  Meta Platforms, Inc.'s privacy policy - opens in a new window")**lastExternalReferrer**Detects how the user reached the website by registering their last URL-address.**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage  **lastExternalReferrerTime**Detects how the user reached the website by registering their last URL-address.**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage  **_fbp**Used by Facebook to deliver a series of advertisement products such as real time bidding from third party advertisers.**Maximum Storage Duration**: 3 months**Type**: HTTP Cookie   
+    *   [Google 4](https://runwayml.com/#)[Learn more about this provider![Image 12: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://business.safety.google/privacy/ "Learn more about this provider Google's privacy policy - opens in a new window")Some of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness. The provider may use the IP Addresses for ads measurement and ads personalization.
+
+**IDE**Used by Google DoubleClick to register and report the website user's actions after viewing or clicking one of the advertiser's ads with the purpose of measuring the efficacy of an ad and to present targeted ads to the user.**Maximum Storage Duration**: 400 days**Type**: HTTP Cookie  **pagead/1p-user-list/#**Tracks if the user has shown interest in specific products or events across multiple websites and detects how the user navigates between sites. This is used for measurement of advertisement efforts and facilitates payment of referral-fees between websites.**Maximum Storage Duration**: Session**Type**: Pixel Tracker  **_gcl_au**Used to measure the efficiency of the website’s advertisement efforts, by collecting data on the conversion rate of the website’s ads across multiple websites.**Maximum Storage Duration**: 3 months**Type**: HTTP Cookie  **_gcl_ls**Tracks the conversion rate between the user and the advertisement banners on the website - This serves to optimise the relevance of the advertisements on the website. **Maximum Storage Duration**: Persistent**Type**: HTML Local Storage   
+    *   [Reddit 2](https://runwayml.com/#)[Learn more about this provider![Image 13: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://www.redditinc.com/policies/privacy-policy "Learn more about this provider Reddit's privacy policy - opens in a new window")**rp.gif**Necessary for the implementation of the Reddit.com's share-button function.**Maximum Storage Duration**: Session**Type**: Pixel Tracker  **_rdt_uuid**Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences. **Maximum Storage Duration**: 3 months**Type**: HTTP Cookie   
+    *   [Vimeo 4](https://runwayml.com/#)[Learn more about this provider![Image 14: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://vimeo.com/privacy "Learn more about this provider Vimeo's privacy policy - opens in a new window")**picox#events**Used to track user’s interaction with embedded content.**Maximum Storage Duration**: Persistent**Type**: IndexedDB  **LOCAL_STORAGE_ID_PICOX_ID**Used to track user’s interaction with embedded content.**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage  **LOCAL_STORAGE_ID_VIMEO_PLAYER**Used to track user’s interaction with embedded content.**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage  **PLAYER_PICOX_SAMPLING_SEED**Used to track user’s interaction with embedded content.**Maximum Storage Duration**: Persistent**Type**: HTML Local Storage   
+    *   [YouTube 11](https://runwayml.com/#)[Learn more about this provider![Image 15: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://business.safety.google/privacy/ "Learn more about this provider YouTube's privacy policy - opens in a new window")**__Secure-ROLLOUT_TOKEN**Used to track user’s interaction with embedded content.**Maximum Storage Duration**: 180 days**Type**: HTTP Cookie  **__Secure-YEC**Stores the user's video player preferences using embedded YouTube video**Maximum Storage Duration**: Session**Type**: HTTP Cookie  **__Secure-YNID**Used to track user’s interaction with embedded content.**Maximum Storage Duration**: 180 days**Type**: HTTP Cookie  **LAST_RESULT_ENTRY_KEY**Used to track user’s interaction with embedded content.**Maximum Storage Duration**: Session**Type**: HTTP Cookie  **LogsDatabaseV2:V#||LogsRequestsStore**Used to track user’s interaction with embedded content.**Maximum Storage Duration**: Persistent**Type**: IndexedDB  **ServiceWorkerLogsDatabase#SWHealthLog**Necessary for the implementation and functionality of YouTube video-content on the website. **Maximum Storage Duration**: Persistent**Type**: IndexedDB  **TESTCOOKIESENABLED**Used to track user’s interaction with embedded content.**Maximum Storage Duration**: 1 day**Type**: HTTP Cookie  **VISITOR_INFO1_LIVE**Tries to estimate the users' bandwidth on pages with integrated YouTube videos.**Maximum Storage Duration**: 180 days**Type**: HTTP Cookie  **YSC**Registers a unique ID to keep statistics of what videos from YouTube the user has seen.**Maximum Storage Duration**: Session**Type**: HTTP Cookie  **yt-icons-last-purged**Necessary for the implementation and functionality of YouTube video-content on the website. **Maximum Storage Duration**: Persistent**Type**: HTML Local Storage  **YtIdbMeta#databases**Used to track user’s interaction with embedded content.**Maximum Storage Duration**: Persistent**Type**: IndexedDB   
+
+*   Unclassified 1 Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies.  
+
+    *   [Twitter Inc.1](https://runwayml.com/#)[Learn more about this provider![Image 16: opens in a new window](blob:http://localhost/7c37f61654102a88a9be209f9569ef78)](https://twitter.com/en/privacy "Learn more about this provider Twitter Inc.'s privacy policy - opens in a new window")**i/jot/embeds**Pending**Maximum Storage Duration**: Session**Type**: Pixel Tracker   
+
+[Cross-domain consent[#BULK_CONSENT_DOMAINS_COUNT#]](https://runwayml.com/#)
+
+[#BULK_CONSENT_TITLE#]
+
+List of domains your consent applies to: [#BULK_CONSENT_DOMAINS#]
+
+Cookie declaration last updated on 6/29/26 by [Cookiebot](https://www.cookiebot.com/)
+
+[#IABV2_TITLE#]
+
+[#IABV2_BODY_INTRO#]
+
+[#IABV2_BODY_LEGITIMATE_INTEREST_INTRO#]
+
+[#IABV2_BODY_PREFERENCE_INTRO#]
+
+[#IABV2_LABEL_PURPOSES#]
+
+[#IABV2_BODY_PURPOSES_INTRO#]
+
+[#IABV2_BODY_PURPOSES#]
+
+[#IABV2_LABEL_FEATURES#]
+
+[#IABV2_BODY_FEATURES_INTRO#]
+
+[#IABV2_BODY_FEATURES#]
+
+[#IABV2_LABEL_PARTNERS#]
+
+[#IABV2_BODY_PARTNERS_INTRO#]
+
+[#IABV2_BODY_PARTNERS#]
+
+About
+
+Cookies are small text files that can be used by websites to make a user's experience more efficient.  
+  
+The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission.  
+  
+This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages.  
+  
+You can at any time change or withdraw your consent from the Cookie Declaration on our website.  
+  
+Learn more about who we are, how you can contact us and how we process personal data in our Privacy Policy.  
+  
+ Please state your consent ID and date when you contact us regarding your consent.
+
+- [x] 
+
+**Do not sell or share my personal information** 
+
+Allow all Customize Allow selection Deny
+
+![Image 17: Runway app icon](https://runwayml.com/_next/image?url=%2Fimages%2Flogos%2Frunway-app-icon.png&w=96&q=75&dpl=dpl_7CYVnEprB35U9xDDhepQ9BaeVy2p)
+
+Runway app for iPhone Runway app for Android
+
+Create anything, anytime.
+
+[Try app](https://apps.apple.com/app/runway-ai-video-photo-maker/id1665024375)[Try app](https://play.google.com/store/apps/details?id=com.runwayml.prod)
+
+[](https://runwayml.com/)
+
+*   [Creative](https://runwayml.com/product)
+*   [Dev](https://dev.runwayml.com/)
+*   [Robotics](https://runwayml.com/product/robotics)
+*   [Research](https://runwayml.com/research)
+*   [Resources](https://runwayml.com/resources)
+*   [Enterprise](https://runwayml.com/enterprise)
+*   [Pricing](https://runwayml.com/pricing)
+
+[Enterprise Sales](https://runwayml.com/enterprise-contact)[Login](https://app.runwayml.com/login)[Try Runway](https://app.runwayml.com/)
+
+![Image 18](https://runwayml.com/_next/image?url=https%3A%2F%2Fd3phaj0sisr2ct.cloudfront.net%2Fsite%2Fimages%2Frectangle-bg.png&w=3840&q=75)
+
+Enterprises get 2 months of usage free. Sign by 10/31.
+
+[See terms](https://runwayml.com/code-terms/enterprise-bonus-terms)[Contact sales](https://runwayml.com/enterprise-contact?utm_source=runway&utm_medium=homepagebanner&utm_campaign=twomonthsentfree)
+
+![Image 19](https://image.mux.com/JFHOwdZ8ujlrDDSLujoSv9su9PQb5001CiRiNdMgIjnk/thumbnail.webp?time=0&width=480%20480w)
+
+![Image 20](https://image.mux.com/JFHOwdZ8ujlrDDSLujoSv9su9PQb5001CiRiNdMgIjnk/thumbnail.webp?time=0&width=480%20480w)
+
+# Building Real-World Intelligence
+
+Runway is building foundational Real-World Intelligence that can understand, simulate and act in the world. We offer products and services built on-top of this intelligence to empower individuals and organizations to do more in the world.
+
+[Try Runway for free](https://app.runwayml.com/)
+
+We partner with the world's leading organizations to advance their industries:
+
+## Three platforms built on-top of the same Real-World Intelligence models
+
+### Runway Creative
+
+![Image 21](https://image.mux.com/5I5te5Vx7NV1gi8DtjSgz702DYWSqbF02RGvQHM3Rjk8M/thumbnail.webp?time=0&width=480%20480w)
+
+![Image 22](https://image.mux.com/5I5te5Vx7NV1gi8DtjSgz702DYWSqbF02RGvQHM3Rjk8M/thumbnail.webp?time=0&width=480%20480w)
+
+Your complete Creative Suite with everything you need, to make anything you want.
+
+An all-in-one cloud-based creative platform that offers endless ways to generate and edit video, images and audio in one workspace. Built for individuals and teams of all sizes.
+
+[Try now](https://app.runwayml.com/)[Learn more](https://runwayml.com/product)[For Enterprise](https://runwayml.com/enterprise)
+
+Used by 60m+ creatives around the world. Try free, cancel anytime.
+
+### Runway Dev
+
+![Image 23](https://runwayml.com/_next/image?url=https%3A%2F%2Fd3phaj0sisr2ct.cloudfront.net%2Fsite%2Fassets%2Frw-dev-homepage-card.webp&w=3840&q=75)
+
+The AI media platform for developers to build with the best models from Runway and other labs.
+
+The API platform with Runway's expertise built in. Access the best models and the creative tooling to easily get production-ready output from them, at scale.
+
+[Get API Key](https://dev.runwayml.com/)[View documentation](https://docs.dev.runwayml.com/)[For Enterprise](https://runwayml.com/enterprise)
+
+### Runway Robotics
+
+![Image 24](https://image.mux.com/MqYdmPpxdf6cd3OsBFaiwluV8ize2PzjjZCUW2O02aWw/thumbnail.webp?time=0&width=480%20480w)
+
+![Image 25](https://image.mux.com/MqYdmPpxdf6cd3OsBFaiwluV8ize2PzjjZCUW2O02aWw/thumbnail.webp?time=0&width=480%20480w)
+
+A complete toolkit to run policy inference through photorealistic simulation.
+
+From policy inference and evaluation to synthetic data generation, every component is powered by GWM-1, our state-of-the-art General World Model. Pick the surface you need — we'll work with you to fit it to your hardware.
+
+[Learn more](https://runwayml.com/product/robotics)[Contact Sales](https://runwayml.com/product/robotics/contact)
+
+Runway Creative Runway Dev Runway Robotics
+
+How Runway is Used Create with Agent Build your own Workflows Enterprise-grade The World's Best Models
+
+![Image 26](https://image.mux.com/Bd17Bgkw00lq6QqwOAAxkXKYs7hy3RnHj1JQjUwYmdZA/thumbnail.webp?time=0&width=480%20480w)
+
+![Image 27](https://image.mux.com/T3MxHKsagNzekzmQK4dWkxm01bAW00Rki7Kzg6odj4rIQ/thumbnail.webp?time=0&width=480%20480w)
+
+Runway Research
+
+We are building foundational General World Models that will be capable of simulating all possible worlds and experiences. The next frontier of intelligence will come from models that can understand, perceive, generate and act in the world.
+
+[Learn more](https://runwayml.com/news/research)
+
+#### [GWM-1 ↗ A state-of-the-art General World Model built to interact with the real world. And a major step towards universal simulation.](https://runwayml.com/research/introducing-runway-gwm-1)#### [Gen-4.5 ↗ The world's best video model, featuring state-of-the-art motion quality, prompt adherence and visual fidelity.](https://runwayml.com/research/introducing-runway-gen-4.5)#### [General World Models ↗ Our long-term research effort to build AI systems that understand the visual world and its dynamics.](https://runwayml.com/research/introducing-general-world-models)
+
+See the latest from Runway
+
+[![Image 28: Introducing Runway Ads](https://runwayml.com/_next/image?url=https%3A%2F%2Fd3phaj0sisr2ct.cloudfront.net%2Fsite%2Fimages%2Fsanity%2F2026%2F09%2F092826-runwayads-blogpost-band-flank-a12dbf4e-80c0-41f0-b3e1-79471c65f728.png&w=3840&q=75)](https://runwayml.com/news/company-news/introducing-runway-ads)
+
+[Introducing Runway Ads](https://runwayml.com/news/company-news/introducing-runway-ads)[Runway Ads automatically generates on-brand video and image ads, publishes them to Meta, Google and TikTok, then builds the next round around what earned spend.](https://runwayml.com/news/company-news/introducing-runway-ads)
+
+[Learn more](https://runwayml.com/news/company-news/introducing-runway-ads)
+
+[![Image 29: Introducing Praxis-1](https://runwayml.com/_next/image?url=https%3A%2F%2Fd3phaj0sisr2ct.cloudfront.net%2Fsite%2Fresearch%2Fpraxis-1%2Fimages%2Fpraxis-1-card.webp&w=3840&q=75)](https://runwayml.com/research/introducing-praxis-1)
+
+[Introducing Praxis-1](https://runwayml.com/research/introducing-praxis-1)[An open-weight world action model that turns Runway's video pretraining into control for real robots.](https://runwayml.com/research/introducing-praxis-1)
+
+[Learn more](https://runwayml.com/research/introducing-praxis-1)
+
+[![Image 30: Runway Joins the OpenAI Marketplace](https://runwayml.com/_next/image?url=https%3A%2F%2Fd3phaj0sisr2ct.cloudfront.net%2Fsite%2Fimages%2Fsanity%2F2026%2F09%2Fv2092826-openai-casestudy-c-ff45e702-aa7b-484e-8ad2-6c3d3153ea74.png&w=3840&q=75)](https://runwayml.com/news/company-news/runway-openai-marketplace)
+
+[Runway Joins the OpenAI Marketplace](https://runwayml.com/news/company-news/runway-openai-marketplace)[Runway is now in the OpenAI Marketplace. Eligible enterprise teams can use existing OpenAI commitments to buy the best video, image and audio tools.](https://runwayml.com/news/company-news/runway-openai-marketplace)
+
+[Learn more](https://runwayml.com/news/company-news/runway-openai-marketplace)
+
+[![Image 31: Runway Joins Claude Marketplace](https://runwayml.com/_next/image?url=https%3A%2F%2Fd3phaj0sisr2ct.cloudfront.net%2Fsite%2Fimages%2Fsanity%2F2026%2F10%2Fclaude-ai-1-case-study-1600x1072-14fd0ad5-71d0-4569-bae5-94152fc85a4a.png&w=3840&q=75)](https://runwayml.com/news/company-news/runway-claude-marketplace)
+
+[Runway Joins Claude Marketplace](https://runwayml.com/news/company-news/runway-claude-marketplace)[Enterprise customers can now buy Runway Creative through Claude Marketplace and apply their existing Anthropic commitment toward Runway.](https://runwayml.com/news/company-news/runway-claude-marketplace)
+
+[Learn more](https://runwayml.com/news/company-news/runway-claude-marketplace)
+
+Creative
+
+*   [Overview](https://runwayml.com/product)
+*   [Agent](https://runwayml.com/product/agent)
+*   [Android app ↗](https://play.google.com/store/apps/details?id=com.runwayml.prod)
+*   [iOS app ↗](https://apps.apple.com/us/app/runwayml/id1665024375)
+*   [ChatGPT Plugin](https://runwayml.com/mcp/chatgpt)
+*   [MCP](https://runwayml.com/mcp)
+*   [Use Cases](https://runwayml.com/use-cases)
+*   [Pricing](https://runwayml.com/pricing)
+*   [Team Plan](https://runwayml.com/team-plan)
+*   [Login](https://app.runwayml.com/login)
+
+Dev
+
+*   [Platform ↗](https://dev.runwayml.com/)
+*   [Models ↗](https://dev.runwayml.com/models)
+*   [Model Router ↗](https://docs.dev.runwayml.com/model-routers/)
+*   [Workflows](https://runwayml.com/workflows)
+*   [Recipes ↗](https://dev.runwayml.com/recipes/product_ad)
+*   [Characters](https://runwayml.com/product/characters)
+*   [Documentation ↗](https://docs.dev.runwayml.com/)
+*   [Pricing](https://runwayml.com/pricing?tab=dev)
+
+Robotics
+
+*   [Overview](https://runwayml.com/product/robotics)
+*   [Policy Model](https://runwayml.com/product/robotics/policy-model)
+*   [Offline Policy Evaluation](https://runwayml.com/product/robotics/policy-evaluation)
+*   [Data Augmentation](https://runwayml.com/product/robotics/data-augmentation)
+*   [Video Model Licensing](https://runwayml.com/model-licensing)
+*   [Get Access](https://runwayml.com/product/robotics/contact)
+
+Enterprise
+
+*   [Overview](https://runwayml.com/enterprise)
+*   [Data Security](https://runwayml.com/data-security)
+*   [Customer Stories](https://runwayml.com/news/customers)
+*   [For Education](https://runwayml.com/educators)
+*   [Contact Sales](https://runwayml.com/enterprise-contact)
+
+Research
+
+*   [Research Hub](https://runwayml.com/research)
+*   [Research News](https://runwayml.com/news/research)
+*   [Publications](https://runwayml.com/research/publications)
+*   [Gen-4.5](https://runwayml.com/research/introducing-runway-gen-4.5)
+*   [Aleph 2.0](https://runwayml.com/product/aleph-2)
+*   [Ruby](https://runwayml.com/product/ruby)
+*   [Act-Two](https://runwayml.com/research/introducing-act-one)
+*   [Solaris](https://runwayml.com/news/research/introducing-solaris)
+*   [Robotics](https://runwayml.com/product/robotics)
+*   [World Simulation](https://runwayml.com/research/introducing-gwm-worlds-2)
+
+Resources
+
+*   [Academy ↗](https://academy.runwayml.com/)
+*   [Help Center ↗](https://help.runwayml.com/hc/en-us)
+*   [Resource Hub](https://runwayml.com/resources)
+*   [News](https://runwayml.com/news)
+*   [Changelog](https://runwayml.com/changelog)
+*   [Meetups ↗](https://academy.runwayml.com/meetups)
+
+Events & Programs
+
+*   [AI Festival ↗](https://aif.runwayml.com/)
+*   [AI Summit 2026 ↗](https://summit.runwayml.com/)
+*   [Gen:48](https://gen48.runwayml.com/)
+*   [Studios](https://runwayml.com/studios)
+*   [Creative Partners Program](https://runwayml.com/creative-partners-program)
+*   [Runway Builders](https://runwayml.com/product/builders)
+*   [Affiliate Program](https://runwayml.com/affiliate-program)
+*   [Talent Network ↗](https://talent.runwayml.com/)
+
+Company
+
+*   [About Us](https://runwayml.com/about)
+*   [Careers](https://runwayml.com/careers)
+*   [Safety](https://runwayml.com/safety)
+*   [Verify Content Credentials](https://runwayml.com/safety/verify)
+*   [Brand Guidelines](https://runwayml.com/brand-guidelines)
+*   [Press](mailto:press@runwayml.com)
+*   [Partnerships](mailto:partnerships@runwayml.com)
+
+© 2026 Runway AI, Inc. /[Terms of Use](https://runwayml.com/terms-of-use)/[Privacy Policy](https://runwayml.com/privacy-policy)/[California Notices](https://runwayml.com/privacy-policy#residents-of-california)/ Your Privacy Choices/ Cookie Settings  
+[Code of Conduct](https://runwayml.com/coc)/[System Status](https://status.runwayml.com/) / English
+
+[](https://twitter.com/runwayml)[](https://instagram.com/runwayapp)[](https://youtube.com/runwayml)[](http://discord.gg/invite/runwayml)
