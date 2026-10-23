@@ -1,0 +1,882 @@
+Title: OpenArt MCP & CLI - Generate Images & Video from Any AI Agent
+
+URL Source: https://openart.ai/mcp/
+
+Markdown Content:
+Top image & video models, 10% off in ChatGPT, Claude & more with OpenArt MCP.
+
+[Claim 10% Off ›](https://openart.ai/suite/pricing)
+
+[![Image 1: OpenArt](https://pageforge-56o.pages.dev/pageforge-assets/shared/images/logo_2x.webp)](https://openart.ai/)
+
+*   [AI Tools](https://openart.ai/mcp/#)
+*   [AI Models](https://openart.ai/mcp/#)
+*   [Features](https://openart.ai/mcp/#)
+*   [Integrations](https://openart.ai/mcp/#)
+*   [Resources](https://openart.ai/mcp/#)
+*   [Pricing](https://openart.ai/suite/pricing)
+*   [Enterprise](https://openart.ai/enterprise/)
+*   [More](https://openart.ai/mcp/#)
+
+[Start for Free](https://openart.ai/home)
+
+Director
+
+[Short Film Direct multi-scene stories worth re-watching](https://openart.ai/suite/director?quickStart=short-film)[Music Video Turn any track into a synced music video](https://openart.ai/suite/director?quickStart=music-video)[UGC Ads Authentic creator-style ads that convert](https://openart.ai/suite/director?quickStart=ugc-ads)
+
+Director
+
+[Product Ads Polished product spots for any campaign](https://openart.ai/suite/director?quickStart=product-ads)[Film Trailer Cut a cinematic trailer with AI](https://openart.ai/suite/director?quickStart=film-trailer)[Social Content On-trend clips for every social feed](https://openart.ai/suite/director?quickStart=social-content)
+
+Director
+
+[Branding Ads On-brand video ads at scale](https://openart.ai/suite/director?quickStart=branding-ads)[Explainer Explain products or ideas with clarity](https://openart.ai/suite/director?quickStart=explainer)[Micro Drama Episodic short-form drama, AI-directed](https://openart.ai/suite/director?quickStart=micro-drama)
+
+Video
+
+[Video Generator Create cinematic AI videos from text or images](https://openart.ai/suite/video)[Music Video Sync AI video to any audio track automatically](https://openart.ai/suite/director?quickStart=music-video)[Motion Control Apply precise motion from reference videos](https://openart.ai/suite/motion-sync)
+
+Image
+
+[Image Generator Generate stunning images from text prompts](https://openart.ai/suite/create-image)[Camera Angle Control Control camera perspective on any subject](https://openart.ai/suite/camera-angle-control)[Image Upscale Enhance resolution and detail with AI](https://openart.ai/suite/video-upscale/topaz-lab)
+
+ Popular 
+
+[Character Builder Create consistent AI characters across scenes](https://openart.ai/suite/character)[3D World Turn any image into a navigable 3D world](https://openart.ai/suite/world)[OpenArt MCP & CLI Generate Images & Video Inside Your Agent](https://openart.ai/mcp/)
+
+[Start Creating](https://openart.ai/home)
+
+[[Video 62](https://pageforge-56o.pages.dev/pageforge-assets/shared/videos/nav-arena-ranking.mp4)](https://openart.ai/arena)
+
+[Explore models ranking](https://openart.ai/arena)
+
+[View Arena](https://openart.ai/arena)[Browse all models](https://openart.ai/ai-model/)
+
+Video Models
+
+[Seedance 2.5 NEW](https://openart.ai/ai-model/seedance-2-5/)[Kling 3.0](https://openart.ai/ai-model/kling-3-motion-control)[Sora 2](https://openart.ai/ai-model/sora-2-update)[Seedance 2.0](https://openart.ai/ai-model/seedance-2-0/)[SwitchX](https://openart.ai/ai-model/switchx/)
+
+Video Models
+
+[WAN 2.7](https://openart.ai/ai-model/wan-2-7-ai-video-generator/)[LTX-2.3](https://openart.ai/ai-model/ltx-2-3-ai-video-generator/)[HappyHorse](https://openart.ai/ai-model/happy-horse-ai-video-generator/)[Pixverse](https://openart.ai/ai-model/pixverse-video-generator/)[Gemini Omni Flash](https://openart.ai/ai-model/gemini-omni-flash/)
+
+Image Models
+
+[GPT Image 2.5 NEW](https://openart.ai/ai-model/gpt-image-2-5/)[Grok Imagine](https://openart.ai/ai-model/grok-imagine/)[Qwen Image 3](https://openart.ai/ai-model/qwen-image-3/)[Nano Banana 2](https://openart.ai/ai-model/nano-banana-2/)[Seedream 5.0 Pro](https://openart.ai/ai-model/seedream-5-pro/)
+
+Other Models
+
+[3D Models](https://openart.ai/feature/openart-worlds)
+
+[![Image 2: Create stunning AI content](https://pageforge-56o.pages.dev/pageforge-assets/shared/images/feature-home-hero-bg.png)](https://openart.ai/features/)
+
+[Create stunning AI content](https://openart.ai/features/)
+
+[View All](https://openart.ai/features/)
+
+[AI Video Generator](https://openart.ai/ai-video-generator/)[AI Image Generator](https://openart.ai/ai-image-generator/)[OpenArt VFX NEW](https://openart.ai/features/openart-vfx/)[Video Relight NEW](https://openart.ai/features/ai-video-relight/)[Video Background Changer NEW](https://openart.ai/features/ai-video-background-changer/)
+
+[OpenArt Worlds](https://openart.ai/feature/openart-worlds)[AI Character](https://openart.ai/features/ai-character/)[AI Influencer](https://openart.ai/features/ai-influencer/)[AI Headshot](https://openart.ai/features/ai-headshot-generator/)[AI Face Smooth](https://openart.ai/features/ai-face-smooth/)
+
+[Smart Shot](https://openart.ai/features/smart-shot/)[Twitter Video Generator](https://openart.ai/features/twitter-video-generator/)[AI Character Swap](https://openart.ai/features/ai-character-swap/)[AI Celebrity Generator](https://openart.ai/features/ai-celebrity-generator/)[Unblur Image](https://openart.ai/features/unblur-image/)
+
+AI Agents
+
+[OpenArt MCP & CLI Create images and videos inside your AI agent.](https://openart.ai/mcp/)[Claude](https://openart.ai/mcp/claude-ai-video-generator/)[ChatGPT](https://openart.ai/mcp/chatgpt-ai-video-generator/)[Cursor](https://openart.ai/mcp/cursor/)
+
+Plugins
+
+[Adobe After Effects Bring AI images and video into your motion workflow.](https://openart.ai/plugins/after-effects/)
+
+Learn
+
+[MCP & CLI Guides Setup guides, tutorials, and creative workflows.](https://openart.ai/blog/category/mcp-cli/)
+
+Learn
+
+[Video Tutorials](https://openart.ai/suite/tutorials)[Blog](https://openart.ai/blog)
+
+Updates
+
+[What's New](https://openart.ai/suite/whats-new)[Press Release](https://openart.ai/blog/category/updates/)
+
+Need Help
+
+[Help Center](https://openart.ai/help/)[FAQ](https://openart.ai/faq/)[Contact Us](mailto:support@openart.ai)[Discord](https://discord.gg/openart)
+
+[![Image 3: OpenArt](https://pageforge-56o.pages.dev/pageforge-assets/shared/images/logo_2x.webp)](https://openart.ai/)
+
+✕
+
+ AI Tools 
+
+ Director 
+
+[Short Film](https://openart.ai/suite/director?quickStart=short-film)[Music Video](https://openart.ai/suite/director?quickStart=music-video)[UGC Ads](https://openart.ai/suite/director?quickStart=ugc-ads)[Product Ads](https://openart.ai/suite/director?quickStart=product-ads)[Film Trailer](https://openart.ai/suite/director?quickStart=film-trailer)[Social Content](https://openart.ai/suite/director?quickStart=social-content)[Branding Ads](https://openart.ai/suite/director?quickStart=branding-ads)[Explainer](https://openart.ai/suite/director?quickStart=explainer)[Micro Drama](https://openart.ai/suite/director?quickStart=micro-drama)
+
+ Video 
+
+[Video Generator](https://openart.ai/suite/video)[Music Video](https://openart.ai/suite/director?quickStart=music-video)[Motion Control](https://openart.ai/suite/motion-sync)
+
+ Image 
+
+[Image Generator](https://openart.ai/suite/create-image)[Camera Angle Control](https://openart.ai/suite/camera-angle-control)[Image Upscale](https://openart.ai/suite/video-upscale/topaz-lab)
+
+ Popular 
+
+[Character Builder](https://openart.ai/suite/character)[3D World](https://openart.ai/suite/world)[OpenArt MCP & CLI](https://openart.ai/mcp/)
+
+ AI Models 
+
+ Video Models 
+
+[Seedance 2.5 NEW](https://openart.ai/ai-model/seedance-2-5/)[Kling 3.0](https://openart.ai/ai-model/kling-3-motion-control)[Sora 2](https://openart.ai/ai-model/sora-2-update)[Seedance 2.0](https://openart.ai/ai-model/seedance-2-0/)[SwitchX](https://openart.ai/ai-model/switchx/)[WAN 2.7](https://openart.ai/ai-model/wan-2-7-ai-video-generator/)[LTX-2.3](https://openart.ai/ai-model/ltx-2-3-ai-video-generator/)[HappyHorse](https://openart.ai/ai-model/happy-horse-ai-video-generator/)[Pixverse](https://openart.ai/ai-model/pixverse-video-generator/)[Gemini Omni Flash](https://openart.ai/ai-model/gemini-omni-flash/)
+
+ Image Models 
+
+[GPT Image 2.5 NEW](https://openart.ai/ai-model/gpt-image-2-5/)[Grok Imagine](https://openart.ai/ai-model/grok-imagine/)[Qwen Image 3](https://openart.ai/ai-model/qwen-image-3/)[Nano Banana 2](https://openart.ai/ai-model/nano-banana-2/)[Seedream 5.0 Pro](https://openart.ai/ai-model/seedream-5-pro/)
+
+ Other Models 
+
+[3D Models](https://openart.ai/feature/openart-worlds)
+
+ Features 
+
+[AI Video Generator](https://openart.ai/ai-video-generator/)[AI Image Generator](https://openart.ai/ai-image-generator/)[OpenArt VFX NEW](https://openart.ai/features/openart-vfx/)[Video Relight NEW](https://openart.ai/features/ai-video-relight/)[Video Background Changer NEW](https://openart.ai/features/ai-video-background-changer/)[OpenArt Worlds](https://openart.ai/feature/openart-worlds)[AI Character](https://openart.ai/features/ai-character/)[AI Influencer](https://openart.ai/features/ai-influencer/)[AI Headshot](https://openart.ai/features/ai-headshot-generator/)[AI Face Smooth](https://openart.ai/features/ai-face-smooth/)[View all (5 more)](https://openart.ai/features/)
+
+ Integrations 
+
+ AI Agents 
+
+[OpenArt MCP & CLI](https://openart.ai/mcp/)[Claude](https://openart.ai/mcp/claude-ai-video-generator/)[ChatGPT](https://openart.ai/mcp/chatgpt-ai-video-generator/)[Cursor](https://openart.ai/mcp/cursor/)
+
+ Plugins 
+
+[Adobe After Effects](https://openart.ai/plugins/after-effects/)
+
+ Learn 
+
+[MCP & CLI Guides](https://openart.ai/blog/category/mcp-cli/)
+
+ Resources 
+
+ Learn 
+
+[Video Tutorials](https://openart.ai/suite/tutorials)[Blog](https://openart.ai/blog)
+
+ Updates 
+
+[What's New](https://openart.ai/suite/whats-new)[Press Release](https://openart.ai/blog/category/updates/)
+
+ Need Help 
+
+[Help Center](https://openart.ai/help/)[FAQ](https://openart.ai/faq/)[Contact Us](mailto:support@openart.ai)[Discord](https://discord.gg/openart)
+
+[Pricing](https://openart.ai/suite/pricing)[Enterprise](https://openart.ai/enterprise/)
+
+[Start for Free](https://openart.ai/home)
+
+# OpenArt MCP & CLI
+
+Create with OpenArt across your favorite AI tools. Generate images and videos directly through ChatGPT, Claude, Cursor, Kimi and other compatible agents.
+
+![Image 4](https://pageforge-56o.pages.dev/assets/mcp/claude-white.svg)
+
+![Image 5](https://pageforge-56o.pages.dev/assets/mcp/cursor.svg)
+
+![Image 6](https://pageforge-56o.pages.dev/assets/mcp/kimi.webp)
+
+ ChatGPT ![Image 7](https://pageforge-56o.pages.dev/assets/mcp/claude-color.svg) Claude  Cursor ![Image 8](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=128,fit=contain,dpr=2,quality=85,metadata=none,sharpen=1/openart-strapi-assets/kimi_99527e1d99/kimi_99527e1d99.webp) Kimi  Other MCP Agents 
+
+ ChatGPT ![Image 9](https://pageforge-56o.pages.dev/assets/mcp/claude-color.svg) Claude  Cursor  Other Agents 
+
+ MCP  CLI 
+
+## Connect OpenArt to ChatGPT
+
+1
+### Open Plugins in ChatGPT
+
+[Add OpenArt plugin](https://chatgpt.com/plugins/plugin_asdk_app_6a42dbbe74c081918a592a0aad65ca26) directly, or go to [chatgpt.com/plugins](https://chatgpt.com/plugins) and search for OpenArt.
+
+2
+### Install and sign in
+
+Click **Install Plugin**, then **Sign in with OpenArt**.
+
+3
+### Start creating
+
+Type **@OpenArt** in any chat and describe what you want.
+
+[Create Images & Videos in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+Create+a+polished+beauty+commercial+featuring+this+model+and+product.)
+
+[Video 63](https://openart.ai/mcp/)
+
+## Connect OpenArt to Claude
+
+1
+### Go to Claude → Customize
+
+In Claude desktop or [claude.ai](https://claude.ai/new#customize/connectors), go to **Customize → Connectors**.
+
+2
+### Add custom connector
+
+Name it **OpenArt** and paste the link:`https://mcp.openart.ai/mcp`
+
+3
+### Connect and sign in
+
+Click **Add → Connect**, sign in with your OpenArt account. Then ask Claude to make an ad video.
+
+[Open Claude connectors](https://claude.ai/new#customize/connectors)
+
+[Video 64](https://openart.ai/mcp/)
+
+## Connect OpenArt to Cursor
+
+1
+### Open Cursor MCP settings
+
+For team setup, open [Plugins & MCPs](https://cursor.com/dashboard/plugins) in your Cursor dashboard and sign in. For local setup, open **Cursor settings → Tools & MCP** in the desktop app.
+
+2
+### Add the MCP server
+
+Add a new MCP server named **OpenArt** using this URL. If Cursor opens **mcp.json**, add it as the server’s **url**:`https://mcp.openart.ai/mcp`
+
+3
+### Connect once
+
+Click **Connect** next to the OpenArt MCP server and sign in with your OpenArt account. Then ask Cursor to make an ad video with OpenArt.
+
+[Open Plugins & MCPs](https://cursor.com/dashboard/plugins)
+
+[Video 65](https://openart.ai/mcp/)
+
+## Connect OpenArt to Kimi
+
+1
+### Install the OpenArt plugin
+
+On [kimi.ai](https://www.kimi.ai/), open [OpenArt in the plugin store](https://www.kimi.ai/plugins?pluginId=19f7e230-5542-89e7-8000-00005199bf88) and install the plugin.
+
+2
+### Connect your account
+
+Sign in with your **OpenArt account** to connect. No API key is needed.
+
+3
+### Start creating
+
+Type **/OpenArt** in a Kimi chat to enable it. Then ask Kimi to make an ad video with OpenArt.
+
+[Add OpenArt to Kimi ![Image 10](https://pageforge-56o.pages.dev/assets/mcp/kimi.webp)](https://www.kimi.ai/plugins?pluginId=19f7e230-5542-89e7-8000-00005199bf88)
+
+[Video 66](https://openart.ai/mcp/)
+
+## Connect OpenArt to Other MCP Agents
+
+1
+### Find the MCP Settings
+
+Look for Connectors, Integrations, or MCP servers.
+
+2
+### Point It at OpenArt
+
+Add a server with transport **Streamable HTTP** and the URL above. No API key, no extra config.
+
+https://mcp.openart.ai/mcp
+
+3
+### Authenticate via OAuth
+
+Sign in with your **OpenArt account** on first use. Credits and results stay tied to your account.
+
+Copy MCP URL
+
+[Video 67](https://openart.ai/mcp/)
+
+## Connect OpenArt to ChatGPT
+
+1
+### Install in terminal
+
+ macOS / Linux  Windows 
+
+`curl -fsSL https://raw.githubusercontent.com/OpenArt-AI/cli/main/install.sh | sh`
+
+`irm https://raw.githubusercontent.com/OpenArt-AI/cli/main/install.ps1 | iex`
+
+2
+### Sign in
+
+Login with your OpenArt account.
+
+`openart login`
+
+3
+### Generate
+
+Start generate an image or video.
+
+`openart generate image "a red fox in the snow" --model nano-banana-2 -o ./out/`
+
+[Video 68](https://openart.ai/mcp/)
+
+## Connect OpenArt to Claude
+
+1
+### Install in terminal
+
+ macOS / Linux  Windows 
+
+`curl -fsSL https://raw.githubusercontent.com/OpenArt-AI/cli/main/install.sh | sh`
+
+`irm https://raw.githubusercontent.com/OpenArt-AI/cli/main/install.ps1 | iex`
+
+2
+### Sign in
+
+Login with your OpenArt account.
+
+`openart login`
+
+3
+### Generate
+
+Start generate an image or video.
+
+`openart generate image "a red fox in the snow" --model nano-banana-2 -o ./out/`
+
+[Video 69](https://openart.ai/mcp/)
+
+## Connect OpenArt to Cursor
+
+1
+### Install in terminal
+
+ macOS / Linux  Windows 
+
+`curl -fsSL https://raw.githubusercontent.com/OpenArt-AI/cli/main/install.sh | sh`
+
+`irm https://raw.githubusercontent.com/OpenArt-AI/cli/main/install.ps1 | iex`
+
+2
+### Sign in
+
+Login with your OpenArt account.
+
+`openart login`
+
+3
+### Generate
+
+Start generate an image or video.
+
+`openart generate image "a red fox in the snow" --model nano-banana-2 -o ./out/`
+
+[Video 70](https://openart.ai/mcp/)
+
+## Connect OpenArt to Other Agents
+
+1
+### Install in terminal
+
+ macOS / Linux  Windows 
+
+`curl -fsSL https://raw.githubusercontent.com/OpenArt-AI/cli/main/install.sh | sh`
+
+`irm https://raw.githubusercontent.com/OpenArt-AI/cli/main/install.ps1 | iex`
+
+2
+### Sign in
+
+Login with your OpenArt account.
+
+`openart login`
+
+3
+### Generate
+
+Start generate an image or video.
+
+`openart generate image "a red fox in the snow" --model nano-banana-2 -o ./out/`
+
+[Video 71](https://openart.ai/mcp/)
+
+If you are using Claude Code or Codex, it's better to  use the CLI
+
+[GitHub](https://github.com/OpenArt-AI/cli)
+
+## AI Video Prompts for Any Use Case
+
+Ready-to-use prompts for AI ads, UGC, music videos, anime and more. Paste one into ChatGPT or Claude.
+
+Marketing and Advertising Film & Stories Music Video Animation & Illustration UGC Micro Drama Anime Explainer
+
+[Video 72](https://openart.ai/mcp/)
+
+### Bullet-Time Fashion Ad
+
+@OpenArt First ask me to upload a person’s photo if none is attached. Use it as the character reference for a 24-second, 16:9 fashion film with Seedance 2.5. Follow them through a European street as two suited pursuers approach. Freeze the surrounding pedestrians and floating papers in bullet time while the character keeps moving. They hide as a printed model inside a fashion poster, then step back into the street after the pursuers leave. Preserve their face and outfit. Use cool cinematic lighting, smooth camera moves and restrained suspenseful sound.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+First+ask+me+to+upload+a+person%E2%80%99s+photo+if+none+is+attached.+Use+it+as+the+character+reference+for+a+24-second%2C+16%3A9+fashion+film+with+Seedance+2.5.+Follow+them+through+a+European+street+as+two+suited+pursuers+approach.+Freeze+the+surrounding+pedestrians+and+floating+papers+in+bullet+time+while+the+character+keeps+moving.+They+hide+as+a+printed+model+inside+a+fashion+poster%2C+then+step+back+into+the+street+after+the+pursuers+leave.+Preserve+their+face+and+outfit.+Use+cool+cinematic+lighting%2C+smooth+camera+moves+and+restrained+suspenseful+sound.)Copy prompt
+
+[Video 73](https://openart.ai/mcp/)
+
+### Y2K Studio Product Ad
+
+@OpenArt First ask me to upload a product photo if none is attached. Create a 24-second Y2K studio commercial using its packaging, dominant color, product name and flavor. Show five fashion models in denim and white streetwear interacting with the product against a matching color backdrop. Use oversized 3D typography, fast whip pans, crash zooms and a playful slow-motion product catch. Finish with a group pose and a clean product hero shot. Keep the packaging consistent.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+First+ask+me+to+upload+a+product+photo+if+none+is+attached.+Create+a+24-second+Y2K+studio+commercial+using+its+packaging%2C+dominant+color%2C+product+name+and+flavor.+Show+five+fashion+models+in+denim+and+white+streetwear+interacting+with+the+product+against+a+matching+color+backdrop.+Use+oversized+3D+typography%2C+fast+whip+pans%2C+crash+zooms+and+a+playful+slow-motion+product+catch.+Finish+with+a+group+pose+and+a+clean+product+hero+shot.+Keep+the+packaging+consistent.)Copy prompt
+
+[Video 74](https://openart.ai/mcp/)
+
+### New York Product Commercial
+
+@OpenArt First ask me to upload a product photo if none is attached. Use it as the product reference to create a 20-second, 16:9 commercial with Seedance 2.5. Open on an oversized product in New York with a dramatic fisheye view. Cut to packaging details, then let the product’s colors spread through streets as playful illustrated graphics. End on a bold product hero shot against the skyline. Preserve the product’s shape, label and colors. Add energetic music and city ambience.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+First+ask+me+to+upload+a+product+photo+if+none+is+attached.+Use+it+as+the+product+reference+to+create+a+20-second%2C+16%3A9+commercial+with+Seedance+2.5.+Open+on+an+oversized+product+in+New+York+with+a+dramatic+fisheye+view.+Cut+to+packaging+details%2C+then+let+the+product%E2%80%99s+colors+spread+through+streets+as+playful+illustrated+graphics.+End+on+a+bold+product+hero+shot+against+the+skyline.+Preserve+the+product%E2%80%99s+shape%2C+label+and+colors.+Add+energetic+music+and+city+ambience.)Copy prompt
+
+[Video 75](https://openart.ai/mcp/)
+
+### Fantasy Adventure Short Film
+
+@OpenArt First ask me for reference images of the explorer and reptilian mount. Plan a 30-second fantasy adventure short film as two connected 15-second sequences, then generate the shots. Follow the last human explorer through vast grasslands, ancient forests and a river to a cliff above floating islands. Slow down for close-ups of the explorer and mount before revealing an overgrown ruined civilization. Use realistic live-action cinematography, golden sunlight and natural environmental sound. Keep both characters consistent; no music, dialogue or text.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+First+ask+me+for+reference+images+of+the+explorer+and+reptilian+mount.+Plan+a+30-second+fantasy+adventure+short+film+as+two+connected+15-second+sequences%2C+then+generate+the+shots.+Follow+the+last+human+explorer+through+vast+grasslands%2C+ancient+forests+and+a+river+to+a+cliff+above+floating+islands.+Slow+down+for+close-ups+of+the+explorer+and+mount+before+revealing+an+overgrown+ruined+civilization.+Use+realistic+live-action+cinematography%2C+golden+sunlight+and+natural+environmental+sound.+Keep+both+characters+consistent%3B+no+music%2C+dialogue+or+text.)Copy prompt
+
+[Video 76](https://openart.ai/mcp/)
+
+### Dark-Fantasy Movie Trailer
+
+@OpenArt First ask me to upload the female soldier’s reference image. Plan a cinematic dark-fantasy movie trailer, then generate matching shots: a colossal humanoid emerges above a misty forest; the soldier watches from a cliff; it notices her; she escapes the collapsing cliff using cable gear. When she reaches its chest, a matching symbol hints at a shared past. Preserve her identity and outfit. Use realistic creature weight, natural lighting and environmental sound, without background music.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+First+ask+me+to+upload+the+female+soldier%E2%80%99s+reference+image.+Plan+a+cinematic+dark-fantasy+movie+trailer%2C+then+generate+matching+shots%3A+a+colossal+humanoid+emerges+above+a+misty+forest%3B+the+soldier+watches+from+a+cliff%3B+it+notices+her%3B+she+escapes+the+collapsing+cliff+using+cable+gear.+When+she+reaches+its+chest%2C+a+matching+symbol+hints+at+a+shared+past.+Preserve+her+identity+and+outfit.+Use+realistic+creature+weight%2C+natural+lighting+and+environmental+sound%2C+without+background+music.)Copy prompt
+
+[Video 77](https://openart.ai/mcp/)
+
+### Cinematic Mystery Short Film
+
+@OpenArt Plan a cinematic mystery short film, then generate its key shots. Open with an overhead view of a lone person in a stark, brightly lit room, surrounded by a circle of black-cloaked figures. Build a clear visual hook, unsettling symbolism and dramatic irony around what the protagonist wants versus what they need. Use photorealistic live-action imagery, precise compositions and restrained movement. Reveal the story through images rather than exposition, ending with an emotionally charged question.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+Plan+a+cinematic+mystery+short+film%2C+then+generate+its+key+shots.+Open+with+an+overhead+view+of+a+lone+person+in+a+stark%2C+brightly+lit+room%2C+surrounded+by+a+circle+of+black-cloaked+figures.+Build+a+clear+visual+hook%2C+unsettling+symbolism+and+dramatic+irony+around+what+the+protagonist+wants+versus+what+they+need.+Use+photorealistic+live-action+imagery%2C+precise+compositions+and+restrained+movement.+Reveal+the+story+through+images+rather+than+exposition%2C+ending+with+an+emotionally+charged+question.)Copy prompt
+
+[Video 78](https://openart.ai/mcp/)
+
+### Punk-Rock Music Video
+
+@OpenArt First ask me to upload a portrait of the performer. Create a 30-second punk-rock music video with that person as the lead singer, preserving their face, skin tone and gender presentation. Move between backstage, an industrial live stage and an arena crowd. Use gritty film texture, metallic styling, dramatic lighting, whip pans and beat-synchronized cuts. Create an original rock song with continuous vocals, guitars and drums; match the singer’s lip movements to the lyrics. Keep it a music-led performance throughout.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+First+ask+me+to+upload+a+portrait+of+the+performer.+Create+a+30-second+punk-rock+music+video+with+that+person+as+the+lead+singer%2C+preserving+their+face%2C+skin+tone+and+gender+presentation.+Move+between+backstage%2C+an+industrial+live+stage+and+an+arena+crowd.+Use+gritty+film+texture%2C+metallic+styling%2C+dramatic+lighting%2C+whip+pans+and+beat-synchronized+cuts.+Create+an+original+rock+song+with+continuous+vocals%2C+guitars+and+drums%3B+match+the+singer%E2%80%99s+lip+movements+to+the+lyrics.+Keep+it+a+music-led+performance+throughout.)Copy prompt
+
+[Video 79](https://openart.ai/mcp/)
+
+### Retro Summer Girl-Group Music Video
+
+@OpenArt First ask me for four portrait references, one for each adult girl-group member. Create a 30-second retro summer music video at a colorful Mediterranean resort. Preserve each member’s identity across bold 1960s–70s outfits, sunglasses transitions and rhythmic choreography. Use cobalt seas, red-and-yellow color blocking, harsh midday sunshine and rich film texture. Pair the visuals with original upbeat retro-funk pop at 132–136 BPM. Keep all four members recognizable and show no more than four people at once.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+First+ask+me+for+four+portrait+references%2C+one+for+each+adult+girl-group+member.+Create+a+30-second+retro+summer+music+video+at+a+colorful+Mediterranean+resort.+Preserve+each+member%E2%80%99s+identity+across+bold+1960s%E2%80%9370s+outfits%2C+sunglasses+transitions+and+rhythmic+choreography.+Use+cobalt+seas%2C+red-and-yellow+color+blocking%2C+harsh+midday+sunshine+and+rich+film+texture.+Pair+the+visuals+with+original+upbeat+retro-funk+pop+at+132%E2%80%93136+BPM.+Keep+all+four+members+recognizable+and+show+no+more+than+four+people+at+once.)Copy prompt
+
+[Video 80](https://openart.ai/mcp/)
+
+### Y2K Hong Kong Street Music Video
+
+@OpenArt Create a 30-second Y2K music video following a stylish woman through Hong Kong streets in daytime. Use a gritty handheld DV-camcorder look, soft focus edges and 16mm-style grain. Cut rapidly between extreme low angles, shoes passing over the camera and tight character shots. Build a hyperactive montage driven by fast electronic music, digital beeps, buzzes and record scratches. Keep the same character throughout and preserve the raw, spontaneous street-footage energy.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+Create+a+30-second+Y2K+music+video+following+a+stylish+woman+through+Hong+Kong+streets+in+daytime.+Use+a+gritty+handheld+DV-camcorder+look%2C+soft+focus+edges+and+16mm-style+grain.+Cut+rapidly+between+extreme+low+angles%2C+shoes+passing+over+the+camera+and+tight+character+shots.+Build+a+hyperactive+montage+driven+by+fast+electronic+music%2C+digital+beeps%2C+buzzes+and+record+scratches.+Keep+the+same+character+throughout+and+preserve+the+raw%2C+spontaneous+street-footage+energy.)Copy prompt
+
+[Video 81](https://openart.ai/mcp/)
+
+### Talking Alpaca Cartoon
+
+@OpenArt First ask me to upload the alpaca’s start frame and the fence-side end frame. Animate a 16-second cartoon scene with Willow, a fluffy cream-colored alpaca, grazing in a sunny paddock. A man calls “Willow!” Willow looks around and says, “Did somebody call me?” On the second call, Willow runs to the fence, where the man offers fresh greens. End on Willow calmly eating from his hand. Preserve both reference compositions and Willow’s appearance. Use countryside sounds and dialogue, with no music.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+First+ask+me+to+upload+the+alpaca%E2%80%99s+start+frame+and+the+fence-side+end+frame.+Animate+a+16-second+cartoon+scene+with+Willow%2C+a+fluffy+cream-colored+alpaca%2C+grazing+in+a+sunny+paddock.+A+man+calls+%E2%80%9CWillow%21%E2%80%9D+Willow+looks+around+and+says%2C+%E2%80%9CDid+somebody+call+me%3F%E2%80%9D+On+the+second+call%2C+Willow+runs+to+the+fence%2C+where+the+man+offers+fresh+greens.+End+on+Willow+calmly+eating+from+his+hand.+Preserve+both+reference+compositions+and+Willow%E2%80%99s+appearance.+Use+countryside+sounds+and+dialogue%2C+with+no+music.)Copy prompt
+
+[Video 82](https://openart.ai/mcp/)
+
+### Windy Beach Animated Comedy
+
+@OpenArt First ask me for the reference image of the two beach characters. Create a 30-second anime comedy that begins with them holding up a blue-and-white fabric tent in strong wind. Escalate from billowing fabric to the tent dragging them across golden sand, then lifting them into the air like a giant kite. Keep their faces, outfits and designs consistent. Use expressive physical comedy, flowing camera movement, turquoise water, bright sunlight and convincing wind in the fabric, hair and flying sand.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+First+ask+me+for+the+reference+image+of+the+two+beach+characters.+Create+a+30-second+anime+comedy+that+begins+with+them+holding+up+a+blue-and-white+fabric+tent+in+strong+wind.+Escalate+from+billowing+fabric+to+the+tent+dragging+them+across+golden+sand%2C+then+lifting+them+into+the+air+like+a+giant+kite.+Keep+their+faces%2C+outfits+and+designs+consistent.+Use+expressive+physical+comedy%2C+flowing+camera+movement%2C+turquoise+water%2C+bright+sunlight+and+convincing+wind+in+the+fabric%2C+hair+and+flying+sand.)Copy prompt
+
+[Video 83](https://openart.ai/mcp/)
+
+### Let Go: 2D Cartoon Story
+
+@OpenArt Create a heartwarming 2D flat-cartoon scene about a mother teaching her daughter to ride a bike. The mother runs alongside while holding the seat, then quietly lets go. The daughter pedals forward on her own. The mother stops mid-run, watching with pride and emotion, her hand still outstretched. Tell the story through facial expressions and body language, without dialogue or speaking. Use a warm greeting-card illustration style and gentle, uplifting music.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+Create+a+heartwarming+2D+flat-cartoon+scene+about+a+mother+teaching+her+daughter+to+ride+a+bike.+The+mother+runs+alongside+while+holding+the+seat%2C+then+quietly+lets+go.+The+daughter+pedals+forward+on+her+own.+The+mother+stops+mid-run%2C+watching+with+pride+and+emotion%2C+her+hand+still+outstretched.+Tell+the+story+through+facial+expressions+and+body+language%2C+without+dialogue+or+speaking.+Use+a+warm+greeting-card+illustration+style+and+gentle%2C+uplifting+music.)Copy prompt
+
+[Video 84](https://openart.ai/mcp/)
+
+### NYC Sushi Tour UGC Video
+
+@OpenArt First ask me to upload the creator’s reference portrait and name the three New York sushi bars to feature. Plan a casual UGC food-tour video, then generate the shots with the same creator throughout. Give her upbeat, playful New York energy as she introduces each stop. Use phone-style handheld framing, natural imperfections, street ambience and platform-native pacing. Keep it conversational and spontaneous. Use only the restaurant details I provide.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+First+ask+me+to+upload+the+creator%E2%80%99s+reference+portrait+and+name+the+three+New+York+sushi+bars+to+feature.+Plan+a+casual+UGC+food-tour+video%2C+then+generate+the+shots+with+the+same+creator+throughout.+Give+her+upbeat%2C+playful+New+York+energy+as+she+introduces+each+stop.+Use+phone-style+handheld+framing%2C+natural+imperfections%2C+street+ambience+and+platform-native+pacing.+Keep+it+conversational+and+spontaneous.+Use+only+the+restaurant+details+I+provide.)Copy prompt
+
+[Video 85](https://openart.ai/mcp/)
+
+### Golden Gate Bridge UGC Travel Vlog
+
+@OpenArt Create a casual UGC travel vlog of a woman visiting the Golden Gate Bridge for the first time on a spontaneous solo trip. Follow her first steps onto the bridge and her delighted reactions to the view. Use natural handheld phone footage, candid expressions, wind in her hair and real outdoor ambience. Keep the same traveler and outfit throughout. Make it feel like a personal travel memory she would share with friends.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+Create+a+casual+UGC+travel+vlog+of+a+woman+visiting+the+Golden+Gate+Bridge+for+the+first+time+on+a+spontaneous+solo+trip.+Follow+her+first+steps+onto+the+bridge+and+her+delighted+reactions+to+the+view.+Use+natural+handheld+phone+footage%2C+candid+expressions%2C+wind+in+her+hair+and+real+outdoor+ambience.+Keep+the+same+traveler+and+outfit+throughout.+Make+it+feel+like+a+personal+travel+memory+she+would+share+with+friends.)Copy prompt
+
+[Video 86](https://openart.ai/mcp/)
+
+### Canvas Tote Bag UGC Ad
+
+@OpenArt First ask me to upload a photo of the canvas tote bag and provide the product features to mention. Create a TikTok-style UGC ad with one creator casually demonstrating that exact bag. Show the fabric, handles and opening in close-up, followed by the creator carrying it in everyday use. Preserve its shape, color and any printed design. Use natural home lighting, handheld phone framing and conversational delivery. Include only product claims I have supplied.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+First+ask+me+to+upload+a+photo+of+the+canvas+tote+bag+and+provide+the+product+features+to+mention.+Create+a+TikTok-style+UGC+ad+with+one+creator+casually+demonstrating+that+exact+bag.+Show+the+fabric%2C+handles+and+opening+in+close-up%2C+followed+by+the+creator+carrying+it+in+everyday+use.+Preserve+its+shape%2C+color+and+any+printed+design.+Use+natural+home+lighting%2C+handheld+phone+framing+and+conversational+delivery.+Include+only+product+claims+I+have+supplied.)Copy prompt
+
+[Video 87](https://openart.ai/mcp/)
+
+### Time-Travel Romance Micro Drama
+
+@OpenArt First ask me for three references: the heroine in modern clothing, the same heroine in historical clothing, and her romantic partner. Plan a short romantic micro drama, then generate the shots. She falls asleep in the modern world and wakes in an ancient setting, where she meets and falls in love with the partner. Show them exploring together and riding a dragon, before she suddenly returns to modern life. Preserve the heroine’s identity across both eras and maintain consistent character designs.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+First+ask+me+for+three+references%3A+the+heroine+in+modern+clothing%2C+the+same+heroine+in+historical+clothing%2C+and+her+romantic+partner.+Plan+a+short+romantic+micro+drama%2C+then+generate+the+shots.+She+falls+asleep+in+the+modern+world+and+wakes+in+an+ancient+setting%2C+where+she+meets+and+falls+in+love+with+the+partner.+Show+them+exploring+together+and+riding+a+dragon%2C+before+she+suddenly+returns+to+modern+life.+Preserve+the+heroine%E2%80%99s+identity+across+both+eras+and+maintain+consistent+character+designs.)Copy prompt
+
+[Video 88](https://openart.ai/mcp/)
+
+### The Bet: School Romance Micro Drama
+
+@OpenArt Plan a playful school-romance micro drama, then generate the scenes with consistent characters. Jake, the school’s number-seven basketball player, accepts a $20 bet to ask Angel out. At her locker, she reveals she already knows about the bet. He drops the act and admits he really likes her. She gives him a note: “Asked first. You owe ME the milkshake. — Angel.” End on Jake smiling as he realizes she was ahead of him all along.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+Plan+a+playful+school-romance+micro+drama%2C+then+generate+the+scenes+with+consistent+characters.+Jake%2C+the+school%E2%80%99s+number-seven+basketball+player%2C+accepts+a+%2420+bet+to+ask+Angel+out.+At+her+locker%2C+she+reveals+she+already+knows+about+the+bet.+He+drops+the+act+and+admits+he+really+likes+her.+She+gives+him+a+note%3A+%E2%80%9CAsked+first.+You+owe+ME+the+milkshake.+%E2%80%94+Angel.%E2%80%9D+End+on+Jake+smiling+as+he+realizes+she+was+ahead+of+him+all+along.)Copy prompt
+
+[Video 89](https://openart.ai/mcp/)
+
+### Campus Comedy Micro Drama: He’s Mine
+
+@OpenArt Plan a roughly 60-second school comedy micro drama in six shots, then generate the matching clips. A confident clique spots a new transfer student and its leader declares, “He’s mine.” Follow their entrance, hallway status display and cafeteria stakeout, then reverse expectations: the boy walks past their table and sits beside the overlooked girl. Use bright natural daylight, warm pastel colors, gentle camera moves and light comedy music beneath dialogue. Keep all five characters consistent and let reactions carry the final joke.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+Plan+a+roughly+60-second+school+comedy+micro+drama+in+six+shots%2C+then+generate+the+matching+clips.+A+confident+clique+spots+a+new+transfer+student+and+its+leader+declares%2C+%E2%80%9CHe%E2%80%99s+mine.%E2%80%9D+Follow+their+entrance%2C+hallway+status+display+and+cafeteria+stakeout%2C+then+reverse+expectations%3A+the+boy+walks+past+their+table+and+sits+beside+the+overlooked+girl.+Use+bright+natural+daylight%2C+warm+pastel+colors%2C+gentle+camera+moves+and+light+comedy+music+beneath+dialogue.+Keep+all+five+characters+consistent+and+let+reactions+carry+the+final+joke.)Copy prompt
+
+[Video 90](https://openart.ai/mcp/)
+
+### Rooftop at Dusk Anime Loop
+
+@OpenArt First ask me to upload the anime rooftop reference image. Animate a calm 7-second vertical 9:16 loop with an extremely slow push-in and subtle parallax between the rooftop, character and skyline. Let haze, rooftop steam and distant transit lights move gently. Keep the character almost still, with only breathing, slight hair movement and restrained coat drift. Preserve the reference composition and quiet evening mood. Avoid rapid motion, camera shake, lighting flicker or exaggerated effects.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+First+ask+me+to+upload+the+anime+rooftop+reference+image.+Animate+a+calm+7-second+vertical+9%3A16+loop+with+an+extremely+slow+push-in+and+subtle+parallax+between+the+rooftop%2C+character+and+skyline.+Let+haze%2C+rooftop+steam+and+distant+transit+lights+move+gently.+Keep+the+character+almost+still%2C+with+only+breathing%2C+slight+hair+movement+and+restrained+coat+drift.+Preserve+the+reference+composition+and+quiet+evening+mood.+Avoid+rapid+motion%2C+camera+shake%2C+lighting+flicker+or+exaggerated+effects.)Copy prompt
+
+[Video 91](https://openart.ai/mcp/)
+
+### Forest Torii Gate Anime Scene
+
+@OpenArt Create a serene anime scene of a red torii gate built into a forested cliff, with stone lanterns, hanging white paper streamers and a small long-haired figure in patterned red clothing below. Use painterly shapes, deep tree shadows and warm sunlight against pale clouds. Add a slow, gentle camera push, drifting leaves and subtle movement in the clothing and streamers. Keep the architecture and character stable, with a quiet, contemplative atmosphere and no text.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+Create+a+serene+anime+scene+of+a+red+torii+gate+built+into+a+forested+cliff%2C+with+stone+lanterns%2C+hanging+white+paper+streamers+and+a+small+long-haired+figure+in+patterned+red+clothing+below.+Use+painterly+shapes%2C+deep+tree+shadows+and+warm+sunlight+against+pale+clouds.+Add+a+slow%2C+gentle+camera+push%2C+drifting+leaves+and+subtle+movement+in+the+clothing+and+streamers.+Keep+the+architecture+and+character+stable%2C+with+a+quiet%2C+contemplative+atmosphere+and+no+text.)Copy prompt
+
+[Video 92](https://openart.ai/mcp/)
+
+### Red Scarf Sunset Anime Scene
+
+@OpenArt First ask me to upload the red-scarf reference image. Animate a slow 5-second cinematic shot while preserving the character’s pose against the wooden pillar. She barely moves apart from breathing and a soft blink. Gently orbit the camera to reveal her profile and the sunset horizon. Let the red scarf and hair move in the wind while cherry-blossom petals drift past and water reflects the light. Use warm rim lighting, teal shadows and shallow depth of field.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+First+ask+me+to+upload+the+red-scarf+reference+image.+Animate+a+slow+5-second+cinematic+shot+while+preserving+the+character%E2%80%99s+pose+against+the+wooden+pillar.+She+barely+moves+apart+from+breathing+and+a+soft+blink.+Gently+orbit+the+camera+to+reveal+her+profile+and+the+sunset+horizon.+Let+the+red+scarf+and+hair+move+in+the+wind+while+cherry-blossom+petals+drift+past+and+water+reflects+the+light.+Use+warm+rim+lighting%2C+teal+shadows+and+shallow+depth+of+field.)Copy prompt
+
+[Video 93](https://openart.ai/mcp/)
+
+### How Memory Works: Mixed-Media Explainer
+
+@OpenArt First ask me to upload the storyboard or moodboard. Plan a one-minute poetic explainer video about memory being rebuilt each time we recall it, then generate its visual sequence. Combine black-and-white live-action imagery with colorful hand-drawn marks, paint, collage and torn-paper animation that alter the images as we watch. Follow the reference aesthetic. Use a calm, intimate female voiceover, subtle music and tactile drawing or paper sounds. Keep the mood reflective, handcrafted and slightly melancholic.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+First+ask+me+to+upload+the+storyboard+or+moodboard.+Plan+a+one-minute+poetic+explainer+video+about+memory+being+rebuilt+each+time+we+recall+it%2C+then+generate+its+visual+sequence.+Combine+black-and-white+live-action+imagery+with+colorful+hand-drawn+marks%2C+paint%2C+collage+and+torn-paper+animation+that+alter+the+images+as+we+watch.+Follow+the+reference+aesthetic.+Use+a+calm%2C+intimate+female+voiceover%2C+subtle+music+and+tactile+drawing+or+paper+sounds.+Keep+the+mood+reflective%2C+handcrafted+and+slightly+melancholic.)Copy prompt
+
+[Video 94](https://openart.ai/mcp/)
+
+### T. rex Documentary Vlog
+
+@OpenArt Plan an educational found-footage documentary vlog, then generate the shots. Follow Cantika, a fictional prehistoric huntress, quietly observing a T. rex in a Late Cretaceous forest. Use handheld framing, whispered narration and natural forest sounds. Cover its anatomy, nesting, hunting and bite force, ending with extinction. Keep the host and dinosaur designs consistent. Check the paleontology facts before writing the narration, distinguish evidence from speculation, and treat the human-and-dinosaur encounter as a fictional framing device.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+Plan+an+educational+found-footage+documentary+vlog%2C+then+generate+the+shots.+Follow+Cantika%2C+a+fictional+prehistoric+huntress%2C+quietly+observing+a+T.+rex+in+a+Late+Cretaceous+forest.+Use+handheld+framing%2C+whispered+narration+and+natural+forest+sounds.+Cover+its+anatomy%2C+nesting%2C+hunting+and+bite+force%2C+ending+with+extinction.+Keep+the+host+and+dinosaur+designs+consistent.+Check+the+paleontology+facts+before+writing+the+narration%2C+distinguish+evidence+from+speculation%2C+and+treat+the+human-and-dinosaur+encounter+as+a+fictional+framing+device.)Copy prompt
+
+[Video 95](https://openart.ai/mcp/)
+
+### Heart-Shaped Pupil Macro Shot
+
+@OpenArt First ask me to upload the eye reference image. Create a 16:9 photorealistic macro shot of that eye looking directly at the camera. The pupil is heart-shaped from the first frame and slowly dilates over one to two seconds without losing its shape. Keep the iris, eyelids and surrounding skin nearly still, with a slight blink near the end. Use detailed skin texture, natural moisture and reflections, shallow depth of field, subtle analog grain and muted cinematic color. Keep the camera fixed.
+
+[Try in ChatGPT](https://chatgpt.com/?prompt=%40OpenArt+First+ask+me+to+upload+the+eye+reference+image.+Create+a+16%3A9+photorealistic+macro+shot+of+that+eye+looking+directly+at+the+camera.+The+pupil+is+heart-shaped+from+the+first+frame+and+slowly+dilates+over+one+to+two+seconds+without+losing+its+shape.+Keep+the+iris%2C+eyelids+and+surrounding+skin+nearly+still%2C+with+a+slight+blink+near+the+end.+Use+detailed+skin+texture%2C+natural+moisture+and+reflections%2C+shallow+depth+of+field%2C+subtle+analog+grain+and+muted+cinematic+color.+Keep+the+camera+fixed.)Copy prompt
+
+## Feature Highlights
+
+Connect OpenArt with Claude, ChatGPT, Cursor, and more to unify image generation, video creation, and all your creative library in one seamless workflow.
+
+ Generate from Text  Image to Video  Smart Shot  Use Any Models  Reuse Your Assets  Work in One Place 
+
+### Create Both Images and Videos
+
+[Turn text into images](https://openart.ai/features/ai-text-to-image-generator/) and [videos](https://openart.ai/features/ai-text-to-video/), all through a single OpenArt connection. Results appear right in your conversation and are saved to your OpenArt library.
+
+[Try it Now](https://openart.ai/mcp/#connect)
+
+Create a polished beauty commercial featuring this model and product.
+
+![Image 11: Reference photo of the model](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=128,fit=contain,dpr=2,quality=85,metadata=none,sharpen=1/openart-strapi-assets/reference_1_12dae3d122/reference_1_12dae3d122.webp)![Image 12: Reference photo of the compact product](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=128,fit=contain,dpr=2,quality=85,metadata=none,sharpen=1/openart-strapi-assets/reference_2_0999766bbf/reference_2_0999766bbf.webp)
+
+Seedance 2.5 reference-to-video 16:9 1080p
+
+[Video 96](https://cdn.openart.ai/cdn-cgi/media/mode=video,width=960,fit=scale-down/https://cdn.openart.ai/openart-strapi-assets/1_73de98a8ae/1_73de98a8ae.mp4)
+
+### Guide Videos with Start & End Frames
+
+Turn selected start and end frames into a polished [image to video](https://openart.ai/features/ai-image-to-video/) while keeping the transition under your direction.
+
+[Try it Now](https://openart.ai/mcp/#connect)
+
+Animate these keyboard frames into a smooth cinematic product video.
+
+![Image 13: Transition-frame reference of a purple keyboard key](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=128,fit=contain,dpr=2,quality=85,metadata=none,sharpen=1/openart-strapi-assets/frame_to_video_ref_2_c695801644/frame_to_video_ref_2_c695801644.webp)![Image 14: End-frame reference of hands typing on a purple keyboard](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=128,fit=contain,dpr=2,quality=85,metadata=none,sharpen=1/openart-strapi-assets/frame_to_video_ref_3_0c95e34113/frame_to_video_ref_3_0c95e34113.webp)
+
+Start/End Frame 16:9 1080p
+
+[Video 97](https://cdn.openart.ai/cdn-cgi/media/mode=video,width=960,fit=scale-down/https://cdn.openart.ai/openart-strapi-assets/6_23f867caaa/6_23f867caaa.mp4)
+
+### Storyboard and Plan with Smart Shot
+
+Hand [Smart Shot](https://openart.ai/features/smart-shot/) your references and a text prompt, and it plans the shots, framing and motion for a multi-cut, finished spot.
+
+[Try it Now](https://openart.ai/mcp/#connect)
+
+Create a cinematic sneaker commercial with a dramatic water splash.
+
+![Image 15: Reference photo of the blue sneaker](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=128,fit=contain,dpr=2,quality=85,metadata=none,sharpen=1/openart-strapi-assets/smartshot_ref_1_06db9ace58/smartshot_ref_1_06db9ace58.webp)![Image 16: Reference photo of the model in a blue varsity jacket](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=128,fit=contain,dpr=2,quality=85,metadata=none,sharpen=1/openart-strapi-assets/smartshot_ref_2_56c72e4a59/smartshot_ref_2_56c72e4a59.webp)![Image 17: Reference photo of the city storefront location](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=128,fit=contain,dpr=2,quality=85,metadata=none,sharpen=1/openart-strapi-assets/smartshot_ref_3_fc1554bf56/smartshot_ref_3_fc1554bf56.webp)
+
+![Image 18: Shot Plan covering character, environment, storyboard cuts, and lighting notes](https://pageforge-56o.pages.dev/assets/mcp/smartshot-plan.webp)
+
+Continue to generate video
+
+Smart Shot 16:9 1080p
+
+[Video 98](https://cdn.openart.ai/cdn-cgi/media/mode=video,width=960,fit=scale-down/https://cdn.openart.ai/openart-strapi-assets/cgt_20260822183451_9h54s_1c15465441/cgt_20260822183451_9h54s_1c15465441.mp4)
+
+### One Connection, Every AI Model
+
+Add one URL and your agent instantly accesses OpenArt's full catalog of image and video models. Every new model is synced automatically, so your setup never needs manual updating.
+
+[Try it Now](https://openart.ai/mcp/#connect)
+
+Which model should I use for this headphone ad?
+
+Image
+
+*   ![Image 19](https://pageforge-56o.pages.dev/pageforge-assets/enterprise/model-icons/model%20-%20GPT-colorful-x1.svg) GPT Image 2 Recommended
+*   ![Image 20](https://pageforge-56o.pages.dev/pageforge-assets/enterprise/model-icons/model%20-%20Google-colorful-x1.svg) Nano Banana Pro 
+*   ![Image 21](https://pageforge-56o.pages.dev/pageforge-assets/enterprise/model-icons/model%20-%20Google-colorful-x1.svg) Nano Banana 2 
+*   ![Image 22](https://pageforge-56o.pages.dev/pageforge-assets/enterprise/model-icons/model%20-%20Google-colorful-x1.svg) Nano Banana 2 Lite 
+*   ![Image 23](https://pageforge-56o.pages.dev/pageforge-assets/enterprise/model-icons/model%20-%20Seedance%20&%20Seedream-colorful-x1.svg) Seedream 5 Pro 
+*   ![Image 24](https://pageforge-56o.pages.dev/pageforge-assets/enterprise/model-icons/model%20-%20Seedance%20&%20Seedream-colorful-x1.svg) Seedream 5 Lite 
+*   ![Image 25](https://pageforge-56o.pages.dev/pageforge-assets/enterprise/model-icons/model%20-%20Seedance%20&%20Seedream-colorful-x1.svg) Seedream 4.5 
+*   ![Image 26](https://pageforge-56o.pages.dev/pageforge-assets/enterprise/model-icons/model%20-%20Kling-colorful-x1.svg) Kling 3 Omni 
+
+Video
+
+*   ![Image 27](https://pageforge-56o.pages.dev/pageforge-assets/enterprise/model-icons/model%20-%20Seedance%20&%20Seedream-colorful-x1.svg) Seedance 2.5 
+*   ![Image 28](https://pageforge-56o.pages.dev/pageforge-assets/enterprise/model-icons/model%20-%20Seedance%20&%20Seedream-colorful-x1.svg) Seedance 2.0 
+*   ![Image 29](https://pageforge-56o.pages.dev/pageforge-assets/enterprise/model-icons/model%20-%20Seedance%20&%20Seedream-colorful-x1.svg) Seedance 2.0 Mini 
+*   ![Image 30](https://pageforge-56o.pages.dev/pageforge-assets/enterprise/model-icons/model%20-%20Google-colorful-x1.svg) Gemini Omni 1.1 Flash 
+*   ![Image 31](https://pageforge-56o.pages.dev/pageforge-assets/enterprise/model-icons/model%20-%20Google-colorful-x1.svg) Gemini Omni Flash 
+*   ![Image 32](https://pageforge-56o.pages.dev/pageforge-assets/enterprise/model-icons/model%20-%20Kling-colorful-x1.svg) Kling 3 Omni 
+*   ![Image 33](https://pageforge-56o.pages.dev/pageforge-assets/enterprise/model-icons/model%20-%20Grok-colorful-x1.svg) Grok Imagine 1.5 
+*   ![Image 34](https://pageforge-56o.pages.dev/pageforge-assets/enterprise/model-icons/model%20-%20PixVerse-colorful-x1.svg) PixVerse V6 
+*   ![Image 35](https://pageforge-56o.pages.dev/pageforge-assets/enterprise/model-icons/model%20-%20Wan%20&%20Qwen%20&%20Z-image-colorful-x1.svg) Wan 2.7 
+*    Smart Shot 
+
+### Reuse and Reference Your OpenArt Library
+
+Pull any past OpenArt generation into a new creation as a style reference or a video start frame. Your entire creative history is always within reach for reference.
+
+[Try it Now](https://openart.ai/mcp/#connect)
+
+Show my Generation History.
+
+Generation History
+
+![Image 36: Orange soda can beside fresh oranges](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=480,fit=scale-down,dpr=2,quality=80,metadata=none,sharpen=1/openart-strapi-assets/01_citra_orange_can_82aa9756b2/01_citra_orange_can_82aa9756b2.webp)![Image 37: Blue suede running shoe on a blue backdrop](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=480,fit=scale-down,dpr=2,quality=80,metadata=none,sharpen=1/openart-strapi-assets/02_blue_suede_sneaker_75fb3d90e0/02_blue_suede_sneaker_75fb3d90e0.webp)![Image 38: Screen-printed graphic tee in raw sunlight](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=480,fit=scale-down,dpr=2,quality=80,metadata=none,sharpen=1/openart-strapi-assets/03_amplify_tee_54f669394a/03_amplify_tee_54f669394a.webp)![Image 39: Portrait in oval sunglasses against warm grey](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=480,fit=scale-down,dpr=2,quality=80,metadata=none,sharpen=1/openart-strapi-assets/04_sunglasses_portrait_182a2726a0/04_sunglasses_portrait_182a2726a0.webp)![Image 40: Sticker pack of bold retro cartoon graphics](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=480,fit=scale-down,dpr=2,quality=80,metadata=none,sharpen=1/openart-strapi-assets/05_sticker_pack_63a60d8d2a/05_sticker_pack_63a60d8d2a.webp)![Image 41: Green soda can with lime and splashing water](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=480,fit=scale-down,dpr=2,quality=80,metadata=none,sharpen=1/openart-strapi-assets/06_soda_can_lime_95fd3d0550/06_soda_can_lime_95fd3d0550.webp)![Image 42: Silver car against a concrete wall](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=480,fit=scale-down,dpr=2,quality=80,metadata=none,sharpen=1/openart-strapi-assets/07_silver_car_8d026eba85/07_silver_car_8d026eba85.webp)![Image 43: Model holding a green skincare bottle](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=480,fit=scale-down,dpr=2,quality=80,metadata=none,sharpen=1/openart-strapi-assets/08_skincare_model_7bfc26495c/08_skincare_model_7bfc26495c.webp)![Image 44: Skier in goggles and helmet](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=480,fit=scale-down,dpr=2,quality=80,metadata=none,sharpen=1/openart-strapi-assets/09_skier_goggles_3515918f96/09_skier_goggles_3515918f96.webp)![Image 45: White sneaker on deep red](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=480,fit=scale-down,dpr=2,quality=80,metadata=none,sharpen=1/openart-strapi-assets/10_white_sneaker_d74a3ff941/10_white_sneaker_d74a3ff941.webp)![Image 46: Coffee cup and kraft packaging](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=480,fit=scale-down,dpr=2,quality=80,metadata=none,sharpen=1/openart-strapi-assets/11_coffee_packaging_4b2236d33f/11_coffee_packaging_4b2236d33f.webp)![Image 47: Camera lit by a pink ring light](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=480,fit=scale-down,dpr=2,quality=80,metadata=none,sharpen=1/openart-strapi-assets/12_camera_pink_light_75a58e1e2a/12_camera_pink_light_75a58e1e2a.webp)
+
+Use the first image to generate an ad.
+
+**OpenArt**✓generated with MCP
+
+Create a premium beverage ad for the Citra orange soda can, surrounded by fresh oranges and splashing citrus. Use vibrant studio lighting, crisp product detail, and polished commercial styling.
+
+GPT Image 2 Seedance 2.5 16:9 24s video
+
+Confirm Prompt
+
+[Video 99](https://cdn.openart.ai/cdn-cgi/media/mode=video,width=640,fit=scale-down/https://cdn.openart.ai/openart-strapi-assets/cgt_20260825003910_95v7p_460cfd62dc/cgt_20260825003910_95v7p_460cfd62dc.mp4)
+
+### Stay Connected to Your Workspace
+
+Work with the same OpenArt account, credits, projects, and workspaces you already use, for maximum convenience. List your projects, choose where to create, and check your plan and remaining credits directly in chat.
+
+[Try it Now](https://openart.ai/mcp/#connect)
+
+Can I use the MCP to access my existing OpenArt account, credits, projects, and workspaces?
+
+Credit balance
+
+8,467 of 12,000 credits
+
+Plus Yearly 3 Credits Pack
+
+## The Latest AI Models, All in One Place
+
+[[Video 100](https://cdn.openart.ai/cdn-cgi/media/mode=video,width=720,fit=scale-down/https://cdn.openart.ai/openart-strapi-assets/Seedance_2_5_30845d1eec/Seedance_2_5_30845d1eec.mp4) ![Image 48: Seedream 5.0](https://pageforge-56o.pages.dev/pageforge-assets/openart-home/model-icons/seedance-seedream.svg)Seedance 2.5](https://openart.ai/ai-model/seedance-2-5/)
+
+[[Video 101](https://cdn.openart.ai/cdn-cgi/media/mode=video,width=720,fit=scale-down/https://cdn.openart.ai/openart-strapi-assets/9_14_53_bb4037073a/9_14_53_bb4037073a.mp4) ![Image 49: Seedream 5.0](https://pageforge-56o.pages.dev/pageforge-assets/openart-home/model-icons/seedance-seedream.svg)Seedance 2.5 Draft](https://openart.ai/ai-model/seedance-2-5-draft/)
+
+[[Video 102](https://cdn.openart.ai/cdn-cgi/media/mode=video,width=720,fit=scale-down/https://cdn.openart.ai/openart-strapi-assets/15_926b2f3af5/15_926b2f3af5.mp4) ![Image 50: Seedream 5.0](https://pageforge-56o.pages.dev/pageforge-assets/openart-home/model-icons/seedance-seedream.svg)Seedance 2.0](https://openart.ai/ai-model/seedance-2-0/)
+
+[[Video 103](https://cdn.openart.ai/cdn-cgi/media/mode=video,width=720,fit=scale-down/https://cdn.openart.ai/openart-strapi-assets/openart_video_1785398146538_9ebd7fe7_1785398146557_3c361ef9_138dab845f/openart_video_1785398146538_9ebd7fe7_1785398146557_3c361ef9_138dab845f.mp4) ![Image 51: MiniMax H3 Max](https://pageforge-56o.pages.dev/pageforge-assets/openart-home/model-icons/minimax-hailuo.svg)MiniMax H3 Max](https://openart.ai/ai-model/minimax-h3/)
+
+[[Video 104](https://cdn.openart.ai/cdn-cgi/media/mode=video,width=720,fit=scale-down/https://cdn.openart.ai/openart-strapi-assets/Gemini_Omni_Video_b1404afb5c/Gemini_Omni_Video_b1404afb5c.mp4) ![Image 52: Nano Banana 2 Lite](https://pageforge-56o.pages.dev/pageforge-assets/openart-home/model-icons/google.svg)Gemini Omni 1.1 Flash](https://openart.ai/ai-model/gemini-omni-flash/)
+
+[[Video 105](https://cdn.openart.ai/cdn-cgi/media/mode=video,width=720,fit=scale-down/https://cdn.openart.ai/openart-strapi-assets/video_223fbc8d48/video_223fbc8d48.mp4) ![Image 53: Wan 2.7 Image](https://pageforge-56o.pages.dev/pageforge-assets/openart-home/model-icons/wan-qwen-z-image.svg)Wan 3.0](https://openart.ai/ai-model/wan-3/)
+
+[[Video 106](https://cdn.openart.ai/cdn-cgi/media/mode=video,width=720,fit=scale-down/https://cdn.openart.ai/openart-strapi-assets/Product_ads_3_4bd8a703c1/Product_ads_3_4bd8a703c1.mp4) ![Image 54: Nano Banana 2 Lite](https://pageforge-56o.pages.dev/pageforge-assets/openart-home/model-icons/google.svg)Veo 3.1](https://openart.ai/ai-model/veo3-video-generator/)
+
+[[Video 107](https://cdn.openart.ai/cdn-cgi/media/mode=video,width=720,fit=scale-down/https://cdn.openart.ai/openart-strapi-assets/pixverse_video_generator_hero_f6e6b505b5/pixverse_video_generator_hero_f6e6b505b5.mp4) ![Image 55: PixVerse V6](https://pageforge-56o.pages.dev/pageforge-assets/openart-home/model-icons/pixverse.svg)PixVerse V6](https://openart.ai/ai-model/pixverse-video-generator/)
+
+[[Video 108](https://cdn.openart.ai/cdn-cgi/media/mode=video,width=720,fit=scale-down/https://cdn.openart.ai/openart-strapi-assets/9_9_15_2cb4bda738/9_9_15_2cb4bda738.mp4) ![Image 56: Kling 3.0](https://pageforge-56o.pages.dev/pageforge-assets/openart-home/model-icons/kling.svg)Kling 3.0](https://openart.ai/ai-model/kling-ai-video-generator/)
+
+[[Video 109](https://cdn.openart.ai/cdn-cgi/media/mode=video,width=720,fit=scale-down/https://cdn.openart.ai/openart-strapi-assets/Chat_GPT_Open_Art_8s_Focus_Zoom_858fbb1625/Chat_GPT_Open_Art_8s_Focus_Zoom_858fbb1625.mp4) ![Image 57: GPT Image 2.5](https://pageforge-56o.pages.dev/pageforge-assets/openart-home/model-icons/gpt.svg)GPT Image 2.5](https://openart.ai/ai-model/gpt-image-2-5/)
+
+[[Video 110](https://cdn.openart.ai/cdn-cgi/media/mode=video,width=720,fit=scale-down/https://cdn.openart.ai/openart-strapi-assets/banana_df119a2d9a/banana_df119a2d9a.mp4) ![Image 58: Nano Banana 2 Lite](https://pageforge-56o.pages.dev/pageforge-assets/openart-home/model-icons/google.svg)Nano Banana 2 Lite](https://openart.ai/ai-model/nano-banana-2-lite/)
+
+[[Video 111](https://cdn.openart.ai/cdn-cgi/media/mode=video,width=720,fit=scale-down/https://cdn.openart.ai/openart-strapi-assets/Video_971efb4f8e/Video_971efb4f8e.mp4) ![Image 59: Seedream 5.0](https://pageforge-56o.pages.dev/pageforge-assets/openart-home/model-icons/seedance-seedream.svg)Seedream 5.0](https://openart.ai/ai-model/seedream-5-pro/)
+
+[[Video 112](https://cdn.openart.ai/cdn-cgi/media/mode=video,width=720,fit=scale-down/https://cdn.openart.ai/openart-strapi-assets/Hero_9b98c75c1b/Hero_9b98c75c1b.mp4) ![Image 60: Wan 2.7 Image](https://pageforge-56o.pages.dev/pageforge-assets/openart-home/model-icons/wan-qwen-z-image.svg)Wan 2.7 Image](https://openart.ai/ai-model/wan-2-7-image/)
+
+[[Video 113](https://cdn.openart.ai/cdn-cgi/media/mode=video,width=720,fit=scale-down/https://cdn.openart.ai/openart-strapi-assets/hero_1_75a42e7f2e/hero_1_75a42e7f2e.mp4) ![Image 61: Grok Image 2.0](https://pageforge-56o.pages.dev/pageforge-assets/openart-home/model-icons/xai-grok.svg)Grok Image 2.0](https://openart.ai/ai-model/grok-imagine/)
+
+## Frequently Asked Questions
+
+What is the OpenArt MCP?
+
+MCP (Model Context Protocol) is an open standard that lets AI agents use external tools. Once connected, your agent can call OpenArt to generate images and video and return the results directly in your conversation.
+
+How do I add OpenArt as a Claude connector?
+
+In Claude desktop or on claude.ai, go to Customize → Connectors, click Add custom connector, name it OpenArt, and paste the server URL. Click Add → Connect and sign in with your OpenArt account. Claude then works as a [Claude AI image generator](https://openart.ai/mcp/claude-ai-image-generator/) and a [Claude AI video generator](https://openart.ai/mcp/claude-ai-video-generator/), so you can ask it to make an image or an ad video right in the chat.
+
+Can I use OpenArt MCP in Cursor?
+
+Yes. In the Cursor desktop app, open Settings → Tools & MCP and add a new MCP server named OpenArt with the server URL. If Cursor opens mcp.json, add it as the server's url. Click Connect and sign in with your OpenArt account, and OpenArt tools show up in Agent chats. For full setup steps, see the [Cursor MCP](https://openart.ai/mcp/cursor/) guide.
+
+Do I need an API key?
+
+No. Add the server URL in your agent's settings and sign in with your OpenArt account through OAuth. There are no keys to create, rotate, or leak.
+
+What can my agent actually do?
+
+Generate images and video, plan multi-shot videos with Smart Shot, discover available models, track results, upload reference files, check your account and credits, switch workspaces, and organize projects, all from the conversation. The tool list updates automatically as new tools ship.
+
+Which image and video models can I use?
+
+Image models include Nano Banana 2.1, Nano Banana Pro, GPT Image 2.5, GPT Image 2, Seedream 5 Pro, Wan 2.7 Image, Ideogram 4.5, and Grok Imagine Image 2.0. Video models include Seedance 2.5, Seedance 2.0, Wan 3.0, Kling 3 Omni, Veo 3.1, MiniMax H3, Gemini Omni 1.1 Flash, and PixVerse V6. Your agent can pick a model automatically or use one you name, and new models appear automatically as OpenArt adds them.
+
+Does OpenArt MCP work on Team and Enterprise plans?
+
+Yes. On managed workspaces (Claude Team/Enterprise or ChatGPT Business/Enterprise), OpenArt has to be added for the whole organization once before members can use it. In Claude, only an Owner or Primary Owner can do this: go to Settings → Organization settings → Connectors → Add and enter the server URL [https://mcp.openart.ai/mcp](https://mcp.openart.ai/mcp). In ChatGPT, a workspace owner or admin enables the OpenArt plugin for the workspace, and members then install it from chatgpt.com/plugins. Each member signs in with their own OpenArt account via OAuth. On personal plans, you can add OpenArt yourself. Once connected, generations spend the workspace's credits and results save to the workspace library so your team can pick up where you left off.
+
+Can I use Character or Smart Shot through MCP?
+
+Smart Shot works through MCP today. Your agent can preview the Shot Plan first, or plan and render the video in one request. Image generation, video creation, image-to-video, external image references, and your OpenArt library are also available. Character is on the roadmap.
+
+How do I install and use OpenArt CLI?
+
+Install the CLI, run openart login, and start creating from your terminal. See the complete setup guide on [OpenArt CLI GitHub](https://github.com/OpenArt-AI/cli).
+
+Where can I find the latest OpenArt MCP and CLI feature updates?
+
+Check our email announcements or our GitHub/MCP page, both are kept current with new feature releases and changelogs.
+
+Which platforms and AI tools does OpenArt CLI support?
+
+OpenArt CLI works on macOS, Linux, and Windows. You can use it with Claude, ChatGPT, Cursor, and other AI agents. It’s ideal for terminal-based workflows, automation, and batch creation.
+
+How do I connect OpenArt to ChatGPT?
+
+Go to chatgpt.com/plugins, search for OpenArt, click Install Plugin, and sign in with your OpenArt account. Then type @OpenArt in any chat and describe what you want, from a single image to a full video. Learn more about using it as a [ChatGPT AI video generator](https://openart.ai/mcp/chatgpt-ai-video-generator/).
+
+Can I use OpenArt MCP in Kimi?
+
+Yes. On kimi.ai, open [OpenArt in the Kimi plugin store](https://www.kimi.ai/plugins?pluginId=19f7e230-5542-89e7-8000-00005199bf88), install the plugin, and sign in with your OpenArt account. No API key is needed. Then type /OpenArt in a Kimi chat to enable it and ask Kimi to make an image or video. The plugin is currently available on Kimi's international site, kimi.ai.
+
+How does pricing work?
+
+Generations through MCP spend the same credits as if you're generating on openart.ai. Each generation costs credits based on the model and resolution, and your existing plan works without any extra setup.
+
+Where do my generations go?
+
+Everything your agent creates is returned in the conversation and saved to your OpenArt library, so you can keep iterating on openart.ai whenever you want a full canvas.
+
+Can I upload an external image as a reference?
+
+Yes. In Claude, OpenArt provides an upload widget so you can upload an image to OpenArt right inside the conversation and use it as a reference. You can also paste an image URL, which works in any client that supports it.
+
+How does OpenArt MCP help with AI asset management?
+
+It lets you browse, reuse, and create assets inside the active OpenArt workspace instead of treating every generation as a disconnected file. For teams, it also helps route work to projects and keep credit usage tied to the right workspace.
+
+What if I have multiple MCP servers connected?
+
+Just mention OpenArt in your prompt so your agent knows where to route the request. For example: "Use OpenArt to generate a 5-second product video" or "With OpenArt, create 4 image variations of this concept." This keeps the agent from guessing and makes results more predictable. Once OpenArt becomes your go-to for image and video, you can drop the name entirely.
+
+Can I install the OpenArt CLI from a web browser?
+
+No, the CLI install command needs to run in a coding agent's desktop app (like the terminal built into Claude Code, Cursor, etc.) or a local terminal on your computer, it can't be run from a web browser.
+
+![Image 62](https://pageforge-56o.pages.dev/assets/mcp/openai.svg)![Image 63](https://pageforge-56o.pages.dev/assets/mcp/claude-color.svg)![Image 64](https://pageforge-56o.pages.dev/assets/mcp/cursor.svg)![Image 65](https://pageforge-56o.pages.dev/assets/mcp/3d/kimi-mark.svg)
+
+## Create without limits
+
+Join thousands of creators using OpenArt to generate stunning images, videos, and more — all in one platform.
+
+[Get Started for Free](https://openart.ai/home)
+
+Make Wonders.
+
+[](https://www.youtube.com/@openart_ai)[](https://discord.com/invite/openart-ai-1009536403555750018)[](https://www.instagram.com/openart_ai/)[](https://x.com/openart_ai)[](https://www.linkedin.com/company/openart-ai)
+
+#### Start Creating
+
+[Home](https://openart.ai/)[Create Image](https://openart.ai/suite/create-image)[Create Video](https://openart.ai/suite/video)[Character Builder](https://openart.ai/suite/character)[3D World](https://openart.ai/suite/world)[One-Click Story](https://openart.ai/suite/director)[Music Video](https://openart.ai/suite/director?quickStart=music-video)[Motion Control](https://openart.ai/suite/motion-sync)[OpenArt VFX](https://openart.ai/features/openart-vfx/)[Video Relight](https://openart.ai/features/ai-video-relight/)[Video Background Changer](https://openart.ai/features/ai-video-background-changer/)[Create Audio](https://openart.ai/suite/audio)
+
+#### AI Models
+
+[Seedance 2.5](https://openart.ai/ai-model/seedance-2-5/)[Seedance 2.0](https://openart.ai/ai-model/seedance-2-0/)[Nano Banana 2](https://openart.ai/ai-model/nano-banana-2/)[Kling 3.0](https://openart.ai/ai-model/kling-3-motion-control)[SwitchX](https://openart.ai/ai-model/switchx/)[Wan 2.7](https://openart.ai/ai-model/wan-2-7-ai-video-generator/)
+
+#### Features
+
+[AI Video Generator](https://openart.ai/ai-video-generator/)[AI Image Generator](https://openart.ai/ai-image-generator/)[OpenArt VFX](https://openart.ai/features/openart-vfx/)[Video Relight](https://openart.ai/features/ai-video-relight/)[Video Background Changer](https://openart.ai/features/ai-video-background-changer/)[Worlds](https://openart.ai/feature/openart-worlds)[AI Character](https://openart.ai/features/ai-character/)[AI Influencer](https://openart.ai/features/ai-influencer/)[Smart Shot](https://openart.ai/features/smart-shot/)[Twitter Video Generator](https://openart.ai/features/twitter-video-generator/)[AI Character Swap](https://openart.ai/features/ai-character-swap/)[AI Celebrity Generator](https://openart.ai/features/ai-celebrity-generator/)
+
+#### Resources
+
+[Tutorials](https://openart.ai/tutorials/)[Blog](https://openart.ai/blog)[FAQ](https://openart.ai/faq/)[OpenArtist Program](https://openart.ai/program/openartist)[Affiliate Program](https://openart.ai/programs/affiliate)
+
+#### Integrations
+
+[OpenArt MCP & CLI](https://openart.ai/mcp/)[Adobe After Effects](https://openart.ai/plugins/after-effects/)[MCP & CLI Guides](https://openart.ai/blog/category/mcp-cli/)
+
+#### Company
+
+[About Us](https://openart.ai/suite/home)[Terms of Service](https://openart.ai/terms/)[Privacy Policy](https://openart.ai/privacy/)[Career](https://jobs.ashbyhq.com/openart)
+
+#### Need Help?
+
+[Help Center](https://openart.ai/help/)[Email Us](mailto:support@openart.ai)
+
+![Image 66: OpenArt](https://cdn.openart.ai/cdn-cgi/image/format=auto,width=1920,fit=scale-down,dpr=2,quality=80,metadata=none,sharpen=1/assets/internal/uploads/image_oD2IKHNY_1920x320_1774429786634.webp)

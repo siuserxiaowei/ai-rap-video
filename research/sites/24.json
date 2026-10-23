@@ -1,0 +1,108 @@
+{
+  "id": "24",
+  "name": "OpenArt",
+  "url": "https://openart.ai/",
+  "category": "music_video",
+  "checked_at": "2026-10-23",
+  "summary": "综合 AI 创作平台，以 Director 音乐视频入口、可复用角色和音视频编辑覆盖 MV 工作流；官方宣称可将音轨自动同步到视频，并提供口型同步。未进行生成实测。",
+  "inputs": [
+    "文字提示与聊天式分镜指令",
+    "人物参考图片或文字角色描述",
+    "音乐音轨（首页宣称可自动同步；上传格式与时长未核实）",
+    "参考声音样本（声音克隆）",
+    "3–30 秒动作参考视频"
+  ],
+  "outputs": [
+    "音乐视频与多镜头视频",
+    "图像及可复用角色资产",
+    "WAV / MP3 音轨"
+  ],
+  "features": [
+    "Director 通过自然语言调整分镜与镜头序列",
+    "Music Video 入口宣称自动同步任意音轨",
+    "Character Builder 可保存角色并在图像和视频中复用，官方宣称保持脸部一致",
+    "配音、口型同步、原创音乐与音效；首页称配音支持 30 多种语言",
+    "MCP / CLI 可调用图像、视频和 Smart Shot，使用账户点数"
+  ],
+  "pricing": {
+    "summary": "订阅按席位展示并包含每月点数。抓取页促销展示 Starter $13、Plus $27、Pro $44、Wonder $175 /Seat/mo，旁有原价；未呈现账期切换，不能确认逐月价或年付折月。视频数量估算明确排除 Director。",
+    "free_tier": "首页称提供无需信用卡的试用计划及每日点数；具体额度、可用模型和 MV 限制未核实。",
+    "plans": [
+      {
+        "name": "Starter",
+        "credits": "4,000 / month",
+        "notes": "促销展示 $13 /Seat/mo；原价 $14；账期未确认。约 50 个视频估算排除 Director；含 Director 和 MCP 访问。"
+      },
+      {
+        "name": "Plus",
+        "credits": "12,000 / month",
+        "notes": "促销展示 $27 /Seat/mo；原价 $34；账期未确认；可加购点数。"
+      },
+      {
+        "name": "Pro",
+        "credits": "24,000 / month",
+        "notes": "促销展示 $44 /Seat/mo；原价 $56；账期未确认；可加购点数。"
+      },
+      {
+        "name": "Wonder",
+        "credits": "106,000 / month",
+        "notes": "促销展示 $175 /Seat/mo；原价 $240；账期未确认；可加购点数；Unlimited Creation 不应理解为所有视频无限。"
+      }
+    ],
+    "source_url": "https://openart.ai/suite/pricing"
+  },
+  "api": {
+    "status": "documented",
+    "summary": "官方已公开 MCP / CLI 接入与能力说明：Streamable HTTP、OAuth 登录、共用账户点数，支持图像/视频、Smart Shot、参考文件与项目管理；Character 仍列路线图。未核实通用 REST API 或 Director 音乐视频专用 API。",
+    "url": "https://openart.ai/mcp/"
+  },
+  "limitations": [
+    "所有生成与一致性、口型能力均为供应商宣称；未实测中文 rap、快嘴、节拍对齐或成片质量",
+    "音乐音轨输入的格式、大小、最长时长与 Director 点数消耗未核实",
+    "价格页仅抓到默认促销展示，月付和年付账期未确认",
+    "MCP 的 Character 能力仍在路线图；不能把网页端所有功能视为均已开放调用"
+  ],
+  "best_for": "希望在同一平台制作带固定人物、配乐和口型的叙事 MV，并需要后续分镜调整的创作者。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://openart.ai/",
+      "title": "AI Art Generator: Free AI Image, Video & Audio Generator",
+      "kind": "official",
+      "local_path": "research/evidence/24/home.txt",
+      "supports": [
+        "Music Video 同步音轨入口",
+        "Director 分镜与聊天编辑",
+        "人物一致性与口型、音频输入输出",
+        "免费试用宣称"
+      ]
+    },
+    {
+      "url": "https://openart.ai/suite/pricing",
+      "title": "AI Creator Studio for Video & Images | OpenArt",
+      "kind": "pricing",
+      "local_path": "research/evidence/24/pricing.txt",
+      "supports": [
+        "席位订阅与每月点数",
+        "默认促销展示价及账期不明",
+        "视频估算排除 Director"
+      ]
+    },
+    {
+      "url": "https://openart.ai/mcp/",
+      "title": "OpenArt MCP & CLI - Generate Images & Video from Any AI Agent",
+      "kind": "documentation",
+      "local_path": "research/evidence/24/mcp.txt",
+      "supports": [
+        "MCP OAuth 与 CLI",
+        "公开可调用能力",
+        "Character 路线图",
+        "账户点数共用与按模型/分辨率消耗"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：把固定艺人角色、音轨与可编辑分镜结合，比单个短视频模型更接近完整 rap MV 工作流。",
+    "推断：在产品比较中应分别核对网页端 Director 与 MCP 能力，不能以 MCP 集成等同完整音乐视频 API。"
+  ]
+}
