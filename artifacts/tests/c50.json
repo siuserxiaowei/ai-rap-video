@@ -1,0 +1,13 @@
+{
+  "status": "passed_with_explicit_remaining_visual_gate",
+  "review_file": "docs/C50-review.md",
+  "root_test_log": "artifacts/tests/c49.txt",
+  "tests": 54,
+  "failures": 0,
+  "errors": 0,
+  "skips": 0,
+  "independent_review_commit": "975bff8",
+  "report_gate_correction_commit": "090126f",
+  "browser": "blocked_by_access_policy",
+  "goal_complete": false
+}
