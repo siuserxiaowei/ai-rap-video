@@ -223,6 +223,20 @@ $('quote-button').addEventListener('click', async () => {
       message('quote-status', quote.estimate === null ? '当前规格暂无可比报价，不代表 0 元。' : `参考估算：${displayValue(quote.estimate)} ${quote.currency || ''}。非供应商实时报价。`);
       const details = [['对比规格', `${duration_seconds} 秒 / ${quality} / ${aspect_ratio}`], ['价格依据', quote.basis], ['适用条件与限制', quote.assumptions]];
       $('quote-details').replaceChildren(...details.flatMap(([label, value]) => [element('dt', label), element('dd', displayValue(value))]));
+      if (quote.source_url) {
+        try {
+          const source = new URL(quote.source_url);
+          if (source.protocol === 'https:' && !source.username && !source.password) {
+            const sourceLink = element('a', '查看价格原始来源 ↗');
+            sourceLink.href = source.href;
+            sourceLink.target = '_blank';
+            sourceLink.rel = 'noopener noreferrer';
+            const sourceValue = element('dd');
+            sourceValue.append(sourceLink);
+            $('quote-details').append(element('dt', '来源'), sourceValue);
+          }
+        } catch { /* Keep the price assumptions visible when a source URL is invalid. */ }
+      }
       $('quote-details').hidden = false;
     } catch (error) { message('quote-status', `价格参考不可用：${error.message} 尚无报价，不代表 0 元。可点击查询重试。`, true); }
   });

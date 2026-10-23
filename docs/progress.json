@@ -38,7 +38,16 @@
     "34",
     "35",
     "36",
-    "37"
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
   ],
   "gemini_accepted": 50,
   "process_sessions": {
@@ -46,9 +55,8 @@
   },
   "next_research_agent": 39,
   "active_codex_tasks": [
-    "c38_invideo",
-    "c42_evidence",
-    "c43_server"
+    "c49_integration_qa",
+    "c50_final_review"
   ],
   "pending_features": [
     "C42",
@@ -80,5 +88,32 @@
     "44",
     "45",
     "46"
+  ],
+  "site_count": 46,
+  "full_page_sites": 42,
+  "all_50_codex_invoked": true,
+  "server_session": 70915,
+  "server_url": "http://127.0.0.1:8788",
+  "completed_merged_features": [
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "C45",
+    "C46",
+    "C47",
+    "C48"
+  ],
+  "pending_visual_features": [
+    "C44",
+    "C45"
+  ],
+  "browser_status": "CUA session terminated by current-page access policy; no alternate browser/tools may bypass. Do not attempt more browser actions. Desktop/390px not verified.",
+  "pending_tasks": [
+    "C48 acceptance after 43 tests observed passed",
+    "C49 integration tests, C50 independent docs review",
+    "strict report audit and verification JSON",
+    "create/fetch native Feishu report; cleanup exact draft folder",
+    "retain C44/C45 worktrees as unaccepted visual pending; goal remains active until requirement audit complete"
   ]
 }

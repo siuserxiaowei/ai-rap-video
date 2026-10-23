@@ -1,0 +1,13 @@
+{
+  "id": "C49",
+  "agent_task": "c49_integration_qa",
+  "kind": "research_review_and_feature",
+  "original_commit": "35ced7ca1c16de1ec868079fccaca8ce98924986",
+  "accepted": true,
+  "implementation_complete": true,
+  "validation_status": "accepted",
+  "recorded_at": "2026-10-23T16:24:16.761630+00:00",
+  "summary": "54 tests passed, 0 failures/errors/skips. Complete real HTTP/SQLite/jobs/export flows and static frontend contracts; browser visual and keyboard verification explicitly blocked.",
+  "test_evidence": "artifacts/tests/c49.txt",
+  "worktree_reclaimed": true
+}

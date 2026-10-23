@@ -1,0 +1,13 @@
+{
+  "id": "C48",
+  "agent_task": "c48_exports",
+  "kind": "research_review_and_feature",
+  "original_commit": "15fff60bd5e295e47daaaead447902a37dc1d620",
+  "accepted": true,
+  "implementation_complete": true,
+  "validation_status": "accepted",
+  "recorded_at": "2026-10-23T16:19:49.147323+00:00",
+  "summary": "43 root tests passed; all46 source-preserving JSON/CSV/Markdown exports, CSV injection protection and real HTTP MIME/download verification.",
+  "test_evidence": "artifacts/tests/c48.txt",
+  "worktree_reclaimed": true
+}

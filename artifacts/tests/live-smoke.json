@@ -1,0 +1,88 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-23T16:23:27.540879+00:00",
+  "base_url": "http://127.0.0.1:8788",
+  "stats": {
+    "total": 46,
+    "full_page": 42,
+    "by_category": {
+      "rap": 19,
+      "editor": 3,
+      "music_video": 11,
+      "video": 6,
+      "lip_sync": 4,
+      "music": 3
+    },
+    "by_evidence": {
+      "full_page": 42,
+      "partial": 4
+    },
+    "by_api": {
+      "not_found": 29,
+      "documented": 17
+    },
+    "checked_at": "2026-10-24"
+  },
+  "static_http": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 6369
+    },
+    {
+      "path": "/create.html",
+      "status": 200,
+      "bytes": 9107
+    },
+    {
+      "path": "/app.js",
+      "status": 200,
+      "bytes": 11346
+    },
+    {
+      "path": "/create.js",
+      "status": 200,
+      "bytes": 14575
+    },
+    {
+      "path": "/styles.css",
+      "status": 200,
+      "bytes": 12338
+    },
+    {
+      "path": "/create.css",
+      "status": 200,
+      "bytes": 10866
+    }
+  ],
+  "brief_roundtrip": "passed",
+  "job_idempotency_and_conflict": "passed",
+  "unconfigured_provider_503": "passed",
+  "historical_quote_and_no_match": "passed",
+  "exports": {
+    "json": {
+      "bytes": 275151,
+      "path": "artifacts/research-catalog.json"
+    },
+    "csv": {
+      "bytes": 256613,
+      "path": "artifacts/research-catalog.csv"
+    },
+    "markdown": {
+      "bytes": 245407,
+      "path": "artifacts/research-catalog.md"
+    }
+  },
+  "javascript_syntax": {
+    "app.js": "passed",
+    "create.js": "passed"
+  },
+  "browser": {
+    "status": "blocked_by_access_policy",
+    "desktop": "not_verified",
+    "mobile_390": "not_verified",
+    "keyboard": "not_verified",
+    "reason": "Computer Use session was terminated by the current-page access policy. No alternate browser or tool was used to bypass it."
+  },
+  "sample_brief_id": "884375d1-d808-470e-b330-b97a285ea124"
+}
