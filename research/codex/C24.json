@@ -1,0 +1,11 @@
+{
+  "id": "C24",
+  "agent_task": "c24_openart",
+  "site_id": "24",
+  "name": "OpenArt",
+  "original_commit": "69b78752ab50423a49ee7749af17426bfcb40fcd",
+  "accepted_at": "2026-10-23T15:46:06.298671+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}

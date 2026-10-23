@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """Build the native Feishu release candidate from verified, source-linked records."""
 import argparse, collections, datetime, html, json
 from pathlib import Path
@@ -32,13 +33,13 @@ def build():
     price_rows=[]
     for s in sites:
         if s['category']=='rap' or s['id'] in ('18','19','28','34'):
-            price_rows.append([s['name'],shorten(s['pricing']['summary'],170),shorten(s['pricing']['free_tier'],100),s['pricing'].get('source_url') or s['url']])
+            price_rows.append([s['name'],shorten(s['pricing']['summary'],120),shorten(s['pricing']['free_tier'],80),s['pricing'].get('source_url') or s['url']])
     blocks.append(table(['网站','计费观察','免费范围','来源'],price_rows))
     blocks+=['<h1 seq="auto">API集成与开发取舍</h1>',p('优先选择有当前官方文档、鉴权、任务状态与错误约定的接口；消费者网页能够生成不等于允许自动化集成。文档存在不证明Rap、原声、口型或双人模式已被开放。')]
     blocks.append(table(['网站','公开接口证据与范围','文档来源'],[[s['name'],shorten(s['api']['summary'],240),s['api'].get('url') or s['url']] for s in sites if s['api']['status']=='documented']))
     blocks+=['<h1 seq="auto">逐站证据与限制</h1>']
     for s in sites:
-        blocks+=['<h2 seq="auto">'+esc(s['id']+' '+s['name'])+'</h2>',p(s['summary']),p('输入：'+'；'.join(s['inputs'])+'。输出：'+'；'.join(s['outputs'])+'。'),p('适合：'+s['best_for']+'。边界：'+shorten('；'.join(s['limitations']),270)),p('价格：'+shorten(s['pricing']['summary'],220)),p('API：'+shorten(s['api']['summary'],200)), '<p>采集：'+esc(s['checked_at'])+'；正文等级：'+esc(s['evidence_status'])+'。来源：'+'；'.join(link(x['url'],shorten(x.get('title') or x['url'],40)) for x in s['sources'] if x['kind']!='secondary')+'</p>']
+        blocks+=['<h2 seq="auto">'+esc(s['id']+' '+s['name'])+'</h2>',p(shorten(s['summary'],120)),p('输入：'+shorten('；'.join(s['inputs']),80)+'。输出：'+shorten('；'.join(s['outputs']),80)+'。'),p('适合：'+shorten(s['best_for'],70)+'。边界：'+shorten('；'.join(s['limitations']),160)),p('价格：'+shorten(s['pricing']['summary'],100)),p('API：'+shorten(s['api']['summary'],120)), '<p>采集：'+esc(s['checked_at'])+'；正文等级：'+esc(s['evidence_status'])+'。来源：'+'；'.join(link(x['url'],shorten(x.get('title') or x['url'],40)) for x in s['sources'] if x['kind']!='secondary')+'</p>']
     blocks+=['<h1 seq="auto">50项产品与技术决策</h1>',p('以下是可审查的决策摘要与验收条件，用于承接50轮评估要求；它们不代表所有建议已实现。每项回链研究编号，原始记录与状态保存在docs/decisions.json。')]
     blocks.append(table(['编号与主题','决策','验收与来源编号'],[[x['id']+' '+x['topic'],x['decision'],x['acceptance']+'（站点'+','.join(x['evidence_site_ids'])+'）'] for x in decisions]))
     blocks+=['<h1 seq="auto">完整开发计划与worktree分工</h1>',p('本轮路线：证据与schema→研究API和导出→研究工作台→创作brief→任务与报价→完整流程测试→独立终审→飞书回读。Codex主线程整合，各功能在独立worktree开发，按指定文件范围提交，验收后回收干净worktree。'),table(['任务','输出','验收'],[['C41 数据契约','目录schema、来源校验、筛选与统计','无效数据给出诊断、来源文件与主域可追溯'],['C42 采集工具','可复现来源抓取与证据索引','错误页不误判、URL和hash可查'],['C43 后端API','受限静态服务、目录与保存接口','真实HTTP往返、路径与请求校验'],['C44 研究工作台','检索、筛选、比较、来源详情','1440/390px和键盘可操作'],['C45 创建流程','solo/duo、场景、规格、歌词与brief','保存、重开、下载，不显示假视频'],['C46 任务系统','持久化任务、幂等与provider边界','重复请求复用、冲突明确、未配置渲染诚实拒绝'],['C47 价格估算','来源支持的规格匹配','不混点数、不将估算当实时价格'],['C48 报告导出','JSON/CSV/Markdown','字段完整、链接保留、CSV公式中和'],['C49 测试与质量','异常、持久化、交互与可访问性检查','验证完整用户路径，修复实际问题'],['C50 独立终审','README、验收清单和剩余工作','不以单测证明未测试的生成能力']]),p('后续真实渲染：根据已确认官方文档实现一个供应商adapter；用授权素材完成快Rap口型、人物一致性、中文、费用、失败重试和退款对账测试；再加入认证、私有存储、队列、监控和正式部署。各步骤有验证门槛，未完成不得标成上线能力。')]
