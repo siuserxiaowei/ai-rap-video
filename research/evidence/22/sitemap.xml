@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      
+      <url>
+        <loc>https://banger.show</loc>
+        <lastmod>2025-02-23T00:00:00.000Z</lastmod>
+        <priority>1</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/download</loc>
+        <lastmod>2024-11-09T00:00:00.000Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides</loc>
+        <lastmod>2025-05-29T00:00:00.000Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/collections</loc>
+        <lastmod>2026-04-25T00:00:00.000Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/lyric-videos</loc>
+        <lastmod>2025-07-04T00:00:00.000Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/tools/mp3-tag-editor</loc>
+        <lastmod>2023-07-29T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/tools/music-video-maker</loc>
+        <lastmod>2025-02-12T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/spotify-canvas</loc>
+        <lastmod>2025-02-12T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/tools/get-song-bpm</loc>
+        <lastmod>2023-07-30T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/tools/lufs</loc>
+        <lastmod>2024-02-11T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/tools/image-to-3d</loc>
+        <lastmod>2024-02-08T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/tools/mp3-cutter</loc>
+        <lastmod>2024-03-19T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/tools/mp3-bass-booster</loc>
+        <lastmod>2024-03-19T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/tools/tempo-tapper</loc>
+        <lastmod>2025-02-23T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/tools/music-artwork-generator</loc>
+        <lastmod>2026-01-03T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/tools/bpm-calculator</loc>
+        <lastmod>2026-02-09T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer</loc>
+        <lastmod>2025-02-11T00:00:00.000Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/compare</loc>
+        <lastmod>2025-02-06T00:00:00.000Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/tools</loc>
+        <lastmod>2023-11-05T00:00:00.000Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/affiliates</loc>
+        <lastmod>2023-11-13T00:00:00.000Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      
+      <url>
+        <loc>https://banger.show/compare/videobolt</loc>
+        <lastmod>2025-02-23T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/compare/rotor-videos</loc>
+        <lastmod>2025-02-23T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/compare/specterr</loc>
+        <lastmod>2025-02-23T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/compare/veed-io</loc>
+        <lastmod>2025-02-23T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/compare/wzrd</loc>
+        <lastmod>2025-02-23T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/compare/render-forest</loc>
+        <lastmod>2025-02-23T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/compare/tuneform</loc>
+        <lastmod>2025-02-23T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/compare/vizzy</loc>
+        <lastmod>2025-02-23T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      
+      <url>
+        <loc>https://banger.show/music-visualizer/spotify-canvas</loc>
+        <lastmod>2025-02-06T00:00:00.000Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/release-video</loc>
+        <lastmod>2025-02-06T00:00:00.000Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/song-demo</loc>
+        <lastmod>2025-02-06T00:00:00.000Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/instagram-story</loc>
+        <lastmod>2025-02-06T00:00:00.000Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/tiktok-video</loc>
+        <lastmod>2025-02-06T00:00:00.000Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/youtube-shorts</loc>
+        <lastmod>2025-02-06T00:00:00.000Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/youtube-video</loc>
+        <lastmod>2025-02-06T00:00:00.000Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/twitter-post</loc>
+        <lastmod>2025-02-06T00:00:00.000Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/vj-loop</loc>
+        <lastmod>2025-02-06T00:00:00.000Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      
+      <url>
+        <loc>https://banger.show/collections/audio-reactive</loc>
+        <lastmod>2026-05-16T14:48:23.999Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/collections/club</loc>
+        <lastmod>2026-05-16T14:54:25.105Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/collections/dark</loc>
+        <lastmod>2026-05-16T14:48:23.999Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/collections/dreamy</loc>
+        <lastmod>2026-05-16T14:48:23.999Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/collections/lo-fi</loc>
+        <lastmod>2026-05-16T14:48:23.999Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/collections/night-drive</loc>
+        <lastmod>2026-05-16T14:56:13.320Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/collections/release-ready</loc>
+        <lastmod>2026-05-16T14:52:42.442Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/collections/retro</loc>
+        <lastmod>2026-05-16T14:57:57.520Z</lastmod>
+        <priority>0.9</priority>
+      </url>
+    
+      
+      <url>
+        <loc>https://banger.show/music-visualizer/instagram-story/tv-visualizer</loc>
+        <lastmod>2026-02-15T18:15:00.929Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/instagram-story/cdj-4000-visualizer</loc>
+        <lastmod>2026-02-15T18:15:00.936Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/youtube-video/boombox-visualizer</loc>
+        <lastmod>2026-02-15T18:15:01.071Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/song-demo/spectre-visualizer</loc>
+        <lastmod>2026-02-15T18:15:01.117Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/song-demo/oscilloscope-visualizer</loc>
+        <lastmod>2026-02-15T18:15:01.129Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/release-video/turntable-in-the-gallery-visualizer</loc>
+        <lastmod>2026-02-15T18:15:01.037Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/youtube-video/spaceship-visualizer</loc>
+        <lastmod>2026-02-15T18:15:01.082Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/youtube-video/fractals-visualizer</loc>
+        <lastmod>2026-02-15T18:15:01.055Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/song-demo/waveform-visualizer</loc>
+        <lastmod>2026-02-15T18:15:01.104Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/spotify-canvas/rain-music-visualizer</loc>
+        <lastmod>2025-03-14T15:47:46.677Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/youtube-video/blocks-music-visualizer</loc>
+        <lastmod>2025-03-15T21:34:54.091Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/release-video/track-visualizer</loc>
+        <lastmod>2026-02-15T18:15:00.910Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/release-video/vinyl-player-visualizer</loc>
+        <lastmod>2026-02-15T18:15:00.924Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/release-video/compact-disc-visualizer</loc>
+        <lastmod>2026-02-15T18:15:00.947Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/spotify-canvas/trip-visualizer</loc>
+        <lastmod>2026-02-15T18:15:00.963Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/song-demo/music-channel-visualizer</loc>
+        <lastmod>2025-02-17T23:54:34.469Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/release-video/lumen</loc>
+        <lastmod>2025-12-13T17:53:45.783Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/release-video/release-visualizer</loc>
+        <lastmod>2026-02-15T18:15:00.952Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/instagram-story/iphone-audio-player-visualizer</loc>
+        <lastmod>2026-02-15T18:15:00.970Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/release-video/record-music-visualizer</loc>
+        <lastmod>2025-02-17T15:12:17.631Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/song-demo/ferro-fluid</loc>
+        <lastmod>2026-03-14T17:51:02.602Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/instagram-story/audio-spectrum-visualizer</loc>
+        <lastmod>2026-02-15T18:15:00.915Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/music-visualizer/song-demo/pulsar-music-visualizer</loc>
+        <lastmod>2025-03-14T16:14:19.809Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      
+      <url>
+        <loc>https://banger.show/guides/+content/timeline</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/scenes</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/properties</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/lyric-videos</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/keyframes</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/keyboard-shortcuts</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/effects</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/custom-shaders</loc>
+        <lastmod>2026-10-20T22:54:25.430Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/camera-animation</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/audio-reactivity</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/3d-basics</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/2d-3d-mode</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/waveform</loc>
+        <lastmod>2026-10-20T22:54:25.430Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/video-sphere</loc>
+        <lastmod>2026-10-20T22:54:25.430Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/time-display</loc>
+        <lastmod>2026-10-20T22:54:25.430Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/text</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/spot-light</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/spectre</loc>
+        <lastmod>2026-10-20T22:54:25.430Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/sparkles</loc>
+        <lastmod>2026-10-20T22:54:25.430Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/solid-color</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/shader</loc>
+        <lastmod>2026-10-20T22:54:25.430Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/pulsar</loc>
+        <lastmod>2026-10-20T22:54:25.430Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/primitives</loc>
+        <lastmod>2026-10-20T22:54:25.430Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/point-light</loc>
+        <lastmod>2026-10-20T22:54:25.430Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/oscilloscope</loc>
+        <lastmod>2026-10-20T22:54:25.430Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/lyrics</loc>
+        <lastmod>2026-10-20T22:54:25.430Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/ferro-fluid</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/directional-light</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/circle</loc>
+        <lastmod>2026-10-20T22:54:25.430Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/box</loc>
+        <lastmod>2026-10-20T22:54:25.426Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/guides/+content/clips/3d-text</loc>
+        <lastmod>2026-10-20T22:54:25.430Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      
+      <url>
+        <loc>https://banger.show/blog/best-audio-visualizer-plugins-for-your-daw</loc>
+        <lastmod>2025-02-10T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/blog/signing-to-a-record-label</loc>
+        <lastmod>2025-03-03T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      
+      <url>
+        <loc>https://banger.show/updates/ai-clip-selection-and-shader-generation-beta</loc>
+        <lastmod>2026-03-11T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/audio-reactive-properties-and-guides</loc>
+        <lastmod>2025-06-23T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/autofocus-effect</loc>
+        <lastmod>2024-05-01T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/basic-shader</loc>
+        <lastmod>2024-05-19T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/better-templates</loc>
+        <lastmod>2024-04-16T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/box-time-display-new-fonts-may-2024</loc>
+        <lastmod>2024-05-16T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/christmas-sale-2024</loc>
+        <lastmod>2024-12-24T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/copy-and-paste</loc>
+        <lastmod>2025-02-20T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/crop-tools-faster-timeline-cleaner-editor</loc>
+        <lastmod>2026-05-07T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/desktop-app-longer-videos-bugfixes</loc>
+        <lastmod>2024-11-27T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/editable-3d-shapes-and-text-styles</loc>
+        <lastmod>2026-09-21T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/faster-editing-local-asset-storage</loc>
+        <lastmod>2026-03-28T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/fly-mode-and-camera-keyframes</loc>
+        <lastmod>2024-06-05T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/how-to-make-music-video</loc>
+        <lastmod>2024-05-12T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/iphone-audio-template</loc>
+        <lastmod>2024-04-27T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/keyframes</loc>
+        <lastmod>2024-05-27T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/lights-environments</loc>
+        <lastmod>2024-05-20T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/long-videos-cloud-renders-timeline-improvements</loc>
+        <lastmod>2025-12-12T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/lyric-videos-2d-mode</loc>
+        <lastmod>2025-05-24T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/new-audio-workflow-and-adaptive-video-duration</loc>
+        <lastmod>2024-09-04T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/new-export-system-shaders-and-bugfixes</loc>
+        <lastmod>2024-10-30T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/new-shaders-and-templates-september-2024</loc>
+        <lastmod>2024-09-18T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/new-shaders-apr-2024</loc>
+        <lastmod>2024-04-23T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/new-templates-may-2024</loc>
+        <lastmod>2024-05-13T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/new-text-and-effects</loc>
+        <lastmod>2026-01-16T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/object-effects-correct-layers-stable-colors</loc>
+        <lastmod>2026-06-20T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/opacity-controls-and-performance-improvements</loc>
+        <lastmod>2025-01-30T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/release-4-0</loc>
+        <lastmod>2024-08-02T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/release-5-0-one-timeline-audio-clips</loc>
+        <lastmod>2026-03-01T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/shadows-multi-select-clips</loc>
+        <lastmod>2025-04-21T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/shareable-projects</loc>
+        <lastmod>2024-04-16T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/split-clips-and-enhanced-editor-controls</loc>
+        <lastmod>2024-08-19T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/templates</loc>
+        <lastmod>2024-04-15T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/text-align-new-templates-and-shaders</loc>
+        <lastmod>2024-09-27T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+      <url>
+        <loc>https://banger.show/updates/timeline-keyframe-easing-overlay</loc>
+        <lastmod>2026-03-05T00:00:00.000Z</lastmod>
+        <priority>0.8</priority>
+      </url>
+    
+    </urlset>

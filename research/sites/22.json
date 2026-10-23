@@ -1,0 +1,107 @@
+{
+  "id": "22",
+  "name": "Banger.Show",
+  "url": "https://banger.show/",
+  "category": "music_video",
+  "checked_at": "2026-10-23",
+  "summary": "面向音乐人的音频响应可视化与视频编辑工具，支持 2D/3D 场景、模板和同步歌词；另有免费短宣传片入口。未找到人物对口型或 Rap 人声生成的公开证据，未生成实测。",
+  "inputs": [
+    "已有音乐音轨；短宣传片入口支持 MP3、WAV",
+    "自有图片、视频与 3D 模型；可浏览 Sketchfab 模型",
+    "短宣传片可输入歌曲名、艺人名，上传 JPEG/PNG 封面并选择音频片段"
+  ],
+  "outputs": [
+    "音频响应可视化视频、同步歌词视频和音乐宣传素材（官网宣称）",
+    "免费短宣传片工具输出 9:16 竖屏 MP4，面向 Reels、TikTok、Shorts",
+    "完整编辑器可制作 2D/3D 场景视频；主页宣传 HDR 输出"
+  ],
+  "features": [
+    "将视觉属性映射到音频频段；波形、频谱、着色器与模板",
+    "关键帧、缓动、镜头控制、灯光、环境和视觉特效",
+    "从音轨生成歌词并按音乐同步显示（文字同步，不等于人物口型）",
+    "分享工程供他人查看或复制；官网称尚不支持实时协作",
+    "短宣传片工具在浏览器运行，无需账户，组合封面、文本、背景与音频片段"
+  ],
+  "pricing": {
+    "summary": "首页列 Free $0、Unlimited $15/月，并称年付可省 50%；未核验结账币种或年付总额。独立 /pricing 返回 410，官方导航指向首页 #pricing。",
+    "free_tier": "完整编辑器 Free：每日 10 次导出、设备端渲染、设备端导出长度不限，片尾带 Banger.Show 标识，AI 工具有限；另有无需账户的免费短宣传片工具。",
+    "plans": [
+      {
+        "name": "Free",
+        "amount": 0,
+        "currency": "$（页面未另明示币种）",
+        "billing_period": "free",
+        "notes": "每日 10 次导出；含全部模板和特效，片尾品牌标识。"
+      },
+      {
+        "name": "Unlimited",
+        "amount": 15,
+        "currency": "$（页面未另明示币种）",
+        "billing_period": "month_displayed",
+        "notes": "页面显示 /month，另称年付省 50%；后台云渲染、无限导出、无品牌、上传最大 1GB、工程分享与更多 AI 使用。未核验结账。"
+      }
+    ],
+    "source_url": "https://banger.show/#pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "本次首页、短宣传片正文与公开 sitemap 中未找到开发者 API 文档；不代表没有 API。",
+    "url": null
+  },
+  "limitations": [
+    "仅阅读公开页面与已有首页快照；未登录、付费、上传素材或运行生成。",
+    "未找到人物对口型、Rap 写词或 Rap 人声合成的公开证据；歌词显示和音频响应不能证明这些能力。",
+    "首页套餐写视频最长 60 分钟，但 FAQ 分述云渲染最长 30 分钟、桌面最长 1 小时；应按渲染方式核验。",
+    "短宣传片工具的音频建议小于 60MB、封面小于 10MB；页面未明确其最长片段秒数，播放器演示 15 秒不作为上限。",
+    "AI 额度仅写 limited/extensive，未见明确积分或次数；商业授权细则未核验。",
+    "独立价格路径 /pricing 返回 410 Gone，价格依据首页区块。"
+  ],
+  "best_for": "已有歌曲、希望制作节奏响应可视化、歌词版视频或封面型竖屏宣传片的音乐人；Rap 成品音轨也可作为输入，但人物演唱能力待核。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://banger.show/",
+      "title": "Banger.Show – Create Music Videos Online",
+      "kind": "official",
+      "local_path": "research/evidence/22/home.txt",
+      "supports": [
+        "可视化、2D/3D 编辑及歌词同步",
+        "Free/Unlimited 价格与功能",
+        "云端和桌面时长说明"
+      ]
+    },
+    {
+      "url": "https://banger.show/tools/music-video-maker",
+      "title": "Free Music Video Maker",
+      "kind": "official",
+      "local_path": "research/evidence/22/music-video-maker.txt",
+      "supports": [
+        "音频与封面输入、艺人文字与背景模板",
+        "免费免账户的浏览器工具、9:16 MP4",
+        "格式与文件大小建议；官方价格入口为首页 #pricing"
+      ]
+    },
+    {
+      "url": "https://banger.show/pricing",
+      "title": "Gone — pricing path",
+      "kind": "pricing",
+      "local_path": "research/evidence/22/pricing-gone.txt",
+      "supports": [
+        "该独立路径返回 410，不能作为可用价格正文"
+      ]
+    },
+    {
+      "url": "https://banger.show/sitemap.xml",
+      "title": "Banger.Show public sitemap",
+      "kind": "official",
+      "local_path": "research/evidence/22/sitemap.xml",
+      "supports": [
+        "发现官方音乐短视频、歌词与可视化页面路径；本次未发现 API 文档路径"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：可借鉴将免账户封面宣传片与完整可视化编辑器分成不同入口，以降低已有歌曲用户的首次使用成本。",
+    "推断：Rap 产品应明确区分音频响应、字幕歌词同步与人物嘴部同步，避免把音乐视频标签当作人物演唱能力证据。"
+  ]
+}

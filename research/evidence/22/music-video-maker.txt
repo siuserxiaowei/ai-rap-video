@@ -1,0 +1,170 @@
+Title: Free Music Video Maker
+
+URL Source: https://banger.show/tools/music-video-maker
+
+Markdown Content:
+[![Image 6: banger.show logo](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Fbangershow-logo.png&w=140&q=75&h=41)](https://banger.show/ "Home")
+*   [Get Started](https://banger.show/auth/sign-in)
+*   [Pricing](https://banger.show/#pricing)
+*   [Updates](https://banger.show/updates)
+*   [Visualizer](https://banger.show/music-visualizer)
+*   [Download](https://banger.show/download)
+
+[Home](https://banger.show/) / [Tools](https://banger.show/tools) / Music Video Maker
+
+# Free Music Video Maker
+
+### Create a short promo video from your song, cover art, text, and a background template for vertical social posts.
+
+[Audio 6](blob:http://localhost/38a857dd3535cb7ba9b52fa36ec8fad6)[Audio 7](blob:http://localhost/38a857dd3535cb7ba9b52fa36ec8fad6)[Audio 8](blob:http://localhost/38a857dd3535cb7ba9b52fa36ec8fad6)[Audio 9](blob:http://localhost/38a857dd3535cb7ba9b52fa36ec8fad6)[Audio 10](blob:http://localhost/38a857dd3535cb7ba9b52fa36ec8fad6)
+
+![Image 7](https://banger.show/tools/music-video-maker)
+
+0:00 / 0:15
+
+Video format 
+
+Audio file 
+
+Choose file
+
+ 
+
+Background video 
+
+Loading videos...
+
+Search videos
+
+Song name 
+
+Artist name 
+
+Artwork 
+
+Choose file
+
+ 
+
+Checking compatibility...
+
+## How to make a short music promo video
+
+Combine album art, artist text, audio, and a background template into a quick vertical MP4. No editor timeline needed.
+
+##### 1. Choose background
+
+Select a background video from the collection of professionally designed templates. Each template is optimized for social media and can be customized to match your style.
+
+##### 2. Add artist info
+
+Enter your artist name and song title. This information will be beautifully displayed in your video, helping to build your brand and make your content instantly recognizable.
+
+##### 3. Upload artwork
+
+Add your cover art or promotional image. This will be integrated into the video design, creating a cohesive visual identity for your music.
+
+##### 4. Add your music
+
+Upload your audio track and choose the section you want to feature in the promo clip.
+
+##### 5. Export
+
+Click export and get a vertical MP4 ready to share on Instagram Reels, TikTok, or YouTube Shorts.
+
+## Need an audio-reactive music visualizer?
+
+This page is for quick album-art promo clips. For spectrum effects, reactive templates, and full visualizer exports, use the music visualizer hub instead.
+
+[Explore music visualizers](https://banger.show/music-visualizer)
+
+## Frequently Asked Questions
+
+Everything you need to know about creating short artwork and audio promo videos with this quick tool.
+
+### What is a music video maker?
+
+A music video maker is a quick promo tool that combines your audio, album artwork, artist and song text, and a background video into a short MP4 clip for social posts.
+
+### What file formats are supported?
+
+For audio, we support MP3 and WAV files. For artwork, you can upload JPEG and PNG images. The final video is exported in MP4 format, optimized for social media platforms.
+
+### Is there a file size limit?
+
+Yes, audio files should be under 60MB, and artwork files should be under 10MB for optimal performance.
+
+### What video dimensions are supported?
+
+This quick maker exports vertical video (9:16 aspect ratio), a good fit for platforms like Instagram Reels, TikTok, and YouTube Shorts.
+
+### How long can my video be?
+
+The quick maker is designed for short promo clips. Upload your audio, select the section you want to feature, and export that clip.
+
+### Can I customize the video design?
+
+Yes, you can choose a background template, upload your artwork, add artist and song text, and trim the audio section used in the export.
+
+### Which social media platforms can I share my videos on?
+
+The vertical MP4 export is best suited for short-form channels such as Instagram Reels, TikTok, and YouTube Shorts.
+
+### Do I need to create an account to use the music video maker?
+
+No, you can create and download music videos without creating an account. The tool runs entirely in your browser.
+
+### Is the music video maker free to use?
+
+Yes, the quick music video maker is free to use for creating short promo clips from your audio and artwork.
+
+## Explore the collection of music video templates
+
+![Image 8: Wakyin's avatar](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ftestimonials%2Fwakyin.jpg&w=40&q=75&h=40)
+
+![Image 9: Effin's avatar](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ftestimonials%2Feffin.jpg&w=40&q=75&h=40)
+
+![Image 10: Jek's avatar](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ftestimonials%2Fjek.jpg&w=40&q=75&h=40)
+
+![Image 11: BVRNOUT's avatar](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ftestimonials%2Fbvrnout.jpg&w=40&q=75&h=40)
+
+![Image 12: SoDown's avatar](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ftestimonials%2Fsodown.jpg&w=40&q=75&h=40)
+
+Trusted by 1000+ Music Producers
+
+Create video
+
+[](https://banger.show/music-visualizer/song-demo/oscilloscope-visualizer "Oscilloscope template")[![Image 13: Spectre template](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fcdn.banger.show%2Fassets%2Ftemplates%2Fspectre%2Fspectre-landscape.jpg&w=357&q=75&h=201)](https://banger.show/music-visualizer/song-demo/spectre-visualizer "Spectre template")[![Image 14: Waveform template](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fcdn.banger.show%2Fprojects%2F67b0b91feb235813a2a922ce%2Fexport-67b0be09eb235813a2a9343b-thumbnail-square.jpg&w=357&q=75&h=201)](https://banger.show/music-visualizer/song-demo/waveform-visualizer "Waveform template")[![Image 15: Fractals template](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fcdn.banger.show%2Fassets%2Ftemplates%2Ffractals%2Ffractals-landscape-preview.jpg&w=357&q=75&h=201)](https://banger.show/music-visualizer/youtube-video/fractals-visualizer "Fractals template")
+
+[![Image 16: Turntable in the Gallery template](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fcdn.banger.show%2Fassets%2Ftemplates%2Fturntable-gallery%2Fturntable-gallery-landscape-preview.jpg&w=357&q=75&h=201)](https://banger.show/music-visualizer/release-video/turntable-in-the-gallery-visualizer "Turntable in the Gallery template")[![Image 17: iPhone template](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fcdn.banger.show%2Fassets%2Ftemplates%2Fiphone-audio-player%2Ftemplate-iphone-audio-player-landscape-preview.jpg&w=357&q=75&h=201)](https://banger.show/music-visualizer/instagram-story/iphone-audio-player-visualizer "iPhone template")[![Image 18: Trip template](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fcdn.banger.show%2Fassets%2Ftemplates%2Ftrip%2Ftemplate-trip-landscape-demo.jpg&w=357&q=75&h=201)](https://banger.show/music-visualizer/spotify-canvas/trip-visualizer "Trip template")[![Image 19: Release template](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fcdn.banger.show%2Fassets%2Ftemplates%2Frelease%2Ftemplate-release-landscape-demo.jpg&w=357&q=75&h=201)](https://banger.show/music-visualizer/release-video/release-visualizer "Release template")
+
+[![Image 20: Compact Disc template](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fcdn.banger.show%2Fassets%2Ftemplates%2Fcompact-disc%2Ftemplate-cd-landscape-demo.jpg&w=357&q=75&h=201)](https://banger.show/music-visualizer/release-video/compact-disc-visualizer "Compact Disc template")[![Image 21: CDJ-4000 template](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fcdn.banger.show%2Fassets%2Ftemplates%2Fcdj-4000%2Ftemplate-cdj-4000-landscape-demo.jpg&w=357&q=75&h=201)](https://banger.show/music-visualizer/instagram-story/cdj-4000-visualizer "CDJ-4000 template")[![Image 22: TV template](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fcdn.banger.show%2Fassets%2Ftemplates%2Ftv%2Ftemplate-tv-landscape-demo.jpg&w=357&q=75&h=201)](https://banger.show/music-visualizer/instagram-story/tv-visualizer "TV template")[![Image 23: Vinyl Player template](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fcdn.banger.show%2Fassets%2Ftemplates%2Fvinyl-player%2Ftemplate-vinyl-player-demo.jpg&w=357&q=75&h=201)](https://banger.show/music-visualizer/release-video/vinyl-player-visualizer "Vinyl Player template")
+
+[![Image 24: Audio Spectrum template](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fcdn.banger.show%2Fassets%2Ftemplates%2Faudio-spectrum%2Ftemplate-audio-spectrum-landscape-preview.jpg&w=357&q=75&h=201)](https://banger.show/music-visualizer/instagram-story/audio-spectrum-visualizer "Audio Spectrum template")[![Image 25: Track template](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fcdn.banger.show%2Fassets%2Ftemplates%2Ftrack%2Ftemplate-track-lanscape-preview.jpg&w=357&q=75&h=201)](https://banger.show/music-visualizer/release-video/track-visualizer "Track template")[![Image 26: Spaceship template](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fcdn.banger.show%2Fassets%2Ftemplates%2Fspaceship%2Fspaceship-landscape-preview.jpg&w=357&q=75&h=201)](https://banger.show/music-visualizer/youtube-video/spaceship-visualizer "Spaceship template")[![Image 27: Boombox template](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fcdn.banger.show%2Fassets%2Ftemplates%2Fboombox%2Fboombox-landscape-preview.jpg&w=357&q=75&h=201)](https://banger.show/music-visualizer/youtube-video/boombox-visualizer "Boombox template")
+
+[![Image 28: banger.show logo](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Fbangershow-logo.png&w=180&q=75&h=53)](https://banger.show/)
+
+## Product
+
+*   [Music Visualizers](https://banger.show/music-visualizer)
+*   [Lyric Videos](https://banger.show/lyric-videos)
+*   [Guides](https://banger.show/guides)
+*   [Spotify Canvas Maker](https://banger.show/spotify-canvas)
+*   [Tools](https://banger.show/tools)
+*   [Compare Alternatives](https://banger.show/compare)
+
+## Resources
+
+*   [Blog](https://banger.show/blog)
+
+## Social
+
+[](https://discord.gg/UVvPNF6AYA)[](https://x.com/bangershowapp)[](https://www.youtube.com/channel/UCbDyxpH4zzqHOrmrnTumpBA)[](https://www.instagram.com/bangershowapp/)[](https://www.tiktok.com/@banger.show)
+
+## Company
+
+*   [Privacy Policy](https://banger.show/privacy-policy)
+*   [Terms of Service](https://banger.show/terms)
+
+© 2026 «Banger.Show». All rights reserved.  
+Logo design by[Igor Klochkov](https://x.com/igor_kloch/?ref=banger.show)

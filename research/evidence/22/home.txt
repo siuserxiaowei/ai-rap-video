@@ -1,0 +1,220 @@
+Title: Banger.Show – Create Music Videos Online
+
+URL Source: https://banger.show/
+
+Markdown Content:
+## Create Epic Visuals for Your Music
+
+### Turn your tracks into videos with audio-reactive visuals, 3D scenes, and customizable templates.
+
+![Image 1: Wakyin's avatar](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ftestimonials%2Fwakyin.jpg&w=40&q=75&h=40)
+
+![Image 2: Effin photo](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ftestimonials%2Feffin.jpg&w=40&q=75&h=40)
+
+![Image 3: Jek's avatar](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ftestimonials%2Fjek.jpg&w=40&q=75&h=40)
+
+![Image 4: BVRNOUT photo](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ftestimonials%2Fbvrnout.jpg&w=40&q=75&h=40)
+
+![Image 5: SoDown's avatar](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ftestimonials%2Fsodown.jpg&w=40&q=75&h=40)
+
+Trusted by 1000+ Music Producers
+
+## You just finished a new song.What's next?
+
+What should I post to socials on release day?
+
+How do I create official visualizer for YouTube?
+
+How do I tease it to my audience before release?
+
+What should I use as a Spotify Canvas?
+
+## Powerful video editing made simple
+
+### Visualizers
+
+Variety of visualizers with customizable and automatable parameters.
+
+### 2D and 3D space
+
+Arrange elements in 2D or build a 3D scene with models, lights, and camera controls.
+
+### Videos and images
+
+Add your own videos and images, then position and animate them in 2D or 3D.
+
+### Audio reactivity
+
+Map visual properties to audio frequencies so they react to your music.
+
+### Keyframe animation
+
+Animate visual properties over time with keyframes and easing.
+
+### Lyric videos
+
+Generate lyrics from your track and style how they appear in sync with the music.
+
+### Shareable projects
+
+Share a project link with collaborators so they can open it in the editor.
+
+### Effects
+
+Apply effects to individual elements or the whole scene, from color adjustments to bloom and VHS.
+
+### HDR videos
+
+Stand out on TikTok or Instagram Reels with high contrast and vibrant colors.
+
+## Templates
+
+Start with a template and customize it for your music.
+
+## Audio-reactive elements
+
+Visualizers
+Show your track as a waveform, spectrum, or another audio-driven pattern.
+
+Shaders
+Add animated backgrounds and patterns, with properties you can customize and link to audio.
+
+## Add Images and Videos
+
+Mix 2D and 3D content to create engaging visuals.
+
+## Visual Effects
+
+Color correction, auto-focus, chromatic aberration, strobe, and more.
+
+## 3D Models
+
+### Easy Import
+
+Drag & Drop your model onto the timeline as if it were a video or image. Upload your models or browse thousands of 3D models from Sketchfab.
+
+### Move & Automate
+
+Customize your 3D model by changing its position, rotation, and scale. Select embedded animations for automatic playback. Use keyframes to animate movements.
+
+## Camera controls
+
+Animate with keyframes
+Move through your scene and set keyframes to create a camera path.
+
+Explore with fly mode
+Fly around your 3D scene with a first-person camera using the WASD keys.
+
+## Ambient Settings
+
+### Lights
+
+Add light sources to your scene and change their angle, color, and intensity. Each light source casts shadows on objects in a scene.
+
+### Environments
+
+You can change the mood of your visual with just a few clicks by changing the environment. Every environment has its lighting, gamma, and reflections.
+
+Turn on the light
+
+#### Here's what our early users are saying
+
+![Image 6: Effin photo](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ftestimonials%2Feffin.jpg&w=40&q=75&h=40)
+
+Effin Music Producer
+
+thank u for making a dope app!!!
+
+![Image 7: Kuhteeoh photo](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ftestimonials%2Fkuhteeoh.jpg&w=40&q=75&h=40)
+
+Kuhteeoh Music Producer
+
+I love this. It's the only and easiest app I've worked with so far for making videos for my songs on YouTube.
+
+![Image 8: BVRNOUT photo](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ftestimonials%2Fbvrnout.jpg&w=40&q=75&h=40)
+
+BVRNOUT Music Producer
+
+Fire app!! 🙌🏻🙌🏻
+
+![Image 9: Raucous photo](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ftestimonials%2Fraucous.jpg&w=40&q=75&h=40)
+
+Raucous Music Producer
+
+5/5 stars from me. thank you guys so much for making these visuals! i plan on using them all the time for my music.
+
+![Image 10: SHAMEFUL photo](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ftestimonials%2Fshameful.jpg&w=40&q=75&h=40)
+
+SHAMEFUL Music Producer
+
+Visuals are amazing, great investment thank you
+
+![Image 11: HUSKI photo](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ftestimonials%2Fhuski.jpg&w=40&q=75&h=40)
+
+HUSKI Music Producer & Label Manager
+
+Really enjoy the variation of visuals we can use for our music
+
+## All the tools, no paywall
+
+Upgrade for unlimited exports, background rendering and no branding.
+
+### Free
+
+$0
+
+No credit card required.
+
+*   10 exports per day
+*   Unlimited on-device export length
+*   High-quality exports
+*   On-device rendering
+*   Short Banger.Show logo at the end of videos
+*   All templates & effects
+*   Limited AI tools
+
+### Unlimited
+
+$15
+
+/ month
+
+Save 50% with yearly billing.
+
+*   Fast background cloud rendering
+*   Unlimited exports (no daily limits)
+*   No branding on any exports
+*   File uploads up to 1GB
+*   Videos up to 60 minutes
+*   Shareable projects
+*   AI-powered creation tools (extensive usage)
+
+#### Built by Bass Music Lovers
+
+### We're a small business based in Alicante, Spain
+
+![Image 12: Igor Samokhovets photo](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fcdn.banger.show%2Fassets%2Ftequila-funk-square-min.jpeg&w=300&q=75&h=300)
+
+#### Igor Samokhovets
+
+Software Engineer, Music Producer. Makes funky bass music as Tequila Funk.
+
+[![Image 13: spotify icon](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ficons%2Fspotify.svg&w=24&q=75&h=24)](https://open.spotify.com/artist/66PsDRGGiij2rHAK21GUEB)[![Image 14: soundcloud icon](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ficons%2Fsoundcloud.svg&w=24&q=75&h=24)](https://soundcloud.com/tequilafunks)
+
+![Image 15: Mark Beziaev photo](https://banger.show/api/image-optimizer?src=https%3A%2F%2Fbanger.show%2Ffounder-pics%2Fmark-beziaev.jpg&w=300&q=75&h=300)
+
+#### Mark Beziaev
+
+Software engineer and dubstep fan. Regular at bass music festivals.
+
+## Frequently Asked Questions
+
+We're trying to ship new features and improvements monthly. Sometimes a bit more often, sometimes a bit less. We announce new stuff on our[Updates](https://banger.show/updates)page.
+
+Real-time collaboration is not supported yet, but you can share your project with others by clicking on the "Share" button and copying the link. People with the link can view your project or duplicate it to their projects.
+
+Yes, you can create videos up to 60 minutes. Cloud renders up to 30 min, desktop up to 1 hour.
+
+##### Ready to get started?
+
+Elevate your visual content game today.
