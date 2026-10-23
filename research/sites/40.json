@@ -1,0 +1,147 @@
+{
+  "id": "40",
+  "name": "Rotor Videos",
+  "url": "https://rotorvideos.com/",
+  "category": "music_video",
+  "checked_at": "2026-10-24",
+  "summary": "以现有音乐与所选视频素材为输入，分析音轨后自动剪辑，提供音乐响应视觉风格、歌词同步和发行宣传视频。适合已有 Rap 音轨的视觉包装；本次没有人物说唱、自动口型或原创 Rap 音乐生成的证据。",
+  "inputs": [
+    "已有音乐/歌曲音轨",
+    "用户选择的视频片段与素材库片段",
+    "歌词、文字或宣传信息"
+  ],
+  "outputs": [
+    "自动剪辑的音乐视频",
+    "歌词同步视频",
+    "Spotify Canvas、Apple Music Album Motion、专辑封面视频",
+    "社交平台视频格式（依套餐）"
+  ],
+  "features": [
+    "分析音乐与所选片段并自动剪辑（首页供应商宣称）",
+    "1700 万以上视频素材库，下载价格含素材使用（首页供应商宣称）",
+    "150 多种视频风格、音乐响应效果与滤镜（首页供应商宣称）",
+    "歌词自动同步到音轨，并自动编辑（歌词页供应商宣称）",
+    "添加宣传文字、裁切与适配社交格式"
+  ],
+  "pricing": {
+    "summary": "年付 Streaming $119.88/年（折合 $9.99/月）、Video $179.88/年（折合 $14.99/月）、Pro $239.88/年（折合 $19.99/月），限单一艺人且自动续订。另售不失效积分；音乐视频 3 积分、歌词视频 4 积分，Premium Clips & Styles 另列 1 积分。",
+    "free_tier": "歌词产品页允许免费尝试/创建，仅在下载时付费；未确认免费下载、免费导出画质或水印条件。",
+    "plans": [
+      {
+        "name": "Artist Unlimited Streaming",
+        "amount": 119.88,
+        "currency": "USD",
+        "billing_period": "annual",
+        "notes": "年付折合 $9.99/月，自动续订、仅单一艺人。包括无限 Apple Music Album Motion、Spotify Canvas 和 Premium Clips & Styles；不含歌词、专辑封面、音乐视频及所有社交格式导出。"
+      },
+      {
+        "name": "Artist Unlimited Video",
+        "amount": 179.88,
+        "currency": "USD",
+        "billing_period": "annual",
+        "notes": "年付折合 $14.99/月，自动续订、仅单一艺人。包括无限歌词、专辑封面、音乐视频、社交格式导出和 Premium Clips & Styles；不含 Apple Music Album Motion 与 Spotify Canvas。"
+      },
+      {
+        "name": "Artist Unlimited Pro",
+        "amount": 239.88,
+        "currency": "USD",
+        "billing_period": "annual",
+        "notes": "年付折合 $19.99/月，自动续订、仅单一艺人。包括上述五类视频、社交格式导出和 Premium Clips & Styles。"
+      },
+      {
+        "name": "1 Credit",
+        "amount": 9.99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 1,
+        "notes": "积分不失效；Spotify Canvas 1、Apple Music Album Motion 2、Album Artwork Video 2、Music Video 3、Lyric Video 4；Premium Clips & Styles 另列 1。"
+      },
+      {
+        "name": "5 Credits",
+        "amount": 44.99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 5
+      },
+      {
+        "name": "10 Credits",
+        "amount": 79.99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 10
+      },
+      {
+        "name": "50 Credits",
+        "amount": 299.99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 50
+      }
+    ],
+    "source_url": "https://rotorvideos.com/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "本次读取的公开首页、歌词与价格页未找到公开 API 文档；企业入口存在不等于已确认 API。不能据此断言没有 API。",
+    "url": null
+  },
+  "limitations": [
+    "页面描述分析用户所选片段；未核实根据歌词或音乐语义自动搜索、选择素材。",
+    "音乐响应剪辑和歌词同步不能等同于生成式人物 Rap 表演、口型同步或生成原创说唱音轨。",
+    "歌词页标题提及转写，但正文主要说明歌词自动同步；转写语言、准确度与人工校正流程未核实。",
+    "免费尝试不等于免费下载；下载收费，免费预览的水印和画质未知。",
+    "年付折月不是逐月付款；三个订阅均限单一艺人。",
+    "首页依据 2026-10-23 快照；2026-10-24 补读歌词与价格页。未登录、生成或付款，效果与耗费未实测。"
+  ],
+  "best_for": "已完成 Rap/歌曲音轨，希望用素材剪辑、歌词与流媒体短视觉完成发行宣传的独立音乐人。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://rotorvideos.com/",
+      "title": "Rotor Videos ⏐ Creative Infrastructure for Modern Music Marketing",
+      "kind": "official",
+      "local_path": "research/evidence/40/homepage-20261023.txt",
+      "supports": [
+        "2026-10-23 首页旧快照，2026-10-24 复用",
+        "音乐与所选片段分析、自动剪辑",
+        "1700 万以上素材、150 多种风格、音乐响应效果、文字与裁切"
+      ]
+    },
+    {
+      "url": "https://rotorvideos.com/lyric-videos",
+      "title": "Transcribe & Sync Lyric Videos With AI",
+      "kind": "official",
+      "local_path": "research/evidence/40/lyric-videos-20261024.txt",
+      "supports": [
+        "歌词自动同步、自动编辑",
+        "免费尝试，仅下载时付费",
+        "企业 Plug-In 入口存在，但未提供已验证 API 文档"
+      ]
+    },
+    {
+      "url": "https://rotorvideos.com/pricing",
+      "title": "Pricing: Plans Built to Save You More",
+      "kind": "pricing",
+      "local_path": "research/evidence/40/pricing-20261024.txt",
+      "supports": [
+        "年付总额、折月金额、单一艺人与自动续订",
+        "积分包价格与积分不失效",
+        "各类视频与高级素材积分用量"
+      ]
+    },
+    {
+      "url": "https://rotorvideos.com/pricing",
+      "title": "Rotor pricing raw HTML: plan inclusion markers",
+      "kind": "pricing",
+      "local_path": "research/evidence/40/pricing-20261024.html",
+      "supports": [
+        "Jina 文本丢失未包含图标，原始 HTML 的 video-type-not-included 标记用于核对套餐范围",
+        "Streaming、Video、Pro 实际包含的视频类型及社交导出差异"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：可作为 Rap 音轨完成后的剪辑与发行包装环节，不宜列为已证实的人物说唱生成器。",
+    "推断：免费创建、按下载付费能降低试用门槛；持续发行单一艺人可考虑年付，多艺人需求应核对积分或企业方案。"
+  ]
+}
