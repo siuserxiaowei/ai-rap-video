@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-10-23",
+  "backend": "agent-reach / Jina Reader",
+  "home": {
+    "url": "https://rapvideoai.com/",
+    "origin": "/Users/xiaowei/.agent-reach/ai-rap-video-20261023/05.txt",
+    "reused": true,
+    "status": "valid_product_body"
+  },
+  "pricing": {
+    "url": "https://rapvideoai.com/pricing",
+    "request": "https://r.jina.ai/https://rapvideoai.com/pricing",
+    "status": "valid_pricing_body",
+    "temporary_file": "/tmp/rapvideoai-05-pricing.txt"
+  },
+  "api": {
+    "url": "https://rapvideoai.com/api",
+    "request": "https://r.jina.ai/https://rapvideoai.com/api",
+    "status": "404_reported_by_jina",
+    "temporary_file": "/tmp/rapvideoai-05-api.txt"
+  },
+  "generation_tested": false,
+  "paid": false
+}

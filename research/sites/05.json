@@ -1,0 +1,146 @@
+{
+  "id": "05",
+  "name": "RapVideoAI",
+  "url": "https://rapvideoai.com/",
+  "category": "rap",
+  "checked_at": "2026-10-23",
+  "summary": "面向 Hotel Lobby 等说唱热点的照片转短视频产品；官网宣称可由单人照或双人照生成原创歌词、节拍、演唱及口型同步，亦提供原曲复刻模式。未实测生成。",
+  "inputs": [
+    "两张单人照片，或一张双人合照；也支持 Solo 单人自拍",
+    "可选姓名、场合和主题文本",
+    "舞台、模型、分辨率、时长和画幅选项"
+  ],
+  "outputs": [
+    "含歌曲、演唱和口型同步的说唱短视频",
+    "付费 HD MP4 下载，无水印；默认 720p、12 秒、9:16，可选方形或横屏"
+  ],
+  "features": [
+    "双人轮流说唱、单人表演和友好 rap battle",
+    "原创歌曲模式与使用真实 Hotel Lobby 录音及动作的 Original remake 模式",
+    "主题语言影响说唱语言；供应商称约 2–3 分钟完成",
+    "积分礼赠链接；失败、超时或安全过滤时退还积分"
+  ],
+  "pricing": {
+    "summary": "按积分消费；12 秒 Standard 480p/720p 分别 5/10 积分，Fast 8/17，Pro 480p/720p/1080p 为 10/20/50，Ultra 为 17/37/93。时长增加费用，画幅不影响费用。套餐视频数按约 12 积分一条展示，与标准 10 积分口径有差异。",
+    "free_tier": "FAQ 明确否认 rap 视频免费；未发现免费生成额度。失败不扣费属于积分退款，并非免费视频。",
+    "plans": [
+      {
+        "name": "Basic",
+        "amount": 29.9,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 100,
+        "notes": "页面标示约 8 videos；未用积分每月失效"
+      },
+      {
+        "name": "Pro",
+        "amount": 49.9,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 200,
+        "notes": "页面标示约 16 videos"
+      },
+      {
+        "name": "Agency",
+        "amount": 99.9,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 480,
+        "notes": "页面标示约 40 videos"
+      },
+      {
+        "name": "Single",
+        "amount": 9.99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 12,
+        "notes": "页面标示 1 video；积分不失效"
+      },
+      {
+        "name": "Trio Pack",
+        "amount": 19.99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 36,
+        "notes": "页面标示 3 videos"
+      },
+      {
+        "name": "Crew Pack",
+        "amount": 49,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 120,
+        "notes": "页面标示 10 videos"
+      },
+      {
+        "name": "Studio Pack",
+        "amount": 99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 300,
+        "notes": "页面标示 25 videos"
+      },
+      {
+        "name": "Label Pack",
+        "amount": 199,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 720,
+        "notes": "页面标示 60 videos"
+      }
+    ],
+    "source_url": "https://rapvideoai.com/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "首页与价格页未找到开发者 API 文档；独立 Jina 探测 https://rapvideoai.com/api 返回 404。仅代表本次范围内未找到，不能推定服务没有 API。",
+    "url": "https://rapvideoai.com/api"
+  },
+  "limitations": [
+    "不支持上传自己的歌曲或录音；官网称不进行声音克隆",
+    "默认 12 秒，普通选项 5–15 秒，Ultra 最长 30 秒；更长需更多积分",
+    "Original remake 使用真实录音，官网提示平台可能静音、限制或移除",
+    "须有照片人物同意；照片清晰正面、光线良好更适合",
+    "首页约 $2.99/首、价格卡约 $3.74/条及 About $1 宣传口径并存；应以实际选型积分与结账页为准，未核验年付或结账金额"
+  ],
+  "best_for": "朋友、情侣双人热点说唱、生日祝福和社交短视频。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://rapvideoai.com/",
+      "title": "AI Rap Video Generator: Turn Your Photos Into a Rap Video",
+      "kind": "official",
+      "local_path": "research/evidence/05/home.jina.txt",
+      "supports": [
+        "双人输入与单人模式",
+        "原创/原曲模式、输出与时长",
+        "无免费 rap 视频及歌曲上传限制"
+      ]
+    },
+    {
+      "url": "https://rapvideoai.com/pricing",
+      "title": "RapVideo AI Pricing: Credit Packs & Plans, About $1 per Song",
+      "kind": "pricing",
+      "local_path": "research/evidence/05/pricing.jina.txt",
+      "supports": [
+        "月订阅与一次性积分包价格",
+        "模型/分辨率/时长计量",
+        "积分有效期与失败退款"
+      ]
+    },
+    {
+      "url": "https://rapvideoai.com/api",
+      "title": "API 路径探测返回 404",
+      "kind": "official",
+      "local_path": "research/evidence/05/api-404.jina.txt",
+      "supports": [
+        "所探测路径不可作为 API 文档；未找到公开 API"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：双人照片输入和预设舞台降低了朋友合拍的操作门槛，适合热点模板入口。",
+    "推断：套餐条数与标准模型积分的展示口径差异会增加成本理解难度，比较竞品时应统一分辨率和秒数。",
+    "本次仅阅读公开页面，未登录、付款或调用生成任务。"
+  ]
+}

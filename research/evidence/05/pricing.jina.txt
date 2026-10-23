@@ -1,0 +1,129 @@
+Title: RapVideo AI Pricing: Credit Packs & Plans, About $1 per Song
+
+URL Source: https://rapvideoai.com/pricing
+
+Markdown Content:
+Pricing
+
+## Buy credits once, or subscribe and save
+
+A standard song (720p, 12 seconds) is 10 credits; a better model, higher resolution or longer video costs more. Pack credits never expire; plans refresh every month for less per song.
+
+### Basic
+
+100 credits / month · 8 videos
+
+$29.90/mo
+
+≈ $3.74 / video
+
+### Pro
+
+Save 17%
+
+200 credits / month · 16 videos
+
+$49.90/mo
+
+≈ $3.12 / video
+
+### Agency
+
+Save 33%
+
+480 credits / month · 40 videos
+
+$99.90/mo
+
+≈ $2.50 / video
+
+*   HD video, no watermark
+*   Download & post anywhere
+*   Credits refresh monthly; unused ones expire
+*   Cancel anytime
+
+### Or buy credits once
+
+Trio Pack: 3 videos for $19.99, once. Basic: 8 videos a month for $29.90.
+
+### Single
+
+12 credits · 1 video
+
+$9.99
+
+≈ $9.99 / video
+
+Most popular
+
+### Trio Pack
+
+Save 33%
+
+36 credits · 3 videos
+
+$19.99
+
+≈ $6.66 / video
+
+Family pick
+
+### Crew Pack
+
+Save 51%
+
+120 credits · 10 videos
+
+$49
+
+≈ $4.90 / video
+
+One for everyone in the family, or 5 in Pro quality
+
+### Studio Pack
+
+Save 60%
+
+300 credits · 25 videos
+
+$99
+
+≈ $3.96 / video
+
+Best value
+
+### Label Pack
+
+Save 67%
+
+720 credits · 60 videos
+
+$199
+
+≈ $3.32 / video
+
+*   HD video, no watermark
+*   Download & post anywhere
+*   Credits never expire
+*   Failed renders are free
+
+Secure checkout by Stripe · Packs are one-time and never expire · Plans renew until canceled — cancel anytime in Billing
+
+## Every plan and pack can be shared
+
+Turn the credits you buy into a gift link. Each friend claims the same share and makes their own video.
+
+[How gifting works](https://rapvideoai.com/gift)
+
+Credits
+
+## What a video costs
+
+Credits per 12-second video. You choose the model, resolution, length and format before each render: length scales the price, and every format costs the same.
+
+| Model | 480p | 720p | 1080p |
+| --- | --- | --- | --- |
+| Standard Seedance 2.0 Mini | 5 credits | 10 credits | — |
+| Fast Seedance 2.0 Fast | 8 credits | 17 credits | — |
+| Pro Seedance 2.0 | 10 credits | 20 credits | 50 credits |
+| Ultra Seedance 2.5 | 17 credits | 37 credits | 93 credits |
