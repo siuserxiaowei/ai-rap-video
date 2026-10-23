@@ -1,0 +1,303 @@
+Title: Lipsync 2.0
+
+URL Source: https://api.veed.io/docs/api/post-v1-lipsync-2-0
+
+Markdown Content:
+Lipsync 2.0
+
+## Submit a Lipsync 2.0 job
+
+video
+
+audio
+
+produces
+
+video
+
+$0.07 per
+
+second
+
+Start an asynchronous job that re-renders a source video with the speaker's mouth matched to a new audio track — for dubbing, voice replacement, or a cleaner take.
+
+**Inputs**
+
+*   `video_url` — public URL of the source video, with one speaker. More than one speaker is not supported
+*   `audio_url` — public URL of the new audio track to lip-sync the video to. To translate a video, send the translated speech
+
+**What happens next**
+
+The job is **accepted immediately** — you get `202 Accepted` with a `job_id` and status `PROCESSING`. Rendering usually takes a minute or two; poll `GET /v1/lipsync-2.0/{job_id}` until the job is `COMPLETED` or `FAILED`.
+
+POST
+
+`/v1/lipsync-2.0`
+
+#### Headers
+
+`X-Veed-Store-IO`enum optional
+
+Set to `0` to not store this request's and response's bodies. They are then not available in your request logs for debugging.
+
+Accepts`0``1`Defaults to`"1"`.
+
+`X-Veed-Media-Expiration-Seconds`integer optional
+
+Number of seconds before the media URLs returned for this request expire. A value above the maximum is capped rather than rejected.
+
+At most 2592000.Defaults to`86400`.
+
+#### Request body[Lipsync20Input ↗](https://api.veed.io/reference/lipsync20-input)
+
+`audio_url`url required
+
+URL of the new audio track to lip-sync the video to.
+
+Must be an http(s) URL.
+
+`video_url`url required
+
+URL of the source video to dub.
+
+Must be an http(s) URL.
+
+#### Responses
+
+Show 6 nested field s
+
+`credits_charged`integer optional
+
+Credits charged for the job. Present once the job is COMPLETED and the final charge is known.
+
+`credits_estimated`integer optional
+
+Credits quoted before the job ran. Present only on the response that created the job. This is an estimate, not the price: the charged amount can be higher or lower.
+
+Failure information. Present once the job has FAILED.
+
+Show 3 nested field s
+
+`code`enum required
+
+Stable, machine-readable failure code for this job type.
+
+Accepts`input_validation``content_moderation``invalid_file``audio_too_long``transload_failed``generation_failed``timeout``insufficient_credits`
+
+Optional structured failure details.
+
+Show 3 nested field s
+
+`field`string optional
+
+Dotted path to the offending input, when applicable.
+
+`message`string required
+
+Human-readable explanation of this detail.
+
+`type`string required
+
+The category of this detail entry.
+
+`message`string required
+
+Human-readable failure message.
+
+`job_id`uuid required
+
+Stable identifier of the job and of the resource it produces.
+
+The produced resource. Present once the job is COMPLETED.
+
+Show 1 nested field
+
+Generated re-lip-synced video.
+
+Show 4 nested field s
+
+`content_type`string optional
+
+The mime type of the file.
+
+`file_name`string optional
+
+The name of the file.
+
+`file_size`integer optional
+
+The size of the file in bytes.
+
+`url`string required
+
+The URL where the file can be downloaded from.
+
+`status`enum required
+
+Current lifecycle state of the job.
+
+Accepts`PROCESSING``COMPLETED``FAILED``CANCELLED`
+
+`X-Request-ID`Correlation id for this request, adopted from the request or minted at the edge.
+
+401 Unauthorized[ErrorResponse ↗](https://api.veed.io/reference/error-response)
+
+Show 4 nested field s
+
+`code`enum required
+
+Accepts`invalid_request``unauthenticated``insufficient_tokens``permission_denied``not_found``conflict``rate_limited``unavailable``internal`
+
+Show 6 nested field s
+
+`field`string optional
+
+`message`string optional
+
+`reason`enum optional
+
+Accepts`api_key_expired``api_key_inactive``api_key_invalid``api_key_revoked``api_key_workspace_unavailable``insufficient_credits``job_not_found``model_access_required``oauth_token_invalid`
+
+`retry_after_ms`integer optional
+
+`type`string required
+
+`value`object optional
+
+`message`string required
+
+`request_id`string required
+
+`X-Request-ID`Correlation id for this request, adopted from the request or minted at the edge.
+
+402 Payment Required[ErrorResponse ↗](https://api.veed.io/reference/error-response)
+
+Show 4 nested field s
+
+`code`enum required
+
+Accepts`invalid_request``unauthenticated``insufficient_tokens``permission_denied``not_found``conflict``rate_limited``unavailable``internal`
+
+Show 6 nested field s
+
+`field`string optional
+
+`message`string optional
+
+`reason`enum optional
+
+Accepts`api_key_expired``api_key_inactive``api_key_invalid``api_key_revoked``api_key_workspace_unavailable``insufficient_credits``job_not_found``model_access_required``oauth_token_invalid`
+
+`retry_after_ms`integer optional
+
+`type`string required
+
+`value`object optional
+
+`message`string required
+
+`request_id`string required
+
+`X-Request-ID`Correlation id for this request, adopted from the request or minted at the edge.
+
+422 Unprocessable Entity[ErrorResponse ↗](https://api.veed.io/reference/error-response)
+
+Show 4 nested field s
+
+`code`enum required
+
+Accepts`invalid_request``unauthenticated``insufficient_tokens``permission_denied``not_found``conflict``rate_limited``unavailable``internal`
+
+Show 6 nested field s
+
+`field`string optional
+
+`message`string optional
+
+`reason`enum optional
+
+Accepts`api_key_expired``api_key_inactive``api_key_invalid``api_key_revoked``api_key_workspace_unavailable``insufficient_credits``job_not_found``model_access_required``oauth_token_invalid`
+
+`retry_after_ms`integer optional
+
+`type`string required
+
+`value`object optional
+
+`message`string required
+
+`request_id`string required
+
+`X-Request-ID`Correlation id for this request, adopted from the request or minted at the edge.
+
+429 Rate limit exceeded[ErrorResponse ↗](https://api.veed.io/reference/error-response)
+
+Show 4 nested field s
+
+`code`enum required
+
+Accepts`invalid_request``unauthenticated``insufficient_tokens``permission_denied``not_found``conflict``rate_limited``unavailable``internal`
+
+Show 6 nested field s
+
+`field`string optional
+
+`message`string optional
+
+`reason`enum optional
+
+Accepts`api_key_expired``api_key_inactive``api_key_invalid``api_key_revoked``api_key_workspace_unavailable``insufficient_credits``job_not_found``model_access_required``oauth_token_invalid`
+
+`retry_after_ms`integer optional
+
+`type`string required
+
+`value`object optional
+
+`message`string required
+
+`request_id`string required
+
+`Retry-After`Seconds until the rate limit resets.
+
+`X-RateLimit-Class`The rate-limit class that was hit (read, mutation, ai-generation).
+
+`X-RateLimit-Limit`Request budget for the matched class.
+
+`X-RateLimit-Remaining`Remaining requests in the current window.
+
+`X-RateLimit-Reset`Unix time (seconds) when the budget resets.
+
+`X-Request-ID`Correlation id for this request, adopted from the request or minted at the edge.
+
+500 Internal Server Error[ErrorResponse ↗](https://api.veed.io/reference/error-response)
+
+Show 4 nested field s
+
+`code`enum required
+
+Accepts`invalid_request``unauthenticated``insufficient_tokens``permission_denied``not_found``conflict``rate_limited``unavailable``internal`
+
+Show 6 nested field s
+
+`field`string optional
+
+`message`string optional
+
+`reason`enum optional
+
+Accepts`api_key_expired``api_key_inactive``api_key_invalid``api_key_revoked``api_key_workspace_unavailable``insufficient_credits``job_not_found``model_access_required``oauth_token_invalid`
+
+`retry_after_ms`integer optional
+
+`type`string required
+
+`value`object optional
+
+`message`string required
+
+`request_id`string required
+
+`X-Request-ID`Correlation id for this request, adopted from the request or minted at the edge.
+
+## Guides

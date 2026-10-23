@@ -1,0 +1,832 @@
+Title: VEED – AI Video Creation Platform | Idea to Video Workflow
+
+URL Source: https://www.veed.io/
+
+Markdown Content:
+[Finally, AI video creation for social](https://www.veed.io/workspaces?source=homepage)
+
+[Veed](https://www.veed.io/)
+*   Create with AI
+
+Create with AI
+
+Generate videos, voices, avatars and images from a simple prompt. No filming, no studio - just type and create.
+
+[![Image 37: Finally, AI video creation for social](https://cdn-site-assets.veed.io/cdn-cgi/image/width=640,quality=75,format=auto/org_1712_whats_new_82f8ce65b9/org_1712_whats_new_82f8ce65b9.webp)](https://www.veed.io/workspaces?locale=en&source=homepage) 
+
+AI Video
+
+    *   [AI Video Generator](https://www.veed.io/tools/ai-video)
+    *   [Text to Video](https://www.veed.io/tools/ai-video/text-to-video)
+    *   [VideoGPT](https://www.veed.io/tools/video-gpt)
+    *   [Image to Video](https://www.veed.io/tools/image-to-video-ai)
+    *   [AI Video Editor](https://www.veed.io/tools/ai-video/ai-video-editor)
+    *   [AI Clip Generator](https://www.veed.io/tools/auto-video-editor/ai-clip-generator)
+    *   [AI Script Generator](https://www.veed.io/tools/script-generator)
+
+AI Avatars & Lip Sync
+
+    *   [AI Avatars](https://www.veed.io/tools/ai-avatar)
+    *   [AI Lip Sync](https://www.veed.io/tools/lip-sync-api)
+    *   [Eye Contact AI](https://www.veed.io/tools/eye-tracking-software/eye-contact-ai)
+    *   [Talking Photo](https://www.veed.io/tools/ai-animation/talking-photo)
+
+AI Voice & Audio
+
+    *   [AI Voice Generator](https://www.veed.io/tools/text-to-speech-video/ai-voice-generator)
+    *   [AI Voice Cloning](https://www.veed.io/tools/ai-voice-cloning)
+    *   [Text to Speech](https://www.veed.io/tools/text-to-speech-video)
+    *   [AI Music Generator](https://www.veed.io/tools/ai-music-generator)
+    *   [AI Voice Cleaner](https://www.veed.io/tools/ai-audio-enhancer/ai-voice-cleaner)
+    *   [Remove Background Noise from Audio](https://www.veed.io/tools/remove-background-noise-from-audio)
+    *   [Remove Background Noise from Video](https://www.veed.io/tools/remove-background-noise-from-video)
+
+AI Image
+
+    *   [AI Image Generator](https://www.veed.io/tools/ai-image-generator)
+    *   [AI Image Editor](https://www.veed.io/tools/ai-image-editor)
+    *   [AI Background Remover](https://www.veed.io/tools/ai-background-remover)
+    *   [Image Upscaler](https://www.veed.io/tools/image-upscaler)
+    *   [AI Art Generator](https://www.veed.io/tools/ai-image-generator/ai-art-generator)
+
+*   [Ads & templates](https://www.veed.io/create)
+
+Ads & templates
+
+Make scroll-stopping video ads in minutes. Start from a template, customize for any platform and scale what works.
+
+[Explore all](https://www.veed.io/create) 
+
+Make Ads
+
+    *   [Video Ad Maker](https://www.veed.io/create/video-ad-maker)
+    *   [AI Ad Generator](https://www.veed.io/tools/ai-ad-generator)
+    *   [AI UGC Ads](https://www.veed.io/tools/ai-video/ai-ugc)
+    *   [AI Reel Generator](https://www.veed.io/tools/ai-video/ai-reel-generator)
+
+Templates
+
+    *   [Video Templates](https://www.veed.io/asset-library/templates)
+    *   [Ad Templates](https://www.veed.io/templates/ads)
+    *   [Intro Maker](https://www.veed.io/create/intro-maker)
+    *   [Social Banner Maker](https://www.veed.io/create/social-banners)
+
+By Platform
+
+    *   [Instagram Video Maker](https://www.veed.io/create/instagram-video-maker)
+    *   [TikTok Video Maker](https://www.veed.io/tools/video-editor/tiktok-video-editor)
+    *   [YouTube Video Maker](https://www.veed.io/create/youtube-video-maker)
+    *   [Repurpose Video](https://www.veed.io/tools/repurpose-video)
+
+Scale & Workflow
+
+    *   [Fabric API](https://www.veed.io/ai/fabric-1-0-api)
+    *   [VEED for Teams](https://www.veed.io/enterprise)
+    *   [Video APIs](https://www.veed.io/api)
+
+*   [Tools](https://www.veed.io/tools)
+
+Tools
+
+Everything you need to edit, convert, subtitle and transcribe video - fast, free to try and right in your browser.
+
+[Explore all](https://www.veed.io/tools) 
+
+Edit Video
+
+    *   [Video Editor](https://www.veed.io/tools/video-editor)
+    *   [Video Compressor](https://www.veed.io/tools/video-compressor)
+    *   [Video Cutter](https://www.veed.io/tools/video-cutter)
+    *   [Video Joiner](https://www.veed.io/tools/video-joiner)
+    *   [Video Enhancer](https://www.veed.io/tools/video-enhancer)
+    *   [Video Background Remover](https://www.veed.io/tools/video-background-remover)
+    *   [Add Text to Video](https://www.veed.io/tools/add-text-to-video)
+    *   [Add Audio to Video](https://www.veed.io/tools/add-audio-to-video)
+    *   [Add Photo to Video](https://www.veed.io/tools/add-photo-to-video)
+    *   [Video Player](https://www.veed.io/tools/video-player)
+
+Convert
+
+    *   [Video Converter](https://www.veed.io/convert/video-converter)
+    *   [MP4 to MP3](https://www.veed.io/convert/mp4-to-mp3)
+    *   [MP3 Converter](https://www.veed.io/convert/mp3-converter)
+    *   [GIF Maker](https://www.veed.io/create/gif-maker)
+
+Subtitles & Translation
+
+    *   [Auto Subtitle Generator](https://www.veed.io/tools/auto-subtitle-generator-online)
+    *   [Add Subtitles](https://www.veed.io/tools/add-subtitles)
+    *   [Video Caption Generator](https://www.veed.io/tools/auto-subtitle-generator-online/video-caption-generator)
+    *   [Video Translator](https://www.veed.io/tools/video-translator)
+    *   [Dubbing AI](https://www.veed.io/tools/voice-dubber/ai-dubbing)
+
+Transcribe & Record
+
+    *   [Audio to Text](https://www.veed.io/tools/audio-to-text)
+    *   [Video to Text](https://www.veed.io/tools/video-to-text)
+    *   [Transcribe YouTube Video](https://www.veed.io/tools/video-to-text/transcribe-youtube-video)
+    *   [Screen Recorder](https://www.veed.io/tools/screen-recorder)
+    *   [Webcam Recorder](https://www.veed.io/tools/webcam-recorder)
+    *   [Teleprompter](https://www.veed.io/tools/teleprompter)
+    *   [Transcription](https://www.veed.io/tools/transcription)
+
+*   [Enterprise](https://www.veed.io/contact-sales)
+*   [API](https://api.veed.io/)
+*   [Pricing](https://www.veed.io/pricing)
+
+[Login](https://www.veed.io/login?locale=en&source=homepage)[Sign Up](https://www.veed.io/signup?locale=en&source=homepage)
+
+1500+5 star reviews
+
+# AI video creation, made for social
+
+Imagine it. Generate it. Brand it. AI videos worth posting, in minutes.
+
+Create AI video AI Edit
+
+Character
+
+Clone yourself![Image 38: Emma](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/f8d26848-0b24-41db-98a0-35e3f8062d6f.png)![Image 39: Halley](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/bc8170a8-ec16-45cd-a450-02615e206573.png)![Image 40: Vicky](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/1e04275f-92ce-4ece-b786-8699e14359f5.png)![Image 41: Charlie](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/b250fa7d-41e7-4046-aa5e-106caaa8806e.png)![Image 42: Archie](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/304940db-e875-46e4-ab3d-43a581dc6762.png)![Image 43: Tony](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/7b76f7b8-b493-41b6-b665-8ea105f3f436.png)![Image 44: Oliver](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/6118e32c-f161-41a6-956f-acbf942661e4.png)![Image 45: Dina](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/9a4d3208-51f9-4b38-971a-894d8ee5c37c.png)![Image 46: Liam](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/29e03288-6775-446b-8f07-e1d4cb42febe.png)![Image 47: Matt](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/d288d43b-4296-4e39-aa9a-9a3d87483e86.png)![Image 48: Kyoko](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/15bb254f-cdbf-4773-90f0-795115112e73.png)![Image 49: Ted](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/5eda8722-2294-408e-ba18-c8c2504fc17f.png)![Image 50: Andrew](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/c8f6d8a3-2a14-49ec-8aa3-0aa787f36d79.png)![Image 51: Vanessa](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/cc30a5b7-1559-4336-ae36-527874a1e2eb.jpg)![Image 52: Dan](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/8dbaef99-85bd-4ac0-b71f-6e95a26987e7.png)![Image 53: Madison](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/e3b8657a-d62f-4571-a9b7-5530d43c0898.png)![Image 54: Hope](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/4c41720e-1a64-426e-bf99-afb7538f3db5.png)![Image 55: Henry](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/50ad0c52-a518-4cf7-8315-018ebe79671c.png)![Image 56: Sara](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/6c9acdc7-8872-4f25-8d62-d90cee8fefcd.png)![Image 57: Emily](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/440afe22-ac60-472f-9d0d-0272db8f8729.png)![Image 58: Eryn](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/90432ba5-7d14-4a94-816f-c3efe18fde74.png)![Image 59: Joe](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/0a224a26-e96b-4fa0-a0b1-cc9340427318.png)![Image 60: Cassidy](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/8f5ee232-7c09-4c05-be8f-b3d5b9322fb2.png)![Image 61: Ran](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/b391d6a9-038f-4f6c-81ab-19220dae632c.png)![Image 62: Viraj](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/492c63aa-c081-4def-a6b6-df360b334c6b.png)![Image 63: June](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/568df88d-840f-4241-99f4-1fcf60203b5f.png)![Image 64: Maya](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/51eaec18-4e6d-4a72-8e4b-e208821a5310.png)![Image 65: Julie](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/46bd3ae8-0e6e-474c-b3fe-0afa0f5c2cf7.png)![Image 66: Linda](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/24ed3357-02fd-4667-bab4-811801992dd6.png)![Image 67: Beatrice](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/fdff0ea7-cc03-46ec-872a-1756ba5777cb.png)![Image 68: Chloe](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/6da52392-0d64-4f2c-af27-18db4e92358f.png)![Image 69: Andy](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/ca4d5a59-a53c-41c0-a58d-26b86cc7f946.png)![Image 70: Mahmoud](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/9b7a4392-86d7-4e69-aa61-c469ae2455d7.png)![Image 71: Tamsim](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/b801f5ef-09b5-4602-88b6-bc30b4c74ed9.png)![Image 72: Jana](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/b92457dd-91a5-4f0c-b54b-842140f5208c.png)![Image 73: Jessa](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/10bad820-6dc3-4fb5-9cb1-9a376ffc44b8.png)![Image 74: Milan](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/144f64a6-5682-49dc-81ba-f944c7bf2a50.png)![Image 75: Drew](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/1a09e302-f332-4a8b-90b2-49bbdcac39d5.png)![Image 76: Walter](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/4cf6d064-a4d5-4b46-959a-8b3f9809b503.png)![Image 77: Ana](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/079a4f52-85d0-44cd-bc04-864989febb47.png)![Image 78: Jon](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/2aa240e9-e054-49af-b46f-d9aabb2e7f37.png)![Image 79: Paige](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/6982a309-90e7-4a9d-9ed0-f8fd2916a845.png)![Image 80: Veda](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/3cf2dc8e-605f-4bdf-a804-8f990a811922.png)![Image 81: Lucas](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/edf83bb8-8e04-4b9f-a922-387338f6d606.png)![Image 82: Owen](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/14ea8df1-5838-445b-a24b-d999516b2fba.png)![Image 83: Bill](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/ee88b12c-b0b2-4a49-b029-fbc4ef870b40.png)![Image 84: Natalie](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/a06cf804-11e6-42f0-9a60-e74cc4ea07aa.png)![Image 85: Talia](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/1646b206-6d96-43e3-82c9-a5e4817af4aa.png)![Image 86: Gracie](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/d2173da4-818f-45d0-b45f-aafd8f5ad87f.png)![Image 87: Steve](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/681de747-253c-4294-82b2-23161400a82e.png)![Image 88: Sam](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/7ebc59f6-7979-46a1-8575-6795ba8027e9.png)![Image 89: Chris](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/54f2d8cb-8a9e-4db0-bd01-06f543246dbe.png)![Image 90: Verity](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/0461fb7a-1807-4d40-be0e-9c04fd55cc49.png)![Image 91: Jason](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/092bff1e-9e28-48b3-be86-bf9585a4288a.png)![Image 92: Emjay](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/86d646a9-02f1-494c-aef7-db48c91a4021.png)![Image 93: Cal](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/2b637d3b-34f0-44c8-8690-9267c0644ac2.png)![Image 94: Mo](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/69e7f038-91a7-42d0-bf45-6404da02dab0.png)![Image 95: John](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/9d519f4f-54c1-4e57-a0fa-7451edef81b0.png)![Image 96: Sapphire](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/116ac8d9-23de-4cd0-9a55-1c36d0ef122f.png)![Image 97: Rick](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/1c58f23f-a776-43fe-85af-e61282891de2.png)![Image 98: Nicole](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/d18a8c50-c91e-4710-9373-d1285e9f8870.png)![Image 99: Ethan](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/8b002ffc-ea2d-40b0-a9da-f5fd2e134d64.png)![Image 100: Samson](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/b441d479-d3e6-4af7-a895-6043fe9d15aa.png)![Image 101: David](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/4c20e0f3-3afb-466b-b30b-364ad211fbca.png)![Image 102: Kyle](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/dcd229e3-e23d-4ebb-af9e-066e0143f8f9.png)![Image 103: Edward](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/5b3edfd9-c3a4-4c96-9c11-7a13104b6057.png)![Image 104: Jack](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/2fe875f6-af80-40bd-87f0-bf0aee79cdd6.png)![Image 105: Olivia](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/9773da5c-d8fb-4693-85ad-52e28e51a114.png)![Image 106: Mary](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/b7f2c5f4-20e7-4d9b-8558-97984457a067.png)![Image 107: Felix](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/9ae4815e-eee2-47aa-ac0a-61407e5f4b19.png)![Image 108: Elijah](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/4ea4c566-18a6-426b-92ea-5e4f7f099177.png)![Image 109: Varsha](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/fce43935-2b99-460c-ad4d-8b7bdae4e8fc.png)![Image 110: Abi](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/1b80b9dd-1a13-4c10-96e9-0aa84b88b7fd.png)![Image 111: Tay](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/7ae788a3-bc71-43f9-92ad-4f34d9550d2d.png)![Image 112: Adam](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/c93d953a-697f-4ee6-831a-19f584d0529d.png)![Image 113: Peter](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/a546ef83-df9a-45bf-b031-ad107fbe8b4b.png)![Image 114: Alexis](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/b919ed4e-33fe-416c-9443-b86198840921.png)![Image 115: Brian](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/0e92b1f3-e55f-47a0-a44c-5e7c6979df3f.png)![Image 116: Zara](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/6705bdfb-c82a-48a3-b179-49f1005af768.jpg)![Image 117: Brielle](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/c229f4ff-08be-4358-aa9d-834a87d8a6c9.jpg)![Image 118: Nichelia](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/c6f6b752-9ad3-4396-8766-341dd2d1f628.png)![Image 119: Laura](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/9958d31e-d788-4f5f-880b-a84a85f46ecc.png)![Image 120: Aurora](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/6707407b-8540-4601-82a5-b4f5fe76e3a4.png)![Image 121: Kiran](https://cdn-user.veed.io/cdn-cgi/image/width=400,height=533,fit=cover,gravity=top,format=png/image/d0e9302b-0236-4734-b557-5a1eb5708852.png)
+
+[Video 13](https://cdn-site-assets.veed.io/explainer_f6002e993a_93dbb828aa/explainer_f6002e993a_93dbb828aa.webm)
+
+Explainer
+
+[Video 14](https://cdn-site-assets.veed.io/product_demo_3eedc2eb2b/product_demo_3eedc2eb2b.webm)
+
+Product Demo
+
+[Video 15](https://cdn-site-assets.veed.io/ad_a6752c3624/ad_a6752c3624.webm)
+
+Ad
+
+[Video 16](https://cdn-site-assets.veed.io/testimonial_0c0ce3bb84_3b7b09718d/testimonial_0c0ce3bb84_3b7b09718d.webm)
+
+Testimonials
+
+[Video 17](https://cdn-site-assets.veed.io/thought_leadership_f9c3270c7c_7c3a3e3298/thought_leadership_f9c3270c7c_7c3a3e3298.webm)
+
+Thought Leadership
+
+Previous example Next example
+
+Powering millions of teams globally
+
+![Image 122: Amazon logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=256,quality=100,format=auto/Amazon_c72e6b68ae/Amazon_c72e6b68ae.png)
+
+![Image 123: Visa logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=128,quality=100,format=auto/Visa_824fad0f68/Visa_824fad0f68.png)
+
+![Image 124: NBCUniversal logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=360,quality=100,format=auto/NBC_Universal_53e51a3a25/NBC_Universal_53e51a3a25.png)
+
+![Image 125: Google logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=256,quality=100,format=auto/Google_191e6eaa4b/Google_191e6eaa4b.png)
+
+![Image 126: Merck logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=256,quality=100,format=auto/Merck_f31b3e1af8/Merck_f31b3e1af8.png)
+
+![Image 127: UBS logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=256,quality=100,format=auto/UBS_cb5db0129c/UBS_cb5db0129c.png)
+
+![Image 128: Netflix logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=256,quality=100,format=auto/Netflix_b3b097a6dd/Netflix_b3b097a6dd.png)
+
+![Image 129: Pentax logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=256,quality=100,format=auto/Pentax_361ebf32f7/Pentax_361ebf32f7.png)
+
+![Image 130: Venture Foods logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=360,quality=100,format=auto/Venture_Foods_26965b4b3b/Venture_Foods_26965b4b3b.png)
+
+![Image 131: P&G logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=128,quality=100,format=auto/P_and_G_e0add370a9/P_and_G_e0add370a9.png)
+
+![Image 132: BBC logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=256,quality=100,format=auto/BBC_bc7cf3467c/BBC_bc7cf3467c.png)
+
+![Image 133: Target logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=256,quality=100,format=auto/Target_a82015d452/Target_a82015d452.png)
+
+![Image 134: Meta logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=256,quality=100,format=auto/Meta_e47b5e487a/Meta_e47b5e487a.png)
+
+![Image 135: Amazon logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=256,quality=100,format=auto/Amazon_c72e6b68ae/Amazon_c72e6b68ae.png)
+
+![Image 136: Visa logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=128,quality=100,format=auto/Visa_824fad0f68/Visa_824fad0f68.png)
+
+![Image 137: NBCUniversal logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=360,quality=100,format=auto/NBC_Universal_53e51a3a25/NBC_Universal_53e51a3a25.png)
+
+![Image 138: Google logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=256,quality=100,format=auto/Google_191e6eaa4b/Google_191e6eaa4b.png)
+
+![Image 139: Merck logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=256,quality=100,format=auto/Merck_f31b3e1af8/Merck_f31b3e1af8.png)
+
+![Image 140: UBS logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=256,quality=100,format=auto/UBS_cb5db0129c/UBS_cb5db0129c.png)
+
+![Image 141: Netflix logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=256,quality=100,format=auto/Netflix_b3b097a6dd/Netflix_b3b097a6dd.png)
+
+![Image 142: Pentax logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=256,quality=100,format=auto/Pentax_361ebf32f7/Pentax_361ebf32f7.png)
+
+![Image 143: Venture Foods logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=360,quality=100,format=auto/Venture_Foods_26965b4b3b/Venture_Foods_26965b4b3b.png)
+
+![Image 144: P&G logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=128,quality=100,format=auto/P_and_G_e0add370a9/P_and_G_e0add370a9.png)
+
+![Image 145: BBC logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=256,quality=100,format=auto/BBC_bc7cf3467c/BBC_bc7cf3467c.png)
+
+![Image 146: Target logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=256,quality=100,format=auto/Target_a82015d452/Target_a82015d452.png)
+
+![Image 147: Meta logo](https://cdn-site-assets.veed.io/cdn-cgi/image/width=256,quality=100,format=auto/Meta_e47b5e487a/Meta_e47b5e487a.png)
+
+## Generate videos that look like your brand,not AI
+
+[[Video 18](https://www.veed.io/) Generate Generate videos in minutes.Turn any idea into a video worth posting — no camera needed](https://www.veed.io/tools/ai-video)[![Image 148: Keep people watching.](https://cdn-site-assets.veed.io/cdn-cgi/image/width=1536,quality=75,format=auto/bento_subtitles_a74f84eb52/bento_subtitles_a74f84eb52.webp) Subtitles Keep people watching.The best subtitles on the internet — designed to make your videos unskippable.](https://www.veed.io/tools/auto-subtitle-generator-online)[![Image 149: Make every video look like your brand.](https://cdn-site-assets.veed.io/cdn-cgi/image/width=1536,quality=75,format=auto/bento_brand_b3149f7ac1/bento_brand_b3149f7ac1.webp) Brand Make every video look like your brand.Your colours, fonts, logos and voice — applied instantly, every time.](https://www.veed.io/ai/brand-kit)
+
+[[Video 19](https://www.veed.io/) Generate Generate videos in minutes.Turn any idea into a video worth posting — no camera needed](https://www.veed.io/tools/ai-video)[![Image 150: Keep people watching.](https://cdn-site-assets.veed.io/cdn-cgi/image/width=1536,quality=75,format=auto/bento_subtitles_a74f84eb52/bento_subtitles_a74f84eb52.webp) Subtitles Keep people watching.The best subtitles on the internet — designed to make your videos unskippable.](https://www.veed.io/tools/auto-subtitle-generator-online)[![Image 151: Make every video look like your brand.](https://cdn-site-assets.veed.io/cdn-cgi/image/width=1536,quality=75,format=auto/bento_brand_b3149f7ac1/bento_brand_b3149f7ac1.webp) Brand Make every video look like your brand.Your colours, fonts, logos and voice — applied instantly, every time.](https://www.veed.io/ai/brand-kit)
+
+## Generate feed-ready videos that get your business seen
+
+[Video 20](https://cdn-site-assets.veed.io/editor_promo_video_6febbb1dd3/editor_promo_video_6febbb1dd3.mp4)
+
+“
+
+VEED is a powerful tool: I created my first video with a template within 30 minutes - but it looked like it took 3 hours to make.
+
+![Image 152: Adam Harrison](https://cdn-site-assets.veed.io/Testimonial_Adam_4b21fbe988/Testimonial_Adam_4b21fbe988.png)
+
+Adam Harrison
+
+VP of Marketing,  
+Weavr
+
+“
+
+With VEED I didn't need 15 tutorials - I jumped straight in and started editing.
+
+![Image 153: Gwenne Wilcox](https://cdn-site-assets.veed.io/gwenne_wilcox_eb933e4dd5/gwenne_wilcox_eb933e4dd5.png)
+
+Gwenne Wilcox
+
+Founder,  
+Brand Brainery
+
+“
+
+Before it took us weeks to do one video - with VEED it takes hours.
+
+![Image 154: Andy Hargreaves](https://cdn-site-assets.veed.io/Testimonial_Andy_25924d653f/Testimonial_Andy_25924d653f.png)
+
+Andy Hargreaves
+
+Videographer,  
+CurrentBody
+
+“
+
+I found VEED at the right time: if you're making UGC ads and not using Eye Contact Correction and Noise Reduction on VEED you're missing out on ROI.
+
+![Image 155: Sebastian Schurgers](https://cdn-site-assets.veed.io/Testimonial_Sebastian_6937539a79/Testimonial_Sebastian_6937539a79.png)
+
+Sebastian Schurgers
+
+Head of Growth Marketing,  
+Gronda
+
+“
+
+You can go beyond chopping things. VEED actually makes my videos look great.
+
+![Image 156: Michael Glover](https://cdn-site-assets.veed.io/Testimonial_Michael_5c9359cc27/Testimonial_Michael_5c9359cc27.png)
+
+Michael Glover
+
+Demand Gen Manager,  
+ConvertFlow
+
+“
+
+The first four videos i created with VEED got over 40,000 impressions on LinkedIn.
+
+![Image 157: Travis Tyler](https://cdn-site-assets.veed.io/Testimonial_Travis_eb79bde37d/Testimonial_Travis_eb79bde37d.png)
+
+Travis Tyler
+
+Senior Content Producer,  
+PandaDoc
+
+“
+
+VEED is a powerful tool: I created my first video with a template within 30 minutes - but it looked like it took 3 hours to make.
+
+![Image 158: Adam Harrison](https://cdn-site-assets.veed.io/Testimonial_Adam_4b21fbe988/Testimonial_Adam_4b21fbe988.png)
+
+Adam Harrison
+
+VP of Marketing,  
+Weavr
+
+“
+
+With VEED I didn't need 15 tutorials - I jumped straight in and started editing.
+
+![Image 159: Gwenne Wilcox](https://cdn-site-assets.veed.io/gwenne_wilcox_eb933e4dd5/gwenne_wilcox_eb933e4dd5.png)
+
+Gwenne Wilcox
+
+Founder,  
+Brand Brainery
+
+“
+
+Before it took us weeks to do one video - with VEED it takes hours.
+
+![Image 160: Andy Hargreaves](https://cdn-site-assets.veed.io/Testimonial_Andy_25924d653f/Testimonial_Andy_25924d653f.png)
+
+Andy Hargreaves
+
+Videographer,  
+CurrentBody
+
+“
+
+I found VEED at the right time: if you're making UGC ads and not using Eye Contact Correction and Noise Reduction on VEED you're missing out on ROI.
+
+![Image 161: Sebastian Schurgers](https://cdn-site-assets.veed.io/Testimonial_Sebastian_6937539a79/Testimonial_Sebastian_6937539a79.png)
+
+Sebastian Schurgers
+
+Head of Growth Marketing,  
+Gronda
+
+“
+
+You can go beyond chopping things. VEED actually makes my videos look great.
+
+![Image 162: Michael Glover](https://cdn-site-assets.veed.io/Testimonial_Michael_5c9359cc27/Testimonial_Michael_5c9359cc27.png)
+
+Michael Glover
+
+Demand Gen Manager,  
+ConvertFlow
+
+“
+
+The first four videos i created with VEED got over 40,000 impressions on LinkedIn.
+
+![Image 163: Travis Tyler](https://cdn-site-assets.veed.io/Testimonial_Travis_eb79bde37d/Testimonial_Travis_eb79bde37d.png)
+
+Travis Tyler
+
+Senior Content Producer,  
+PandaDoc
+
+“
+
+VEED is a powerful tool: I created my first video with a template within 30 minutes - but it looked like it took 3 hours to make.
+
+![Image 164: Adam Harrison](https://cdn-site-assets.veed.io/Testimonial_Adam_4b21fbe988/Testimonial_Adam_4b21fbe988.png)
+
+Adam Harrison
+
+VP of Marketing,  
+Weavr
+
+“
+
+With VEED I didn't need 15 tutorials - I jumped straight in and started editing.
+
+![Image 165: Gwenne Wilcox](https://cdn-site-assets.veed.io/gwenne_wilcox_eb933e4dd5/gwenne_wilcox_eb933e4dd5.png)
+
+Gwenne Wilcox
+
+Founder,  
+Brand Brainery
+
+“
+
+Before it took us weeks to do one video - with VEED it takes hours.
+
+![Image 166: Andy Hargreaves](https://cdn-site-assets.veed.io/Testimonial_Andy_25924d653f/Testimonial_Andy_25924d653f.png)
+
+Andy Hargreaves
+
+Videographer,  
+CurrentBody
+
+“
+
+I found VEED at the right time: if you're making UGC ads and not using Eye Contact Correction and Noise Reduction on VEED you're missing out on ROI.
+
+![Image 167: Sebastian Schurgers](https://cdn-site-assets.veed.io/Testimonial_Sebastian_6937539a79/Testimonial_Sebastian_6937539a79.png)
+
+Sebastian Schurgers
+
+Head of Growth Marketing,  
+Gronda
+
+“
+
+You can go beyond chopping things. VEED actually makes my videos look great.
+
+![Image 168: Michael Glover](https://cdn-site-assets.veed.io/Testimonial_Michael_5c9359cc27/Testimonial_Michael_5c9359cc27.png)
+
+Michael Glover
+
+Demand Gen Manager,  
+ConvertFlow
+
+“
+
+The first four videos i created with VEED got over 40,000 impressions on LinkedIn.
+
+![Image 169: Travis Tyler](https://cdn-site-assets.veed.io/Testimonial_Travis_eb79bde37d/Testimonial_Travis_eb79bde37d.png)
+
+Travis Tyler
+
+Senior Content Producer,  
+PandaDoc
+
+“
+
+VEED is a powerful tool: I created my first video with a template within 30 minutes - but it looked like it took 3 hours to make.
+
+![Image 170: Adam Harrison](https://cdn-site-assets.veed.io/Testimonial_Adam_4b21fbe988/Testimonial_Adam_4b21fbe988.png)
+
+Adam Harrison
+
+VP of Marketing,  
+Weavr
+
+“
+
+With VEED I didn't need 15 tutorials - I jumped straight in and started editing.
+
+![Image 171: Gwenne Wilcox](https://cdn-site-assets.veed.io/gwenne_wilcox_eb933e4dd5/gwenne_wilcox_eb933e4dd5.png)
+
+Gwenne Wilcox
+
+Founder,  
+Brand Brainery
+
+“
+
+Before it took us weeks to do one video - with VEED it takes hours.
+
+![Image 172: Andy Hargreaves](https://cdn-site-assets.veed.io/Testimonial_Andy_25924d653f/Testimonial_Andy_25924d653f.png)
+
+Andy Hargreaves
+
+Videographer,  
+CurrentBody
+
+“
+
+I found VEED at the right time: if you're making UGC ads and not using Eye Contact Correction and Noise Reduction on VEED you're missing out on ROI.
+
+![Image 173: Sebastian Schurgers](https://cdn-site-assets.veed.io/Testimonial_Sebastian_6937539a79/Testimonial_Sebastian_6937539a79.png)
+
+Sebastian Schurgers
+
+Head of Growth Marketing,  
+Gronda
+
+“
+
+You can go beyond chopping things. VEED actually makes my videos look great.
+
+![Image 174: Michael Glover](https://cdn-site-assets.veed.io/Testimonial_Michael_5c9359cc27/Testimonial_Michael_5c9359cc27.png)
+
+Michael Glover
+
+Demand Gen Manager,  
+ConvertFlow
+
+“
+
+The first four videos i created with VEED got over 40,000 impressions on LinkedIn.
+
+![Image 175: Travis Tyler](https://cdn-site-assets.veed.io/Testimonial_Travis_eb79bde37d/Testimonial_Travis_eb79bde37d.png)
+
+Travis Tyler
+
+Senior Content Producer,  
+PandaDoc
+
+“
+
+VEED is a powerful tool: I created my first video with a template within 30 minutes - but it looked like it took 3 hours to make.
+
+![Image 176: Adam Harrison](https://cdn-site-assets.veed.io/Testimonial_Adam_4b21fbe988/Testimonial_Adam_4b21fbe988.png)
+
+Adam Harrison
+
+VP of Marketing,  
+Weavr
+
+“
+
+With VEED I didn't need 15 tutorials - I jumped straight in and started editing.
+
+![Image 177: Gwenne Wilcox](https://cdn-site-assets.veed.io/gwenne_wilcox_eb933e4dd5/gwenne_wilcox_eb933e4dd5.png)
+
+Gwenne Wilcox
+
+Founder,  
+Brand Brainery
+
+“
+
+Before it took us weeks to do one video - with VEED it takes hours.
+
+![Image 178: Andy Hargreaves](https://cdn-site-assets.veed.io/Testimonial_Andy_25924d653f/Testimonial_Andy_25924d653f.png)
+
+Andy Hargreaves
+
+Videographer,  
+CurrentBody
+
+“
+
+I found VEED at the right time: if you're making UGC ads and not using Eye Contact Correction and Noise Reduction on VEED you're missing out on ROI.
+
+![Image 179: Sebastian Schurgers](https://cdn-site-assets.veed.io/Testimonial_Sebastian_6937539a79/Testimonial_Sebastian_6937539a79.png)
+
+Sebastian Schurgers
+
+Head of Growth Marketing,  
+Gronda
+
+“
+
+You can go beyond chopping things. VEED actually makes my videos look great.
+
+![Image 180: Michael Glover](https://cdn-site-assets.veed.io/Testimonial_Michael_5c9359cc27/Testimonial_Michael_5c9359cc27.png)
+
+Michael Glover
+
+Demand Gen Manager,  
+ConvertFlow
+
+“
+
+The first four videos i created with VEED got over 40,000 impressions on LinkedIn.
+
+![Image 181: Travis Tyler](https://cdn-site-assets.veed.io/Testimonial_Travis_eb79bde37d/Testimonial_Travis_eb79bde37d.png)
+
+Travis Tyler
+
+Senior Content Producer,  
+PandaDoc
+
+“
+
+VEED is a powerful tool: I created my first video with a template within 30 minutes - but it looked like it took 3 hours to make.
+
+![Image 182: Adam Harrison](https://cdn-site-assets.veed.io/Testimonial_Adam_4b21fbe988/Testimonial_Adam_4b21fbe988.png)
+
+Adam Harrison
+
+VP of Marketing,  
+Weavr
+
+“
+
+With VEED I didn't need 15 tutorials - I jumped straight in and started editing.
+
+![Image 183: Gwenne Wilcox](https://cdn-site-assets.veed.io/gwenne_wilcox_eb933e4dd5/gwenne_wilcox_eb933e4dd5.png)
+
+Gwenne Wilcox
+
+Founder,  
+Brand Brainery
+
+“
+
+Before it took us weeks to do one video - with VEED it takes hours.
+
+![Image 184: Andy Hargreaves](https://cdn-site-assets.veed.io/Testimonial_Andy_25924d653f/Testimonial_Andy_25924d653f.png)
+
+Andy Hargreaves
+
+Videographer,  
+CurrentBody
+
+“
+
+I found VEED at the right time: if you're making UGC ads and not using Eye Contact Correction and Noise Reduction on VEED you're missing out on ROI.
+
+![Image 185: Sebastian Schurgers](https://cdn-site-assets.veed.io/Testimonial_Sebastian_6937539a79/Testimonial_Sebastian_6937539a79.png)
+
+Sebastian Schurgers
+
+Head of Growth Marketing,  
+Gronda
+
+“
+
+You can go beyond chopping things. VEED actually makes my videos look great.
+
+![Image 186: Michael Glover](https://cdn-site-assets.veed.io/Testimonial_Michael_5c9359cc27/Testimonial_Michael_5c9359cc27.png)
+
+Michael Glover
+
+Demand Gen Manager,  
+ConvertFlow
+
+“
+
+The first four videos i created with VEED got over 40,000 impressions on LinkedIn.
+
+![Image 187: Travis Tyler](https://cdn-site-assets.veed.io/Testimonial_Travis_eb79bde37d/Testimonial_Travis_eb79bde37d.png)
+
+Travis Tyler
+
+Senior Content Producer,  
+PandaDoc
+
+“
+
+I found VEED at the right time: if you're making UGC ads and not using Eye Contact Correction and Noise Reduction on VEED you're missing out on ROI.
+
+![Image 188: Sebastian Schurgers](https://cdn-site-assets.veed.io/Testimonial_Sebastian_6937539a79/Testimonial_Sebastian_6937539a79.png)
+
+Sebastian Schurgers
+
+Head of Growth Marketing,  
+Gronda
+
+“
+
+You can go beyond chopping things. VEED actually makes my videos look great.
+
+![Image 189: Michael Glover](https://cdn-site-assets.veed.io/Testimonial_Michael_5c9359cc27/Testimonial_Michael_5c9359cc27.png)
+
+Michael Glover
+
+Demand Gen Manager,  
+ConvertFlow
+
+“
+
+The first four videos i created with VEED got over 40,000 impressions on LinkedIn.
+
+![Image 190: Travis Tyler](https://cdn-site-assets.veed.io/Testimonial_Travis_eb79bde37d/Testimonial_Travis_eb79bde37d.png)
+
+Travis Tyler
+
+Senior Content Producer,  
+PandaDoc
+
+“
+
+VEED is a powerful tool: I created my first video with a template within 30 minutes - but it looked like it took 3 hours to make.
+
+![Image 191: Adam Harrison](https://cdn-site-assets.veed.io/Testimonial_Adam_4b21fbe988/Testimonial_Adam_4b21fbe988.png)
+
+Adam Harrison
+
+VP of Marketing,  
+Weavr
+
+“
+
+With VEED I didn't need 15 tutorials - I jumped straight in and started editing.
+
+![Image 192: Gwenne Wilcox](https://cdn-site-assets.veed.io/gwenne_wilcox_eb933e4dd5/gwenne_wilcox_eb933e4dd5.png)
+
+Gwenne Wilcox
+
+Founder,  
+Brand Brainery
+
+“
+
+Before it took us weeks to do one video - with VEED it takes hours.
+
+![Image 193: Andy Hargreaves](https://cdn-site-assets.veed.io/Testimonial_Andy_25924d653f/Testimonial_Andy_25924d653f.png)
+
+Andy Hargreaves
+
+Videographer,  
+CurrentBody
+
+![Image 194](https://cdn-site-assets.veed.io/g2_section_bg_mobile_321fc34e2d/g2_section_bg_mobile_321fc34e2d.webp)![Image 195](https://cdn-site-assets.veed.io/g2_section_bg_desktop_5646817f34/g2_section_bg_desktop_5646817f34.webp)
+G2 Best AI software company 2026
+
+![Image 196: G2 UK badge](https://cdn-site-assets.veed.io/g2_badge_uk_bc1cf97bb7/g2_badge_uk_bc1cf97bb7.webp)![Image 197: G2 AI Products badge](https://cdn-site-assets.veed.io/g2_badge_ai_products_d9fbda876b/g2_badge_ai_products_d9fbda876b.webp)![Image 198: G2 Design Products badge](https://cdn-site-assets.veed.io/g2_badge_design_products_1b87aa120a/g2_badge_design_products_1b87aa120a.webp)
+
+TOOLS
+
+## Discover more:
+
+[AI Video Generator](https://www.veed.io/tools/ai-video)[Text to Video AI](https://www.veed.io/tools/ai-video/text-to-video)[Image to Video AI](https://www.veed.io/tools/image-to-video-ai)[AI Video Models](https://www.veed.io/ai-models/video)[AI Avatar](https://www.veed.io/tools/ai-avatar)[Dubbing AI](https://www.veed.io/tools/voice-dubber/ai-dubbing)[AI Text to Speech](https://www.veed.io/tools/text-to-speech-video)[AI Clip Generator](https://www.veed.io/tools/auto-video-editor/ai-clip-generator)[Fabric 1.0](https://www.veed.io/ai-models/video/fabric-1.0)[Sora 2](https://www.veed.io/ai-models/video/sora-2)[Veo 3.1](https://www.veed.io/ai-models/video/veo-3-1)[Kling AI](https://www.veed.io/ai-models/video/kling-3-0)[AI Reel Generator](https://www.veed.io/tools/ai-video/ai-reel-generator)[AI Voice Generator](https://www.veed.io/tools/text-to-speech-video/ai-voice-generator)[AI Video Editor](https://www.veed.io/tools/ai-video/ai-video-editor)[Video Editor](https://www.veed.io/tools/video-editor)[Automatic Subtitle Generator](https://www.veed.io/tools/auto-subtitle-generator-online)[Remove Background Noise From Audio](https://www.veed.io/tools/remove-background-noise-from-audio)[Remove Background Noise From Video](https://www.veed.io/tools/remove-background-noise-from-video)[Teleprompter](https://www.veed.io/tools/teleprompter)[Eye Contact AI](https://www.veed.io/tools/eye-tracking-software/eye-contact-ai)[Video Caption Generator](https://www.veed.io/tools/auto-subtitle-generator-online/video-caption-generator)[Add Subtitles to Video](https://www.veed.io/tools/add-subtitles)[Video Translator](https://www.veed.io/tools/video-translator)[Video Compressor](https://www.veed.io/tools/video-compressor)[MP4 Compressor](https://www.veed.io/tools/video-compressor/mp4-compressor)[Dynamic Subtitles](https://www.veed.io/tools/auto-subtitle-generator-online/dynamic-subtitles)[Screen Recorder](https://www.veed.io/tools/screen-recorder)[Video Background Remover](https://www.veed.io/tools/video-background-remover)[Add Text to Video](https://www.veed.io/tools/add-text-to-video)
+
+[AI Video Generator](https://www.veed.io/tools/ai-video)[Text to Video AI](https://www.veed.io/tools/ai-video/text-to-video)[Image to Video AI](https://www.veed.io/tools/image-to-video-ai)[AI Video Models](https://www.veed.io/ai-models/video)[AI Avatar](https://www.veed.io/tools/ai-avatar)[Dubbing AI](https://www.veed.io/tools/voice-dubber/ai-dubbing)[AI Text to Speech](https://www.veed.io/tools/text-to-speech-video)[Video Editor](https://www.veed.io/tools/video-editor)[Automatic Subtitle Generator](https://www.veed.io/tools/auto-subtitle-generator-online)[Remove Background Noise From Video](https://www.veed.io/tools/remove-background-noise-from-video)[Video Translator](https://www.veed.io/tools/video-translator)[Eye Contact AI](https://www.veed.io/tools/eye-tracking-software/eye-contact-ai)[Fabric 1.0](https://www.veed.io/ai-models/video/fabric-1.0)[Sora 2](https://www.veed.io/ai-models/video/sora-2)[Veo 3.1](https://www.veed.io/ai-models/video/veo-3-1)
+
+Generation
+
+[AI Video Generator](https://www.veed.io/tools/ai-video)[Text to Video AI](https://www.veed.io/tools/ai-video/text-to-video)[VEED AI](https://www.veed.io/ai)[Fabric 1.0](https://www.veed.io/ai/fabric-1-0)[AI Avatars](https://www.veed.io/tools/ai-avatar)[AI Image Generator](https://www.veed.io/tools/ai-image-generator)[Image to Video AI](https://www.veed.io/tools/image-to-video-ai)[VideoGPT](https://www.veed.io/tools/video-gpt)[AI Reel Generator](https://www.veed.io/tools/ai-video/ai-reel-generator)[Dubbing AI](https://www.veed.io/tools/voice-dubber/ai-dubbing)[Text to Speech Video](https://www.veed.io/tools/text-to-speech-video)[AI Voice Generator](https://www.veed.io/tools/text-to-speech-video/ai-voice-generator)[Lyric Video Maker](https://www.veed.io/create/lyric-video-maker)[Script Generator](https://www.veed.io/tools/script-generator)[AI Background Expand](https://www.veed.io/tools/ai-background-expand)
+
+Video Editing
+
+[Video Editor](https://www.veed.io/tools/video-editor)[Add Subtitles to Video](https://www.veed.io/tools/add-subtitles)[Auto Subtitle Generator](https://www.veed.io/tools/auto-subtitle-generator-online)[Video Caption Generator](https://www.veed.io/tools/auto-subtitle-generator-online/video-caption-generator)[Add Text to Video](https://www.veed.io/tools/add-text-to-video)[Add Audio to Video](https://www.veed.io/tools/add-audio-to-video)[Video Background Remover](https://www.veed.io/tools/video-background-remover)[Video Compressor](https://www.veed.io/tools/video-compressor)[Video Converter](https://www.veed.io/convert/video-converter)[Video to Text](https://www.veed.io/tools/video-to-text)[Audio to Text](https://www.veed.io/tools/audio-to-text)[Video Translator](https://www.veed.io/tools/video-translator)[Audio Editor](https://www.veed.io/tools/audio-editor)[Online Teleprompter](https://www.veed.io/tools/teleprompter)[Remove Background Noise from Video](https://www.veed.io/tools/remove-background-noise-from-video)[Remove Background Noise from Audio](https://www.veed.io/tools/remove-background-noise-from-audio)[Eye Contact AI](https://www.veed.io/tools/eye-tracking-software/eye-contact-ai)
+
+API
+
+[AI Video APIs](https://www.veed.io/api)[Fabric 1.0 API](https://api.veed.io/docs/api/post-v1-fabric-1-0)[Lip Sync API](https://api.veed.io/docs/api/post-v1-lipsync-2-0)[Subtitle API](https://www.veed.io/tools/subtitles-api)[Background Removal API](https://api.veed.io/docs/api/post-v1-video-background-removal)[Background Removal Fast API](https://api.veed.io/docs/api/post-v1-video-background-removal-fast)[Green Screen API](https://api.veed.io/docs/api/post-v1-video-background-removal-green-screen)[Clean Audio API](https://api.veed.io/docs/api/post-v1-clean-audio)[Live Avatar API Waitlist](https://forms.gle/9Q7hqCCxkW5ZAedo6)
+
+Product
+
+[Pricing](https://www.veed.io/pricing)[Enterprise](https://www.veed.io/enterprise)
+
+Resources
+
+[Blog](https://www.veed.io/blog)[Learn](https://www.veed.io/learn)[Webinars](https://www.veed.io/webinars)[Alternatives](https://www.veed.io/alternatives)[Affiliate Program](https://www.veed.io/affiliate)
+
+Company
+
+[About Us](https://www.veed.io/about)[Careers](https://www.veed.io/careers)[Newsroom](https://www.veed.io/newsroom)[Trust Center](https://trust.veed.io/)[Privacy Policy](https://www.veed.io/privacy)[Cookie Policy](https://www.veed.io/cookie-policy)[Terms of Use](https://www.veed.io/terms-of-use)[Contact Support](https://help.veed.io/)[Media Enquiries](mailto:press@veed.io)
+
+Connect
+
+[YouTube](https://www.youtube.com/veedstudio)[LinkedIn](https://www.linkedin.com/company/veedhq/)[X / Twitter](https://twitter.com/veedstudio)[Instagram](https://www.instagram.com/veedstudio/)[TikTok](https://www.tiktok.com/@veedstudio)[Email](mailto:hello@veed.io)
+
+© Copyright 2026 VEED
+
+English
+*   [Chinese (Singapore)](https://www.veed.io/zh-SG)
+*   [Dansk (Danmark)](https://www.veed.io/da-DK)
+*   [Deutsch (Deutschland)](https://www.veed.io/de-DE)
+*   [Deutsch (Österreich)](https://www.veed.io/de-AT)
+*   [Español (Argentina)](https://www.veed.io/es-AR)
+*   [Español (Colombia)](https://www.veed.io/es-CO)
+*   [Español (España)](https://www.veed.io/es-ES)
+*   [Español (Mexico)](https://www.veed.io/es-MX)
+*   [Filipino (Philippines)](https://www.veed.io/fil-PH)
+*   [Français (Belgique)](https://www.veed.io/fr-BE)
+*   [Français (Canada)](https://www.veed.io/fr-CA)
+*   [Français (Suisse)](https://www.veed.io/fr-CH)
+*   [Francaise (France)](https://www.veed.io/fr-FR)
+*   [Indonesian (Indonesia)](https://www.veed.io/id-ID)
+*   [Italiano (Italia)](https://www.veed.io/it-IT)
+*   [Italiano (Svizzera)](https://www.veed.io/it-CH)
+*   [Melayu (Malaysia)](https://www.veed.io/ms-MY)
+*   [Nederlands (België)](https://www.veed.io/nl-BE)
+*   [Nederlands (Nederland)](https://www.veed.io/nl-NL)
+*   [Norsk bokmål (Norge)](https://www.veed.io/nb-NO)
+*   [Polski (Polska)](https://www.veed.io/pl-PL)
+*   [Português (Brasil)](https://www.veed.io/pt-BR)
+*   [Português (Portugal)](https://www.veed.io/pt-PT)
+*   [Română (România)](https://www.veed.io/ro-RO)
+*   [Svenska (Sverige)](https://www.veed.io/sv-SE)
+*   [Tiếng việt (việt nam)](https://www.veed.io/vi-VN)
+*   [Türkçe (Türkiye)](https://www.veed.io/tr-TR)
+*   [Ελληνικά (Ελλάδα)](https://www.veed.io/el-GR)
+*   [Русский (Россия)](https://www.veed.io/ru-RU)
+*   [עברית (ישראל)](https://www.veed.io/he-IL)
+*   [العربية (مصر)](https://www.veed.io/ar-EG)
+*   [हिंदी (भारत)](https://www.veed.io/hi-IN)
+*   [বাংলা (বাংলাদেশ)](https://www.veed.io/bn-BD)
+*   [ภาษาไทย (ประเทศไทย)](https://www.veed.io/th-TH)
+*   [한국어 (한국)](https://www.veed.io/ko-KR)
+*   [中国人 (中国)](https://www.veed.io/zh-CN)
+*   [日本語 (日本)](https://www.veed.io/ja-JP)
+*   [繁體中文 (台灣)](https://www.veed.io/zh-TW)
+
+![Image 199: Company Logo](https://cdn.cookielaw.org/logos/static/ot_company_logo.png)
+
+## Manage cookies 🍪
+
+Cookies and similar technologies collect certain information about how you’re using our website. Some of them are essential, and without them you wouldn’t be able to use VEED. But others are optional, and you get to choose whether we use them or not. Hungry for more?   
+[Read our full Cookie Policy](https://www.veed.io/cookie-policy)
+
+Allow All
+### Manage Consent Preferences
+
+#### Strictly Necessary Cookies
+
+Always Active
+
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+
+#### Performance Cookies
+
+- [x] Performance Cookies 
+
+These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.
+
+#### Targeting Cookies
+
+- [x] Targeting Cookies 
+
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+
+### Cookie List
+
+Clear
+
+*   - [x] checkbox label label 
+
+Apply Cancel
+
+Consent Leg.Interest
+
+- [x] checkbox label label
+
+- [x] checkbox label label
+
+- [x] checkbox label label
+
+Reject All Save and Close
+
+[![Image 200: Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/products/cookie-consent/)
+
+![Image 202](https://t.co/1/i/adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261280%261280%269%2624%261280%261280%260%26na%261&eci=3&event=%7B%7D&event_id=92451500-e418-4ff1-a849-64ed242c28c3&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=723d2281-de75-4837-902d-2846cec286b4&tw_ch_fvl=Not%3AA-Brand%2F8.0.0.0%2CChromium%2F156.0.8078.47%2CGoogle%20Chrome%2F156.0.8078.47&tw_document_href=https%3A%2F%2Fwww.veed.io%2F&tw_engaged_ms=1&tw_iframe_status=0&tw_pid_src=1&tw_session_count=1&tw_session_id=1792769061472-380639428&tw_session_start=1&twpid=tw.1792769061472.824536432158985532&txn_id=ofiru&type=javascript&version=2.4.12)![Image 203](https://analytics.twitter.com/1/i/adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261280%261280%269%2624%261280%261280%260%26na%261&eci=3&event=%7B%7D&event_id=92451500-e418-4ff1-a849-64ed242c28c3&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=723d2281-de75-4837-902d-2846cec286b4&tw_ch_fvl=Not%3AA-Brand%2F8.0.0.0%2CChromium%2F156.0.8078.47%2CGoogle%20Chrome%2F156.0.8078.47&tw_document_href=https%3A%2F%2Fwww.veed.io%2F&tw_engaged_ms=1&tw_iframe_status=0&tw_pid_src=1&tw_session_count=1&tw_session_id=1792769061472-380639428&tw_session_start=1&twpid=tw.1792769061472.824536432158985532&txn_id=ofiru&type=javascript&version=2.4.12)
+
+![Image 204](https://bat.bing.com/action/0?ti=97115657&tm=gtm002&Ver=2&mid=f0bc74e5-43b5-4739-b84c-05262573b891&bo=2&sid=d2b922b0cef511f1945889ddf45d439d&vid=d2c33cf0cef511f19f9389b5362d8dbd&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=1280&sh=1280&sc=24&tl=VEED%20%E2%80%93%20AI%20Video%20Creation%20Platform%20%7C%20Idea%20to%20Video%20Workflow&p=https%3A%2F%2Fwww.veed.io%2F&r=&lt=997&evt=pageLoad&sv=2&asc=G&cdb=AQER&rn=193579)

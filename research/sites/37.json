@@ -1,0 +1,124 @@
+{
+  "id": "37",
+  "name": "VEED",
+  "url": "https://www.veed.io/",
+  "category": "editor",
+  "checked_at": "2026-10-23",
+  "summary": "面向社交内容的 AI 视频平台和在线编辑器。已证实可导入歌曲、做动态歌词与音乐可视化；口型 API 接受单人视频与新音轨。不能据此认定会原创生成完整 rap 歌曲。",
+  "inputs": [
+    "上传歌曲或音频文件",
+    "上传视频或图片",
+    "手动粘贴歌词",
+    "录制歌曲",
+    "Lip Sync API：单人 video_url 与 audio_url（公网 HTTP(S) 地址）"
+  ],
+  "outputs": [
+    "带动态歌词、音乐可视化或品牌元素的视频",
+    "Lip Sync API：匹配新音轨口型的视频下载 URL"
+  ],
+  "features": [
+    "歌词页支持自动转写或手动添加歌词、动画文字、音乐可视化",
+    "音频轨可剪切、合并、拆分；可用图片制作视频",
+    "首页提供 AI 视频、人物、声音和图像工具入口",
+    "Lip Sync 2.0 异步作业：提交后返回 job_id，轮询取得结果"
+  ],
+  "pricing": {
+    "summary": "网页订阅按编辑席位计费；本次抓取默认年付。Creator $120/人/年（标示折月 $10），Pro $228/人/年（折月 $19）。API 口型另标 $0.07/秒；不能等同网页套餐。",
+    "free_tier": "歌词页称编辑器可免费使用，去 VEED 水印须升级付费；免费额度和导出上限未确认。",
+    "plans": [
+      {
+        "name": "Creator",
+        "amount": 120,
+        "currency": "USD",
+        "billing_period": "year",
+        "credits": "页面显示 6,000 Credits，周期待确认",
+        "notes": "每用户年付；标示折月 $10，1080p、无水印。"
+      },
+      {
+        "name": "Pro",
+        "amount": 228,
+        "currency": "USD",
+        "billing_period": "year",
+        "credits": "页面显示 18,000 Credits，周期待确认",
+        "notes": "每用户年付；标示折月 $19，含 Creator 功能、4K。"
+      },
+      {
+        "name": "Enterprise",
+        "notes": "自定义价格、AI credits。"
+      },
+      {
+        "name": "Lipsync 2.0 API",
+        "amount": 0.07,
+        "currency": "USD",
+        "billing_period": "second",
+        "notes": "文档显示 $0.07/秒；预估 credits 与最终扣费可能不同。"
+      }
+    ],
+    "source_url": "https://www.veed.io/pricing"
+  },
+  "api": {
+    "status": "documented",
+    "summary": "有公开 Lipsync 2.0 文档：POST /v1/lipsync-2.0；输入单人视频和新音轨，异步返回处理状态及视频。API 计费在端点页列示。",
+    "url": "https://api.veed.io/docs/api/post-v1-lipsync-2-0"
+  },
+  "limitations": [
+    "本次仅核查公开页面，未登录、未提交生成任务或实测付费。",
+    "官方自动歌词识别与同步效果属于供应商宣称；快速 rap、多语种与伴奏干扰未实测。",
+    "Lip Sync API 明确不支持多人视频；未证明其对唱歌或快速 rap 的质量。",
+    "首页有 AI Music Generator 入口，但本次未核查其原创音乐、歌词到完整歌曲或 rap 生成能力。",
+    "本次来源未明确生成物及素材的商用授权；用户歌曲、人物肖像与声音权利待核。",
+    "价格页 Creator 卡写字幕 120 小时/年，FAQ 又称所有付费计划字幕每月公平使用上限 50 小时，存在口径差异。",
+    "价格页的 ~0 AI Videos 不适合作有效生成额度；币种及最终价格应以结算为准。"
+  ],
+  "best_for": "已有 rap 音轨的动态歌词短视频、音乐可视化、社交平台剪辑；需要 API 的单人视频换音轨口型。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://www.veed.io/",
+      "title": "VEED – AI Video Creation Platform | Idea to Video Workflow",
+      "kind": "official",
+      "local_path": "research/evidence/37/homepage.txt",
+      "supports": [
+        "社交 AI 视频与品牌编辑定位",
+        "AI 人物、音乐生成及 API 入口"
+      ]
+    },
+    {
+      "url": "https://www.veed.io/create/lyric-video-maker",
+      "title": "Lyric Video Maker",
+      "kind": "official",
+      "local_path": "research/evidence/37/lyric.txt",
+      "supports": [
+        "导入歌曲、图片或视频",
+        "自动或手动歌词、动画文字与音乐可视化",
+        "免费编辑与付费去水印"
+      ]
+    },
+    {
+      "url": "https://www.veed.io/pricing",
+      "title": "Pricing - VEED.IO",
+      "kind": "pricing",
+      "local_path": "research/evidence/37/pricing.txt",
+      "supports": [
+        "Creator 和 Pro 年付价格",
+        "按席位、credits 刷新与不结转",
+        "字幕额度口径差异"
+      ]
+    },
+    {
+      "url": "https://api.veed.io/docs/api/post-v1-lipsync-2-0",
+      "title": "Lipsync 2.0",
+      "kind": "documentation",
+      "local_path": "research/evidence/37/api.txt",
+      "supports": [
+        "单人视频与音轨输入",
+        "异步口型视频输出",
+        "每秒 $0.07 与预估和最终扣费差异"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：更适合作为已有 rap 音乐的包装和发布环节，需把原创歌曲生成与歌词视频制作分开评估。",
+    "推断：动态歌词、音乐可视化和单人音频口型 API 可以组成模块化流程，但不能把接口存在等同唱跳 MV 质量保障。"
+  ]
+}
