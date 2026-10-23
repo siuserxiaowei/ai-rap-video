@@ -1,0 +1,127 @@
+{
+  "id": "19",
+  "name": "Neural Frames",
+  "url": "https://www.neuralframes.com/",
+  "category": "music_video",
+  "checked_at": "2026-10-23",
+  "summary": "面向音乐人的音频反应式 AI 音乐视频平台；官网宣称可把歌曲生成全曲视频，并提供逐场景、逐帧及时间线编辑。",
+  "inputs": [
+    "上传歌曲/音频",
+    "文本提示与聊天修改",
+    "角色或风格参考图",
+    "自建或上传场景环境"
+  ],
+  "outputs": [
+    "全曲音乐视频",
+    "歌词视频与口型表演视频",
+    "社交短视频",
+    "1080p；Ninja/Nirvana 套餐含4K升格"
+  ],
+  "features": [
+    "Autopilot 歌曲到全曲视频（官方宣称）",
+    "8-stem 分离与音频反应调制（官方宣称）",
+    "逐场景提示、时序与视觉编辑；聊天修改",
+    "角色/场景一致性及自定义模型（官方宣称）",
+    "歌词提取、歌词字幕、lip-sync 模板（官方宣称）",
+    "逐帧编辑与多模型文生视频时间线",
+    "Short-Form Studio、横转竖"
+  ],
+  "pricing": {
+    "summary": "月付 $39/$99/$299；年付总额 $312/$792/$2388，分别折合 $26/$66/$199 每月。额度按月发放，模型与时长影响消耗。",
+    "free_tier": "首页有免费开始入口；本次两页未明确核心视频生成免费额度或免费导出范围。免费工具不等同免费全曲视频套餐。",
+    "plans": [
+      {
+        "name": "Neural Knight — Monthly",
+        "amount": 39,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": "2400/month",
+        "notes": "1080p；不含4K。页面同时展示月付原价与年付优惠价。"
+      },
+      {
+        "name": "Neural Knight — Yearly",
+        "amount": 312,
+        "currency": "USD",
+        "billing_period": "year",
+        "credits": "2400/month",
+        "notes": "一次收取全年费用；折合每月 $26，不是逐月付款。1080p；不含4K。"
+      },
+      {
+        "name": "Neural Ninja — Monthly",
+        "amount": 99,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": "7200/month",
+        "notes": "1080p及4K。页面同时展示月付原价与年付优惠价。"
+      },
+      {
+        "name": "Neural Ninja — Yearly",
+        "amount": 792,
+        "currency": "USD",
+        "billing_period": "year",
+        "credits": "7200/month",
+        "notes": "一次收取全年费用；折合每月 $66，不是逐月付款。1080p及4K。"
+      },
+      {
+        "name": "Neural Nirvana — Monthly",
+        "amount": 299,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": "24000/month",
+        "notes": "1080p及4K。页面同时展示月付原价与年付优惠价。"
+      },
+      {
+        "name": "Neural Nirvana — Yearly",
+        "amount": 2388,
+        "currency": "USD",
+        "billing_period": "year",
+        "credits": "24000/month",
+        "notes": "一次收取全年费用；折合每月 $199，不是逐月付款。1080p及4K。"
+      }
+    ],
+    "source_url": "https://www.neuralframes.com/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "官网 API 链接指向 Google Form，未见公开端点、鉴权、SDK或调用示例文档；不能据此断言没有API。",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSeKnPzXa_owi2PX6uisAinEnvXSpQrVeKdYQXHTVIxnZRLgvg/viewform?usp=sf_link"
+  },
+  "limitations": [
+    "本次仅阅读官网与定价页，未登录、生成或评测；全曲、8-stem、角色一致性、分镜编辑和口型均为供应商宣称，不能用于实际质量排名。",
+    "首页泛称4K导出/升格；定价页明确 Knight 不含4K，按套餐限制记录。",
+    "Autopilot 成本依模型与时长变化，计算器提示场景图片可能另耗额度；最低套餐被官网标为不推荐用于Autopilot。",
+    "订阅额度有效订阅期内最多结转到月额度300%；订阅结束后未用订阅额度过期。",
+    "商业使用需自行拥有上传音乐、图像等素材权利。",
+    "未验证全曲最大时长、口型准确度、说唱快语速表现、生成耗时或成功率。"
+  ],
+  "best_for": "已有歌曲、需要全曲视觉化并希望继续编辑场景和音乐反应效果的音乐人；说唱表现需实测。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://www.neuralframes.com/",
+      "title": "Neural Frames // AI Music Video Generator & Platform",
+      "kind": "official",
+      "local_path": "research/evidence/19/homepage.txt",
+      "supports": [
+        "歌曲输入与三种编辑模式",
+        "8-stem 音频反应、歌词、口型和一致性官方宣称",
+        "API 页脚链接为 Google Form"
+      ]
+    },
+    {
+      "url": "https://www.neuralframes.com/pricing",
+      "title": "neural frames | Pricing options",
+      "kind": "pricing",
+      "local_path": "research/evidence/19/pricing.txt",
+      "supports": [
+        "三档月付和年付总额及每月额度",
+        "分辨率、额度结转和生成失败政策",
+        "全曲与短视频工作流说明、版权责任、模型成本差异"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：歌曲分析、全曲自动化与后续逐场景编辑结合，可作为音乐视频产品的工作流参考；不构成质量领先结论。",
+    "推断：分轨驱动视觉参数适合强调音乐结构，但说唱场景仍需测试人声节奏、口型和角色稳定性。"
+  ]
+}

@@ -1,0 +1,381 @@
+Title: neural frames | Pricing options
+
+URL Source: https://www.neuralframes.com/pricing
+
+Markdown Content:
+[![Image 1: neural frames logo](https://www.neuralframes.com/_next/image?url=https%3A%2F%2Fneuralframes.media%2Fandroid-chrome-192x192.png&w=64&q=60)![Image 2: neural frames logo](https://www.neuralframes.com/_next/image?url=https%3A%2F%2Fneuralframes.media%2Flogo_centered.webp&w=384&q=60)](https://www.neuralframes.com/)
+
+[Pricing](https://www.neuralframes.com/pricing)[About](https://www.neuralframes.com/about)[Discover](https://www.neuralframes.com/discover)[Blog](https://www.neuralframes.com/blog)[Help](https://help.neuralframes.com/)[Start Now](https://www.neuralframes.com/start/Login)
+
+Why neural frames?
+
+Join tens of thousands of creators making music videos with neural frames, enjoying deep creative control, without the learning curve.
+
+[Video 8](https://neuralframes.media/landing-page-assets/usecase-videos/lipsync.mp4)
+
+# A pricing model for every artist
+
+Monthly
+
+Yearly
+
+33% off
+
+Neural Knight
+
+2,400 credits/mo
+
+Access our core tools for daily music video creation.
+
+$39$26/mo
+
+$312 billed yearly
+
+[Get Neural Knight →](https://www.neuralframes.com/start/Login)
+
+✓
+
+7 AI models
+
+✓
+
+Autopilot
+
+✓
+
+Short-Form Studio
+
+NEW
+
+✓
+
+Horizontal to Vertical conversion
+
+✓
+
+1080p upscaling
+
+✕
+
+No 4K upscaling
+
+✓
+
+World's Friendliest Customer Service
+
+✕
+
+Not recommended for Autopilot[*](https://www.neuralframes.com/pricing#pricing-calculator)
+
+Most Popular
+
+Neural Ninja
+
+7,200 credits/mo
+
+Full access to our best models & all our industry-leading music video tools.
+
+$99$66/mo
+
+$792 billed yearly
+
+[Get Neural Ninja →](https://www.neuralframes.com/start/Login)
+
+✓
+
+10 AI models
+
+✓
+
+Autopilot
+
+✓
+
+Short-Form Studio
+
+NEW
+
+✓
+
+Horizontal to Vertical conversion
+
+✓
+
+1080p upscaling
+
+✓
+
+4K upscaling
+
+✓
+
+World's Friendliest Customer Service
+
+✓
+
+Good for Autopilot[*](https://www.neuralframes.com/pricing#pricing-calculator)
+
+Neural Nirvana
+
+24,000 credits/mo
+
+Maximum power for serious creators with priority upscaling and studio-scale credits.
+
+$299$199/mo
+
+$2388 billed yearly
+
+[Get Neural Nirvana →](https://www.neuralframes.com/start/Login)
+
+✓
+
+10 AI models
+
+✓
+
+Autopilot
+
+✓
+
+Short-Form Studio
+
+NEW
+
+✓
+
+Horizontal to Vertical conversion
+
+✓
+
+1080p upscaling
+
+✓
+
+4K upscaling
+
+✓
+
+Priority Upscaling
+
+✓
+
+World's Friendliest Customer Service
+
+✓
+
+Best for Autopilot[*](https://www.neuralframes.com/pricing#pricing-calculator)
+
+## Everything you need to create
+
+Autopilot
+
+Full music videos from your song
+
+Text-to-video
+
+State-of-the-art video generation modes
+
+Stem extraction
+
+Split any upload into stems
+
+Audioreactive
+
+Effects that pulse with your music
+
+Lyric & lipsync
+
+Showcase lyrics and vocal performances
+
+1080p upscaling
+
+High-definition output on every plan
+
+25 fps export
+
+40% more fluid than competitors
+
+AI assistant
+
+Smart prompts for faster creation
+
+## See what your song costs
+
+Compare Autopilot video costs across subscription tiers and AI models
+
+Song duration
+1m
+
+30s 2m 5m 10m
+
+Updated estimated costs for a 1m video
+
+Monthly Plans
+
+| AI Model | Neural Knight | Neural Ninja | Neural Nirvana |
+| --- | --- | --- | --- |
+| Kling 3.0 Standard 852 credits | $11.51 | $9.74 | $8.82 |
+| Kling 3.0 Pro 1116 credits | $15.80 | $13.37 | $12.11 |
+| Seedance Pro Fast 384 credits | $3.90 | $3.30 | $2.99 |
+| Seedance 1.5 Pro 372 credits | $3.71 | $3.14 | $2.84 |
+| Seedance 2 1824 credits | $27.30 | $23.10 | $20.93 |
+| Seedance 2.5 2124 credits | $32.18 | $27.23 | $24.67 |
+| MiniMax H3 Max 564 credits | $6.83 | $5.78 | $5.23 |
+| Gemini Omni Flash 1.1 1104 credits | $15.60 | $13.20 | $11.96 |
+
+Yearly Plans
+
+33% off
+
+| AI Model | Neural Knight | Neural Ninja | Neural Nirvana |
+| --- | --- | --- | --- |
+| Kling 3.0 Standard 852 credits | $7.67 | $6.49 | $5.87 |
+| Kling 3.0 Pro 1116 credits | $10.53 | $8.91 | $8.06 |
+| Seedance Pro Fast 384 credits | $2.60 | $2.20 | $1.99 |
+| Seedance 1.5 Pro 372 credits | $2.47 | $2.09 | $1.89 |
+| Seedance 2 1824 credits | $18.20 | $15.40 | $13.93 |
+| Seedance 2.5 2124 credits | $21.45 | $18.15 | $16.42 |
+| MiniMax H3 Max 564 credits | $4.55 | $3.85 | $3.48 |
+| Gemini Omni Flash 1.1 1104 credits | $10.40 | $8.80 | $7.96 |
+
+Prices shown are for video duration only. Scene images may add a small amount.
+
+Why these prices? Autopilot uses GPU-intensive models. You are paying for hardware cost, not markup. Lower-cost option: frame-by-frame animation at 1 credit per rendered second.
+
+## What our users say
+
+Thousands of artists have made over two million videos with Neural Frames.
+
+“Neural Frames lets me deliver cinematic music videos consistently. Because the visuals lock to phrasing and mood, listeners stay longer and the story lands stronger. It's the tool I trust to translate songs into pictures.”
+
+ILan Raz
+
+Musician
+
+“The first time I grasped the concept of Neural Frames, it felt akin to the wonder I experienced when I first delved into tools like Photoshop or After Effects. Neural Frames empowers artists, providing them with unparalleled abilities to craft astonishing videos that seamlessly blend visuals with various musical elements. It's a revolutionary tool for music video creators, standing in a league of its own with no comparable counterparts.”
+
+Ben Nash
+
+Designer, Developer & AI Artist
+
+“I just wanted to highlight how fantastic Neural Frames is! There's a lot of AI platforms out there to create content but what Neural Frames has managed to create is very user friendly and intuitive and exactly what I was looking for to create AI Music Videos. As I started using more and more their platform and educate myself on the different tools, I'm wowed and amazed by the results which are well beyond whatever I imagined would be possible. I also want to highlight their fantastic and prompt service.”
+
+Magic Mizrahi
+
+Producer & DJ
+
+“It's super important to have visualizers for every release, but having them custom made is just sooo expensive. For something that's on Instagram for merely a story, we're unable to pay 100+ eur. We don't have a designated video person so getting visualizers done was always a bit of a nightmare. Neural Frames is a GREAT solution for it and I really love it.”
+
+Ina Veber
+
+Label manager 1605 records
+
+“Harnessing the boundless potential of Neural Frames has been an odyssey through uncharted territories of digital artistry. As an AI video animation artist, I've voyaged across various platforms, but Neural Frames feels like stumbling upon an arcane tome of eldritch knowledge. It's not just a tool; it's a conduit, allowing the symphonies of my imagination to manifest into pulsating visual epics. When coupled with my profound reverence for sci-fi horror, Neural Frames transforms into a maestro's baton, orchestrating a dance between the uncanny and the ethereal. In the realm of AI-assisted creativity, many tools might offer you a paintbrush, but Neural Frames hands you the very stars to paint with.”
+
+SPACE LOGIC
+
+AI artist
+
+“I have been using Neural Frames for 1 1/2 years. It's been a long time, and NF has come a long way in all that time. The recent addition of Autopilot marked a massive improvement for me, as I create a lot of music, and I still want to have great videos for all of it. While I still do a lot of manual work, which can take days for a video, some of my best (and best-performing) ones were done with Neural Frames Autopilot in a very short time.”
+
+Sandrom
+
+Musician & Visual Artist
+
+## Frequently asked questions
+
+Which plan is right for me?
+
+Neural Ninja is the best choice for most creators and our recommended plan for making full-length Autopilot videos. Its 7,200 monthly credits, access to all 10 AI models, and 4K upscaling offer the best balance of creative range and value. Neural Knight works well for lighter use and shorter or lower-cost projects, while Neural Nirvana is built for high-volume creators who want 24,000 monthly credits and Priority Upscaling.
+
+How do credits work?
+
+Your plan includes a fresh credit allocation every month, even when you choose annual billing. Unused subscription credits roll over while your subscription is active, up to 300% of your plan's monthly allocation. If you need more before your next monthly allocation, you can purchase top-up credits at any time. Credit usage depends on your workflow, video length, and chosen AI model.
+
+How much does an Autopilot video cost?
+
+The cost of an Autopilot video can vary significantly based on its length and the AI model you select. We always provide a lower-cost model option, while more expensive models generally produce more refined videos. Use the pricing calculator above to compare models and plans for your song. A hyphen means that the selected plan does not include enough monthly credits for that combination. An annual subscription is the most cost-effective way to create videos.
+
+What is the difference between Autopilot, Short-Form Studio, and the editors?
+
+Autopilot turns your song into a complete, character-consistent music video or lyric video with full automation and plenty of creative control. Short-Form Studio is designed for social clips optimized for platforms such as TikTok, Instagram Reels, and YouTube Shorts. Our frame-by-frame and text-to-video editors give you direct control over individual scenes, prompts, timing, and visual development and usually take longer to create.
+
+Which resolutions does each plan support?
+
+Neural Knight includes 1080p upscaling but does not include 4K upscaling. Neural Ninja and Neural Nirvana include both 1080p and 4K upscaling. Neural Nirvana also includes Priority Upscaling, giving its upscaling jobs priority when demand is high.
+
+What happens if a generation fails?
+
+Failed generations never cost you credits.
+
+What is the difference between monthly and annual billing?
+
+Both billing options include the same plan features and a new credit allocation every month. Monthly subscriptions are billed each month. Annual subscriptions are billed once for the full year at a lower effective monthly price, while credits are still distributed monthly rather than all at once. Once again, for serious creators, we recommend annual billing as the most cost-effective way to create videos with us.
+
+What happens when I cancel my subscription?
+
+Cancellation takes effect at the end of your current paid billing period. You keep access to your plan and its included credits until that date. When the subscription actually ends, any unused subscription credits expire; they are not removed immediately when you click cancel.
+
+Can I get a refund if Neural Frames is not right for me?
+
+We do not offer a blanket refund guarantee. However, if you subscribed to try Neural Frames, created only one project, and are genuinely unhappy with the result, please contact our customer service team. We review these requests individually and will always try to find a fair solution.
+
+Do I own the commercial rights to my videos?
+
+Yes. You own the videos you create with Neural Frames and may publish, monetize, distribute, or use them for client work. Neural Frames does not claim rights to your finished videos. You remain responsible for having the necessary rights to any music, images, footage, or other copyrighted material you upload.
+
+No VC money, just a small, hard-working team, in love with AI music videos.
+
+Free Tools
+
+[Audio to Video Converter](https://www.neuralframes.com/tools/audio-to-video)[Album Cover Generator](https://www.neuralframes.com/tools/ai-album-cover-generator)[AI Cartoon Generator](https://www.neuralframes.com/tools/ai-cartoon-generator)[Album Name Generator](https://www.neuralframes.com/tools/album-name-generator)[Band Name Generator](https://www.neuralframes.com/tools/band-name-generator)[Image to Prompt Generator](https://www.neuralframes.com/tools/image-to-prompt)[All Free Tools →](https://www.neuralframes.com/tools)
+
+More
+
+[Terms of Service](https://www.neuralframes.com/termsofservice)[Imprint](https://www.neuralframes.com/imprint)[Data protection policy](https://www.neuralframes.com/privacy)[Pricing](https://www.neuralframes.com/pricing)[About](https://www.neuralframes.com/about)[Product](https://www.neuralframes.com/product)[Blog](https://www.neuralframes.com/blog)[Become an affiliate](https://www.neuralframes.com/affiliates)[API](https://docs.google.com/forms/d/e/1FAIpQLSeKnPzXa_owi2PX6uisAinEnvXSpQrVeKdYQXHTVIxnZRLgvg/viewform?usp=sf_link)[Join us](https://join.com/companies/neuralframescom)
+Socials
+
+[](https://www.neuralframes.com/discord)[](https://x.com/neuralframes)[](https://www.tiktok.com/@neuralframes)[](https://www.instagram.com/neural_frames/)[](https://www.youtube.com/@neuralframes)
+
+Use cases
+
+[AI Animation Generation](https://www.neuralframes.com/)[AI Music Video Generator](https://www.neuralframes.com/ai-music-video-generator)[AI Animation Generator](https://www.neuralframes.com/ai-animation-generator)[Image to Video AI](https://www.neuralframes.com/image-to-video-ai)[Suno to Video](https://www.neuralframes.com/suno-to-video)[Lyric Video Maker](https://www.neuralframes.com/lyric-video-maker)[Trippy Visuals](https://www.neuralframes.com/trippy-visuals)[Text to Video](https://www.neuralframes.com/text-to-video-ai)[NFT Art](https://www.neuralframes.com/post/how-to-create-nft-art)[AI YouTube video maker](https://www.neuralframes.com/post/ai-youtube-video-makers-invideo-veed-and-neural-frames)[AI TikTok video maker](https://www.neuralframes.com/post/ai-tiktok-video-generators)[Frame-by-frame animation](https://www.neuralframes.com/post/frame-by-frame-animation)[How to promote your music as an independent artist](https://www.neuralframes.com/post/promote-your-music)
+Features
+
+[Autopilot - 10-Minute Music Videos](https://www.neuralframes.com/features/autopilot)[Kling AI Video Generator](https://www.neuralframes.com/features/kling-ai-video-generator)
+
+Select Language
+
+🇬🇧English🇩🇪Deutsch🇪🇸Español🇫🇷Français🇮🇹Italiano🇵🇹Português🇯🇵日本語🇨🇳中文🇰🇷한국어
+
+NEURALFRAMES
+
+NEW FEATURE
+
+## Bring consistent environments to your music videos
+
+[Video 9](https://neuralframes.media/EnvironmentsModalVideos/timeless-hall.mp4)
+
+[Video 10](https://neuralframes.media/EnvironmentsModalVideos/garden-room.mp4)
+
+Grand ballroom
+
+[Video 11](https://neuralframes.media/EnvironmentsModalVideos/studio-stage.mp4)
+
+[Video 12](https://neuralframes.media/EnvironmentsModalVideos/grand-set.mp4)
+
+[Video 13](https://neuralframes.media/EnvironmentsModalVideos/terrace-villa.mp4)
+
+Use your own environments
+
+Upload or create from scratch.
+
+Cinematic consistency
+
+Consistent mood and lighting.
+
+Create and apply
+
+Use in Autopilot and Shortform in one click.
+
+Explore environments
