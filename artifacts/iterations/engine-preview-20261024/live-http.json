@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "method": "GET",
+  "url": "http://127.0.0.1:8788/api/stats",
+  "research": {
+    "total": 46,
+    "full_page": 42,
+    "by_category": {
+      "rap": 19,
+      "editor": 3,
+      "music_video": 11,
+      "video": 6,
+      "lip_sync": 4,
+      "music": 3
+    },
+    "by_evidence": {
+      "full_page": 42,
+      "partial": 4
+    },
+    "by_api": {
+      "not_found": 29,
+      "documented": 17
+    },
+    "checked_at": "2026-10-24"
+  },
+  "is_browser_verification": false
+}

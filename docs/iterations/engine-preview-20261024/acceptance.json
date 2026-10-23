@@ -1,0 +1,42 @@
+{
+  "iteration": "engine-preview-20261024",
+  "updated_at": "2026-10-23T17:21:41.811192+00:00",
+  "original_codex_unique_count_unchanged": 50,
+  "tasks": [
+    {
+      "task": "engine_preview_pipeline",
+      "reused_agent": "/root/c48_exports",
+      "commit": "c12a59949b47e1aff655dd3986b14405b11822ca",
+      "accepted": true,
+      "root_targeted_tests": 42,
+      "root_log": "artifacts/iterations/engine-preview-20261024/pipeline-tests.txt",
+      "worktree_reclaimed": true
+    },
+    {
+      "task": "engine_preview_cli",
+      "reused_agent": "/root/c49_integration_qa",
+      "commit": "073ee0f1326999ca9652b6f217ea6a700f0c5223",
+      "accepted": true,
+      "root_targeted_tests": 55,
+      "root_log": "artifacts/iterations/engine-preview-20261024/cli-tests.txt",
+      "worktree_reclaimed": true
+    },
+    {
+      "task": "engine_preview_media",
+      "reused_agent": "/root/c50_final_review",
+      "commits": [
+        "cf27990c62ebeb6455738f875bf7b67bc544b7ee",
+        "d61837abed71994076a859eb6731e30a1d0fad29"
+      ],
+      "accepted": true,
+      "root_targeted_tests": 69,
+      "new_media_cases": 48,
+      "inherited_compositor_cases": 21,
+      "root_log": "artifacts/iterations/engine-preview-20261024/media-tests.txt",
+      "worktree_reclaimed": true
+    }
+  ],
+  "all_followups_accepted": true,
+  "followup_worktrees_reclaimed": 3,
+  "integrated_code_commit": "cd0029c646b50ce3e13dcfe8725a369690bb40e1"
+}

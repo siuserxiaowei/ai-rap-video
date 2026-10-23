@@ -1,0 +1,11 @@
+{
+  "python": "3.15.0",
+  "ffmpeg": "/opt/homebrew/bin/ffmpeg",
+  "ffprobe": "/opt/homebrew/bin/ffprobe",
+  "ffmpeg_version": "ffmpeg version 8.1.1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "ass_filter_available": false,
+  "subtitles_filter_available": false,
+  "wrapper_ass_detection": false,
+  "subtitle_burn_in_actual_smoke": false,
+  "note": "Installed FFmpeg lacks ASS/subtitles filters; the preview exported ASS but honestly reported that it was not burned into either smoke video."
+}

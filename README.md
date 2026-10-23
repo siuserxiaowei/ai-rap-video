@@ -14,9 +14,9 @@ python3 -m rap_workbench.server --port 8788
 
 当前研究样本为 **46 个不同主域，42 站取得相关官方正文，4 站部分读取**，采集日期为 2026-10-23 至 2026-10-24。正文读取不代表效果、下载、授权或服务上线已被实测；本次检索不代表全网穷尽。50 项产品与技术决策均有站点引用，各项状态及验证引用见 `docs/decisions.json`，其中仍有待浏览器和真实供应商验证的项目。
 
-已交付 C01–C50 共 50 个 Codex 任务，以及 50 个独立 Gemini 会话；Codex 48 个任务完整验收，C44/C45 待真实浏览器验收。原 G50 的补充分析复用同一会话，不额外计数。后续复用 C48/C49/C50 实现 Sync 客户端、持久化提交记录和本地计划/状态观察 CLI，三个隔离 worktree 已验收回收，合并后88项测试通过。客户端默认关闭联网，本轮未调用真实供应商；网页渲染接口仍返回503。前端桌面与390px真实交互尚未验证，整体目标仍有未关闭验收项。
+已交付 C01–C50 共 50 个 Codex 任务，以及 50 个独立 Gemini 会话；Codex 48 个任务完整验收，C44/C45 待真实浏览器验收。原 G50 的补充分析复用同一会话，不额外计数。后续复用 C48/C49/C50 实现 Sync 客户端、持久化提交记录和本地计划/状态观察 CLI，三个隔离 worktree 已验收回收，工作台88项测试通过。又经三个后续 worktree 修复本地预览引擎，合计387项检查通过，实际竖/横预览均经FFprobe与完整解码验证；这些后续任务复用原agent，不增加独立agent数。客户端默认关闭联网，本轮未调用真实供应商；网页渲染接口仍返回503。前端桌面与390px真实交互尚未验证，整体目标仍有未关闭验收项。
 
-运行细节、HTTP 接口与命令行用法见 [WORKBENCH.md](WORKBENCH.md)，最新接口迭代验收见 [verification.json](docs/iterations/provider-sync-20261024/verification.json)，首次发布的独立终审快照见 [docs/C50-review.md](docs/C50-review.md)。
+运行细节、HTTP 接口与命令行用法见 [WORKBENCH.md](WORKBENCH.md)，[Sync接口验收](docs/iterations/provider-sync-20261024/verification.json)和[引擎预览验收](docs/iterations/engine-preview-20261024/verification.json)分别记录覆盖范围，首次发布的独立终审快照见 [docs/C50-review.md](docs/C50-review.md)。
 
 ## 目录与证据
 
@@ -37,11 +37,11 @@ node --check web/app.js
 node --check web/create.js
 ```
 
-这些命令覆盖本地自动化检查，不替代浏览器、真实供应商或付费生成验证。[飞书研究报告](https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc) 已原生发布，后续接口迭代已追加至revision11并全文回读；原46站、50项决策和155个来源链接均保留。
+这些命令覆盖本地自动化检查，不替代浏览器、真实供应商或付费生成验证。[飞书研究报告](https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc) 已原生发布，接口与引擎两轮迭代已追加至revision12并全文回读；原46站、50项决策与来源链接完整保留。
 
 ## AIRapStudio 模块与命令
 
-`airap` 保留歌词分析、音频分析、头像/口型适配、时间线导演、字幕和 FFmpeg 合成等模块入口。它与研究工作台的 provider 接入是不同路径；下列模块说明和命令不能证明真实 AI 人声、精确口型或成片质量已通过终审，外部并行开发的实现与测试由主线程另行确认。
+`airap` 提供本地程序化预览：用测试图案、节拍或提供的本地音频、逐词字幕和 FFmpeg 合成 MP4。它与研究工作台的供应商接入是不同路径。当前不生成 AI 人声、人物动画或口型；mock 头像状态仅是规划数据，未渲染进视频。请求主题会记录为 `requested_theme`，实际视觉尚未应用主题。
 
 - `airap.lyrics`：歌词、Flow 与节拍对齐处理。
 - `airap.audio`：BPM、瞬态能量与音素时间信息处理。
@@ -51,12 +51,18 @@ node --check web/create.js
 - `airap.compositor`：FFmpeg 多轨道合成。
 - `airap.pipeline`：串联各处理阶段的流水线入口。
 
-保留原有测试与 CLI 用法：
+本地预览与测试：
 
 ```bash
-# airap 测试入口；须按实际测试结果判断覆盖范围
-pytest -v
+# 使用已安装pytest的Python环境；工作台自身不需要第三方库
+python3 -m pytest -v
 
-# airap CLI 生成命令示例；能力与输出需另行验证
-python3 -m airap.cli generate --lyrics "sample.txt" --bpm 130 --output "output.mp4"
+# 明确读取UTF-8歌词文件，默认仅生成器乐节拍
+python3 -m airap.cli preview --lyrics-file sample.txt --bpm 130 --output preview.mp4 --output-dir output --json
 ```
+
+`generate` 保留为 `preview` 的兼容别名。`--lyrics` 也接受直接文字；已有文件路径仍兼容读取。`--audio FILE` 使用提供的本地音频，缺失或不可读会报错；不提供该参数才合成节拍。人物图片暂不支持。输出文件参数只接受 `.mp4` 文件名，目录用 `--output-dir` 指定。
+
+歌词上限为64 KiB UTF-8，BPM为40–300，按全部有效小节计算的预览时长最多120秒；超过限制明确拒绝，不再静默截断到16小节。结果元数据区分实测/请求时长、字幕是否烧录及真实音画来源。当前工作区已验证的解释器为 `.venv/bin/python`（Python3.15）；其他环境需Python3.10+、pytest、FFmpeg及FFprobe。生成的节拍和ASS存于每次独立的 `preview-assets-*` 子目录，供返回记录继续引用；由使用者按需清理。
+
+字幕烧录需要FFmpeg的ASS滤镜；当前安装的FFmpeg8.1.1不具备该滤镜，因此实际两个预览只导出ASS，未把字幕烧录进画面，`subtitles_burned=false`。不能将字幕文件存在当作烧录成功。引擎成功前校验成片音视频流、尺寸、帧率与实测时长；验证失败保留旧输出。

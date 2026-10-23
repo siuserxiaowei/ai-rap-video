@@ -1,0 +1,119 @@
+{
+  "iteration": "engine-preview-20261024",
+  "status": "local_preview_scope_accepted_real_ai_and_browser_unverified",
+  "checked_at": "2026-10-23T17:21:41.811192+00:00",
+  "tested_engine_commit": "cd0029c646b50ce3e13dcfe8725a369690bb40e1",
+  "tested_file_sha256": {
+    "airap/pipeline.py": "9576d29292ffc1d57b457674fa1a1f006ca26cbfbb837aea62c670176bc88bb5",
+    "airap/cli.py": "03ae5fa33239afebdf23f21212a0fdad6afdafee9c69b3020931939784dc21cc",
+    "airap/compositor/video_builder.py": "2de84d67efe1413708c4a5d723d2461a7836fa05b0d91abb37f1dba4e3e66311",
+    "scripts/verify_engine_preview.py": "47eb30097434aede22f94b2cfe3949623d196daaec4d4494f275b0318859d4f3"
+  },
+  "plan_ref": "docs/iterations/engine-preview-20261024/PLAN.md",
+  "acceptance_ref": "docs/iterations/engine-preview-20261024/acceptance.json",
+  "goal_complete": false,
+  "tests": {
+    "status": "passed",
+    "total": 387,
+    "inherited_engine": 154,
+    "new_engine": 145,
+    "workbench": 88,
+    "subtests": 393,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0,
+    "exit_code": 0,
+    "log": "artifacts/iterations/engine-preview-20261024/final-tests.txt",
+    "log_sha256": "71200a98d47e9fcef1cfca2d963c8ce126b09c2af4963067b82f345a773c2e3c"
+  },
+  "real_local_cli": {
+    "status": "passed",
+    "rendered_synthetic_previews": 2,
+    "dimensions": [
+      [
+        1080,
+        1920
+      ],
+      [
+        1920,
+        1080
+      ]
+    ],
+    "fps": 30,
+    "measured_duration_seconds_each": 1.0,
+    "full_audio_video_decode": "passed",
+    "missing_audio_rejected": true,
+    "existing_output_preserved": true,
+    "nonfinite_bpm_rejected": true,
+    "media_committed": false,
+    "smoke_media_retained": false,
+    "evidence": "artifacts/iterations/engine-preview-20261024/real-cli-smoke.json"
+  },
+  "timeline": {
+    "real_two_source_color_order_cases": 2,
+    "fps": 24,
+    "measured_cut_time_seconds": 0.25,
+    "frame_boundary": 6,
+    "status": "passed",
+    "limitation": "Non-integer-frame cuts remain subject to FPS quantization; VFR/all time bases are not comprehensively validated."
+  },
+  "capabilities": {
+    "render_kind": "procedural_preview",
+    "visual_source": "procedural_placeholder",
+    "audio_sources": [
+      "synthetic_beat",
+      "provided_audio"
+    ],
+    "ai_video_generated": false,
+    "ai_vocals_generated": false,
+    "lipsync_rendered": false,
+    "character_images_used": false,
+    "theme_applied": false,
+    "lyrics_truncated": false,
+    "max_local_preview_seconds": 120,
+    "max_lyrics_utf8_bytes": 65536,
+    "actual_smoke_subtitles_burned": false,
+    "subtitle_limitation": "Installed FFmpeg8.1.1 lacks ass/subtitles filters; ASS export is available, actual burn-in was omitted and reported false.",
+    "runtime_evidence": "artifacts/iterations/engine-preview-20261024/runtime-capabilities.json"
+  },
+  "agents": {
+    "reused": [
+      "C48",
+      "C49",
+      "C50"
+    ],
+    "new_distinct_agents": 0,
+    "original_codex_unique": 50,
+    "original_gemini_unique": 50,
+    "followup_worktrees_reclaimed": 3,
+    "original_visual_pending": [
+      "C44",
+      "C45"
+    ]
+  },
+  "network": {
+    "real_provider_requests": 0,
+    "paid_generations": 0,
+    "browser_calls": 0,
+    "policy_bypass_attempted": false,
+    "public_provider_render": "503 PROVIDER_UNAVAILABLE"
+  },
+  "running_service": {
+    "status": "passed",
+    "sites": 46,
+    "full_page": 42,
+    "evidence": "artifacts/iterations/engine-preview-20261024/live-http.json"
+  },
+  "remaining_gates": [
+    "C44/C45 desktop,390px,keyboard and browser downloads in an allowed environment",
+    "Dedicated provider credentials and authorized samples for real AI generation, lip-sync quality and cost validation",
+    "Subtitle burn-in needs an FFmpeg build with the ASS filter and real validation; it was not performed in the two CLI samples"
+  ],
+  "publication": {
+    "document_id": "TiqGd7dHWoAqBex3KCvcnzpVnKc",
+    "status": "appended_once_and_full_readback_verified",
+    "prior_verified_revision": 11,
+    "revision_id": 12,
+    "evidence": "artifacts/iterations/engine-preview-20261024/feishu-verification.json"
+  }
+}

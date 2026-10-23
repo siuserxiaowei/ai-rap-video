@@ -50,17 +50,13 @@
     "46"
   ],
   "gemini_accepted": 50,
-  "active_codex_tasks": [
-    "c48_exports (engine pipeline follow-up)",
-    "c49_integration_qa (engine CLI follow-up)",
-    "c50_final_review (engine media verification follow-up)"
-  ],
+  "active_codex_tasks": [],
   "pending_features": [
     "C44 real browser acceptance",
     "C45 real browser acceptance"
   ],
   "external_engine_commit": "fccf3d4; preserve airap and coordinate per COORDINATION.md",
-  "feishu": "published once; iteration appended once and verified revision11",
+  "feishu": "published once; two iteration appends verified revision12",
   "feishu_cli": "/Users/xiaowei/.local/state/fnm_multishells/1706_1792153352427/bin/lark-cli",
   "feishu_work_dir": null,
   "feishu_draft_path": null,
@@ -105,31 +101,34 @@
   "supplemental_same_G50": true,
   "feishu_url": "https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc",
   "feishu_document_id": "TiqGd7dHWoAqBex3KCvcnzpVnKc",
-  "feishu_revision": 11,
-  "feishu_status": "first release and one iteration append fully read-back verified; original46 headings/50 decisions/155 links preserved",
+  "feishu_revision": 12,
+  "feishu_status": "full readback matches release plus two iteration updates; original46 headings/50 decisions and prior161 unique links preserved",
   "feishu_release_path": "artifacts/feishu-report.xml",
   "draft_workspace_cleaned": true,
-  "automated_tests": 88,
+  "automated_tests": 387,
   "live_http_smoke": "passed",
   "remaining_required": [
     "C44/C45 desktop,390px,keyboard focus and browser downloads must be verified in an allowed browser environment"
   ],
-  "next_action": "Integrate honest engine preview behavior and verify actual local CLI outputs using FFprobe and full decode; no provider or browser calls.",
+  "next_action": "Verify subtitle burn-in with a compatible ASS-enabled FFmpeg toolchain. Real-provider generation/quality/cost and original browser acceptance still require their actual prerequisites. No browser policy bypass.",
   "future_backlog_not_completed": [
-    "Live provider compatibility, authorized-media quality, media download, latency and actual cost reconciliation; client/journal/CLI contract implementation is complete."
+    "Live provider compatibility, authorized-media quality, media download, latency and actual cost reconciliation; client/journal/CLI contract implementation is complete.",
+    "ASS subtitle burn-in in an actual supported FFmpeg build; current build reportsfalse and omits it."
   ],
-  "last_checkpoint": "2026-10-23T17:09:27.995454+00:00",
+  "last_checkpoint": "2026-10-23T17:24:55.123203+00:00",
   "iteration": "engine-preview-20261024",
-  "previous_goal_turn_classification": "progress: documented provider client, durable journal and local CLI implemented and accepted with88 tests; real generation and visual checks remain unverified",
+  "previous_goal_turn_classification": "progress: inherited engine defects corrected,387 tests and real CLI/FFprobe/decode passed; actual AI and original browser acceptance remain unverified",
   "global_impasse": false,
-  "visual_blocker_observations": 2,
   "provider_credentials_present": false,
   "archived_process_sessions": {
     "gemini_queue": 34726
   },
   "first_release_automated_tests": 54,
-  "iteration_status": "planned before implementation; inherited154-test baseline passed; three isolated follow-ups active",
-  "iteration_verification": "docs/iterations/provider-sync-20261024/verification.json",
-  "feishu_latest_verification": "artifacts/iterations/provider-sync-20261024/feishu-verification.json",
-  "prior_iteration_verification": "docs/iterations/provider-sync-20261024/verification.json"
+  "iteration_status": "all three follow-ups accepted/reclaimed,387 tests and actual local preview decode passed, same Feishu doc revision12 verified",
+  "iteration_verification": "docs/iterations/engine-preview-20261024/verification.json",
+  "feishu_latest_verification": "artifacts/iterations/engine-preview-20261024/feishu-verification.json",
+  "prior_iteration_verification": "docs/iterations/provider-sync-20261024/verification.json",
+  "iteration_plan": "docs/iterations/engine-preview-20261024/PLAN.md",
+  "workbench_automated_tests": 88,
+  "engine_automated_tests": 299
 }

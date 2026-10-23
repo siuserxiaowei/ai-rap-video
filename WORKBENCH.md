@@ -58,7 +58,9 @@ node --check web/create.js
 git diff --check
 ```
 
-合并后 88 项测试通过，包含研究校验、来源路径、筛选、SQLite 往返、请求拒绝、任务幂等/冲突、未接入供应商、报价与导出，以及 Sync 客户端、提交记录、命令行和本机 HTTP 契约测试。后者用合成响应验证未知提交结果、同键重试、查询失败、重开数据库及过期状态处理，不证明真实供应商成片或费用。证据采集器的网络异常测试使用 mock，不能证明其重新抓取了全站。最新结果见 [本轮验证记录](docs/iterations/provider-sync-20261024/verification.json)；[docs/C50-review.md](docs/C50-review.md) 保留首次发布的 54 项测试快照。`airap` 的测试由主线程另行执行，本套测试不证明其能力。
+工作台最近 88 项测试通过，包含研究校验、来源路径、筛选、SQLite 往返、请求拒绝、任务幂等/冲突、未接入供应商、报价与导出，以及 Sync 客户端、提交记录、命令行和本机 HTTP 契约测试。后者用合成响应验证未知提交结果、同键重试、查询失败、重开数据库及过期状态处理，不证明真实供应商成片或费用。证据采集器的网络异常测试使用 mock，不能证明其重新抓取了全站。接口迭代见 [Sync验证记录](docs/iterations/provider-sync-20261024/verification.json)；[docs/C50-review.md](docs/C50-review.md) 保留首次发布的 54 项测试快照。
+
+随后主线程合并验证了 `airap` 的299项检查，与工作台合计387项通过。真实命令行生成两个1秒、30fps的程序化预览（1080×1920及1920×1080），音视频流、实测时长和完整解码均通过；真实双色双片样本还验证了0.25秒处的镜头切换。未生成AI人声、人物动画或口型。当前FFmpeg缺少ASS滤镜，两段实际样本均未烧录字幕，结果明确报告false；ASS文件仍可导出。这些证据不构成人工画质、中文快Rap口型或真实供应商验收。见 [引擎验证记录](docs/iterations/engine-preview-20261024/verification.json) 及 README 的预览命令。
 
 桌面和 390px 真实页面、键盘焦点、照片选择、筛选/比较、保存与浏览器下载仍未验证。浏览器 CUA 已因当前页面访问策略被终止；本轮未调用其他浏览器或替代工具绕过。HTTP 成功和静态 CSS 检查不能替代这些验收。
 
@@ -80,4 +82,4 @@ python3 -m rap_workbench.provider_cli show --id <本地UUID>
 
 ## 已发布研究文档
 
-[AI Rap Video：46站研究与自主开发方案](https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc)，首次发布revision10已按原生文档全文回读验证，回执在 artifacts/feishu-create.json、feishu-readback.json、feishu-verification.json。后续接口迭代已追加至同一文档revision11并全文回读，原46站、50项决策和155个链接保留，新增进展仅一节；证据见 [本轮发布核验](artifacts/iterations/provider-sync-20261024/feishu-verification.json)。
+[AI Rap Video：46站研究与自主开发方案](https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc)，首次发布revision10已按原生文档全文回读验证，回执在 artifacts/feishu-create.json、feishu-readback.json、feishu-verification.json。接口迭代追加至revision11，之后引擎验收追加至revision12，均全文回读；原46站、50项决策和来源链接完整保留，每个新增章节仅一份。证据见 [接口发布核验](artifacts/iterations/provider-sync-20261024/feishu-verification.json)及[引擎发布核验](artifacts/iterations/engine-preview-20261024/feishu-verification.json)。
