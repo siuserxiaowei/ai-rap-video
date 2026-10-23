@@ -30,9 +30,24 @@ class FFmpegPipeline:
     """Wrapper and command executor for FFmpeg and FFprobe binaries."""
 
     def __init__(self, ffmpeg_path: Optional[str] = None, ffprobe_path: Optional[str] = None):
-        self.ffmpeg_path = ffmpeg_path or self._find_binary("ffmpeg")
-        self.ffprobe_path = ffprobe_path or self._find_binary("ffprobe")
+        self.ffmpeg_path = self._tool_reference(ffmpeg_path, "ffmpeg")
+        self.ffprobe_path = self._tool_reference(ffprobe_path, "ffprobe")
         self._available_filters: Optional[Set[str]] = None
+
+    @classmethod
+    def _tool_reference(cls, value: Optional[str], name: str) -> str:
+        if value is None:
+            return cls._find_binary(name)
+        try:
+            if (not isinstance(value, str) or not value.strip()
+                    or any(ord(char) < 32 or ord(char) == 127 for char in value)
+                    or len(value.encode('utf-8')) > 4096):
+                raise ValueError()
+        except (ValueError, UnicodeError):
+            raise ValueError(f"Explicit {name} must be a nonempty valid UTF-8 executable reference") from None
+        # Preserve explicit references exactly, including spaces in real paths.
+        # Only None selects discovery; a missing selected tool must fail.
+        return value
 
     @staticmethod
     def _find_binary(name: str) -> str:
@@ -59,10 +74,11 @@ class FFmpegPipeline:
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 text=True,
+                timeout=15,
                 check=False
             )
             return res.returncode == 0
-        except (FileNotFoundError, PermissionError):
+        except (OSError, subprocess.TimeoutExpired):
             return False
 
     def get_available_filters(self) -> Set[str]:
@@ -81,14 +97,19 @@ class FFmpegPipeline:
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 text=True,
+                timeout=15,
                 check=False
             )
-            # Lines look like: " ... scale             V->V       Scale the input video size..."
-            for line in res.stdout.splitlines():
-                parts = line.strip().split()
-                if len(parts) >= 2 and parts[0] in ("..", "TS", "T.", ".S", "T..", "..."):
-                    filter_name = parts[1]
-                    filters.add(filter_name)
+            if res.returncode == 0:
+                # Older builds expose T/S, others T/S/C. Require the actual
+                # media-link column too, so flag legends cannot become filters.
+                row = re.compile(
+                    r'^\s*(?:[T.][S.][C.]|[T.][S.])\s+'
+                    r'([A-Za-z0-9_]+)\s+[AVN|]+->[AVN|]+(?:\s|$)')
+                for line in res.stdout.splitlines():
+                    match = row.match(line)
+                    if match:
+                        filters.add(match.group(1))
         except Exception as e:
             logger.warning("Failed to query ffmpeg filters: %s", e)
 
@@ -188,18 +209,23 @@ class FilterGraphBuilder:
 
     @staticmethod
     def escape_filter_path(file_path: str) -> str:
-        """Escape path for FFmpeg filter argument syntax."""
-        p = str(Path(file_path).resolve())
-        # Replace backslashes with forward slashes
-        p = p.replace("\\", "/")
-        # Escape colons, single quotes, brackets
-        p = p.replace(":", "\\:").replace("'", "\\'")
-        return p
+        """Encode an unquoted filename through FFmpeg's two parsing layers.
+
+        The option-value layer consumes colon, quote and backslash escapes;
+        the filtergraph layer consumes quote/backslash and [],; escapes first.
+        subprocess argv has no shell layer. Literal POSIX backslashes must
+        survive both parsers, and whitespace must not be trimmed by either.
+        """
+        value = str(Path(file_path).resolve())
+        option = ''.join(('\\' if char in "\\':" or char.isspace() else '') + char
+                         for char in value)
+        return ''.join(('\\' if char in "\\'[],;" or char.isspace() else '') + char
+                       for char in option)
 
     def build_ass_filter(self, in_label: str, ass_path: str, out_label: str = "v_sub") -> str:
         """Generate ASS subtitle burn-in filter."""
         escaped_path = self.escape_filter_path(ass_path)
-        return f"[{in_label}]ass=filename='{escaped_path}'[{out_label}]"
+        return f"[{in_label}]ass=filename={escaped_path}[{out_label}]"
 
     def build_effects_filter(
         self,

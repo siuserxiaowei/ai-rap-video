@@ -114,10 +114,11 @@ class VideoBuilder:
     def __init__(
         self,
         config: Optional[VideoConfig] = None,
-        ffmpeg_bin: Optional[str] = None
+        ffmpeg_bin: Optional[str] = None,
+        ffprobe_bin: Optional[str] = None
     ):
         self.config = config or VideoConfig()
-        self.pipeline = FFmpegPipeline(ffmpeg_path=ffmpeg_bin)
+        self.pipeline = FFmpegPipeline(ffmpeg_path=ffmpeg_bin, ffprobe_path=ffprobe_bin)
         self.synthetic_gen = SyntheticPatternGenerator(pipeline=self.pipeline)
 
     def build_video(
