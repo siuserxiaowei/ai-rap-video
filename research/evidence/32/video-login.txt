@@ -1,0 +1,19 @@
+Title: Log in — Pika
+
+URL Source: https://pika.art/apps/create-video
+
+Warning: This page contains shadow DOM that are currently hidden, consider enabling shadow DOM processing.
+Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page.
+
+Markdown Content:
+![Image 1: Pika](https://pika.art/_next/image?url=%2Fauth%2Fpika-mark-holographic.png&w=128&q=75&dpl=dpl_FHoZyeN2GnGkZoM8p75P1XghH6tN)
+
+## Welcome back to Pika
+
+Log in to create videos, images, and more with Pika.
+
+or
+
+Don't have an account?[Sign Up](https://pika.art/signup?redirect=%2Fapps%2Fcreate-video)
+
+By continuing, you agree to our[Terms of Service](https://pika.art/terms-of-service)&[Privacy Policies](https://pika.art/privacy-policy)

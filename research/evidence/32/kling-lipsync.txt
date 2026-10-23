@@ -1,0 +1,181 @@
+# Kling Lipsync
+
+Kling Lipsync Avatar is available in the Business API catalog.
+
+- Model ID: `kling/kling-lipsync/avatar`
+- Provider: Kling (Kuaishou)
+- Modality: image → video
+- Type: Avatar
+- Status: stable
+- Delivery: async
+- Output format: mp4
+
+## Authentication
+
+Send your API key in the `X-API-Key` header.
+
+The same key reads the org balance at `GET https://api.dev.pika.art/billing/balance`, which is free to call and confirms the request can be paid for before you submit it.
+
+## Endpoint
+
+```
+POST https://api.dev.pika.art/v1/media/kling/kling-lipsync/avatar
+```
+
+## Reference uploads
+
+To use a local file (image, audio, or video) as a model input, first request a presigned upload URL: `POST /v1/media/uploads` with the `X-API-Key` header and a JSON body `{ "content_type": "image/png", "size_bytes": 12345 }`, where `size_bytes` is the file's exact byte length. The response returns `upload_url` (temporary, valid for 5 minutes), `headers`, and `url` (the permanent Pika URL). PUT the file bytes to `upload_url` sending the returned `headers` verbatim — both `Content-Type` and `Content-Length` are signed, and storage returns a bare 403 if either is missing or differs. Then pass `url` into fields such as `image`, `image_url`, `end_image_url`, `image_urls`, `first_frame_image`, or `mask_image_url`.
+
+## Generate
+
+`POST /v1/media/kling/kling-lipsync/avatar`
+
+```bash
+curl -X POST https://api.dev.pika.art/v1/media/kling/kling-lipsync/avatar \
+  -H "X-API-Key: YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+  "video_url": "https://cdn.pika.art/v2/media/media_c68c856e-a6d9-4612-a76a-15b8176f8201/output.mp4",
+  "audio_url": "https://cdn.pika.art/v2/media/media_298b9bae-1c23-4912-ab34-9339aa8999da/output.mp3",
+  "sound_insert_time": 0,
+  "sound_start_time": 0,
+  "sound_end_time": 0
+}'
+```
+
+### Request body
+
+| Param | Type | Required | Default | Description |
+| --- | --- | --- | --- | --- |
+| `video_url` | string | yes | - | URL of the video to lip-sync. |
+| `audio_url` | string | yes | - | URL of the audio to sync the lips to. |
+| `sound_insert_time` | integer (≥ 0) | no | 0 | Where in the video to insert the audio, in milliseconds. |
+| `sound_start_time` | integer (≥ 0) | no | 0 | Where in the audio to start playback, in milliseconds. |
+| `sound_end_time` | integer (≥ 0) | yes | - | Where in the audio to stop playback, in milliseconds. |
+| `sound_volume` | number (0 – 1) | no | - | Volume of the inserted audio, from 0 to 1. |
+| `original_audio_volume` | number (0 – 1) | no | - | Volume of the video's original audio, from 0 to 1. |
+
+#### Example body
+
+```json
+{
+  "video_url": "https://cdn.pika.art/v2/media/media_c68c856e-a6d9-4612-a76a-15b8176f8201/output.mp4",
+  "audio_url": "https://cdn.pika.art/v2/media/media_298b9bae-1c23-4912-ab34-9339aa8999da/output.mp3",
+  "sound_insert_time": 0,
+  "sound_start_time": 0,
+  "sound_end_time": 0
+}
+```
+
+Returns a job object, not the final output — normally with status `queued`. If you're at your concurrency limit, the job stays `queued` until a slot frees up, then starts on its own. Store the `id` and poll until a terminal state. A rejected submit (insufficient balance, rate limit, unpriceable input) still returns the job object, with status `failed` and `error` set. An `Idempotency-Key` replay returns the existing job in its current state — including `failed`, so retry a failure with a fresh key, never the same one.
+
+### Response
+
+**200 OK · queued**
+
+```json
+{
+  "id": "media_8f3a2c91-5b7d-4e0a-9c26-31d4f2a8e6b0",
+  "status": "queued"
+}
+```
+
+## Poll status
+
+`GET /v1/media/jobs/{request_id}`
+
+```bash
+curl https://api.dev.pika.art/v1/media/jobs/{request_id} \
+  -H "X-API-Key: YOUR_API_KEY"
+```
+
+Poll the job by id until it reaches a terminal state: `completed` or `failed`.
+
+### The job object
+
+- `id` (string): Unique identifier for the job.
+- `status` (enum): One of `queued`, `running`, `completed`, `failed`.
+- `output` (object): Present once the job completes.
+  - `media_type` (enum): `video`.
+  - `output.video.url` (string): URL of the generated video.
+- `error` (object): Present if the job failed. `error.code` is the stable machine-readable value to branch on — one of `invalid_input`, `content_moderation`, `provider_error`, `provider_timeout`, `provider_unavailable`, `rate_limited`, `insufficient_balance`, `membership_required`, `cycle_limit_exceeded`, `admission_suspended`, `timed_out`, `internal`. Unrecognized values normalize to `provider_error`. `error.message` is diagnostic text and varies.
+- `usage` (object): Units the provider reported for the job, such as `video_output_tokens`, `image_output_tokens`, `input_tokens`, or `output_seconds`. Present once the job is terminal, carries only the units the job reports, and is `null` when nothing was reported. It may not reproduce the charge, because some pricing components are fixed by the request; the charge is authoritative.
+- `billing` (object): What the job charged. Present once the job is terminal, `null` on the submit response and on webhooks. `billing.state` is one of `settled`, `pending`, `unavailable`. `settled` carries `charge_micro_usd`, the amount collected in micro-USD (the balance's unit), `0` included. `pending` means the charge is still settling: retry at 1s, 2s, then 5s. `unavailable` means the billing read failed on Pika's side: retry no sooner than 30s. Record spend only when `state` is `settled`, keyed by job id; a `billing` of `null` is not a charge.
+
+### Response
+
+**200 OK · running**
+
+```json
+{
+  "id": "media_8f3a2c91-5b7d-4e0a-9c26-31d4f2a8e6b0",
+  "status": "running"
+}
+```
+
+**200 OK · completed**
+
+```json
+{
+  "id": "media_8f3a2c91-5b7d-4e0a-9c26-31d4f2a8e6b0",
+  "status": "completed",
+  "output": {
+    "media_type": "video",
+    "video": {
+      "url": "https://api.dev.pika.art/v1/files/video_8f3a2c91.mp4",
+      "content_type": "video/mp4"
+    }
+  },
+  "usage": {
+    "video_output_tokens": 50638
+  },
+  "billing": {
+    "state": "settled",
+    "charge_micro_usd": 372189
+  }
+}
+```
+
+**200 OK · failed**
+
+```json
+{
+  "id": "media_8f3a2c91-5b7d-4e0a-9c26-31d4f2a8e6b0",
+  "status": "failed",
+  "error": {
+    "code": "provider_error",
+    "message": "upstream generation failed"
+  },
+  "billing": {
+    "state": "settled",
+    "charge_micro_usd": 0
+  }
+}
+```
+
+A completed job carries its download URL in `output`. `GET /v1/media/jobs/{request_id}/content` returns that same URL as `{ "url": "..." }` for clients that only kept the id; it answers `409` until the job completes.
+
+## Errors
+
+Errors use conventional HTTP status codes and always return JSON, in one of two shapes. Request-level errors (auth, unknown path, schema validation, idempotency conflict) are `{"message": "..."}`. Submit rejections that occur after the job row is created (insufficient balance, rate limit, unpriceable input, dispatch unavailable) return the full failed job envelope — branch on `error.code`, and retry with a fresh `Idempotency-Key`, since a failed job replays on its key.
+
+- 401 Unauthorized — The API key is missing or invalid. Body: `{"message":"Invalid API key"}`
+- 403 Forbidden — An inactive key is rejected with a `{"message"}` body. A submit that the org balance or postpaid cycle limit cannot cover is rejected after the job row exists and returns the failed job envelope. `GET /billing/balance` separates the two: a `200` means the key is active, so the rejection was the balance or the cycle limit. Body: `{"id":"media_8f3a2c91-5b7d-4e0a-9c26-31d4f2a8e6b0","status":"failed","error":{"code":"insufficient_balance","message":"Insufficient org balance"}}`
+- 404 Not Found — No job with that id exists in your org, or the media path names an unknown vendor/model/function. Body: `{"message":"media job not found"}`
+- 409 Conflict — The result was requested before the job completed, or an Idempotency-Key header was reused with a different body. Body: `{"message":"media job is not ready"}`
+- 422 Unprocessable Entity — The request body failed validation: an invalid enum value, a missing required field, a wrong type, or malformed JSON. The JSON message names the offending field. A schema-valid parameter combination that cannot be priced instead fails after job creation and returns the failed job envelope with error code `invalid_input`. Body: `{"message":"duration: Input should be less than or equal to 15"}`
+- 429 Too Many Requests — You've hit your per-minute or per-day request limit, or your org's job queue is full. Returned as the failed job envelope. If there's a Retry-After header, wait that long, then retry with a fresh Idempotency-Key. Body: `{"id":"media_8f3a2c91-5b7d-4e0a-9c26-31d4f2a8e6b0","status":"failed","error":{"code":"rate_limited","message":"rate limit exceeded: rpm"}}`
+- 503 Service Unavailable — The model rail or a backend dependency is temporarily unavailable. Returned as the failed job envelope; retry with backoff and a fresh Idempotency-Key. Body: `{"id":"media_8f3a2c91-5b7d-4e0a-9c26-31d4f2a8e6b0","status":"failed","error":{"code":"provider_unavailable","message":"media dispatch unavailable"}}`
+
+## Pricing
+
+- default: $0.012 per second
+
+Only successful generations are charged.
+
+Check the balance against this price before submitting: `GET https://api.dev.pika.art/billing/balance` returns `balance_micro_usd`, which is US dollars multiplied by 1,000,000, and `postpaid` when the org bills by invoice instead. For an active postpaid org, compare the price against `postpaid.cycle.remaining_micro_usd` rather than the prepaid balance. Report a shortfall to the user rather than submitting a request the balance cannot cover.
+
+---
+
+Model page: https://dev.pika.art/models/kling/kling-lipsync/avatar
+API index: https://dev.pika.art/llms.txt

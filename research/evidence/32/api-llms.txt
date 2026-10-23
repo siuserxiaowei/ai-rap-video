@@ -1,0 +1,452 @@
+# Pika API
+
+> Pika API provides callable model operations for image, video, audio, music, speech, transcription, dubbing, upscaling, language models, and typed decisions through one API key. Use this file to discover an operation, then read its linked specification before making a request.
+
+The catalog and per-operation specifications are the runtime source of truth. Do not infer endpoint paths, request fields, enum values, pricing, or model support from a model name or from prior knowledge.
+
+## When to use Pika
+
+Reach for Pika when a task needs generated or transformed media and you would otherwise integrate several vendors:
+
+- Generating video, image, audio, music, speech, or transcription from more than one provider without holding a separate account, key, and billing relationship for each.
+- Running a long generation from a backend job: submit returns immediately, then poll the job or take a signed webhook on the terminal event.
+- Editing or transforming media you already have, including image editing, video-to-video, upscaling, dubbing, lipsync, and keyframe interpolation.
+- Checking a price before spending: every operation quotes in micro-USD against a prepaid balance, and the catalog carries live pricing.
+
+Pika is the wrong tool for:
+
+- Hosting, fine-tuning, or serving your own model weights. The catalog is fixed and provider-hosted.
+- Realtime or streaming inference. Media operations are asynchronous and measured in seconds to minutes, not frames.
+- Bypassing provider moderation. Every operation runs the upstream provider's safety policy and can refuse a prompt or an input.
+- Free usage. There is no free tier for generation; a paid balance is required before the first submit.
+
+## Start Here
+
+- [Create an account or sign in](https://dev.pika.art/login): Create a Pika API account, manage membership, and access the dashboard.
+- [Dashboard](https://dev.pika.art/dashboard): Create and manage API keys, usage, and billing.
+- [API keys](https://dev.pika.art/keys): Create, rotate, and revoke keys.
+- [Webhooks](https://dev.pika.art/webhooks): Register callback endpoints and read the organization's signing secret.
+- [Agent onboarding](https://dev.pika.art/agent): Copy the short Pika onboarding prompt into a coding agent, app builder, or chat assistant.
+- [Models](https://dev.pika.art/models): Browse the human-readable model catalog and playgrounds.
+- [Pricing](https://dev.pika.art/pricing): Review current model pricing before running paid generations.
+
+## Getting started
+
+Onboarding is self-serve end to end. No sales contact, no waitlist, no manual provisioning.
+
+1. Create an account at https://dev.pika.art/login. Signing in creates the organization.
+2. Generate an API key at https://dev.pika.art/keys, where keys are also rotated and revoked.
+3. Add funds at https://dev.pika.art/billing. Generation is prepaid, so a submit fails with `insufficient_balance` until the org has a balance.
+4. Call `GET https://api.dev.pika.art/catalog/apis` to confirm connectivity, then submit an operation.
+
+Free to call, and the closest thing to a sandbox:
+
+- The public catalog (`https://api.dev.pika.art/catalog/apis`) needs no API key.
+- Quotes (`POST https://api.dev.pika.art/catalog/apis/{api_id}/quote`) and the balance and spend reads are never charged.
+
+There is no free generation tier and no separate test environment. Every generation runs against production at the price the catalog quotes, so price a request before running it.
+
+## Environments
+
+- Documentation and model pages: `https://dev.pika.art`
+- Customer API base URL: `https://api.dev.pika.art`
+- OpenAPI 3.1 description: `https://dev.pika.art/openapi.json`. Declares the accepted authentication schemes and every callable path.
+- Recommended local secret name: `PIKA_API_KEY`
+- Authentication header: `X-API-Key: $PIKA_API_KEY` or `Authorization: Bearer $PIKA_API_KEY`. Google's `x-goog-api-key` is not accepted.
+
+Never place an API key in browser code, a URL, source control, generated output, screenshots, or chat. Store it in the runtime's server-side secret manager or local environment. A browser application must call Pika through its own authenticated server route.
+
+## Documentation Precedence
+
+Use these sources in this order:
+
+1. For current availability, request fields, required inputs, enum values, and pricing metadata, use `GET https://api.dev.pika.art/catalog/apis/{api_id}?expand=inputs`. Send the slashes in `api_id` literally (`bytedance/seedance-2.0/text-to-video`).
+2. For the exact submit endpoint, request and response examples, polling behavior, uploads, and errors, use the operation's linked `https://dev.pika.art/llms/...` specification.
+3. Use this `llms.txt` file for discovery and routing, not as a substitute for the selected operation's specification.
+
+If a prose example conflicts with the catalog `input_schema`, follow the catalog schema. If an operation is missing from the public catalog or is not active, do not call it.
+
+## Public Catalog
+
+The catalog does not require an API key and can be used to verify connectivity without creating a paid generation.
+
+- List operations: `GET https://api.dev.pika.art/catalog/apis`
+- Inspect one operation: `GET https://api.dev.pika.art/catalog/apis/{api_id}?expand=inputs`
+
+The detail response includes the current `api_id`, category, display name, pricing metadata, concrete HTTP method and path, and expanded JSON `input_schema`.
+
+## Account Balance
+
+Read the org's balance before a paid submit. These endpoints take the same API key as a generation and are never charged.
+
+- Balance: `GET https://api.dev.pika.art/billing/balance`
+- Spend history: `GET https://api.dev.pika.art/billing/spend/daily?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD`, grouped by API key and model. Both dates are required and inclusive, the range cannot exceed 366 days, and `api_key_id` and `model` narrow the result. Amounts use the same micro-USD unit as the balance.
+- Monthly report: `GET https://api.dev.pika.art/billing/monthly/YYYY-MM`, one UTC calendar month by settlement date, carrying `days`, per-model `lines`, `totals`, and any `invoices` the month touches. The month must be the current one or a past one within the last 24 months. A `409` means the org's report is still being prepared — retry later rather than reading it as an empty month.
+- Monthly CSV: `GET https://api.dev.pika.art/billing/monthly/YYYY-MM/csv`, the same month as a `text/csv` attachment.
+
+### The balance object
+
+- `unit` (string): Always `micro_usd`, the unit of every amount in this object.
+- `currency` (string): Always `usd`.
+- `org_id` (string): The org the key belongs to.
+- `balance_micro_usd` (integer): Everything the org can spend — prepaid plus comp credits — in micro-USD. Divide by 1,000,000 to compare it against the US dollar prices in the catalog and in an operation's specification. `prepaid_micro_usd` and `credit_micro_usd` split it into the two buckets.
+- `postpaid` (object): Present only when the org bills by invoice, carrying `effective_at` and `active`. Once `active` is true the prepaid balance is not the spend gate — the invoice cycle limit is, and exceeding it fails a submit with `cycle_limit_exceeded`, not `insufficient_balance`. `null` means a plain prepaid org and nothing else.
+- `postpaid.cycle` (object): The current limit window, present while `active`. Carries `window_start`, `window_end`, `limit_micro_usd`, `used_micro_usd`, and `remaining_micro_usd`, which is what the org can still spend and goes negative once the window is over its limit.
+
+Estimate the cost of the intended request from the operation's pricing, then read the balance and confirm it covers that cost, against `balance_micro_usd` for a prepaid org or `postpaid.cycle.remaining_micro_usd` for an active postpaid one. If it does not, report the shortfall in dollars and stop; do not submit a request to discover whether it can be paid for. A `200` here also proves the key is active, which is what separates an inactive key from an empty balance after a `403`.
+
+## Agent Workflow
+
+1. Determine the user's intended output and available inputs: text, image, video, audio, or a combination.
+2. Shortlist operations from the model list below. Recommend one best fit and, only when useful, one alternative. Explain the tradeoff in quality, speed, capability, or cost.
+3. Fetch the selected operation's linked specification and its live catalog record before writing request code.
+4. Check that `PIKA_API_KEY` is configured without printing or exposing it. If absent, guide the user to [sign in](https://dev.pika.art/login) and create a key in the dashboard.
+5. Read the balance and confirm it covers the requests you are about to make. If it does not, report the shortfall and stop there.
+6. State the selected model, operation, important settings, and number of paid requests before submitting. A user's approval of one generation does not authorize a batch or additional variants.
+7. Execute the request, wait for a terminal result, save or integrate the output, and report the model used and the next recommended capability.
+
+## Media API
+
+All non-LLM generation operations use concrete asynchronous REST endpoints.
+
+- Submit: `POST https://api.dev.pika.art/v1/media/{vendor}/{model}/{function}` using the exact path and JSON body from the selected operation's specification.
+- The submit response returns a job object containing `id` and `status`. Preserve the returned `id` as the request ID.
+- Poll: `GET https://api.dev.pika.art/v1/media/jobs/{request_id}` until `status` is `completed` or `failed`, or take a webhook instead.
+- Result: a completed job carries its download URL in `output`. `GET https://api.dev.pika.art/v1/media/jobs/{request_id}/content` returns that same URL as `{ "url": "..." }` and answers `409` before the job completes.
+- Delete: `DELETE https://api.dev.pika.art/v1/media/jobs/{request_id}` erases the job's stored media and the request captured at submit (the prompt and parameters), and answers `204`. The job then reports `deleted_at` in epoch seconds with no `output`, and the content endpoint answers `410`. A running job is `409` with `retry_after` seconds; a `503` still accepted the deletion, which finishes on its own. Repeats are safe.
+- Cost: a terminal job carries `usage` (provider-reported units) and `billing`. Record spend from `billing.charge_micro_usd` only when `billing.state` is `settled`; `pending` means retry shortly, and `null` (submit responses, webhooks) is not a charge.
+
+For retry-safe submits, send a stable `Idempotency-Key` for the same request body. Never reuse an idempotency key with a different body. A failed job replays on its key, so retry a failure with a fresh key.
+
+## Webhooks
+
+A signed callback when a job reaches a terminal state, so a long generation needs no polling loop. The `data` object on a delivery is the same job object polling returns.
+
+- One job: pass a top-level `"webhook_url"` on the submit body. No registration, and a rejected URL answers `400`.
+- Every job: register an endpoint on the [Webhooks page](https://dev.pika.art/webhooks).
+- Deliveries are signed per [Standard Webhooks](https://www.standardwebhooks.com/), retried over about 55 hours, and listed at `GET https://api.dev.pika.art/v1/webhooks/deliveries`.
+- Signing secrets are read from the [Webhooks page](https://dev.pika.art/webhooks) by an owner or admin, never with an API key. Fetch yours before the first delivery arrives.
+
+Verify every signature and deduplicate on `webhook-id`. Read the full specification before writing a receiver: https://dev.pika.art/llms/webhooks
+
+## Reference Uploads
+
+When an operation needs a local image, video, or audio file:
+
+1. Send `POST https://api.dev.pika.art/v1/media/uploads` with `X-API-Key` and JSON `{ "content_type": "image/png", "size_bytes": 12345 }` using the file's real MIME type and exact byte length.
+2. The response returns a temporary `upload_url`, the `headers` to send with it, and a hosted `url`.
+3. Immediately `PUT` the raw file bytes to `upload_url`, sending the returned `headers` verbatim — both `Content-Type` and `Content-Length` are signed, and storage returns a bare 403 if either is missing or differs.
+4. Pass the hosted `url`, not the temporary upload URL or local path, into the model request field named by the selected operation's schema.
+
+The presigned URL is valid for 5 minutes. An unsupported `content_type` returns `415`; over the size cap (20 MB image and audio, 50 MB video) returns `413`. A public URL you already host needs no upload — pass it straight into the input field.
+
+To erase one upload, send `DELETE https://api.dev.pika.art/v1/media/uploads?url=...` with the hosted `url` that minting returned. Call it once your `PUT` has returned: the upload URL stays valid for its five minutes and cannot be revoked, so a `PUT` still in flight recreates the object. A URL that is not one of your uploads is `404`, a `503` means retry, and repeats are safe.
+
+## Language Model API
+
+Language-model operations are synchronous. Fetch the selected model's specification before choosing a protocol.
+
+- OpenAI-compatible: `POST https://api.dev.pika.art/v1/chat/completions`
+- Anthropic Messages: `POST https://api.dev.pika.art/anthropic/v1/messages`
+- Google GenAI: `POST https://api.dev.pika.art/genai/v1beta/models/{model}:generateContent`
+
+Streaming is supported: send `"stream": true` on the OpenAI and Anthropic surfaces, and call `:streamGenerateContent` instead of `:generateContent` on GenAI.
+
+Use only the protocol and model identifier from the selected model's specification.
+
+## Decision API
+
+Decision models answer typed questions (`noul`, `choice`, `score`) about a state you send: `POST https://api.dev.pika.art/v1/decisions`. Calls are synchronous; streaming is not supported. Fetch the selected model's specification for the request shape.
+
+## Errors and Retries
+
+- `401`: API key missing or invalid. Stop and correct authentication.
+- `403`: key inactive or balance insufficient, returned as the failed job envelope on a media submit. Branch on `error.code`, or read `GET https://api.dev.pika.art/billing/balance` to tell the two apart — a `200` means the key is active and the request was priced above the balance. Report the shortfall and direct the user to top up in the dashboard. Do not retry the same submit.
+- `404`: operation, job, or file not found. Recheck the current catalog and request ID.
+- `409`: result requested too early or an idempotency key was reused with a different body.
+- `413` / `415`: upload too large, or an unsupported `content_type` on `/v1/media/uploads`.
+- `422`: request validation or unpriceable parameter combination. Correct the request from the live schema; do not retry unchanged.
+- `429`: you've hit your per-minute or per-day request limit, or your org's job queue is full. It comes back as the failed job envelope on a media submit. Honor `Retry-After` when it's there, and back off before retrying.
+- `502` / `504`: upstream provider failed or timed out; synchronous surfaces only.
+- `503`: Pika-side dependency unavailable (auth, billing, or dispatch). Retry with bounded backoff; surface the failure if it persists.
+
+Every error body is JSON. Request-level errors (auth, unknown path, schema validation, idempotency conflict) are `{"message": "..."}`.
+
+Never silently switch models after a paid request fails. Explain the failure and obtain approval before submitting to a different model.
+
+## Completion Standard
+
+A successful integration ends with working code or a generated artifact, the selected model and operation recorded, the output URL saved or integrated, secrets kept server-side, and a clear next step. Do not stop after merely describing the API.
+
+## Policies and Support
+
+- [Terms of Service](https://dev.pika.art/terms-of-service)
+- [Privacy Policy](https://dev.pika.art/privacy-policy)
+- [Acceptable Use Policy](https://pika.art/acceptable-use-policy)
+- [Email API support](mailto:api@pika.art)
+
+## Recommended models
+
+Popular starting points per task; the full catalog is below. Recommend one, not the list.
+
+- Text to Video: [Seedance 2.5](https://dev.pika.art/llms/bytedance/seedance-2.5/text-to-video), [Gemini Omni 1.1 Flash](https://dev.pika.art/llms/google/gemini-omni-1.1-flash/text-to-video), [Wan 3.0](https://dev.pika.art/llms/alibaba/wan3.0-video/text-to-video), [MiniMax H3](https://dev.pika.art/llms/minimax/h3/text-to-video)
+- Image to Video: [Seedance 2.5](https://dev.pika.art/llms/bytedance/seedance-2.5/image-to-video), [Gemini Omni 1.1 Flash](https://dev.pika.art/llms/google/gemini-omni-1.1-flash/image-to-video), [Wan 3.0](https://dev.pika.art/llms/alibaba/wan3.0-video/image-to-video), [MiniMax H3](https://dev.pika.art/llms/minimax/h3/image-to-video)
+- Text to Image: [Seedream 5.0 Pro Text to Image](https://dev.pika.art/llms/bytedance/seedream-5.0-pro/text-to-image), [Nano Banana Pro](https://dev.pika.art/llms/google/gemini-3-pro-image/text-to-image), [GPT Image 2](https://dev.pika.art/llms/openai/gpt-image-2/text-to-image)
+- Image Editing: [Seedream 5.0 Pro Image Editing](https://dev.pika.art/llms/bytedance/seedream-5.0-pro/image-to-image), [Nano Banana Pro](https://dev.pika.art/llms/google/gemini-3-pro-image/image-to-image), [GPT Image 2](https://dev.pika.art/llms/openai/gpt-image-2/image-to-image)
+- Text to Speech: [Eleven Multilingual v2](https://dev.pika.art/llms/elevenlabs/eleven-multilingual-v2/text-to-speech), [MiniMax Speech 2.8 HD](https://dev.pika.art/llms/minimax/minimax-speech-2.8-hd/text-to-speech)
+- Music: [Lyria 3 Pro](https://dev.pika.art/llms/google/lyria-3-pro/text-to-audio), [MiniMax Music 3.0](https://dev.pika.art/llms/minimax/minimax-music-3.0/text-to-audio), [Sonilo v1.1 Music](https://dev.pika.art/llms/sonilo/sonilo-v1.1-music/text-to-music)
+- Transcription: [Eleven Scribe](https://dev.pika.art/llms/elevenlabs/eleven-scribe/transcription), [Whisper](https://dev.pika.art/llms/openai/whisper/transcription)
+- LLM: [Claude Opus 5](https://dev.pika.art/llms/anthropic/claude-opus-5), [GPT-5.6 Sol](https://dev.pika.art/llms/openai/gpt-5.6-sol), [Gemini 3.1 Pro](https://dev.pika.art/llms/google/gemini-3.1-pro)
+
+## Models
+
+179 callable operations. A model can appear more than once when it supports multiple functions. Fetch the linked specification for the operation you intend to call.
+
+### Pika
+
+- [Pika 2.5](https://dev.pika.art/models/pika/pika-2.5/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/pika/pika-2.5/image-to-video
+- [Pika 2.5](https://dev.pika.art/models/pika/pika-2.5/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/pika/pika-2.5/text-to-video
+- [Pikadditions](https://dev.pika.art/models/pika/pikadditions/video-to-video) (Video to Video, async). Spec: https://dev.pika.art/llms/pika/pikadditions/video-to-video
+- [Pikaswaps](https://dev.pika.art/models/pika/pikaswaps/video-to-video) (Video to Video, async). Spec: https://dev.pika.art/llms/pika/pikaswaps/video-to-video
+- [Pikaffects](https://dev.pika.art/models/pika/pikaffects/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/pika/pikaffects/image-to-video
+- [Pikaffects](https://dev.pika.art/models/pika/pikaffects/video-to-video) (Video to Video, async). Spec: https://dev.pika.art/llms/pika/pikaffects/video-to-video
+- [Pika Dynamic Captions](https://dev.pika.art/models/pika/dynamic-captions/caption-video) (caption-video, async). Spec: https://dev.pika.art/llms/pika/dynamic-captions/caption-video
+- [Pika Music](https://dev.pika.art/models/pika/pika-audio/pika-music) (Reference to Audio, async). Spec: https://dev.pika.art/llms/pika/pika-audio/pika-music
+- [Pika SFX](https://dev.pika.art/models/pika/pika-audio/pika-sfx) (Pika SFX, async). Spec: https://dev.pika.art/llms/pika/pika-audio/pika-sfx
+- [Pika Speech](https://dev.pika.art/models/pika/pika-audio/pika-speech) (Pika Speech, async). Spec: https://dev.pika.art/llms/pika/pika-audio/pika-speech
+- [Pika Soundtrack](https://dev.pika.art/models/pika/pika-audio/pika-soundtrack) (Pika Soundtrack, async). Spec: https://dev.pika.art/llms/pika/pika-audio/pika-soundtrack
+- [Pika 2.5 Keyframe](https://dev.pika.art/models/pika/pikaframes/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/pika/pikaframes/image-to-video
+- [Pika Video Compose](https://dev.pika.art/models/pika/video-compose/compose-video) (Compose Video, async). Spec: https://dev.pika.art/llms/pika/video-compose/compose-video
+- [Pika Video Merge](https://dev.pika.art/models/pika/video-merge/merge-videos) (Merge Videos, async). Spec: https://dev.pika.art/llms/pika/video-merge/merge-videos
+
+### Alibaba
+
+- [Happyhorse 1.1 Image To Video](https://dev.pika.art/models/alibaba/happyhorse-1.1/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/alibaba/happyhorse-1.1/image-to-video
+- [Happyhorse 1.1 Reference To Video](https://dev.pika.art/models/alibaba/happyhorse-1.1/reference-to-video) (Reference to Video, async). Spec: https://dev.pika.art/llms/alibaba/happyhorse-1.1/reference-to-video
+- [Happyhorse 1.1 Text To Video](https://dev.pika.art/models/alibaba/happyhorse-1.1/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/alibaba/happyhorse-1.1/text-to-video
+- [Happyhorse 1.0](https://dev.pika.art/models/alibaba/happyhorse-1.0/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/alibaba/happyhorse-1.0/image-to-video
+- [Happyhorse 1.0](https://dev.pika.art/models/alibaba/happyhorse-1.0/reference-to-video) (Reference to Video, async). Spec: https://dev.pika.art/llms/alibaba/happyhorse-1.0/reference-to-video
+- [Happyhorse 1.0](https://dev.pika.art/models/alibaba/happyhorse-1.0/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/alibaba/happyhorse-1.0/text-to-video
+- [Happyhorse 1.0](https://dev.pika.art/models/alibaba/happyhorse-1.0/video-to-video) (Video to Video, async). Spec: https://dev.pika.art/llms/alibaba/happyhorse-1.0/video-to-video
+- [Wan 3.0](https://dev.pika.art/models/alibaba/wan3.0-video/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/alibaba/wan3.0-video/text-to-video
+- [Wan 3.0](https://dev.pika.art/models/alibaba/wan3.0-video/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/alibaba/wan3.0-video/image-to-video
+- [Wan 3.0](https://dev.pika.art/models/alibaba/wan3.0-video/omni-video) (Omni Video, async). Spec: https://dev.pika.art/llms/alibaba/wan3.0-video/omni-video
+- [Wan 3.0 Prime](https://dev.pika.art/models/alibaba/wan3.0-video-prime/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/alibaba/wan3.0-video-prime/text-to-video
+- [Wan 3.0 Prime](https://dev.pika.art/models/alibaba/wan3.0-video-prime/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/alibaba/wan3.0-video-prime/image-to-video
+- [Wan 3.0 Prime](https://dev.pika.art/models/alibaba/wan3.0-video-prime/omni-video) (Omni Video, async). Spec: https://dev.pika.art/llms/alibaba/wan3.0-video-prime/omni-video
+- [Alibaba Qwen3.8 Flash](https://dev.pika.art/models/qwen/qwen3.8-flash) (LLM, sync). Spec: https://dev.pika.art/llms/qwen/qwen3.8-flash
+- [Alibaba Qwen3.8 Max](https://dev.pika.art/models/qwen/qwen3.8-max) (LLM, sync). Spec: https://dev.pika.art/llms/qwen/qwen3.8-max
+
+### Anthropic
+
+- [Claude Opus 5.5](https://dev.pika.art/models/anthropic/claude-opus-5.5) (LLM, sync). Spec: https://dev.pika.art/llms/anthropic/claude-opus-5.5
+- [Claude Sonnet 5.5](https://dev.pika.art/models/anthropic/claude-sonnet-5.5) (LLM, sync). Spec: https://dev.pika.art/llms/anthropic/claude-sonnet-5.5
+- [Claude Fable 5](https://dev.pika.art/models/anthropic/claude-fable-5) (LLM, sync). Spec: https://dev.pika.art/llms/anthropic/claude-fable-5
+- [Claude Sonnet 5](https://dev.pika.art/models/anthropic/claude-sonnet-5) (LLM, sync). Spec: https://dev.pika.art/llms/anthropic/claude-sonnet-5
+- [Claude Opus 5](https://dev.pika.art/models/anthropic/claude-opus-5) (LLM, sync). Spec: https://dev.pika.art/llms/anthropic/claude-opus-5
+- [Anthropic Claude Fable 5.1](https://dev.pika.art/models/anthropic/claude-fable-5.1) (LLM, sync). Spec: https://dev.pika.art/llms/anthropic/claude-fable-5.1
+- [Anthropic Claude Haiku 4.5](https://dev.pika.art/models/anthropic/claude-haiku-4.5) (LLM, sync). Spec: https://dev.pika.art/llms/anthropic/claude-haiku-4.5
+
+### Black Forest Labs
+
+- [FLUX 3](https://dev.pika.art/models/black-forest-labs/flux-3-video/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/black-forest-labs/flux-3-video/image-to-video
+- [FLUX 3](https://dev.pika.art/models/black-forest-labs/flux-3-video/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/black-forest-labs/flux-3-video/text-to-video
+- [FLUX 3 Video Extension](https://dev.pika.art/models/black-forest-labs/flux-3-video/video-to-video) (Video Extension, async). Spec: https://dev.pika.art/llms/black-forest-labs/flux-3-video/video-to-video
+
+### ByteDance
+
+- [Seedance 2.5](https://dev.pika.art/models/bytedance/seedance-2.5/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/bytedance/seedance-2.5/image-to-video
+- [Seedance 2.5](https://dev.pika.art/models/bytedance/seedance-2.5/reference-to-video) (Reference to Video, async). Spec: https://dev.pika.art/llms/bytedance/seedance-2.5/reference-to-video
+- [Seedance 2.5](https://dev.pika.art/models/bytedance/seedance-2.5/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/bytedance/seedance-2.5/text-to-video
+- [Seedance 2.5](https://dev.pika.art/models/bytedance/seedance-2.5/draft-to-video) (Draft to Video, async). Spec: https://dev.pika.art/llms/bytedance/seedance-2.5/draft-to-video
+- [Seedance 2.0](https://dev.pika.art/models/bytedance/seedance-2.0/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/bytedance/seedance-2.0/image-to-video
+- [Seedance 2.0](https://dev.pika.art/models/bytedance/seedance-2.0/reference-to-video) (Reference to Video, async). Spec: https://dev.pika.art/llms/bytedance/seedance-2.0/reference-to-video
+- [Seedance 2.0](https://dev.pika.art/models/bytedance/seedance-2.0/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/bytedance/seedance-2.0/text-to-video
+- [Seedance 2.0 Fast](https://dev.pika.art/models/bytedance/seedance-2.0-fast/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/bytedance/seedance-2.0-fast/image-to-video
+- [Seedance 2.0 Fast](https://dev.pika.art/models/bytedance/seedance-2.0-fast/reference-to-video) (Reference to Video, async). Spec: https://dev.pika.art/llms/bytedance/seedance-2.0-fast/reference-to-video
+- [Seedance 2.0 Fast](https://dev.pika.art/models/bytedance/seedance-2.0-fast/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/bytedance/seedance-2.0-fast/text-to-video
+- [Seedance 2.0 Mini](https://dev.pika.art/models/bytedance/seedance-2.0-mini/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/bytedance/seedance-2.0-mini/image-to-video
+- [Seedance 2.0 Mini](https://dev.pika.art/models/bytedance/seedance-2.0-mini/reference-to-video) (Reference to Video, async). Spec: https://dev.pika.art/llms/bytedance/seedance-2.0-mini/reference-to-video
+- [Seedance 2.0 Mini](https://dev.pika.art/models/bytedance/seedance-2.0-mini/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/bytedance/seedance-2.0-mini/text-to-video
+- [Seedream 5.0 Pro Image Editing](https://dev.pika.art/models/bytedance/seedream-5.0-pro/image-to-image) (Image to Image, async). Spec: https://dev.pika.art/llms/bytedance/seedream-5.0-pro/image-to-image
+- [Seedream 5.0 Pro Layer Decomposition](https://dev.pika.art/models/bytedance/seedream-5.0-pro/layer-decomposition) (layer-decomposition, async). Spec: https://dev.pika.art/llms/bytedance/seedream-5.0-pro/layer-decomposition
+- [Seedream 5.0 Pro Text to Image](https://dev.pika.art/models/bytedance/seedream-5.0-pro/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/bytedance/seedream-5.0-pro/text-to-image
+- [Seedream 5.0 Lite Image Editing](https://dev.pika.art/models/bytedance/seedream-5.0-lite/image-to-image) (Image to Image, async). Spec: https://dev.pika.art/llms/bytedance/seedream-5.0-lite/image-to-image
+- [Seedream 5.0 Lite](https://dev.pika.art/models/bytedance/seedream-5.0-lite/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/bytedance/seedream-5.0-lite/text-to-image
+- [Seedream 4.5](https://dev.pika.art/models/bytedance/seedream-4.5/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/bytedance/seedream-4.5/text-to-image
+- [Seedream 4.0 Image Editing](https://dev.pika.art/models/bytedance/seedream-4.0/image-to-image) (Image to Image, async). Spec: https://dev.pika.art/llms/bytedance/seedream-4.0/image-to-image
+- [Seedream 4.0](https://dev.pika.art/models/bytedance/seedream-4.0/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/bytedance/seedream-4.0/text-to-image
+- [Seed Audio 1.0](https://dev.pika.art/models/bytedance/seed-audio-1.0/text-to-audio) (Text to Audio, async). Spec: https://dev.pika.art/llms/bytedance/seed-audio-1.0/text-to-audio
+
+### DeepSeek
+
+- [DeepSeek V4 Pro](https://dev.pika.art/models/deepseek/deepseek-v4-pro) (LLM, sync). Spec: https://dev.pika.art/llms/deepseek/deepseek-v4-pro
+- [DeepSeek V4.1 Flash](https://dev.pika.art/models/deepseek/deepseek-v4.1-flash) (LLM, sync). Spec: https://dev.pika.art/llms/deepseek/deepseek-v4.1-flash
+
+### ElevenLabs
+
+- [Eleven Multilingual v2](https://dev.pika.art/models/elevenlabs/eleven-multilingual-v2/text-to-speech) (Text to Speech, async). Spec: https://dev.pika.art/llms/elevenlabs/eleven-multilingual-v2/text-to-speech
+- [Eleven Multilingual STS v2](https://dev.pika.art/models/elevenlabs/eleven-multilingual-sts-v2/speech-to-speech) (Speech to Speech, async). Spec: https://dev.pika.art/llms/elevenlabs/eleven-multilingual-sts-v2/speech-to-speech
+- [Eleven Scribe](https://dev.pika.art/models/elevenlabs/eleven-scribe/transcription) (Transcription, async). Spec: https://dev.pika.art/llms/elevenlabs/eleven-scribe/transcription
+- [Eleven Text to Dialogue](https://dev.pika.art/models/elevenlabs/eleven-text-to-dialogue/text-to-speech) (Text to Speech, async). Spec: https://dev.pika.art/llms/elevenlabs/eleven-text-to-dialogue/text-to-speech
+- [Eleven Text to Sound v2](https://dev.pika.art/models/elevenlabs/eleven-text-to-sound-v2/sound-effects) (Sound Effects, async). Spec: https://dev.pika.art/llms/elevenlabs/eleven-text-to-sound-v2/sound-effects
+- [Eleven Turbo v2.5](https://dev.pika.art/models/elevenlabs/eleven-turbo-v2-5/text-to-speech) (Text to Speech, async). Spec: https://dev.pika.art/llms/elevenlabs/eleven-turbo-v2-5/text-to-speech
+- [Eleven Voice Dubbing](https://dev.pika.art/models/elevenlabs/eleven-voice-dubbing/dubbing) (Dubbing, async). Spec: https://dev.pika.art/llms/elevenlabs/eleven-voice-dubbing/dubbing
+- [Eleven Voice Isolation](https://dev.pika.art/models/elevenlabs/eleven-voice-isolation/voice-isolation) (Voice Isolation, async). Spec: https://dev.pika.art/llms/elevenlabs/eleven-voice-isolation/voice-isolation
+- [Eleven v4 Text To Speech](https://dev.pika.art/models/elevenlabs/eleven-v4/text-to-speech) (Text to Speech, async). Spec: https://dev.pika.art/llms/elevenlabs/eleven-v4/text-to-speech
+- [Eleven v4 Turbo Text To Speech](https://dev.pika.art/models/elevenlabs/eleven-v4-turbo/text-to-speech) (Text to Speech, async). Spec: https://dev.pika.art/llms/elevenlabs/eleven-v4-turbo/text-to-speech
+
+### Google
+
+- [Gemini Omni 1.1 Flash](https://dev.pika.art/models/google/gemini-omni-1.1-flash/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/google/gemini-omni-1.1-flash/text-to-video
+- [Gemini Omni 1.1 Flash](https://dev.pika.art/models/google/gemini-omni-1.1-flash/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/google/gemini-omni-1.1-flash/image-to-video
+- [Gemini Omni 1.1 Flash](https://dev.pika.art/models/google/gemini-omni-1.1-flash/reference-to-video) (Reference to Video, async). Spec: https://dev.pika.art/llms/google/gemini-omni-1.1-flash/reference-to-video
+- [Gemini Omni 1.1 Flash](https://dev.pika.art/models/google/gemini-omni-1.1-flash/video-to-video) (Video to Video, async). Spec: https://dev.pika.art/llms/google/gemini-omni-1.1-flash/video-to-video
+- [Gemini Omni Flash](https://dev.pika.art/models/google/gemini-omni-flash/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/google/gemini-omni-flash/text-to-video
+- [Gemini Omni Flash](https://dev.pika.art/models/google/gemini-omni-flash/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/google/gemini-omni-flash/image-to-video
+- [Gemini Omni Flash](https://dev.pika.art/models/google/gemini-omni-flash/reference-to-video) (Reference to Video, async). Spec: https://dev.pika.art/llms/google/gemini-omni-flash/reference-to-video
+- [Gemini Omni Flash](https://dev.pika.art/models/google/gemini-omni-flash/video-to-video) (Video to Video, async). Spec: https://dev.pika.art/llms/google/gemini-omni-flash/video-to-video
+- [Veo 3.1](https://dev.pika.art/models/google/veo-3.1/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/google/veo-3.1/text-to-video
+- [Veo 3.1 Video Extension](https://dev.pika.art/models/google/veo-3.1/video-extension) (Video Extension, async). Spec: https://dev.pika.art/llms/google/veo-3.1/video-extension
+- [Veo 3.1 Fast](https://dev.pika.art/models/google/veo-3.1-fast/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/google/veo-3.1-fast/text-to-video
+- [Veo 3.1 Fast Video Extension](https://dev.pika.art/models/google/veo-3.1-fast/video-extension) (Video Extension, async). Spec: https://dev.pika.art/llms/google/veo-3.1-fast/video-extension
+- [Veo 3.1 Lite](https://dev.pika.art/models/google/veo-3.1-lite/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/google/veo-3.1-lite/image-to-video
+- [Nano Banana 2.1](https://dev.pika.art/models/google/gemini-nano-banana-2.1/image-to-image) (Image to Image, async). Spec: https://dev.pika.art/llms/google/gemini-nano-banana-2.1/image-to-image
+- [Nano Banana 2.1](https://dev.pika.art/models/google/gemini-nano-banana-2.1/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/google/gemini-nano-banana-2.1/text-to-image
+- [Nano Banana Pro](https://dev.pika.art/models/google/gemini-3-pro-image/image-to-image) (Image to Image, async). Spec: https://dev.pika.art/llms/google/gemini-3-pro-image/image-to-image
+- [Nano Banana Pro](https://dev.pika.art/models/google/gemini-3-pro-image/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/google/gemini-3-pro-image/text-to-image
+- [Nano Banana Pro (Gemini 3 Pro Image)](https://dev.pika.art/models/google/gemini-3-pro-image) (LLM, sync). Spec: https://dev.pika.art/llms/google/gemini-3-pro-image
+- [Nano Banana 2](https://dev.pika.art/models/google/gemini-3.1-flash-image/image-to-image) (Image to Image, async). Spec: https://dev.pika.art/llms/google/gemini-3.1-flash-image/image-to-image
+- [Nano Banana 2](https://dev.pika.art/models/google/gemini-3.1-flash-image/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/google/gemini-3.1-flash-image/text-to-image
+- [Nano Banana (Gemini 3.1 Flash Image)](https://dev.pika.art/models/google/gemini-3.1-flash-image) (LLM, sync). Spec: https://dev.pika.art/llms/google/gemini-3.1-flash-image
+- [Nano Banana 2 Lite](https://dev.pika.art/models/google/gemini-3.1-flash-lite-image/image-to-image) (Image to Image, async). Spec: https://dev.pika.art/llms/google/gemini-3.1-flash-lite-image/image-to-image
+- [Nano Banana 2 Lite](https://dev.pika.art/models/google/gemini-3.1-flash-lite-image/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/google/gemini-3.1-flash-lite-image/text-to-image
+- [Lyria 3 Pro](https://dev.pika.art/models/google/lyria-3-pro/text-to-audio) (Text to Audio, async). Spec: https://dev.pika.art/llms/google/lyria-3-pro/text-to-audio
+- [Lyria 3](https://dev.pika.art/models/google/lyria-3/text-to-audio) (Text to Audio, async). Spec: https://dev.pika.art/llms/google/lyria-3/text-to-audio
+- [Lyria 2](https://dev.pika.art/models/google/lyria-2/sound-effects) (Music, async). Spec: https://dev.pika.art/llms/google/lyria-2/sound-effects
+- [Gemini 3.6 Flash](https://dev.pika.art/models/google/gemini-3.6-flash) (LLM, sync). Spec: https://dev.pika.art/llms/google/gemini-3.6-flash
+- [Gemini 3.5 Flash-Lite](https://dev.pika.art/models/google/gemini-3.5-flash-lite) (LLM, sync). Spec: https://dev.pika.art/llms/google/gemini-3.5-flash-lite
+- [Gemini 3.1 Pro](https://dev.pika.art/models/google/gemini-3.1-pro) (LLM, sync). Spec: https://dev.pika.art/llms/google/gemini-3.1-pro
+- [Gemini 3.7 Flash](https://dev.pika.art/models/google/gemini-3.7-flash) (LLM, sync). Spec: https://dev.pika.art/llms/google/gemini-3.7-flash
+- [Gemini 3.8 Flash](https://dev.pika.art/models/google/gemini-3.8-flash) (LLM, sync). Spec: https://dev.pika.art/llms/google/gemini-3.8-flash
+- [Lyria 3.5](https://dev.pika.art/models/google/lyria-3.5/text-to-audio) (Text to Audio, async). Spec: https://dev.pika.art/llms/google/lyria-3.5/text-to-audio
+
+### Ideogram
+
+- [Ideogram 4.5](https://dev.pika.art/models/ideogram/ideogram-4.5/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/ideogram/ideogram-4.5/text-to-image
+- [Ideogram 4.5](https://dev.pika.art/models/ideogram/ideogram-4.5/image-to-image) (Image to Image, async). Spec: https://dev.pika.art/llms/ideogram/ideogram-4.5/image-to-image
+- [Ideogram 4.0](https://dev.pika.art/models/ideogram/ideogram-4.0/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/ideogram/ideogram-4.0/text-to-image
+- [Ideogram 4.0 Transparent](https://dev.pika.art/models/ideogram/ideogram-4.0-transparent/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/ideogram/ideogram-4.0-transparent/text-to-image
+- [Ideogram P-Image](https://dev.pika.art/models/ideogram/p-image/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/ideogram/p-image/text-to-image
+
+### Kling (Kuaishou)
+
+- [Kling 3.0](https://dev.pika.art/models/kling/kling-3.0/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/kling/kling-3.0/text-to-video
+- [Kling 3.0](https://dev.pika.art/models/kling/kling-3.0/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/kling/kling-3.0/image-to-video
+- [Kling 3.0](https://dev.pika.art/models/kling/kling-3.0/omni-video) (Omni Video, async). Spec: https://dev.pika.art/llms/kling/kling-3.0/omni-video
+- [Kling 3.0](https://dev.pika.art/models/kling/kling-3.0/motion-control) (Motion Control, async). Spec: https://dev.pika.art/llms/kling/kling-3.0/motion-control
+- [Kling 3.0 Turbo](https://dev.pika.art/models/kling/kling-3.0-turbo/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/kling/kling-3.0-turbo/text-to-video
+- [Kling 3.0 Turbo](https://dev.pika.art/models/kling/kling-3.0-turbo/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/kling/kling-3.0-turbo/image-to-video
+- [Kling AI Avatar v2](https://dev.pika.art/models/kling/kling-ai-avatar-v2/avatar) (Avatar, async). Spec: https://dev.pika.art/llms/kling/kling-ai-avatar-v2/avatar
+- [Kling Lipsync](https://dev.pika.art/models/kling/kling-lipsync/avatar) (Avatar, async). Spec: https://dev.pika.art/llms/kling/kling-lipsync/avatar
+- [Kling Audio](https://dev.pika.art/models/kling/kling-audio/text-to-audio) (Text to Audio, async). Spec: https://dev.pika.art/llms/kling/kling-audio/text-to-audio
+- [Kling Audio](https://dev.pika.art/models/kling/kling-audio/video-to-audio) (Video to Audio, async). Spec: https://dev.pika.art/llms/kling/kling-audio/video-to-audio
+
+### Meta
+
+- [Muse Image](https://dev.pika.art/models/meta/muse-image-1.0/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/meta/muse-image-1.0/text-to-image
+- [Muse Image](https://dev.pika.art/models/meta/muse-image-1.0/image-to-image) (Image to Image, async). Spec: https://dev.pika.art/llms/meta/muse-image-1.0/image-to-image
+
+### MiniMax
+
+- [MiniMax H3](https://dev.pika.art/models/minimax/h3/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/minimax/h3/text-to-video
+- [MiniMax H3](https://dev.pika.art/models/minimax/h3/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/minimax/h3/image-to-video
+- [MiniMax H3](https://dev.pika.art/models/minimax/h3/reference-to-video) (Reference to Video, async). Spec: https://dev.pika.art/llms/minimax/h3/reference-to-video
+- [Hailuo 2.3](https://dev.pika.art/models/minimax/hailuo-2.3/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/minimax/hailuo-2.3/image-to-video
+- [Hailuo 2.3](https://dev.pika.art/models/minimax/hailuo-2.3/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/minimax/hailuo-2.3/text-to-video
+- [Hailuo 2.3 Fast](https://dev.pika.art/models/minimax/hailuo-2.3-fast/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/minimax/hailuo-2.3-fast/image-to-video
+- [MiniMax Music 3.0](https://dev.pika.art/models/minimax/minimax-music-3.0/text-to-audio) (Text to Audio, async). Spec: https://dev.pika.art/llms/minimax/minimax-music-3.0/text-to-audio
+- [MiniMax Speech 2.8 HD](https://dev.pika.art/models/minimax/minimax-speech-2.8-hd/text-to-speech) (Text to Speech, async). Spec: https://dev.pika.art/llms/minimax/minimax-speech-2.8-hd/text-to-speech
+- [MiniMax Speech 2.8 Turbo](https://dev.pika.art/models/minimax/minimax-speech-2.8-turbo/text-to-speech) (Text to Speech, async). Spec: https://dev.pika.art/llms/minimax/minimax-speech-2.8-turbo/text-to-speech
+
+### Moonshot AI
+
+- [Kimi K3](https://dev.pika.art/models/moonshotai/kimi-k3) (LLM, sync). Spec: https://dev.pika.art/llms/moonshotai/kimi-k3
+
+### OpenAI
+
+- [GPT Image 2.5 Sunburst](https://dev.pika.art/models/openai/gpt-image-2.5-sunburst/image-to-image) (Image to Image, async). Spec: https://dev.pika.art/llms/openai/gpt-image-2.5-sunburst/image-to-image
+- [GPT Image 2.5 Sunburst](https://dev.pika.art/models/openai/gpt-image-2.5-sunburst/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/openai/gpt-image-2.5-sunburst/text-to-image
+- [GPT Image 2.5 Flare](https://dev.pika.art/models/openai/gpt-image-2.5-flare/image-to-image) (Image to Image, async). Spec: https://dev.pika.art/llms/openai/gpt-image-2.5-flare/image-to-image
+- [GPT Image 2.5 Flare](https://dev.pika.art/models/openai/gpt-image-2.5-flare/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/openai/gpt-image-2.5-flare/text-to-image
+- [GPT Image 2](https://dev.pika.art/models/openai/gpt-image-2/image-to-image) (Image to Image, async). Spec: https://dev.pika.art/llms/openai/gpt-image-2/image-to-image
+- [GPT Image 2](https://dev.pika.art/models/openai/gpt-image-2/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/openai/gpt-image-2/text-to-image
+- [Whisper](https://dev.pika.art/models/openai/whisper/transcription) (Transcription, async). Spec: https://dev.pika.art/llms/openai/whisper/transcription
+- [GPT-6.1 Sol](https://dev.pika.art/models/openai/gpt-6.1-sol) (LLM, sync). Spec: https://dev.pika.art/llms/openai/gpt-6.1-sol
+- [GPT-6 Sol](https://dev.pika.art/models/openai/gpt-6-sol) (LLM, sync). Spec: https://dev.pika.art/llms/openai/gpt-6-sol
+- [GPT-6 Luna](https://dev.pika.art/models/openai/gpt-6-luna) (LLM, sync). Spec: https://dev.pika.art/llms/openai/gpt-6-luna
+- [GPT-5.6 Sol](https://dev.pika.art/models/openai/gpt-5.6-sol) (LLM, sync). Spec: https://dev.pika.art/llms/openai/gpt-5.6-sol
+- [OpenAI GPT-5.6 Terra](https://dev.pika.art/models/openai/gpt-5.6-terra) (LLM, sync). Spec: https://dev.pika.art/llms/openai/gpt-5.6-terra
+- [OpenAI GPT-5.6 Luna](https://dev.pika.art/models/openai/gpt-5.6-luna) (LLM, sync). Spec: https://dev.pika.art/llms/openai/gpt-5.6-luna
+- [GPT-5.5](https://dev.pika.art/models/openai/gpt-5.5) (LLM, sync). Spec: https://dev.pika.art/llms/openai/gpt-5.5
+- [OpenAI GPT-6 Astra](https://dev.pika.art/models/openai/gpt-6-astra) (LLM, sync). Spec: https://dev.pika.art/llms/openai/gpt-6-astra
+
+### Recraft
+
+- [Recraft 4.1](https://dev.pika.art/models/recraft/recraft-4.1/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/recraft/recraft-4.1/text-to-image
+
+### Sonilo
+
+- [Sonilo v1.1 Music](https://dev.pika.art/models/sonilo/sonilo-v1.1-music/text-to-music) (Text to Music, async). Spec: https://dev.pika.art/llms/sonilo/sonilo-v1.1-music/text-to-music
+- [Sonilo v1.1 Music](https://dev.pika.art/models/sonilo/sonilo-v1.1-music/video-to-music) (Video to Music, async). Spec: https://dev.pika.art/llms/sonilo/sonilo-v1.1-music/video-to-music
+- [Sonilo v1.1 Music](https://dev.pika.art/models/sonilo/sonilo-v1.1-music/video-to-scored-video) (Video to Scored Video, async). Spec: https://dev.pika.art/llms/sonilo/sonilo-v1.1-music/video-to-scored-video
+- [Sonilo v1.1 SFX](https://dev.pika.art/models/sonilo/sonilo-v1.1-sfx/sound-effects) (Text to Sound Effects, async). Spec: https://dev.pika.art/llms/sonilo/sonilo-v1.1-sfx/sound-effects
+- [Sonilo v1.1 SFX](https://dev.pika.art/models/sonilo/sonilo-v1.1-sfx/video-to-sound-effects) (Video to Sound Effects, async). Spec: https://dev.pika.art/llms/sonilo/sonilo-v1.1-sfx/video-to-sound-effects
+
+### Sync
+
+- [Sync Lipsync 2](https://dev.pika.art/models/sync/lipsync-2/avatar) (Avatar, async). Spec: https://dev.pika.art/llms/sync/lipsync-2/avatar
+- [Sync Lipsync 2 Pro](https://dev.pika.art/models/sync/lipsync-2-pro/avatar) (Avatar, async). Spec: https://dev.pika.art/llms/sync/lipsync-2-pro/avatar
+- [Sync 3](https://dev.pika.art/models/sync/sync-3/avatar) (Avatar, async). Spec: https://dev.pika.art/llms/sync/sync-3/avatar
+
+### Tencent (Hunyuan)
+
+- [Tencent Hunyuan 4 Preview](https://dev.pika.art/models/tencent/hy4-preview) (LLM, sync). Spec: https://dev.pika.art/llms/tencent/hy4-preview
+
+### Topaz Labs
+
+- [Topaz Video Upscale](https://dev.pika.art/models/topaz/topaz-video-upscale/video-upscale) (Video Upscale, async). Spec: https://dev.pika.art/llms/topaz/topaz-video-upscale/video-upscale
+- [Topaz Image Upscale](https://dev.pika.art/models/topaz/topaz-image-upscale/image-upscale) (Image Upscale, async). Spec: https://dev.pika.art/llms/topaz/topaz-image-upscale/image-upscale
+
+### TypeSafe
+
+- [JEV 1.13](https://dev.pika.art/models/typesafe/jev-1.13) (Decision, sync). Spec: https://dev.pika.art/llms/typesafe/jev-1.13
+
+### xAI
+
+- [Grok Imagine Video 1.5](https://dev.pika.art/models/x-ai/grok-imagine-video-1.5/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/x-ai/grok-imagine-video-1.5/image-to-video
+- [Grok Imagine Video](https://dev.pika.art/models/x-ai/grok-imagine-video/text-to-video) (Text to Video, async). Spec: https://dev.pika.art/llms/x-ai/grok-imagine-video/text-to-video
+- [Grok Imagine Video](https://dev.pika.art/models/x-ai/grok-imagine-video/image-to-video) (Image to Video, async). Spec: https://dev.pika.art/llms/x-ai/grok-imagine-video/image-to-video
+- [Grok Imagine Video](https://dev.pika.art/models/x-ai/grok-imagine-video/reference-to-video) (Reference to Video, async). Spec: https://dev.pika.art/llms/x-ai/grok-imagine-video/reference-to-video
+- [Grok Imagine Video](https://dev.pika.art/models/x-ai/grok-imagine-video/video-to-video) (Video to Video, async). Spec: https://dev.pika.art/llms/x-ai/grok-imagine-video/video-to-video
+- [Grok Imagine Image Quality](https://dev.pika.art/models/x-ai/grok-imagine-image-quality/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/x-ai/grok-imagine-image-quality/text-to-image
+- [Grok Imagine Image Quality](https://dev.pika.art/models/x-ai/grok-imagine-image-quality/image-to-image) (Image to Image, async). Spec: https://dev.pika.art/llms/x-ai/grok-imagine-image-quality/image-to-image
+- [Grok Imagine](https://dev.pika.art/models/x-ai/grok-imagine-image/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/x-ai/grok-imagine-image/text-to-image
+- [Grok Imagine](https://dev.pika.art/models/x-ai/grok-imagine-image/image-to-image) (Image to Image, async). Spec: https://dev.pika.art/llms/x-ai/grok-imagine-image/image-to-image
+- [Grok 4.7](https://dev.pika.art/models/x-ai/grok-4.7) (LLM, sync). Spec: https://dev.pika.art/llms/x-ai/grok-4.7
+- [Grok Imagine Image 2.0 Text To Image](https://dev.pika.art/models/x-ai/grok-imagine-image-2.0/text-to-image) (Text to Image, async). Spec: https://dev.pika.art/llms/x-ai/grok-imagine-image-2.0/text-to-image
+- [Grok Imagine Image 2.0 Edit Image](https://dev.pika.art/models/x-ai/grok-imagine-image-2.0/image-to-image) (Image to Image, async). Spec: https://dev.pika.art/llms/x-ai/grok-imagine-image-2.0/image-to-image
+
+### Xiaomi
+
+- [MiMo V2.6 Pro](https://dev.pika.art/models/xiaomi/mimo-v2.6-pro) (LLM, sync). Spec: https://dev.pika.art/llms/xiaomi/mimo-v2.6-pro
+- [MiMo V2.6 Pro UltraSpeed](https://dev.pika.art/models/xiaomi/mimo-v2.6-pro-ultraspeed) (LLM, sync). Spec: https://dev.pika.art/llms/xiaomi/mimo-v2.6-pro-ultraspeed
+- [MiMo V2.6 Flash](https://dev.pika.art/models/xiaomi/mimo-v2.6-flash) (LLM, sync). Spec: https://dev.pika.art/llms/xiaomi/mimo-v2.6-flash
+
+### Z.ai
+
+- [GLM-5.3 FlashX](https://dev.pika.art/models/z-ai/glm-5.3-flashx) (LLM, sync). Spec: https://dev.pika.art/llms/z-ai/glm-5.3-flashx
+- [GLM-5.2](https://dev.pika.art/models/z-ai/glm-5.2) (LLM, sync). Spec: https://dev.pika.art/llms/z-ai/glm-5.2
+- [Z.ai GLM 5.3](https://dev.pika.art/models/z-ai/glm-5.3) (LLM, sync). Spec: https://dev.pika.art/llms/z-ai/glm-5.3
+- [Z.ai GLM 5.3 Flash](https://dev.pika.art/models/z-ai/glm-5.3-flash) (LLM, sync). Spec: https://dev.pika.art/llms/z-ai/glm-5.3-flash
+

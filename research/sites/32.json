@@ -1,0 +1,175 @@
+{
+  "id": "32",
+  "name": "Pika",
+  "url": "https://pika.art/",
+  "category": "lip_sync",
+  "checked_at": "2026-10-23",
+  "summary": "Pika 当前是视频、图片及音频多模型创作平台。开发者文档明确提供第三方 Kling Lipsync 的视频加音频口型同步接口；旧 Pikaformance 入口仅返回登录页，本次未确认其现行图片唱歌或说唱能力。",
+  "inputs": [
+    "Kling Lipsync API：已有视频 URL",
+    "Kling Lipsync API：音频 URL 与结束时间，可选插入时间、音量"
+  ],
+  "outputs": [
+    "Kling Lipsync API：异步生成的 MP4 口型同步视频"
+  ],
+  "features": [
+    "官网提供 AI Video、AI Image、AI Audio 创作入口",
+    "API 集成多家媒体模型，文档列出 lipsync、音乐及语音等操作",
+    "Kling Lipsync 文档支持指定音频插入位置和原音频音量",
+    "API 返回任务 ID，通过轮询获取生成结果"
+  ],
+  "pricing": {
+    "summary": "当前网页版按月：Starter 10 美元/900 积分、Creator 35 美元/3150 积分、Fancy 95 美元起/8550 积分起。年付折月价格另列，非逐月付费。API 独立计费，API Club 首页列 10 美元/月会员费及首月 10 美元额度；具体生成费须查实时目录。",
+    "free_tier": "网页版 Free 每月 0 积分，仅可购买积分包；所有档标注无水印，Free 不含商用许可。API 文档明确没有免费生成额度，须有付费余额。",
+    "plans": [
+      {
+        "name": "Free",
+        "amount": 0,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 0,
+        "notes": "packs only；无水印；不含商用许可"
+      },
+      {
+        "name": "Starter",
+        "amount": 10,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 900,
+        "notes": "月付；无水印，含商用许可"
+      },
+      {
+        "name": "Creator",
+        "amount": 35,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 3150,
+        "notes": "月付；无水印，含商用许可"
+      },
+      {
+        "name": "Fancy",
+        "amount": 95,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 8550,
+        "notes": "起价及起始积分；可扩容"
+      },
+      {
+        "name": "Pika API Club",
+        "amount": 10,
+        "currency": "USD",
+        "billing_period": "month",
+        "notes": "会员费；首页列首月 10 美元额度，生成另按目录收费"
+      }
+    ],
+    "source_url": "https://pika.art/pricing"
+  },
+  "api": {
+    "status": "documented",
+    "summary": "官方 llms.txt 提供鉴权、异步任务、实时目录及 OpenAPI 链接；Kling Lipsync 已有具体请求参数和 MP4 输出说明。未确认存在 Pikaformance 专用 API；第三方模型接口不能视为 Pikaformance 的同一能力。网页版积分包不可用于 API。",
+    "url": "https://dev.pika.art/llms.txt"
+  },
+  "limitations": [
+    "未注册、未登录、未实际生成，质量与说唱速度下的口型准确率未经验证",
+    "Pikaformance 路径返回登录门，apps/pikaformance 为 404，当前 talk/sing/rap 宣称未获得可读正文确认",
+    "Kling Lipsync 文档顶部 modality 写 image→video，但必填请求字段为 video_url 与 audio_url；按明确字段记录并保留矛盾",
+    "网页套餐积分不能与 API、iOS 或 old.pika.art 通用",
+    "网页订阅积分不结转；购买的额外积分有效期 365 天"
+  ],
+  "best_for": "已有表演视频与配音、希望通过有文档的第三方口型同步 API 制作片段的开发者；Pikaformance 图片说唱用途待核。",
+  "evidence_status": "partial",
+  "sources": [
+    {
+      "url": "https://pika.art/",
+      "title": "Pika",
+      "kind": "official",
+      "local_path": "research/evidence/32/home.txt",
+      "supports": [
+        "当前多媒体平台定位",
+        "视频、图片、音频与开发者入口"
+      ]
+    },
+    {
+      "url": "https://pika.art/pricing",
+      "title": "Pricing — Pika",
+      "kind": "pricing",
+      "local_path": "research/evidence/32/pricing.txt",
+      "supports": [
+        "现行月付套餐、积分、Free、无水印与商用许可",
+        "积分有效期与跨端使用限制"
+      ]
+    },
+    {
+      "url": "https://pika.art/pikaformance",
+      "title": "Log in — Pika",
+      "kind": "official",
+      "local_path": "research/evidence/32/pikaformance-login.txt",
+      "supports": [
+        "Pikaformance 页面需登录，正文不可核实"
+      ]
+    },
+    {
+      "url": "https://dev.pika.art/",
+      "title": "Pika API",
+      "kind": "official",
+      "local_path": "research/evidence/32/api-home.txt",
+      "supports": [
+        "API Club 会员费与首月额度",
+        "多模型 API 定位"
+      ]
+    },
+    {
+      "url": "https://dev.pika.art/llms.txt",
+      "title": "Pika API developer reference",
+      "kind": "documentation",
+      "local_path": "research/evidence/32/api-llms.txt",
+      "supports": [
+        "已公开 API 文档",
+        "无免费生成、预付费、异步任务",
+        "口型同步操作目录"
+      ]
+    },
+    {
+      "url": "https://dev.pika.art/llms/kling/kling-lipsync/avatar",
+      "title": "Kling Lipsync",
+      "kind": "documentation",
+      "local_path": "research/evidence/32/kling-lipsync.txt",
+      "supports": [
+        "第三方 Kling 口型同步接口",
+        "视频和音频必填字段、MP4 输出",
+        "modality 标签与字段矛盾"
+      ]
+    },
+    {
+      "url": "https://pika.art/apps/pikaformance",
+      "title": "Pika — 404",
+      "kind": "official",
+      "local_path": "research/evidence/32/pikaformance-404.txt",
+      "supports": [
+        "猜测的应用路径无有效正文"
+      ]
+    },
+    {
+      "url": "https://dev.pika.art/docs",
+      "title": "Pika API — Page not found",
+      "kind": "documentation",
+      "local_path": "research/evidence/32/docs-404.txt",
+      "supports": [
+        "docs 路径失效，转从 llms.txt 读取正式文档"
+      ]
+    },
+    {
+      "url": "https://pika.art/apps/create-video",
+      "title": "Log in — Pika",
+      "kind": "official",
+      "local_path": "research/evidence/32/video-login.txt",
+      "supports": [
+        "视频应用入口需登录"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：可把 Pika 的多模型 API 作为视频后期集成候选，但应按实际供应商模型分别评估口型效果。",
+    "推断：Free 套餐存在且无水印并不等于有免费生成次数，比较表应把可用额度单列。"
+  ]
+}
