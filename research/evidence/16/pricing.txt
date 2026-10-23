@@ -1,0 +1,1168 @@
+Title: Plans & Pricing | Pollo AI
+
+URL Source: https://pollo.ai/pricing
+
+Published Time: Wed, 21 Oct 2026 08:48:00 GMT
+
+Markdown Content:
+[](https://pollo.ai/)
+
+[Home](https://pollo.ai/home)
+
+AI Video
+
+AI Image
+
+Agent
+
+Marketing Studio
+
+[API](https://api.pollo.ai/)[MCP](https://pollo.ai/mcp)[Mobile](https://pollo.ai/download)[Pricing](https://pollo.ai/pricing)
+
+AI Video
+
+Transform text and images into cinematic videos with lifelike avatars and studio-quality SFX.
+
+[Try AI Video Generator](https://pollo.ai/ai-video)
+
+![Image 1](https://cdn.pollo.ai/prod/public/images/header-nav/studio-creative.webp)
+
+Video
+
+[Image to Video AI](https://pollo.ai/image-to-video)
+
+[Text to Video AI](https://pollo.ai/text-to-video)
+
+[Reference to Video](https://pollo.ai/reference-to-video)
+
+[AI Video Editor](https://pollo.ai/ai-video-editor)
+
+[Video to Video AI](https://pollo.ai/video-to-video)
+
+[AI Avatar Generator](https://pollo.ai/ai-avatar)
+
+[Video Upscaler](https://pollo.ai/video-upscaler)
+
+[Mimic Motion](https://pollo.ai/mimic-motion)
+
+[Face Swap Video](https://pollo.ai/face-swap-video)
+
+[BG Remover](https://pollo.ai/video-background-remover)
+
+[Video Extender](https://pollo.ai/ai-video-extender)
+
+[More Video Tools](https://pollo.ai/tool)
+
+Video Models
+
+[Vidu Q4 New](https://pollo.ai/m/vidu-q4)
+
+[Kling 4.0 New](https://pollo.ai/m/kling-4-0)
+
+[MiniMax H3 Max](https://pollo.ai/m/minimax-h3-max)
+
+[Wan 3.0](https://pollo.ai/m/wan-3-0)
+
+[Seedance 2.5](https://pollo.ai/m/seedance-2-5)
+
+[Seedance 2.0](https://pollo.ai/m/seedance-2-0)
+
+[Veo 3](https://pollo.ai/m/veo-3)
+
+[Sora 2](https://pollo.ai/m/sora-2)
+
+[Kling 3.0](https://pollo.ai/m/kling-3-0)
+
+[Kling AI](https://pollo.ai/m/kling-ai)
+
+[Hailuo AI](https://pollo.ai/m/hailuo-ai)
+
+[More Video Models](https://pollo.ai/m)
+
+Products
+
+[Pollo Director](https://pollo.ai/pollo-director)
+
+[Pollo Recast](https://pollo.ai/recast)
+
+[Pollo Cinema](https://pollo.ai/cinema)
+
+[Pollo AI Influencer](https://pollo.ai/ai-influencer)
+
+Audio
+
+[AI Voice Cloning](https://pollo.ai/ai-voice-cloning)
+
+[Text to Speech](https://pollo.ai/text-to-speech)
+
+AI Image
+
+Turn ideas and images into stunning visuals, or perfect any photo with a complete suite of AI tools.
+
+[Try AI Image Generator](https://pollo.ai/ai-image-generator)
+
+![Image 2](https://cdn.pollo.ai/prod/public/images/header-nav/ai-image.png)
+
+Image
+
+[AI Image Generator](https://pollo.ai/ai-image-generator)
+
+[Image to Image AI](https://pollo.ai/image-to-image-ai)
+
+[AI Photo Editor](https://pollo.ai/ai-photo-editor)
+
+[Watermark Remover](https://pollo.ai/watermark-remover)
+
+[Magic Eraser](https://pollo.ai/magic-eraser)
+
+[Image Upscaler](https://pollo.ai/image-upscaler)
+
+[Background Remover](https://pollo.ai/background-remover)
+
+[Face Swap Photo](https://pollo.ai/photo-face-swap)
+
+[Chat to Image](https://pollo.ai/chat-to-image)
+
+[More Image Tools](https://pollo.ai/image-tools)
+
+Image Models
+
+[GPT Image 2.5](https://pollo.ai/im/gpt-image-2-5)
+
+[GPT Image 2](https://pollo.ai/im/gpt-image-2)
+
+[Nano Banana 2.1](https://pollo.ai/im/nano-banana-2-1)
+
+[Nano Banana 2](https://pollo.ai/im/nano-banana-2)
+
+[Kling 3.0](https://pollo.ai/im/kling-3-0)
+
+[Seedream 5.0](https://pollo.ai/im/seedream-5-0)
+
+[Seedream 5.0 Lite](https://pollo.ai/im/seedream-5-lite)
+
+[Grok Imagine Image](https://pollo.ai/im/grok-imagine-image)
+
+[Wan AI](https://pollo.ai/im/wan-ai)
+
+[More Image Models](https://pollo.ai/im)
+
+Art
+
+[AI Art Generator](https://pollo.ai/ai-art-generator)
+
+[AI Girl Generator](https://pollo.ai/ai-image-generator/girl)
+
+[Fantasy Art Generator](https://pollo.ai/ai-image-generator/fantasy-art)
+
+[Pixel Art Generator](https://pollo.ai/ai-image-generator/pixel-art)
+
+[AI Character Generator](https://pollo.ai/ai-character-generator)
+
+[AI Logo Generator](https://pollo.ai/ai-logo-generator)
+
+[AI Tattoo Generator](https://pollo.ai/ai-tattoo-generator)
+
+[AI Graffiti Generator](https://pollo.ai/ai-image-generator/graffiti)
+
+[Coloring Page Maker](https://pollo.ai/ai-image-generator/coloring-page)
+
+[More Image Generators](https://pollo.ai/image-generators)
+
+Agent
+
+Create production-ready videos with SFX, consistent characters, and polished scenes. No Editing.
+
+[Try Pollo Agent](https://pollo.ai/agent)
+
+![Image 3](https://cdn.pollo.ai/prod/public/images/header-nav/studio-agent.webp)
+
+Marketing Video
+
+[UGC Video Ad](https://pollo.ai/app/ai-ugc-video-generator)
+
+[Photo to Video Ad](https://pollo.ai/app/photo-to-video-ads)
+
+[URL to Video Ad](https://pollo.ai/app/url-to-video-ads)
+
+[Script to Video Ad](https://pollo.ai/app/script-to-video-ads)
+
+[Clone Video Ad](https://pollo.ai/app/clone-video-ads)
+
+[Product Video](https://pollo.ai/app/ai-product-video-generator)
+
+[Virtual Try-On Video](https://pollo.ai/ai-virtual-try-on-video)
+
+[Ad Video](https://pollo.ai/app/ai-ad-generator)
+
+Story & MV
+
+[Anime Video](https://pollo.ai/app/ai-anime-video-generator)
+
+[Kids Video](https://pollo.ai/app/kids-story-video-generator)
+
+[Story Video](https://pollo.ai/app/ai-story-video-generator)
+
+[Horror Video](https://pollo.ai/app/ai-horror-video-generator)
+
+[Music Video](https://pollo.ai/app/ai-music-video-generator)
+
+E-Commerce
+
+[Virtual Try-On Photo](https://pollo.ai/ai-virtual-try-on)
+
+[Product Shot](https://pollo.ai/ai-product-photo-generator)
+
+Design
+
+[Poster](https://pollo.ai/ai-poster-generator)
+
+[Logo](https://pollo.ai/ai-logo-generator)
+
+[Menu](https://pollo.ai/app/ai-menu-maker)
+
+[Flyer](https://pollo.ai/ai-flyer-generator)
+
+[Invitation](https://pollo.ai/ai-invitation-maker)
+
+[Business Card](https://pollo.ai/app/ai-business-card-generator)
+
+Social Media
+
+[Instagram Post](https://pollo.ai/app/ai-instagram-post-generator)
+
+[YouTube Thumbnail](https://pollo.ai/app/youtube-thumbnail-maker)
+
+[LinkedIn Post](https://pollo.ai/app/linkedin-post-generator)
+
+[Facebook Cover](https://pollo.ai/app/facebook-cover-photo-maker)
+
+[Facebook Post](https://pollo.ai/app/facebook-post-generator)
+
+[Profile Photo](https://pollo.ai/ai-profile-picture-generator)
+
+[More Apps](https://pollo.ai/apps)
+
+Marketing Studio
+
+Built for marketers and sellers to create winning ads, UGC videos and product visuals faster.
+
+[Try Marketing Studio](https://pollo.ai/marketing-studio)
+
+![Image 4](https://cdn.pollo.ai/prod/public/images/header-nav/studio-marketing.webp)
+
+Video
+
+[URL to Video Ads](https://pollo.ai/app/url-to-video-ads)
+
+[Photo to Video Ads](https://pollo.ai/app/photo-to-video-ads)
+
+[UGC Video Ads](https://pollo.ai/app/ai-ugc-video-generator)
+
+[Clone Video Ads](https://pollo.ai/app/clone-video-ads)
+
+[Real Estate Video](https://pollo.ai/app/real-estate-video-maker)
+
+[AI Ad Generator](https://pollo.ai/app/ai-ad-generator)
+
+[Product Video](https://pollo.ai/app/ai-product-video-generator)
+
+[Try-On Video](https://pollo.ai/ai-virtual-try-on-video)
+
+[Bulk Viral Videos](https://pollo.ai/app/bulk-clone-viral-videos)
+
+Image
+
+[Virtual Try-on Photo](https://pollo.ai/ai-virtual-try-on)
+
+[AI Product Shot](https://pollo.ai/ai-product-photo-generator)
+
+[Listing Image Set](https://pollo.ai/ai-product-listing-image-set-generator)
+
+[AI Product Poster](https://pollo.ai/ai-product-poster-maker)
+
+[Product Staging](https://pollo.ai/ai-product-staging)
+
+[Flat Lay](https://pollo.ai/ai-flat-lay-generator)
+
+[Product Beautifier](https://pollo.ai/ai-product-beautifier)
+
+[Ghost Mannequin](https://pollo.ai/ai-ghost-mannequin-generator)
+
+[Clone Product Image](https://pollo.ai/clone-product-image)
+
+Platform & Industry
+
+[Facebook Ad Video](https://pollo.ai/app/facebook-ad-video)
+
+[TikTok Ad Video](https://pollo.ai/app/ai-tiktok-video-ad-maker)
+
+[Instagram Video Ads](https://pollo.ai/app/ai-instagram-story-ads-maker)
+
+[SHEIN Product Video](https://pollo.ai/app/ai-shein-product-video-maker)
+
+[Amazon URL to Video](https://pollo.ai/app/amazon-url-to-video)
+
+[Shopify URL to Video](https://pollo.ai/app/shopify-url-to-video)
+
+[Jewelry Product Video](https://pollo.ai/app/ai-jewelry-product-video-maker)
+
+[Apparel Product Video](https://pollo.ai/app/ai-apparel-product-video-maker)
+
+[Hotel Video](https://pollo.ai/app/ai-hotel-video-maker)
+
+0
+
+[Login](https://pollo.ai/sign-in)
+
+[Start for Free](https://pollo.ai/sign-up)
+
+![Image 5: banner bg](https://cdn.pollo.ai/prod/public/images/pricing/pricing-bg.png)
+
+![Image 6](https://cdn.pollo.ai/prod/public/images/business/pricing-banner-frame.png)
+Get Unlimited Kling 4.0 and GPT Image 2.5
+
+00 Days 00 Hours 59 Min 56 Sec
+
+# Plans & Pricing
+
+The top choice for over 1 million creative teams, marketers, and designers
+
+Monthly Annual
+
+50% OFF
+
+Lite
+
+$
+
+$15.00
+
+/mo
+
+Billed annually
+
+Includes 400 credits per month
+
+Buy Now
+
+*   400 credits/month  
+*   Up to 80 videos/month
+*   Up to 400 images/month
+*   2 parallel tasks
+*   Access to all models
+*   Access to Pollo MCP Up to 50% off
+*   Faster generation speed
+*   Watermark-free outputs
+*   Standard support
+*   Buy an add-on credit pack
+
+Unlimited & Free Gens
+
+Learn more
+
+GPT Image 1.5
+
+365-Day Unlimited
+
+Grok Imagine Image
+
+365-Day Unlimited
+
+Most popular
+
+Pro
+
+Flash Sale 50% Off
+
+$
+
+$29.00
+
+/mo
+
+Billed annually
+
+800 2K 3K
+
+800 Credits
+
+Buy Now
+
+*   800 credits/month  
+*   Up to 160 videos/month
+*   Up to 800 images/month
+*   3 parallel tasks
+*   Access to all models
+*   Access to Pollo MCP Up to 50% off
+*   Faster generation speed
+*   Watermark-free outputs
+*   Priority support
+*   Buy an add-on credit pack
+
+Unlimited & Free Gens
+
+Learn more
+
+GPT Image 1.5
+
+365-Day Unlimited
+
+Grok Imagine Image
+
+365-Day Unlimited
+
+Ultra
+
+$
+
+$129.00
+
+/mo
+
+Billed annually
+
+5K 8K 12K
+
+5,000 Credits
+
+Buy Now
+
+*   5,000 credits/month  
+*   Up to 1,000 videos/month
+*   Up to 5,000 images/month
+*   6 parallel tasks
+*   Access to all models
+*   Access to Pollo MCP Up to 50% off
+*   Faster generation speed
+*   Watermark-free outputs
+*   Priority support
+*   Buy an add-on credit pack
+
+Unlimited & Free Gens
+
+Learn more
+
+Kling 4.0
+
+10-Day Unlimited
+
+Wan 3.0
+
+10-Day Unlimited
+
+Wan 3.0 Prime
+
+10-Day Unlimited
+
+GPT Image 2.5
+
+10-Day Unlimited
+
+MiniMax H3
+
+10-Day Unlimited
+
+Kling 3.0
+
+10-Day Unlimited
+
+Pollo 2.5
+
+10-Day Unlimited
+
+Nano Banana Pro
+
+10-Day Unlimited
+
+Seedream 5.0 Lite
+
+365-Day Unlimited
+
+Seedream 4.5
+
+365-Day Unlimited
+
+Kling V3 Omni Image
+
+365-Day Unlimited
+
+GPT Image 2
+
+365-Day Unlimited
+
+GPT Image 1.5
+
+365-Day Unlimited
+
+Nano Banana 2
+
+365-Day Unlimited
+
+Grok Imagine Image
+
+365-Day Unlimited
+
++10 unlimited & free generation models
+
+Prices exclude VAT and local taxes, calculated at checkout.
+
+Unlimited usage may be subject to dynamic speed adjustments during high-traffic periods. Learn more
+
+Pollo AI offers an all-in-one API solution. Check out its pricing [here](https://pollo.ai/api-platform/pricing).
+
+Pay safely and securely with
+
+![Image 7: Mastercard](https://cdn.pollo.ai/prod/public/images/pricing/mastercard-1.png)![Image 8: Visa](https://cdn.pollo.ai/prod/public/images/pricing/visa-1.png)![Image 9: AmericanExpress](https://cdn.pollo.ai/prod/public/images/pricing/american-express-1.png)![Image 10: ApplePay](https://cdn.pollo.ai/prod/public/images/pricing/apple-pay-1.png)![Image 11: UnionPay](https://cdn.pollo.ai/prod/public/images/pricing/union-pay-1.png)![Image 12: GooglePay](https://cdn.pollo.ai/prod/public/images/pricing/google-pay.png)![Image 13: JCB](https://cdn.pollo.ai/prod/public/images/pricing/jcb.png)![Image 14: Discover](https://cdn.pollo.ai/prod/public/images/pricing/discover.png)![Image 15: ClickToPay](https://cdn.pollo.ai/prod/public/images/pricing/click-to-pay-1.png)More >>
+
+Back
+
+## COMPARE PLANS
+
+Annual 50% OFF
+
+Free
+
+20 credits
+
+Lite
+
+$12.00/month for 400 credits
+
+Pro
+
+$14.50/month for 800 credits
+
+Ultra
+
+$99.00/month for 5,000 credits
+
+Annual 50% OFF
+
+Get Plan
+
+Get Plan
+
+Get Plan
+
+### Video
+
+Parallel Tasks
+
+1
+
+2
+
+3
+
+6
+
+Pollo 2.5 720P
+
+5 credits/5s
+
+4 videos
+
+960 videos
+
+1,920 videos
+
+12,000 videos 10-Day Unlimited
+
+Pollo 2.0 720P
+
+10 credits/5s
+
+2 videos
+
+480 videos
+
+960 videos
+
+6,000 videos
+
+Seedance 2.5 480P
+
+30 credits/5s
+
+156 videos
+
+312 videos
+
+1,992 videos
+
+View more
+
+### Image
+
+Pollo Image 2.0
+
+2 credits/image
+
+10 images
+
+2,400 images
+
+4,800 images
+
+30,000 images
+
+Pollo Image 1.6
+
+4 credits/image
+
+5 images
+
+1,200 images
+
+2,400 images
+
+15,000 images
+
+Nano Banana 2 Lite
+
+2 credits/image
+
+10 images
+
+2,400 images
+
+4,800 images
+
+30,000 images
+
+View more
+
+Free
+
+Lite
+
+Pro
+
+Ultra
+
+### Video
+
+Parallel Tasks
+
+1
+
+2
+
+3
+
+6
+
+Pollo 2.5 720P
+
+4 videos
+
+960 videos
+
+1,920 videos
+
+12,000 videos 10-Day Unlimited
+
+Pollo 2.0 720P
+
+2 videos
+
+480 videos
+
+960 videos
+
+6,000 videos
+
+Seedance 2.5 480P
+
+156 videos
+
+312 videos
+
+1,992 videos
+
+View more
+
+### Image
+
+Pollo Image 2.0
+
+10 images
+
+2,400 images
+
+4,800 images
+
+30,000 images
+
+Pollo Image 1.6
+
+5 images
+
+1,200 images
+
+2,400 images
+
+15,000 images
+
+Nano Banana 2 Lite
+
+10 images
+
+2,400 images
+
+4,800 images
+
+30,000 images
+
+View more
+
+![Image 16: Sony](https://cdn.pollo.ai/prod/public/images/brand/logo/sony-logo.png)
+
+![Image 17: Mercedes-Benz](https://cdn.pollo.ai/prod/public/images/brand/logo/mercedes-benz.png)
+
+![Image 18: Coca-Cola](https://cdn.pollo.ai/prod/public/images/brand/logo/coke-company-logo-black.png)
+
+![Image 19: Microsoft](https://cdn.pollo.ai/prod/public/images/brand/logo/microsoft-logo-svgrepo-com.png)
+
+![Image 20: Nike](https://cdn.pollo.ai/prod/public/images/brand/logo/nike.png)
+
+![Image 21: P&G](https://cdn.pollo.ai/prod/public/images/brand/logo/p-g-logo-rgb.png)
+
+![Image 22: Lancôme](https://cdn.pollo.ai/prod/public/images/brand/logo/lancome.png)
+
+![Image 23: Zoom](https://cdn.pollo.ai/prod/public/images/brand/logo/zoom-logo.png)
+
+![Image 24: Sony](https://cdn.pollo.ai/prod/public/images/brand/logo/sony-logo.png)
+
+![Image 25: Mercedes-Benz](https://cdn.pollo.ai/prod/public/images/brand/logo/mercedes-benz.png)
+
+![Image 26: Coca-Cola](https://cdn.pollo.ai/prod/public/images/brand/logo/coke-company-logo-black.png)
+
+![Image 27: Microsoft](https://cdn.pollo.ai/prod/public/images/brand/logo/microsoft-logo-svgrepo-com.png)
+
+![Image 28: Nike](https://cdn.pollo.ai/prod/public/images/brand/logo/nike.png)
+
+![Image 29: P&G](https://cdn.pollo.ai/prod/public/images/brand/logo/p-g-logo-rgb.png)
+
+![Image 30: Lancôme](https://cdn.pollo.ai/prod/public/images/brand/logo/lancome.png)
+
+![Image 31: Zoom](https://cdn.pollo.ai/prod/public/images/brand/logo/zoom-logo.png)
+
+![Image 32: Using Pollo AI to Create and Inspire](https://cdn.pollo.ai/prod/public/images/index/create-and-inspire.jpg)
+
+## 10M+Users
+
+Using Pollo AI to Create and Inspire
+
+Choose a Plan
+
+[![Image 33](https://user-images.trustpilot.com/693f3d9f00ecba927687f3e9/73x73.png)![Image 34](https://user-images.trustpilot.com/68ef55b2f529f96ea2f80ad6/73x73.png)![Image 35](https://user-images.trustpilot.com/68e78d037e136941c262faeb/73x73.png)5000+ reviews Trustscore 4.4 Excellent](https://www.trustpilot.com/review/pollo.ai)
+
+## Chosen by 10M+ Creators and Marketers Worldwide
+
+Thousands of satisfied users have shared their Pollo AI experiences on Trustpilot, rating us as "Excellent." See what they love about our platform.
+
+[![Image 36: Liz Cassidy photo](https://user-images.trustpilot.com/693f3d9f00ecba927687f3e9/73x73.png)Liz Cassidy](https://www.trustpilot.com/users/693f3d9f00ecba927687f3e9)
+
+Dec 15, 2025
+
+Easy to use, great results for short videos
+
+I’ve been using Pollo AI mainly for short videos and quick image-to-video tests. The interface is straightforward and it works well even with simple prompts, which is a big plus compared to tools that need long, complicated instructions. The results can be really impressive, and it’s honestly been fun to experiment with. I’d love a bit more consistency on faces when there’s movement, but overall it’s been a solid experience for what I needed.
+
+[![Image 37: Richard Quick photo](https://user-images.trustpilot.com/68ef55b2f529f96ea2f80ad6/73x73.png)Richard Quick](https://www.trustpilot.com/users/68ef55b2f529f96ea2f80ad6)
+
+Oct 15, 2025
+
+Awesome website
+
+Awesome website. loads of options and a great way to learn how to work with 'AI' my reasoning for 5 stars is based upon price, versatility and ease of use. Also I would like to add, Pollo AI runs a lot of promos on different AI products as well. I rate their customer service at 5 stars, when I purchased my first subscription my computer crashed the following weekend and I lost all my data and info passwords you name it I lost it, contacted pollo by email they responded quickly and found my info/username and account, and I was able to restore my account.
+
+[![Image 38: armourdude photo](https://user-images.trustpilot.com/68e78d037e136941c262faeb/73x73.png)armourdude](https://www.trustpilot.com/users/68e78d037e136941c262faeb)
+
+Nov 19, 2025
+
+I have been using Pollo AI for short…
+
+I have been using Pollo AI for short videos. It is easy to use and works well with simple prompts. Other generators seem to need long drawn out complicated explanations to get even close to what I want.
+
+[![Image 39: Dudu photo](https://user-images.trustpilot.com/695a44ab00ecba1856a3944a/73x73.png)Dudu](https://www.trustpilot.com/users/695a44ab00ecba1856a3944a)
+
+Jan 14, 2026
+
+I'm just amazed by the level of quality…
+
+I'm just amazed by the level of quality output that Pollo AI can produce from a simple image. The motion, the realism, It's too good!!
+
+[![Image 40: Ray Warnes photo](https://user-images.trustpilot.com/69531f2d31cbb94446826cc0/73x73.png)Ray Warnes](https://www.trustpilot.com/users/69531f2d31cbb94446826cc0)
+
+Dec 30, 2025
+
+A fabulous journey
+
+I find Pollo easy to use, it gives me great results and I'd recommend it to anyone. It has been a wonderful experience for me.
+
+[![Image 41: lawless clan photo](https://user-images.trustpilot.com/692120dc34d80c2bc981cd68/73x73.png)lawless clan](https://www.trustpilot.com/users/692120dc34d80c2bc981cd68)
+
+Nov 22, 2025
+
+i tried 220 online img to vid in 2…
+
+i tried 220 online img to vid in 2 months, and this is the best online video.I will subscribe for a year; there are many reasons. But freedom is the most important.
+
+![Image 42](https://user-images.trustpilot.com/693f3d9f00ecba927687f3e9/73x73.png)![Image 43](https://user-images.trustpilot.com/68ef55b2f529f96ea2f80ad6/73x73.png)![Image 44](https://user-images.trustpilot.com/68e78d037e136941c262faeb/73x73.png)10M+ creators use Pollo AI|View more
+
+## FAQs
+
+### What payment methods do you accept?
+
+We accept various payment methods, including major credit cards such as Visa, MasterCard, American Express, etc.
+
+### How are my credits deducted for image or video generation?
+
+Your credits are used up based on a few factors including the tools and models you choose, the duration of videos, the quantity of outputs, and the resolution of the images or videos.
+
+### Do unused credits roll over to the next billing cycle?
+
+No, unused subscription credits do not carry over to the next billing cycle. We recommend using your credits within the current subscription period to maximize their value.
+
+### What if I need more credits?
+
+For Free and Lite users: You can upgrade your plan to get more credits.
+
+For Pro users: You can easily slide the credit bar below the Pro plan to purchase extra credits as needed. Simply drag the slider to your desired amount.
+
+For all Pro-Yearly plan subscribers: You can also buy add-on credit packs anytime for a one-time purchase.
+
+### How to check my credit status?
+
+You can check your credit status by looking in the top right corner of the screen or visiting the Billing page. There, you'll see how many monthly credits you have left.
+
+### Are there any hidden fees?
+
+No, the price you see is the price you pay. There are no additional hidden charges beyond the plan you select.
+
+### What is your refund policy?
+
+You can request a refund for subscription credits within 3 days of your first purchase as long as you meet the eligibility criteria. Add-on credits are not refundable but won't expire. For full details, please check our [Refund Policy](https://pollo.ai/refund-policy)
+
+### What are add-on credits? Do they expire? Are they refundable?
+
+Add-on credits are extra credits you purchase beyond your subscription plan. They do not expire and remain usable even after your subscription ends. They are not refundable. For more details, [please check our FAQs about Pollo Credits.](https://pollo.ai/credits-faqs).
+
+Pollo AI
+
+[Pollo Agent](https://pollo.ai/agent)
+
+[Pollo Director](https://pollo.ai/pollo-director)
+
+Beta
+
+[Pollo Recast](https://pollo.ai/recast)
+
+[Pollo Cinema](https://pollo.ai/cinema)
+
+[Marketing Studio](https://pollo.ai/marketing-studio)
+
+[AI Video Generator](https://pollo.ai/ai-video)
+
+[Text to Video AI](https://pollo.ai/text-to-video)
+
+[Image to Video AI](https://pollo.ai/image-to-video)
+
+[Reference to Video](https://pollo.ai/reference-to-video)
+
+[AI Video Editor](https://pollo.ai/ai-video-editor)
+
+[Photo to Video Avatar](https://pollo.ai/ai-avatar)
+
+[Mimic Motion](https://pollo.ai/mimic-motion)
+
+[Video to Video AI](https://pollo.ai/video-to-video)
+
+[AI Image Generator](https://pollo.ai/ai-image-generator)
+
+[Image to Image AI](https://pollo.ai/image-to-image-ai)
+
+[AI Photo Editor](https://pollo.ai/ai-photo-editor)
+
+[Seedance 2.5](https://pollo.ai/m/seedance-2-5)
+
+[Vidu Q4](https://pollo.ai/m/vidu-q4)
+
+Hot
+
+[Kling 4.0](https://pollo.ai/m/kling-4-0)
+
+Hot
+
+Agent
+
+[UGC Video Ad](https://pollo.ai/app/ai-ugc-video-generator)
+
+[URL to Video Ad](https://pollo.ai/app/url-to-video-ads)
+
+[Product Video](https://pollo.ai/app/ai-product-video-generator)
+
+[Virtual Try-On Video](https://pollo.ai/ai-virtual-try-on-video)
+
+[Real Estate Video](https://pollo.ai/app/real-estate-video-maker)
+
+[Ad Video](https://pollo.ai/app/ai-ad-generator)
+
+[Kids Video](https://pollo.ai/app/kids-story-video-generator)
+
+[Music Video](https://pollo.ai/app/ai-music-video-generator)
+
+[Virtual Try-On Photo](https://pollo.ai/ai-virtual-try-on)
+
+[Product Shot](https://pollo.ai/ai-product-photo-generator)
+
+[Poster Maker](https://pollo.ai/ai-poster-generator)
+
+[Logo Maker](https://pollo.ai/ai-logo-generator)
+
+[Flyer Maker](https://pollo.ai/ai-flyer-generator)
+
+[Invitation Maker](https://pollo.ai/ai-invitation-maker)
+
+[Business Card](https://pollo.ai/app/ai-business-card-generator)
+
+[Instagram Post](https://pollo.ai/app/ai-instagram-post-generator)
+
+[YouTube Thumbnail](https://pollo.ai/app/youtube-thumbnail-maker)
+
+[Facebook Post](https://pollo.ai/app/facebook-post-generator)
+
+Tools & Models
+
+AI Video Apps
+
+[Clone Viral Video](https://pollo.ai/app/ai-viral-video-generator)
+
+[Anime Video](https://pollo.ai/app/ai-anime-video-generator)
+
+[Story Video](https://pollo.ai/app/ai-story-video-generator)
+
+[Music Video](https://pollo.ai/app/ai-music-video-generator)
+
+[News Video](https://pollo.ai/app/ai-news-video-generator)
+
+[Explainer Video](https://pollo.ai/app/explainer-video-maker)
+
+[More Apps](https://pollo.ai/apps)
+
+AI Image Apps
+
+[Business Card](https://pollo.ai/app/ai-business-card-generator)
+
+[YouTube Banner](https://pollo.ai/app/youtube-banner-maker)
+
+[YouTube Logo](https://pollo.ai/app/youtube-logo-maker)
+
+[Merch Maker](https://pollo.ai/app/merch-maker)
+
+[Bumper Sticker](https://pollo.ai/app/bumper-sticker-maker)
+
+[3D Character](https://pollo.ai/app/3d-character-creator)
+
+[Instagram Post](https://pollo.ai/app/ai-instagram-post-generator)
+
+[Name Tag](https://pollo.ai/app/name-tag-generator)
+
+[More Image Apps](https://pollo.ai/image-apps)
+
+AI Video Models
+
+[Vidu Q4](https://pollo.ai/m/vidu-q4)
+
+Hot
+
+[Kling 4.0](https://pollo.ai/m/kling-4-0)
+
+Hot
+
+[Seedance 2.5](https://pollo.ai/m/seedance-2-5)
+
+[Seedance 2.0](https://pollo.ai/m/seedance-2-0)
+
+[Veo 3](https://pollo.ai/m/veo-3)
+
+[Sora 2](https://pollo.ai/m/sora-2)
+
+[Kling 3.0](https://pollo.ai/m/kling-3-0)
+
+[Kling AI](https://pollo.ai/m/kling-ai)
+
+[Hailuo AI](https://pollo.ai/m/hailuo-ai)
+
+[Pollo 2.5](https://pollo.ai/m/pollo-ai)
+
+[More Models](https://pollo.ai/m)
+
+AI Image Models
+
+[GPT Image 2](https://pollo.ai/im/gpt-image-2)
+
+[Nano Banana 2.1](https://pollo.ai/im/nano-banana-2-1)
+
+[Nano Banana 2](https://pollo.ai/im/nano-banana-2)
+
+[Flux AI](https://pollo.ai/im/flux-ai)
+
+[Seedream](https://pollo.ai/im/seedream)
+
+[More Models](https://pollo.ai/im)
+
+AI Video Tools
+
+[Video Upscaler](https://pollo.ai/video-upscaler)
+
+[Video Enhancer](https://pollo.ai/video-enhancer)
+
+[Lip Sync AI](https://pollo.ai/lip-sync)
+
+[Face Swap Video](https://pollo.ai/face-swap-video)
+
+[BG Remover](https://pollo.ai/video-background-remover)
+
+[Video Subtitle Remover](https://pollo.ai/remove-subtitles-from-video)
+
+[More Video Tools](https://pollo.ai/tool)
+
+AI Image Tools
+
+[Watermark Remover](https://pollo.ai/watermark-remover)
+
+[Object Remover](https://pollo.ai/object-remover)
+
+[Magic Eraser](https://pollo.ai/magic-eraser)
+
+[Image Upscaler](https://pollo.ai/image-upscaler)
+
+[Background Remover](https://pollo.ai/background-remover)
+
+[Face Swap Photo](https://pollo.ai/photo-face-swap)
+
+[Expand Image](https://pollo.ai/uncrop)
+
+[More Image Tools](https://pollo.ai/image-tools)
+
+AI Audio Tools
+
+[AI Voice Generator](https://pollo.ai/ai-voice-generator)
+
+[AI Voice Cloning](https://pollo.ai/ai-voice-cloning)
+
+[Text to Speech](https://pollo.ai/text-to-speech)
+
+[Sound Effect Generator](https://pollo.ai/ai-sound-effect-generator)
+
+AI Image Generators
+
+[AI Girl Generator](https://pollo.ai/ai-image-generator/girl)
+
+[AI Face Generator](https://pollo.ai/ai-image-generator/face)
+
+[AI Family Portrait Generator](https://pollo.ai/ai-image-generator/family-portrait)
+
+[AI Pixel Art Generator](https://pollo.ai/ai-image-generator/pixel-art)
+
+[AI Outfit Generator](https://pollo.ai/ai-image-generator/outfit)
+
+[More Image Generators](https://pollo.ai/image-generators)
+
+[AI Video Effects](https://pollo.ai/video-effects)
+
+Resources
+
+Prompt Library
+
+[Seedance 2.5 Prompts](https://pollo.ai/prompts/seedance-2-5)
+
+[MiniMax H3 Prompts](https://pollo.ai/prompts/minimax-h3)
+
+[Wan 3.0 Prompts](https://pollo.ai/prompts/wan-3-0)
+
+[Best AI Tools](https://pollo.ai/hub/best-ai-tools)
+
+[Reviews](https://pollo.ai/hub/reviews)
+
+[Tutorials](https://pollo.ai/hub/tutorials)
+
+[Alternatives](https://pollo.ai/hub/alternatives)
+
+[AI Model Insights](https://pollo.ai/hub/ai-model-insights)
+
+[Social Media Tips](https://pollo.ai/hub/social-media-insights)
+
+[Viral Video Breakdown](https://pollo.ai/hub/viral-video-breakdown)
+
+Company
+
+[About Us](https://pollo.ai/about-us)
+
+[Contact Us](https://pollo.ai/contact-us)
+
+[Pricing](https://pollo.ai/pricing)
+
+[What's New](https://pollo.ai/whats-new)
+
+[FAQs](https://pollo.ai/faqs)
+
+[Refund Policy](https://pollo.ai/refund-policy)
+
+[Privacy Policy](https://pollo.ai/privacy-policy)
+
+[Terms and Conditions](https://pollo.ai/terms-and-conditions)
+
+Platform
+
+[Pollo API](https://api.pollo.ai/)
+
+[Pollo MCP](https://pollo.ai/mcp)
+
+New
+
+[Pollo CLI](https://pollo.ai/cli)
+
+[ChatGPT Plugin](https://chatgpt.com/plugins/plugin_asdk_app_6a851a2552d08191a3c1cbb2e04c49d5?q=pollo)
+
+Hot
+
+[Download App](https://pollo.ai/download)
+
+Creators
+
+[Events](https://pollo.ai/event)
+
+[Creative Partner Program](https://pollo.ai/creative-partner-program)
+
+[Affiliate Program](https://pollo.ai/affiliate-program)
+
+[](https://pollo.ai/)
+
+Create with Pollo AI anywhere
+
+Create stunning images, videos, and audio—across web, mobile, and AI agents.
+
+Use Pollo AI With
+
+[](https://chatgpt.com/plugins/plugin_asdk_app_6a851a2552d08191a3c1cbb2e04c49d5?q=pollo)[](https://pollo.ai/mcp?tab=claude)[](https://pollo.ai/mcp?tab=cursor)[](https://pollo.ai/mcp?tab=grok)[](https://pollo.ai/mcp?tab=gemini)
+
+Download Pollo App
+
+[](https://apps.apple.com/us/app/pollo-ai-image-video-generator/id6740024098)[](https://play.google.com/store/apps/details?id=ai.pollo.ai&pli=1)
+
+Follow Pollo AI
+
+[](https://x.com/intent/follow?screen_name=itspolloai)[](https://www.facebook.com/itspolloai)[](https://www.instagram.com/polloaiofficial/)[](https://www.youtube.com/@polloai?sub_confirmation=1)[](https://www.tiktok.com/@itspolloai)[](https://discord.com/invite/zyxEJfsF7u)
+
+Language
+
+English[English](https://pollo.ai/pricing)[日本語](https://pollo.ai/ja/pricing)[Русский](https://pollo.ai/ru/pricing)[Español](https://pollo.ai/es/pricing)[Português](https://pollo.ai/pt/pricing)[ภาษาไทย](https://pollo.ai/th/pricing)[Italiano](https://pollo.ai/it/pricing)[Türkçe](https://pollo.ai/tr/pricing)[Deutsch](https://pollo.ai/de/pricing)[Nederlands](https://pollo.ai/nl/pricing)[Français](https://pollo.ai/fr/pricing)[Polski](https://pollo.ai/pl/pricing)[한국어](https://pollo.ai/ko/pricing)[العربية](https://pollo.ai/ar/pricing)[Norsk bokmål](https://pollo.ai/nb/pricing)[Dansk](https://pollo.ai/da/pricing)[Bahasa Indonesia](https://pollo.ai/id/pricing)[繁體中文](https://pollo.ai/tw/pricing)[简体中文](https://pollo.ai/zh/pricing)
+
+© 2026 Pollo.ai. All rights reserved.
+
+![Image 46](https://bat.bing.com/action/0?ti=187174367&tm=gtm002&Ver=2&mid=48469e32-e715-44c2-a95e-7ee7118dca9b&bo=1&sid=82779380cef711f1b9d13d61d4aec876&vid=8277c980cef711f1a1b9fb5cc6160322&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=1280&sh=1280&sc=24&tl=Plans%20%26%20Pricing%20%7C%20Pollo%20AI&p=https%3A%2F%2Fpollo.ai%2Fpricing&r=&lt=1094&evt=pageLoad&sv=2&cdb=AQAQ&rn=779709)

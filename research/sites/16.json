@@ -1,0 +1,124 @@
+{
+  "id": "16",
+  "name": "Pollo AI",
+  "url": "https://pollo.ai/",
+  "category": "video",
+  "checked_at": "2026-10-23",
+  "summary": "多模型 AI 创作平台，聚合视频/图像模型并提供独立口型工具。已核实的口型流程是上传视频配音频或文字转语音；未找到足以证明一键创作 Rap 歌词、伴奏、人声并精准口型的证据。",
+  "inputs": [
+    "视频（口型工具：MP4/MOV，最高100MB，至少720p，正面清晰人脸）",
+    "预录音频（MP3/AAC/WAV/FLAC/M4A/OGG，最高20MB、最长30秒）",
+    "文字转语音脚本",
+    "平台其他工具可接收文本、图片和参考视频"
+  ],
+  "outputs": [
+    "音画口型同步视频（供应商宣称，未生成验证）",
+    "多模型生成的视频和图像"
+  ],
+  "features": [
+    "聚合 Veo、Sora、Kling 等视频模型",
+    "独立 Lip Sync AI：视频配音频或文字转语音",
+    "声音库与多语言口型（供应商宣称）",
+    "首页提供 Music Video 应用入口，具体音乐视频流程未读取",
+    "官方 API 与文档入口"
+  ],
+  "pricing": {
+    "summary": "积分订阅制；页面年付卡片和比较表金额冲突，故不列成交金额。每次扣分随模型、工具、时长、数量和分辨率变化，口型单次积分未核实。",
+    "free_tier": "价格比较表列 Free 20 credits；口型页称提供无需信用卡的免费试用。领取条件、是否重复发放未核实。",
+    "plans": [
+      {
+        "name": "Lite",
+        "billing_period": "annual",
+        "credits": 400,
+        "notes": "每月发放400积分；年付卡片显示$15/月，比较表显示$12/月，金额冲突。"
+      },
+      {
+        "name": "Pro",
+        "billing_period": "annual",
+        "credits": 800,
+        "notes": "每月发放800积分；年付卡片显示$29/月，比较表显示$14.50/月，金额冲突。"
+      },
+      {
+        "name": "Ultra",
+        "billing_period": "annual",
+        "credits": 5000,
+        "notes": "每月发放5000积分；年付卡片显示$129/月，比较表显示$99/月，金额冲突。"
+      }
+    ],
+    "source_url": "https://pollo.ai/pricing"
+  },
+  "api": {
+    "status": "documented",
+    "summary": "已找到并读取官方 Pollo API 文档；支持多模型视频/图像任务并有认证、回调、任务状态和积分导航。API有独立价格入口；未验证口型或Rap专用端点，也未发出生成请求。",
+    "url": "https://docs.pollo.ai/"
+  },
+  "limitations": [
+    "只读取公开资料，未登录、付费或运行生成；效果和速度均为官网宣称。",
+    "Lip Sync FAQ称目前仅支持视频转口型，不支持图片直接上传。",
+    "音频最长30秒，不能据此保证整首歌曲处理。",
+    "未验证快速Rap、押韵、伴奏、人声创作或歌词逐字口型质量。",
+    "价格页金额有冲突；订阅积分不结转，购买附加积分的规则应与订阅区分。",
+    "有API不等于所有网页功能都可API调用；Rap/口型端点待核。"
+  ],
+  "best_for": "已有短段 Rap 音频和人物视频，想尝试口型，或需要多模型生成 MV 画面素材的创作者。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://pollo.ai/",
+      "title": "Pollo AI: The Ultimate AI Creative Suite",
+      "kind": "official",
+      "local_path": "research/evidence/16/home.txt",
+      "supports": [
+        "聚合 Veo、Sora、Kling 等模型；有音乐视频、口型和 API 入口",
+        "付费内容商用是官网宣称，未审阅条款"
+      ]
+    },
+    {
+      "url": "https://pollo.ai/lip-sync",
+      "title": "Lip Sync AI: Make Lip Syncing Videos for Free",
+      "kind": "official",
+      "local_path": "research/evidence/16/lip-sync.txt",
+      "supports": [
+        "视频加音频或文字转语音的口型流程",
+        "音频不超过30秒和20MB；视频MP4/MOV、100MB、至少720p",
+        "FAQ称目前不支持直接上传图片；有免费试用声明"
+      ]
+    },
+    {
+      "url": "https://pollo.ai/pricing",
+      "title": "Plans & Pricing",
+      "kind": "pricing",
+      "local_path": "research/evidence/16/pricing.txt",
+      "supports": [
+        "Free 20积分；Lite每月400、Pro每月800、Ultra每月5000积分",
+        "扣分取决于工具、模型、时长、数量和分辨率；订阅积分不结转",
+        "年付卡片与比较表金额不一致，不能可靠确定当前成交价格"
+      ]
+    },
+    {
+      "url": "https://api.pollo.ai/",
+      "title": "Pollo API",
+      "kind": "official",
+      "local_path": "research/evidence/16/api.txt",
+      "supports": [
+        "官方多模型 API 平台、独立定价和文档入口",
+        "官网宣称300多个图像和视频模型"
+      ]
+    },
+    {
+      "url": "https://docs.pollo.ai/",
+      "title": "API Documentation | Pollo API",
+      "kind": "documentation",
+      "local_path": "research/evidence/16/docs.txt",
+      "supports": [
+        "公开 API 文档，涵盖认证、视频和图像任务、回调、任务状态、积分",
+        "未核实 Rap 或独立口型 API 的具体端点"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：其主要竞争优势是模型聚合和多种创作入口；面向Rap产品仍需把歌曲创作、人物视频与口型对齐串成明确流程。",
+    "推断：30秒音频限制更适合短视频片段；整曲Rap需要分段和后期，尚未验证平台是否自动处理。",
+    "推断：定价信息冲突会增加用户预算判断成本，应在提交前展示具体任务积分。"
+  ]
+}
