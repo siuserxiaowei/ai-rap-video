@@ -1,0 +1,11 @@
+{
+  "id": "C10",
+  "agent_task": "c10_tryh3",
+  "site_id": "10",
+  "name": "TryH3",
+  "original_commit": "2740513bcb5d1674da0d989583f81c37b75f09e2",
+  "accepted_at": "2026-10-23T15:32:53.762895+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}
