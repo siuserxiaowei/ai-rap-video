@@ -1,0 +1,101 @@
+{
+  "id": "03",
+  "name": "RapReel",
+  "url": "https://rapreel.com/",
+  "category": "rap",
+  "checked_at": "2026-10-23",
+  "summary": "官网将 RapReel 定位为照片转竖屏 AI 说唱视频：先免费预览舞台静图，再按条购买带 AI 人声和节拍的短片。未实测生成。（https://rapreel.com/）",
+  "inputs": [
+    "两张人像或一张合照；支持 JPEG、PNG、WebP，页面标注每张上限 10 MB（https://rapreel.com/）",
+    "选择舞台，可选填写人物、名字或话题以影响歌词（https://rapreel.com/）"
+  ],
+  "outputs": [
+    "竖屏 MP4：Lite 8 秒/480p，HD 12 秒/720p，Pro 15 秒/720p；官网称含 AI 说唱人声与节拍、无可见水印（https://rapreel.com/pricing）"
+  ],
+  "features": [
+    "付费前免费静态舞台预览；页面列有四种场景（https://rapreel.com/）",
+    "按条支付，无订阅；官网称通常付款约 5 分钟交付，账户 My Creations 可下载（https://rapreel.com/pricing）"
+  ],
+  "pricing": {
+    "summary": "按视频一次性收费；币种 USD 来自价格页 HTML 的 JSON-LD。仅记录官网标价，未付款核验。",
+    "free_tier": "免费静态舞台预览；未发现免费成片承诺（https://rapreel.com/pricing）",
+    "plans": [
+      {
+        "name": "Lite",
+        "amount": 2.99,
+        "currency": "USD",
+        "billing_period": "per_video",
+        "notes": "8 秒，480p；https://rapreel.com/pricing"
+      },
+      {
+        "name": "HD",
+        "amount": 3.99,
+        "currency": "USD",
+        "billing_period": "per_video",
+        "notes": "12 秒，720p；https://rapreel.com/pricing"
+      },
+      {
+        "name": "Pro",
+        "amount": 5.99,
+        "currency": "USD",
+        "billing_period": "per_video",
+        "notes": "15 秒，720p；https://rapreel.com/pricing"
+      }
+    ],
+    "source_url": "https://rapreel.com/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "所读首页与价格页未发现公开 API 文档链接；未做独立 API 搜索，不能据此断言没有 API。",
+    "url": "https://rapreel.com/"
+  },
+  "limitations": [
+    "生成质量、口型、身份一致性及交付耗时均未实测；官网信息不代表实测表现（https://rapreel.com/）",
+    "官网称 MP4 含 C2PA AI 元数据，平台可能据此标记为 AI 生成（https://rapreel.com/pricing）",
+    "官网称成功交付后一般不因风格不满意退款；明显缺陷或账单问题可在收费后 14 天内申请，审核不保证通过（https://rapreel.com/pricing）"
+  ],
+  "best_for": "推断：适合伴侣、朋友、家人的一次性娱乐说唱短片，以及先看静图再决定购买的用户；依据照片输入、竖屏输出与按次收费。（https://rapreel.com/；https://rapreel.com/pricing）",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://rapreel.com/",
+      "title": "AI Rap Video Generator — Create Viral Rap Videos | RapReel",
+      "kind": "official",
+      "local_path": "research/evidence/03/home.txt",
+      "supports": [
+        "产品定位",
+        "输入",
+        "免费舞台预览",
+        "场景",
+        "工作流程"
+      ]
+    },
+    {
+      "url": "https://rapreel.com/pricing",
+      "title": "RapReel Pricing — Pay Per AI Rap Video, No Subscription",
+      "kind": "pricing",
+      "local_path": "research/evidence/03/pricing.txt",
+      "supports": [
+        "三档按次价格",
+        "时长和分辨率",
+        "MP4",
+        "水印与 C2PA",
+        "交付及退款宣称"
+      ]
+    },
+    {
+      "url": "https://rapreel.com/pricing",
+      "title": "RapReel pricing original HTML",
+      "kind": "pricing",
+      "local_path": "research/evidence/03/pricing.html",
+      "supports": [
+        "JSON-LD 中 priceCurrency 为 USD",
+        "原始 HTML 审计"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：免费舞台静图预览和每条固定价可作为减少购买犹豫的产品设计参考；实际转化效果未验证。（https://rapreel.com/；https://rapreel.com/pricing）",
+    "研究仅覆盖首页和价格页；无账户操作、照片上传、付费生成或 API 实测。"
+  ]
+}

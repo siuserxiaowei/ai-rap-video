@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-10-23",
+  "method": "agent-reach / Jina Reader; additional direct pricing HTML GET",
+  "requests": [
+    {
+      "url": "https://rapreel.com/",
+      "reader_url": "https://r.jina.ai/https://rapreel.com/",
+      "body": "home.txt",
+      "headers": "home.headers",
+      "result": "Product body retrieved successfully"
+    },
+    {
+      "url": "https://rapreel.com/pricing",
+      "reader_url": "https://r.jina.ai/https://rapreel.com/pricing",
+      "body": "pricing.txt",
+      "headers": "pricing.headers",
+      "result": "Pricing body retrieved successfully"
+    },
+    {
+      "url": "https://rapreel.com/pricing",
+      "body": "pricing.html",
+      "headers": "pricing-direct.headers",
+      "result": "Direct HTML retrieved; JSON-LD declares priceCurrency USD"
+    }
+  ],
+  "files_sha256": {
+    "home.headers": "f6f039e473c2265b75c52904c2b835ea052f806086124ef3b660ce5db2a6f625",
+    "home.txt": "caddca9ea478341ef6a688d04821b8aafe113cafad312a3424209d988b9bf73b",
+    "pricing-direct.headers": "1cd31e3efcc517d651b10d62172e5eaf7f60e90c803571c78399231fbfbb97c2",
+    "pricing.headers": "b5c04c76ee73eb8a9aedb1e8035025a019175be7b3ceb0e8269f237bcfd8ea27",
+    "pricing.html": "9236ca6f4970e40a258b76244157c68338261f5a9efa94a481c09e09734fb067",
+    "pricing.txt": "8001b5f304b5ae086b3df3153b921856c412ba13bb769d288de437e5fee15e39"
+  },
+  "scope": "Public reading only; no login, upload, generation, payment, or API call; no separate API documentation page attempted."
+}
