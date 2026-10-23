@@ -13,4 +13,12 @@ test_repository_records_validate_without_assuming_final_count (test_catalog.Cata
 test_schema_errors_are_field_specific (test_catalog.CatalogTests) ... ok
 test_bad_json_fields_mime_and_body_limit (test_server.ServerTests) ... ok
 test_catalog_queries_stats_decisions (test_server.ServerTests) ... ok
-test_optional_module_wire_adapters (test_server.ServerTests) ... 
+test_optional_module_wire_adapters (test_server.ServerTests) ... ok
+test_optional_modules_unavailable_are_honest_503 (test_server.ServerTests) ... ok
+test_real_http_brief_roundtrip_and_restart (test_server.ServerTests) ... ok
+test_static_files_confined_to_web_no_cors (test_server.ServerTests) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 3.729s
+
+OK

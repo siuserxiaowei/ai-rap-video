@@ -4,8 +4,10 @@
   "kind": "research_review_and_feature",
   "original_commit": "820d92544c46ccf6d8a52718edf22a4edfbc0d99",
   "accepted": true,
-  "accepted_at": "2026-10-23T16:04:07.696465+00:00",
+  "accepted_at": "2026-10-23T16:04:26.763968+00:00",
   "summary": "19 tests passed on merged backend, covering real HTTP, SQLite persistence, JSON and path checks; optional supplier modules honestly unavailable.",
   "test_evidence": "artifacts/tests/c43.txt",
-  "worktree_reclaimed": true
+  "worktree_reclaimed": true,
+  "test_process_exit_code": 0,
+  "validation_note": "Final terminal process observed exit0 before acceptance timestamp corrected."
 }
