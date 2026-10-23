@@ -1,0 +1,102 @@
+{
+  "id": "17",
+  "name": "GoEnhance AI",
+  "url": "https://www.goenhance.ai/",
+  "category": "lip_sync",
+  "checked_at": "2026-10-23",
+  "summary": "综合视频平台，已核实上传现有视频与新音轨进行口型重动画；另有照片头像、视频风格转换及音乐生成入口。不能将对口型、人物替换或视频模型列表视为原创 Rap 歌曲生成能力。",
+  "inputs": [
+    "MP4/MOV 视频，最长 60 秒、50MB，清晰正面人脸",
+    "MP3/WAV/M4A 音轨，3–60 秒",
+    "也可输入脚本并选择语音"
+  ],
+  "outputs": [
+    "540p 或 720p 的对口型 MP4，3–60 秒"
+  ],
+  "features": [
+    "v2 仅重动画嘴部，保留原视频头部动作、表情和背景",
+    "v1 可在多人画面中选择人脸",
+    "音频较长时可往返循环视频以容纳音轨",
+    "照片说话头像与现有视频对口型是两种流程",
+    "首页列有 Kling、Runway、Veo、Wan 等视频模型及人物替换、风格转换入口；未逐项核验",
+    "首页另列 AI Music Generator / Text to Music；本次未核验歌曲模型或 Rap 输出"
+  ],
+  "pricing": {
+    "summary": "网页对口型 v2 按秒扣 token：540p 为 2、720p 为 3。首页称免费提供少量 token；订阅增加额度及并发。未取得网页订阅金额，API token 价格须与网页订阅分开理解。",
+    "free_tier": "首页确认免费层含一些 token，未公布本次可核实的数量；免费及 Basic 仅限个人用途。",
+    "plans": [
+      {
+        "name": "Free",
+        "notes": "含部分 token，数量待核；个人用途。"
+      },
+      {
+        "name": "Basic",
+        "notes": "首页提及，仅限个人用途；金额待核。"
+      },
+      {
+        "name": "Standard / Pro / Mega",
+        "notes": "首页称支持商业用途；特定功能可用 Relax Mode，免 token 但可能排队；金额和额度待核。"
+      },
+      {
+        "name": "API 按 token",
+        "amount": 0.02,
+        "currency": "USD",
+        "billing_period": "per token",
+        "notes": "API 文档明示；成本依模型、时长及分辨率，接单扣款，生成失败返还。"
+      }
+    ],
+    "source_url": "https://www.goenhance.ai/lip-sync"
+  },
+  "api": {
+    "status": "documented",
+    "summary": "官方 API 文档可公开阅读，介绍账号、API key、购买 token、异步任务成本；包含视频转换、图片、换脸、特效与图生视频。未核验 lip sync 或 Rap 专用端点。",
+    "url": "https://docs.goenhance.ai/"
+  },
+  "limitations": [
+    "仅阅读公开页，未登录、生成或付款；质量与速度为供应商宣称。",
+    "对口型主要面向清晰语音，快速 Rap、唱歌、遮挡及多人物效果未实测。",
+    "运动迁移细节未核验；首页人物替换入口不等于音频驱动全身表演。",
+    "原创歌词、伴奏、Rap 人声与整首歌曲生成未由本次正文证据确认。",
+    "网页订阅金额及免费 token 数量待核；API 单价不能直接换算网页套餐。"
+  ],
+  "best_for": "已有短视频与配音，需要口型同步、语言替换或修复音画不同步的创作者；Rap 场景需另行测试快语速和歌唱适配。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://www.goenhance.ai/",
+      "title": "AI Video Generator & Video to Video AI | GoEnhance AI",
+      "kind": "official",
+      "local_path": "research/evidence/17/home.txt",
+      "supports": [
+        "模型与功能入口",
+        "免费 token、订阅权限、Relax Mode 与商业使用限制",
+        "独立音乐生成入口及 API 文档链接"
+      ]
+    },
+    {
+      "url": "https://www.goenhance.ai/lip-sync",
+      "title": "Lip Sync Videos for Creators - Free AI Tools",
+      "kind": "official",
+      "local_path": "research/evidence/17/lip-sync.txt",
+      "supports": [
+        "视频加音轨工作流、时长和文件限制",
+        "v1/v2、分辨率、每秒 token 成本",
+        "与照片说话头像的区别"
+      ]
+    },
+    {
+      "url": "https://docs.goenhance.ai/",
+      "title": "API Introduction - GoEnhanceAI API",
+      "kind": "documentation",
+      "local_path": "research/evidence/17/api.txt",
+      "supports": [
+        "公开 API 文档和功能范围",
+        "每 API token 0.02 美元、扣费和失败退款说明"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：可将现有歌曲音轨与视频对口型作为 Rap 视频制作的一步，但本次不足以证明端到端 Rap 作品生成。",
+    "推断：产品设计应分别展示歌曲生成、视频模型、人物动画和口型同步，避免用户误认为上传照片即可自动写歌演唱。"
+  ]
+}
