@@ -1,0 +1,113 @@
+{
+  "id": "08",
+  "name": "Media.io AI Rap Video Generator",
+  "url": "https://www.media.io/ai/explore/zone/ai-rap-video-generator",
+  "category": "rap",
+  "checked_at": "2026-10-23",
+  "summary": "说唱表演视觉专题，提供单人、双人、街头 freestyle 等提示词与图片/参考视频思路；音频、人声与精确口型均取决于模型或另配工具，未实测一站式成片。",
+  "inputs": [
+    "人物图片（单人、双人独立参考或合成图，依模式）",
+    "场景、动作与镜头文字提示",
+    "可选表演参考视频（依模式）",
+    "音频仅在兼容模式或后续编辑步骤使用"
+  ],
+  "outputs": [
+    "说唱表演或 hip-hop 音乐视频视觉短片",
+    "9:16 与 5–10 秒是页面示例建议，须所选模型支持",
+    "音频与口型同步是否包含取决于模型/工作流"
+  ],
+  "features": [
+    "官网提供 solo studio、rap duo、street freestyle、track teaser 提示词示例",
+    "官网描述图片转视频与参考表演工作流",
+    "提示词强调人物身份、左右角色及动作连续性",
+    "专题明确歌词视觉提示不保证唱出或说唱人声",
+    "平台另有音频与口型工具；专题未证明自动串联"
+  ],
+  "pricing": {
+    "summary": "通用平台价格，不能等同于本专题每种模型的单次成本。抓取页同时显示促销年付折月价和其他月价文本，按明确年账单记录。税费另计，具体以购买页为准。",
+    "free_tier": "Free Trial：每日签到 3 积分；页列最多 1 视频/1 图片/1 音频、720p 带水印；次数重置周期及是否足够生成指定 rap 模式未确认。",
+    "plans": [
+      {
+        "name": "Standard（页面促销年付）",
+        "amount": 95.88,
+        "currency": "USD",
+        "billing_period": "annual",
+        "credits": "200/月",
+        "notes": "页面折月 US$7.99；年付账单 US$95.88，不是逐月支付价。列最多20视频/月、1080p无水印，实际消耗依模型。"
+      },
+      {
+        "name": "Premium（页面促销年付）",
+        "amount": 167.88,
+        "currency": "USD",
+        "billing_period": "annual",
+        "credits": "600/月",
+        "notes": "页面折月 US$13.99；年付账单 US$167.88。列最多60视频/月、1080p无水印。3天试用后自动按年续费，仅限符合条件的免费用户。"
+      }
+    ],
+    "source_url": "https://www.media.io/pricing.html"
+  },
+  "api": {
+    "status": "documented",
+    "summary": "官方 developer.media.io 公布统一图像/视频生成 API，列文生视频、图生视频及多模型集成；本次只读开发者介绍页，未核验请求接口、音频/口型端点或专用 rap API。误试 /api.html 返回404，其页脚指向真实开发者站。",
+    "url": "https://developer.media.io/"
+  },
+  "limitations": [
+    "仅公开页面研究，未登录、未生成、未付费；成功率、速度与精确口型未经验证。",
+    "专题主要是静态提示词与工作流说明，CTA 为 javascript 链接；未直接观察所选模型的完整生成表单。",
+    "不能将通用音频或 lip-sync 功能推定为 rap 专题默认输出。",
+    "双人角色稳定、手部、动作与场景连续性是页面要求用户检查的风险。",
+    "5–10 秒、9:16、导出分辨率与水印取决于模式和账户；编辑器最长导出不等于单次AI生成时长。",
+    "价格为2026-10-23公开页内容，促销与实际结账价格可能变化。"
+  ],
+  "best_for": "已有角色图或表演参考、需要说唱短视频视觉片段并能检查模型能力及后期配音的人。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://www.media.io/ai/explore/zone/ai-rap-video-generator",
+      "title": "AI Rap Video Generator – Create Rap Music Videos | Media.io",
+      "kind": "official",
+      "local_path": "research/evidence/08/rap-product-jina.txt",
+      "supports": [
+        "输入与提示词样例",
+        "条件式音频/口型支持",
+        "静态工作流说明及使用限制"
+      ]
+    },
+    {
+      "url": "https://www.media.io/pricing.html",
+      "title": "Plans & Pricing | Media.io",
+      "kind": "pricing",
+      "local_path": "research/evidence/08/pricing-jina.txt",
+      "supports": [
+        "免费档",
+        "年付金额与月度积分",
+        "导出水印及分辨率"
+      ]
+    },
+    {
+      "url": "https://developer.media.io/",
+      "title": "Media.io API | One API for AI Video & Image Generation",
+      "kind": "official",
+      "local_path": "research/evidence/08/developer-jina.txt",
+      "supports": [
+        "官方API平台存在",
+        "通用视频与图像生成能力",
+        "未确认rap专用端点"
+      ]
+    },
+    {
+      "url": "https://www.media.io/api.html",
+      "title": "Page Not Found - Media.io",
+      "kind": "official",
+      "local_path": "research/evidence/08/api-404-jina.txt",
+      "supports": [
+        "该猜测路径为404正文",
+        "页脚API链接指向developer.media.io"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：该专题更像通用多模型平台上的说唱场景获客页，不能据标题认定它有独立端到端 rap 模型。",
+    "推断：产品应在选模或生成前展示音频输入、人声生成、单/双人口型、积分与水印条件，减少把视觉提示词误当音乐生成的预期。"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-10-23",
+  "backend": "agent-reach / Jina Reader",
+  "generation_performed": false,
+  "payment_performed": false,
+  "captures": [
+    {
+      "file": "rap-product-jina.txt",
+      "url": "https://www.media.io/ai/explore/zone/ai-rap-video-generator",
+      "method": "reused supplied capture",
+      "source_file": "/Users/xiaowei/.agent-reach/ai-rap-video-20261023/08.txt",
+      "result": "complete product body"
+    },
+    {
+      "file": "pricing-jina.txt",
+      "url": "https://www.media.io/pricing.html",
+      "method": "independent Jina fetch via curl",
+      "result": "complete pricing body"
+    },
+    {
+      "file": "api-404-jina.txt",
+      "url": "https://www.media.io/api.html",
+      "method": "independent Jina fetch via curl",
+      "result": "404 in target page body; real API footer link discovered"
+    },
+    {
+      "file": "developer-jina.txt",
+      "url": "https://developer.media.io/",
+      "method": "independent Jina fetch via curl",
+      "result": "complete API overview body; no request execution"
+    }
+  ]
+}
