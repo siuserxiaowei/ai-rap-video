@@ -4,7 +4,9 @@ from __future__ import annotations
 
 import math
 import os
+import shutil
 import tempfile
+import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, Optional
@@ -13,6 +15,8 @@ from airap.config import ProjectConfig
 
 MAX_LYRICS_BYTES = 64 * 1024
 MAX_PREVIEW_SECONDS = 120.0
+MAX_FONT_BYTES = 256
+MAX_TOOL_REFERENCE_BYTES = 4096
 
 
 @dataclass
@@ -47,6 +51,7 @@ class RapPipelineOrchestrator:
     def run(self, request: RapVideoGenerationRequest) -> RapVideoGenerationResult:
         """Create a local procedural preview, never an AI performance video."""
         audio_file = self._validate_request(request)
+        selected_tools = self._validate_subtitle_settings()
         # The compositor does not apply the requested theme to its visuals.
         self.config.beat.bpm = request.bpm
         if request.aspect_ratio == "16:9":
@@ -82,6 +87,12 @@ class RapPipelineOrchestrator:
         total_duration = bars[-1].end_time
         if not math.isfinite(total_duration) or not 0 < total_duration <= MAX_PREVIEW_SECONDS:
             raise ValueError("Local procedural previews require a finite duration up to 120 seconds")
+
+        # Keep legacy default constructor calls unchanged. Explicit tools are
+        # resolved once so preflight and rendering use the same executable.
+        builder = VideoBuilder(config=self.config.video, **selected_tools)
+        if self.config.subtitle_mode == "required" and not builder.pipeline.has_filter("ass"):
+            raise RuntimeError("Required subtitle burn-in is unavailable: selected FFmpeg has no ASS filter")
 
         # Each run owns its generated assets; supplied media is never replaced.
         self.output_dir = self.config.ensure_output_dir()
@@ -173,14 +184,24 @@ class RapPipelineOrchestrator:
 
         # Step 6: Final Compositor Rendering via FFmpeg
         target_video = str(self.output_dir / request.output_filename)
-        builder = VideoBuilder(config=self.config.video)
+        subtitle_options = {}
+        if self.config.subtitle_mode != "auto":
+            subtitle_options["burn_subtitles"] = self.config.subtitle_mode == "required"
         render_result = builder.build_video(
             timeline=timeline,
             audio_path=audio_file,
             ass_subtitle_path=ass_path,
             output_path=target_video,
-            duration=total_duration
+            duration=total_duration,
+            **subtitle_options
         )
+
+        subtitles_burned = getattr(render_result, "subtitles_burned", False)
+        if render_result.success:
+            if self.config.subtitle_mode == "required" and subtitles_burned is not True:
+                raise RuntimeError("Required subtitle burn-in was not confirmed by the renderer")
+            if self.config.subtitle_mode == "off" and subtitles_burned is True:
+                raise RuntimeError("Subtitle off mode was violated: renderer reported burned subtitles")
 
         return RapVideoGenerationResult(
             success=render_result.success,
@@ -202,7 +223,9 @@ class RapPipelineOrchestrator:
                 "lipsync_rendered": False,
                 "character_image_used": False,
                 "lyrics_truncated": False,
-                "subtitles_burned": getattr(render_result, "subtitles_burned", False),
+                "subtitle_mode": self.config.subtitle_mode,
+                "subtitle_font_requested": self.config.style.font_name,
+                "subtitles_burned": subtitles_burned,
                 "duration_verified": getattr(render_result, "duration_verified", False),
                 "requested_duration": getattr(render_result, "requested_duration", total_duration),
                 "error": getattr(render_result, "error_message", None),
@@ -272,3 +295,44 @@ class RapPipelineOrchestrator:
         except (OSError, TypeError, ValueError, RuntimeError):
             raise ValueError("Supplied audio must be a readable local file distinct from the output") from None
         return str(audio)
+
+    def _validate_subtitle_settings(self) -> Dict[str, str]:
+        """Validate requested settings without claiming a font was resolved."""
+        if self.config.subtitle_mode not in ("auto", "required", "off"):
+            raise ValueError("Subtitle mode must be auto, required or off")
+        font = self.config.style.font_name
+        self._bounded_reference(font, "Subtitle font", MAX_FONT_BYTES)
+        if "," in font:
+            raise ValueError("Subtitle font cannot contain commas")
+        selected = {}
+        for field, keyword in (("ffmpeg_path", "ffmpeg_bin"), ("ffprobe_path", "ffprobe_bin")):
+            reference = getattr(self.config, field)
+            if reference is None:
+                continue
+            self._bounded_reference(reference, field, MAX_TOOL_REFERENCE_BYTES)
+            try:
+                # Match CLI selection exactly: explicit POSIX paths use FILE,
+                # bare names use only PATH. CWD selection requires a ./ prefix.
+                located = reference if "/" in reference else shutil.which(reference)
+                if located is None:
+                    raise ValueError()
+                candidate = Path(located)
+                candidate = candidate.resolve(strict=True)
+                if not candidate.is_file() or not os.access(candidate, os.X_OK):
+                    raise ValueError()
+            except (OSError, ValueError, RuntimeError):
+                raise ValueError(f"Explicit {field} must identify an executable local file") from None
+            selected[keyword] = str(candidate)
+        return selected
+
+    @staticmethod
+    def _bounded_reference(value: Any, field: str, limit: int) -> None:
+        if not isinstance(value, str) or not value.strip():
+            raise ValueError(f"{field} must be nonempty UTF-8 text")
+        try:
+            valid = (len(value.encode("utf-8")) <= limit and
+                     not any(unicodedata.category(char) in ("Cc", "Cf") for char in value))
+        except UnicodeError:
+            valid = False
+        if not valid:
+            raise ValueError(f"{field} must be valid UTF-8 text up to {limit} bytes without control characters")
