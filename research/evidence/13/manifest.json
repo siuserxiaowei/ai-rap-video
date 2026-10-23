@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-23",
+  "method": "agent-reach / Jina Reader",
+  "home": {
+    "source": "/Users/xiaowei/.agent-reach/ai-rap-video-20261023/13.txt",
+    "url": "https://airapvideos.com/",
+    "result": "provided full product snapshot"
+  },
+  "pricing": {
+    "url": "https://airapvideos.com/pricing",
+    "reader_url": "https://r.jina.ai/https://airapvideos.com/pricing",
+    "result": "independent successful full page"
+  },
+  "api": {
+    "url": "https://airapvideos.com/api",
+    "reader_url": "https://r.jina.ai/https://airapvideos.com/api",
+    "result": "target 404"
+  },
+  "generation_tested": false
+}

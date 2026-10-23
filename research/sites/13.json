@@ -1,0 +1,98 @@
+{
+  "id": "13",
+  "name": "AIRapVideos",
+  "url": "https://airapvideos.com/",
+  "category": "rap",
+  "checked_at": "2026-10-23",
+  "summary": "两张独立人物照片生成双人说唱短视频；固定橙色录音棚、动作与音轨自动加入，用户选择模型和清晰度。属于预设歌曲表演模板，未实测生成效果。",
+  "inputs": [
+    "每人一张清晰照片，共两张；JPG/PNG/WebP，每张不超过10 MB",
+    "选择模型与分辨率；无需提示词，未见自定义歌词或上传音频入口"
+  ],
+  "outputs": [
+    "15秒双人说唱视频；首页默认16:9、480p",
+    "浏览器预览与下载；价格表列480p、720p及1080p，依模型而定"
+  ],
+  "features": [
+    "预设 Orange Booth 场景和动作",
+    "音轨自动加入；价格页称使用匹配的 Hotel Lobby 音轨和动作时间线，不提供声音克隆"
+  ],
+  "pricing": {
+    "summary": "一次性积分包或订阅；每条15秒消耗8–100积分。Mini 480p/720p为8/15；Seedance 2.0为12/25/65；Seedance 2.5为25/50/100（480p/720p/1080p）。画幅不影响积分。",
+    "free_tier": "可免费浏览生成器和示例；生成须登录并使用积分，未列免费生成额度。",
+    "plans": [
+      {
+        "name": "Starter",
+        "amount": 4.99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 15,
+        "notes": "一次性购买，无自动续费；积分当前规则下不过期。最低档8积分可完成1条并剩7积分。"
+      },
+      {
+        "name": "Creator Monthly",
+        "amount": 29.99,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 100,
+        "notes": "每月发放，周期末过期；每月自动续费至取消。"
+      },
+      {
+        "name": "Creator Yearly",
+        "amount": 299.99,
+        "currency": "USD",
+        "billing_period": "year",
+        "credits": 1320,
+        "notes": "全年总额度；每月发110积分，可在已付年期内结转、年期末过期。页面展示约25美元/月，实际按年收299.99美元。"
+      }
+    ],
+    "source_url": "https://airapvideos.com/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "所读公开页面未找到API文档；尝试/api返回404，不能证明不存在API。",
+    "url": "https://airapvideos.com/api"
+  },
+  "limitations": [
+    "未注册、付款或生成；身份保真、口型同步、画质及下载格式未验证。",
+    "Mini不支持1080p；首页仅展示默认16:9，其他可选画幅待核。",
+    "首页将 Starter 标为无订阅，价格页另外列月订阅和年订阅；不应解读为全站只有买断。",
+    "首页称 Orange Booth 音轨，价格页称 Hotel Lobby 音轨；具体音频版本待核。",
+    "取消只停止后续续费；已付周期一般不退款，例外按退款政策处理。"
+  ],
+  "best_for": "希望将自己与朋友照片做成固定歌曲、固定舞台的15秒双人玩梗视频的用户。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://airapvideos.com/",
+      "title": "AI Rap Video Generator – Turn Two Photos Into Rap Videos",
+      "kind": "official",
+      "local_path": "research/evidence/13/home.txt",
+      "supports": [
+        "照片输入、默认规格、模板场景音轨、免费边界与下载宣称"
+      ]
+    },
+    {
+      "url": "https://airapvideos.com/pricing",
+      "title": "AI Rap Video Pricing – Credits for Seedance Mini, 2.0 & 2.5",
+      "kind": "pricing",
+      "local_path": "research/evidence/13/pricing.txt",
+      "supports": [
+        "积分包、订阅、模型规格成本、积分期限、预设音轨与无声音克隆"
+      ]
+    },
+    {
+      "url": "https://airapvideos.com/api",
+      "title": "404 — This page could not be found",
+      "kind": "official",
+      "local_path": "research/evidence/13/api-404.txt",
+      "supports": [
+        "该猜测路径404，未找到公开API文档"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：双照片加预设歌曲缩短操作流程，但不适合需要原创歌词或自定义配乐的创作。",
+    "推断：生成前显示选定模型的积分报价，比仅展示最低档Starter价格更能表达实际成本。"
+  ]
+}
