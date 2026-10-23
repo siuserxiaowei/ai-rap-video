@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "scope": "inherited six engine test modules; no new contract fixes yet",
+  "tests": 154,
+  "python": "existing .venv Python3.15.0",
+  "log": "artifacts/iterations/engine-preview-20261024/baseline-tests.txt",
+  "log_sha256": "1b2fd195e0e2855924eb82501566e5dca168c8aae1b4801a9a245b6129d07b2e",
+  "provider_requests": 0,
+  "browser_verification": false
+}

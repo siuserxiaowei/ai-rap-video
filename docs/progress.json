@@ -50,7 +50,11 @@
     "46"
   ],
   "gemini_accepted": 50,
-  "active_codex_tasks": [],
+  "active_codex_tasks": [
+    "c48_exports (engine pipeline follow-up)",
+    "c49_integration_qa (engine CLI follow-up)",
+    "c50_final_review (engine media verification follow-up)"
+  ],
   "pending_features": [
     "C44 real browser acceptance",
     "C45 real browser acceptance"
@@ -110,12 +114,12 @@
   "remaining_required": [
     "C44/C45 desktop,390px,keyboard focus and browser downloads must be verified in an allowed browser environment"
   ],
-  "next_action": "Provider iteration contract scope is complete. Remaining acceptance requires an allowed browser environment; any real-provider phase requires dedicated credentials and authorized samples. No policy bypass or unapproved billing.",
+  "next_action": "Integrate honest engine preview behavior and verify actual local CLI outputs using FFprobe and full decode; no provider or browser calls.",
   "future_backlog_not_completed": [
     "Live provider compatibility, authorized-media quality, media download, latency and actual cost reconciliation; client/journal/CLI contract implementation is complete."
   ],
-  "last_checkpoint": "2026-10-23T17:01:21.642768+00:00",
-  "iteration": "provider-sync-20261024",
+  "last_checkpoint": "2026-10-23T17:09:27.995454+00:00",
+  "iteration": "engine-preview-20261024",
   "previous_goal_turn_classification": "progress: documented provider client, durable journal and local CLI implemented and accepted with88 tests; real generation and visual checks remain unverified",
   "global_impasse": false,
   "visual_blocker_observations": 2,
@@ -124,7 +128,8 @@
     "gemini_queue": 34726
   },
   "first_release_automated_tests": 54,
-  "iteration_status": "accepted, worktrees reclaimed and Feishu update verified",
+  "iteration_status": "planned before implementation; inherited154-test baseline passed; three isolated follow-ups active",
   "iteration_verification": "docs/iterations/provider-sync-20261024/verification.json",
-  "feishu_latest_verification": "artifacts/iterations/provider-sync-20261024/feishu-verification.json"
+  "feishu_latest_verification": "artifacts/iterations/provider-sync-20261024/feishu-verification.json",
+  "prior_iteration_verification": "docs/iterations/provider-sync-20261024/verification.json"
 }
