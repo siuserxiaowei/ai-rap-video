@@ -1,0 +1,552 @@
+[
+  {
+    "id": "D01",
+    "topic": "定位",
+    "evidence_site_ids": [
+      "01"
+    ],
+    "decision": "先支持短 Rap 创作 brief",
+    "rationale_summary": "区分音频创作与视频生成，页面分别说明输出。",
+    "acceptance": "创建页显示当前仅保存 brief。",
+    "status": "planned"
+  },
+  {
+    "id": "D02",
+    "topic": "场景",
+    "evidence_site_ids": [
+      "03"
+    ],
+    "decision": "首发生日、好友与团队庆祝",
+    "rationale_summary": "通过场景选择减少空白输入。",
+    "acceptance": "三类场景均能保存完整 brief。",
+    "status": "planned"
+  },
+  {
+    "id": "D03",
+    "topic": "双人",
+    "evidence_site_ids": [
+      "02"
+    ],
+    "decision": "提供 solo 与 duo 模式",
+    "rationale_summary": "人物数量是用户可理解的参数。",
+    "acceptance": "切换后保留其余设置。",
+    "status": "planned"
+  },
+  {
+    "id": "D04",
+    "topic": "输出",
+    "evidence_site_ids": [
+      "12"
+    ],
+    "decision": "默认竖屏，可选方形和横屏",
+    "rationale_summary": "画幅作为导出参数独立保存。",
+    "acceptance": "三种画幅均通过参数校验。",
+    "status": "planned"
+  },
+  {
+    "id": "D05",
+    "topic": "时长",
+    "evidence_site_ids": [
+      "05"
+    ],
+    "decision": "提供10/12/15秒的原型参数",
+    "rationale_summary": "不把短片流程宣传成完整歌曲 MV。",
+    "acceptance": "超出允许值返回具体错误。",
+    "status": "planned"
+  },
+  {
+    "id": "D06",
+    "topic": "价格",
+    "evidence_site_ids": [
+      "03"
+    ],
+    "decision": "将单次套餐作为可比示例",
+    "rationale_summary": "有明确单次价格时再展示对比金额。",
+    "acceptance": "8/12/15秒规格各匹配正确套餐。",
+    "status": "planned"
+  },
+  {
+    "id": "D07",
+    "topic": "免费",
+    "evidence_site_ids": [
+      "01"
+    ],
+    "decision": "分开记录歌词、歌曲与视频免费额度",
+    "rationale_summary": "免费音频不能标成免费视频。",
+    "acceptance": "目录明确显示免费内容范围。",
+    "status": "planned"
+  },
+  {
+    "id": "D08",
+    "topic": "试用",
+    "evidence_site_ids": [
+      "02"
+    ],
+    "decision": "记录预览是静图还是视频",
+    "rationale_summary": "预览不等于完整无水印成片。",
+    "acceptance": "详情面板显示预览边界。",
+    "status": "planned"
+  },
+  {
+    "id": "D09",
+    "topic": "点数",
+    "evidence_site_ids": [
+      "04"
+    ],
+    "decision": "跨站 credits 不合并",
+    "rationale_summary": "只有同一供应商和规格内能换算。",
+    "acceptance": "成本计算拒绝无计量依据的总和。",
+    "status": "planned"
+  },
+  {
+    "id": "D10",
+    "topic": "年付",
+    "evidence_site_ids": [
+      "06"
+    ],
+    "decision": "区分月付和年付折月",
+    "rationale_summary": "付款周期作为数据字段保留。",
+    "acceptance": "导出包含 billing_period。",
+    "status": "planned"
+  },
+  {
+    "id": "D11",
+    "topic": "冲突",
+    "evidence_site_ids": [
+      "06"
+    ],
+    "decision": "保留营销与价格页的冲突",
+    "rationale_summary": "同站不一致内容作为待核证据。",
+    "acceptance": "详情显示具体冲突来源。",
+    "status": "planned"
+  },
+  {
+    "id": "D12",
+    "topic": "原声",
+    "evidence_site_ids": [
+      "10"
+    ],
+    "decision": "模板音频与原创音轨分开",
+    "rationale_summary": "使用路径与授权范围需要分辨。",
+    "acceptance": "brief 音频来源字段可扩展。",
+    "status": "planned"
+  },
+  {
+    "id": "D13",
+    "topic": "剪辑",
+    "evidence_site_ids": [
+      "07"
+    ],
+    "decision": "目录区分编辑器和端到端工具",
+    "rationale_summary": "按输出能力安排下一步。",
+    "acceptance": "分类筛选能独立找到编辑器。",
+    "status": "planned"
+  },
+  {
+    "id": "D14",
+    "topic": "模型",
+    "evidence_site_ids": [
+      "08"
+    ],
+    "decision": "功能按所选模型核实",
+    "rationale_summary": "专题营销页不足以证明所有模型能力。",
+    "acceptance": "限制字段随站点显示。",
+    "status": "planned"
+  },
+  {
+    "id": "D15",
+    "topic": "API",
+    "evidence_site_ids": [
+      "28"
+    ],
+    "decision": "只以公开文档支持 documented 状态",
+    "rationale_summary": "未发现文档只标待核。",
+    "acceptance": "API 筛选不把 unknown 当 false。",
+    "status": "planned"
+  },
+  {
+    "id": "D16",
+    "topic": "源证",
+    "evidence_site_ids": [
+      "19"
+    ],
+    "decision": "每个条目绑定来源原文",
+    "rationale_summary": "后续更新可重复核查。",
+    "acceptance": "每个 full_page 条目至少一份有效主来源文件。",
+    "status": "planned"
+  },
+  {
+    "id": "D17",
+    "topic": "采集",
+    "evidence_site_ids": [
+      "26"
+    ],
+    "decision": "保留采集日期与页面变化",
+    "rationale_summary": "过期资料不覆盖最新定位。",
+    "acceptance": "每条记录显示 checked_at。",
+    "status": "planned"
+  },
+  {
+    "id": "D18",
+    "topic": "强度",
+    "evidence_site_ids": [
+      "20"
+    ],
+    "decision": "官网功能始终标为供应商宣称",
+    "rationale_summary": "没有生成测试就不作效果评分。",
+    "acceptance": "页面不显示实测排名或画质得分。",
+    "status": "planned"
+  },
+  {
+    "id": "D19",
+    "topic": "比较",
+    "evidence_site_ids": [
+      "03"
+    ],
+    "decision": "最多并排比较3站",
+    "rationale_summary": "控制移动端信息量。",
+    "acceptance": "比较数量上限和清空均可用。",
+    "status": "planned"
+  },
+  {
+    "id": "D20",
+    "topic": "筛选",
+    "evidence_site_ids": [
+      "18"
+    ],
+    "decision": "按用途而非笼统AI类别筛选",
+    "rationale_summary": "帮助用户匹配创作任务。",
+    "acceptance": "六类筛选与数量一致。",
+    "status": "planned"
+  },
+  {
+    "id": "D21",
+    "topic": "搜索",
+    "evidence_site_ids": [
+      "14"
+    ],
+    "decision": "搜索名称、描述与能力字段",
+    "rationale_summary": "保留中英文查询。",
+    "acceptance": "关键词大小写与中文均可检索。",
+    "status": "planned"
+  },
+  {
+    "id": "D22",
+    "topic": "导出",
+    "evidence_site_ids": [
+      "39"
+    ],
+    "decision": "提供JSON、CSV与Markdown",
+    "rationale_summary": "研究记录可以被后续脚本使用。",
+    "acceptance": "三种导出均含日期和来源。",
+    "status": "planned"
+  },
+  {
+    "id": "D23",
+    "topic": "注入",
+    "evidence_site_ids": [
+      "08"
+    ],
+    "decision": "外部字段只作为文本呈现",
+    "rationale_summary": "抓取内容不成为可执行界面代码。",
+    "acceptance": "特殊HTML输入不能执行。",
+    "status": "planned"
+  },
+  {
+    "id": "D24",
+    "topic": "CSV",
+    "evidence_site_ids": [
+      "37"
+    ],
+    "decision": "CSV字段防公式注入",
+    "rationale_summary": "导出到电子表格仍保持数据用途。",
+    "acceptance": "=、+、-、@开头恶意字段被中和。",
+    "status": "planned"
+  },
+  {
+    "id": "D25",
+    "topic": "响应式",
+    "evidence_site_ids": [
+      "02"
+    ],
+    "decision": "390px可完成查询与brief保存",
+    "rationale_summary": "手机是短视频创意的常见入口。",
+    "acceptance": "小屏无横向溢出，触控控件可用。",
+    "status": "planned"
+  },
+  {
+    "id": "D26",
+    "topic": "键盘",
+    "evidence_site_ids": [
+      "07"
+    ],
+    "decision": "控件有标签与可见焦点",
+    "rationale_summary": "研究流程应无需鼠标也能操作。",
+    "acceptance": "Tab顺序与弹窗关闭正确。",
+    "status": "planned"
+  },
+  {
+    "id": "D27",
+    "topic": "状态",
+    "evidence_site_ids": [
+      "21"
+    ],
+    "decision": "加载、空结果和错误各有文案",
+    "rationale_summary": "避免将网络失败显示为空目录。",
+    "acceptance": "模拟异常可重试并恢复。",
+    "status": "planned"
+  },
+  {
+    "id": "D28",
+    "topic": "照片",
+    "evidence_site_ids": [
+      "03"
+    ],
+    "decision": "原型照片仅本地预览",
+    "rationale_summary": "未接入供应商前不上传人物媒体。",
+    "acceptance": "网络请求中没有照片字节。",
+    "status": "planned"
+  },
+  {
+    "id": "D29",
+    "topic": "持久化",
+    "evidence_site_ids": [
+      "05"
+    ],
+    "decision": "SQLite保存用户brief",
+    "rationale_summary": "刷新后能继续查看创意。",
+    "acceptance": "重开store可读取已保存记录。",
+    "status": "planned"
+  },
+  {
+    "id": "D30",
+    "topic": "ID",
+    "evidence_site_ids": [
+      "02"
+    ],
+    "decision": "使用随机ID而非用户文件路径",
+    "rationale_summary": "URL只暴露已分配资源。",
+    "acceptance": "无法通过路径读取任意文件。",
+    "status": "planned"
+  },
+  {
+    "id": "D31",
+    "topic": "队列",
+    "evidence_site_ids": [
+      "18"
+    ],
+    "decision": "任务与brief分开保存",
+    "rationale_summary": "后续加入视频渲染不影响研究数据。",
+    "acceptance": "每个任务绑定有效输入。",
+    "status": "planned"
+  },
+  {
+    "id": "D32",
+    "topic": "幂等",
+    "evidence_site_ids": [
+      "03"
+    ],
+    "decision": "相同请求键复用任务",
+    "rationale_summary": "重试不会创建多份任务或费用。",
+    "acceptance": "重复payload同ID，不同payload冲突。",
+    "status": "planned"
+  },
+  {
+    "id": "D33",
+    "topic": "未接入",
+    "evidence_site_ids": [
+      "28"
+    ],
+    "decision": "真实渲染未配置就明确拒绝",
+    "rationale_summary": "不能以示例文件假装视频生成成功。",
+    "acceptance": "provider_render返回明确不可用状态。",
+    "status": "planned"
+  },
+  {
+    "id": "D34",
+    "topic": "重试",
+    "evidence_site_ids": [
+      "01"
+    ],
+    "decision": "有限重试与退款分开建模",
+    "rationale_summary": "技术重试不自动成为收费结论。",
+    "acceptance": "状态机不重复完成或重复退款。",
+    "status": "planned"
+  },
+  {
+    "id": "D35",
+    "topic": "费用",
+    "evidence_site_ids": [
+      "06"
+    ],
+    "decision": "本地估算不称供应商实时报价",
+    "rationale_summary": "展示来源与假设。",
+    "acceptance": "响应含 is_vendor_quote=false。",
+    "status": "planned"
+  },
+  {
+    "id": "D36",
+    "topic": "范围",
+    "evidence_site_ids": [
+      "38"
+    ],
+    "decision": "服务只绑定本机地址",
+    "rationale_summary": "本地可验收后再决定托管。",
+    "acceptance": "默认监听127.0.0.1。",
+    "status": "planned"
+  },
+  {
+    "id": "D37",
+    "topic": "静态",
+    "evidence_site_ids": [
+      "29"
+    ],
+    "decision": "静态目录限定在web",
+    "rationale_summary": "不暴露仓库、日志或环境文件。",
+    "acceptance": ".git及路径穿越请求被拒绝。",
+    "status": "planned"
+  },
+  {
+    "id": "D38",
+    "topic": "请求",
+    "evidence_site_ids": [
+      "27"
+    ],
+    "decision": "限制JSON请求大小并返回字段错误",
+    "rationale_summary": "失败能让用户修正输入。",
+    "acceptance": "超限返回413，非法JSON返回400。",
+    "status": "planned"
+  },
+  {
+    "id": "D39",
+    "topic": "代码边界",
+    "evidence_site_ids": [
+      "19"
+    ],
+    "decision": "模块在独立worktree开发",
+    "rationale_summary": "合并前能逐个验收。",
+    "acceptance": "每个任务有提交hash和验收记录。",
+    "status": "planned"
+  },
+  {
+    "id": "D40",
+    "topic": "回收",
+    "evidence_site_ids": [
+      "22"
+    ],
+    "decision": "任务验收后回收干净worktree",
+    "rationale_summary": "防止并行工作长期占用。",
+    "acceptance": "台账记录回收结果。",
+    "status": "planned"
+  },
+  {
+    "id": "D41",
+    "topic": "测试",
+    "evidence_site_ids": [
+      "28"
+    ],
+    "decision": "验证HTTP到SQLite完整往返",
+    "rationale_summary": "模块单测不能代替用户流程。",
+    "acceptance": "创建后GET和重启读取均通过。",
+    "status": "planned"
+  },
+  {
+    "id": "D42",
+    "topic": "独立复核",
+    "evidence_site_ids": [
+      "11"
+    ],
+    "decision": "Gemini做独立分析并留会话ID",
+    "rationale_summary": "同一来源语料的结论仍需主来源复核。",
+    "acceptance": "50个有效会话ID互不重复。",
+    "status": "planned"
+  },
+  {
+    "id": "D43",
+    "topic": "样本",
+    "evidence_site_ids": [
+      "16"
+    ],
+    "decision": "独立域名按站点计数",
+    "rationale_summary": "同一站多页不重复凑样本量。",
+    "acceptance": "至少30个不同主域通过验收。",
+    "status": "planned"
+  },
+  {
+    "id": "D44",
+    "topic": "不可达",
+    "evidence_site_ids": [
+      "10"
+    ],
+    "decision": "错误页面不算全文研究",
+    "rationale_summary": "采集成功状态不足以证明正文有效。",
+    "acceptance": "错误/登录/挑战页被列为partial。",
+    "status": "planned"
+  },
+  {
+    "id": "D45",
+    "topic": "授权",
+    "evidence_site_ids": [
+      "01"
+    ],
+    "decision": "素材授权范围只按来源说明",
+    "rationale_summary": "不由无水印推断商业使用权。",
+    "acceptance": "条目保留personal/commercial边界。",
+    "status": "planned"
+  },
+  {
+    "id": "D46",
+    "topic": "质量",
+    "evidence_site_ids": [
+      "28"
+    ],
+    "decision": "快Rap口型需要专项样本",
+    "rationale_summary": "通用对话演示无法证明快嘴能力。",
+    "acceptance": "后续测试含快语速和多人场景。",
+    "status": "planned"
+  },
+  {
+    "id": "D47",
+    "topic": "分镜",
+    "evidence_site_ids": [
+      "20"
+    ],
+    "decision": "先确认分镜再进入高成本渲染",
+    "rationale_summary": "原型先让创意可检查。",
+    "acceptance": "brief_preview返回可读分镜和参数。",
+    "status": "planned"
+  },
+  {
+    "id": "D48",
+    "topic": "供应商",
+    "evidence_site_ids": [
+      "33"
+    ],
+    "decision": "adapter以当前官方文档为准",
+    "rationale_summary": "模型名称和端点不靠记忆补造。",
+    "acceptance": "接入前保存文档URL、请求和错误约定。",
+    "status": "planned"
+  },
+  {
+    "id": "D49",
+    "topic": "发布",
+    "evidence_site_ids": [
+      "12"
+    ],
+    "decision": "飞书只创建一次并回读",
+    "rationale_summary": "远端保存结果需内容验证。",
+    "acceptance": "标题、网站数、来源与决策均可回查。",
+    "status": "planned"
+  },
+  {
+    "id": "D50",
+    "topic": "后续",
+    "evidence_site_ids": [
+      "40"
+    ],
+    "decision": "用backlog和明确验收推动迭代",
+    "rationale_summary": "持续开发以可审查产物为单位。",
+    "acceptance": "每个任务有依赖、输出和完成标准。",
+    "status": "planned"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "id": "C08",
+  "agent_task": "c08_mediaio",
+  "site_id": "08",
+  "name": "Media.io AI Rap Video Generator",
+  "original_commit": "4c2e774d5ae7a9c539467d7cd96049ccd579e939",
+  "accepted_at": "2026-10-23T15:30:24.479702+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}

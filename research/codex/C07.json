@@ -1,0 +1,11 @@
+{
+  "id": "C07",
+  "agent_task": "c07_capcut",
+  "site_id": "07",
+  "name": "CapCut",
+  "original_commit": "7879b38ad73e5d15ad3eb1b58ddc845c941c5917",
+  "accepted_at": "2026-10-23T15:29:42.789592+00:00",
+  "evidence_status": "full_page",
+  "record_validated": true,
+  "worktree_reclaimed": true
+}
