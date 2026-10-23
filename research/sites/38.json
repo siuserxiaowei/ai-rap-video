@@ -1,0 +1,129 @@
+{
+  "id": "38",
+  "name": "InVideo",
+  "url": "https://invideo.io/",
+  "category": "editor",
+  "checked_at": "2026-10-24",
+  "summary": "InVideo 是带 AI 智能体的时间线视频编辑平台；官方音乐视频页宣称可由提示词编排脚本、库存素材、生成画面、音乐、配音和字幕。当前另公开 MCP 远程编辑连接；未核实专用 rap 演唱、歌手口型同步或原生音乐生成模型。",
+  "inputs": [
+    "文本想法、脚本与编辑命令",
+    "音乐类型、时长、目标平台、画面风格及配音口音",
+    "导入媒体素材（Remote Agents 官方说明）"
+  ],
+  "outputs": [
+    "带音乐、配音、字幕、音效和画面的音乐视频（官方宣称）",
+    "可编辑时间线",
+    "渲染视频，以及 Premiere Pro、Final Cut Pro 或 DaVinci Resolve 可编辑项目（Remote Agents 官方说明）"
+  ],
+  "features": [
+    "音乐视频工作流自动组织脚本、场景、音乐、生成媒体、配音、字幕与音效",
+    "音乐页同时提供库存媒体与 AI 生成图片/视频，并非单一原生视频模型",
+    "Magic Box 用文字删除场景、替换音乐或修改配音",
+    "分镜规划、脚本协作及时间线编辑",
+    "远程智能体可导入素材、剪辑、调色、混音并生成媒体",
+    "Remote Agents 示例涵盖逐词字幕、配乐压低、去除底噪与响度调整",
+    "通过 MCP 与 Codex、Claude 等客户端连接，和用户共同编辑时间线",
+    "模型访问受套餐限制；当前价格页列出 Seedance 系列和 Nano Banana 示例"
+  ],
+  "pricing": {
+    "summary": "2026-10-24 价格页采用每席每月积分；抓取正文未显示订阅金额。积分用于生成与平台功能而非下载，模型消耗不同，未用积分不结转；供应商保留调价权。",
+    "free_tier": "音乐页有免费开始入口；免费额度、水印、导出上限与适用功能未核实。",
+    "plans": [
+      {
+        "name": "Starter",
+        "billing_period": "每月积分额度，订阅付款周期未核实",
+        "credits": 400,
+        "notes": "每席每月；Agent Two Lite；页面显示100项premium stock footage、200 GB存储。未确认金额。"
+      },
+      {
+        "name": "Plus",
+        "billing_period": "每月积分额度，订阅付款周期未核实",
+        "credits": 2000,
+        "notes": "每席每月；Agent Two Lite/Pro/Ultra；页面列 Seedance 2.5 1080p及2.0 4K访问。未确认金额。"
+      },
+      {
+        "name": "Max",
+        "billing_period": "每月积分额度，订阅付款周期未核实",
+        "credits": 5000,
+        "notes": "每席每月；页面列 Agent Two Lite/Pro/Ultra。未确认金额。"
+      }
+    ],
+    "source_url": "https://invideo.io/pricing/"
+  },
+  "api": {
+    "status": "documented",
+    "summary": "官方公开 Remote Agents MCP 接口，Streamable HTTP 端点为 https://mcp.invideo.io/mcp；使用 InVideo 账户登录，无需 API key。属于时间线编辑工具接口；独立 REST 视频生成 API 的文档、定价及批处理限制未核实。仅阅读说明，未安装或连接。",
+    "url": "https://invideo.io/remote-agents/"
+  },
+  "limitations": [
+    "研究仅阅读官网文案，未登录、生成、付款或验证输出质量。",
+    "音乐页仍提到 v3.0 并将多人编辑标为 coming soon，和当前首页/Remote Agents 页面存在版本文案差异；应按入口核实。",
+    "未核实专用 rap 声线、歌词押韵/演唱、上传完整歌曲自动对拍、角色一致性或演唱口型同步。",
+    "音乐视频页宣称自动加音乐及生成媒体，但未说明音乐是否原创、具体音频生成模型与授权范围。",
+    "库存素材、生成模型与代理剪辑是不同能力，不能把音乐视频工作流视为原生端到端音乐视频模型。",
+    "实际时长、导出分辨率、水印、商用授权以及免费层限制待核；价格页的模型4K访问不等于整片导出保证。",
+    "价格页未显示订阅金额，不将年度优惠节省金额倒推为月付价格。"
+  ],
+  "best_for": "希望从想法快速编排带音乐/字幕的视频，并继续在时间线或外部智能体中修改的创作者；rap 宣发视频可作为剪辑与包装候选，专用演唱能力待核。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://invideo.io/",
+      "title": "invideo Editor - Create videos without limits",
+      "kind": "official",
+      "local_path": "research/evidence/38/home-20261023.txt",
+      "supports": [
+        "2026-10-23 首页快照，非本日重抓",
+        "分镜、脚本、时间线、自建智能体与协作定位"
+      ]
+    },
+    {
+      "url": "https://invideo.io/make/music-video-maker/",
+      "title": "Free AI Music Video Generator",
+      "kind": "official",
+      "local_path": "research/evidence/38/music-maker-20261024.txt",
+      "supports": [
+        "文本到音乐视频工作流",
+        "库存媒体与生成画面并用",
+        "音乐、配音、音效、字幕与文本编辑",
+        "免费入口，但无明确免费额度"
+      ]
+    },
+    {
+      "url": "https://invideo.io/pricing/",
+      "title": "Pricing | invideo AI",
+      "kind": "pricing",
+      "local_path": "research/evidence/38/pricing-20261024.txt",
+      "supports": [
+        "Starter 400、Plus 2000、Max 5000每席每月积分",
+        "按模型消耗积分、下载不消耗积分、未用积分不结转",
+        "套餐控制模型和智能体访问；抓取未含订阅金额"
+      ]
+    },
+    {
+      "url": "https://invideo.io/remote-agents/",
+      "title": "invideo Remote Agents: give your agent a real video editor",
+      "kind": "documentation",
+      "local_path": "research/evidence/38/remote-agents-20261024.txt",
+      "supports": [
+        "公开 MCP 端点、账户登录及无需 API key",
+        "导入素材、时间线编辑、混音和逐词字幕示例",
+        "渲染视频与其他编辑软件项目导出"
+      ]
+    },
+    {
+      "url": "https://invideo.io/make/ai-music-video-generator/",
+      "title": "404 / Looks like an error",
+      "kind": "official",
+      "local_path": "research/evidence/38/music-url-404-20261024.txt",
+      "supports": [
+        "该候选地址返回404；随后沿站内链接找到有效音乐视频正文页"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：对 AI rap 产品最可借鉴的是将生成画面、素材库、字幕和音频混合置于可编辑时间线，降低生成后的返工成本。",
+    "推断：MCP 展示了将外部智能体作为编辑入口的产品方向，但不能据此推断已有无头批量渲染 REST API。",
+    "首页证据采集于2026-10-23；音乐正文、价格与Remote Agents证据采集于2026-10-24。"
+  ]
+}

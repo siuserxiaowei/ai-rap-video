@@ -1,0 +1,104 @@
+Title: invideo Remote Agents: give your agent a real video editor
+
+URL Source: https://invideo.io/remote-agents/
+
+Markdown Content:
+[![Image 1: invideo](https://web-assets.invideo.io/iv-pro-landing-pages/prod/v2-home/invideo-logo.png)](https://invideo.io/)
+
+Edit professional NLE timelines, color correct footage, mix audio, and generate images, video and audio, all from inside your own AI agent.Edit real NLE timelines, color correct, mix audio and generate media, all from inside your own AI agent.
+
+Copy and send this to Claude Code
+
+Set up invideo's video editor as an MCP server for yourself so we can edit videos on a professional NLE timeline together. 1. Run: claude mcp add --transport http --scope user invideo https://mcp.invideo.io/mcp 2. I have to restart you for the server to load. In one message, tell me to run claude --continue, then /mcp, choose invideo and Authenticate, signing in with my invideo account. Carry on when I'm back. 3. Introduce yourself in invideo as "<my first name>'s Claude Code". Ask me my first name if you don't know it. 4. Once invideo's tools are available, ask me what video we're making.
+
+Copy and send this to Codex
+
+Set up invideo's video editor as an MCP server for yourself so we can edit videos on a professional NLE timeline together. 1. Run: codex mcp add invideo --url https://mcp.invideo.io/mcp (it opens my browser to sign in; tell me to approve it with my invideo account). 2. The tools load in a new session. Tell me to start one, then carry on from there. 3. Introduce yourself in invideo as "<my first name>'s Codex". Ask me my first name if you don't know it. 4. Once invideo's tools are available, ask me what video we're making.
+
+Connect invideo to another agent
+
+Takes about a minute.
+
+## What you can ask for
+
+Six prompts to start with. Open one in your agent, or copy it into any MCP client.
+
+*   Rough cut
+
+Cut a 30-second teaser from the footage I give you: the strongest moments, a title card up front and music under it.
+
+Open in
+
+[](https://claude.ai/new?q=Cut%20a%2030-second%20teaser%20from%20the%20footage%20I%20give%20you%3A%20the%20strongest%20moments%2C%20a%20title%20card%20up%20front%20and%20music%20under%20it.%0A%0ADo%20it%20in%20invideo%27s%20video%20editor%20over%20MCP%20(server%3A%20https%3A%2F%2Fmcp.invideo.io%2Fmcp).%20If%20invideo%20isn%27t%20connected%20yet%2C%20read%20https%3A%2F%2Finvideo.io%2Fagents.md%20and%20set%20it%20up%20first%2C%20then%20carry%20on. "Open in Claude")[](https://chatgpt.com/?q=Cut%20a%2030-second%20teaser%20from%20the%20footage%20I%20give%20you%3A%20the%20strongest%20moments%2C%20a%20title%20card%20up%20front%20and%20music%20under%20it.%0A%0ADo%20it%20in%20invideo%27s%20video%20editor%20over%20MCP%20(server%3A%20https%3A%2F%2Fmcp.invideo.io%2Fmcp).%20If%20invideo%20isn%27t%20connected%20yet%2C%20read%20https%3A%2F%2Finvideo.io%2Fagents.md%20and%20set%20it%20up%20first%2C%20then%20carry%20on. "Open in ChatGPT")[](codex://threads/new?prompt=Cut%20a%2030-second%20teaser%20from%20the%20footage%20I%20give%20you%3A%20the%20strongest%20moments%2C%20a%20title%20card%20up%20front%20and%20music%20under%20it.%0A%0ADo%20it%20in%20invideo's%20video%20editor%20over%20MCP%20(server%3A%20https%3A%2F%2Fmcp.invideo.io%2Fmcp).%20If%20invideo%20isn't%20connected%20yet%2C%20read%20https%3A%2F%2Finvideo.io%2Fagents.md%20and%20set%20it%20up%20first%2C%20then%20carry%20on. "Open in Codex") 
+*   Color
+
+Color correct the three interview clips so the skin tones match, then add a light film grain across the whole sequence.
+
+Open in
+
+[](https://claude.ai/new?q=Color%20correct%20the%20three%20interview%20clips%20so%20the%20skin%20tones%20match%2C%20then%20add%20a%20light%20film%20grain%20across%20the%20whole%20sequence.%0A%0ADo%20it%20in%20invideo%27s%20video%20editor%20over%20MCP%20(server%3A%20https%3A%2F%2Fmcp.invideo.io%2Fmcp).%20If%20invideo%20isn%27t%20connected%20yet%2C%20read%20https%3A%2F%2Finvideo.io%2Fagents.md%20and%20set%20it%20up%20first%2C%20then%20carry%20on. "Open in Claude")[](https://chatgpt.com/?q=Color%20correct%20the%20three%20interview%20clips%20so%20the%20skin%20tones%20match%2C%20then%20add%20a%20light%20film%20grain%20across%20the%20whole%20sequence.%0A%0ADo%20it%20in%20invideo%27s%20video%20editor%20over%20MCP%20(server%3A%20https%3A%2F%2Fmcp.invideo.io%2Fmcp).%20If%20invideo%20isn%27t%20connected%20yet%2C%20read%20https%3A%2F%2Finvideo.io%2Fagents.md%20and%20set%20it%20up%20first%2C%20then%20carry%20on. "Open in ChatGPT")[](codex://threads/new?prompt=Color%20correct%20the%20three%20interview%20clips%20so%20the%20skin%20tones%20match%2C%20then%20add%20a%20light%20film%20grain%20across%20the%20whole%20sequence.%0A%0ADo%20it%20in%20invideo's%20video%20editor%20over%20MCP%20(server%3A%20https%3A%2F%2Fmcp.invideo.io%2Fmcp).%20If%20invideo%20isn't%20connected%20yet%2C%20read%20https%3A%2F%2Finvideo.io%2Fagents.md%20and%20set%20it%20up%20first%2C%20then%20carry%20on. "Open in Codex") 
+*   Captions
+
+Add word-by-word captions to this talking-head video, bold white on a dark backing, and keep them clear of the lower third.
+
+Open in
+
+[](https://claude.ai/new?q=Add%20word-by-word%20captions%20to%20this%20talking-head%20video%2C%20bold%20white%20on%20a%20dark%20backing%2C%20and%20keep%20them%20clear%20of%20the%20lower%20third.%0A%0ADo%20it%20in%20invideo%27s%20video%20editor%20over%20MCP%20(server%3A%20https%3A%2F%2Fmcp.invideo.io%2Fmcp).%20If%20invideo%20isn%27t%20connected%20yet%2C%20read%20https%3A%2F%2Finvideo.io%2Fagents.md%20and%20set%20it%20up%20first%2C%20then%20carry%20on. "Open in Claude")[](https://chatgpt.com/?q=Add%20word-by-word%20captions%20to%20this%20talking-head%20video%2C%20bold%20white%20on%20a%20dark%20backing%2C%20and%20keep%20them%20clear%20of%20the%20lower%20third.%0A%0ADo%20it%20in%20invideo%27s%20video%20editor%20over%20MCP%20(server%3A%20https%3A%2F%2Fmcp.invideo.io%2Fmcp).%20If%20invideo%20isn%27t%20connected%20yet%2C%20read%20https%3A%2F%2Finvideo.io%2Fagents.md%20and%20set%20it%20up%20first%2C%20then%20carry%20on. "Open in ChatGPT")[](codex://threads/new?prompt=Add%20word-by-word%20captions%20to%20this%20talking-head%20video%2C%20bold%20white%20on%20a%20dark%20backing%2C%20and%20keep%20them%20clear%20of%20the%20lower%20third.%0A%0ADo%20it%20in%20invideo's%20video%20editor%20over%20MCP%20(server%3A%20https%3A%2F%2Fmcp.invideo.io%2Fmcp).%20If%20invideo%20isn't%20connected%20yet%2C%20read%20https%3A%2F%2Finvideo.io%2Fagents.md%20and%20set%20it%20up%20first%2C%20then%20carry%20on. "Open in Codex") 
+*   Audio
+
+Duck the music under the voiceover, clean up the room hum and bring the whole mix to -14 LUFS.
+
+Open in
+
+[](https://claude.ai/new?q=Duck%20the%20music%20under%20the%20voiceover%2C%20clean%20up%20the%20room%20hum%20and%20bring%20the%20whole%20mix%20to%20-14%20LUFS.%0A%0ADo%20it%20in%20invideo%27s%20video%20editor%20over%20MCP%20(server%3A%20https%3A%2F%2Fmcp.invideo.io%2Fmcp).%20If%20invideo%20isn%27t%20connected%20yet%2C%20read%20https%3A%2F%2Finvideo.io%2Fagents.md%20and%20set%20it%20up%20first%2C%20then%20carry%20on. "Open in Claude")[](https://chatgpt.com/?q=Duck%20the%20music%20under%20the%20voiceover%2C%20clean%20up%20the%20room%20hum%20and%20bring%20the%20whole%20mix%20to%20-14%20LUFS.%0A%0ADo%20it%20in%20invideo%27s%20video%20editor%20over%20MCP%20(server%3A%20https%3A%2F%2Fmcp.invideo.io%2Fmcp).%20If%20invideo%20isn%27t%20connected%20yet%2C%20read%20https%3A%2F%2Finvideo.io%2Fagents.md%20and%20set%20it%20up%20first%2C%20then%20carry%20on. "Open in ChatGPT")[](codex://threads/new?prompt=Duck%20the%20music%20under%20the%20voiceover%2C%20clean%20up%20the%20room%20hum%20and%20bring%20the%20whole%20mix%20to%20-14%20LUFS.%0A%0ADo%20it%20in%20invideo's%20video%20editor%20over%20MCP%20(server%3A%20https%3A%2F%2Fmcp.invideo.io%2Fmcp).%20If%20invideo%20isn't%20connected%20yet%2C%20read%20https%3A%2F%2Finvideo.io%2Fagents.md%20and%20set%20it%20up%20first%2C%20then%20carry%20on. "Open in Codex") 
+*   Generate
+
+Generate three b-roll shots of a city at sunrise and place them between the interview answers.
+
+Open in
+
+[](https://claude.ai/new?q=Generate%20three%20b-roll%20shots%20of%20a%20city%20at%20sunrise%20and%20place%20them%20between%20the%20interview%20answers.%0A%0ADo%20it%20in%20invideo%27s%20video%20editor%20over%20MCP%20(server%3A%20https%3A%2F%2Fmcp.invideo.io%2Fmcp).%20If%20invideo%20isn%27t%20connected%20yet%2C%20read%20https%3A%2F%2Finvideo.io%2Fagents.md%20and%20set%20it%20up%20first%2C%20then%20carry%20on. "Open in Claude")[](https://chatgpt.com/?q=Generate%20three%20b-roll%20shots%20of%20a%20city%20at%20sunrise%20and%20place%20them%20between%20the%20interview%20answers.%0A%0ADo%20it%20in%20invideo%27s%20video%20editor%20over%20MCP%20(server%3A%20https%3A%2F%2Fmcp.invideo.io%2Fmcp).%20If%20invideo%20isn%27t%20connected%20yet%2C%20read%20https%3A%2F%2Finvideo.io%2Fagents.md%20and%20set%20it%20up%20first%2C%20then%20carry%20on. "Open in ChatGPT")[](codex://threads/new?prompt=Generate%20three%20b-roll%20shots%20of%20a%20city%20at%20sunrise%20and%20place%20them%20between%20the%20interview%20answers.%0A%0ADo%20it%20in%20invideo's%20video%20editor%20over%20MCP%20(server%3A%20https%3A%2F%2Fmcp.invideo.io%2Fmcp).%20If%20invideo%20isn't%20connected%20yet%2C%20read%20https%3A%2F%2Finvideo.io%2Fagents.md%20and%20set%20it%20up%20first%2C%20then%20carry%20on. "Open in Codex") 
+*   Deliver
+
+Rebuild this cut as a 9:16 vertical for Reels, then export the video and a Premiere Pro project.
+
+Open in
+
+[](https://claude.ai/new?q=Rebuild%20this%20cut%20as%20a%209%3A16%20vertical%20for%20Reels%2C%20then%20export%20the%20video%20and%20a%20Premiere%20Pro%20project.%0A%0ADo%20it%20in%20invideo%27s%20video%20editor%20over%20MCP%20(server%3A%20https%3A%2F%2Fmcp.invideo.io%2Fmcp).%20If%20invideo%20isn%27t%20connected%20yet%2C%20read%20https%3A%2F%2Finvideo.io%2Fagents.md%20and%20set%20it%20up%20first%2C%20then%20carry%20on. "Open in Claude")[](https://chatgpt.com/?q=Rebuild%20this%20cut%20as%20a%209%3A16%20vertical%20for%20Reels%2C%20then%20export%20the%20video%20and%20a%20Premiere%20Pro%20project.%0A%0ADo%20it%20in%20invideo%27s%20video%20editor%20over%20MCP%20(server%3A%20https%3A%2F%2Fmcp.invideo.io%2Fmcp).%20If%20invideo%20isn%27t%20connected%20yet%2C%20read%20https%3A%2F%2Finvideo.io%2Fagents.md%20and%20set%20it%20up%20first%2C%20then%20carry%20on. "Open in ChatGPT")[](codex://threads/new?prompt=Rebuild%20this%20cut%20as%20a%209%3A16%20vertical%20for%20Reels%2C%20then%20export%20the%20video%20and%20a%20Premiere%20Pro%20project.%0A%0ADo%20it%20in%20invideo's%20video%20editor%20over%20MCP%20(server%3A%20https%3A%2F%2Fmcp.invideo.io%2Fmcp).%20If%20invideo%20isn't%20connected%20yet%2C%20read%20https%3A%2F%2Finvideo.io%2Fagents.md%20and%20set%20it%20up%20first%2C%20then%20carry%20on. "Open in Codex") 
+
+## Or let your agent do the setup
+
+Copy this prompt into any agent and it will connect itself to invideo.
+
+Copy prompt for your agent
+
+Set up invideo's video editor as an MCP server for yourself so we can edit videos on a professional NLE timeline together. 1. Read invideo's setup guide at https://invideo.io/agents.md and follow the steps for the client you are running in. 2. Do the setup yourself. It changes my client's settings, so ask me once first. If a step only I can do (a restart, a settings screen, a sign-in), tell me exactly what to do in one message, then carry on when I'm back. 3. In invideo, introduce yourself as "<my first name>'s <your name>", like "Maya's Claude". Ask me my first name if you don't know it. 4. Once invideo's tools are available, ask me what video we're making.
+
+Agents can follow the setup guide at[invideo.io/agents.md](https://invideo.io/agents.md)
+
+## Remote Agents FAQs
+
+What are Remote Agents?
+Remote Agents are AI agents from outside invideo, such as Claude, Codex or Cursor, that connect to invideo's editor over MCP. Each one edits the same timeline you do, under its own cursor, and you can edit at the same time.
+
+What is the invideo MCP server?
+It is invideo's timeline editor, available as a remote server over the Model Context Protocol (MCP), the open standard AI agents use to work with tools. Once connected, an agent like Claude Code, Codex or ChatGPT can open an editor, import media and edit the timeline while you watch in your browser.
+
+Which agents and apps work with it?
+Any client that supports remote MCP servers: Claude Code, Codex, Cursor, Hermes Agent, OpenClaw, Claude on the web and desktop, ChatGPT through its apps directory, and others. The server uses Streamable HTTP at mcp.invideo.io/mcp.
+
+Do I need an invideo account?
+Yes. You sign in with an invideo account, and you can create one during sign-in. Connecting does not need an API key: your client asks you to sign in when it connects.
+
+How is this different from a text-to-video tool?
+Your agent decides the edits, and invideo applies them as explicit changes to a timeline, such as cuts, clip placement, text and effects. The result is an editable timeline rather than a single rendered clip, and you can change any edit or restore an earlier checkpoint.
+
+Can I edit while my agent is working?
+Yes. You and your agent work in the same editor. You see its cursor and each edit as it happens, and you can make your own edits at any time.
+
+What can I export?
+A rendered video, or an editable project for Premiere Pro, Final Cut Pro or DaVinci Resolve. Exports come from a project saved to your invideo account.
+
+## Set up Remote Agents with one prompt
+
+[Choose your agent](https://invideo.io/remote-agents/#setup)
