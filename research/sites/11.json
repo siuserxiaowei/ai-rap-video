@@ -1,0 +1,157 @@
+{
+  "id": "11",
+  "name": "DuoRap AI",
+  "url": "https://duorapai.com/",
+  "category": "rap",
+  "checked_at": "2026-10-23",
+  "summary": "以两张照片制作双人说唱表演，官网宣称自动生成原创歌词、人声与口型同步；围绕 Hotel Lobby 舞台及生日、宠物、diss 等用途提供入口。未实测生成。",
+  "inputs": [
+    "两张人物或宠物照片",
+    "说唱主题",
+    "舞台、模型、画幅、分辨率、时长设置"
+  ],
+  "outputs": [
+    "双人说唱视频",
+    "官网宣称包含原创歌词、伴奏、人声和口型同步",
+    "个人账户页播放及下载成片"
+  ],
+  "features": [
+    "双人表演与舞台示例预览",
+    "Hotel Lobby 橙色舞台",
+    "生日、情侣、朋友、宠物及 rap battle 场景入口",
+    "付费成片宣称无水印",
+    "确认生成失败退回预留积分"
+  ],
+  "pricing": {
+    "summary": "按积分包或月订阅计费；标准720p、12秒视频10 credits。积分包永久有效；订阅每次付款后发放积分，取消后停止续费且保留已发积分。美元/条按标准视频额度计算。",
+    "free_tier": "公开页未列免费生成额度；有公开示例可预览。首条优惠仍须支付4.99美元/10 credits；未注册核验是否赠送积分。",
+    "plans": [
+      {
+        "name": "First video offer",
+        "amount": 4.99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 10,
+        "notes": "首次成功购买限定；约1条标准视频；原价9.99美元。"
+      },
+      {
+        "name": "Single",
+        "amount": 9.99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 10,
+        "notes": "约1条标准视频；9.99美元/条。"
+      },
+      {
+        "name": "Duo Pack",
+        "amount": 29,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 50,
+        "notes": "约5条标准视频；5.80美元/条。"
+      },
+      {
+        "name": "Crew Pack",
+        "amount": 99,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 350,
+        "notes": "约35条标准视频；2.83美元/条。"
+      },
+      {
+        "name": "Studio Pack",
+        "amount": 199,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 900,
+        "notes": "约90条标准视频；2.21美元/条。"
+      },
+      {
+        "name": "Label Pack",
+        "amount": 499,
+        "currency": "USD",
+        "billing_period": "one_time",
+        "credits": 3000,
+        "notes": "约300条标准视频；1.66美元/条。"
+      },
+      {
+        "name": "Basic",
+        "amount": 29.9,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 100,
+        "notes": "约10条标准视频/月；2.99美元/条。"
+      },
+      {
+        "name": "Pro",
+        "amount": 49.9,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 300,
+        "notes": "约30条标准视频/月；1.66美元/条。"
+      },
+      {
+        "name": "Studio",
+        "amount": 99.9,
+        "currency": "USD",
+        "billing_period": "month",
+        "credits": 600,
+        "notes": "约60条标准视频/月；1.67美元/条。"
+      }
+    ],
+    "source_url": "https://duorapai.com/pricing"
+  },
+  "api": {
+    "status": "not_found",
+    "summary": "已读首页和价格页未见公开API文档；尝试/api返回404，不能据此断言无API。",
+    "url": "https://duorapai.com/api"
+  },
+  "limitations": [
+    "未注册、未生成或付款，画质、身份保真、口型及下载效果未验证。",
+    "每12秒：Standard 480p/720p为5/10积分，Fast为8/17，Pro 480p/720p/1080p为10/20/50，Ultra为17/37/93。",
+    "时长改变积分消耗，画幅不改变价格；高模型与高分辨率不能套用标准视频单价。",
+    "价格页提到年方案，但本次正文只返回月价，年付价格待核。",
+    "免费额度、商用许可具体范围、排队时长和API可用性待核。"
+  ],
+  "best_for": "希望把两个人或宠物照片变成短时长双人说唱祝福、玩梗或社交视频的用户。",
+  "evidence_status": "full_page",
+  "sources": [
+    {
+      "url": "https://duorapai.com/",
+      "title": "Hotel Lobby AI Video Generator From Two Photos | DuoRap AI",
+      "kind": "official",
+      "local_path": "research/evidence/11/home.txt",
+      "supports": [
+        "双照片双人说唱",
+        "歌词、人声、口型同步的供应商宣称",
+        "舞台与用途",
+        "个人页播放下载"
+      ]
+    },
+    {
+      "url": "https://duorapai.com/pricing",
+      "title": "Pricing | DuoRap AI",
+      "kind": "pricing",
+      "local_path": "research/evidence/11/pricing.txt",
+      "supports": [
+        "积分包与月订阅",
+        "标准视频基准单价",
+        "模型分辨率积分矩阵",
+        "首购优惠及积分期限"
+      ]
+    },
+    {
+      "url": "https://duorapai.com/api",
+      "title": "Not Found（404）",
+      "kind": "official",
+      "local_path": "research/evidence/11/api-404.txt",
+      "supports": [
+        "该路径404；不构成无API证明"
+      ]
+    }
+  ],
+  "observations": [
+    "推断：双人关系场景和固定舞台把照片转视频包装成可分享的社交梗，输入门槛较低。",
+    "推断：应在生成前显示所选模型、分辨率与时长的实际积分成本，避免把订阅标准视频单价误当所有规格单价。"
+  ]
+}

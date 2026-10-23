@@ -1,0 +1,161 @@
+Title: Pricing | DuoRap AI
+
+URL Source: https://duorapai.com/pricing
+
+Markdown Content:
+Pricing
+
+## Buy credits once, or subscribe and save
+
+No subscription required. Buy credits when you need them, or choose a monthly or yearly plan.
+
+A standard 720p, 12-second video costs 10 credits. Better models, higher resolution, or longer videos use more credits. Pack credits never expire.
+
+## One-time credit packs
+
+New customer · 50% off
+
+### First video offer
+
+10 credits · about 1 Standard video
+
+$4.99$9.99
+
+Offer countdown 14:59
+
+First successful purchase only · Not a subscription · Credits never expire
+
+Most popular
+### Single
+
+10 credits · about 1 standard video
+
+$9.99
+
+About $9.99 / standard video
+
+*   HD video, no watermark
+*   Download and post anywhere
+*   Credits never expire
+*   Confirmed failures cost no credits
+
+### Duo Pack
+
+Save 42%
+
+50 credits · about 5 standard videos
+
+$29
+
+About $5.80 / standard video
+
+*   HD video, no watermark
+*   Download and post anywhere
+*   Credits never expire
+*   Confirmed failures cost no credits
+
+### Crew Pack
+
+Save 72%
+
+350 credits · about 35 standard videos
+
+$99
+
+About $2.83 / standard video
+
+*   HD video, no watermark
+*   Download and post anywhere
+*   Credits never expire
+*   Confirmed failures cost no credits
+
+### Studio Pack
+
+Save 78%
+
+900 credits · about 90 standard videos
+
+$199
+
+About $2.21 / standard video
+
+*   HD video, no watermark
+*   Download and post anywhere
+*   Credits never expire
+*   Confirmed failures cost no credits
+
+### Label Pack
+
+Save 83%
+
+3000 credits · about 300 standard videos
+
+$499
+
+About $1.66 / standard video
+
+*   HD video, no watermark
+*   Download and post anywhere
+*   Credits never expire
+*   Confirmed failures cost no credits
+
+## Subscribe and pay less per video
+
+Credits arrive after each paid invoice. Canceling stops future renewals and never takes back credits already granted.
+
+Most popular
+### Basic
+
+100 credits / month · about 10 videos
+
+$29.90/mo
+
+About $2.99 / standard video
+
+*   HD video, no watermark
+*   Download and post anywhere
+*   Credits arrive each billing period
+*   Cancel future renewals anytime
+
+### Pro
+
+Save 44%
+
+300 credits / month · about 30 videos
+
+$49.90/mo
+
+About $1.66 / standard video
+
+*   HD video, no watermark
+*   Download and post anywhere
+*   Credits arrive each billing period
+*   Cancel future renewals anytime
+
+### Studio
+
+Save 50%
+
+600 credits / month · about 60 videos
+
+$99.90/mo
+
+About $1.67 / standard video
+
+*   HD video, no watermark
+*   Download and post anywhere
+*   Credits arrive each billing period
+*   Cancel future renewals anytime
+
+Secure checkout by Stripe Pack credits never expire · Cancel future renewals anytime
+
+## What a video costs
+
+Credits per 12-second video. Length changes the price; every aspect ratio costs the same.
+
+| Model | 480p | 720p | 1080p |
+| --- | --- | --- | --- |
+| Standard Seedance 2.0 Mini | 5 credits | 10 credits | — |
+| Fast Seedance 2.0 Fast | 8 credits | 17 credits | — |
+| Pro Seedance 2.0 | 10 credits | 20 credits | 50 credits |
+| Ultra Seedance 2.5 | 17 credits | 37 credits | 93 credits |
