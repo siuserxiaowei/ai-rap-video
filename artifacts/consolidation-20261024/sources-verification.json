@@ -1,0 +1,37 @@
+{
+  "verified_at_utc": "2026-10-24T03:54:41.686573+00:00",
+  "sources": [
+    {
+      "document_id": "AQqCdG2Q3ogetUxgdFxcwKFgnah",
+      "before_revision": 3,
+      "after_revision": 4,
+      "banner_block_id": "doxcnP3Xu4NNMKT4aFH0eDTMEmg",
+      "banner_occurrences": 1,
+      "canonical_master_href": "https://vi8r050ecuz.feishu.cn/docx/YzORdyPJroCrXZxCoBKceiZ3nUb",
+      "original_content_resources_ids_exactly_preserved": true,
+      "resources": [
+        {
+          "tag": "whiteboard",
+          "block_id": "doxcnXi5NPWHxHnJJDktW2PyIFc",
+          "token": "Df8Hwq0f1hdRCcbfZHic1K3qnpb"
+        }
+      ]
+    },
+    {
+      "document_id": "TiqGd7dHWoAqBex3KCvcnzpVnKc",
+      "before_revision": 14,
+      "after_revision": 15,
+      "banner_block_id": "doxcnbLbjuZix3Jal0tmtHh8Jye",
+      "banner_occurrences": 1,
+      "canonical_master_href": "https://vi8r050ecuz.feishu.cn/docx/YzORdyPJroCrXZxCoBKceiZ3nUb",
+      "original_content_resources_ids_exactly_preserved": true,
+      "resources": [
+        {
+          "tag": "img",
+          "block_id": "doxcnEO9dNt3JC8o5yL1jLxDn0c",
+          "token": "OtYwblJK3oepYoxxV5ucUBBxn9g"
+        }
+      ]
+    }
+  ]
+}

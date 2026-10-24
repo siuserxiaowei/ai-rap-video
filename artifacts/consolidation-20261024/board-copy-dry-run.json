@@ -1,0 +1,17 @@
+{
+  "api": [
+    {
+      "desc": "OpenAPI: update document",
+      "method": "PUT",
+      "url": "/open-apis/docs_ai/v1/documents/YzORdyPJroCrXZxCoBKceiZ3nUb",
+      "body": {
+        "block_id": "doxcnbzglppykIynRs7MUWaIAth",
+        "command": "block_insert_after",
+        "content": "\u003cwhiteboard token=\"Df8Hwq0f1hdRCcbfZHic1K3qnpb\"\u003e\u003c/whiteboard\u003e\n",
+        "format": "xml",
+        "revision_id": 5
+      }
+    }
+  ],
+  "document_id": "YzORdyPJroCrXZxCoBKceiZ3nUb"
+}

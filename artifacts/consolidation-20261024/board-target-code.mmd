@@ -1,0 +1,49 @@
+flowchart TD
+    subgraph Input ["1. 灵感与素材输入"]
+        A1["主题 / 歌词提示词"]
+        A2["参考节拍 (BPM / 调性)"]
+        A3["歌手形象特征 (Character Sheet)"]
+    end
+
+    subgraph AudioEngine ["2. 音频与韵律引擎"]
+        B1["Lyrics & Flow 结构化生成
+(Rhyme / Syllable / Bars)"]
+        B2["Rap 伴奏生成 / 分轨加载
+(808 Kick / Snare / Hi-hat)"]
+        B3["说唱人声合成与克隆
+(SVS / Flow-Guided TTS)"]
+        B4["UVR5 干音与伴奏分离 + 节拍网格标定
+(Beat & Onset Detection)"]
+    end
+
+    subgraph VisualEngine ["3. 视觉与角色引擎"]
+        C1["角色一致性锁定
+(Multi-View Character Lora)"]
+        C2["分镜脚本自动化生成
+(Scene Prompts per Bar)"]
+        C3["背景场景与 B-Roll 生成
+(Street / Stage / Cyberpunk)"]
+    end
+
+    subgraph LipSyncMotion ["4. 高动态口型与台风合成"]
+        D1["Vocal Stem 极速音素对齐
+(Phoneme-to-Viseme Align)"]
+        D2["Fast-Cadence 口型渲染
+(LivePortrait / EchoMimic / Wav2Lip)"]
+        D3["嘻哈动作与台风插帧
+(Pose & Motion Guidance)"]
+    end
+
+    subgraph PostProduction ["5. 节拍对齐剪辑与后期合成"]
+        E1["Beat Grid 毫秒级重拍裁切与拼接"]
+        E2["动感视觉特效 (Shake, Glitch, Zoom)"]
+        E3["动力学动态字幕 (Kinetic Typography)"]
+        E4["最终成片导出 (4K / 竖屏 9:16 / 横屏 16:9)"]
+    end
+
+    Input --> AudioEngine
+    Input --> VisualEngine
+    AudioEngine --> LipSyncMotion
+    VisualEngine --> LipSyncMotion
+    AudioEngine --> PostProduction
+    LipSyncMotion --> PostProduction

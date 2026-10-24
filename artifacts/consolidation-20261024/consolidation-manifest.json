@@ -1,0 +1,737 @@
+{
+  "title": "AI Rap Video 调研与开发交付总纲（合并校验版）",
+  "master_document_id": "YzORdyPJroCrXZxCoBKceiZ3nUb",
+  "generated_at": "2026-10-24T03:49:30.538927+00:00",
+  "verified_sites": 46,
+  "full_page_sites": 42,
+  "legacy_union": 43,
+  "legacy_overlaps": 11,
+  "supplemental_unverified_candidates": 32,
+  "combined_index": 78,
+  "decision_rows": 50,
+  "public_sha": "4e37d762037196df2eb044d0240ec8b602b44b67",
+  "local_accepted_sha": "f0623e8325b7975a931b41f93949d272fc179c03",
+  "test_snapshot": 529,
+  "whiteboard_source_token": "Df8Hwq0f1hdRCcbfZHic1K3qnpb",
+  "whiteboard_mermaid_sha256": "1f0ca8ef8f1884be40a4cd63b649df5b8c9e86795b434b557b74605fdec5a6ae",
+  "image_source_token": "OtYwblJK3oepYoxxV5ucUBBxn9g",
+  "prior_reference_urls": [
+    "https://ai-rap.video/",
+    "https://ai-rap.video/api",
+    "https://ai-rap.video/pricing",
+    "https://airapvid.com/",
+    "https://airapvid.com/api",
+    "https://airapvid.com/pricing",
+    "https://airapvideo.io/",
+    "https://airapvideo.io/api",
+    "https://airapvideo.io/pricing",
+    "https://airapvideos.com/",
+    "https://airapvideos.com/api",
+    "https://airapvideos.com/pricing",
+    "https://aituber.app/api/ai-video-creation/",
+    "https://aituber.app/pricing/",
+    "https://aituber.app/tools/ai-rap-video-generator/",
+    "https://api.pollo.ai/",
+    "https://api.veed.io/docs/api/post-v1-lipsync-2-0",
+    "https://banger.show/",
+    "https://banger.show/pricing",
+    "https://banger.show/sitemap.xml",
+    "https://banger.show/tools/music-video-maker",
+    "https://beatviz.ai/",
+    "https://beatviz.ai/create-custom-v2",
+    "https://beatviz.ai/pricing",
+    "https://dev.pika.art/",
+    "https://dev.pika.art/docs",
+    "https://dev.pika.art/llms.txt",
+    "https://dev.pika.art/llms/kling/kling-lipsync/avatar",
+    "https://developer.media.io/",
+    "https://developers.heygen.com/",
+    "https://developers.heygen.com/audio-to-video",
+    "https://docs.dev.runwayml.com/guides/models/",
+    "https://docs.dev.runwayml.com/guides/pricing/",
+    "https://docs.domoai.app/",
+    "https://docs.goenhance.ai/",
+    "https://docs.heygen.com/reference/create-an-avatar-video-v2",
+    "https://docs.lumalabs.ai/docs/video-generation",
+    "https://docs.platform.pixverse.ai/",
+    "https://docs.platform.pixverse.ai/lipsync-43051219e0",
+    "https://docs.platform.pixverse.ai/one-click-vibemv-44144151e0",
+    "https://docs.platform.pixverse.ai/pixverse-api-pricing-2394995m0",
+    "https://docs.platform.pixverse.ai/speechlipsync-generation-19094278e0",
+    "https://docs.pollo.ai/",
+    "https://domoai.app/",
+    "https://duorapai.com/",
+    "https://duorapai.com/api",
+    "https://duorapai.com/pricing",
+    "https://ffmpeg.org/ffmpeg-filters.html#ass",
+    "https://ffmpeg.org/ffmpeg-utils.html#Quoting-and-escaping",
+    "https://formulae.brew.sh/formula/ffmpeg-full",
+    "https://freebeat.ai/",
+    "https://freebeat.ai/mcp",
+    "https://freebeat.ai/pricing",
+    "https://help.suno.com/en/articles/9601601",
+    "https://help.suno.com/en/articles/9601665",
+    "https://help.udio.com/en/articles/10716221-create-a-song-with-your-own-lyrics",
+    "https://help.udio.com/en/articles/10756277-udio-public-api",
+    "https://help.udio.com/en/articles/12683565-changes-associated-with-the-universal-music-group-umg-partnership",
+    "https://help.udio.com/en/articles/12874375-udio-warner-music-group-wmg-partnership",
+    "https://hotellobby.net/",
+    "https://hotellobbyai.art/",
+    "https://hotellobbyai.best/",
+    "https://hotellobbyvideo.com/",
+    "https://invideo.io/",
+    "https://invideo.io/make/ai-music-video-generator/",
+    "https://invideo.io/make/music-video-maker/",
+    "https://invideo.io/pricing/",
+    "https://invideo.io/remote-agents/",
+    "https://kaiber.ai/",
+    "https://kaiber.ai/pricing",
+    "https://klingai.com/",
+    "https://klingai.com/dev/pricing",
+    "https://klingai.com/document-api/quickStart/productIntroduction/overview",
+    "https://lumalabs.ai/",
+    "https://lumalabs.ai/pricing",
+    "https://octoscale.ai/",
+    "https://octoscale.ai/ai-rap-video-generator",
+    "https://octoscale.ai/pricing",
+    "https://openart.ai/",
+    "https://openart.ai/mcp/",
+    "https://openart.ai/suite/pricing",
+    "https://pika.art/",
+    "https://pika.art/apps/create-video",
+    "https://pika.art/apps/pikaformance",
+    "https://pika.art/pikaformance",
+    "https://pika.art/pricing",
+    "https://pixverse.ai/",
+    "https://pixverse.ai/en/model/pixverse-v6",
+    "https://pollo.ai/",
+    "https://pollo.ai/lip-sync",
+    "https://pollo.ai/pricing",
+    "https://rapduo.net/",
+    "https://rapduo.video/",
+    "https://rapreel.com/",
+    "https://rapreel.com/pricing",
+    "https://rapvideo.ai/",
+    "https://rapvideo.ai/pricing",
+    "https://rapvideoai.com/",
+    "https://rapvideoai.com/api",
+    "https://rapvideoai.com/pricing",
+    "https://rapvideogenerator.com/",
+    "https://rapvideogenerator.com/pricing",
+    "https://rotorvideos.com/",
+    "https://rotorvideos.com/lyric-videos",
+    "https://rotorvideos.com/pricing",
+    "https://runwayml.com/",
+    "https://runwayml.com/pricing",
+    "https://singify.fineshare.com/",
+    "https://singify.fineshare.com/ai-lyrics-generator/rap-lyrics",
+    "https://singify.fineshare.com/ai-rap-generator",
+    "https://singify.fineshare.com/ai-singing-photo-generator",
+    "https://singify.fineshare.com/pricing",
+    "https://suno.com/",
+    "https://suno.com/pricing",
+    "https://sync.so/",
+    "https://sync.so/docs/api-reference/api-overview",
+    "https://sync.so/docs/api-reference/api/generate-api/create",
+    "https://sync.so/docs/api-reference/api/generate-api/estimate-cost",
+    "https://sync.so/docs/api-reference/api/generate-api/get",
+    "https://sync.so/docs/api-reference/guides/idempotency",
+    "https://sync.so/docs/introduction",
+    "https://sync.so/docs/openapi.json",
+    "https://sync.so/docs/quickstart",
+    "https://sync.so/pricing",
+    "https://tryh3.com/",
+    "https://tryh3.com/generator/ai-rap-video",
+    "https://tryh3.com/pricing",
+    "https://www.capcut.com/ai-creator/agent",
+    "https://www.capcut.com/features/ai-rap-video-generator",
+    "https://www.capcut.com/pricing",
+    "https://www.domoai.app/pricing",
+    "https://www.domoai.app/quick-apps/ai-video-lip-sync",
+    "https://www.goenhance.ai/",
+    "https://www.goenhance.ai/lip-sync",
+    "https://www.hedra.com/",
+    "https://www.hedra.com/docs/pages/developer/v3/generate-video",
+    "https://www.hedra.com/docs/pages/developer/v3/quickstart",
+    "https://www.hedra.com/pricing",
+    "https://www.heygen.com/",
+    "https://www.heygen.com/pricing",
+    "https://www.heygen.com/tool/audio-to-video-converter",
+    "https://www.media.io/ai/explore/zone/ai-rap-video-generator",
+    "https://www.media.io/api.html",
+    "https://www.media.io/pricing.html",
+    "https://www.musicful.ai/",
+    "https://www.musicful.ai/ai-music-video-maker/",
+    "https://www.musicful.ai/api/ai-music/",
+    "https://www.musicful.ai/pricing/",
+    "https://www.neuralframes.com/",
+    "https://www.neuralframes.com/pricing",
+    "https://www.renderforest.com/",
+    "https://www.renderforest.com/music-visualizer",
+    "https://www.renderforest.com/pricing",
+    "https://www.revid.ai/",
+    "https://www.revid.ai/api",
+    "https://www.revid.ai/docs",
+    "https://www.revid.ai/pricing",
+    "https://www.revid.ai/tools/ai-music-video-generator",
+    "https://www.udio.com/",
+    "https://www.udio.com/pricing",
+    "https://www.udio.com/terms-of-service",
+    "https://www.veed.io/",
+    "https://www.veed.io/create/lyric-video-maker",
+    "https://www.veed.io/pricing"
+  ],
+  "supplemental_candidates": [
+    {
+      "source": "legacy_master",
+      "name": "Rapchat",
+      "url": "https://rapchat.com",
+      "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+      "original_text": "Rapchat  ( rapchat.com )：专为 Rapper 打造的移动工作站与 AI Rhyme/Bar 工具。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "Rapchat"
+      ],
+      "candidate_id": "B01"
+    },
+    {
+      "source": "legacy_master",
+      "name": "LyricStudio",
+      "url": "https://lyricstudio.net",
+      "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+      "original_text": "LyricStudio  ( lyricstudio.net )：专业双押/三押辅助引擎与 Flow 节奏对齐。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "LyricStudio",
+        "LyricStudio (WaveAI)"
+      ],
+      "candidate_id": "B02"
+    },
+    {
+      "source": "legacy_master",
+      "name": "Soundverse AI",
+      "url": "https://soundverse.ai",
+      "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+      "original_text": "Soundverse AI  ( soundverse.ai )：伴奏与人声分轨可调的原生音乐生成引擎。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "Soundverse AI"
+      ],
+      "candidate_id": "B03"
+    },
+    {
+      "source": "legacy_master",
+      "name": "Neume AI",
+      "url": "https://neume.io",
+      "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+      "original_text": "Neume AI  ( neume.io )：广播级 808 与快节奏切分嘻哈伴奏平台。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "Neume AI"
+      ],
+      "candidate_id": "B04"
+    },
+    {
+      "source": "legacy_master",
+      "name": "Boomy",
+      "url": "https://boomy.com",
+      "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+      "original_text": "Boomy  ( boomy.com )：零门槛自动编曲与流媒体一键发行。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "Boomy"
+      ],
+      "candidate_id": "B05"
+    },
+    {
+      "source": "legacy_master",
+      "name": "Soundful",
+      "url": "https://soundful.com",
+      "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+      "original_text": "Soundful  ( soundful.com )：商业无版权算法伴奏生成，支持多轨 Stems 导出。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "Soundful"
+      ],
+      "candidate_id": "B06"
+    },
+    {
+      "source": "legacy_master",
+      "name": "Loudly",
+      "url": "https://loudly.com",
+      "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+      "original_text": "Loudly  ( loudly.com )：基于实录采样库的高保真嘻哈伴奏合成。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "Loudly"
+      ],
+      "candidate_id": "B07"
+    },
+    {
+      "source": "legacy_master",
+      "name": "Beatoven.ai",
+      "url": "https://beatoven.ai",
+      "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+      "original_text": "Beatoven.ai  ( beatoven.ai )：情绪切分自适应伴奏平台。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "Beatoven.ai"
+      ],
+      "candidate_id": "B08"
+    },
+    {
+      "source": "legacy_master",
+      "name": "Somio AI",
+      "url": "https://somio.ai",
+      "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+      "original_text": "Somio AI  ( somio.ai )：专注于 Trap 与 Lo-Fi Hip-Hop 的鼓机生成器。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "Somio AI"
+      ],
+      "candidate_id": "B09"
+    },
+    {
+      "source": "legacy_master",
+      "name": "Manus AI Rap",
+      "url": "https://manus.im",
+      "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+      "original_text": "Manus AI Rap  ( manus.im )：全栈 AI 说唱人声与伴奏生成器。",
+      "origins": [
+        "legacy_master"
+      ],
+      "aliases": [
+        "Manus AI Rap"
+      ],
+      "candidate_id": "B10"
+    },
+    {
+      "source": "legacy_master",
+      "name": "ACE Studio",
+      "url": "https://acestudio.ai",
+      "category": "2. AI 声音克隆、歌声合成 (SVS) 与音轨剥离",
+      "original_text": "ACE Studio  ( acestudio.ai )：多语种 SVS 工作站，音素时长可精确微调快嘴。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "ACE Studio",
+        "ACE Studio (Timedomain)"
+      ],
+      "candidate_id": "B11"
+    },
+    {
+      "source": "legacy_master",
+      "name": "DiffSinger",
+      "url": "https://github.com/openvpi/DiffSinger",
+      "category": "2. AI 声音克隆、歌声合成 (SVS) 与音轨剥离",
+      "original_text": "DiffSinger  ( github.com/openvpi/DiffSinger )：开源扩散歌声合成框架，社区支持硬核说唱声学模型。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "DiffSinger"
+      ],
+      "candidate_id": "B12"
+    },
+    {
+      "source": "legacy_master",
+      "name": "GPT-SoVITS",
+      "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+      "category": "2. AI 声音克隆、歌声合成 (SVS) 与音轨剥离",
+      "original_text": "GPT-SoVITS  ( github.com/RVC-Boss/GPT-SoVITS )：5 秒小样本高保真克隆说唱音色与腔调。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "GPT-SoVITS"
+      ],
+      "candidate_id": "B13"
+    },
+    {
+      "source": "legacy_master",
+      "name": "RVC",
+      "url": "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+      "category": "2. AI 声音克隆、歌声合成 (SVS) 与音轨剥离",
+      "original_text": "RVC  ( github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI )：基于检索的声音转换，保留原始 Flow 细节。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "RVC",
+        "RVC (Retrieval-based Voice Conversion)"
+      ],
+      "candidate_id": "B14"
+    },
+    {
+      "source": "legacy_master",
+      "name": "Kits.ai",
+      "url": "https://kits.ai",
+      "category": "2. AI 声音克隆、歌声合成 (SVS) 与音轨剥离",
+      "original_text": "Kits.ai  ( kits.ai )：音乐人官方授权的说唱音色库。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "Kits.ai"
+      ],
+      "candidate_id": "B15"
+    },
+    {
+      "source": "legacy_master",
+      "name": "Weights.gg",
+      "url": "https://weights.gg",
+      "category": "2. AI 声音克隆、歌声合成 (SVS) 与音轨剥离",
+      "original_text": "Weights.gg  ( weights.gg )：全球最大 AI 歌手模型在线社区。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "Weights.gg",
+        "Weights.gg (原 Voicify.ai)"
+      ],
+      "candidate_id": "B16"
+    },
+    {
+      "source": "legacy_master",
+      "name": "Uberduck",
+      "url": "https://uberduck.ai",
+      "category": "2. AI 声音克隆、歌声合成 (SVS) 与音轨剥离",
+      "original_text": "Uberduck  ( uberduck.ai )：开创性 Text-to-Rap API 商业服务。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "Uberduck"
+      ],
+      "candidate_id": "B17"
+    },
+    {
+      "source": "legacy_master",
+      "name": "UVR5",
+      "url": "https://ultimatevocalremover.com",
+      "category": "2. AI 声音克隆、歌声合成 (SVS) 与音轨剥离",
+      "original_text": "UVR5  ( ultimatevocalremover.com )：业界标杆音轨分离工具，彻底剥离重低音提取干音。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "UVR5",
+        "Ultimate Vocal Remover (UVR5)"
+      ],
+      "candidate_id": "B18"
+    },
+    {
+      "source": "legacy_master",
+      "name": "LivePortrait",
+      "url": "https://github.com/KwaiVGI/LivePortrait",
+      "category": "3. 高帧率快嘴口型与动态数字人",
+      "original_text": "LivePortrait  ( github.com/KwaiVGI/LivePortrait )：快手开源肖像动作迁移，真人说唱表演视频无缝映射。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "LivePortrait",
+        "LivePortrait (KwaiVGI)"
+      ],
+      "candidate_id": "B19"
+    },
+    {
+      "source": "legacy_master",
+      "name": "EchoMimic",
+      "url": "https://github.com/antgroup/echomimic",
+      "category": "3. 高帧率快嘴口型与动态数字人",
+      "original_text": "EchoMimic  ( github.com/antgroup/echomimic )：蚂蚁集团音频+Landmark双重约束，抗重低音抖动。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "EchoMimic",
+        "EchoMimic (Ant Group)"
+      ],
+      "candidate_id": "B20"
+    },
+    {
+      "source": "legacy_master",
+      "name": "OmniHuman",
+      "url": "https://omnihuman1.org",
+      "category": "3. 高帧率快嘴口型与动态数字人",
+      "original_text": "OmniHuman  ( omnihuman1.org )：字节跳动弱条件全身数字人，自主生成说唱 Swag 姿态。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "OmniHuman",
+        "OmniHuman (ByteDance)"
+      ],
+      "candidate_id": "B21"
+    },
+    {
+      "source": "legacy_master",
+      "name": "EMO",
+      "url": "https://humanaigc.github.io/emote-portrait-alive",
+      "category": "3. 高帧率快嘴口型与动态数字人",
+      "original_text": "EMO  ( humanaigc.github.io/emote-portrait-alive )：阿里端到端 Audio2Video 扩散模型，复刻《Rap God》快嘴神作。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "EMO",
+        "EMO (Emote Portrait Alive - Alibaba)"
+      ],
+      "candidate_id": "B22"
+    },
+    {
+      "source": "legacy_master",
+      "name": "Hallo / Hallo2",
+      "url": "https://github.com/fudan-generative-vision/hallo",
+      "category": "3. 高帧率快嘴口型与动态数字人",
+      "original_text": "Hallo / Hallo2  ( github.com/fudan-generative-vision/hallo )：复旦开源超长音频驱动人像动画。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "Hallo / Hallo2",
+        "Hallo / Hallo2 (Fudan Generative Vision)"
+      ],
+      "candidate_id": "B23"
+    },
+    {
+      "source": "legacy_master",
+      "name": "AniPortrait",
+      "url": "https://github.com/ZhenglinZhou/AniPortrait",
+      "category": "3. 高帧率快嘴口型与动态数字人",
+      "original_text": "AniPortrait  ( github.com/ZhenglinZhou/AniPortrait )：音频转 3D 姿态与高保真扩散渲染。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "AniPortrait",
+        "AniPortrait (Tencent / Zhenglin Zhou)"
+      ],
+      "candidate_id": "B24"
+    },
+    {
+      "source": "legacy_master",
+      "name": "SadTalker",
+      "url": "https://github.com/OpenTalker/SadTalker",
+      "category": "3. 高帧率快嘴口型与动态数字人",
+      "original_text": "SadTalker  ( github.com/OpenTalker/SadTalker )：轻量级音频驱动肖像动画。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "SadTalker"
+      ],
+      "candidate_id": "B25"
+    },
+    {
+      "source": "legacy_master",
+      "name": "Wav2Lip / Wav2Lip-HD",
+      "url": "https://github.com/Rudrabha/Wav2Lip",
+      "category": "3. 高帧率快嘴口型与动态数字人",
+      "original_text": "Wav2Lip / Wav2Lip-HD  ( github.com/Rudrabha/Wav2Lip )：音素级硬核对口型兜底基准。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "Wav2Lip / Wav2Lip-HD"
+      ],
+      "candidate_id": "B26"
+    },
+    {
+      "source": "legacy_master",
+      "name": "Viggle AI",
+      "url": "https://viggle.ai",
+      "category": "4. 嘻哈台风与动作置换",
+      "original_text": "Viggle AI  ( viggle.ai )：JST-1 物理运动模型，一键将角色套入 Hip-Hop 舞蹈模版。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "Viggle AI"
+      ],
+      "candidate_id": "B27"
+    },
+    {
+      "source": "legacy_master",
+      "name": "MimicMotion",
+      "url": "https://github.com/Tencent/MimicMotion",
+      "category": "4. 嘻哈台风与动作置换",
+      "original_text": "MimicMotion  ( github.com/Tencent/MimicMotion )：腾讯置信度感知动作引导，解决快速手势遮挡撕裂。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "MimicMotion",
+        "MimicMotion (Tencent)"
+      ],
+      "candidate_id": "B28"
+    },
+    {
+      "source": "legacy_master",
+      "name": "Champ",
+      "url": "https://github.com/fudan-generative-vision/champ",
+      "category": "4. 嘻哈台风与动作置换",
+      "original_text": "Champ  ( github.com/fudan-generative-vision/champ )：3D 参数化人体与连帽衫/金项链布料动力学。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "Champ",
+        "Champ (Fudan Generative Vision)"
+      ],
+      "candidate_id": "B29"
+    },
+    {
+      "source": "legacy_master",
+      "name": "Noisee.ai",
+      "url": "https://noisee.ai",
+      "category": "5. 音频响应视觉与卡点剪辑",
+      "original_text": "Noisee.ai  ( noisee.ai )：Suno/Udio 链接一键全曲生成 MV。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "Noisee.ai"
+      ],
+      "candidate_id": "B30"
+    },
+    {
+      "source": "legacy_master",
+      "name": "AirMusic",
+      "url": "https://airmusic.ai",
+      "category": "5. 音频响应视觉与卡点剪辑",
+      "original_text": "AirMusic  ( airmusic.ai )：自动化社交媒体音乐视频发布引擎。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "AirMusic"
+      ],
+      "candidate_id": "B31"
+    },
+    {
+      "source": "legacy_master",
+      "name": "Atlabs",
+      "url": "https://atlabs.ai",
+      "category": "5. 音频响应视觉与卡点剪辑",
+      "original_text": "Atlabs  ( atlabs.ai )：叙事型说唱（Storytelling Rap）意象分镜工作台。",
+      "origins": [
+        "legacy_master",
+        "legacy_42"
+      ],
+      "aliases": [
+        "Atlabs"
+      ],
+      "candidate_id": "B32"
+    }
+  ],
+  "overlap_map": [
+    {
+      "legacy": "Suno AI",
+      "url": "https://suno.com",
+      "site_id": "34"
+    },
+    {
+      "legacy": "Udio",
+      "url": "https://udio.com",
+      "site_id": "35"
+    },
+    {
+      "legacy": "Freebeat.ai",
+      "url": "https://freebeat.ai",
+      "site_id": "18"
+    },
+    {
+      "legacy": "Hedra",
+      "url": "https://hedra.com",
+      "site_id": "26"
+    },
+    {
+      "legacy": "SyncLabs",
+      "url": "https://synclabs.so",
+      "site_id": "28"
+    },
+    {
+      "legacy": "DomoAI",
+      "url": "https://domoai.app",
+      "site_id": "25"
+    },
+    {
+      "legacy": "Kaiber",
+      "url": "https://kaiber.ai",
+      "site_id": "23"
+    },
+    {
+      "legacy": "Neural Frames",
+      "url": "https://neuralframes.com",
+      "site_id": "19"
+    },
+    {
+      "legacy": "BeatViz AI",
+      "url": "https://beatviz.ai",
+      "site_id": "20"
+    },
+    {
+      "legacy": "Kling AI (可灵 AI)",
+      "url": "https://klingai.com",
+      "site_id": "30"
+    },
+    {
+      "legacy": "RunwayML (Gen-3/Gen-4)",
+      "url": "https://runwayml.com",
+      "site_id": "29"
+    }
+  ],
+  "xml_sha256": "e360f91639420fba5f4caae1d987d62da3b09478d4058f041163e7230f8a7303",
+  "body_sha256": "90f91473d70da7e311dbab03e93e5b16f37a4f3cdd09f3a21e975a8ca3cee59b"
+}

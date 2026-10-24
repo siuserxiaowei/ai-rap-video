@@ -56,7 +56,7 @@
     "C45 real browser acceptance"
   ],
   "external_engine_commit": "fccf3d4; preserve airap and coordinate per COORDINATION.md",
-  "feishu": "published once; three iteration appends and one native image verified revision14",
+  "feishu": "three sources consolidated into existing master; native full text, board, image and source archive preservation verified",
   "feishu_cli": "/Users/xiaowei/.local/state/fnm_multishells/1706_1792153352427/bin/lark-cli",
   "feishu_work_dir": null,
   "feishu_draft_path": null,
@@ -99,11 +99,11 @@
   "codex_deliveries": 50,
   "fully_accepted_codex": 48,
   "supplemental_same_G50": true,
-  "feishu_url": "https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc",
-  "feishu_document_id": "TiqGd7dHWoAqBex3KCvcnzpVnKc",
-  "feishu_revision": 14,
-  "feishu_status": "full text equals candidate; prior46 headings/50 decisions/161links preserved; native caption image fetched back with identical SHA256",
-  "feishu_release_path": "artifacts/feishu-report.xml",
+  "feishu_url": "https://vi8r050ecuz.feishu.cn/docx/YzORdyPJroCrXZxCoBKceiZ3nUb",
+  "feishu_document_id": "YzORdyPJroCrXZxCoBKceiZ3nUb",
+  "feishu_revision": 6,
+  "feishu_status": "full normalized body exact; 46 site headings/32 candidate rows/11 mappings/50 decisions/215 URLs; original Mermaid render and caption bytes verified",
+  "feishu_release_path": "artifacts/consolidation-20261024/consolidated-master.xml",
   "draft_workspace_cleaned": true,
   "automated_tests": 529,
   "live_http_smoke": "passed",
@@ -125,11 +125,41 @@
   "first_release_automated_tests": 54,
   "iteration_status": "accepted/reclaimed,529 tests and real Chinese burn-in verified, same Feishu doc revision14 and image read back",
   "iteration_verification": "docs/iterations/subtitle-burnin-20261024/verification.json",
-  "feishu_latest_verification": "artifacts/iterations/subtitle-burnin-20261024/feishu-verification.json",
+  "feishu_latest_verification": "artifacts/consolidation-20261024/verification.json",
   "prior_iteration_verification": "docs/iterations/engine-preview-20261024/verification.json",
   "iteration_plan": "docs/iterations/subtitle-burnin-20261024/PLAN.md",
   "workbench_automated_tests": 88,
   "engine_automated_tests": 441,
   "requirements_audit": "artifacts/iterations/subtitle-burnin-20261024/requirements-audit.json",
-  "recommended_goal_transition": "blocked"
+  "recommended_goal_transition": "blocked",
+  "feishu_previous_report": {
+    "url": "https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc",
+    "document_id": "TiqGd7dHWoAqBex3KCvcnzpVnKc",
+    "content_revision_before_consolidation": 14,
+    "current_revision_after_entry_banner": 15,
+    "historical_release_path": "artifacts/feishu-report.xml",
+    "historical_verification": "artifacts/iterations/subtitle-burnin-20261024/feishu-verification.json"
+  },
+  "consolidation": {
+    "completed_at_utc": "2026-10-24T03:56:06.183470+00:00",
+    "status": "complete",
+    "document_revision": 6,
+    "source_versions": [
+      {
+        "document_id": "AQqCdG2Q3ogetUxgdFxcwKFgnah",
+        "revision": 4
+      },
+      {
+        "document_id": "TiqGd7dHWoAqBex3KCvcnzpVnKc",
+        "revision": 15
+      }
+    ],
+    "verified_site_records": 46,
+    "supplemental_unverified_candidates": 32,
+    "combined_index_records": 78,
+    "product_test_evidence_reused_not_rerun": true,
+    "github_push": false,
+    "plan": "docs/consolidation-20261024/PLAN.md",
+    "verification": "artifacts/consolidation-20261024/verification.json"
+  }
 }

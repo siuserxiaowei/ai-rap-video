@@ -1,0 +1,597 @@
+[
+  {
+    "source": "legacy_master",
+    "name": "Suno AI",
+    "url": "https://suno.com",
+    "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+    "original_text": "Suno AI  ( suno.com )：全球领先多模态生成，支持 Trap/Drill/Boom-Bap 极速咬字。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Udio",
+    "url": "https://udio.com",
+    "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+    "original_text": "Udio  ( udio.com )：顶尖人声质感与咬字，快嘴与段落 Extend 可控性强。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Rapchat",
+    "url": "https://rapchat.com",
+    "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+    "original_text": "Rapchat  ( rapchat.com )：专为 Rapper 打造的移动工作站与 AI Rhyme/Bar 工具。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "LyricStudio",
+    "url": "https://lyricstudio.net",
+    "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+    "original_text": "LyricStudio  ( lyricstudio.net )：专业双押/三押辅助引擎与 Flow 节奏对齐。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Freebeat.ai",
+    "url": "https://freebeat.ai",
+    "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+    "original_text": "Freebeat.ai  ( freebeat.ai )：Drill 与 Diss Track 快速生成与视频预览。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Soundverse AI",
+    "url": "https://soundverse.ai",
+    "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+    "original_text": "Soundverse AI  ( soundverse.ai )：伴奏与人声分轨可调的原生音乐生成引擎。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Neume AI",
+    "url": "https://neume.io",
+    "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+    "original_text": "Neume AI  ( neume.io )：广播级 808 与快节奏切分嘻哈伴奏平台。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Boomy",
+    "url": "https://boomy.com",
+    "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+    "original_text": "Boomy  ( boomy.com )：零门槛自动编曲与流媒体一键发行。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Soundful",
+    "url": "https://soundful.com",
+    "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+    "original_text": "Soundful  ( soundful.com )：商业无版权算法伴奏生成，支持多轨 Stems 导出。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Loudly",
+    "url": "https://loudly.com",
+    "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+    "original_text": "Loudly  ( loudly.com )：基于实录采样库的高保真嘻哈伴奏合成。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Beatoven.ai",
+    "url": "https://beatoven.ai",
+    "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+    "original_text": "Beatoven.ai  ( beatoven.ai )：情绪切分自适应伴奏平台。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Somio AI",
+    "url": "https://somio.ai",
+    "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+    "original_text": "Somio AI  ( somio.ai )：专注于 Trap 与 Lo-Fi Hip-Hop 的鼓机生成器。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Manus AI Rap",
+    "url": "https://manus.im",
+    "category": "1. 伴奏、歌词与 AI 说唱全曲生成",
+    "original_text": "Manus AI Rap  ( manus.im )：全栈 AI 说唱人声与伴奏生成器。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "ACE Studio",
+    "url": "https://acestudio.ai",
+    "category": "2. AI 声音克隆、歌声合成 (SVS) 与音轨剥离",
+    "original_text": "ACE Studio  ( acestudio.ai )：多语种 SVS 工作站，音素时长可精确微调快嘴。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "DiffSinger",
+    "url": "https://github.com/openvpi/DiffSinger",
+    "category": "2. AI 声音克隆、歌声合成 (SVS) 与音轨剥离",
+    "original_text": "DiffSinger  ( github.com/openvpi/DiffSinger )：开源扩散歌声合成框架，社区支持硬核说唱声学模型。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "GPT-SoVITS",
+    "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+    "category": "2. AI 声音克隆、歌声合成 (SVS) 与音轨剥离",
+    "original_text": "GPT-SoVITS  ( github.com/RVC-Boss/GPT-SoVITS )：5 秒小样本高保真克隆说唱音色与腔调。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "RVC",
+    "url": "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+    "category": "2. AI 声音克隆、歌声合成 (SVS) 与音轨剥离",
+    "original_text": "RVC  ( github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI )：基于检索的声音转换，保留原始 Flow 细节。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Kits.ai",
+    "url": "https://kits.ai",
+    "category": "2. AI 声音克隆、歌声合成 (SVS) 与音轨剥离",
+    "original_text": "Kits.ai  ( kits.ai )：音乐人官方授权的说唱音色库。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Weights.gg",
+    "url": "https://weights.gg",
+    "category": "2. AI 声音克隆、歌声合成 (SVS) 与音轨剥离",
+    "original_text": "Weights.gg  ( weights.gg )：全球最大 AI 歌手模型在线社区。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Uberduck",
+    "url": "https://uberduck.ai",
+    "category": "2. AI 声音克隆、歌声合成 (SVS) 与音轨剥离",
+    "original_text": "Uberduck  ( uberduck.ai )：开创性 Text-to-Rap API 商业服务。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "UVR5",
+    "url": "https://ultimatevocalremover.com",
+    "category": "2. AI 声音克隆、歌声合成 (SVS) 与音轨剥离",
+    "original_text": "UVR5  ( ultimatevocalremover.com )：业界标杆音轨分离工具，彻底剥离重低音提取干音。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Hedra",
+    "url": "https://hedra.com",
+    "category": "3. 高帧率快嘴口型与动态数字人",
+    "original_text": "Hedra  ( hedra.com )：顶尖 Character-3 多模态模型，140+ BPM 高速咬字不崩塌。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "LivePortrait",
+    "url": "https://github.com/KwaiVGI/LivePortrait",
+    "category": "3. 高帧率快嘴口型与动态数字人",
+    "original_text": "LivePortrait  ( github.com/KwaiVGI/LivePortrait )：快手开源肖像动作迁移，真人说唱表演视频无缝映射。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "EchoMimic",
+    "url": "https://github.com/antgroup/echomimic",
+    "category": "3. 高帧率快嘴口型与动态数字人",
+    "original_text": "EchoMimic  ( github.com/antgroup/echomimic )：蚂蚁集团音频+Landmark双重约束，抗重低音抖动。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "OmniHuman",
+    "url": "https://omnihuman1.org",
+    "category": "3. 高帧率快嘴口型与动态数字人",
+    "original_text": "OmniHuman  ( omnihuman1.org )：字节跳动弱条件全身数字人，自主生成说唱 Swag 姿态。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "EMO",
+    "url": "https://humanaigc.github.io/emote-portrait-alive",
+    "category": "3. 高帧率快嘴口型与动态数字人",
+    "original_text": "EMO  ( humanaigc.github.io/emote-portrait-alive )：阿里端到端 Audio2Video 扩散模型，复刻《Rap God》快嘴神作。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Hallo / Hallo2",
+    "url": "https://github.com/fudan-generative-vision/hallo",
+    "category": "3. 高帧率快嘴口型与动态数字人",
+    "original_text": "Hallo / Hallo2  ( github.com/fudan-generative-vision/hallo )：复旦开源超长音频驱动人像动画。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "AniPortrait",
+    "url": "https://github.com/ZhenglinZhou/AniPortrait",
+    "category": "3. 高帧率快嘴口型与动态数字人",
+    "original_text": "AniPortrait  ( github.com/ZhenglinZhou/AniPortrait )：音频转 3D 姿态与高保真扩散渲染。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "SadTalker",
+    "url": "https://github.com/OpenTalker/SadTalker",
+    "category": "3. 高帧率快嘴口型与动态数字人",
+    "original_text": "SadTalker  ( github.com/OpenTalker/SadTalker )：轻量级音频驱动肖像动画。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Wav2Lip / Wav2Lip-HD",
+    "url": "https://github.com/Rudrabha/Wav2Lip",
+    "category": "3. 高帧率快嘴口型与动态数字人",
+    "original_text": "Wav2Lip / Wav2Lip-HD  ( github.com/Rudrabha/Wav2Lip )：音素级硬核对口型兜底基准。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "SyncLabs",
+    "url": "https://synclabs.so",
+    "category": "3. 高帧率快嘴口型与动态数字人",
+    "original_text": "SyncLabs  ( synclabs.so )：工业级无感无缝对口型实时 API。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Viggle AI",
+    "url": "https://viggle.ai",
+    "category": "4. 嘻哈台风与动作置换",
+    "original_text": "Viggle AI  ( viggle.ai )：JST-1 物理运动模型，一键将角色套入 Hip-Hop 舞蹈模版。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "MimicMotion",
+    "url": "https://github.com/Tencent/MimicMotion",
+    "category": "4. 嘻哈台风与动作置换",
+    "original_text": "MimicMotion  ( github.com/Tencent/MimicMotion )：腾讯置信度感知动作引导，解决快速手势遮挡撕裂。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Champ",
+    "url": "https://github.com/fudan-generative-vision/champ",
+    "category": "4. 嘻哈台风与动作置换",
+    "original_text": "Champ  ( github.com/fudan-generative-vision/champ )：3D 参数化人体与连帽衫/金项链布料动力学。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "DomoAI",
+    "url": "https://domoai.app",
+    "category": "4. 嘻哈台风与动作置换",
+    "original_text": "DomoAI  ( domoai.app )：真机录制地下说唱视频转漫改赛博朋克风。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Kaiber",
+    "url": "https://kaiber.ai",
+    "category": "5. 音频响应视觉与卡点剪辑",
+    "original_text": "Kaiber  ( kaiber.ai )：音频反应式 AI MV，Beat Sync 完美卡点鼓点爆炸。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Noisee.ai",
+    "url": "https://noisee.ai",
+    "category": "5. 音频响应视觉与卡点剪辑",
+    "original_text": "Noisee.ai  ( noisee.ai )：Suno/Udio 链接一键全曲生成 MV。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Neural Frames",
+    "url": "https://neuralframes.com",
+    "category": "5. 音频响应视觉与卡点剪辑",
+    "original_text": "Neural Frames  ( neuralframes.com )：基于四频段分频的音画联动脉冲生成器。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "BeatViz AI",
+    "url": "https://beatviz.ai",
+    "category": "5. 音频响应视觉与卡点剪辑",
+    "original_text": "BeatViz AI  ( beatviz.ai )：动态声谱与粒子律动短视频工具。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "AirMusic",
+    "url": "https://airmusic.ai",
+    "category": "5. 音频响应视觉与卡点剪辑",
+    "original_text": "AirMusic  ( airmusic.ai )：自动化社交媒体音乐视频发布引擎。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Atlabs",
+    "url": "https://atlabs.ai",
+    "category": "5. 音频响应视觉与卡点剪辑",
+    "original_text": "Atlabs  ( atlabs.ai )：叙事型说唱（Storytelling Rap）意象分镜工作台。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "Kling AI (可灵 AI)",
+    "url": "https://klingai.com",
+    "category": "6. 电影级长镜头基础模型",
+    "original_text": "Kling AI (可灵 AI)  ( klingai.com )：电影级高清物理运动，街头聚光灯舞台运镜。"
+  },
+  {
+    "source": "legacy_master",
+    "name": "RunwayML (Gen-3/Gen-4)",
+    "url": "https://runwayml.com",
+    "category": "6. 电影级长镜头基础模型",
+    "original_text": "RunwayML (Gen-3/Gen-4)  ( runwayml.com )：好莱坞级摄影机轨道平摇与运动画笔。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Suno AI",
+    "url": "https://suno.com",
+    "category": "维度一：AI 说唱人声、伴奏与全曲生成平台 (AI Rap Music & Beats)",
+    "original_text": "Suno AI 官网 :  https://suno.com 核心定位 : 全球领先的多模态 AI 音乐生成平台。 Rap 特性 : 支持在 Prompt 中指定 Boom-Bap、Trap、Drill、East Coast、West Coast、Melodic Rap 等流派，能自动匹配极度自然的押韵与 Flow 韵律。 商业模式 : 免费体验 + 订阅制（Pro/Premier）。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Udio",
+    "url": "https://udio.com",
+    "category": "维度一：AI 说唱人声、伴奏与全曲生成平台 (AI Rap Music & Beats)",
+    "original_text": "Udio 官网 :  https://udio.com 核心定位 : 前 Google DeepMind 团队打造的高音质 AI 音乐生成器。 Rap 特性 : 在人声质感、齿音咬字、极速快嘴以及人声复调方面表现极其突出，支持通过上下文 Extend 分段定制说唱 Verse/Chorus/Bridge。 商业模式 : 免费体验 + 阶梯订阅制。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Rapchat",
+    "url": "https://rapchat.com",
+    "category": "维度一：AI 说唱人声、伴奏与全曲生成平台 (AI Rap Music & Beats)",
+    "original_text": "Rapchat 官网 :  https://rapchat.com 核心定位 : 专为说唱歌手与嘻哈爱好者打造的移动音乐工作站与 AI 创作生态。 Rap 特性 : 内置 AI Lyric Generator、Rhyme Finder、Auto-Tune 与数万首正版 Hip-Hop Beat 伴奏库，支持直接在手机端录制与混音。 商业模式 : 免费基础版 + Gold 会员订阅。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "LyricStudio (WaveAI)",
+    "url": "https://lyricstudio.net",
+    "category": "维度一：AI 说唱人声、伴奏与全曲生成平台 (AI Rap Music & Beats)",
+    "original_text": "LyricStudio (WaveAI) 官网 :  https://lyricstudio.net 核心定位 : 专业级 AI 歌词与押韵辅助创作工具。 Rap 特性 : 专为 Hip-Hop 优化的双押、三押、尾押推荐引擎，可根据既定节拍速度与 Flow 结构实时推荐下一句 Bars。 商业模式 : 付费订阅（月付/年付）。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Freebeat.ai (Rap Generator Suite)",
+    "url": "https://freebeat.ai",
+    "category": "维度一：AI 说唱人声、伴奏与全曲生成平台 (AI Rap Music & Beats)",
+    "original_text": "Freebeat.ai (Rap Generator Suite) 官网 :  https://freebeat.ai 核心定位 : 垂直于短视频与社交媒体的 AI 说唱歌词与视频一体化生成器。 Rap 特性 : 包含 Drill Generator、Diss Track Generator 与 Punchline 扩写工具，提供一键将歌词与伴奏渲染为可视视频的能力。 商业模式 : Freemium 增值服务。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Soundverse AI",
+    "url": "https://soundverse.ai",
+    "category": "维度一：AI 说唱人声、伴奏与全曲生成平台 (AI Rap Music & Beats)",
+    "original_text": "Soundverse AI 官网 :  https://soundverse.ai 核心定位 : AI 原生音频与音乐制作平台。 Rap 特性 : 提供精准的 Rap Music Generator，支持独立导出纯伴奏（Instrumentals）或整首带 AI 人声的说唱音轨，可调整能量曲线与和弦。 商业模式 : 免费试用 + 点数充值/订阅。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Neume AI",
+    "url": "https://neume.io",
+    "category": "维度一：AI 说唱人声、伴奏与全曲生成平台 (AI Rap Music & Beats)",
+    "original_text": "Neume AI 官网 :  https://neume.io 核心定位 : 面向专业内容制作的高质量 AI 说唱合成平台。 Rap 特性 : 针对 Hip-Hop 亚流派提供重鼓点 808 与快速切分节奏算法，可输出广播级混音效果。 商业模式 : 商业许可与 API 接入。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Boomy",
+    "url": "https://boomy.com",
+    "category": "维度一：AI 说唱人声、伴奏与全曲生成平台 (AI Rap Music & Beats)",
+    "original_text": "Boomy 官网 :  https://boomy.com 核心定位 : 零门槛 AI 原创音乐生成与全网发行平台。 Rap 特性 : 具备 Rap Beats 自动编曲机制，几秒内生成符合工业标准的 808 贝斯与 Trap 鼓组。 商业模式 : 免费分成模式 + 高级创作者订阅。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Soundful",
+    "url": "https://soundful.com",
+    "category": "维度一：AI 说唱人声、伴奏与全曲生成平台 (AI Rap Music & Beats)",
+    "original_text": "Soundful 官网 :  https://soundful.com 核心定位 : 算法驱动的高保真无版权商用伴奏生成器。 Rap 特性 : 提供专门的 Hip-Hop/Trap/Drill 风格预设，可精准锁定 BPM、调性（Key）并导出多轨 Stems（分轨干音）。 商业模式 : 创作者版与企业商用授权订阅。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Loudly",
+    "url": "https://loudly.com",
+    "category": "维度一：AI 说唱人声、伴奏与全曲生成平台 (AI Rap Music & Beats)",
+    "original_text": "Loudly 官网 :  https://loudly.com 核心定位 : AI 音乐协作与伴奏生成引擎。 Rap 特性 : 拥有庞大的实录 Hip-Hop 采样库支持，AI 基于真实乐器 Loops 进行动态编曲组合。 商业模式 : 免费版 + 创作者专业版。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Beatoven.ai",
+    "url": "https://beatoven.ai",
+    "category": "维度一：AI 说唱人声、伴奏与全曲生成平台 (AI Rap Music & Beats)",
+    "original_text": "Beatoven.ai 官网 :  https://beatoven.ai 核心定位 : 基于情绪与段落的自适应背景音乐生成平台。 Rap 特性 : 允许用户在不同时间戳切分不同情绪，为说唱叙事视频（Storytelling Rap）定制起承转合的伴奏背景。 商业模式 : 按分钟计费或月度订阅。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Somio AI",
+    "url": "https://somio.ai",
+    "category": "维度一：AI 说唱人声、伴奏与全曲生成平台 (AI Rap Music & Beats)",
+    "original_text": "Somio AI 官网 :  https://somio.ai 核心定位 : 专注于 Trap、Boom-Bap 与 Lo-Fi Hip-Hop 的伴奏生成器。 Rap 特性 : 界面极简，可快速微调踢鼓（Kick）、军鼓（Snare）及滚奏踩镲（Hi-hat rolls）的紧凑度。 商业模式 : 订阅制。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "ACE Studio (Timedomain)",
+    "url": "https://acestudio.ai",
+    "category": "维度二：AI 人声克隆、说唱歌声合成 (SVS) 与音轨分离",
+    "original_text": "ACE Studio (Timedomain) 官网 :  https://acestudio.ai 核心定位 : 商业级 AI 歌声与多语种声音合成工作站。 Rap 特性 : 支持通过导入 MIDI 与音素直接控制音高线、呼吸音与声门张力。通过细化音素时长与滑音微调，可精确还原硬核快嘴说唱。 商业模式 : 个人会员与商业工坊许可。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "DiffSinger",
+    "url": "https://github.com/openvpi/DiffSinger",
+    "category": "维度二：AI 人声克隆、说唱歌声合成 (SVS) 与音轨分离",
+    "original_text": "DiffSinger 代码库/官网 :  https://github.com/openvpi/DiffSinger 核心定位 : 基于扩散概率模型（Denoising Diffusion）的开源 SVS 歌声合成框架。 Rap 特性 : 开源社区（如 OpenUtau）大量微调了说唱专用声学模型，能完美模拟说唱中的气泡音、沙哑摩擦音与极速音素切换。 商业模式 : 开源（Apache-2.0），社区自建部署。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "GPT-SoVITS",
+    "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+    "category": "维度二：AI 人声克隆、说唱歌声合成 (SVS) 与音轨分离",
+    "original_text": "GPT-SoVITS 代码库/官网 :  https://github.com/RVC-Boss/GPT-SoVITS 核心定位 : 强大的少样本（Few-shot）TTS 与语音克隆开源项目。 Rap 特性 : 输入 5 秒参考说唱音频，即可高保真克隆目标歌手的说唱音色、腔调与咬字重音，是目前自制 AI 虚拟说唱歌手的王牌底座。 商业模式 : 开源免费（MIT 协议）。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "RVC (Retrieval-based Voice Conversion)",
+    "url": "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+    "category": "维度二：AI 人声克隆、说唱歌声合成 (SVS) 与音轨分离",
+    "original_text": "RVC (Retrieval-based Voice Conversion) 代码库/官网 :  https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI 核心定位 : 基于检索的低延迟音色转换系统。 Rap 特性 : 创作者自己录制或引导说唱干音（Guide Vocal），通过 RVC 一键无缝转换为指定虚拟歌手或偶像的声线，完美保留 Flow 与节奏细节。 商业模式 : 开源免费（MIT 协议）。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Kits.ai",
+    "url": "https://kits.ai",
+    "category": "维度二：AI 人声克隆、说唱歌声合成 (SVS) 与音轨分离",
+    "original_text": "Kits.ai 官网 :  https://kits.ai 核心定位 : 专为音乐制作人打造的合法授权 AI 人声工作室。 Rap 特性 : 汇聚了海量经过官方授权的 Hip-Hop/Rap 歌手模型，提供极佳的干音转换、去噪与模型微调功能。 商业模式 : 按量月度订阅。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Weights.gg (原 Voicify.ai)",
+    "url": "https://weights.gg",
+    "category": "维度二：AI 人声克隆、说唱歌声合成 (SVS) 与音轨分离",
+    "original_text": "Weights.gg (原 Voicify.ai) 官网 :  https://weights.gg 核心定位 : 全球最大的 AI 音乐模型社区与在线变声平台。 Rap 特性 : 拥有数万个社区训练的知名说唱歌手模型，支持直接输入音频或 YouTube 链接一键替换主唱说声音轨。 商业模式 : 免费体验 + 积分订阅。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Uberduck",
+    "url": "https://uberduck.ai",
+    "category": "维度二：AI 人声克隆、说唱歌声合成 (SVS) 与音轨分离",
+    "original_text": "Uberduck 官网 :  https://uberduck.ai 核心定位 : 开创性的 AI 说唱人声与文本转语音（Text-to-Rap）平台。 Rap 特性 : 率先推出商业级 AI Rap Generator API，输入节拍、歌词与指定 Flow 模板即可自动渲染说唱音轨。 商业模式 : 开发者 API 按调用计费 + 创作者月费。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Ultimate Vocal Remover (UVR5)",
+    "url": "https://ultimatevocalremover.com",
+    "category": "维度二：AI 人声克隆、说唱歌声合成 (SVS) 与音轨分离",
+    "original_text": "Ultimate Vocal Remover (UVR5) 官网 :  https://ultimatevocalremover.com 核心定位 : 业界公认顶级的人声音轨分离与伴奏提取开源工具。 Rap 特性 : 依托 MDX-Net、Demucs v4 等核心算法，能完美剥离 Hip-Hop 歌曲中的沉重 808 贝斯与主唱干音，为后续口型对齐提供绝对纯净的 Vocal Stem。 商业模式 : 开源免费。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Hedra (Hedra Studio / Character-3)",
+    "url": "https://hedra.com",
+    "category": "维度三：极速说唱对口型与音频驱动数字人 (Fast-Cadence Lip-Sync & Avatars)",
+    "original_text": "Hedra (Hedra Studio / Character-3) 官网 :  https://hedra.com 核心定位 : 业界顶尖的基础多模态虚拟人视频生成平台。 Rap 特性 : 具备惊人的音频-视觉对齐能力，在面临 140+ BPM 的高速连续音节时依然能保持嘴型不崩塌，且自发产生自然的头部晃动与说唱神态。 商业模式 : 免费试用 + Pro/Enterprise 订阅。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "LivePortrait (KwaiVGI)",
+    "url": "https://github.com/KwaiVGI/LivePortrait",
+    "category": "维度三：极速说唱对口型与音频驱动数字人 (Fast-Cadence Lip-Sync & Avatars)",
+    "original_text": "LivePortrait (KwaiVGI) 代码库/官网 :  https://github.com/KwaiVGI/LivePortrait 核心定位 : 快手开源的高效高保真肖像动作迁移框架。 Rap 特性 : 具备极速计算与极限面部表情捕捉，通过真人说唱表演视频（Driving Video）作为运动源，可无缝将说唱时的夸张口部动作、挑眉、歪头等 Swag 特征迁移到任意 2D/3D 头像上。 商业模式 : 开源免费（非商用学术开源 / ComfyUI 生态标配）。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "EchoMimic (Ant Group)",
+    "url": "https://github.com/antgroup/echomimic",
+    "category": "维度三：极速说唱对口型与音频驱动数字人 (Fast-Cadence Lip-Sync & Avatars)",
+    "original_text": "EchoMimic (Ant Group) 代码库/官网 :  https://github.com/antgroup/echomimic 核心定位 : 蚂蚁集团开源的音频+关键点双重驱动肖像动画扩散模型。 Rap 特性 : 专为解决强节奏音频对口型发飘抖动的问题设计，即便在 Rap 伴奏存在重低音轰鸣的情况下，通过人脸 Landmark 约束，嘴型依然极度稳固。 商业模式 : 开源免费（Apache-2.0）。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "OmniHuman (ByteDance)",
+    "url": "https://omnihuman1.org",
+    "category": "维度三：极速说唱对口型与音频驱动数字人 (Fast-Cadence Lip-Sync & Avatars)",
+    "original_text": "OmniHuman (ByteDance) 官网/主页 :  https://omnihuman1.org 核心定位 : 字节跳动出品的弱条件全身体态数字人生成模型。 Rap 特性 : 打破了以往“仅能晃动头部”的局限，根据说唱歌词音频的重音和激昂程度，自主生成半身乃至全身的说唱手势、身体前倾与摇摆姿态。 商业模式 : 阶段性内测 / 开放学术演示。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "EMO (Emote Portrait Alive - Alibaba)",
+    "url": "https://humanaigc.github.io/emote-portrait-alive",
+    "category": "维度三：极速说唱对口型与音频驱动数字人 (Fast-Cadence Lip-Sync & Avatars)",
+    "original_text": "EMO (Emote Portrait Alive - Alibaba) 论文/主页 :  https://humanaigc.github.io/emote-portrait-alive 核心定位 : 阿里智能计算研究院推出的端到端 Audio2Video 扩散模型。 Rap 特性 : 其官方演示的 Eminem《Rap God》快嘴对口型震惊业界，不依赖中间 3DMM，直接通过弱音频特征映射高动态表情与大角度头部俯仰。 商业模式 : 学术开源研究。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Hallo / Hallo2 (Fudan Generative Vision)",
+    "url": "https://github.com/fudan-generative-vision/hallo",
+    "category": "维度三：极速说唱对口型与音频驱动数字人 (Fast-Cadence Lip-Sync & Avatars)",
+    "original_text": "Hallo / Hallo2 (Fudan Generative Vision) 代码库/官网 :  https://github.com/fudan-generative-vision/hallo 核心定位 : 复旦大学开源的长时音频驱动人像动画模型。 Rap 特性 : 能够处理超长单音轨输入，配合阶梯式时间自注意力机制，保证整首说唱歌曲（3-4分钟）角色面部不走形、口型持续同步。 商业模式 : 开源免费（MIT 协议）。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "AniPortrait (Tencent / Zhenglin Zhou)",
+    "url": "https://github.com/ZhenglinZhou/AniPortrait",
+    "category": "维度三：极速说唱对口型与音频驱动数字人 (Fast-Cadence Lip-Sync & Avatars)",
+    "original_text": "AniPortrait (Tencent / Zhenglin Zhou) 代码库/官网 :  https://github.com/ZhenglinZhou/AniPortrait 核心定位 : 音频驱动的高保真肖像生成框架。 Rap 特性 : 先将音频转换为 3D 姿态与表情网格，再由扩散模型渲染高分辨率画面，在可控性与节奏一致性上表现优秀。 商业模式 : 开源免费。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "SadTalker",
+    "url": "https://github.com/OpenTalker/SadTalker",
+    "category": "维度三：极速说唱对口型与音频驱动数字人 (Fast-Cadence Lip-Sync & Avatars)",
+    "original_text": "SadTalker 代码库/官网 :  https://github.com/OpenTalker/SadTalker 核心定位 : CVPR 经典音频驱动单图口型动画模型。 Rap 特性 : 部署极其轻量，支持在消费级显卡（如 RTX 3060）本地快速推理，适合自动化批处理批量生成低成本说唱试听片。 商业模式 : 开源免费。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Wav2Lip / Wav2Lip-HD",
+    "url": "https://github.com/Rudrabha/Wav2Lip",
+    "category": "维度三：极速说唱对口型与音频驱动数字人 (Fast-Cadence Lip-Sync & Avatars)",
+    "original_text": "Wav2Lip / Wav2Lip-HD 代码库/官网 :  https://github.com/Rudrabha/Wav2Lip 核心定位 : 音素级对口型基准算法与高分辨率改进版。 Rap 特性 : 即使在极度快速的说唱场景下，其判别器损失能强制唇形在当前帧闭合或咧开，是所有口型修补工作流中的硬核兜底模型。 商业模式 : 开源免费。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "SyncLabs",
+    "url": "https://synclabs.so",
+    "category": "维度三：极速说唱对口型与音频驱动数字人 (Fast-Cadence Lip-Sync & Avatars)",
+    "original_text": "SyncLabs 官网 :  https://synclabs.so 核心定位 : 面向企业的超低延迟无缝对口型 API 平台。 Rap 特性 : 允许将任意说唱音轨实时替换到已有说唱 MV 视频中，无需重新渲染整个场景与光影，仅微调嘴唇与下颌区域。 商业模式 : 开发者 API 按秒计费。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Viggle AI",
+    "url": "https://viggle.ai",
+    "category": "维度四：嘻哈肢体动作、舞蹈与姿态置换 (Motion & Swagger Replacement)",
+    "original_text": "Viggle AI 官网 :  https://viggle.ai 核心定位 : 基于 JST-1 可控物理运动模型的角色动作替换引擎。 Rap 特性 : 用户只需提供一张角色正面图和一个经典的 Hip-Hop 舞蹈/说唱台风视频，Viggle 即可完美将角色套入该动作模版中，生成带有地道 Swag 的全身表演视频。 商业模式 : Discord 免费点数 + Web 端 Pro 订阅。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "MimicMotion (Tencent)",
+    "url": "https://github.com/Tencent/MimicMotion",
+    "category": "维度四：嘻哈肢体动作、舞蹈与姿态置换 (Motion & Swagger Replacement)",
+    "original_text": "MimicMotion (Tencent) 代码库/官网 :  https://github.com/Tencent/MimicMotion 核心定位 : 腾讯开源的高质量置信度感知人体姿态动作引导模型。 Rap 特性 : 解决人体大幅度晃动手势与肢体遮挡时的撕裂问题，能够稳定再现 Hip-Hop MV 中常见的快速手指结印、胸口捶击等复杂手势。 商业模式 : 开源免费。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Champ (Fudan Generative Vision)",
+    "url": "https://github.com/fudan-generative-vision/champ",
+    "category": "维度四：嘻哈肢体动作、舞蹈与姿态置换 (Motion & Swagger Replacement)",
+    "original_text": "Champ (Fudan Generative Vision) 代码库/官网 :  https://github.com/fudan-generative-vision/champ 核心定位 : 引入 3D 参数化人体的可控人物动画模型。 Rap 特性 : 结合 SMPL-X 骨骼数据，能准确渲染宽松连帽衫、金项链等 Hip-Hop 标志性服饰在说唱跳跃时的自然布料动力学。 商业模式 : 开源免费。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "DomoAI",
+    "url": "https://domoai.app",
+    "category": "维度四：嘻哈肢体动作、舞蹈与姿态置换 (Motion & Swagger Replacement)",
+    "original_text": "DomoAI 官网 :  https://domoai.app 核心定位 : 风格化视频转换（Video-to-Video）AI 平台。 Rap 特性 : 创作者录制一段真实的地下说唱对战视频，DomoAI 可在保留 100% 动作韵律的前提下，将其转绘为美式暗黑漫画风、日系动漫风或 3D 赛博朋克风。 商业模式 : 订阅积分制。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Kaiber",
+    "url": "https://kaiber.ai",
+    "category": "维度五：节拍响应式视觉、动效与自动化剪辑引擎 (Beat-Synced Visualizers & Montage)",
+    "original_text": "Kaiber 官网 :  https://kaiber.ai 核心定位 : 专为音乐人和视觉艺术家打造的音频反应式（Audio-Reactive）AI MV 平台。 Rap 特性 : 其核心的“Beat Sync”功能可直接分析说唱音轨的鼓点重音与能量曲线，在低音爆炸瞬间触发镜头拉伸、画面反转或风格突变，曾被 Linkin Park 等知名乐队官方 MV 采用。 商业模式 : 创作者月费与年费套餐。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Noisee.ai",
+    "url": "https://noisee.ai",
+    "category": "维度五：节拍响应式视觉、动效与自动化剪辑引擎 (Beat-Synced Visualizers & Montage)",
+    "original_text": "Noisee.ai 官网 :  https://noisee.ai 核心定位 : 一键全曲转 MV 的 AI 视频生成器。 Rap 特性 : 原生集成 Suno/Udio 链接直连，自动根据说唱歌词的情绪转折分段构思分镜脚本，生成极具视觉冲击力的全曲长视频。 商业模式 : 社区免费配额 + 付费订阅。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Neural Frames",
+    "url": "https://neuralframes.com",
+    "category": "维度五：节拍响应式视觉、动效与自动化剪辑引擎 (Beat-Synced Visualizers & Montage)",
+    "original_text": "Neural Frames 官网 :  https://neuralframes.com 核心定位 : 基于频率分频的音画联动脉冲生成器。 Rap 特性 : 支持将说唱音频分离为 Bass/Drums/Vocals/Other 四条通道，让视觉相机的缩放严格跟随 808 踢鼓震动，色彩饱和度跟随人声音量起伏。 商业模式 : 免费版 + 创作者阶梯计费。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "BeatViz AI",
+    "url": "https://beatviz.ai",
+    "category": "维度五：节拍响应式视觉、动效与自动化剪辑引擎 (Beat-Synced Visualizers & Montage)",
+    "original_text": "BeatViz AI 官网 :  https://beatviz.ai 核心定位 : 专为电子音乐与说唱单曲设计的动态声谱可视化平台。 Rap 特性 : 擅长在竖屏短视频场景下，将说唱节奏转化为动态频段粒子与脉冲波形，并与背景动态插画实时同步。 商业模式 : 单曲渲染买断或订阅。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "AirMusic",
+    "url": "https://airmusic.ai",
+    "category": "维度五：节拍响应式视觉、动效与自动化剪辑引擎 (Beat-Synced Visualizers & Montage)",
+    "original_text": "AirMusic 官网 :  https://airmusic.ai 核心定位 : 自动化社交媒体音乐视频发布引擎。 Rap 特性 : 提供多款适合 Hip-Hop 发行的模板，包含动态唱片机旋转、动态歌词滚动以及自动生成 YouTube/TikTok 专属分流尺寸。 商业模式 : 订阅制。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Atlabs",
+    "url": "https://atlabs.ai",
+    "category": "维度五：节拍响应式视觉、动效与自动化剪辑引擎 (Beat-Synced Visualizers & Montage)",
+    "original_text": "Atlabs 官网 :  https://atlabs.ai 核心定位 : 面向故事叙事与音乐视觉化的 AI 视频工作台。 Rap 特性 : 能精准理解叙事型说唱（Storytelling Rap）的歌词含义，自动拆解每个 4-bar 的隐喻意象并生成电影质感的分镜背景。 商业模式 : 团队订阅制。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "Kling AI (可灵 AI - 快手)",
+    "url": "https://klingai.com",
+    "category": "维度六：电影级视频大模型与资产基底 (Cinematic Video Foundation Models)",
+    "original_text": "Kling AI (可灵 AI - 快手) 官网 :  https://klingai.com 核心定位 : 电影级高清视频生成基础大模型。 Rap 特性 : 支持高帧率与极具真实感的物理运动模拟，在生成说唱歌手在街头、废弃厂房、聚光灯舞台下的运镜推拉方面极为震撼，并支持首尾帧控制与运镜路径自定义。 商业模式 : 免费每日赠分 + 付费订阅。"
+  },
+  {
+    "source": "legacy_42",
+    "name": "RunwayML (Gen-3 Alpha / Gen-4)",
+    "url": "https://runwayml.com",
+    "category": "维度六：电影级视频大模型与资产基底 (Cinematic Video Foundation Models)",
+    "original_text": "RunwayML (Gen-3 Alpha / Gen-4) 官网 :  https://runwayml.com 核心定位 : 全球好莱坞级 AI 影视制作标杆工具。 Rap 特性 : 具备业界最精密的 Camera Control（轨道、升降、平摇），配合 Motion Brush，可将静态虚拟说唱歌手周围的喷漆、烟雾、霓虹灯单独赋予剧烈的动态特效。 商业模式 : 阶梯订阅制 + 企业服务。"
+  }
+]

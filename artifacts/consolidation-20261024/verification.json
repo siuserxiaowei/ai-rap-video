@@ -1,0 +1,124 @@
+{
+  "status": "passed",
+  "completed_at_utc": "2026-10-24T03:56:06.183470+00:00",
+  "task": "Consolidate existing Feishu research/delivery documents and versioned GitHub information into one existing master.",
+  "canonical_url": "https://vi8r050ecuz.feishu.cn/docx/YzORdyPJroCrXZxCoBKceiZ3nUb",
+  "title": "AI Rap Video 调研与开发交付总纲（合并校验版）",
+  "master_revision": 6,
+  "master_checks": {
+    "revision": 6,
+    "normalized_text_equal": true,
+    "normalized_text_characters": 82246,
+    "unique_reference_urls": 215,
+    "sections": 12,
+    "site_h2": 46,
+    "decision_rows": 50,
+    "supplemental_candidates": 32,
+    "whiteboards": 1,
+    "whiteboard_block_id": "doxcn7brNatd6eGOeyeDPUkK70Q",
+    "whiteboard_token": "UiNMwB92JhTVRzbRkOjckc7dntb",
+    "mermaid_source_exact": true,
+    "mermaid_source_sha256": "1f0ca8ef8f1884be40a4cd63b649df5b8c9e86795b434b557b74605fdec5a6ae",
+    "images": 1,
+    "image_token": "DfyYbZpZEoELN5x0pkucx9S0nVd",
+    "candidate_xml_sha256": "e360f91639420fba5f4caae1d987d62da3b09478d4058f041163e7230f8a7303",
+    "published_xml_sha256": "9ec777cfa8c9cbafe80ddd679c9c9d65064946b3ede36b3555e1a427d1c73a79",
+    "alias_mappings": 11,
+    "all_prior_reference_urls_retained": true,
+    "markdown_mirror_equal": true
+  },
+  "board_checks": {
+    "status": "passed_original_mermaid_recreated_and_render_verified",
+    "original_mermaid_exact": true,
+    "native_preview_bytes_equal": true,
+    "decoded_pixels_equal": true,
+    "visual_review": "passed",
+    "evidence": "artifacts/consolidation-20261024/board-verification.json"
+  },
+  "caption_image_checks": {
+    "verified_at_utc": "2026-10-24T03:54:41.689230+00:00",
+    "method": "lark-cli docs +media-preview --as user plus byte comparison and view_image",
+    "source_image_token": "OtYwblJK3oepYoxxV5ucUBBxn9g",
+    "master_image_token": "DfyYbZpZEoELN5x0pkucx9S0nVd",
+    "native_preview_content_type": "image/png",
+    "actual_format": "PNG",
+    "bytes": 5025,
+    "width": 640,
+    "height": 360,
+    "sha256": "d2ac1fdbaf04e28b2d0505904a362f3e0e437e0043201d2f14690157f7e36320",
+    "matches_original_video_frame_bytes": true,
+    "local_preview": "artifacts/tmp/consolidation-20261024/copied-subtitle.png",
+    "original_video_frame": "artifacts/tmp/subtitle-burnin-20261024/controlled-chinese-frame.png",
+    "visual_review": "Root inspected the downloaded image: black field with clear Chinese caption 中文烧录预览. This is a subtitle burn-in sample, not AI performer footage."
+  },
+  "source_archive_checks": [
+    {
+      "document_id": "AQqCdG2Q3ogetUxgdFxcwKFgnah",
+      "before_revision": 3,
+      "after_revision": 4,
+      "banner_block_id": "doxcnP3Xu4NNMKT4aFH0eDTMEmg",
+      "banner_occurrences": 1,
+      "canonical_master_href": "https://vi8r050ecuz.feishu.cn/docx/YzORdyPJroCrXZxCoBKceiZ3nUb",
+      "original_content_resources_ids_exactly_preserved": true,
+      "resources": [
+        {
+          "tag": "whiteboard",
+          "block_id": "doxcnXi5NPWHxHnJJDktW2PyIFc",
+          "token": "Df8Hwq0f1hdRCcbfZHic1K3qnpb"
+        }
+      ]
+    },
+    {
+      "document_id": "TiqGd7dHWoAqBex3KCvcnzpVnKc",
+      "before_revision": 14,
+      "after_revision": 15,
+      "banner_block_id": "doxcnbLbjuZix3Jal0tmtHh8Jye",
+      "banner_occurrences": 1,
+      "canonical_master_href": "https://vi8r050ecuz.feishu.cn/docx/YzORdyPJroCrXZxCoBKceiZ3nUb",
+      "original_content_resources_ids_exactly_preserved": true,
+      "resources": [
+        {
+          "tag": "img",
+          "block_id": "doxcnEO9dNt3JC8o5yL1jLxDn0c",
+          "token": "OtYwblJK3oepYoxxV5ucUBBxn9g"
+        }
+      ]
+    }
+  ],
+  "xml_profile": "passed",
+  "warnings_remaining": [],
+  "evidence_paths": {
+    "native_master_readback": "artifacts/consolidation-20261024/master-final-readback.json",
+    "candidate": "artifacts/consolidation-20261024/consolidated-master.xml",
+    "markdown_mirror": "MASTER_FEISHU_DOC.md",
+    "coverage_review": "artifacts/consolidation-20261024/review-coverage.md",
+    "release_review": "artifacts/consolidation-20261024/review-releases.md",
+    "claims_review": "artifacts/consolidation-20261024/review-claims.md",
+    "public_repo_snapshot": "artifacts/consolidation-20261024/publication-state.json",
+    "source_banners": "artifacts/consolidation-20261024/sources-verification.json"
+  },
+  "source_snapshot_sha256": {
+    "source-master.json": "8541805a1b9dbfb552bd83da160bd42c52ef243fddea41c998127428549bdd7f",
+    "source-42-research.json": "76ba9c1b72c66fc1ec23aae52a8c547d9ede8cefd621914e4fb9911c07ce9324",
+    "source-46-research.json": "1c26abf6bbd5010ec81248c06b3ce5285647c63533cdc0997614e3574aa7e43b"
+  },
+  "version_boundaries": {
+    "public_main": "4e37d762037196df2eb044d0240ec8b602b44b67",
+    "accepted_local_application_snapshot": "f0623e8325b7975a931b41f93949d272fc179c03",
+    "prior_test_evidence": {
+      "total": 529,
+      "engine": 441,
+      "workbench": 88,
+      "rerun_in_this_task": false
+    },
+    "product_code_changed": false,
+    "github_push_in_this_task": false,
+    "browser_acceptance_or_live_provider_status_changed": false
+  },
+  "resolved_write_adaptations": [
+    "Body sibling range failed because synthetic list wrappers lack IDs; confirmed unchanged, then replaced 90 explicitly addressed blocks once.",
+    "src whiteboard syntax was rejected; missing board was isolated by readback.",
+    "One token clone failed without changing revision; rebuilt one board from exact original Mermaid and verified native output."
+  ],
+  "remote_writes_complete": true
+}

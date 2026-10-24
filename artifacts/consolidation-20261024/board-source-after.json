@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"range\" requested-end=\"doxcnXi5NPWHxHnJJDktW2PyIFc\" requested-start=\"doxcnXi5NPWHxHnJJDktW2PyIFc\"><whiteboard id=\"doxcnXi5NPWHxHnJJDktW2PyIFc\" token=\"Df8Hwq0f1hdRCcbfZHic1K3qnpb\" type=\"mermaid\">flowchart TD\n    subgraph Input [\"1. 灵感与素材输入\"]\n        A1[\"主题 / 歌词提示词\"]\n        A2[\"参考节拍 (BPM / 调性)\"]\n        A3[\"歌手形象特征 (Character Sheet)\"]\n    end\n\n    subgraph AudioEngine [\"2. 音频与韵律引擎\"]\n        B1[\"Lyrics &amp; Flow 结构化生成\n(Rhyme / Syllable / Bars)\"]\n        B2[\"Rap 伴奏生成 / 分轨加载\n(808 Kick / Snare / Hi-hat)\"]\n        B3[\"说唱人声合成与克隆\n(SVS / Flow-Guided TTS)\"]\n        B4[\"UVR5 干音与伴奏分离 + 节拍网格标定\n(Beat &amp; Onset Detection)\"]\n    end\n\n    subgraph VisualEngine [\"3. 视觉与角色引擎\"]\n        C1[\"角色一致性锁定\n(Multi-View Character Lora)\"]\n        C2[\"分镜脚本自动化生成\n(Scene Prompts per Bar)\"]\n        C3[\"背景场景与 B-Roll 生成\n(Street / Stage / Cyberpunk)\"]\n    end\n\n    subgraph LipSyncMotion [\"4. 高动态口型与台风合成\"]\n        D1[\"Vocal Stem 极速音素对齐\n(Phoneme-to-Viseme Align)\"]\n        D2[\"Fast-Cadence 口型渲染\n(LivePortrait / EchoMimic / Wav2Lip)\"]\n        D3[\"嘻哈动作与台风插帧\n(Pose &amp; Motion Guidance)\"]\n    end\n\n    subgraph PostProduction [\"5. 节拍对齐剪辑与后期合成\"]\n        E1[\"Beat Grid 毫秒级重拍裁切与拼接\"]\n        E2[\"动感视觉特效 (Shake, Glitch, Zoom)\"]\n        E3[\"动力学动态字幕 (Kinetic Typography)\"]\n        E4[\"最终成片导出 (4K / 竖屏 9:16 / 横屏 16:9)\"]\n    end\n\n    Input --&gt; AudioEngine\n    Input --&gt; VisualEngine\n    AudioEngine --&gt; LipSyncMotion\n    VisualEngine --&gt; LipSyncMotion\n    AudioEngine --&gt; PostProduction\n    LipSyncMotion --&gt; PostProduction</whiteboard></fragment>",
+      "document_id": "AQqCdG2Q3ogetUxgdFxcwKFgnah",
+      "revision_id": 3
+    },
+    "log_id": "20261024115041179EE25769C8E7DC3E75"
+  },
+  "_notice": {
+    "skills": {
+      "current": "",
+      "message": "lark-cli skills not installed, run: lark-cli update",
+      "target": "1.0.25"
+    },
+    "update": {
+      "current": "1.0.25",
+      "latest": "1.0.98",
+      "message": "lark-cli 1.0.98 available, current 1.0.25, run: lark-cli update"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "revision": 6,
+  "normalized_text_equal": true,
+  "normalized_text_characters": 82246,
+  "unique_reference_urls": 215,
+  "sections": 12,
+  "site_h2": 46,
+  "decision_rows": 50,
+  "supplemental_candidates": 32,
+  "whiteboards": 1,
+  "whiteboard_block_id": "doxcn7brNatd6eGOeyeDPUkK70Q",
+  "whiteboard_token": "UiNMwB92JhTVRzbRkOjckc7dntb",
+  "mermaid_source_exact": true,
+  "mermaid_source_sha256": "1f0ca8ef8f1884be40a4cd63b649df5b8c9e86795b434b557b74605fdec5a6ae",
+  "images": 1,
+  "image_token": "DfyYbZpZEoELN5x0pkucx9S0nVd",
+  "candidate_xml_sha256": "e360f91639420fba5f4caae1d987d62da3b09478d4058f041163e7230f8a7303",
+  "published_xml_sha256": "9ec777cfa8c9cbafe80ddd679c9c9d65064946b3ede36b3555e1a427d1c73a79",
+  "alias_mappings": 11,
+  "all_prior_reference_urls_retained": true,
+  "markdown_mirror_equal": true
+}

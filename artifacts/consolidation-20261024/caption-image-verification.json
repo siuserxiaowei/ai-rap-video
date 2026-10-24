@@ -1,0 +1,16 @@
+{
+  "verified_at_utc": "2026-10-24T03:54:41.689230+00:00",
+  "method": "lark-cli docs +media-preview --as user plus byte comparison and view_image",
+  "source_image_token": "OtYwblJK3oepYoxxV5ucUBBxn9g",
+  "master_image_token": "DfyYbZpZEoELN5x0pkucx9S0nVd",
+  "native_preview_content_type": "image/png",
+  "actual_format": "PNG",
+  "bytes": 5025,
+  "width": 640,
+  "height": 360,
+  "sha256": "d2ac1fdbaf04e28b2d0505904a362f3e0e437e0043201d2f14690157f7e36320",
+  "matches_original_video_frame_bytes": true,
+  "local_preview": "artifacts/tmp/consolidation-20261024/copied-subtitle.png",
+  "original_video_frame": "artifacts/tmp/subtitle-burnin-20261024/controlled-chinese-frame.png",
+  "visual_review": "Root inspected the downloaded image: black field with clear Chinese caption 中文烧录预览. This is a subtitle burn-in sample, not AI performer footage."
+}

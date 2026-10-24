@@ -1,0 +1,17 @@
+{
+  "api": [
+    {
+      "desc": "OpenAPI: update document",
+      "method": "PUT",
+      "url": "/open-apis/docs_ai/v1/documents/YzORdyPJroCrXZxCoBKceiZ3nUb",
+      "body": {
+        "block_id": "doxcnbzglppykIynRs7MUWaIAth",
+        "command": "block_insert_after",
+        "content": "\u003cwhiteboard type=\"mermaid\"\u003e\nflowchart TD\n    subgraph Input [\"1. 灵感与素材输入\"]\n        A1[\"主题 / 歌词提示词\"]\n        A2[\"参考节拍 (BPM / 调性)\"]\n        A3[\"歌手形象特征 (Character Sheet)\"]\n    end\n\n    subgraph AudioEngine [\"2. 音频与韵律引擎\"]\n        B1[\"Lyrics \u0026amp; Flow 结构化生成\n(Rhyme / Syllable / Bars)\"]\n        B2[\"Rap 伴奏生成 / 分轨加载\n(808 Kick / Snare / Hi-hat)\"]\n        B3[\"说唱人声合成与克隆\n(SVS / Flow-Guided TTS)\"]\n        B4[\"UVR5 干音与伴奏分离 + 节拍网格标定\n(Beat \u0026amp; Onset Detection)\"]\n    end\n\n    subgraph VisualEngine [\"3. 视觉与角色引擎\"]\n        C1[\"角色一致性锁定\n(Multi-View Character Lora)\"]\n        C2[\"分镜脚本自动化生成\n(Scene Prompts per Bar)\"]\n        C3[\"背景场景与 B-Roll 生成\n(Street / Stage / Cyberpunk)\"]\n    end\n\n    subgraph LipSyncMotion [\"4. 高动态口型与台风合成\"]\n        D1[\"Vocal Stem 极速音素对齐\n(Phoneme-to-Viseme Align)\"]\n        D2[\"Fast-Cadence 口型渲染\n(LivePortrait / EchoMimic / Wav2Lip)\"]\n        D3[\"嘻哈动作与台风插帧\n(Pose \u0026amp; Motion Guidance)\"]\n    end\n\n    subgraph PostProduction [\"5. 节拍对齐剪辑与后期合成\"]\n        E1[\"Beat Grid 毫秒级重拍裁切与拼接\"]\n        E2[\"动感视觉特效 (Shake, Glitch, Zoom)\"]\n        E3[\"动力学动态字幕 (Kinetic Typography)\"]\n        E4[\"最终成片导出 (4K / 竖屏 9:16 / 横屏 16:9)\"]\n    end\n\n    Input --\u0026gt; AudioEngine\n    Input --\u0026gt; VisualEngine\n    AudioEngine --\u0026gt; LipSyncMotion\n    VisualEngine --\u0026gt; LipSyncMotion\n    AudioEngine --\u0026gt; PostProduction\n    LipSyncMotion --\u0026gt; PostProduction\n\u003c/whiteboard\u003e\n",
+        "format": "xml",
+        "revision_id": 5
+      }
+    }
+  ],
+  "document_id": "YzORdyPJroCrXZxCoBKceiZ3nUb"
+}

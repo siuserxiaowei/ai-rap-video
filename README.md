@@ -37,7 +37,7 @@ node --check web/app.js
 node --check web/create.js
 ```
 
-这些命令覆盖本地自动化检查，不替代浏览器、真实供应商或付费生成验证。[飞书研究报告](https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc) 已原生发布，接口、引擎与字幕迭代已追加至revision14并全文回读；原46站、50项决策与来源链接完整保留，原始字幕采样图也已回读验证。当前外部验收条件见 [阻塞审计](docs/BLOCKED_AUDIT.md)。
+这些命令覆盖本地自动化检查，不替代浏览器、真实供应商或付费生成验证。统一阅读入口为 [AI Rap Video 调研与开发交付总纲（合并校验版）](https://vi8r050ecuz.feishu.cn/docx/YzORdyPJroCrXZxCoBKceiZ3nUb)，合并原总纲、42项生态详本与[46站研究及迭代来源](https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc)：46条出处记录、32条待核候选、50项决策、架构图、字幕采样图和分版本运行指南。公开main仍为4e37d76旧快照，本地529项结果不能归入该公开版本。本地镜像见 [MASTER_FEISHU_DOC.md](MASTER_FEISHU_DOC.md)，本次文档发布核验见 [合并回执](artifacts/consolidation-20261024/verification.json)。当前外部验收条件见 [阻塞审计](docs/BLOCKED_AUDIT.md)。
 
 ## AIRapStudio 模块与命令
 

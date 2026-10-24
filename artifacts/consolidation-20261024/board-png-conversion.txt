@@ -1,0 +1,2 @@
+/Users/xiaowei/work/ai-rap-video-20261023/artifacts/tmp/consolidation-preview/board-target.png
+  /Users/xiaowei/work/ai-rap-video-20261023/artifacts/tmp/consolidation-preview/board-target-decoded.png

@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "revision_id": 5,
+      "url": "https://vi8r050ecuz.feishu.cn/docx/YzORdyPJroCrXZxCoBKceiZ3nUb"
+    },
+    "log_id": "2026102411483698072FE3D14E1DFD1D0E",
+    "result": "failed",
+    "warnings": [
+      "degrade_code=2105,msg=Whiteboard clone failed. Retry later",
+      "degrade_code=1003,msg=Instruction produced empty content after transform. Check that the instruction content is complete and non-empty"
+    ]
+  },
+  "_notice": {
+    "skills": {
+      "current": "",
+      "message": "lark-cli skills not installed, run: lark-cli update",
+      "target": "1.0.25"
+    },
+    "update": {
+      "current": "1.0.25",
+      "latest": "1.0.98",
+      "message": "lark-cli 1.0.98 available, current 1.0.25, run: lark-cli update"
+    }
+  }
+}

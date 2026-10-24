@@ -84,4 +84,6 @@ python3 -m rap_workbench.provider_cli show --id <本地UUID>
 
 ## 已发布研究文档
 
+[AI Rap Video 调研与开发交付总纲（合并校验版）](https://vi8r050ecuz.feishu.cn/docx/YzORdyPJroCrXZxCoBKceiZ3nUb) 是统一阅读入口，合并旧总纲、42项详本、46站来源与工程验收。索引去重后为46条出处记录加32条待核候选，保留完整50决策、原架构内容和实际字幕图；公开4e37d76与本地529项测试版本分开说明。本地镜像为 [MASTER_FEISHU_DOC.md](MASTER_FEISHU_DOC.md)，原生回读、链接和资源检查见 [合并回执](artifacts/consolidation-20261024/verification.json)。本轮只整合文档，没有推送GitHub代码或重新执行产品测试。
+
 [AI Rap Video：46站研究与自主开发方案](https://vi8r050ecuz.feishu.cn/docx/TiqGd7dHWoAqBex3KCvcnzpVnKc)，首次发布revision10已按原生文档全文回读验证，回执在 artifacts/feishu-create.json、feishu-readback.json、feishu-verification.json。接口、引擎及字幕迭代分别更新至revision11、12、14，均全文回读；原46站、50项决策和来源链接完整保留，每个新增章节仅一份。字幕图通过原生图片预览取回，SHA与本机实际视频采样帧一致。证据见 [接口发布核验](artifacts/iterations/provider-sync-20261024/feishu-verification.json)、[引擎发布核验](artifacts/iterations/engine-preview-20261024/feishu-verification.json)及[字幕发布核验](artifacts/iterations/subtitle-burnin-20261024/feishu-verification.json)。

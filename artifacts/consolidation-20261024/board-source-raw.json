@@ -1,0 +1,1470 @@
+{
+  "nodes": [
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 113.08799743652344,
+      "id": "o1:15",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 0,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "theme_border_color_code": -1,
+        "theme_fill_color_code": -1,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "背景场景与 B-Roll 生成\n(Street / Stage / Cyberpunk)",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 167.0107421875,
+      "x": 354.5859375,
+      "y": 899.6719970703125,
+      "z_index": 20
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 539.2639770507812,
+      "id": "o1:2",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#c2c262",
+        "border_color_type": 1,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#ffffde",
+        "fill_color_type": 1,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 16,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "4. 高动态口型与台风合成",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "top"
+      },
+      "type": "composite_shape",
+      "width": 257.7392578125,
+      "x": 299.2216796875,
+      "y": 1209.43994140625,
+      "z_index": 1
+    },
+    {
+      "angle": 0,
+      "connector": {
+        "caption_auto_direction": false,
+        "end": {
+          "arrow_style": "triangle_arrow",
+          "attached_object": {
+            "id": "o1:2",
+            "position": {
+              "x": 0.5347859263420105,
+              "y": 0.001852524932473898
+            },
+            "snap_to": "auto"
+          }
+        },
+        "end_object": {
+          "id": "o1:2",
+          "position": {
+            "x": 0.5347859263420105,
+            "y": 0.001852524932473898
+          },
+          "snap_to": "auto"
+        },
+        "shape": "curve",
+        "specified_coordinate": true,
+        "start": {
+          "arrow_style": "none",
+          "attached_object": {
+            "id": "o1:3",
+            "position": {
+              "x": 0.4999987781047821,
+              "y": 1
+            },
+            "snap_to": "bottom"
+          }
+        },
+        "start_object": {
+          "id": "o1:3",
+          "position": {
+            "x": 0.4999987781047821,
+            "y": 1
+          },
+          "snap_to": "bottom"
+        },
+        "turning_points": [
+          {
+            "x": 1.034000039100647,
+            "y": 21.113000869750977
+          },
+          {
+            "x": 0.8619999885559082,
+            "y": 110.73300170898438
+          }
+        ]
+      },
+      "height": 157.6790008544922,
+      "id": "c1:4",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "theme_border_color_code": -1
+      },
+      "type": "connector",
+      "width": 1.034000039100647,
+      "x": 437.0570068359375,
+      "y": 1052.760009765625,
+      "z_index": 8
+    },
+    {
+      "angle": 0,
+      "connector": {
+        "caption_auto_direction": false,
+        "end": {
+          "arrow_style": "triangle_arrow",
+          "attached_object": {
+            "id": "o1:1",
+            "position": {
+              "x": 0.9983317255973816,
+              "y": 0.009855028241872787
+            },
+            "snap_to": "auto"
+          }
+        },
+        "end_object": {
+          "id": "o1:1",
+          "position": {
+            "x": 0.9983317255973816,
+            "y": 0.009855028241872787
+          },
+          "snap_to": "auto"
+        },
+        "shape": "curve",
+        "specified_coordinate": true,
+        "start": {
+          "arrow_style": "none",
+          "attached_object": {
+            "id": "o1:2",
+            "position": {
+              "x": 0.4999988079071045,
+              "y": 1
+            },
+            "snap_to": "bottom"
+          }
+        },
+        "start_object": {
+          "id": "o1:2",
+          "position": {
+            "x": 0.4999988079071045,
+            "y": 1
+          },
+          "snap_to": "bottom"
+        },
+        "turning_points": [
+          {
+            "x": 16.95400047302246,
+            "y": 5
+          },
+          {
+            "x": 14.128999710083008,
+            "y": 30.90399932861328
+          }
+        ]
+      },
+      "height": 65.4219970703125,
+      "id": "c1:6",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "theme_border_color_code": -1
+      },
+      "type": "connector",
+      "width": 16.95400047302246,
+      "x": 411.1369934082031,
+      "y": 1748.7039794921875,
+      "z_index": 10
+    },
+    {
+      "angle": 0,
+      "connector": {
+        "caption_auto_direction": false,
+        "end": {
+          "arrow_style": "triangle_arrow",
+          "attached_object": {
+            "id": "o1:2",
+            "position": {
+              "x": 0.001793751958757639,
+              "y": 0.04271562770009041
+            },
+            "snap_to": "auto"
+          }
+        },
+        "end_object": {
+          "id": "o1:2",
+          "position": {
+            "x": 0.001793751958757639,
+            "y": 0.04271562770009041
+          },
+          "snap_to": "auto"
+        },
+        "shape": "curve",
+        "specified_coordinate": true,
+        "start": {
+          "arrow_style": "none",
+          "attached_object": {
+            "id": "o1:4",
+            "position": {
+              "x": 1,
+              "y": 0.9689992666244507
+            },
+            "snap_to": "auto"
+          }
+        },
+        "start_object": {
+          "id": "o1:4",
+          "position": {
+            "x": 1,
+            "y": 0.9689992666244507
+          },
+          "snap_to": "auto"
+        },
+        "turning_points": [
+          {
+            "x": 3.3299999237060547,
+            "y": 8.576000213623047
+          },
+          {
+            "x": 21.253999710083008,
+            "y": 51.71799850463867
+          }
+        ]
+      },
+      "height": 104.48999786376953,
+      "id": "c1:3",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "theme_border_color_code": -1
+      },
+      "type": "connector",
+      "width": 47.597999572753906,
+      "x": 252.08599853515625,
+      "y": 1127.9849853515625,
+      "z_index": 7
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 113.08799743652344,
+      "id": "o1:10",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 0,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "theme_border_color_code": -1,
+        "theme_fill_color_code": -1,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "Vocal Stem 极速音素对齐\n(Phoneme-to-Viseme Align)",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 172.7392578125,
+      "x": 341.7216796875,
+      "y": 1249.43994140625,
+      "z_index": 15
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 133.36000061035156,
+      "id": "o1:11",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 0,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "theme_border_color_code": -1,
+        "theme_fill_color_code": -1,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "Fast-Cadence 口型渲染\n(LivePortrait / EchoMimic / Wav2Lip)",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 170.6474609375,
+      "x": 342.767578125,
+      "y": 1422.5279541015625,
+      "z_index": 16
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 92.81600189208984,
+      "id": "o1:12",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 0,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "theme_border_color_code": -1,
+        "theme_fill_color_code": -1,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "嘻哈动作与台风插帧\n(Pose \u0026 Motion Guidance)",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 162,
+      "x": 347.09130859375,
+      "y": 1615.887939453125,
+      "z_index": 17
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 92.81600189208984,
+      "id": "o1:14",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 0,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "theme_border_color_code": -1,
+        "theme_fill_color_code": -1,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "分镜脚本自动化生成\n(Scene Prompts per Bar)",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 166.8671875,
+      "x": 354.65771484375,
+      "y": 746.8560180664062,
+      "z_index": 19
+    },
+    {
+      "angle": 0,
+      "children": [
+        "o1:1",
+        "o1:2",
+        "o1:3",
+        "o1:4",
+        "o1:5",
+        "c1:1",
+        "c1:2",
+        "c1:3",
+        "c1:4",
+        "c1:5",
+        "c1:6",
+        "o1:6",
+        "o1:7",
+        "o1:8",
+        "o1:9",
+        "o1:10",
+        "o1:11",
+        "o1:12",
+        "o1:13",
+        "o1:14",
+        "o1:15",
+        "o1:16",
+        "o1:17",
+        "o1:18",
+        "o1:19",
+        "o1:20",
+        "o1:21",
+        "o1:22"
+      ],
+      "height": 2358.8798828125,
+      "id": "t1:2",
+      "section": {
+        "title": ""
+      },
+      "style": {
+        "border_radius": {
+          "bottom_left": 4,
+          "bottom_right": 4,
+          "top_left": 4,
+          "top_right": 4
+        },
+        "border_style": "none",
+        "fill_color_type": 0,
+        "fill_opacity": 100,
+        "theme_fill_color_code": 0
+      },
+      "syntax": {
+        "code": "flowchart TD\n    subgraph Input [\"1. 灵感与素材输入\"]\n        A1[\"主题 / 歌词提示词\"]\n        A2[\"参考节拍 (BPM / 调性)\"]\n        A3[\"歌手形象特征 (Character Sheet)\"]\n    end\n\n    subgraph AudioEngine [\"2. 音频与韵律引擎\"]\n        B1[\"Lyrics \u0026 Flow 结构化生成\n(Rhyme / Syllable / Bars)\"]\n        B2[\"Rap 伴奏生成 / 分轨加载\n(808 Kick / Snare / Hi-hat)\"]\n        B3[\"说唱人声合成与克隆\n(SVS / Flow-Guided TTS)\"]\n        B4[\"UVR5 干音与伴奏分离 + 节拍网格标定\n(Beat \u0026 Onset Detection)\"]\n    end\n\n    subgraph VisualEngine [\"3. 视觉与角色引擎\"]\n        C1[\"角色一致性锁定\n(Multi-View Character Lora)\"]\n        C2[\"分镜脚本自动化生成\n(Scene Prompts per Bar)\"]\n        C3[\"背景场景与 B-Roll 生成\n(Street / Stage / Cyberpunk)\"]\n    end\n\n    subgraph LipSyncMotion [\"4. 高动态口型与台风合成\"]\n        D1[\"Vocal Stem 极速音素对齐\n(Phoneme-to-Viseme Align)\"]\n        D2[\"Fast-Cadence 口型渲染\n(LivePortrait / EchoMimic / Wav2Lip)\"]\n        D3[\"嘻哈动作与台风插帧\n(Pose \u0026 Motion Guidance)\"]\n    end\n\n    subgraph PostProduction [\"5. 节拍对齐剪辑与后期合成\"]\n        E1[\"Beat Grid 毫秒级重拍裁切与拼接\"]\n        E2[\"动感视觉特效 (Shake, Glitch, Zoom)\"]\n        E3[\"动力学动态字幕 (Kinetic Typography)\"]\n        E4[\"最终成片导出 (4K / 竖屏 9:16 / 横屏 16:9)\"]\n    end\n\n    Input --\u003e AudioEngine\n    Input --\u003e VisualEngine\n    AudioEngine --\u003e LipSyncMotion\n    VisualEngine --\u003e LipSyncMotion\n    AudioEngine --\u003e PostProduction\n    LipSyncMotion --\u003e PostProduction",
+        "style_type": 0,
+        "syntax_type": 2
+      },
+      "type": "section",
+      "width": 564.0966796875,
+      "x": 8,
+      "y": 8,
+      "z_index": 0
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 550.176025390625,
+      "id": "o1:1",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#c2c262",
+        "border_color_type": 1,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#ffffde",
+        "fill_color_type": 1,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 16,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "5. 节拍对齐剪辑与后期合成",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "top"
+      },
+      "type": "composite_shape",
+      "width": 259.00390625,
+      "x": 152.565185546875,
+      "y": 1808.7039794921875,
+      "z_index": 0
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 397.3599853515625,
+      "id": "o1:5",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#c2c262",
+        "border_color_type": 1,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#ffffde",
+        "fill_color_type": 1,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 16,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "1. 灵感与素材输入",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "top"
+      },
+      "type": "composite_shape",
+      "width": 244.2177734375,
+      "x": 159.958251953125,
+      "y": 0,
+      "z_index": 4
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 113.08799743652344,
+      "id": "o1:16",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 0,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "theme_border_color_code": -1,
+        "theme_fill_color_code": -1,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "Lyrics \u0026 Flow 结构化生成\n(Rhyme / Syllable / Bars)",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 167.0859375,
+      "x": 42.5,
+      "y": 497.3599853515625,
+      "z_index": 21
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 72.54399871826172,
+      "id": "o1:22",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 0,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "theme_border_color_code": -1,
+        "theme_fill_color_code": -1,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "歌手形象特征 (Character Sheet)",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 148.095703125,
+      "x": 208.019287109375,
+      "y": 284.8160095214844,
+      "z_index": 27
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 72.54399871826172,
+      "id": "o1:7",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 0,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "theme_border_color_code": -1,
+        "theme_fill_color_code": -1,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "动感视觉特效 (Shake, Glitch, Zoom)",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 173.0263671875,
+      "x": 195.553955078125,
+      "y": 1981.248046875,
+      "z_index": 12
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 92.81600189208984,
+      "id": "o1:13",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 0,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "theme_border_color_code": -1,
+        "theme_fill_color_code": -1,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "角色一致性锁定\n(Multi-View Character Lora)",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 134.8681640625,
+      "x": 370.6572265625,
+      "y": 594.0399780273438,
+      "z_index": 18
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 113.08799743652344,
+      "id": "o1:19",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 0,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "theme_border_color_code": -1,
+        "theme_fill_color_code": -1,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "UVR5 干音与伴奏分离 + 节拍网格标定\n(Beat \u0026 Onset Detection)",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 161.521484375,
+      "x": 45.2822265625,
+      "y": 996.3519897460938,
+      "z_index": 24
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 498.7200012207031,
+      "id": "o1:3",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#c2c262",
+        "border_color_type": 1,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#ffffde",
+        "fill_color_type": 1,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 16,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "3. 视觉与角色引擎",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "top"
+      },
+      "type": "composite_shape",
+      "width": 252.0107421875,
+      "x": 312.0859375,
+      "y": 554.0399780273438,
+      "z_index": 2
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 72.54399871826172,
+      "id": "o1:6",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 0,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "theme_border_color_code": -1,
+        "theme_fill_color_code": -1,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "Beat Grid 毫秒级重拍裁切与拼接",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 169.90234375,
+      "x": 197.115966796875,
+      "y": 1848.7039794921875,
+      "z_index": 11
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 113.08799743652344,
+      "id": "o1:17",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 0,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "theme_border_color_code": -1,
+        "theme_fill_color_code": -1,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "Rap 伴奏生成 / 分轨加载\n(808 Kick / Snare / Hi-hat)",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 163.3603515625,
+      "x": 44.36279296875,
+      "y": 670.447998046875,
+      "z_index": 22
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 692.0800170898438,
+      "id": "o1:4",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#c2c262",
+        "border_color_type": 1,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#ffffde",
+        "fill_color_type": 1,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 16,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "2. 音频与韵律引擎",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "top"
+      },
+      "type": "composite_shape",
+      "width": 252.0859375,
+      "x": 0,
+      "y": 457.3599853515625,
+      "z_index": 3
+    },
+    {
+      "angle": 0,
+      "connector": {
+        "caption_auto_direction": false,
+        "end": {
+          "arrow_style": "triangle_arrow",
+          "attached_object": {
+            "id": "o1:4",
+            "position": {
+              "x": 0.5000001192092896,
+              "y": 0.0014449196169152856
+            },
+            "snap_to": "auto"
+          }
+        },
+        "end_object": {
+          "id": "o1:4",
+          "position": {
+            "x": 0.5000001192092896,
+            "y": 0.0014449196169152856
+          },
+          "snap_to": "auto"
+        },
+        "shape": "curve",
+        "specified_coordinate": true,
+        "start": {
+          "arrow_style": "none",
+          "attached_object": {
+            "id": "o1:5",
+            "position": {
+              "x": 0,
+              "y": 0.9504001140594482
+            },
+            "snap_to": "auto"
+          }
+        },
+        "start_object": {
+          "id": "o1:5",
+          "position": {
+            "x": 0,
+            "y": 0.9504001140594482
+          },
+          "snap_to": "auto"
+        },
+        "turning_points": [
+          {
+            "x": 28.26300048828125,
+            "y": 8.28499984741211
+          },
+          {
+            "x": 5.6529998779296875,
+            "y": 46.590999603271484
+          }
+        ]
+      },
+      "height": 80.70899963378906,
+      "id": "c1:1",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "theme_border_color_code": -1
+      },
+      "type": "connector",
+      "width": 33.915000915527344,
+      "x": 126.04299926757812,
+      "y": 377.6510009765625,
+      "z_index": 5
+    },
+    {
+      "angle": 0,
+      "connector": {
+        "caption_auto_direction": false,
+        "end": {
+          "arrow_style": "triangle_arrow",
+          "attached_object": {
+            "id": "o1:3",
+            "position": {
+              "x": 0.4999987781047821,
+              "y": 0.002005133079364896
+            },
+            "snap_to": "top"
+          }
+        },
+        "end_object": {
+          "id": "o1:3",
+          "position": {
+            "x": 0.4999987781047821,
+            "y": 0.002005133079364896
+          },
+          "snap_to": "top"
+        },
+        "shape": "curve",
+        "specified_coordinate": true,
+        "start": {
+          "arrow_style": "none",
+          "attached_object": {
+            "id": "o1:5",
+            "position": {
+              "x": 0.9999998807907104,
+              "y": 0.9504001140594482
+            },
+            "snap_to": "auto"
+          }
+        },
+        "start_object": {
+          "id": "o1:5",
+          "position": {
+            "x": 0.9999998807907104,
+            "y": 0.9504001140594482
+          },
+          "snap_to": "auto"
+        },
+        "turning_points": [
+          {
+            "x": 5.6529998779296875,
+            "y": 8.28499984741211
+          },
+          {
+            "x": 28.26300048828125,
+            "y": 62.70399856567383
+          },
+          {
+            "x": 33.915000915527344,
+            "y": 156.10899353027344
+          }
+        ]
+      },
+      "height": 177.38900756835938,
+      "id": "c1:2",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "theme_border_color_code": -1
+      },
+      "type": "connector",
+      "width": 33.915000915527344,
+      "x": 404.1759948730469,
+      "y": 377.6510009765625,
+      "z_index": 6
+    },
+    {
+      "angle": 0,
+      "connector": {
+        "caption_auto_direction": false,
+        "end": {
+          "arrow_style": "triangle_arrow",
+          "attached_object": {
+            "id": "o1:1",
+            "position": {
+              "x": 0.0018448156770318747,
+              "y": 0.0690542683005333
+            },
+            "snap_to": "auto"
+          }
+        },
+        "end_object": {
+          "id": "o1:1",
+          "position": {
+            "x": 0.0018448156770318747,
+            "y": 0.0690542683005333
+          },
+          "snap_to": "auto"
+        },
+        "shape": "curve",
+        "specified_coordinate": true,
+        "start": {
+          "arrow_style": "none",
+          "attached_object": {
+            "id": "o1:4",
+            "position": {
+              "x": 0.46349668502807617,
+              "y": 1
+            },
+            "snap_to": "auto"
+          }
+        },
+        "start_object": {
+          "id": "o1:4",
+          "position": {
+            "x": 0.46349668502807617,
+            "y": 1
+          },
+          "snap_to": "auto"
+        },
+        "turning_points": [
+          {
+            "x": 0.6650000214576721,
+            "y": 5
+          },
+          {
+            "x": 0.13300000131130219,
+            "y": 74.93900299072266
+          },
+          {
+            "x": 0,
+            "y": 329.6319885253906
+          },
+          {
+            "x": 6.166999816894531,
+            "y": 590.656982421875
+          },
+          {
+            "x": 30.83300018310547,
+            "y": 685.9240112304688
+          }
+        ]
+      },
+      "height": 697.2559814453125,
+      "id": "c1:5",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "theme_border_color_code": -1
+      },
+      "type": "connector",
+      "width": 37,
+      "x": 116.04299926757812,
+      "y": 1149.43994140625,
+      "z_index": 9
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 52.27199935913086,
+      "id": "o1:20",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 0,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "theme_border_color_code": -1,
+        "theme_fill_color_code": -1,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "主题 / 歌词提示词",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 147.5009765625,
+      "x": 208.316650390625,
+      "y": 40,
+      "z_index": 25
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 72.54399871826172,
+      "id": "o1:8",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 0,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "theme_border_color_code": -1,
+        "theme_fill_color_code": -1,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "动力学动态字幕 (Kinetic Typography)",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 165.2197265625,
+      "x": 199.457275390625,
+      "y": 2113.7919921875,
+      "z_index": 13
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 92.81600189208984,
+      "id": "o1:18",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 0,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "theme_border_color_code": -1,
+        "theme_fill_color_code": -1,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "说唱人声合成与克隆\n(SVS / Flow-Guided TTS)",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 165.4794921875,
+      "x": 43.30322265625,
+      "y": 843.5360107421875,
+      "z_index": 23
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 72.54399871826172,
+      "id": "o1:21",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 0,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "theme_border_color_code": -1,
+        "theme_fill_color_code": -1,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "参考节拍 (BPM / 调性)",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 159.2177734375,
+      "x": 202.458251953125,
+      "y": 152.27200317382812,
+      "z_index": 26
+    },
+    {
+      "angle": 0,
+      "composite_shape": {
+        "type": "round_rect"
+      },
+      "height": 72.54399871826172,
+      "id": "o1:9",
+      "parent_id": "t1:2",
+      "style": {
+        "border_color": "#000000",
+        "border_color_type": 0,
+        "border_opacity": 100,
+        "border_style": "solid",
+        "border_width": "narrow",
+        "fill_color": "#f0f4fc",
+        "fill_color_type": 0,
+        "fill_opacity": 100,
+        "h_flip": false,
+        "theme_border_color_code": -1,
+        "theme_fill_color_code": -1,
+        "v_flip": false
+      },
+      "text": {
+        "angle": 0,
+        "font_size": 14,
+        "font_weight": "regular",
+        "horizontal_align": "center",
+        "italic": false,
+        "line_through": false,
+        "text": "最终成片导出 (4K / 竖屏 9:16 / 横屏 16:9)",
+        "text_background_color_type": 0,
+        "text_color": "#1f2329",
+        "text_color_type": 0,
+        "theme_text_background_color_code": -1,
+        "theme_text_color_code": -1,
+        "underline": false,
+        "vertical_align": "mid"
+      },
+      "type": "composite_shape",
+      "width": 174.00390625,
+      "x": 195.065185546875,
+      "y": 2246.3359375,
+      "z_index": 14
+    }
+  ]
+}

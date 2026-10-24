@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "preview_image_path": "./artifacts/tmp/consolidation-preview/board-source.png",
+    "size_bytes": 163033
+  },
+  "_notice": {
+    "skills": {
+      "current": "",
+      "message": "lark-cli skills not installed, run: lark-cli update",
+      "target": "1.0.25"
+    },
+    "update": {
+      "current": "1.0.25",
+      "latest": "1.0.98",
+      "message": "lark-cli 1.0.98 available, current 1.0.25, run: lark-cli update"
+    }
+  }
+}

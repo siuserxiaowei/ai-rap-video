@@ -1,0 +1,90 @@
+{
+  "status": "passed_original_mermaid_recreated_and_render_verified",
+  "checked_at": "2026-10-24T03:54:19.170635+00:00",
+  "target_document_id": "YzORdyPJroCrXZxCoBKceiZ3nUb",
+  "target_revision": 6,
+  "target_block_id": "doxcn7brNatd6eGOeyeDPUkK70Q",
+  "target_board_token": "UiNMwB92JhTVRzbRkOjckc7dntb",
+  "anchor_block_id": "doxcnbzglppykIynRs7MUWaIAth",
+  "source_document_id": "AQqCdG2Q3ogetUxgdFxcwKFgnah",
+  "source_board_token": "Df8Hwq0f1hdRCcbfZHic1K3qnpb",
+  "source_revision_before": 3,
+  "source_revision_after": 3,
+  "source_block_unchanged": true,
+  "native_clone": {
+    "attempts": 1,
+    "result": "failed",
+    "degrade_codes": [
+      2105,
+      1003
+    ],
+    "document_revision_unchanged": 5,
+    "readback_board_count": 0,
+    "receipt": "artifacts/consolidation-20261024/board-copy-receipt.json"
+  },
+  "successful_mutation": {
+    "attempts": 1,
+    "method": "docs v2 block_insert_after with complete original inline whiteboard type=mermaid",
+    "result": "success",
+    "warnings": [],
+    "receipt": "artifacts/consolidation-20261024/board-recreate-receipt.json"
+  },
+  "target_total_whiteboards": 1,
+  "all_other_target_blocks_exactly_unchanged": true,
+  "source_and_target_mermaid_exact": true,
+  "mermaid_sha256": "1f0ca8ef8f1884be40a4cd63b649df5b8c9e86795b434b557b74605fdec5a6ae",
+  "diagram_nodes": 17,
+  "diagram_subgraphs": 5,
+  "diagram_dependency_edges": 6,
+  "raw_nodes_each": 29,
+  "raw_shapes_each": 22,
+  "raw_connectors_each": 6,
+  "raw_sections_each": 1,
+  "raw_node_map_exact_equal": true,
+  "exports": {
+    "source": {
+      "native_preview": "artifacts/tmp/consolidation-20261024/board-source-preview.jpg",
+      "native_format": "JPEG",
+      "native_bytes": 163033,
+      "native_sha256": "a918d7e5702c797e2d97774d738115f6078080b3b9065995c997035831d957e2",
+      "actual_png": "artifacts/tmp/consolidation-20261024/board-source.png",
+      "png_bytes": 501327,
+      "png_sha256": "971980ac0c3025debf8d9f5d27182652cb81f3a1492cdea3ce0ee0c4caf742a5",
+      "dimensions": [
+        2560,
+        2560
+      ],
+      "decoded_rgb24_bytes": 19660800,
+      "decoded_rgb24_sha256": "7c3d35c1f8625a4090a554826cebb0855c2f0209df9ecd03d1ffe44bf08bfee3",
+      "png_conversion": "native macOS sips, JPEG pixels decoded and encoded as PNG; no remote resource edited"
+    },
+    "target": {
+      "native_preview": "artifacts/tmp/consolidation-20261024/board-target-preview.jpg",
+      "native_format": "JPEG",
+      "native_bytes": 163033,
+      "native_sha256": "a918d7e5702c797e2d97774d738115f6078080b3b9065995c997035831d957e2",
+      "actual_png": "artifacts/tmp/consolidation-20261024/board-target.png",
+      "png_bytes": 501327,
+      "png_sha256": "7f0aa447ee2f9b7a0f2f0a0bd6fc32b2b89d7844d45ed6ec13ae50b598c678ef",
+      "dimensions": [
+        2560,
+        2560
+      ],
+      "decoded_rgb24_bytes": 19660800,
+      "decoded_rgb24_sha256": "7c3d35c1f8625a4090a554826cebb0855c2f0209df9ecd03d1ffe44bf08bfee3",
+      "png_conversion": "native macOS sips, JPEG pixels decoded and encoded as PNG; no remote resource edited"
+    }
+  },
+  "visual_review": {
+    "status": "passed",
+    "method": "view_image of native exported source preview and actual target PNG, original resolution",
+    "observed": "All 17 original labels in 5 groups and 6 directed module connectors are present; nonempty layout and legible text, no new clipping or missing labels; original layout retained.",
+    "scope": "Original target blueprint only; not production capability, browser UI or C44/C45 acceptance."
+  },
+  "privacy_scan": "No data.context/app_id/open_id/user_id/credential keys or account identifier values present in board JSON receipts; no values printed.",
+  "candidate_recommendation": "Complete original inline <whiteboard type=\"mermaid\"> is verified; src was rejected, token was parsed but clone failed.",
+  "remote_source_board_mutated": false,
+  "browser_operations": 0,
+  "git_commit_or_push": false,
+  "readback": "artifacts/consolidation-20261024/board-target-after-recreate.json"
+}

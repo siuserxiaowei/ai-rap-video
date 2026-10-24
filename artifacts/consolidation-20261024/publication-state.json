@@ -1,0 +1,59 @@
+{
+  "captured_at_utc": "2026-10-24T03:47:21.349702+00:00",
+  "source": "Live GitHub gh repo view and gh api; public metadata only",
+  "repository": {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "Autonomous AI Rap Video Generation Engine & Industry Research (42+ Platforms, Full Stack Pipeline with Flow Analysis, Beat Grid, Lip-Sync & Kinetic Subtitles)",
+    "nameWithOwner": "siuserxiaowei/ai-rap-video",
+    "pushedAt": "2026-10-23T16:02:05Z",
+    "url": "https://github.com/siuserxiaowei/ai-rap-video",
+    "visibility": "PUBLIC"
+  },
+  "main_sha": "4e37d762037196df2eb044d0240ec8b602b44b67",
+  "quoted_commit_exists": true,
+  "tree_blob_count": 494,
+  "site_json_count": 37,
+  "airap_file_count": 24,
+  "rap_workbench_files": [
+    "rap_workbench/__init__.py",
+    "rap_workbench/catalog.py"
+  ],
+  "test_definitions_by_file": {
+    "tests/test_audio.py": 32,
+    "tests/test_avatar.py": 27,
+    "tests/test_compositor.py": 21,
+    "tests/test_lyrics.py": 36,
+    "tests/test_pipeline.py": 2,
+    "tests/test_subtitles.py": 36,
+    "tests/workbench/test_catalog.py": 8
+  },
+  "test_definition_total": 162,
+  "workflow_files": [],
+  "workflow_runs": 0,
+  "check_runs": 0,
+  "commit_status_count": 0,
+  "status_aggregate": "pending",
+  "branch_count": 1,
+  "tag_count": 0,
+  "release_count": 0,
+  "published_raw_test_log": {
+    "path": "artifacts/tests/c41.txt",
+    "tests": 8,
+    "outcome": "OK",
+    "scope": "catalog/workbench first smoke only"
+  },
+  "limitations": [
+    "162 static test definitions are not a full recorded 162-test execution.",
+    "No new code was pushed during consolidation.",
+    "Current local 529-test evidence remains a separate dated version."
+  ],
+  "api_resources": [
+    "repos/siuserxiaowei/ai-rap-video/commits/main",
+    "repos/siuserxiaowei/ai-rap-video/git/trees/4e37d762037196df2eb044d0240ec8b602b44b67?recursive=1",
+    "repos/siuserxiaowei/ai-rap-video/actions/runs",
+    "repos/siuserxiaowei/ai-rap-video/commits/4e37d762037196df2eb044d0240ec8b602b44b67/check-runs",
+    "repos/siuserxiaowei/ai-rap-video/commits/4e37d762037196df2eb044d0240ec8b602b44b67/status"
+  ]
+}

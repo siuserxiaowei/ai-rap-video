@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "identity": "user",
+  "dry_run": true,
+  "data": {
+    "api": [
+      {
+        "desc": "OpenAPI: update document",
+        "method": "PUT",
+        "url": "/open-apis/docs_ai/v1/documents/YzORdyPJroCrXZxCoBKceiZ3nUb",
+        "body": {
+          "command": "str_replace",
+          "content": "AI Rap Video 调研与开发交付总纲（合并校验版）",
+          "format": "xml",
+          "pattern": "AI Rap Video 全球生态调研报告与工业级引擎开源交付全书",
+          "revision_id": 3
+        }
+      }
+    ],
+    "document_id": "YzORdyPJroCrXZxCoBKceiZ3nUb"
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.92",
+      "latest": "1.0.98",
+      "message": "lark-cli 1.0.98 available, current 1.0.92, run: lark-cli update"
+    }
+  },
+  "account_context_redacted": true
+}
